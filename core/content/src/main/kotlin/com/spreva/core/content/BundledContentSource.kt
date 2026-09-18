@@ -14,6 +14,12 @@ interface ContentSource {
     fun loadCourse(courseId: String): Course
     fun loadLesson(lessonId: LessonId): Lesson
     fun contentVersion(): String
+
+    /**
+     * Loads the media provenance registry (plan sections 99-100). Returns
+     * null when the package ships no registry — attribution UI then hides.
+     */
+    fun loadMediaLicenses(): MediaLicensesDto?
 }
 
 /**
@@ -36,4 +42,8 @@ class BundledContentSource(
             .let(parser::toLesson)
 
     override fun contentVersion(): String = loadManifest().contentVersion
+
+    override fun loadMediaLicenses(): MediaLicensesDto? = runCatching {
+        parser.parseMediaLicenses(resourceOpener("content/audio/licenses.json").bufferedReader().readText())
+    }.getOrNull()
 }

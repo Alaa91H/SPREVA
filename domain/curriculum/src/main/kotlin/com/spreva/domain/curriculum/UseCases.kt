@@ -26,3 +26,8 @@ class GetLesson @javax.inject.Inject constructor(private val repository: Curricu
 class GetNextLesson @javax.inject.Inject constructor(private val repository: CurriculumRepository) {
     suspend operator fun invoke(): Lesson? = repository.getNextLesson()
 }
+
+/** Loads in-app media attribution records (OSS attribution requirement). */
+class GetMediaAttributions @javax.inject.Inject constructor(private val repository: CurriculumRepository) {
+    suspend operator fun invoke(): List<MediaAttribution> = repository.getMediaAttributions()
+}

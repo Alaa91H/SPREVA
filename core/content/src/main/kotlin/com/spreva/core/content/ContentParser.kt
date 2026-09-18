@@ -43,6 +43,8 @@ class ContentParser(
 
     fun parseLesson(text: String): LessonDto = json.decodeFromString<LessonDto>(text)
 
+    fun parseMediaLicenses(text: String): MediaLicensesDto = json.decodeFromString<MediaLicensesDto>(text)
+
     fun toCourse(dto: CourseDto): Course = Course(
         id = CourseId(dto.id),
         title = dto.title.toModel(),

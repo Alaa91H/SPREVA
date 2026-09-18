@@ -9,5 +9,6 @@ android {
 dependencies {
     implementation(project(":feature:settings:api"))
     implementation(project(":core:datastore"))
+    implementation(project(":domain:curriculum"))
     implementation("androidx.appcompat:appcompat:1.7.1")
 }

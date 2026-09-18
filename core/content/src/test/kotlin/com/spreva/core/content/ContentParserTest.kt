@@ -86,6 +86,18 @@ class ContentParserTest {
         assertEquals(emptyList<String>(), ContentValidator.validateLesson(lesson))
     }
 
+    @Test
+    fun `media licenses registry parses from bundled content`() {
+        val registry = parser.parseMediaLicenses(resource("content/audio/licenses.json"))
+
+        assertEquals(1, registry.registryVersion)
+        assertTrue(registry.files.isNotEmpty())
+        registry.files.forEach { file ->
+            assertTrue("${file.path} missing attribution", file.attribution.contains("Jeuwre"))
+            assertEquals("CC BY-SA 4.0", file.license)
+        }
+    }
+
     @Test(expected = ContentValidationException::class)
     fun `unsupported schema version is rejected`() {
         parser.parseManifest("""{"schemaVersion": 99, "contentVersion": "x", "packages": []}""")

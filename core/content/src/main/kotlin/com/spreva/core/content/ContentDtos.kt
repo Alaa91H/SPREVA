@@ -99,3 +99,32 @@ data class ChoiceOptionDto(
     @SerialName("id") val id: String,
     @SerialName("text") val text: LocalizedTextDto,
 )
+
+/** Wire DTO for the media provenance registry (content/audio/licenses.json). */
+@Serializable
+data class MediaLicensesDto(
+    @SerialName("registryVersion") val registryVersion: Int = 1,
+    @SerialName("downloadDate") val downloadDate: String? = null,
+    @SerialName("reviewedBy") val reviewedBy: String? = null,
+    @SerialName("sources") val sources: List<MediaSourceDto> = emptyList(),
+    @SerialName("files") val files: List<MediaFileLicenseDto> = emptyList(),
+    @SerialName("notes") val notes: List<String> = emptyList(),
+)
+
+@Serializable
+data class MediaSourceDto(
+    @SerialName("name") val name: String,
+    @SerialName("url") val url: String,
+    @SerialName("license") val license: String? = null,
+    @SerialName("attribution") val attribution: String? = null,
+)
+
+@Serializable
+data class MediaFileLicenseDto(
+    @SerialName("path") val path: String,
+    @SerialName("sourceUrl") val sourceUrl: String,
+    @SerialName("mediaUrl") val mediaUrl: String? = null,
+    @SerialName("license") val license: String,
+    @SerialName("licenseUrl") val licenseUrl: String? = null,
+    @SerialName("attribution") val attribution: String,
+)

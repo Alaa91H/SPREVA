@@ -72,6 +72,17 @@ class OfflineFirstCurriculumRepository @Inject constructor(
 
     override suspend fun contentVersion(): String = contentSource.contentVersion()
 
+    override suspend fun getMediaAttributions(): List<com.spreva.domain.curriculum.MediaAttribution> =
+        contentSource.loadMediaLicenses()?.files.orEmpty().map { file ->
+            com.spreva.domain.curriculum.MediaAttribution(
+                path = file.path,
+                sourceUrl = file.sourceUrl,
+                license = file.license,
+                licenseUrl = file.licenseUrl,
+                attribution = file.attribution,
+            )
+        }
+
     companion object {
         const val COURSE_ID = "de-core"
         const val FIRST_LESSON_ID = "a1_u01_l01"

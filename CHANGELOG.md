@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **In-app media attributions (Settings → About)** — Settings/About section opens a bottom sheet listing every bundled recording with its CC BY-SA 4.0 attribution and a link to its Wikimedia Commons source page, served dynamically from `licenses.json` through the content pipeline (parser → repository → use case). Fulfills the CC BY-SA attribution requirement inside the app itself (plan sections 99-100, 253).
 - **Listening comprehension activity (`listening_choice`)** — the learner plays a bundled native recording and picks the matching phrase from options; the correct answer is never spoken by TTS in this activity. Added “Wie heißt du?” recording (CC BY-SA 4.0, Jeuwre) plus a fifth lesson activity and a new informal-register vocab item; parser validates the new activity type (2 new tests).
 - **Phase 4.2 — bundled course audio (Media3 ExoPlayer) with native-speaker recordings**
   - Content schema: optional `audio` field on vocabulary items (path relative to `content/`); lesson 1 ships four native German recordings (Hallo / Guten Morgen / Ich heiße / Tschüss).

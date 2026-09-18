@@ -7,10 +7,14 @@ import androidx.lifecycle.viewModelScope
 import com.spreva.core.datastore.SettingsDataSource
 import com.spreva.core.model.ThemeMode
 import com.spreva.core.model.UiLanguage
+import com.spreva.domain.curriculum.GetMediaAttributions
+import com.spreva.domain.curriculum.MediaAttribution
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -24,6 +28,7 @@ data class SettingsUiState(
 @HiltViewModel
 class SettingsViewModel @Inject constructor(
     private val settingsDataSource: SettingsDataSource,
+    private val getMediaAttributions: GetMediaAttributions,
 ) : ViewModel() {
 
     val uiState: StateFlow<SettingsUiState> = settingsDataSource.settings
@@ -35,6 +40,11 @@ class SettingsViewModel @Inject constructor(
             )
         }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), SettingsUiState())
+
+    private val _attributions = MutableStateFlow<List<MediaAttribution>>(emptyList())
+
+    /** Lazy: loaded when the attribution sheet opens, not at startup. */
+    val attributions: StateFlow<List<MediaAttribution>> = _attributions.asStateFlow()
 
     fun setThemeMode(mode: ThemeMode) {
         viewModelScope.launch { settingsDataSource.setThemeMode(mode) }
@@ -53,6 +63,13 @@ class SettingsViewModel @Inject constructor(
                 UiLanguage.ARABIC -> "ar"
             }
             AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(tag))
+        }
+    }
+
+    fun loadAttributions() {
+        if (_attributions.value.isNotEmpty()) return
+        viewModelScope.launch {
+            _attributions.value = runCatching { getMediaAttributions() }.getOrDefault(emptyList())
         }
     }
 }

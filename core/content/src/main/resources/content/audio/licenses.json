@@ -1,0 +1,68 @@
+{
+  "registryVersion": 1,
+  "downloadDate": "2026-09-18",
+  "reviewedBy": "codebuff-agent (license metadata fetched from Commons API extmetadata)",
+  "sources": [
+    {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "license": "per-file (see files)",
+      "attribution": "Required — listed per file below",
+      "allowedUses": ["app-bundled-playback"],
+      "redistribution": "allowed under each file's CC BY-SA 4.0 license with attribution and share-alike",
+      "commercialUse": "allowed under CC BY-SA 4.0",
+      "version": "2026-09-18 snapshot"
+    }
+  ],
+  "files": [
+    {
+      "path": "content/audio/cc-by-sa/de-hallo.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Hallo.ogg",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/De-Hallo.ogg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-guten-morgen.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-guten_Morgen.ogg",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/De-guten_Morgen.ogg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-ich-heisse.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Ich_hei%C3%9Fe_....ogg",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/De-Ich_hei%C3%9Fe_....ogg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-wie-heisst-du.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Wie_hei%C3%9Ft_du%3F.ogg",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/De-Wie_hei%C3%9Ft_du%3F.ogg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-tschues.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Tsch%C3%BCs.ogg",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/De-Tsch%C3%BCs.ogg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "fill-on-release-packaging"
+    }
+  ],
+  "notes": [
+    "Deliberately excluded: De-Hallo-2.ogg and De-Guten Morgen.oga (GFDL / CC BY-NC-SA — non-commercial variants are not suitable for the product).",
+    "sha256 values are verified at packaging time by the content validator (plan section 97)."
+  ]
+}

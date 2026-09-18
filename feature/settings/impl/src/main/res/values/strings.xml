@@ -7,4 +7,8 @@
     <string name="spreva_settings_theme_dark">Dark</string>
     <string name="spreva_settings_dynamic_color">Use device colors</string>
     <string name="spreva_settings_language">Interface language</string>
+    <string name="spreva_settings_about">About</string>
+    <string name="spreva_settings_media_attributions">Media attributions</string>
+    <string name="spreva_settings_view_source">View source</string>
+    <string name="spreva_settings_attribution_note">German pronunciation recordings come from Wikimedia Commons under CC BY-SA 4.0. Attribution is shown above and shipped inside the app’s content package.</string>
 </resources>

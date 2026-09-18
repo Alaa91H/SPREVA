@@ -7,4 +7,8 @@
     <string name="spreva_settings_theme_dark">داكن</string>
     <string name="spreva_settings_dynamic_color">استخدام ألوان الجهاز</string>
     <string name="spreva_settings_language">لغة الواجهة</string>
+  <string name="spreva_settings_about">حول</string>
+  <string name="spreva_settings_media_attributions">إسنادات الوسائط</string>
+  <string name="spreva_settings_view_source">عرض المصدر</string>
+  <string name="spreva_settings_attribution_note">تسجيلات النطق الألمانية من ويكيميديا كومنز برخصة CC BY-SA 4.0. الإسناد معروض أعلاه ومضمّن داخل حزمة محتوى التطبيق.</string>
 </resources>
