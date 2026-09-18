@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Phase 4.2 — bundled course audio (Media3 ExoPlayer) with native-speaker recordings**
+  - Content schema: optional `audio` field on vocabulary items (path relative to `content/`); lesson 1 ships four native German recordings (Hallo / Guten Morgen / Ich heiße / Tschüss).
+  - `core:audio`: `CourseAudioPlayer` contract + `ExoPlayerCourseAudioPlayer` (Media3 1.11.1) and a pure `CourseAudioLocator` resolving content paths to `asset:///` URIs (JVM-tested, 4 cases).
+  - Playback priority: bundled native recording first, built-in TTS fallback when a word has no recording (plan section 65) — live-demonstrated by the “Wie heißen Sie?” item.
+  - Provenance registry `content/audio/licenses.json` per plan sections 99-100: Wikimedia Commons, **CC BY-SA 4.0**, recordings by Jeuwre (native speaker, Berlin); GFDL/NC-licensed candidates deliberately excluded.
 - **Phase 4.1 — audio foundation (Media3) + built-in TTS for German audio in lessons**
   - New `core:audio` module: `TtsProvider` contract (`AndroidTtsProvider` using the platform `TextToSpeech` engine, `de-DE`), `SpeechText` normalization (strips translation hints/punctuation, composes article + noun utterances), and `TtsStatus` availability flow (`NOT_READY / READY / MISSING_GERMAN`).
   - Lesson screen: header speaker button repeats the German prompt of the current activity; vocabulary cards gained per-word speaker buttons (article + noun). Buttons render only when a German voice is available.

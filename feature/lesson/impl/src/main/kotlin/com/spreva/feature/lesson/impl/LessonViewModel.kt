@@ -2,6 +2,7 @@ package com.spreva.feature.lesson.impl
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.spreva.core.audio.CourseAudioPlayer
 import com.spreva.core.audio.SpeechText
 import com.spreva.core.audio.TtsStatus
 import com.spreva.core.audio.TtsProvider
@@ -34,6 +35,7 @@ class LessonViewModel @Inject constructor(
     private val learningRepository: LearningRepository,
     private val clock: AppClock,
     private val ttsProvider: TtsProvider,
+    private val courseAudioPlayer: CourseAudioPlayer,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(LessonUiState())
@@ -55,6 +57,7 @@ class LessonViewModel @Inject constructor(
 
     override fun onCleared() {
         ttsProvider.stop()
+        courseAudioPlayer.stop()
         super.onCleared()
     }
 
@@ -87,9 +90,12 @@ class LessonViewModel @Inject constructor(
         }
     }
 
-    /** Plays a single vocabulary word (article + noun) from the vocab card. */
-    fun speakWord(article: String?, german: String) {
-        ttsProvider.speakGerman(article = article, text = german)
+    /**
+     * Plays a vocabulary word (Phase 4.2): bundled native-speaker recording
+     * first, TTS fallback when no recording is bundled (plan sections 32/65).
+     */
+    fun speakWord(article: String?, german: String, audioPath: String?) {
+        courseAudioPlayer.playOrSpeak(contentPath = audioPath, fallbackText = german, article = article)
     }
 
     fun load(lessonId: String) {

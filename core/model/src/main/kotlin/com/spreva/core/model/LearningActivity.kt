@@ -49,6 +49,8 @@ data class VocabularyItem(
     val article: String? = null,
     val plural: String? = null,
     val translation: LocalizedText,
+    /** Path of a bundled native-speaker recording, relative to content/, or null. */
+    val audio: String? = null,
 )
 
 data class ChoiceOption(

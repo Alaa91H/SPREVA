@@ -63,7 +63,7 @@ fun LessonRoute(
         onNext = viewModel::next,
         onRetry = { viewModel.load(lessonId) },
         onSpeakCurrent = viewModel::speakCurrent,
-        onSpeakWord = viewModel::speakWord,
+        onSpeakWord = { article, german, audio -> viewModel.speakWord(article, german, audio) },
         onFinished = {
             viewModel.finish()
             onFinished()
@@ -80,7 +80,7 @@ internal fun LessonScreen(
     onNext: () -> Unit,
     onRetry: () -> Unit,
     onSpeakCurrent: () -> Unit,
-    onSpeakWord: (String?, String) -> Unit,
+    onSpeakWord: (String?, String, String?) -> Unit,
     onFinished: () -> Unit,
 ) {
     when {
@@ -123,7 +123,7 @@ private fun LessonContent(
     onCheck: () -> Unit,
     onNext: () -> Unit,
     onSpeakCurrent: () -> Unit,
-    onSpeakWord: (String?, String) -> Unit,
+    onSpeakWord: (String?, String, String?) -> Unit,
     onFinished: () -> Unit,
 ) {
     val lesson = state.lesson ?: return
@@ -257,7 +257,7 @@ private fun TextIntroRenderer(activity: LearningActivity.TextIntro) {
 @Composable
 private fun VocabularyRenderer(
     activity: LearningActivity.VocabularyIntro,
-    onSpeakWord: (String?, String) -> Unit,
+    onSpeakWord: (String?, String, String?) -> Unit,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         activity.words.forEach { word ->
@@ -287,8 +287,8 @@ private fun VocabularyRenderer(
                             style = MaterialTheme.typography.bodyLarge,
                         )
                     }
-                    // Phase 4.1: hear the word (article + noun) via built-in TTS.
-                    IconButton(onClick = { onSpeakWord(word.article, word.german) }) {
+                    // Phase 4.2: bundled native recording first, TTS fallback.
+                    IconButton(onClick = { onSpeakWord(word.article, word.german, word.audio) }) {
                         Icon(
                             imageVector = Icons.Filled.VolumeUp,
                             contentDescription = stringResource(R.string.spreva_lesson_speak_word, word.german),

@@ -109,6 +109,7 @@ private fun ActivityDto.toModel(): LearningActivity = when (type) {
                 article = it.article,
                 plural = it.plural,
                 translation = it.translation.toModel(),
+                audio = it.audio,
             )
         },
     )

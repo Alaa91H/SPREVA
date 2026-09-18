@@ -3,6 +3,9 @@ package com.spreva.app.data
 import android.content.Context
 import androidx.room3.Room
 import com.spreva.core.audio.AndroidTtsProvider
+import com.spreva.core.audio.CourseAudioLocator
+import com.spreva.core.audio.CourseAudioPlayer
+import com.spreva.core.audio.ExoPlayerCourseAudioPlayer
 import com.spreva.core.audio.TtsProvider
 import com.spreva.core.common.AppClock
 import com.spreva.core.common.IdGenerator
@@ -55,4 +58,28 @@ object CoreModule {
     @Provides
     @Singleton
     fun provideTtsProvider(provider: AndroidTtsProvider): TtsProvider = provider
+
+    @Provides
+    @Singleton
+    fun provideCourseAudioLocator(@ApplicationContext context: Context): CourseAudioLocator =
+        CourseAudioLocator { path ->
+            // Bundled package audio lives in app assets (plan sections 83-85);
+            // downloaded packages will swap this opener, not the player.
+            // "asset:///" URIs are handled by ExoPlayer's DefaultDataSource.
+            runCatching {
+                context.assets.open("content/$path").use { "asset:///content/$path" }
+            }.getOrNull()
+        }
+
+    @Provides
+    @Singleton
+    fun provideCourseAudioPlayer(
+        @ApplicationContext context: Context,
+        ttsProvider: TtsProvider,
+        locator: CourseAudioLocator,
+    ): CourseAudioPlayer = ExoPlayerCourseAudioPlayer(
+        context = context,
+        ttsProvider = ttsProvider,
+        locator = locator,
+    )
 }

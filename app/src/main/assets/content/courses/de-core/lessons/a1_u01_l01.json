@@ -21,17 +21,20 @@
         {
           "id": "w-hallo",
           "german": "Hallo",
-          "translation": { "de": "—", "ar": "مرحبًا", "en": "Hello" }
+          "translation": { "de": "—", "ar": "مرحبًا", "en": "Hello" },
+          "audio": "audio/cc-by-sa/de-hallo.ogg"
         },
         {
           "id": "w-guten-morgen",
           "german": "Guten Morgen",
-          "translation": { "de": "—", "ar": "صباح الخير", "en": "Good morning" }
+          "translation": { "de": "—", "ar": "صباح الخير", "en": "Good morning" },
+          "audio": "audio/cc-by-sa/de-guten-morgen.ogg"
         },
         {
           "id": "w-ich-heisse",
           "german": "Ich heiße …",
-          "translation": { "de": "—", "ar": "اسمي …", "en": "My name is …" }
+          "translation": { "de": "—", "ar": "اسمي …", "en": "My name is …" },
+          "audio": "audio/cc-by-sa/de-ich-heisse.ogg"
         },
         {
           "id": "w-wie-heissen-sie",
@@ -41,7 +44,8 @@
         {
           "id": "w-tschuess",
           "german": "Tschüss",
-          "translation": { "de": "—", "ar": "إلى اللقاء", "en": "Bye" }
+          "translation": { "de": "—", "ar": "إلى اللقاء", "en": "Bye" },
+          "audio": "audio/cc-by-sa/de-tschues.ogg"
         }
       ]
     },

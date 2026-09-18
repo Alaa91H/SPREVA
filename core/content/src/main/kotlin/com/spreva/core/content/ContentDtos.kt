@@ -88,6 +88,8 @@ data class VocabularyItemDto(
     @SerialName("article") val article: String? = null,
     @SerialName("plural") val plural: String? = null,
     @SerialName("translation") val translation: LocalizedTextDto,
+    /** Bundled recording path relative to content/, e.g. "audio/cc-by-sa/de-hallo.ogg". */
+    @SerialName("audio") val audio: String? = null,
 )
 
 @Serializable
