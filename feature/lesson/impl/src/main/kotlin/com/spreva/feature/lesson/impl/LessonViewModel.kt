@@ -76,6 +76,10 @@ class LessonViewModel @Inject constructor(
             is com.spreva.core.model.LearningActivity.MultipleChoice ->
                 ttsProvider.speakGerman(article = null, text = activity.question.de)
 
+            is com.spreva.core.model.LearningActivity.ListeningChoice ->
+                // The task IS the audio — the header speaker button replays it.
+                courseAudioPlayer.play(activity.audio)
+
             is com.spreva.core.model.LearningActivity.Cloze ->
                 ttsProvider.speakGerman(
                     article = null,
@@ -96,6 +100,16 @@ class LessonViewModel @Inject constructor(
      */
     fun speakWord(article: String?, german: String, audioPath: String?) {
         courseAudioPlayer.playOrSpeak(contentPath = audioPath, fallbackText = german, article = article)
+    }
+
+    /** Replays the listening-activity recording (Phase 4.2 listening task). */
+    fun playListeningAudio() {
+        val state = _uiState.value
+        val lesson = state.lesson ?: return
+        val activity = lesson.activities.getOrNull(state.currentIndex)
+        if (activity is com.spreva.core.model.LearningActivity.ListeningChoice) {
+            courseAudioPlayer.play(activity.audio)
+        }
     }
 
     fun load(lessonId: String) {
@@ -147,6 +161,16 @@ class LessonViewModel @Inject constructor(
                 AnswerState(
                     correct = activity.acceptedAnswers.any { normalize(it) == normalized },
                     solution = activity.acceptedAnswers.firstOrNull(),
+                )
+            }
+
+            is com.spreva.core.model.LearningActivity.ListeningChoice -> {
+                val selected = state.selectedOptionId
+                AnswerState(
+                    correct = selected == activity.correctOptionId,
+                    solution = activity.options
+                        .firstOrNull { it.id == activity.correctOptionId }
+                        ?.text?.de,
                 )
             }
 

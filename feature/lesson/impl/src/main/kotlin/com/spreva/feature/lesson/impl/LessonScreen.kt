@@ -64,6 +64,7 @@ fun LessonRoute(
         onRetry = { viewModel.load(lessonId) },
         onSpeakCurrent = viewModel::speakCurrent,
         onSpeakWord = { article, german, audio -> viewModel.speakWord(article, german, audio) },
+        onPlayListeningAudio = viewModel::playListeningAudio,
         onFinished = {
             viewModel.finish()
             onFinished()
@@ -81,6 +82,7 @@ internal fun LessonScreen(
     onRetry: () -> Unit,
     onSpeakCurrent: () -> Unit,
     onSpeakWord: (String?, String, String?) -> Unit,
+    onPlayListeningAudio: () -> Unit,
     onFinished: () -> Unit,
 ) {
     when {
@@ -110,6 +112,7 @@ internal fun LessonScreen(
             onNext = onNext,
             onSpeakCurrent = onSpeakCurrent,
             onSpeakWord = onSpeakWord,
+            onPlayListeningAudio = onPlayListeningAudio,
             onFinished = onFinished,
         )
     }
@@ -124,6 +127,7 @@ private fun LessonContent(
     onNext: () -> Unit,
     onSpeakCurrent: () -> Unit,
     onSpeakWord: (String?, String, String?) -> Unit,
+    onPlayListeningAudio: () -> Unit,
     onFinished: () -> Unit,
 ) {
     val lesson = state.lesson ?: return
@@ -186,6 +190,14 @@ private fun LessonContent(
                         typedAnswer = state.typedAnswer,
                         answerState = state.answerState,
                         onAnswerChanged = onAnswerChanged,
+                    )
+
+                    is LearningActivity.ListeningChoice -> ListeningChoiceRenderer(
+                        activity = current,
+                        selectedOptionId = state.selectedOptionId,
+                        answerState = state.answerState,
+                        onPlay = onPlayListeningAudio,
+                        onOptionSelected = onOptionSelected,
                     )
 
                     is LearningActivity.LessonSummaryActivity -> SummaryRenderer(current, state.completedCount)
@@ -310,6 +322,59 @@ private fun MultipleChoiceRenderer(
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Text(activity.question.de, style = MaterialTheme.typography.titleLarge)
+        activity.options.forEach { option ->
+            val selected = selectedOptionId == option.id
+            Card(
+                onClick = { if (answerState == null) onOptionSelected(option.id) },
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Row(
+                    Modifier.padding(12.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
+                ) {
+                    RadioButton(selected = selected, onClick = null)
+                    Text(option.text.de, style = MaterialTheme.typography.bodyLarge)
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun ListeningChoiceRenderer(
+    activity: LearningActivity.ListeningChoice,
+    selectedOptionId: String?,
+    answerState: AnswerState?,
+    onPlay: () -> Unit,
+    onOptionSelected: (String) -> Unit,
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        activity.prompt?.let { prompt ->
+            Text(prompt.de, style = MaterialTheme.typography.titleMedium)
+        }
+        // The audio IS the task: big play button, no text of the phrase (§32).
+        Card(
+            onClick = onPlay,
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Row(
+                Modifier.padding(20.dp),
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
+            ) {
+                Icon(
+                    imageVector = Icons.Filled.VolumeUp,
+                    contentDescription = stringResource(R.string.spreva_lesson_play_listening),
+                    tint = MaterialTheme.colorScheme.primary,
+                )
+                Text(
+                    text = stringResource(R.string.spreva_lesson_play_listening),
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                )
+            }
+        }
         activity.options.forEach { option ->
             val selected = selectedOptionId == option.id
             Card(

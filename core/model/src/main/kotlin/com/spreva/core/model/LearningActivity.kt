@@ -36,6 +36,21 @@ sealed interface LearningActivity {
         val acceptedAnswers: List<String>,
     ) : LearningActivity
 
+    /**
+     * Listening comprehension (Phase 4.2): the learner hears a bundled
+     * recording and picks the matching phrase. The correct answer is
+     * never spoken by TTS in this activity.
+     */
+    data class ListeningChoice(
+        override val id: ActivityId,
+        /** Bundled recording path, relative to content/. */
+        val audio: String,
+        /** Optional visible hint (e.g. Arabic task description). */
+        val prompt: LocalizedText? = null,
+        val options: List<ChoiceOption>,
+        val correctOptionId: String,
+    ) : LearningActivity
+
     data class LessonSummaryActivity(
         override val id: ActivityId,
         val title: LocalizedText,

@@ -31,6 +31,7 @@ data class LessonUiState(
             val activity = lesson?.activities?.getOrNull(currentIndex) ?: return false
             return when (activity) {
                 is com.spreva.core.model.LearningActivity.MultipleChoice -> selectedOptionId != null
+                is com.spreva.core.model.LearningActivity.ListeningChoice -> selectedOptionId != null
                 is com.spreva.core.model.LearningActivity.Cloze -> typedAnswer.isNotBlank()
                 else -> true
             }

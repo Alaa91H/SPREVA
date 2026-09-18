@@ -73,6 +73,8 @@ data class ActivityDto(
     @SerialName("words") val words: List<VocabularyItemDto> = emptyList(),
     @SerialName("prompt") val prompt: LocalizedTextDto? = null,
     @SerialName("question") val question: LocalizedTextDto? = null,
+    /** listening_choice: bundled recording path, relative to content/. */
+    @SerialName("audio") val audio: String? = null,
     @SerialName("options") val options: List<ChoiceOptionDto> = emptyList(),
     @SerialName("correctOptionId") val correctOptionId: String? = null,
     @SerialName("sentenceTemplate") val sentenceTemplate: LocalizedTextDto? = null,

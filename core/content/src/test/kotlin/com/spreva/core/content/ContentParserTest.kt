@@ -47,7 +47,35 @@ class ContentParserTest {
         assertTrue(lesson.activities.any { it is com.spreva.core.model.LearningActivity.VocabularyIntro })
         assertTrue(lesson.activities.any { it is com.spreva.core.model.LearningActivity.MultipleChoice })
         assertTrue(lesson.activities.any { it is com.spreva.core.model.LearningActivity.Cloze })
+        assertTrue(lesson.activities.any { it is com.spreva.core.model.LearningActivity.ListeningChoice })
         assertTrue(lesson.activities.any { it is com.spreva.core.model.LearningActivity.LessonSummaryActivity })
+    }
+
+    @Test
+    fun `listening choice activity maps audio and options`() {
+        val lesson = parser.parseLesson(resource("content/courses/de-core/lessons/a1_u01_l01.json"))
+            .let(parser::toLesson)
+
+        val listening = lesson.activities
+            .filterIsInstance<com.spreva.core.model.LearningActivity.ListeningChoice>()
+            .first()
+        assertEquals("audio/cc-by-sa/de-wie-heisst-du.ogg", listening.audio)
+        assertEquals(3, listening.options.size)
+        assertTrue(listening.options.any { it.id == listening.correctOptionId })
+    }
+
+    @Test(expected = ContentValidationException::class)
+    fun `listening choice without audio is rejected`() {
+        val json = """
+            {"id": "l1", "unitId": "u1", "title": {"de": "t"}, "activities": [
+              {"id": "a1", "type": "listening_choice", "options": [
+                {"id": "o1", "text": {"de": "a"}},
+                {"id": "o2", "text": {"de": "b"}},
+                {"id": "o3", "text": {"de": "c"}}
+              ], "correctOptionId": "o2"}
+            ]}
+        """
+        parser.parseLesson(json.trimIndent()).let(parser::toLesson)
     }
 
     @Test

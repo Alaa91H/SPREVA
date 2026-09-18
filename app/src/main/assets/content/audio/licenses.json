@@ -43,6 +43,15 @@
       "sha256": "fill-on-release-packaging"
     },
     {
+      "path": "content/audio/cc-by-sa/de-wie-heisst-du.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Wie_hei%C3%9Ft_du%3F.ogg",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/De-Wie_hei%C3%9Ft_du%3F.ogg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
       "path": "content/audio/cc-by-sa/de-tschues.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Tsch%C3%BCs.ogg",
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/De-Tsch%C3%BCs.ogg",

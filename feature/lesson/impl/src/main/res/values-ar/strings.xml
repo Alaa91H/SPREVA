@@ -13,4 +13,5 @@
     <string name="spreva_lesson_retry">إعادة المحاولة</string>
     <string name="spreva_lesson_speak">استمع إلى الصوت الألماني</string>
     <string name="spreva_lesson_speak_word">استمع إلى «%1$s»</string>
+    <string name="spreva_lesson_play_listening">تشغيل الصوت</string>
 </resources>
