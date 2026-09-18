@@ -35,11 +35,11 @@ jobs:
       - name: Assemble debug APK
         run: ./gradlew assembleDebug --console=plain --stacktrace
 
-      - name: Assemble release APK (debug-signed)
+      - name: Assemble release APK (unsigned)
         # Phase 3 has no upload keystore yet; release is minified (R8) and
-        # signed with the debug key so it is installable for testing.
-        # A signing workflow with a real keystore lands before any
-        # Play-track distribution (plan section 127).
+        # unsigned (AGP emits app-release-unsigned.apk). Installable only
+        # after debug-signing locally. A signing workflow with a real
+        # keystore lands before any Play-track distribution (plan 127).
         run: ./gradlew assembleRelease --console=plain --stacktrace
 
       - name: Rename artifacts
@@ -48,8 +48,9 @@ jobs:
           mkdir -p staging
           cp app/build/outputs/apk/debug/app-debug.apk \
             "staging/Spreva-${VERSION}-debug.apk"
-          cp app/build/outputs/apk/release/app-release.apk \
-            "staging/Spreva-${VERSION}-release.apk"
+          # Without an upload keystore (Phase 3), AGP emits an unsigned APK.
+          cp app/build/outputs/apk/release/app-release-unsigned.apk \
+            "staging/Spreva-${VERSION}-release-unsigned.apk"
           ls -la staging
 
       - name: Attach APKs to the GitHub Release
