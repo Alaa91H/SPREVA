@@ -14,4 +14,9 @@
     <string name="spreva_lesson_speak">Hear German audio</string>
     <string name="spreva_lesson_speak_word">Hear “%1$s”</string>
     <string name="spreva_lesson_play_listening">Play audio</string>
+    <string name="spreva_lesson_play_model">Play native recording</string>
+    <string name="spreva_lesson_start_recording">Record yourself</string>
+    <string name="spreva_lesson_stop_recording">Stop recording</string>
+    <string name="spreva_lesson_play_own">Play your recording</string>
+    <string name="spreva_lesson_shadowing_hint">Listen, repeat out loud, then compare by ear. Your recording stays on the device and is deleted when you leave the lesson.</string>
 </resources>

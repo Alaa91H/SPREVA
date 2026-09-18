@@ -13,6 +13,13 @@
           "lessons": [
             { "id": "a1_u01_l01" }
           ]
+        },
+        {
+          "id": "de-core-a1-u02",
+          "title": { "de": "Zahlen & Uhrzeit", "ar": "الأرقام والوقت", "en": "Numbers & time" },
+          "lessons": [
+            { "id": "a1_u02_l01" }
+          ]
         }
       ]
     }

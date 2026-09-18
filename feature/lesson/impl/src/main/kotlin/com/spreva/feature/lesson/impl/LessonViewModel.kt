@@ -2,10 +2,13 @@ package com.spreva.feature.lesson.impl
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import android.content.Context
+import dagger.hilt.android.qualifiers.ApplicationContext
 import com.spreva.core.audio.CourseAudioPlayer
 import com.spreva.core.audio.SpeechText
 import com.spreva.core.audio.TtsStatus
 import com.spreva.core.audio.TtsProvider
+import com.spreva.core.audio.VoiceRecorder
 import com.spreva.core.common.AppClock
 import com.spreva.core.model.ActivityAttempt
 import com.spreva.core.model.Lesson
@@ -31,11 +34,13 @@ import kotlinx.coroutines.launch
  */
 @HiltViewModel
 class LessonViewModel @Inject constructor(
+    @ApplicationContext private val appContext: Context,
     private val getLesson: GetLesson,
     private val learningRepository: LearningRepository,
     private val clock: AppClock,
     private val ttsProvider: TtsProvider,
     private val courseAudioPlayer: CourseAudioPlayer,
+    private val voiceRecorder: VoiceRecorder,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(LessonUiState())
@@ -45,6 +50,7 @@ class LessonViewModel @Inject constructor(
 
     private var attemptCounter = mutableMapOf<String, Int>()
     private var currentActivityShownAtMs = 0L
+    private var lastRecording: java.io.File? = null
 
     init {
         // Expose German voice availability to the lesson UI.
@@ -56,8 +62,11 @@ class LessonViewModel @Inject constructor(
     }
 
     override fun onCleared() {
+        voiceRecorder.cancel()
         ttsProvider.stop()
         courseAudioPlayer.stop()
+        // Raw learner audio is temporary by design (privacy, plan section 108).
+        lastRecording?.delete()
         super.onCleared()
     }
 
@@ -90,7 +99,9 @@ class LessonViewModel @Inject constructor(
                     ),
                 )
 
-            is com.spreva.core.model.LearningActivity.LessonSummaryActivity -> Unit
+            is com.spreva.core.model.LearningActivity.LessonSummaryActivity,
+            is com.spreva.core.model.LearningActivity.SpeakingRepeat,
+            -> Unit
         }
     }
 
@@ -111,6 +122,44 @@ class LessonViewModel @Inject constructor(
             courseAudioPlayer.play(activity.audio)
         }
     }
+
+    /**
+     * Phase 4.3 shadowing starter: play the model recording, record the
+     * learner, then let them compare by ear (self-playback). No raw audio
+     * retention — files are temporary (plan sections 101-102/108).
+     */
+    fun startRecording() {
+        courseAudioPlayer.stop()
+        voiceRecorder.start(java.io.File(_recordingDir(), "spreva-voice.m4a"))
+        _uiState.value = _uiState.value.copy(isRecording = true)
+    }
+
+    fun stopRecording() {
+        val recording = voiceRecorder.stop()
+        _uiState.value = _uiState.value.copy(
+            isRecording = false,
+            hasRecording = recording != null,
+        )
+        lastRecording = recording?.file
+    }
+
+    /** Plays back the learner's own last recording (compare-by-ear). */
+    fun playOwnRecording() {
+        lastRecording?.let(courseAudioPlayer::playFile)
+    }
+
+    /** Plays the model recording for the current speaking activity. */
+    fun playModelAudio() {
+        val state = _uiState.value
+        val lesson = state.lesson ?: return
+        val activity = lesson.activities.getOrNull(state.currentIndex)
+        if (activity is com.spreva.core.model.LearningActivity.SpeakingRepeat) {
+            courseAudioPlayer.play(activity.audio)
+        }
+    }
+
+    private fun _recordingDir(): java.io.File =
+        java.io.File(appContext.cacheDir, "voice").also { it.mkdirs() }
 
     fun load(lessonId: String) {
         viewModelScope.launch {

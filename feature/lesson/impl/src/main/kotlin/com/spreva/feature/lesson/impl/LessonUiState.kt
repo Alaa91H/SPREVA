@@ -24,6 +24,10 @@ data class LessonUiState(
     val finished: Boolean = false,
     /** German voice availability — gates speaker buttons (Phase 4.1). */
     val ttsStatus: TtsStatus = TtsStatus.NOT_READY,
+    /** Phase 4.3 shadowing: recording in progress. */
+    val isRecording: Boolean = false,
+    /** True once the learner has recorded themselves this activity. */
+    val hasRecording: Boolean = false,
 ) {
     /** Whether the Check button should be enabled for the current activity. */
     val canCheck: Boolean

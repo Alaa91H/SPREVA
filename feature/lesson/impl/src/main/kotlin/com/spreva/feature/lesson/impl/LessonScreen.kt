@@ -18,6 +18,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Text
@@ -50,6 +51,12 @@ fun LessonRoute(
     viewModel: LessonViewModel = hiltViewModel(),
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
+    val context = androidx.compose.ui.platform.LocalContext.current
+
+    // Phase 4.3: microphone permission for the shadowing starter.
+    val permissionLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
+        androidx.activity.result.contract.ActivityResultContracts.RequestPermission(),
+    ) { }
 
     LaunchedEffect(lessonId) {
         viewModel.load(lessonId)
@@ -65,6 +72,17 @@ fun LessonRoute(
         onSpeakCurrent = viewModel::speakCurrent,
         onSpeakWord = { article, german, audio -> viewModel.speakWord(article, german, audio) },
         onPlayListeningAudio = viewModel::playListeningAudio,
+        onPlayModelAudio = viewModel::playModelAudio,
+        onStartRecording = viewModel::startRecording,
+        onStopRecording = viewModel::stopRecording,
+        onPlayOwnRecording = viewModel::playOwnRecording,
+        onRequestRecordPermission = {
+            val granted = androidx.core.content.ContextCompat.checkSelfPermission(
+                context,
+                android.Manifest.permission.RECORD_AUDIO,
+            ) == android.content.pm.PackageManager.PERMISSION_GRANTED
+            if (granted) viewModel.startRecording() else permissionLauncher.launch(android.Manifest.permission.RECORD_AUDIO)
+        },
         onFinished = {
             viewModel.finish()
             onFinished()
@@ -83,6 +101,11 @@ internal fun LessonScreen(
     onSpeakCurrent: () -> Unit,
     onSpeakWord: (String?, String, String?) -> Unit,
     onPlayListeningAudio: () -> Unit,
+    onPlayModelAudio: () -> Unit,
+    onStartRecording: () -> Unit,
+    onStopRecording: () -> Unit,
+    onPlayOwnRecording: () -> Unit,
+    onRequestRecordPermission: () -> Unit,
     onFinished: () -> Unit,
 ) {
     when {
@@ -113,6 +136,11 @@ internal fun LessonScreen(
             onSpeakCurrent = onSpeakCurrent,
             onSpeakWord = onSpeakWord,
             onPlayListeningAudio = onPlayListeningAudio,
+            onPlayModelAudio = onPlayModelAudio,
+            onStartRecording = onStartRecording,
+            onStopRecording = onStopRecording,
+            onPlayOwnRecording = onPlayOwnRecording,
+            onRequestRecordPermission = onRequestRecordPermission,
             onFinished = onFinished,
         )
     }
@@ -128,6 +156,11 @@ private fun LessonContent(
     onSpeakCurrent: () -> Unit,
     onSpeakWord: (String?, String, String?) -> Unit,
     onPlayListeningAudio: () -> Unit,
+    onPlayModelAudio: () -> Unit,
+    onStartRecording: () -> Unit,
+    onStopRecording: () -> Unit,
+    onPlayOwnRecording: () -> Unit,
+    onRequestRecordPermission: () -> Unit,
     onFinished: () -> Unit,
 ) {
     val lesson = state.lesson ?: return
@@ -200,6 +233,16 @@ private fun LessonContent(
                         onOptionSelected = onOptionSelected,
                     )
 
+                    is LearningActivity.SpeakingRepeat -> SpeakingRepeatRenderer(
+                        activity = current,
+                        state = state,
+                        onPlayModel = onPlayModelAudio,
+                        onStartRecording = onStartRecording,
+                        onStopRecording = onStopRecording,
+                        onPlayOwn = onPlayOwnRecording,
+                        onRequestPermission = onRequestRecordPermission,
+                    )
+
                     is LearningActivity.LessonSummaryActivity -> SummaryRenderer(current, state.completedCount)
                 }
             }
@@ -254,6 +297,54 @@ private fun LessonContent(
                 },
             )
         }
+    }
+}
+
+@Composable
+private fun SpeakingRepeatRenderer(
+    activity: LearningActivity.SpeakingRepeat,
+    state: LessonUiState,
+    onPlayModel: () -> Unit,
+    onStartRecording: () -> Unit,
+    onStopRecording: () -> Unit,
+    onPlayOwn: () -> Unit,
+    onRequestPermission: () -> Unit,
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        activity.prompt?.let { prompt ->
+            Text(prompt.de, style = MaterialTheme.typography.titleMedium)
+        }
+        Text(activity.text.de, style = MaterialTheme.typography.headlineSmall)
+
+        // 1) Listen to the native model.
+        OutlinedButton(onClick = onPlayModel, modifier = Modifier.fillMaxWidth()) {
+            Text(stringResource(R.string.spreva_lesson_play_model))
+        }
+
+        // 2) Record yourself (with runtime permission).
+        Button(
+            onClick = { if (state.isRecording) onStopRecording() else onRequestPermission() },
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Text(
+                stringResource(
+                    if (state.isRecording) R.string.spreva_lesson_stop_recording
+                    else R.string.spreva_lesson_start_recording,
+                ),
+            )
+        }
+
+        // 3) Compare by ear: play your own recording back.
+        if (state.hasRecording) {
+            OutlinedButton(onClick = onPlayOwn, modifier = Modifier.fillMaxWidth()) {
+                Text(stringResource(R.string.spreva_lesson_play_own))
+            }
+        }
+        Text(
+            text = stringResource(R.string.spreva_lesson_shadowing_hint),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
     }
 }
 

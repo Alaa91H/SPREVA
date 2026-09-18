@@ -77,6 +77,8 @@ data class ActivityDto(
     @SerialName("audio") val audio: String? = null,
     @SerialName("options") val options: List<ChoiceOptionDto> = emptyList(),
     @SerialName("correctOptionId") val correctOptionId: String? = null,
+    /** speaking_repeat: phrase to repeat. */
+    @SerialName("text") val text: LocalizedTextDto? = null,
     @SerialName("sentenceTemplate") val sentenceTemplate: LocalizedTextDto? = null,
     @SerialName("answerPlaceholder") val answerPlaceholder: String? = null,
     @SerialName("acceptedAnswers") val acceptedAnswers: List<String> = emptyList(),

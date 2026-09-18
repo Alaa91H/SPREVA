@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Phase 3 is fully offline: no INTERNET, RECORD_AUDIO, CAMERA or LOCATION. -->
+    <!-- Still fully offline (no INTERNET). RECORD_AUDIO (Phase 4.3) is for
+         the in-lesson shadowing recorder only; recordings are temporary,
+         local, and deleted when the lesson is left (plan sections 101-108). -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:name=".SprevaApplication"

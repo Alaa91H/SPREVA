@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Phase 4.3 — shadowing starter (record + compare)**
+  - New `speaking_repeat` activity: play the native recording, record yourself repeating it (runtime `RECORD_AUDIO` permission with pre-check), then compare by ear via playback of your own take.
+  - `core:audio`: `VoiceRecorder` (MediaRecorder AAC), pure `AudioEnvelope` (RMS envelope from PCM WAV, stereo-fold, 32 buckets) and `WaveformComparator` (envelope similarity, unit-tested; activates when comparable envelopes exist — Ogg/AAC cross-decode is out of scope for this phase).
+  - Privacy: recordings are temporary cache files deleted when the lesson is left; no network, no long-term retention (plan sections 101-108).
+- **Unit 2 of A1 — Zahlen & Uhrzeit (numbers & time)**: 11 vocabulary items (eins…zehn + die Uhr) with native CC BY-SA recordings (joni, German Wiktionary + Kampy), a number MCQ, a minimal-pair listening drill (vier/acht/sechs), a cloze („Es ist acht Uhr“), and the first speaking-repeat activity; lesson 1 now has 7 activities.
 - **In-app media attributions (Settings → About)** — Settings/About section opens a bottom sheet listing every bundled recording with its CC BY-SA 4.0 attribution and a link to its Wikimedia Commons source page, served dynamically from `licenses.json` through the content pipeline (parser → repository → use case). Fulfills the CC BY-SA attribution requirement inside the app itself (plan sections 99-100, 253).
 - **Listening comprehension activity (`listening_choice`)** — the learner plays a bundled native recording and picks the matching phrase from options; the correct answer is never spoken by TTS in this activity. Added “Wie heißt du?” recording (CC BY-SA 4.0, Jeuwre) plus a fifth lesson activity and a new informal-register vocab item; parser validates the new activity type (2 new tests).
 - **Phase 4.2 — bundled course audio (Media3 ExoPlayer) with native-speaker recordings**

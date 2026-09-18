@@ -51,6 +51,21 @@ sealed interface LearningActivity {
         val correctOptionId: String,
     ) : LearningActivity
 
+    /**
+     * Shadowing starter (Phase 4.3): the learner plays a bundled native
+     * recording, records themselves repeating it, and sees a simplified
+     * envelope comparison between both waveforms. Self-check — no server,
+     * no ASR scoring yet (plan sections 35/38).
+     */
+    data class SpeakingRepeat(
+        override val id: ActivityId,
+        /** Bundled model recording, relative to content/. */
+        val audio: String,
+        val prompt: LocalizedText? = null,
+        /** The phrase the learner should repeat. */
+        val text: LocalizedText,
+    ) : LearningActivity
+
     data class LessonSummaryActivity(
         override val id: ActivityId,
         val title: LocalizedText,

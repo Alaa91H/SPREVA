@@ -93,9 +93,40 @@ class ContentParserTest {
         assertEquals(1, registry.registryVersion)
         assertTrue(registry.files.isNotEmpty())
         registry.files.forEach { file ->
-            assertTrue("${file.path} missing attribution", file.attribution.contains("Jeuwre"))
-            assertEquals("CC BY-SA 4.0", file.license)
+            assertTrue("${file.path} missing attribution", file.attribution.isNotBlank())
+            assertTrue(
+                "${file.path} unexpected license ${file.license}",
+                file.license.startsWith("CC BY-SA"),
+            )
         }
+    }
+
+    @Test
+    fun `unit 2 lesson parses numbers vocab with audio and speaking repeat`() {
+        val lesson = parser.parseLesson(resource("content/courses/de-core/lessons/a1_u02_l01.json"))
+            .let(parser::toLesson)
+
+        assertEquals(LessonId("a1_u02_l01"), lesson.id)
+        val vocab = lesson.activities
+            .filterIsInstance<com.spreva.core.model.LearningActivity.VocabularyIntro>()
+            .first()
+        assertEquals(11, vocab.words.size)
+        assertTrue(vocab.words.all { it.audio != null })
+        val speaking = lesson.activities
+            .filterIsInstance<com.spreva.core.model.LearningActivity.SpeakingRepeat>()
+            .first()
+        assertEquals("audio/cc-by-sa/de-uhr.ogg", speaking.audio)
+        assertEquals("die Uhr", speaking.text.de)
+    }
+
+    @Test(expected = ContentValidationException::class)
+    fun `speaking repeat without text is rejected`() {
+        val json = """
+            {"id": "l1", "unitId": "u1", "title": {"de": "t"}, "activities": [
+              {"id": "a1", "type": "speaking_repeat", "audio": "audio/x.ogg"}
+            ]}
+        """
+        parser.parseLesson(json.trimIndent()).let(parser::toLesson)
     }
 
     @Test(expected = ContentValidationException::class)

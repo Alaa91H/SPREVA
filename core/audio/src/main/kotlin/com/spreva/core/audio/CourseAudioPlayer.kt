@@ -21,6 +21,9 @@ interface CourseAudioPlayer {
     /** Plays [contentPath] when bundled audio exists, otherwise speaks via TTS. */
     fun playOrSpeak(contentPath: String?, fallbackText: String, article: String? = null)
 
+    /** Plays an arbitrary local [file] (e.g. the learner's recording). */
+    fun playFile(file: java.io.File)
+
     fun stop()
 }
 
@@ -67,6 +70,14 @@ class ExoPlayerCourseAudioPlayer @Inject constructor(
             // offline-first with graceful degradation).
             ttsProvider.speakGerman(article = article, text = fallbackText)
         }
+    }
+
+    override fun playFile(file: java.io.File) {
+        if (!file.exists()) return
+        val exo = obtain()
+        exo.setMediaItem(MediaItem.fromUri(android.net.Uri.fromFile(file)))
+        exo.prepare()
+        exo.playWhenReady = true
     }
 
     override fun stop() {

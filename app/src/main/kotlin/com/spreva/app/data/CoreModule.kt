@@ -7,6 +7,8 @@ import com.spreva.core.audio.CourseAudioLocator
 import com.spreva.core.audio.CourseAudioPlayer
 import com.spreva.core.audio.ExoPlayerCourseAudioPlayer
 import com.spreva.core.audio.TtsProvider
+import com.spreva.core.audio.VoiceRecorder
+import com.spreva.core.audio.MediaRecorderVoiceRecorder
 import com.spreva.core.common.AppClock
 import com.spreva.core.common.IdGenerator
 import com.spreva.core.common.SystemClock
@@ -70,6 +72,10 @@ object CoreModule {
                 context.assets.open("content/$path").use { "asset:///content/$path" }
             }.getOrNull()
         }
+
+    @Provides
+    @Singleton
+    fun provideVoiceRecorder(recorder: MediaRecorderVoiceRecorder): VoiceRecorder = recorder
 
     @Provides
     @Singleton

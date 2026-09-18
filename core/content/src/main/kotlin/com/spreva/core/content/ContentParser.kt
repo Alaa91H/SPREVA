@@ -135,6 +135,15 @@ private fun ActivityDto.toModel(): LearningActivity = when (type) {
             ?: throw ContentValidationException("listening_choice $id missing correctOptionId"),
     )
 
+    "speaking_repeat" -> LearningActivity.SpeakingRepeat(
+        id = ActivityId(id),
+        audio = audio
+            ?: throw ContentValidationException("speaking_repeat $id missing audio"),
+        prompt = prompt?.toModel(),
+        text = text?.toModel()
+            ?: throw ContentValidationException("speaking_repeat $id missing text"),
+    )
+
     "cloze" -> LearningActivity.Cloze(
         id = ActivityId(id),
         sentenceTemplate = sentenceTemplate?.toModel()

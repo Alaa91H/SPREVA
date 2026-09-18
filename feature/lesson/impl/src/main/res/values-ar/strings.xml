@@ -14,4 +14,9 @@
     <string name="spreva_lesson_speak">استمع إلى الصوت الألماني</string>
     <string name="spreva_lesson_speak_word">استمع إلى «%1$s»</string>
     <string name="spreva_lesson_play_listening">تشغيل الصوت</string>
+    <string name="spreva_lesson_play_model">شغّل التسجيل الأصلي</string>
+    <string name="spreva_lesson_start_recording">سجّل صوتك</string>
+    <string name="spreva_lesson_stop_recording">أوقف التسجيل</string>
+    <string name="spreva_lesson_play_own">شغّل تسجيلك</string>
+    <string name="spreva_lesson_shadowing_hint">استمع، ثم ردّد بصوت عالٍ، ثم قارن بأذنيك. يبقى تسجيلك على الجهاز ويُحذف عند مغادرة الدرس.</string>
 </resources>

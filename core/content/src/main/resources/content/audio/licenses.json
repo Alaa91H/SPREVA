@@ -52,6 +52,94 @@
       "sha256": "fill-on-release-packaging"
     },
     {
+      "path": "content/audio/cc-by-sa/de-eins.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-eins.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-zwei.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-zwei.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-drei.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-drei.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-vier.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-vier.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-fuenf.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-f%C3%BCnf.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-sechs.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-sechs.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-sieben.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-sieben.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-acht.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-acht.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-neun.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-neun.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-zehn.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-zehn.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
+      "path": "content/audio/cc-by-sa/de-uhr.ogg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Uhr.ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Recording: Kampy — Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "fill-on-release-packaging"
+    },
+    {
       "path": "content/audio/cc-by-sa/de-tschues.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Tsch%C3%BCs.ogg",
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/De-Tsch%C3%BCs.ogg",

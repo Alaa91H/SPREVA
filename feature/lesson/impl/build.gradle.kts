@@ -14,4 +14,6 @@ dependencies {
     implementation(project(":domain:learning"))
     // Speaker/volume icons live in the extended set (R8 strips unused ones).
     implementation(libs.androidx.compose.material.icons.extended)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.activity.compose)
 }
