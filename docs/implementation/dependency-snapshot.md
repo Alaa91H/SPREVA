@@ -1,5 +1,11 @@
 # Dependency Snapshot — 18 September 2026
 
+## Media3 (Phase 4.1 — verified 2026-09-18)
+
+- `androidx.media3:media3-common / media3-exoplayer / media3-session:1.11.1`
+- Verified against `dl.google.com/android/maven2/androidx/media3/media3-exoplayer/maven-metadata.xml` (latest release = 1.11.1). Matches the plan's reference snapshot.
+- Consumed by `core:audio`; playback wiring lands in Phase 4.2.
+
 Verified against official release channels (Google Maven metadata,
 kotlinlang.org, developer.android.com release notes) on 2026-09-18,
 per the blueprint's Version Verification Gate (plan section 2/386).

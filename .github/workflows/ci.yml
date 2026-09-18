@@ -5,6 +5,11 @@ on:
   push:
     branches: [ main ]
 
+# Cancel superseded runs on the same branch/PR to keep feedback fast.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
@@ -20,16 +25,18 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      # Gradle caching: dependencies, wrapper distributions and the shared
+      # build cache. main writes/refreshes the cache; PRs read it read-only,
+      # so a warm PR build skips nearly all dependency downloads.
       - name: Setup Gradle (caches dependencies, wrapper and build cache)
         uses: gradle/actions/setup-gradle@v4
         with:
           cache-read-only: ${{ github.ref != 'refs/heads/main' }}
 
-      - name: Unit tests
-        run: ./gradlew test --console=plain --stacktrace
-
-      - name: Assemble debug
-        run: ./gradlew assembleDebug --console=plain --stacktrace
+      # One invocation for everything: a single configuration pass, and
+      # `assembleDebug` reuses the compiled classes produced by `test`.
+      - name: Unit tests + assemble debug
+        run: ./gradlew test assembleDebug --console=plain --stacktrace
 
       - name: Upload test reports
         if: always()

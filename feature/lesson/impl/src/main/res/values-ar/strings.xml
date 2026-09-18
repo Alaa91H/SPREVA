@@ -11,4 +11,6 @@
     <string name="spreva_lesson_completed">اكتمل الدرس!</string>
     <string name="spreva_lesson_content_error">تعذر تحميل المحتوى.</string>
     <string name="spreva_lesson_retry">إعادة المحاولة</string>
+    <string name="spreva_lesson_speak">استمع إلى الصوت الألماني</string>
+    <string name="spreva_lesson_speak_word">استمع إلى «%1$s»</string>
 </resources>

@@ -11,4 +11,6 @@
     <string name="spreva_lesson_completed">Lesson completed!</string>
     <string name="spreva_lesson_content_error">Content could not be loaded.</string>
     <string name="spreva_lesson_retry">Retry</string>
+    <string name="spreva_lesson_speak">Hear German audio</string>
+    <string name="spreva_lesson_speak_word">Hear “%1$s”</string>
 </resources>

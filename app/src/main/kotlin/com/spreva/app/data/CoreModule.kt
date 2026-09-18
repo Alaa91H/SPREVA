@@ -2,6 +2,8 @@ package com.spreva.app.data
 
 import android.content.Context
 import androidx.room3.Room
+import com.spreva.core.audio.AndroidTtsProvider
+import com.spreva.core.audio.TtsProvider
 import com.spreva.core.common.AppClock
 import com.spreva.core.common.IdGenerator
 import com.spreva.core.common.SystemClock
@@ -49,4 +51,8 @@ object CoreModule {
     @Provides
     @Singleton
     fun provideScheduler(json: Json): ReviewScheduler = DemoReviewScheduler(json)
+
+    @Provides
+    @Singleton
+    fun provideTtsProvider(provider: AndroidTtsProvider): TtsProvider = provider
 }

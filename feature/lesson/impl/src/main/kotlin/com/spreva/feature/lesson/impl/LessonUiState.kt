@@ -1,5 +1,6 @@
 package com.spreva.feature.lesson.impl
 
+import com.spreva.core.audio.TtsStatus
 import com.spreva.core.model.ActivityId
 import com.spreva.core.model.Lesson
 
@@ -21,6 +22,8 @@ data class LessonUiState(
     val answerState: AnswerState? = null,
     val completedCount: Int = 0,
     val finished: Boolean = false,
+    /** German voice availability — gates speaker buttons (Phase 4.1). */
+    val ttsStatus: TtsStatus = TtsStatus.NOT_READY,
 ) {
     /** Whether the Check button should be enabled for the current activity. */
     val canCheck: Boolean

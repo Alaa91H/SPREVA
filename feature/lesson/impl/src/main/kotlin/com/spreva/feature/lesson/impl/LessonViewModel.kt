@@ -2,6 +2,9 @@ package com.spreva.feature.lesson.impl
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.spreva.core.audio.SpeechText
+import com.spreva.core.audio.TtsStatus
+import com.spreva.core.audio.TtsProvider
 import com.spreva.core.common.AppClock
 import com.spreva.core.model.ActivityAttempt
 import com.spreva.core.model.Lesson
@@ -20,19 +23,74 @@ import kotlinx.coroutines.launch
  * and completes the lesson (progress persists across restarts — plan
  * sections 9/243-247). Grading of cloze answers is case-insensitive and
  * trims whitespace/punctuation.
+ *
+ * Phase 4.1: owns TTS playback for German content (plan sections 31-34).
+ * The provider is injected behind an interface; features never touch the
+ * engine directly.
  */
 @HiltViewModel
 class LessonViewModel @Inject constructor(
     private val getLesson: GetLesson,
     private val learningRepository: LearningRepository,
     private val clock: AppClock,
+    private val ttsProvider: TtsProvider,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(LessonUiState())
     val uiState: StateFlow<LessonUiState> = _uiState.asStateFlow()
 
+    val ttsStatus: StateFlow<TtsStatus> = ttsProvider.status
+
     private var attemptCounter = mutableMapOf<String, Int>()
     private var currentActivityShownAtMs = 0L
+
+    init {
+        // Expose German voice availability to the lesson UI.
+        viewModelScope.launch {
+            ttsProvider.status.collect { availability ->
+                _uiState.value = _uiState.value.copy(ttsStatus = availability)
+            }
+        }
+    }
+
+    override fun onCleared() {
+        ttsProvider.stop()
+        super.onCleared()
+    }
+
+    /** Plays the German prompt of the current activity via TTS. */
+    fun speakCurrent() {
+        val state = _uiState.value
+        val lesson = state.lesson ?: return
+        val activity = lesson.activities.getOrNull(state.currentIndex) ?: return
+        when (activity) {
+            is com.spreva.core.model.LearningActivity.TextIntro ->
+                ttsProvider.speakGerman(article = null, text = activity.title.de)
+
+            is com.spreva.core.model.LearningActivity.VocabularyIntro ->
+                ttsProvider.speakGerman(article = null, text = SpeechText.clean(activity.words.joinToString(" ") { it.german }))
+
+            is com.spreva.core.model.LearningActivity.MultipleChoice ->
+                ttsProvider.speakGerman(article = null, text = activity.question.de)
+
+            is com.spreva.core.model.LearningActivity.Cloze ->
+                ttsProvider.speakGerman(
+                    article = null,
+                    text = SpeechText.forSentence(
+                        template = activity.sentenceTemplate.de,
+                        answerPlaceholder = activity.answerPlaceholder,
+                        answer = null,
+                    ),
+                )
+
+            is com.spreva.core.model.LearningActivity.LessonSummaryActivity -> Unit
+        }
+    }
+
+    /** Plays a single vocabulary word (article + noun) from the vocab card. */
+    fun speakWord(article: String?, german: String) {
+        ttsProvider.speakGerman(article = article, text = german)
+    }
 
     fun load(lessonId: String) {
         viewModelScope.launch {

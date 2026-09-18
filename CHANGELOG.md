@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **Phase 4.1 — audio foundation (Media3) + built-in TTS for German audio in lessons**
+  - New `core:audio` module: `TtsProvider` contract (`AndroidTtsProvider` using the platform `TextToSpeech` engine, `de-DE`), `SpeechText` normalization (strips translation hints/punctuation, composes article + noun utterances), and `TtsStatus` availability flow (`NOT_READY / READY / MISSING_GERMAN`).
+  - Lesson screen: header speaker button repeats the German prompt of the current activity; vocabulary cards gained per-word speaker buttons (article + noun). Buttons render only when a German voice is available.
+  - Media3 `1.11.1` (common/exoplayer/session) added to the catalog and `core:audio` — playback wiring lands in Phase 4.2.
+  - New icons: `material-icons-extended` added to the lesson module for `VolumeUp` (R8 strips unused vectors).
+  - Unit tests: `SpeechTextTest` (7 cases).
+- ADR-0006 documents the provider split and the `Speaker` → `TtsProvider` supersession.
+
+### Changed
+- CI: unit tests and `assembleDebug` merged into a single Gradle invocation (one configuration pass, shared compiled classes); superseded runs on the same branch/PR are now auto-cancelled; the release workflow uses the same single-invocation pattern.
+
 ## [0.1.0-alpha03] — 2026-09-18
 
 Initial public bootstrap of the Spreva Android application: the complete

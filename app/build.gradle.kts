@@ -28,6 +28,7 @@ dependencies {
     implementation(project(":core:designsystem"))
     implementation(project(":core:navigation"))
     implementation(project(":core:content"))
+    implementation(project(":core:audio"))
     implementation(project(":core:database"))
     implementation(libs.androidx.room3.runtime)
     implementation(project(":core:datastore"))

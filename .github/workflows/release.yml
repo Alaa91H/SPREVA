@@ -26,21 +26,13 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Setup Gradle (cached)
+      - name: Setup Gradle (caches dependencies, wrapper and build cache)
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Run unit tests
-        run: ./gradlew test --console=plain --stacktrace
-
-      - name: Assemble debug APK
-        run: ./gradlew assembleDebug --console=plain --stacktrace
-
-      - name: Assemble release APK (unsigned)
-        # Phase 3 has no upload keystore yet; release is minified (R8) and
-        # unsigned (AGP emits app-release-unsigned.apk). Installable only
-        # after debug-signing locally. A signing workflow with a real
-        # keystore lands before any Play-track distribution (plan 127).
-        run: ./gradlew assembleRelease --console=plain --stacktrace
+      # One invocation: single configuration pass; R8 release reuses
+      # classes compiled by the earlier tasks in the same build.
+      - name: Unit tests + assemble APKs
+        run: ./gradlew test assembleDebug assembleRelease --console=plain --stacktrace
 
       - name: Rename artifacts
         run: |

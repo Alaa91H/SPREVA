@@ -10,8 +10,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
@@ -29,6 +33,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.spreva.core.audio.TtsStatus
 import com.spreva.core.designsystem.theme.sprevaArticleColor
 import com.spreva.core.model.LearningActivity
 import com.spreva.core.model.Lesson
@@ -57,6 +62,8 @@ fun LessonRoute(
         onCheck = viewModel::check,
         onNext = viewModel::next,
         onRetry = { viewModel.load(lessonId) },
+        onSpeakCurrent = viewModel::speakCurrent,
+        onSpeakWord = viewModel::speakWord,
         onFinished = {
             viewModel.finish()
             onFinished()
@@ -72,6 +79,8 @@ internal fun LessonScreen(
     onCheck: () -> Unit,
     onNext: () -> Unit,
     onRetry: () -> Unit,
+    onSpeakCurrent: () -> Unit,
+    onSpeakWord: (String?, String) -> Unit,
     onFinished: () -> Unit,
 ) {
     when {
@@ -99,6 +108,8 @@ internal fun LessonScreen(
             onOptionSelected = onOptionSelected,
             onCheck = onCheck,
             onNext = onNext,
+            onSpeakCurrent = onSpeakCurrent,
+            onSpeakWord = onSpeakWord,
             onFinished = onFinished,
         )
     }
@@ -111,6 +122,8 @@ private fun LessonContent(
     onOptionSelected: (String) -> Unit,
     onCheck: () -> Unit,
     onNext: () -> Unit,
+    onSpeakCurrent: () -> Unit,
+    onSpeakWord: (String?, String) -> Unit,
     onFinished: () -> Unit,
 ) {
     val lesson = state.lesson ?: return
@@ -122,10 +135,23 @@ private fun LessonContent(
             .padding(16.dp),
     ) {
         // Lightweight header: "3 / 8" + thin progress (plan section 50).
-        Text(
-            text = "${state.currentIndex + 1} / ${lesson.activities.size}",
-            style = MaterialTheme.typography.labelLarge,
-        )
+        Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
+            Text(
+                text = "${state.currentIndex + 1} / ${lesson.activities.size}",
+                style = MaterialTheme.typography.labelLarge,
+            )
+            Spacer(Modifier.weight(1f))
+            // Phase 4.1: hear the German prompt (plan sections 31-34).
+            if (state.ttsStatus == TtsStatus.READY) {
+                IconButton(onClick = onSpeakCurrent) {
+                    Icon(
+                        imageVector = Icons.Filled.VolumeUp,
+                        contentDescription = stringResource(R.string.spreva_lesson_speak),
+                        tint = MaterialTheme.colorScheme.primary,
+                    )
+                }
+            }
+        }
         Spacer(Modifier.height(4.dp))
         LinearProgressIndicator(
             progress = {
@@ -144,7 +170,10 @@ private fun LessonContent(
             ) {
                 when (current) {
                     is LearningActivity.TextIntro -> TextIntroRenderer(current)
-                    is LearningActivity.VocabularyIntro -> VocabularyRenderer(current)
+                    is LearningActivity.VocabularyIntro -> VocabularyRenderer(
+                        activity = current,
+                        onSpeakWord = onSpeakWord,
+                    )
                     is LearningActivity.MultipleChoice -> MultipleChoiceRenderer(
                         activity = current,
                         selectedOptionId = state.selectedOptionId,
@@ -226,30 +255,46 @@ private fun TextIntroRenderer(activity: LearningActivity.TextIntro) {
 }
 
 @Composable
-private fun VocabularyRenderer(activity: LearningActivity.VocabularyIntro) {
+private fun VocabularyRenderer(
+    activity: LearningActivity.VocabularyIntro,
+    onSpeakWord: (String?, String) -> Unit,
+) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         activity.words.forEach { word ->
             Card(Modifier.fillMaxWidth()) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                    Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                        word.article?.let { article ->
+                Row(
+                    Modifier.padding(start = 16.dp, top = 16.dp, bottom = 16.dp, end = 4.dp),
+                    verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
+                ) {
+                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                            word.article?.let { article ->
+                                Text(
+                                    text = article,
+                                    style = MaterialTheme.typography.titleLarge,
+                                    color = sprevaArticleColor(article),
+                                )
+                            }
                             Text(
-                                text = article,
+                                text = word.german,
                                 style = MaterialTheme.typography.titleLarge,
-                                color = sprevaArticleColor(article),
+                                textAlign = TextAlign.Center,
                             )
                         }
+                        word.plural?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
                         Text(
-                            text = word.german,
-                            style = MaterialTheme.typography.titleLarge,
-                            textAlign = TextAlign.Center,
+                            text = word.translation.ar ?: word.translation.de,
+                            style = MaterialTheme.typography.bodyLarge,
                         )
                     }
-                    word.plural?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
-                    Text(
-                        text = word.translation.ar ?: word.translation.de,
-                        style = MaterialTheme.typography.bodyLarge,
-                    )
+                    // Phase 4.1: hear the word (article + noun) via built-in TTS.
+                    IconButton(onClick = { onSpeakWord(word.article, word.german) }) {
+                        Icon(
+                            imageVector = Icons.Filled.VolumeUp,
+                            contentDescription = stringResource(R.string.spreva_lesson_speak_word, word.german),
+                            tint = MaterialTheme.colorScheme.primary,
+                        )
+                    }
                 }
             }
         }
