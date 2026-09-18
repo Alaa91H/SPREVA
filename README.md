@@ -1,5 +1,10 @@
 # Spreva
 
+[![CI](https://github.com/Alaa91H/SPREVA/actions/workflows/ci.yml/badge.svg)](https://github.com/Alaa91H/SPREVA/actions/workflows/ci.yml)
+[![Release](https://github.com/Alaa91H/SPREVA/actions/workflows/release.yml/badge.svg)](https://github.com/Alaa91H/SPREVA/releases)
+[![Latest release](https://img.shields.io/github/v/release/Alaa91H/SPREVA?include_prereleases&label=latest)](https://github.com/Alaa91H/SPREVA/releases/latest)
+[![License](https://img.shields.io/badge/license-TBD-lightgrey)](#license)
+
 > **Spreva** is a provisional project name pending trademark clearance.
 > Tagline: *Speak. Learn. Live.* — German, that you actually speak.
 
@@ -46,7 +51,23 @@ live from Settings.
 Module map, dependency graph, DB schema and next steps:
 [phase3-final-report.md](phase3-final-report.md).
 
-## CI
+## CI & Releases
 
-GitHub Actions (`.github/workflows/ci.yml`): `test` + `assembleDebug` on
-every PR and push to `main`, with test-report artifacts.
+- **CI** (`.github/workflows/ci.yml`): `test` + `assembleDebug` on every PR
+  and push to `main`, with test-report artifacts. Build/dependency caches
+  are stored on `main` and reused by PRs.
+- **Release** (`.github/workflows/release.yml`): on every `v*` tag — runs
+  tests, builds debug + R8-minified release APKs and attaches them
+  (`Spreva-<version>-debug/release.apk`) to the GitHub Release.
+
+## Download
+
+Grab the latest APK from
+[Releases](https://github.com/Alaa91H/SPREVA/releases/latest)
+(`Spreva-<version>-debug.apk` is the daily-build artifact; the release APK
+is R8-minified and debug-signed until the signing workflow lands).
+
+## License
+
+To be decided before any public distribution. All rights reserved by the
+author until then.
