@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spreva_home_greeting">Guten Tag!</string>
+    <string name="spreva_home_level">A1 · German Core</string>
+    <string name="spreva_home_daily_coach">Daily Coach</string>
+    <string name="spreva_home_continue_lesson">Continue lesson</string>
+    <string name="spreva_home_start">Start</string>
+    <string name="spreva_home_review">Review</string>
+    <string name="spreva_home_due_reviews">%1$d reviews due</string>
+    <string name="spreva_home_no_reviews">No reviews due right now</string>
+    <string name="spreva_home_lessons_completed">%1$d lessons completed</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spreva_onboarding_title">Willkommen bei Spreva</string>
+    <string name="spreva_onboarding_subtitle">Learn German you can actually use.</string>
+    <string name="spreva_onboarding_start">Los geht\'s</string>
+    <string name="spreva_onboarding_language">Choose your interface language</string>
+    <string name="spreva_onboarding_goal">What would you like to achieve?</string>
+    <string name="spreva_onboarding_done">You are ready!</string>
+    <string name="spreva_onboarding_continue">Continue</string>
+</resources>

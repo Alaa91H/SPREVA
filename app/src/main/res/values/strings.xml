@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spreva</string>
+
+    <!-- Top-level destinations -->
+    <string name="dest_home">Home</string>
+    <string name="dest_learn">Learn</string>
+    <string name="dest_practice">Practice</string>
+    <string name="dest_progress">Progress</string>
+    <string name="dest_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Willkommen bei Spreva</string>
+    <string name="onboarding_welcome_subtitle">Learn German you can actually use.</string>
+    <string name="onboarding_start">Los geht\'s</string>
+    <string name="onboarding_choose_language">Choose your interface language</string>
+    <string name="onboarding_choose_goal">What would you like to achieve?</string>
+    <string name="onboarding_done">You are ready!</string>
+    <string name="onboarding_continue">Continue</string>
+
+    <!-- Goals (values, not shown as raw keys) -->
+    <string name="goal_start_from_zero">Start from zero</string>
+    <string name="goal_daily_life">Daily life in Germany</string>
+    <string name="goal_conversation">Conversation</string>
+    <string name="goal_work">Work</string>
+    <string name="goal_exam">Exam preparation</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Guten Tag!</string>
+    <string name="home_current_level">A1 · German Core</string>
+    <string name="home_continue_lesson">Continue lesson</string>
+    <string name="home_due_reviews">%1$d reviews due</string>
+    <string name="home_no_reviews">No reviews due right now</string>
+    <string name="home_lessons_completed">%1$d lessons completed</string>
+
+    <!-- Lesson -->
+    <string name="lesson_check">Check</string>
+    <string name="lesson_next">Next</string>
+    <string name="lesson_finish">Finish lesson</string>
+    <string name="lesson_correct">Correct!</string>
+    <string name="lesson_incorrect">Not quite</string>
+    <string name="lesson_correct_answer">Correct answer: %1$s</string>
+    <string name="lesson_type_answer">Type your answer</string>
+    <string name="lesson_completed">Lesson completed!</string>
+    <string name="lesson_content_error">Content could not be loaded.</string>
+    <string name="lesson_retry">Retry</string>
+
+    <!-- Review -->
+    <string name="review_show_answer">Show answer</string>
+    <string name="review_again">Again</string>
+    <string name="review_hard">Hard</string>
+    <string name="review_good">Good</string>
+    <string name="review_easy">Easy</string>
+    <string name="review_empty_title">No reviews due</string>
+    <string name="review_empty_action">Continue learning</string>
+    <string name="review_session_done">Reviews done for now!</string>
+
+    <!-- Course -->
+    <string name="course_title">German Core</string>
+    <string name="course_start_lesson">Start lesson</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Use device colors</string>
+    <string name="settings_language">Interface language</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_content_version">Content version</string>
+    <string name="settings_restart_onboarding">Replay onboarding</string>
+
+    <!-- Progress -->
+    <string name="progress_title">Progress</string>
+    <string name="progress_empty">Complete your first lesson to see progress here.</string>
+
+    <!-- Generic -->
+    <string name="action_back">Back</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+</resources>

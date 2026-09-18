@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spreva_lesson_loading">جارٍ التحميل…</string>
+    <string name="spreva_lesson_check">تحقق</string>
+    <string name="spreva_lesson_next">التالي</string>
+    <string name="spreva_lesson_finish">إنهاء الدرس</string>
+    <string name="spreva_lesson_correct">صحيح!</string>
+    <string name="spreva_lesson_incorrect">ليس تمامًا</string>
+    <string name="spreva_lesson_correct_answer">الإجابة الصحيحة: %1$s</string>
+    <string name="spreva_lesson_type_answer">اكتب إجابتك</string>
+    <string name="spreva_lesson_completed">اكتمل الدرس!</string>
+    <string name="spreva_lesson_content_error">تعذر تحميل المحتوى.</string>
+    <string name="spreva_lesson_retry">إعادة المحاولة</string>
+</resources>

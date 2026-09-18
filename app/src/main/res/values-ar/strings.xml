@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سبريفا</string>
+
+    <string name="dest_home">الرئيسية</string>
+    <string name="dest_learn">التعلّم</string>
+    <string name="dest_practice">المراجعة</string>
+    <string name="dest_progress">التقدم</string>
+    <string name="dest_settings">الإعدادات</string>
+
+    <string name="onboarding_welcome_title">مرحبًا بك في سبريفا</string>
+    <string name="onboarding_welcome_subtitle">تعلّم الألمانية لتستخدمها فعلًا.</string>
+    <string name="onboarding_start">لنبدأ</string>
+    <string name="onboarding_choose_language">اختر لغة الواجهة</string>
+    <string name="onboarding_choose_goal">ما هدفك من التعلم؟</string>
+    <string name="onboarding_done">أنت جاهز!</string>
+    <string name="onboarding_continue">متابعة</string>
+
+    <string name="goal_start_from_zero">البدء من الصفر</string>
+    <string name="goal_daily_life">الحياة اليومية في ألمانيا</string>
+    <string name="goal_conversation">المحادثة</string>
+    <string name="goal_work">العمل</string>
+    <string name="goal_exam">التحضير لامتحان</string>
+
+    <string name="home_greeting">أهلًا وسهلًا!</string>
+    <string name="home_current_level">A1 · الألمانية الأساسية</string>
+    <string name="home_continue_lesson">متابعة الدرس</string>
+    <string name="home_due_reviews">%1$d مراجعات مستحقة</string>
+    <string name="home_no_reviews">لا توجد مراجعات مستحقة الآن</string>
+    <string name="home_lessons_completed">أكملت %1$d دروسًا</string>
+
+    <string name="lesson_check">تحقق</string>
+    <string name="lesson_next">التالي</string>
+    <string name="lesson_finish">إنهاء الدرس</string>
+    <string name="lesson_correct">صحيح!</string>
+    <string name="lesson_incorrect">ليس تمامًا</string>
+    <string name="lesson_correct_answer">الإجابة الصحيحة: %1$s</string>
+    <string name="lesson_type_answer">اكتب إجابتك</string>
+    <string name="lesson_completed">اكتمل الدرس!</string>
+    <string name="lesson_content_error">تعذر تحميل المحتوى.</string>
+    <string name="lesson_retry">إعادة المحاولة</string>
+
+    <string name="review_show_answer">إظهار الإجابة</string>
+    <string name="review_again">أعد</string>
+    <string name="review_hard">صعب</string>
+    <string name="review_good">جيد</string>
+    <string name="review_easy">سهل</string>
+    <string name="review_empty_title">لا توجد مراجعات مستحقة</string>
+    <string name="review_empty_action">متابعة التعلم</string>
+    <string name="review_session_done">انتهت مراجعات اليوم!</string>
+
+    <string name="course_title">الألمانية الأساسية</string>
+    <string name="course_start_lesson">ابدأ الدرس</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_theme_system">النظام</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_dynamic_color">استخدام ألوان الجهاز</string>
+    <string name="settings_language">لغة الواجهة</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_content_version">إصدار المحتوى</string>
+    <string name="settings_restart_onboarding">إعادة الترحيب</string>
+
+    <string name="progress_title">التقدم</string>
+    <string name="progress_empty">أكمل أول درس لترى تقدمك هنا.</string>
+
+    <string name="action_back">رجوع</string>
+    <string name="action_reset">إعادة ضبط</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_confirm">تأكيد</string>
+</resources>

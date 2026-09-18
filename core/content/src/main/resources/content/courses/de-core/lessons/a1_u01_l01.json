@@ -1,0 +1,73 @@
+{
+  "id": "a1_u01_l01",
+  "unitId": "de-core-a1-u01",
+  "title": { "de": "Hallo!", "ar": "مرحبًا!", "en": "Hello!" },
+  "canDo": ["GREET_SIMPLE", "INTRODUCE_YOURSELF"],
+  "activities": [
+    {
+      "id": "a1_u01_l01_act01",
+      "type": "text_intro",
+      "title": { "de": "Willkommen!", "ar": "مرحبًا بك!", "en": "Welcome!" },
+      "body": {
+        "de": "In dieser Lektion lernst du, dich auf Deutsch zu begrüßen und dich vorzustellen.",
+        "ar": "في هذا الدرس ستتعلم كيفية التحية بالألمانية وتقديم نفسك.",
+        "en": "In this lesson you will learn to greet people in German and introduce yourself."
+      }
+    },
+    {
+      "id": "a1_u01_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "w-hallo",
+          "german": "Hallo",
+          "translation": { "de": "—", "ar": "مرحبًا", "en": "Hello" }
+        },
+        {
+          "id": "w-guten-morgen",
+          "german": "Guten Morgen",
+          "translation": { "de": "—", "ar": "صباح الخير", "en": "Good morning" }
+        },
+        {
+          "id": "w-ich-heisse",
+          "german": "Ich heiße …",
+          "translation": { "de": "—", "ar": "اسمي …", "en": "My name is …" }
+        },
+        {
+          "id": "w-wie-heissen-sie",
+          "german": "Wie heißen Sie?",
+          "translation": { "de": "—", "ar": "ما اسمك؟ (رسمي)", "en": "What is your name? (formal)" }
+        },
+        {
+          "id": "w-tschuess",
+          "german": "Tschüss",
+          "translation": { "de": "—", "ar": "إلى اللقاء", "en": "Bye" }
+        }
+      ]
+    },
+    {
+      "id": "a1_u01_l01_act03",
+      "type": "multiple_choice",
+      "prompt": { "de": "Was sagt man morgens?", "ar": "ماذا تقول في الصباح؟", "en": "What do you say in the morning?" },
+      "question": { "de": "Es ist 8:00 Uhr. Was sagst du?", "ar": "الساعة 8:00 صباحًا. ماذا تقول؟", "en": "It is 8:00 AM. What do you say?" },
+      "options": [
+        { "id": "opt1", "text": { "de": "Guten Morgen!", "ar": "Guten Morgen!", "en": "Guten Morgen!" } },
+        { "id": "opt2", "text": { "de": "Gute Nacht!", "ar": "Gute Nacht!", "en": "Gute Nacht!" } },
+        { "id": "opt3", "text": { "de": "Tschüss!", "ar": "Tschüss!", "en": "Tschüss!" } }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u01_l01_act04",
+      "type": "cloze",
+      "sentenceTemplate": { "de": "Ich {answer} Anna.", "ar": "Ich {answer} Anna.", "en": "Ich {answer} Anna." },
+      "acceptedAnswers": ["heiße", "heisse"]
+    },
+    {
+      "id": "a1_u01_l01_act05",
+      "type": "lesson_summary",
+      "title": { "de": "Gut gemacht!", "ar": "أحسنت!", "en": "Well done!" },
+      "canDo": ["GREET_SIMPLE", "INTRODUCE_YOURSELF"]
+    }
+  ]
+}

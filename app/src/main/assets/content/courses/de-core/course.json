@@ -1,0 +1,20 @@
+{
+  "id": "de-core",
+  "title": { "de": "Deutsch Core", "ar": "الألمانية الأساسية", "en": "German Core" },
+  "levels": [
+    {
+      "id": "de-core-a1",
+      "cefr": "A1",
+      "title": { "de": "A1 — Erste Schritte", "ar": "A1 — الخطوات الأولى", "en": "A1 — First steps" },
+      "units": [
+        {
+          "id": "de-core-a1-u01",
+          "title": { "de": "Begrüßung & Vorstellung", "ar": "التحية والتعارف", "en": "Greetings & introductions" },
+          "lessons": [
+            { "id": "a1_u01_l01" }
+          ]
+        }
+      ]
+    }
+  ]
+}

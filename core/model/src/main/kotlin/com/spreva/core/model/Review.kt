@@ -1,0 +1,50 @@
+package com.spreva.core.model
+
+import java.time.Instant
+import kotlinx.serialization.Serializable
+
+/**
+ * A review card scheduled by the memory engine.
+ *
+ * The card is decoupled from the knowledge item: one lexeme can yield
+ * several cards (recognition, production, article, ...).
+ */
+data class ReviewCard(
+    val id: ReviewCardId,
+    val knowledgeItemId: KnowledgeItemId,
+    /** German prompt shown to the learner. */
+    val prompt: String,
+    /** Expected answer / translation hint. */
+    val answer: String,
+    val dueAt: Instant,
+    val reviewCount: Int = 0,
+    val lapseCount: Int = 0,
+    /** Version of the scheduler that produced the current state. */
+    val schedulerVersion: String = SCHEDULER_VERSION_DEMO,
+    /** Opaque serialized scheduler state for recompute/migration. */
+    val schedulerState: String? = null,
+) {
+    companion object {
+        const val SCHEDULER_VERSION_DEMO = "demo-v1"
+    }
+}
+
+/** Learner's self-assessed recall quality. */
+enum class ReviewRating {
+    AGAIN,
+    HARD,
+    GOOD,
+    EASY,
+}
+
+/** Result of grading a card: the updated card with its next due instant. */
+data class SchedulingResult(
+    val card: ReviewCard,
+    val nextDueAt: Instant,
+)
+
+/** Serializable state persistence for the demo scheduler internals. */
+@Serializable
+data class DemoSchedulerState(
+    val intervalIndex: Int = 0,
+)

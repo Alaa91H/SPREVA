@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Component catalog (design lab). Minimal shell; content lands with
+         the screenshot/design-lab phase. -->
+    <application
+        android:label="Spreva Catalog"
+        android:supportsRtl="true" />
+
+</manifest>

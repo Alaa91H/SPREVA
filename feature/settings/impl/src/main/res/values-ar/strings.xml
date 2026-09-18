@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spreva_settings_title">الإعدادات</string>
+    <string name="spreva_settings_theme">المظهر</string>
+    <string name="spreva_settings_theme_system">النظام</string>
+    <string name="spreva_settings_theme_light">فاتح</string>
+    <string name="spreva_settings_theme_dark">داكن</string>
+    <string name="spreva_settings_dynamic_color">استخدام ألوان الجهاز</string>
+    <string name="spreva_settings_language">لغة الواجهة</string>
+</resources>

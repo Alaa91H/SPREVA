@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spreva_review_practice_title">المراجعة</string>
+    <string name="spreva_review_due_count">%1$d مراجعات مستحقة</string>
+    <string name="spreva_review_none_due">لا توجد مراجعات مستحقة الآن</string>
+    <string name="spreva_review_start">ابدأ المراجعة</string>
+    <string name="spreva_review_check_anyway">فتح المراجعة</string>
+    <string name="spreva_review_show_answer">إظهار الإجابة</string>
+    <string name="spreva_review_again">أعد</string>
+    <string name="spreva_review_hard">صعب</string>
+    <string name="spreva_review_good">جيد</string>
+    <string name="spreva_review_easy">سهل</string>
+    <string name="spreva_review_session_done">انتهت مراجعات اليوم!</string>
+    <string name="spreva_review_back_to_practice">العودة إلى المراجعة</string>
+</resources>

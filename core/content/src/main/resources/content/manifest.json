@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026.09.demo.1",
+  "packages": [
+    {
+      "id": "de-core-a1-demo",
+      "courseId": "de-core",
+      "level": "A1"
+    }
+  ]
+}

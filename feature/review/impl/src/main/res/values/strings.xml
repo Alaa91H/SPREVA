@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spreva_review_practice_title">Practice</string>
+    <string name="spreva_review_due_count">%1$d reviews due</string>
+    <string name="spreva_review_none_due">No reviews due right now</string>
+    <string name="spreva_review_start">Start review</string>
+    <string name="spreva_review_check_anyway">Open review anyway</string>
+    <string name="spreva_review_show_answer">Show answer</string>
+    <string name="spreva_review_again">Again</string>
+    <string name="spreva_review_hard">Hard</string>
+    <string name="spreva_review_good">Good</string>
+    <string name="spreva_review_easy">Easy</string>
+    <string name="spreva_review_session_done">Reviews done for now!</string>
+    <string name="spreva_review_back_to_practice">Back to practice</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spreva_onboarding_title">مرحبًا بك في سبريفا</string>
+    <string name="spreva_onboarding_subtitle">تعلّم الألمانية لتستخدمها فعلًا.</string>
+    <string name="spreva_onboarding_start">لنبدأ</string>
+    <string name="spreva_onboarding_language">اختر لغة الواجهة</string>
+    <string name="spreva_onboarding_goal">ما هدفك من التعلم؟</string>
+    <string name="spreva_onboarding_done">أنت جاهز!</string>
+    <string name="spreva_onboarding_continue">متابعة</string>
+</resources>

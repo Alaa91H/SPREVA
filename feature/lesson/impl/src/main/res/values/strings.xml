@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spreva_lesson_loading">Loading…</string>
+    <string name="spreva_lesson_check">Check</string>
+    <string name="spreva_lesson_next">Next</string>
+    <string name="spreva_lesson_finish">Finish lesson</string>
+    <string name="spreva_lesson_correct">Correct!</string>
+    <string name="spreva_lesson_incorrect">Not quite</string>
+    <string name="spreva_lesson_correct_answer">Correct answer: %1$s</string>
+    <string name="spreva_lesson_type_answer">Type your answer</string>
+    <string name="spreva_lesson_completed">Lesson completed!</string>
+    <string name="spreva_lesson_content_error">Content could not be loaded.</string>
+    <string name="spreva_lesson_retry">Retry</string>
+</resources>
