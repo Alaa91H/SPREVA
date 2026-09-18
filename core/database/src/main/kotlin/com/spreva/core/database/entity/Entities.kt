@@ -52,6 +52,8 @@ data class ReviewCardEntity(
     val lapseCount: Int,
     val schedulerVersion: String,
     val schedulerState: String?,
+    /** Schema v2: audio-recall variant — bundled path relative to content/. */
+    val audioPath: String? = null,
 )
 
 @Entity(tableName = "review_logs")

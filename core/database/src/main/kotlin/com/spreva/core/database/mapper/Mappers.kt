@@ -41,6 +41,7 @@ fun ReviewCardEntity.toModel() = ReviewCard(
     lapseCount = lapseCount,
     schedulerVersion = schedulerVersion,
     schedulerState = schedulerState,
+    audioPath = audioPath,
 )
 
 fun ReviewCard.toEntity() = ReviewCardEntity(
@@ -53,4 +54,5 @@ fun ReviewCard.toEntity() = ReviewCardEntity(
     lapseCount = lapseCount,
     schedulerVersion = schedulerVersion,
     schedulerState = schedulerState,
+    audioPath = audioPath,
 )

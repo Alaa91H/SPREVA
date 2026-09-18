@@ -22,11 +22,21 @@ data class VoiceRecording(
 )
 
 /**
+ * Outcome of attempting to start a recording (audit §11): MediaRecorder
+ * prepare()/start() fail on real devices (mic already in use, encoder
+ * errors) and a device-specific exception must never crash the lesson.
+ */
+sealed interface RecordingStartResult {
+    data object Started : RecordingStartResult
+    data class Failed(val reason: String? = null) : RecordingStartResult
+}
+
+/**
  * Records the learner's voice for repeat-after-me practice. Raw files are
  * temporary by design; callers delete them after deriving the envelope.
  */
 interface VoiceRecorder {
-    fun start(outputFile: File)
+    fun start(outputFile: File): RecordingStartResult
     fun stop(): VoiceRecording?
     fun cancel()
 }
@@ -40,7 +50,7 @@ class MediaRecorderVoiceRecorder @Inject constructor(
     private var outputFile: File? = null
     private var startedAtMs: Long = 0
 
-    override fun start(outputFile: File) {
+    override fun start(outputFile: File): RecordingStartResult {
         cancel()
         this.outputFile = outputFile
         outputFile.parentFile?.mkdirs()
@@ -50,17 +60,25 @@ class MediaRecorderVoiceRecorder @Inject constructor(
             @Suppress("DEPRECATION")
             MediaRecorder()
         }
-        rec.setAudioSource(MediaRecorder.AudioSource.MIC)
-        rec.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
-        rec.setAudioEncoder(MediaRecorder.AudioEncoder.AAC)
-        rec.setAudioSamplingRate(22_050)
-        rec.setAudioEncodingBitRate(64_000)
-        rec.setAudioChannels(1)
-        rec.setOutputFile(outputFile.absolutePath)
-        rec.prepare()
-        rec.start()
-        recorder = rec
-        startedAtMs = System.currentTimeMillis()
+        return try {
+            rec.setAudioSource(MediaRecorder.AudioSource.MIC)
+            rec.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
+            rec.setAudioEncoder(MediaRecorder.AudioEncoder.AAC)
+            rec.setAudioSamplingRate(22_050)
+            rec.setAudioEncodingBitRate(64_000)
+            rec.setAudioChannels(1)
+            rec.setOutputFile(outputFile.absolutePath)
+            rec.prepare()
+            rec.start()
+            recorder = rec
+            startedAtMs = System.currentTimeMillis()
+            RecordingStartResult.Started
+        } catch (t: Exception) {
+            runCatching { rec.release() }
+            outputFile.delete()
+            this.outputFile = null
+            RecordingStartResult.Failed(t.message)
+        }
     }
 
     override fun stop(): VoiceRecording? {

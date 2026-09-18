@@ -18,6 +18,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.spreva.core.model.LearningGoal
 import com.spreva.core.model.ThemeMode
 import com.spreva.core.model.UiLanguage
 import com.spreva.feature.onboarding.impl.R
@@ -40,10 +41,7 @@ fun OnboardingRoute(onFinished: () -> Unit, viewModel: OnboardingViewModel = hil
         onSelectLanguage = viewModel::selectLanguage,
         onSelectGoal = viewModel::selectGoal,
         onNext = viewModel::next,
-        onFinish = {
-            viewModel.complete()
-            onFinished()
-        },
+        onFinish = { viewModel.complete(onFinished) },
     )
 }
 
@@ -51,9 +49,9 @@ fun OnboardingRoute(onFinished: () -> Unit, viewModel: OnboardingViewModel = hil
 internal fun OnboardingScreen(
     step: OnboardingStep,
     selectedLanguage: UiLanguage?,
-    selectedGoal: String?,
+    selectedGoal: LearningGoal?,
     onSelectLanguage: (UiLanguage) -> Unit,
-    onSelectGoal: (String) -> Unit,
+    onSelectGoal: (LearningGoal) -> Unit,
     onNext: () -> Unit,
     onFinish: () -> Unit,
 ) {
@@ -117,19 +115,21 @@ internal fun OnboardingScreen(
                     style = MaterialTheme.typography.titleLarge,
                 )
                 Spacer(Modifier.height(16.dp))
+                // Localized labels (audit §7): raw enum ids never shown.
                 listOf(
-                    "start_from_zero",
-                    "daily_life",
-                    "conversation",
-                    "work",
-                    "exam",
-                ).forEach { goalId ->
+                    LearningGoal.ZERO_TO_C1 to R.string.spreva_onboarding_goal_zero,
+                    LearningGoal.DAILY_LIFE to R.string.spreva_onboarding_goal_daily_life,
+                    LearningGoal.CONVERSATION to R.string.spreva_onboarding_goal_conversation,
+                    LearningGoal.WORK to R.string.spreva_onboarding_goal_work,
+                    LearningGoal.EXAM to R.string.spreva_onboarding_goal_exam,
+                ).forEach { (goal, labelRes) ->
                     OutlinedButton(
-                        onClick = { onSelectGoal(goalId) },
+                        onClick = { onSelectGoal(goal) },
                         modifier = Modifier.fillMaxWidth(),
                     ) {
                         Text(
-                            if (selectedGoal == goalId) "✓ $goalId" else goalId,
+                            if (selectedGoal == goal) "✓ " + stringResource(labelRes)
+                            else stringResource(labelRes),
                         )
                     }
                 }

@@ -22,6 +22,31 @@ object AudioEnvelope {
     }.getOrDefault(emptyList())
 
     /**
+     * Envelope from raw little-endian 16-bit PCM bytes (any channel count —
+     * adjacent samples are averaged pairwise). Used by the runtime
+     * MediaCodec extractor (see [MediaEnvelopeExtractor]).
+     */
+    fun fromPcm16Bytes(pcm: ByteArray): List<Float> {
+        val sampleCount = pcm.size / 2
+        val window = sampleCount / SAMPLE_COUNT
+        if (window == 0) return emptyList()
+        val envelope = FloatArray(SAMPLE_COUNT)
+        for (i in 0 until SAMPLE_COUNT) {
+            var sum = 0.0
+            val startSample = i * window
+            for (s in startSample until startSample + window) {
+                val j = s * 2
+                val sample = ((pcm[j].toInt() and 0xFF) shl 8) or (pcm[j + 1].toInt() and 0xFF)
+                val signed = if (sample >= 0x8000) sample - 0x10000 else sample
+                sum += (signed / 32768.0) * (signed / 32768.0)
+            }
+            envelope[i] = kotlin.math.sqrt(sum / window).toFloat()
+        }
+        val max = envelope.max()
+        return if (max > 0f) envelope.map { (it / max).coerceIn(0f, 1f) } else envelope.toList()
+    }
+
+    /**
      * Extracts a mono envelope from 16-bit PCM WAV bytes. Resamples by
      * skipping so any input length maps to [SAMPLE_COUNT] buckets.
      */

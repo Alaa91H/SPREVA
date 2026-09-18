@@ -11,6 +11,18 @@ data class AnswerState(
     val solution: String? = null,
 )
 
+/**
+ * Lesson completion persistence state machine (audit §8): navigation must
+ * wait for [LessonCompletionState.Success] so the ViewModel scope cannot
+ * cancel the write mid-flight when the destination leaves the back stack.
+ */
+enum class LessonCompletionState {
+    Idle,
+    Saving,
+    Success,
+    Error,
+}
+
 /** Lesson player UiState (small, immutable, plan section 15). */
 data class LessonUiState(
     val isLoading: Boolean = true,
@@ -22,12 +34,22 @@ data class LessonUiState(
     val answerState: AnswerState? = null,
     val completedCount: Int = 0,
     val finished: Boolean = false,
+    /** Completion persistence lifecycle (audit §8). */
+    val completionState: LessonCompletionState = LessonCompletionState.Idle,
     /** German voice availability — gates speaker buttons (Phase 4.1). */
     val ttsStatus: TtsStatus = TtsStatus.NOT_READY,
     /** Phase 4.3 shadowing: recording in progress. */
     val isRecording: Boolean = false,
     /** True once the learner has recorded themselves this activity. */
     val hasRecording: Boolean = false,
+    /**
+     * Phase 4.3 automatic waveform similarity (0f..1f) between the learner's
+     * take and the native model. Null = no automatic score available
+     * (decoding failed); UI then keeps compare-by-ear guidance only.
+     */
+    val similarityScore: Float? = null,
+    /** Audit §11: non-null when MediaRecorder failed to start (no crash). */
+    val recordingError: String? = null,
 ) {
     /** Whether the Check button should be enabled for the current activity. */
     val canCheck: Boolean

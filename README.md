@@ -9,11 +9,19 @@
 > Tagline: *Speak. Learn. Live.* — German, that you actually speak.
 
 Spreva is an offline-first Android app for learning German from Pre-A1 to C1,
-with first-class Arabic support. This repository currently contains **Phase 3:
-Repository Bootstrap** — a production-grade, 32-module foundation.
+with first-class Arabic support. This repository contains a production-grade,
+32-module foundation plus the Phase 4 audio/learning layers.
 
-**Status:** `PHASE 3 STATUS: COMPLETE` — see [phase3-final-report.md](phase3-final-report.md)
-and the honest NOT-RUN gates listed there.
+**Status:**
+
+- Phase 3 — Repository Bootstrap: **complete** (see [phase3-final-report.md](phase3-final-report.md))
+- Phase 4.1 — Media3 audio foundation + built-in TTS: **complete**
+- Phase 4.2 — Bundled native German recordings + listening activities: **complete**
+- Phase 4.3 — Learner recording + shadowing (manual compare + waveform similarity): **complete**
+- Phase 4 stabilization — onboarding/goal persistence, safe lesson completion,
+  instruction-language policy, permission flow, recorder safety, media-registry
+  integrity validation in CI: **complete**
+- Next: FSRS scheduler, Can-Do evidence model, mistake intelligence (see docs/plan)
 
 ## Stack (all stable, verified 2026-09-18)
 

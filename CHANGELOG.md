@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Phase 4 stabilization — product-correctness pass (repository audit P0)**
+  - **Onboarding bootstrap state**: the app shell now waits for the first real DataStore settings value (`AppBootstrapState.Loading/Ready`) and builds its start destination from persisted `onboardingComplete` — returning users land on Home, fresh installs on Welcome; the previous default-settings race sent everyone to onboarding.
+  - **Learning goal persisted**: new `LearningGoal` enum (core:model) stored in DataStore; onboarding saves it on completion. Localized goal labels in English/Arabic replace raw ids (`start_from_zero` → “ابدأ من الصفر” / “Start from zero”).
+  - **Safe lesson completion**: completion now runs through an explicit state machine (`LessonCompletionState.Idle/Saving/Success/Error`); navigation happens only on `Success`, so leaving the back stack can no longer cancel the progress/event/review-card writes mid-flight.
+  - **Instruction-language policy**: `LocalizedText.resolveFor(UiLanguage)` — vocabulary translations follow the UI language (Arabic → ar→en→de, English → en→de) while German learning targets stay German regardless of chrome language.
+  - **One-interaction microphone flow**: the permission launcher callback now starts recording immediately on grant; a denied grant shows the record button again instead of doing nothing.
+  - **Safe recorder failures**: `VoiceRecorder.start` returns `RecordingStartResult.Started/Failed` — device-specific MediaRecorder exceptions surface as a friendly error instead of crashing the lesson.
+  - **Media registry integrity**: real SHA-256 digests computed for all 16 bundled recordings (placeholder `fill-on-release-packaging` removed); source-level license wording made version-neutral (4.0/3.0 listed per file). New `MediaRegistryValidator` + 8 unit tests enforce: file existence, registry coverage of every distributed audio file, required metadata (license/licenseUrl/attribution/sourceUrl), digest match, duplicate rejection and the project's CC BY-SA-only media policy.
+  - **CI**: Android `lint` joined the fast gate; media/content validation runs explicitly (`:core:content:test --rerun-tasks`); lint reports uploaded as artifacts.
+  - Content package version bumped to `2026.09.demo.2`.
 - **Phase 4.3 — shadowing starter (record + compare)**
   - New `speaking_repeat` activity: play the native recording, record yourself repeating it (runtime `RECORD_AUDIO` permission with pre-check), then compare by ear via playback of your own take.
   - `core:audio`: `VoiceRecorder` (MediaRecorder AAC), pure `AudioEnvelope` (RMS envelope from PCM WAV, stereo-fold, 32 buckets) and `WaveformComparator` (envelope similarity, unit-tested; activates when comparable envelopes exist — Ogg/AAC cross-decode is out of scope for this phase).

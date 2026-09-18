@@ -39,6 +39,16 @@ class CourseAudioLocator(
         contentPath?.takeIf { it.isNotBlank() }?.let(opener)?.takeIf { it.isNotBlank() }
 }
 
+/**
+ * Resolves a content-package-relative path to a real on-disk [File] so
+ * analysis code (Phase 4.3 envelope extraction) can read the bundled
+ * recording. App-owned: assets resolve to files under `code_cache` or
+ * the resolver returns null when the asset is absent.
+ */
+fun interface AudioFileResolver {
+    fun resolveFile(contentPath: String): java.io.File?
+}
+
 @Singleton
 class ExoPlayerCourseAudioPlayer @Inject constructor(
     @ApplicationContext private val context: Context,

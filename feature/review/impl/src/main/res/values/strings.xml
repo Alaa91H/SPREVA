@@ -12,4 +12,9 @@
     <string name="spreva_review_easy">Easy</string>
     <string name="spreva_review_session_done">Reviews done for now!</string>
     <string name="spreva_review_back_to_practice">Back to practice</string>
+    <string name="spreva_review_play_audio">Play recording</string>
+    <string name="spreva_review_type_heard">Type what you heard</string>
+    <string name="spreva_review_check">Check</string>
+    <string name="spreva_review_correct">Correct!</string>
+    <string name="spreva_review_answer_was">Answer: %1$s</string>
 </resources>

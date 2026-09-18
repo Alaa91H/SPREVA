@@ -35,8 +35,15 @@ jobs:
 
       # One invocation for everything: a single configuration pass, and
       # `assembleDebug` reuses the compiled classes produced by `test`.
-      - name: Unit tests + assemble debug
-        run: ./gradlew test assembleDebug --console=plain --stacktrace
+      # Audit §15: Android lint is part of the fast PR gate.
+      - name: Unit tests + lint + assemble debug
+        run: ./gradlew test lint assembleDebug --console=plain --stacktrace
+
+      # Audit §12/§78: media-license integrity is a CI gate, not a hope —
+      # the shipped-registry test fails the build on any tampered digest,
+      # unregistered file or missing metadata.
+      - name: Media/content validation
+        run: ./gradlew :core:content:test --console=plain --rerun-tasks --stacktrace
 
       - name: Upload test reports
         if: always()
@@ -44,4 +51,12 @@ jobs:
         with:
           name: test-reports
           path: '**/build/reports/tests/**'
+          if-no-files-found: ignore
+
+      - name: Upload lint reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lint-reports
+          path: '**/build/reports/lint-results-*.html'
           if-no-files-found: ignore

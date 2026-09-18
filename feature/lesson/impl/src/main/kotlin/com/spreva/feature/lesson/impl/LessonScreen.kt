@@ -53,13 +53,21 @@ fun LessonRoute(
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     val context = androidx.compose.ui.platform.LocalContext.current
 
-    // Phase 4.3: microphone permission for the shadowing starter.
+    // Phase 4.3 + audit §10: a granted permission starts recording in the
+    // same interaction — the empty callback used to force a second tap.
     val permissionLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
         androidx.activity.result.contract.ActivityResultContracts.RequestPermission(),
-    ) { }
+    ) { granted ->
+        if (granted) viewModel.startRecording()
+    }
 
     LaunchedEffect(lessonId) {
         viewModel.load(lessonId)
+    }
+
+    // Audit §8: navigate only after completion persistence succeeded.
+    LaunchedEffect(state.completionState) {
+        if (state.completionState == LessonCompletionState.Success) onFinished()
     }
 
     LessonScreen(
@@ -83,10 +91,8 @@ fun LessonRoute(
             ) == android.content.pm.PackageManager.PERMISSION_GRANTED
             if (granted) viewModel.startRecording() else permissionLauncher.launch(android.Manifest.permission.RECORD_AUDIO)
         },
-        onFinished = {
-            viewModel.finish()
-            onFinished()
-        },
+        onFinished = viewModel::finish,
+        uiLanguage = viewModel.uiLanguage.collectAsStateWithLifecycle().value,
     )
 }
 
@@ -107,6 +113,7 @@ internal fun LessonScreen(
     onPlayOwnRecording: () -> Unit,
     onRequestRecordPermission: () -> Unit,
     onFinished: () -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
 ) {
     when {
         state.isLoading -> Column(
@@ -142,6 +149,7 @@ internal fun LessonScreen(
             onPlayOwnRecording = onPlayOwnRecording,
             onRequestRecordPermission = onRequestRecordPermission,
             onFinished = onFinished,
+            uiLanguage = uiLanguage,
         )
     }
 }
@@ -162,6 +170,7 @@ private fun LessonContent(
     onPlayOwnRecording: () -> Unit,
     onRequestRecordPermission: () -> Unit,
     onFinished: () -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage = com.spreva.core.model.UiLanguage.ENGLISH,
 ) {
     val lesson = state.lesson ?: return
     val activity = lesson.activities.getOrNull(state.currentIndex)
@@ -210,6 +219,7 @@ private fun LessonContent(
                     is LearningActivity.VocabularyIntro -> VocabularyRenderer(
                         activity = current,
                         onSpeakWord = onSpeakWord,
+                        uiLanguage = uiLanguage,
                     )
                     is LearningActivity.MultipleChoice -> MultipleChoiceRenderer(
                         activity = current,
@@ -322,6 +332,13 @@ private fun SpeakingRepeatRenderer(
         }
 
         // 2) Record yourself (with runtime permission).
+        state.recordingError?.let { error ->
+            Text(
+                text = stringResource(R.string.spreva_lesson_recording_error),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.error,
+            )
+        }
         Button(
             onClick = { if (state.isRecording) onStopRecording() else onRequestPermission() },
             modifier = Modifier.fillMaxWidth(),
@@ -334,16 +351,40 @@ private fun SpeakingRepeatRenderer(
             )
         }
 
-        // 3) Compare by ear: play your own recording back.
+        // 3) Compare: play your own recording back + automatic similarity.
         if (state.hasRecording) {
             OutlinedButton(onClick = onPlayOwn, modifier = Modifier.fillMaxWidth()) {
                 Text(stringResource(R.string.spreva_lesson_play_own))
+            }
+            state.similarityScore?.let { score ->
+                SimilarityBar(score)
             }
         }
         Text(
             text = stringResource(R.string.spreva_lesson_shadowing_hint),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+    }
+}
+
+/**
+ * Phase 4.3: automatic waveform similarity readout (plan section 38 —
+ * "compare" step of the shadowing loop). Neutral visual language: a bar,
+ * never a judgmental grade — the learner judges themselves by ear first.
+ */
+@Composable
+private fun SimilarityBar(score: Float) {
+    val percent = (score * 100).toInt().coerceIn(0, 100)
+    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Text(
+            text = stringResource(R.string.spreva_lesson_similarity, percent),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        LinearProgressIndicator(
+            progress = { score.coerceIn(0f, 1f) },
+            modifier = Modifier.fillMaxWidth(),
         )
     }
 }
@@ -361,6 +402,7 @@ private fun TextIntroRenderer(activity: LearningActivity.TextIntro) {
 private fun VocabularyRenderer(
     activity: LearningActivity.VocabularyIntro,
     onSpeakWord: (String?, String, String?) -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         activity.words.forEach { word ->
@@ -386,7 +428,9 @@ private fun VocabularyRenderer(
                         }
                         word.plural?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
                         Text(
-                            text = word.translation.ar ?: word.translation.de,
+                            // Audit §9: instruction translation follows the UI
+                            // language; the German word itself stays German.
+                            text = word.translation.resolveFor(uiLanguage),
                             style = MaterialTheme.typography.bodyLarge,
                         )
                     }

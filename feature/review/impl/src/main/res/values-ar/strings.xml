@@ -12,4 +12,9 @@
     <string name="spreva_review_easy">سهل</string>
     <string name="spreva_review_session_done">انتهت مراجعات اليوم!</string>
     <string name="spreva_review_back_to_practice">العودة إلى المراجعة</string>
+    <string name="spreva_review_play_audio">شغّل التسجيل</string>
+    <string name="spreva_review_type_heard">اكتب ما سمعت</string>
+    <string name="spreva_review_check">تحقق</string>
+    <string name="spreva_review_correct">صحيح!</string>
+    <string name="spreva_review_answer_was">الإجابة: %1$s</string>
 </resources>

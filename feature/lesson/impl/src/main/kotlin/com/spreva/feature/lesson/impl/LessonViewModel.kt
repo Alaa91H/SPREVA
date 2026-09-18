@@ -4,12 +4,16 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
+import com.spreva.core.audio.AudioFileResolver
 import com.spreva.core.audio.CourseAudioPlayer
+import com.spreva.core.audio.MediaEnvelopeExtractor
 import com.spreva.core.audio.SpeechText
 import com.spreva.core.audio.TtsStatus
 import com.spreva.core.audio.TtsProvider
 import com.spreva.core.audio.VoiceRecorder
+import com.spreva.core.audio.WaveformComparator
 import com.spreva.core.common.AppClock
+import com.spreva.core.datastore.SettingsDataSource
 import com.spreva.core.model.ActivityAttempt
 import com.spreva.core.model.Lesson
 import com.spreva.core.model.LessonId
@@ -18,8 +22,11 @@ import com.spreva.domain.learning.LearningRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
 /**
@@ -41,10 +48,17 @@ class LessonViewModel @Inject constructor(
     private val ttsProvider: TtsProvider,
     private val courseAudioPlayer: CourseAudioPlayer,
     private val voiceRecorder: VoiceRecorder,
+    private val audioFileResolver: AudioFileResolver,
+    settingsDataSource: SettingsDataSource,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(LessonUiState())
     val uiState: StateFlow<LessonUiState> = _uiState.asStateFlow()
+
+    /** Audit §9: instruction-language for translation resolution. */
+    val uiLanguage = settingsDataSource.settings
+        .map { it.uiLanguage }
+        .stateIn(viewModelScope, SharingStarted.Eagerly, com.spreva.core.model.UiLanguage.ENGLISH)
 
     val ttsStatus: StateFlow<TtsStatus> = ttsProvider.status
 
@@ -130,8 +144,12 @@ class LessonViewModel @Inject constructor(
      */
     fun startRecording() {
         courseAudioPlayer.stop()
-        voiceRecorder.start(java.io.File(_recordingDir(), "spreva-voice.m4a"))
-        _uiState.value = _uiState.value.copy(isRecording = true)
+        val result = voiceRecorder.start(java.io.File(_recordingDir(), "spreva-voice.m4a"))
+        _uiState.value = _uiState.value.copy(
+            isRecording = result is com.spreva.core.audio.RecordingStartResult.Started,
+            // Audit §11: surface the failure instead of crashing the lesson.
+            recordingError = (result as? com.spreva.core.audio.RecordingStartResult.Failed)?.reason,
+        )
     }
 
     fun stopRecording() {
@@ -141,6 +159,36 @@ class LessonViewModel @Inject constructor(
             hasRecording = recording != null,
         )
         lastRecording = recording?.file
+        computeSimilarity()
+    }
+
+    /**
+     * Phase 4.3 completion: automatic waveform comparison between the
+     * learner's take and the native model recording. Both files are decoded
+     * to PCM envelopes ([MediaEnvelopeExtractor]) and scored with
+     * [WaveformComparator.similarity]. Null means "no automatic score" —
+     * e.g. a model recording failed to decode — in which case the UI keeps
+     * the compare-by-ear guidance (plan section 38: compare → re-record).
+     */
+    private fun computeSimilarity() {
+        val state = _uiState.value
+        val modelFile = state.lesson?.activities?.getOrNull(state.currentIndex)
+            ?.let { it as? com.spreva.core.model.LearningActivity.SpeakingRepeat }
+            ?.let { audioFileResolver.resolveFile(it.audio) }
+        val own = lastRecording ?: return
+        _uiState.value = _uiState.value.copy(
+            similarityScore = if (modelFile?.isFile == true) {
+                val model = MediaEnvelopeExtractor.extract(modelFile)
+                val learner = MediaEnvelopeExtractor.extract(own)
+                if (model.isNotEmpty() && learner.isNotEmpty()) {
+                    WaveformComparator.similarity(model, learner)
+                } else {
+                    null
+                }
+            } else {
+                null
+            },
+        )
     }
 
     /** Plays back the learner's own last recording (compare-by-ear). */
@@ -252,11 +300,24 @@ class LessonViewModel @Inject constructor(
         )
     }
 
-    /** Marks the lesson complete: progress + event + review cards. */
+    /**
+     * Marks the lesson complete: progress + event + review cards. The write
+     * is tracked in [LessonUiState.completionState]; the UI navigates only
+     * on [LessonCompletionState.Success] (audit §8 — an immediate navigation
+     * used to tear down the ViewModel scope before the persistence landed).
+     */
     fun finish() {
         val lesson = _uiState.value.lesson ?: return
+        if (_uiState.value.completionState == LessonCompletionState.Saving) return
+        _uiState.value = _uiState.value.copy(completionState = LessonCompletionState.Saving)
         viewModelScope.launch {
-            learningRepository.completeLesson(lesson.id, lesson.activities.size)
+            runCatching {
+                learningRepository.completeLesson(lesson.id, lesson.activities.size)
+            }.onSuccess {
+                _uiState.value = _uiState.value.copy(completionState = LessonCompletionState.Success)
+            }.onFailure {
+                _uiState.value = _uiState.value.copy(completionState = LessonCompletionState.Error)
+            }
         }
     }
 

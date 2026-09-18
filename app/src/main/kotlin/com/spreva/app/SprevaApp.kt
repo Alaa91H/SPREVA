@@ -47,7 +47,10 @@ fun SprevaApp(
     settings: UserSettings,
     widthSizeClass: WindowWidthSizeClass,
 ) {
-    val backStack = rememberNavBackStack(WelcomeKey)
+    // Start destination depends on persisted onboarding state (audit §5):
+    // returning users land on Home; first-run users on Welcome.
+    val startKey: NavKey = if (settings.onboardingComplete) HomeKey else WelcomeKey
+    val backStack = rememberNavBackStack(startKey)
 
     SprevaTheme(themeMode = settings.themeMode, useDynamicColor = settings.useDynamicColor) {
         val showRail = widthSizeClass != WindowWidthSizeClass.Compact

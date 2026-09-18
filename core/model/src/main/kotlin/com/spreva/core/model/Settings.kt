@@ -19,4 +19,6 @@ data class UserSettings(
     val themeMode: ThemeMode = ThemeMode.SYSTEM,
     val useDynamicColor: Boolean = false,
     val onboardingComplete: Boolean = false,
+    /** Learner goal from onboarding (audit §6). Null until chosen. */
+    val learningGoal: LearningGoal? = null,
 )

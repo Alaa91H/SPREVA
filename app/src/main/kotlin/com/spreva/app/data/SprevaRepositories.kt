@@ -205,18 +205,37 @@ class DefaultReviewCardProvisioner @Inject constructor(
     override suspend fun provisionCardsForLesson(lessonId: LessonId) {
         val lesson = contentSource.loadLesson(lessonId) ?: return
         val now = System.currentTimeMillis()
-        val cards = lesson.activities
+        val words = lesson.activities
             .filterIsInstance<com.spreva.core.model.LearningActivity.VocabularyIntro>()
             .flatMap { activity -> activity.words }
-            .map { word ->
-                ReviewCard(
-                    id = ReviewCardId("${lessonId.value}_${word.id}"),
-                    knowledgeItemId = com.spreva.core.model.KnowledgeItemId(word.id),
-                    prompt = word.german,
-                    answer = word.translation.ar ?: word.translation.de,
-                    dueAt = Instant.ofEpochMilli(now),
+        // Two modalities per word (plan section 90): text recognition and —
+        // when a recording exists — audio recall. Idempotent via fixed IDs:
+        // re-inserting the same cardIds is a no-op (OnConflictStrategy ignore).
+        val cards = words.flatMap { word ->
+            buildList {
+                add(
+                    ReviewCard(
+                        id = ReviewCardId("${lessonId.value}_${word.id}"),
+                        knowledgeItemId = com.spreva.core.model.KnowledgeItemId(word.id),
+                        prompt = word.german,
+                        answer = word.translation.ar ?: word.translation.de,
+                        dueAt = Instant.ofEpochMilli(now),
+                    ),
                 )
+                word.audio?.let { audio ->
+                    add(
+                        ReviewCard(
+                            id = ReviewCardId("${lessonId.value}_${word.id}_audio"),
+                            knowledgeItemId = com.spreva.core.model.KnowledgeItemId(word.id),
+                            prompt = "",
+                            answer = word.german,
+                            dueAt = Instant.ofEpochMilli(now),
+                            audioPath = audio,
+                        ),
+                    )
+                }
             }
+        }
         reviewCardDao.insertAll(cards.map(ReviewCard::toEntity))
     }
 

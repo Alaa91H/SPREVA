@@ -129,4 +129,5 @@ data class MediaFileLicenseDto(
     @SerialName("license") val license: String,
     @SerialName("licenseUrl") val licenseUrl: String? = null,
     @SerialName("attribution") val attribution: String,
+    @SerialName("sha256") val sha256: String? = null,
 )

@@ -7,6 +7,7 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
+import com.spreva.core.model.LearningGoal
 import com.spreva.core.model.ThemeMode
 import com.spreva.core.model.UiLanguage
 import com.spreva.core.model.UserSettings
@@ -26,6 +27,7 @@ class SettingsDataSource(private val context: Context) {
         val THEME_MODE = stringPreferencesKey("theme_mode")
         val DYNAMIC_COLOR = booleanPreferencesKey("dynamic_color")
         val ONBOARDING_COMPLETE = booleanPreferencesKey("onboarding_complete")
+        val LEARNING_GOAL = stringPreferencesKey("learning_goal")
     }
 
     val settings: Flow<UserSettings> = context.settingsDataStore.data.map { prefs ->
@@ -36,6 +38,7 @@ class SettingsDataSource(private val context: Context) {
                 ?: ThemeMode.SYSTEM,
             useDynamicColor = prefs[Keys.DYNAMIC_COLOR] ?: false,
             onboardingComplete = prefs[Keys.ONBOARDING_COMPLETE] ?: false,
+            learningGoal = prefs[Keys.LEARNING_GOAL]?.let { runCatching { LearningGoal.valueOf(it) }.getOrNull() },
         )
     }
 
@@ -53,5 +56,9 @@ class SettingsDataSource(private val context: Context) {
 
     suspend fun setOnboardingComplete(complete: Boolean) {
         context.settingsDataStore.edit { it[Keys.ONBOARDING_COMPLETE] = complete }
+    }
+
+    suspend fun setLearningGoal(goal: LearningGoal) {
+        context.settingsDataStore.edit { it[Keys.LEARNING_GOAL] = goal.name }
     }
 }

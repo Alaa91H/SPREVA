@@ -19,4 +19,6 @@
     <string name="spreva_lesson_stop_recording">أوقف التسجيل</string>
     <string name="spreva_lesson_play_own">شغّل تسجيلك</string>
     <string name="spreva_lesson_shadowing_hint">استمع، ثم ردّد بصوت عالٍ، ثم قارن بأذنيك. يبقى تسجيلك على الجهاز ويُحذف عند مغادرة الدرس.</string>
+    <string name="spreva_lesson_similarity">تشابه شكل الموجة: %1$d%%</string>
+    <string name="spreva_lesson_recording_error">تعذّر بدء التسجيل. قد يكون المايكروفون مستخدمًا — حاول مجددًا.</string>
 </resources>

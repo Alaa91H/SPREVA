@@ -9,6 +9,7 @@ android {
 dependencies {
     implementation(project(":feature:review:api"))
     implementation(project(":core:common"))
+    implementation(project(":core:audio"))
     implementation(project(":domain:review"))
     implementation(project(":domain:learning"))
 }

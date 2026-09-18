@@ -7,4 +7,9 @@
     <string name="spreva_onboarding_goal">ما هدفك من التعلم؟</string>
     <string name="spreva_onboarding_done">أنت جاهز!</string>
     <string name="spreva_onboarding_continue">متابعة</string>
+    <string name="spreva_onboarding_goal_zero">ابدأ من الصفر</string>
+    <string name="spreva_onboarding_goal_daily_life">الحياة اليومية في ألمانيا</string>
+    <string name="spreva_onboarding_goal_conversation">المحادثة</string>
+    <string name="spreva_onboarding_goal_work">العمل</string>
+    <string name="spreva_onboarding_goal_exam">التحضير للامتحان</string>
 </resources>

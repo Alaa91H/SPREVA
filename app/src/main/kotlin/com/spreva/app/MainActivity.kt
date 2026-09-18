@@ -30,7 +30,13 @@ class MainActivity : AppCompatActivity() {
 
         setContent {
             val viewModel: MainViewModel = androidx.hilt.navigation.compose.hiltViewModel()
-            val settings by viewModel.settings.collectAsStateWithLifecycle()
+            val bootstrap by viewModel.bootstrap.collectAsStateWithLifecycle()
+
+            // Block the shell until the first real settings value arrives:
+            // the initial navigation stack must reflect persisted onboarding
+            // state, never a default (audit §5).
+            val ready = bootstrap as? AppBootstrapState.Ready ?: return@setContent
+            val settings = ready.settings
 
             // Persisted locale applied at composition root.
             LaunchedEffect(settings.uiLanguage) {

@@ -7,10 +7,12 @@
       "name": "Wikimedia Commons",
       "url": "https://commons.wikimedia.org/",
       "license": "per-file (see files)",
-      "attribution": "Required — listed per file below",
-      "allowedUses": ["app-bundled-playback"],
-      "redistribution": "allowed under each file's CC BY-SA 4.0 license with attribution and share-alike",
-      "commercialUse": "allowed under CC BY-SA 4.0",
+      "attribution": "Required â€” listed per file below",
+      "allowedUses": [
+        "app-bundled-playback"
+      ],
+      "redistribution": "allowed under each file's CC BY-SA license (4.0 or 3.0 as listed per file) with attribution and share-alike",
+      "commercialUse": "allowed under CC BY-SA (version per file)",
       "version": "2026-09-18 snapshot"
     }
   ],
@@ -21,8 +23,8 @@
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/De-Hallo.ogg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) â€” Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "0d5c04c348897e57c1a6be865f85de9d18829c1b8dea1c2a814b6c6c31b8f25a"
     },
     {
       "path": "content/audio/cc-by-sa/de-guten-morgen.ogg",
@@ -30,8 +32,8 @@
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/De-guten_Morgen.ogg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) â€” Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "c279e0d39b74cc47ae6957a68a6d786ff01f56121fbd9dc2190325db0fa42eef"
     },
     {
       "path": "content/audio/cc-by-sa/de-ich-heisse.ogg",
@@ -39,8 +41,8 @@
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/De-Ich_hei%C3%9Fe_....ogg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) â€” Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "41b8c73bf99d6ec8f396cb515ef1293cc92712ba6e6471427ea0ba17eff63e84"
     },
     {
       "path": "content/audio/cc-by-sa/de-wie-heisst-du.ogg",
@@ -48,96 +50,96 @@
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/De-Wie_hei%C3%9Ft_du%3F.ogg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) â€” Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "43bb2e2f552e773e40be3c9a8ff4a9c2ea7a128ac80a66709060c9f42231607b"
     },
     {
       "path": "content/audio/cc-by-sa/de-eins.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-eins.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "07e7f3658a6ce5f795eae7078a6bd847fe2ba764b91f99446b6f118853bbe73b"
     },
     {
       "path": "content/audio/cc-by-sa/de-zwei.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-zwei.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "74feede6b98a27a458d8382af32d37d42cdefcb0206e810fd67781111e353ee6"
     },
     {
       "path": "content/audio/cc-by-sa/de-drei.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-drei.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "f96a900e17c9158102c5fd9e095b77afb9afe704f0ef226e64e3be0be9ce3fac"
     },
     {
       "path": "content/audio/cc-by-sa/de-vier.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-vier.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "bcc3a18e008aff365001603a3fbb7be74873a43cb9d44b5b31a0732d001a82c0"
     },
     {
       "path": "content/audio/cc-by-sa/de-fuenf.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-f%C3%BCnf.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "c0ed81f9e240226623ec8cedc204a76b8ab4817508a97ca33997dde1992ecaa3"
     },
     {
       "path": "content/audio/cc-by-sa/de-sechs.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-sechs.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "cd560ca78ae79477f837eb9b0ed393e5169e66acd310b3edb724ed70176d7d2e"
     },
     {
       "path": "content/audio/cc-by-sa/de-sieben.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-sieben.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "9aaeb71b318802a6d45836cce00f32562450d92f0245d562c4caaeb496436410"
     },
     {
       "path": "content/audio/cc-by-sa/de-acht.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-acht.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "19273b47c561acef5d5404324d57439f1e38e54579b541714c57a5a36b510b67"
     },
     {
       "path": "content/audio/cc-by-sa/de-neun.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-neun.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "3ce62221c3def9e5dd8b343788e037e0a813e2c4ea49d341baec7092a56a69fc"
     },
     {
       "path": "content/audio/cc-by-sa/de-zehn.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-zehn.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: joni — German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: joni â€” German Wiktionary via Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "a7c67a70a3012a6f5717dbe584c8f62705c2e40d4e9779853cee5ce3f6297b7a"
     },
     {
       "path": "content/audio/cc-by-sa/de-uhr.ogg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Uhr.ogg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": "Recording: Kampy — Wikimedia Commons, CC BY-SA 3.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: Kampy â€” Wikimedia Commons, CC BY-SA 3.0",
+      "sha256": "479a3aae173d797c565b7b7abd8e608a4fba8bff8da786c6b80b651610e00bf6"
     },
     {
       "path": "content/audio/cc-by-sa/de-tschues.ogg",
@@ -145,12 +147,12 @@
       "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/De-Tsch%C3%BCs.ogg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": "Recording: Jeuwre (native German speaker, Berlin) — Wikimedia Commons, CC BY-SA 4.0",
-      "sha256": "fill-on-release-packaging"
+      "attribution": "Recording: Jeuwre (native German speaker, Berlin) â€” Wikimedia Commons, CC BY-SA 4.0",
+      "sha256": "26021d5c22f651bea871e391e88b52265befb201aab48175b19104873cf46db0"
     }
   ],
   "notes": [
-    "Deliberately excluded: De-Hallo-2.ogg and De-Guten Morgen.oga (GFDL / CC BY-NC-SA — non-commercial variants are not suitable for the product).",
+    "Deliberately excluded: De-Hallo-2.ogg and De-Guten Morgen.oga (GFDL / CC BY-NC-SA â€” non-commercial variants are not suitable for the product).",
     "sha256 values are verified at packaging time by the content validator (plan section 97)."
   ]
 }

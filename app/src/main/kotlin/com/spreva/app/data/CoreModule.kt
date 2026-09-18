@@ -3,6 +3,7 @@ package com.spreva.app.data
 import android.content.Context
 import androidx.room3.Room
 import com.spreva.core.audio.AndroidTtsProvider
+import com.spreva.core.audio.AudioFileResolver
 import com.spreva.core.audio.CourseAudioLocator
 import com.spreva.core.audio.CourseAudioPlayer
 import com.spreva.core.audio.ExoPlayerCourseAudioPlayer
@@ -37,6 +38,7 @@ object CoreModule {
     @Singleton
     fun provideDatabase(@ApplicationContext context: Context): SprevaDatabase =
         Room.databaseBuilder(context, SprevaDatabase::class.java, SprevaDatabase.NAME)
+            .addMigrations(*SprevaDatabase.MIGRATIONS)
             .fallbackToDestructiveMigration(dropAllTables = true)
             .build()
 
@@ -76,6 +78,29 @@ object CoreModule {
     @Provides
     @Singleton
     fun provideVoiceRecorder(recorder: MediaRecorderVoiceRecorder): VoiceRecorder = recorder
+
+    /**
+     * Copies a bundled asset recording to a real file so analysis code
+     * (Phase 4.3 waveform comparison) can decode it — MediaExtractor needs a
+     * file descriptor, not an asset stream. Cached per file; assets are
+     * immutable so a stale copy is always content-identical.
+     */
+    @Provides
+    @Singleton
+    fun provideAudioFileResolver(@ApplicationContext context: Context): AudioFileResolver =
+        AudioFileResolver { path ->
+            runCatching {
+                val outDir = java.io.File(context.codeCacheDir, "audio-analysis").also { it.mkdirs() }
+                val safeName = path.replace('/', '_')
+                val outFile = java.io.File(outDir, safeName)
+                if (!outFile.exists() || outFile.length() == 0L) {
+                    context.assets.open("content/$path").use { input ->
+                        outFile.outputStream().use { output -> input.copyTo(output) }
+                    }
+                }
+                outFile.takeIf { it.length() > 0 }
+            }.getOrNull()
+        }
 
     @Provides
     @Singleton

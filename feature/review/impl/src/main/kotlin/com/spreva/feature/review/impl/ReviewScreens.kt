@@ -10,8 +10,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -61,8 +63,11 @@ fun ReviewSessionRoute(onFinished: () -> Unit, viewModel: ReviewSessionViewModel
     val queue by viewModel.queue.collectAsStateWithLifecycle()
     val revealed by viewModel.revealed.collectAsStateWithLifecycle()
     val gradedCount by viewModel.gradedCount.collectAsStateWithLifecycle()
+    val typedAnswer by viewModel.typedAnswer.collectAsStateWithLifecycle()
+    val audioCheck by viewModel.audioCheck.collectAsStateWithLifecycle()
 
     val current = queue.dueCards.firstOrNull()
+    val isAudioCard = current?.audioPath != null
 
     Column(
         Modifier
@@ -96,46 +101,94 @@ fun ReviewSessionRoute(onFinished: () -> Unit, viewModel: ReviewSessionViewModel
                         .padding(24.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
                 ) {
-                    Text(
-                        text = current.prompt,
-                        style = MaterialTheme.typography.headlineMedium,
-                    )
-                    if (revealed) {
-                        Text(
-                            text = current.answer,
-                            style = MaterialTheme.typography.titleMedium,
-                            color = MaterialTheme.colorScheme.primary,
+                    if (isAudioCard) {
+                        // Phase 4.3 audio recall: hear it, type it. The prompt
+                        // field is intentionally empty for these cards.
+                        Button(onClick = { viewModel.playCardAudio(current) }, modifier = Modifier.fillMaxWidth()) {
+                            Text(stringResource(R.string.spreva_review_play_audio))
+                        }
+                        OutlinedTextField(
+                            value = typedAnswer,
+                            onValueChange = viewModel::onAnswerChanged,
+                            enabled = audioCheck == null,
+                            singleLine = true,
+                            modifier = Modifier.fillMaxWidth(),
+                            label = { Text(stringResource(R.string.spreva_review_type_heard)) },
                         )
+                        when (audioCheck) {
+                            true -> Text(
+                                text = stringResource(R.string.spreva_review_correct),
+                                color = MaterialTheme.colorScheme.primary,
+                                style = MaterialTheme.typography.titleMedium,
+                            )
+                            false -> Text(
+                                text = stringResource(R.string.spreva_review_answer_was, current.answer),
+                                color = MaterialTheme.colorScheme.error,
+                                style = MaterialTheme.typography.bodyMedium,
+                            )
+                            null -> Unit
+                        }
+                    } else {
+                        Text(
+                            text = current.prompt,
+                            style = MaterialTheme.typography.headlineMedium,
+                        )
+                        if (revealed) {
+                            Text(
+                                text = current.answer,
+                                style = MaterialTheme.typography.titleMedium,
+                                color = MaterialTheme.colorScheme.primary,
+                            )
+                        }
                     }
                 }
             }
             Spacer(Modifier.weight(1f))
-            if (!revealed) {
+            if (isAudioCard) {
+                // Audio flow: check typed answer first, then self-grade.
+                if (audioCheck == null) {
+                    Button(
+                        onClick = { current?.let(viewModel::checkAudioAnswer) },
+                        enabled = typedAnswer.isNotBlank(),
+                        modifier = Modifier.fillMaxWidth(),
+                    ) {
+                        Text(stringResource(R.string.spreva_review_check))
+                    }
+                } else {
+                    GradeButtons(viewModel = viewModel)
+                }
+            } else if (!revealed) {
                 Button(onClick = viewModel::reveal, modifier = Modifier.fillMaxWidth()) {
                     Text(stringResource(R.string.spreva_review_show_answer))
                 }
             } else {
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                    OutlinedButton(
-                        onClick = { viewModel.grade(ReviewRating.AGAIN) },
-                        modifier = Modifier.weight(1f),
-                    ) { Text(stringResource(R.string.spreva_review_again)) }
-                    OutlinedButton(
-                        onClick = { viewModel.grade(ReviewRating.HARD) },
-                        modifier = Modifier.weight(1f),
-                    ) { Text(stringResource(R.string.spreva_review_hard)) }
-                }
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                    Button(
-                        onClick = { viewModel.grade(ReviewRating.GOOD) },
-                        modifier = Modifier.weight(1f),
-                    ) { Text(stringResource(R.string.spreva_review_good)) }
-                    Button(
-                        onClick = { viewModel.grade(ReviewRating.EASY) },
-                        modifier = Modifier.weight(1f),
-                    ) { Text(stringResource(R.string.spreva_review_easy)) }
-                }
+                GradeButtons(viewModel = viewModel)
             }
         }
+    }
+}
+
+/** Again/Hard/Good/Easy — extracted so both card flows share it. */
+@Composable
+private fun GradeButtons(viewModel: ReviewSessionViewModel) {
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+        OutlinedButton(
+            onClick = { viewModel.grade(ReviewRating.AGAIN) },
+            modifier = Modifier.weight(1f),
+        ) { Text(stringResource(R.string.spreva_review_again)) }
+        OutlinedButton(
+            onClick = { viewModel.grade(ReviewRating.HARD) },
+            modifier = Modifier.weight(1f),
+        ) { Text(stringResource(R.string.spreva_review_hard)) }
+    }
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+        Button(
+            onClick = { viewModel.grade(ReviewRating.GOOD) },
+            modifier = Modifier.weight(1f),
+        ) { Text(stringResource(R.string.spreva_review_good)) }
+        Button(
+            onClick = { viewModel.grade(ReviewRating.EASY) },
+            modifier = Modifier.weight(1f),
+        ) { Text(stringResource(R.string.spreva_review_easy)) }
     }
 }

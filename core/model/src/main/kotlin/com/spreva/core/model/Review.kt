@@ -12,7 +12,7 @@ import kotlinx.serialization.Serializable
 data class ReviewCard(
     val id: ReviewCardId,
     val knowledgeItemId: KnowledgeItemId,
-    /** German prompt shown to the learner. */
+    /** German prompt shown to the learner (empty for audio cards). */
     val prompt: String,
     /** Expected answer / translation hint. */
     val answer: String,
@@ -23,6 +23,12 @@ data class ReviewCard(
     val schedulerVersion: String = SCHEDULER_VERSION_DEMO,
     /** Opaque serialized scheduler state for recompute/migration. */
     val schedulerState: String? = null,
+    /**
+     * Audio-card variant (Phase 4.3): bundled recording path, relative to
+     * content/. Non-null turns the review into listening recall — play the
+     * recording, type the German phrase. Prompt is then empty.
+     */
+    val audioPath: String? = null,
 ) {
     companion object {
         const val SCHEDULER_VERSION_DEMO = "demo-v1"

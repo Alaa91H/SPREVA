@@ -19,4 +19,6 @@
     <string name="spreva_lesson_stop_recording">Stop recording</string>
     <string name="spreva_lesson_play_own">Play your recording</string>
     <string name="spreva_lesson_shadowing_hint">Listen, repeat out loud, then compare by ear. Your recording stays on the device and is deleted when you leave the lesson.</string>
+    <string name="spreva_lesson_similarity">Waveform similarity: %1$d%%</string>
+    <string name="spreva_lesson_recording_error">Recording could not start. The microphone may be in use — please try again.</string>
 </resources>
