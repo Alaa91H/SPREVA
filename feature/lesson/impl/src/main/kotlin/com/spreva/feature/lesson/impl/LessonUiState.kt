@@ -3,6 +3,8 @@ package com.spreva.feature.lesson.impl
 import com.spreva.core.audio.TtsStatus
 import com.spreva.core.model.ActivityId
 import com.spreva.core.model.Lesson
+import com.spreva.core.model.ProductionRubric
+import com.spreva.core.model.RubricRating
 
 /** Grading result of the current activity attempt. */
 data class AnswerState(
@@ -58,7 +60,16 @@ data class LessonUiState(
     /** Productive tasks are tracked for completion only, never linguistic-quality scoring. */
     val productiveAttempted: Int = 0,
     val productiveCompleted: Int = 0,
+    /** Criterion-referenced learner self-review for productive tasks. */
+    val productionRubric: ProductionRubric? = null,
+    val rubricRatings: Map<String, RubricRating> = emptyMap(),
+    val rubricSubmitted: Boolean = false,
+    val rubricScorePercent: Int? = null,
+    val rubricSaveError: String? = null,
 ) {
+    val canSubmitRubric: Boolean
+        get() = productionRubric?.criteria?.all { rubricRatings.containsKey(it.id) } == true
+
     /** Whether the Check button should be enabled for the current activity. */
     val canCheck: Boolean
         get() {
