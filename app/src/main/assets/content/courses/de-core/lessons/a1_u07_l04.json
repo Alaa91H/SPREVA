@@ -1,0 +1,378 @@
+{
+  "id": "a1_u07_l04",
+  "unitId": "de-core-a1-u07",
+  "title": {
+    "de": "Falltraining: Einkaufen & Geld",
+    "ar": "تدريب الحالات: التسوق والمال",
+    "en": "Casebook: Shopping & money"
+  },
+  "canDo": [
+    "A1_U07_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u07_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Casebook — ähnliche Fälle sicher unterscheiden",
+        "ar": "دفتر الحالات — التمييز الآمن بين الحالات المتشابهة",
+        "en": "Casebook — distinguish similar cases"
+      },
+      "body": {
+        "de": "Thema: Einkaufen & Geld\n\nZiel: Nicht nur einen Mustersatz kennen, sondern ähnliche Formen gegeneinander abgrenzen. Arbeite jeden Fall dreifach: korrekt ergänzen → Regel laut erklären → neue Variante bilden.\n\nKontrastpunkte:\n• wie viel für Preis/Menge; wie viele für zählbare Pluralnomen\n• bar ohne Präposition; mit Karte / mit der Karte\n• brauchen + Akkusativ",
+        "ar": "الموضوع: التسوق والمال\n\nالهدف: عدم الاكتفاء بجملة نموذجية واحدة، بل التمييز بين الصيغ المتشابهة. اعمل على كل حالة بثلاث خطوات: أكملها بشكل صحيح ← اشرح القاعدة ← أنشئ مثالًا جديدًا.\n\nنقاط المقارنة:\n• wie viel für Preis/Menge; wie viele für zählbare Pluralnomen\n• bar ohne Präposition; mit Karte / mit der Karte\n• brauchen + Akkusativ",
+        "en": "Topic: Shopping & money\n\nGoal: go beyond one model sentence and discriminate similar forms. Work each case in three steps: complete correctly → explain the rule aloud → create a new variant.\n\nContrast points:\n• wie viel für Preis/Menge; wie viele für zählbare Pluralnomen\n• bar ohne Präposition; mit Karte / mit der Karte\n• brauchen + Akkusativ"
+      }
+    },
+    {
+      "id": "a1_u07_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u07_l04_w1",
+          "german": "kosten",
+          "translation": {
+            "de": "kosten",
+            "ar": "يكلف",
+            "en": "cost"
+          }
+        },
+        {
+          "id": "a1_u07_l04_w2",
+          "german": "billig",
+          "translation": {
+            "de": "billig",
+            "ar": "رخيص",
+            "en": "cheap"
+          }
+        },
+        {
+          "id": "a1_u07_l04_w3",
+          "german": "teuer",
+          "translation": {
+            "de": "teuer",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        },
+        {
+          "id": "a1_u07_l04_w4",
+          "german": "bar",
+          "translation": {
+            "de": "bar",
+            "ar": "نقدًا",
+            "en": "cash"
+          }
+        },
+        {
+          "id": "a1_u07_l04_w5",
+          "german": "mit Karte",
+          "translation": {
+            "de": "mit Karte",
+            "ar": "بالبطاقة",
+            "en": "by card"
+          }
+        },
+        {
+          "id": "a1_u07_l04_w6",
+          "german": "brauchen",
+          "translation": {
+            "de": "brauchen",
+            "ar": "يحتاج",
+            "en": "need"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u07_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wie viel {answer} das?",
+        "ar": "Wie viel {answer} das?",
+        "en": "Wie viel {answer} das?"
+      },
+      "acceptedAnswers": [
+        "kostet"
+      ]
+    },
+    {
+      "id": "a1_u07_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} eine größere Größe.",
+        "ar": "Ich {answer} eine größere Größe.",
+        "en": "Ich {answer} eine größere Größe."
+      },
+      "acceptedAnswers": [
+        "brauche"
+      ]
+    },
+    {
+      "id": "a1_u07_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kann ich {answer} Karte zahlen?",
+        "ar": "Kann ich {answer} Karte zahlen?",
+        "en": "Kann ich {answer} Karte zahlen?"
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "a1_u07_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich zahle {answer}.",
+        "ar": "Ich zahle {answer}.",
+        "en": "Ich zahle {answer}."
+      },
+      "acceptedAnswers": [
+        "bar"
+      ]
+    },
+    {
+      "id": "a1_u07_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist zu {answer}.",
+        "ar": "Das ist zu {answer}.",
+        "en": "Das ist zu {answer}."
+      },
+      "acceptedAnswers": [
+        "teuer"
+      ]
+    },
+    {
+      "id": "a1_u07_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Haben Sie das {answer}?",
+        "ar": "Haben Sie das {answer}?",
+        "en": "Haben Sie das {answer}?"
+      },
+      "acceptedAnswers": [
+        "billiger"
+      ]
+    },
+    {
+      "id": "a1_u07_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "kosten",
+        "ar": "kosten",
+        "en": "kosten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "cost",
+            "ar": "يكلف",
+            "en": "cost"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "cheap",
+            "ar": "رخيص",
+            "en": "cheap"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u07_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "billig",
+        "ar": "billig",
+        "en": "billig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "cheap",
+            "ar": "رخيص",
+            "en": "cheap"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "cash",
+            "ar": "نقدًا",
+            "en": "cash"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u07_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "teuer",
+        "ar": "teuer",
+        "en": "teuer"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "cash",
+            "ar": "نقدًا",
+            "en": "cash"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "by card",
+            "ar": "بالبطاقة",
+            "en": "by card"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u07_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "bar",
+        "ar": "bar",
+        "en": "bar"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "cash",
+            "ar": "نقدًا",
+            "en": "cash"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "by card",
+            "ar": "بالبطاقة",
+            "en": "by card"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "need",
+            "ar": "يحتاج",
+            "en": "need"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u07_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlergalerie — falsch → warum → richtig",
+        "ar": "معرض الأخطاء — خطأ ← لماذا ← صحيح",
+        "en": "Error gallery — wrong → why → right"
+      },
+      "body": {
+        "de": "Analysiere jeden Fehler, bevor du die Korrektur liest:\n• ❌ Wie viele kostet das? → ✅ Wie viel kostet das?\n• ❌ Ich brauche ein Jacke. → ✅ eine Jacke\n• ❌ mit die Karte → ✅ mit Karte / mit der Karte\n• ❌ Ich zahle mit bar. → ✅ Ich zahle bar.\n\nDanach: verdecke die Korrektur, korrigiere aus dem Gedächtnis und bilde mit derselben Regel einen neuen Satz.",
+        "ar": "حلّل سبب كل خطأ قبل قراءة التصحيح:\n• ❌ Wie viele kostet das? → ✅ Wie viel kostet das?\n• ❌ Ich brauche ein Jacke. → ✅ eine Jacke\n• ❌ mit die Karte → ✅ mit Karte / mit der Karte\n• ❌ Ich zahle mit bar. → ✅ Ich zahle bar.\n\nبعد ذلك أخفِ التصحيح، صحح من الذاكرة وأنشئ جملة جديدة بنفس القاعدة.",
+        "en": "Analyze why each error is wrong before reading the correction:\n• ❌ Wie viele kostet das? → ✅ Wie viel kostet das?\n• ❌ Ich brauche ein Jacke. → ✅ eine Jacke\n• ❌ mit die Karte → ✅ mit Karte / mit der Karte\n• ❌ Ich zahle mit bar. → ✅ Ich zahle bar.\n\nThen hide the correction, fix it from memory and create a new sentence with the same rule."
+      }
+    },
+    {
+      "id": "a1_u07_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdrill — eine Bedeutung, mehrere Formen",
+        "ar": "تدريب المقارنة — معنى واحد وصيغ متعددة",
+        "en": "Contrast drill — one meaning, multiple forms"
+      },
+      "body": {
+        "de": "Arbeite die Unterschiede aktiv heraus:\n• wie viel für Preis/Menge; wie viele für zählbare Pluralnomen\n• bar ohne Präposition; mit Karte / mit der Karte\n• brauchen + Akkusativ\n\nFür jeden Punkt: bilde ein Minimalpaar, ändere genau ein Element und erkläre, warum sich Form oder Bedeutung ändert.",
+        "ar": "استخرج الفروق بنشاط:\n• wie viel für Preis/Menge; wie viele für zählbare Pluralnomen\n• bar ohne Präposition; mit Karte / mit der Karte\n• brauchen + Akkusativ\n\nلكل نقطة أنشئ زوجًا متقاربًا، غيّر عنصرًا واحدًا فقط، واشرح لماذا تغير الشكل أو المعنى.",
+        "en": "Actively work out the contrasts:\n• wie viel für Preis/Menge; wie viele für zählbare Pluralnomen\n• bar ohne Präposition; mit Karte / mit der Karte\n• brauchen + Akkusativ\n\nFor each point create a minimal pair, change exactly one element and explain why form or meaning changes."
+      }
+    },
+    {
+      "id": "a1_u07_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Circuit — vier Wiederholungen",
+        "ar": "دائرة الحياة الواقعية — أربع جولات",
+        "en": "Real-life circuit — four repetitions"
+      },
+      "body": {
+        "de": "Vergleiche drei Produkte nach Preis und Größe, frage nach einer Alternative und bezahle mit zwei unterschiedlichen Zahlungsarten.\n\nWiederholung 1: mit Vorlage. Wiederholung 2: ohne Vorlage. Wiederholung 3: Rollen tauschen oder Daten ändern. Wiederholung 4: nach einer Pause erneut durchführen und alle Selbstkorrekturen markieren.",
+        "ar": "Vergleiche drei Produkte nach Preis und Größe, frage nach einer Alternative und bezahle mit zwei unterschiedlichen Zahlungsarten.\n\nالجولة 1: مع النموذج. الجولة 2: دون نموذج. الجولة 3: بدّل الأدوار أو البيانات. الجولة 4: بعد فاصل زمني أعد المهمة وحدد كل تصحيح ذاتي.",
+        "en": "Vergleiche drei Produkte nach Preis und Größe, frage nach einer Alternative und bezahle mit zwei unterschiedlichen Zahlungsarten.\n\nRound 1: with the model. Round 2: without it. Round 3: swap roles or details. Round 4: repeat after a delay and mark every self-correction."
+      }
+    },
+    {
+      "id": "a1_u07_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A1",
+        "en": "A1 casebook complete"
+      },
+      "canDo": [
+        "A1_U07_CASEBOOK"
+      ]
+    }
+  ]
+}

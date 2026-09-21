@@ -1,0 +1,378 @@
+{
+  "id": "a1_u02_l04",
+  "unitId": "de-core-a1-u02",
+  "title": {
+    "de": "Falltraining: Alphabet, Aussprache & persönliche Daten",
+    "ar": "تدريب الحالات: الأبجدية والنطق والبيانات الشخصية",
+    "en": "Casebook: Alphabet, pronunciation & personal data"
+  },
+  "canDo": [
+    "A1_U02_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u02_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Casebook — ähnliche Fälle sicher unterscheiden",
+        "ar": "دفتر الحالات — التمييز الآمن بين الحالات المتشابهة",
+        "en": "Casebook — distinguish similar cases"
+      },
+      "body": {
+        "de": "Thema: Alphabet, Aussprache & persönliche Daten\n\nZiel: Nicht nur einen Mustersatz kennen, sondern ähnliche Formen gegeneinander abgrenzen. Arbeite jeden Fall dreifach: korrekt ergänzen → Regel laut erklären → neue Variante bilden.\n\nKontrastpunkte:\n• Name ≠ Vorname ≠ Nachname\n• Adresse: Straße + Hausnummer + PLZ + Ort\n• Telefonnummer langsam gruppieren; bei Rückfragen einzelne Ziffern wiederholen",
+        "ar": "الموضوع: الأبجدية والنطق والبيانات الشخصية\n\nالهدف: عدم الاكتفاء بجملة نموذجية واحدة، بل التمييز بين الصيغ المتشابهة. اعمل على كل حالة بثلاث خطوات: أكملها بشكل صحيح ← اشرح القاعدة ← أنشئ مثالًا جديدًا.\n\nنقاط المقارنة:\n• Name ≠ Vorname ≠ Nachname\n• Adresse: Straße + Hausnummer + PLZ + Ort\n• Telefonnummer langsam gruppieren; bei Rückfragen einzelne Ziffern wiederholen",
+        "en": "Topic: Alphabet, pronunciation & personal data\n\nGoal: go beyond one model sentence and discriminate similar forms. Work each case in three steps: complete correctly → explain the rule aloud → create a new variant.\n\nContrast points:\n• Name ≠ Vorname ≠ Nachname\n• Adresse: Straße + Hausnummer + PLZ + Ort\n• Telefonnummer langsam gruppieren; bei Rückfragen einzelne Ziffern wiederholen"
+      }
+    },
+    {
+      "id": "a1_u02_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u02_l04_w1",
+          "german": "buchstabieren",
+          "translation": {
+            "de": "buchstabieren",
+            "ar": "يُهجّي",
+            "en": "spell"
+          }
+        },
+        {
+          "id": "a1_u02_l04_w2",
+          "german": "der Vorname",
+          "translation": {
+            "de": "der Vorname",
+            "ar": "الاسم الأول",
+            "en": "first name"
+          }
+        },
+        {
+          "id": "a1_u02_l04_w3",
+          "german": "der Nachname",
+          "translation": {
+            "de": "der Nachname",
+            "ar": "اسم العائلة",
+            "en": "surname"
+          }
+        },
+        {
+          "id": "a1_u02_l04_w4",
+          "german": "die Adresse",
+          "translation": {
+            "de": "die Adresse",
+            "ar": "العنوان",
+            "en": "address"
+          }
+        },
+        {
+          "id": "a1_u02_l04_w5",
+          "german": "die Telefonnummer",
+          "translation": {
+            "de": "die Telefonnummer",
+            "ar": "رقم الهاتف",
+            "en": "phone number"
+          }
+        },
+        {
+          "id": "a1_u02_l04_w6",
+          "german": "das Geburtsdatum",
+          "translation": {
+            "de": "das Geburtsdatum",
+            "ar": "تاريخ الميلاد",
+            "en": "date of birth"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u02_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können Sie Ihren Namen {answer}?",
+        "ar": "Können Sie Ihren Namen {answer}?",
+        "en": "Können Sie Ihren Namen {answer}?"
+      },
+      "acceptedAnswers": [
+        "buchstabieren"
+      ]
+    },
+    {
+      "id": "a1_u02_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein {answer} ist Ahmad.",
+        "ar": "Mein {answer} ist Ahmad.",
+        "en": "Mein {answer} ist Ahmad."
+      },
+      "acceptedAnswers": [
+        "Vorname"
+      ]
+    },
+    {
+      "id": "a1_u02_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein {answer} ist Hassan.",
+        "ar": "Mein {answer} ist Hassan.",
+        "en": "Mein {answer} ist Hassan."
+      },
+      "acceptedAnswers": [
+        "Nachname"
+      ]
+    },
+    {
+      "id": "a1_u02_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wie ist Ihre {answer}?",
+        "ar": "Wie ist Ihre {answer}?",
+        "en": "Wie ist Ihre {answer}?"
+      },
+      "acceptedAnswers": [
+        "Adresse"
+      ]
+    },
+    {
+      "id": "a1_u02_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Meine {answer} ist 0176 123456.",
+        "ar": "Meine {answer} ist 0176 123456.",
+        "en": "Meine {answer} ist 0176 123456."
+      },
+      "acceptedAnswers": [
+        "Telefonnummer"
+      ]
+    },
+    {
+      "id": "a1_u02_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein {answer} ist der 5. Mai 1991.",
+        "ar": "Mein {answer} ist der 5. Mai 1991.",
+        "en": "Mein {answer} ist der 5. Mai 1991."
+      },
+      "acceptedAnswers": [
+        "Geburtsdatum"
+      ]
+    },
+    {
+      "id": "a1_u02_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "buchstabieren",
+        "ar": "buchstabieren",
+        "en": "buchstabieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "spell",
+            "ar": "يُهجّي",
+            "en": "spell"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "first name",
+            "ar": "الاسم الأول",
+            "en": "first name"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "surname",
+            "ar": "اسم العائلة",
+            "en": "surname"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u02_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "der Vorname",
+        "ar": "der Vorname",
+        "en": "der Vorname"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "first name",
+            "ar": "الاسم الأول",
+            "en": "first name"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "surname",
+            "ar": "اسم العائلة",
+            "en": "surname"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "address",
+            "ar": "العنوان",
+            "en": "address"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u02_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "der Nachname",
+        "ar": "der Nachname",
+        "en": "der Nachname"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "surname",
+            "ar": "اسم العائلة",
+            "en": "surname"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "address",
+            "ar": "العنوان",
+            "en": "address"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "phone number",
+            "ar": "رقم الهاتف",
+            "en": "phone number"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u02_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "die Adresse",
+        "ar": "die Adresse",
+        "en": "die Adresse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "address",
+            "ar": "العنوان",
+            "en": "address"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "phone number",
+            "ar": "رقم الهاتف",
+            "en": "phone number"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "date of birth",
+            "ar": "تاريخ الميلاد",
+            "en": "date of birth"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u02_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlergalerie — falsch → warum → richtig",
+        "ar": "معرض الأخطاء — خطأ ← لماذا ← صحيح",
+        "en": "Error gallery — wrong → why → right"
+      },
+      "body": {
+        "de": "Analysiere jeden Fehler, bevor du die Korrektur liest:\n• ❌ Mein Vorname heißen … → ✅ Mein Vorname ist …\n• ❌ Wie ist Sie Adresse? → ✅ Wie ist Ihre Adresse?\n• ❌ Ich buchstabiere: A-L-I. → ✅ korrekt; Buchstaben einzeln und klar sprechen.\n• ❌ null eins sieben sechs als ganze Zahl → ✅ Ziffern einzeln oder in gut verständlichen Gruppen nennen.\n\nDanach: verdecke die Korrektur, korrigiere aus dem Gedächtnis und bilde mit derselben Regel einen neuen Satz.",
+        "ar": "حلّل سبب كل خطأ قبل قراءة التصحيح:\n• ❌ Mein Vorname heißen … → ✅ Mein Vorname ist …\n• ❌ Wie ist Sie Adresse? → ✅ Wie ist Ihre Adresse?\n• ❌ Ich buchstabiere: A-L-I. → ✅ korrekt; Buchstaben einzeln und klar sprechen.\n• ❌ null eins sieben sechs als ganze Zahl → ✅ Ziffern einzeln oder in gut verständlichen Gruppen nennen.\n\nبعد ذلك أخفِ التصحيح، صحح من الذاكرة وأنشئ جملة جديدة بنفس القاعدة.",
+        "en": "Analyze why each error is wrong before reading the correction:\n• ❌ Mein Vorname heißen … → ✅ Mein Vorname ist …\n• ❌ Wie ist Sie Adresse? → ✅ Wie ist Ihre Adresse?\n• ❌ Ich buchstabiere: A-L-I. → ✅ korrekt; Buchstaben einzeln und klar sprechen.\n• ❌ null eins sieben sechs als ganze Zahl → ✅ Ziffern einzeln oder in gut verständlichen Gruppen nennen.\n\nThen hide the correction, fix it from memory and create a new sentence with the same rule."
+      }
+    },
+    {
+      "id": "a1_u02_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdrill — eine Bedeutung, mehrere Formen",
+        "ar": "تدريب المقارنة — معنى واحد وصيغ متعددة",
+        "en": "Contrast drill — one meaning, multiple forms"
+      },
+      "body": {
+        "de": "Arbeite die Unterschiede aktiv heraus:\n• Name ≠ Vorname ≠ Nachname\n• Adresse: Straße + Hausnummer + PLZ + Ort\n• Telefonnummer langsam gruppieren; bei Rückfragen einzelne Ziffern wiederholen\n\nFür jeden Punkt: bilde ein Minimalpaar, ändere genau ein Element und erkläre, warum sich Form oder Bedeutung ändert.",
+        "ar": "استخرج الفروق بنشاط:\n• Name ≠ Vorname ≠ Nachname\n• Adresse: Straße + Hausnummer + PLZ + Ort\n• Telefonnummer langsam gruppieren; bei Rückfragen einzelne Ziffern wiederholen\n\nلكل نقطة أنشئ زوجًا متقاربًا، غيّر عنصرًا واحدًا فقط، واشرح لماذا تغير الشكل أو المعنى.",
+        "en": "Actively work out the contrasts:\n• Name ≠ Vorname ≠ Nachname\n• Adresse: Straße + Hausnummer + PLZ + Ort\n• Telefonnummer langsam gruppieren; bei Rückfragen einzelne Ziffern wiederholen\n\nFor each point create a minimal pair, change exactly one element and explain why form or meaning changes."
+      }
+    },
+    {
+      "id": "a1_u02_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Circuit — vier Wiederholungen",
+        "ar": "دائرة الحياة الواقعية — أربع جولات",
+        "en": "Real-life circuit — four repetitions"
+      },
+      "body": {
+        "de": "Fülle mündlich ein fiktives Formular aus und korrigiere anschließend drei absichtlich falsch verstandene Angaben.\n\nWiederholung 1: mit Vorlage. Wiederholung 2: ohne Vorlage. Wiederholung 3: Rollen tauschen oder Daten ändern. Wiederholung 4: nach einer Pause erneut durchführen und alle Selbstkorrekturen markieren.",
+        "ar": "Fülle mündlich ein fiktives Formular aus und korrigiere anschließend drei absichtlich falsch verstandene Angaben.\n\nالجولة 1: مع النموذج. الجولة 2: دون نموذج. الجولة 3: بدّل الأدوار أو البيانات. الجولة 4: بعد فاصل زمني أعد المهمة وحدد كل تصحيح ذاتي.",
+        "en": "Fülle mündlich ein fiktives Formular aus und korrigiere anschließend drei absichtlich falsch verstandene Angaben.\n\nRound 1: with the model. Round 2: without it. Round 3: swap roles or details. Round 4: repeat after a delay and mark every self-correction."
+      }
+    },
+    {
+      "id": "a1_u02_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A1",
+        "en": "A1 casebook complete"
+      },
+      "canDo": [
+        "A1_U02_CASEBOOK"
+      ]
+    }
+  ]
+}

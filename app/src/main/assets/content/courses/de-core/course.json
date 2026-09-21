@@ -49,6 +49,15 @@
                 "en": "Mastery lab: Greetings & introductions"
               },
               "activityCount": 16
+            },
+            {
+              "id": "a1_u01_l04",
+              "title": {
+                "de": "Falltraining: Begrüßung & Vorstellung",
+                "ar": "تدريب الحالات: التحية والتعارف",
+                "en": "Casebook: Greetings & introductions"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -86,6 +95,15 @@
                 "en": "Mastery lab: Alphabet, pronunciation & personal data"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u02_l04",
+              "title": {
+                "de": "Falltraining: Alphabet, Aussprache & persönliche Daten",
+                "ar": "تدريب الحالات: الأبجدية والنطق والبيانات الشخصية",
+                "en": "Casebook: Alphabet, pronunciation & personal data"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -123,6 +141,15 @@
                 "en": "Mastery lab: Numbers, time & appointments"
               },
               "activityCount": 17
+            },
+            {
+              "id": "a1_u03_l04",
+              "title": {
+                "de": "Falltraining: Zahlen, Uhrzeit & Termine",
+                "ar": "تدريب الحالات: الأرقام والوقت والمواعيد",
+                "en": "Casebook: Numbers, time & appointments"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -160,6 +187,15 @@
                 "en": "Mastery lab: Family & relationships"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u04_l04",
+              "title": {
+                "de": "Falltraining: Familie & Beziehungen",
+                "ar": "تدريب الحالات: العائلة والعلاقات",
+                "en": "Casebook: Family & relationships"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -197,6 +233,15 @@
                 "en": "Mastery lab: Home & housing"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u05_l04",
+              "title": {
+                "de": "Falltraining: Wohnen & Zuhause",
+                "ar": "تدريب الحالات: السكن والمنزل",
+                "en": "Casebook: Home & housing"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -234,6 +279,15 @@
                 "en": "Mastery lab: Food, drink & restaurants"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u06_l04",
+              "title": {
+                "de": "Falltraining: Essen, Trinken & Restaurant",
+                "ar": "تدريب الحالات: الطعام والشراب والمطعم",
+                "en": "Casebook: Food, drink & restaurants"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -271,6 +325,15 @@
                 "en": "Mastery lab: Shopping & money"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u07_l04",
+              "title": {
+                "de": "Falltraining: Einkaufen & Geld",
+                "ar": "تدريب الحالات: التسوق والمال",
+                "en": "Casebook: Shopping & money"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -308,6 +371,15 @@
                 "en": "Mastery lab: Daily routine & separable verbs"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u08_l04",
+              "title": {
+                "de": "Falltraining: Tagesablauf & trennbare Verben",
+                "ar": "تدريب الحالات: الروتين اليومي والأفعال المنفصلة",
+                "en": "Casebook: Daily routine & separable verbs"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -345,6 +417,15 @@
                 "en": "Mastery lab: City & directions"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u09_l04",
+              "title": {
+                "de": "Falltraining: Stadt & Wegbeschreibung",
+                "ar": "تدريب الحالات: المدينة ووصف الطريق",
+                "en": "Casebook: City & directions"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -382,6 +463,15 @@
                 "en": "Mastery lab: Transport & tickets"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u10_l04",
+              "title": {
+                "de": "Falltraining: Verkehr & Tickets",
+                "ar": "تدريب الحالات: المواصلات والتذاكر",
+                "en": "Casebook: Transport & tickets"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -419,6 +509,15 @@
                 "en": "Mastery lab: Health & pharmacy"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u11_l04",
+              "title": {
+                "de": "Falltraining: Gesundheit & Apotheke",
+                "ar": "تدريب الحالات: الصحة والصيدلية",
+                "en": "Casebook: Health & pharmacy"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -456,6 +555,15 @@
                 "en": "Mastery lab: Work, study & abilities"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u12_l04",
+              "title": {
+                "de": "Falltraining: Arbeit, Lernen & Fähigkeiten",
+                "ar": "تدريب الحالات: العمل والتعلم والقدرات",
+                "en": "Casebook: Work, study & abilities"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -493,6 +601,15 @@
                 "en": "Mastery lab: Leisure, weather & invitations"
               },
               "activityCount": 14
+            },
+            {
+              "id": "a1_u13_l04",
+              "title": {
+                "de": "Falltraining: Freizeit, Wetter & Einladungen",
+                "ar": "تدريب الحالات: وقت الفراغ والطقس والدعوات",
+                "en": "Casebook: Leisure, weather & invitations"
+              },
+              "activityCount": 16
             }
           ]
         }

@@ -1,0 +1,378 @@
+{
+  "id": "a1_u11_l04",
+  "unitId": "de-core-a1-u11",
+  "title": {
+    "de": "Falltraining: Gesundheit & Apotheke",
+    "ar": "تدريب الحالات: الصحة والصيدلية",
+    "en": "Casebook: Health & pharmacy"
+  },
+  "canDo": [
+    "A1_U11_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u11_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Casebook — ähnliche Fälle sicher unterscheiden",
+        "ar": "دفتر الحالات — التمييز الآمن بين الحالات المتشابهة",
+        "en": "Casebook — distinguish similar cases"
+      },
+      "body": {
+        "de": "Thema: Gesundheit & Apotheke\n\nZiel: Nicht nur einen Mustersatz kennen, sondern ähnliche Formen gegeneinander abgrenzen. Arbeite jeden Fall dreifach: korrekt ergänzen → Regel laut erklären → neue Variante bilden.\n\nKontrastpunkte:\n• Symptom mit haben: Husten/Fieber/Schmerzen haben\n• Körperteil + tut/tun weh\n• wie oft = Häufigkeit; wie viel = Menge",
+        "ar": "الموضوع: الصحة والصيدلية\n\nالهدف: عدم الاكتفاء بجملة نموذجية واحدة، بل التمييز بين الصيغ المتشابهة. اعمل على كل حالة بثلاث خطوات: أكملها بشكل صحيح ← اشرح القاعدة ← أنشئ مثالًا جديدًا.\n\nنقاط المقارنة:\n• Symptom mit haben: Husten/Fieber/Schmerzen haben\n• Körperteil + tut/tun weh\n• wie oft = Häufigkeit; wie viel = Menge",
+        "en": "Topic: Health & pharmacy\n\nGoal: go beyond one model sentence and discriminate similar forms. Work each case in three steps: complete correctly → explain the rule aloud → create a new variant.\n\nContrast points:\n• Symptom mit haben: Husten/Fieber/Schmerzen haben\n• Körperteil + tut/tun weh\n• wie oft = Häufigkeit; wie viel = Menge"
+      }
+    },
+    {
+      "id": "a1_u11_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u11_l04_w1",
+          "german": "Schmerzen",
+          "translation": {
+            "de": "Schmerzen",
+            "ar": "آلام",
+            "en": "pain"
+          }
+        },
+        {
+          "id": "a1_u11_l04_w2",
+          "german": "weh tun",
+          "translation": {
+            "de": "weh tun",
+            "ar": "يؤلم",
+            "en": "hurt"
+          }
+        },
+        {
+          "id": "a1_u11_l04_w3",
+          "german": "Husten",
+          "translation": {
+            "de": "Husten",
+            "ar": "سعال",
+            "en": "cough"
+          }
+        },
+        {
+          "id": "a1_u11_l04_w4",
+          "german": "Fieber",
+          "translation": {
+            "de": "Fieber",
+            "ar": "حمّى",
+            "en": "fever"
+          }
+        },
+        {
+          "id": "a1_u11_l04_w5",
+          "german": "Tablette",
+          "translation": {
+            "de": "Tablette",
+            "ar": "حبّة دواء",
+            "en": "tablet"
+          }
+        },
+        {
+          "id": "a1_u11_l04_w6",
+          "german": "Apotheke",
+          "translation": {
+            "de": "Apotheke",
+            "ar": "صيدلية",
+            "en": "pharmacy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u11_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe starke {answer}.",
+        "ar": "Ich habe starke {answer}.",
+        "en": "Ich habe starke {answer}."
+      },
+      "acceptedAnswers": [
+        "Schmerzen"
+      ]
+    },
+    {
+      "id": "a1_u11_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Rücken {answer} weh.",
+        "ar": "Mein Rücken {answer} weh.",
+        "en": "Mein Rücken {answer} weh."
+      },
+      "acceptedAnswers": [
+        "tut"
+      ]
+    },
+    {
+      "id": "a1_u11_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe {answer} und Schnupfen.",
+        "ar": "Ich habe {answer} und Schnupfen.",
+        "en": "Ich habe {answer} und Schnupfen."
+      },
+      "acceptedAnswers": [
+        "Husten"
+      ]
+    },
+    {
+      "id": "a1_u11_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe 39 Grad {answer}.",
+        "ar": "Ich habe 39 Grad {answer}.",
+        "en": "Ich habe 39 Grad {answer}."
+      },
+      "acceptedAnswers": [
+        "Fieber"
+      ]
+    },
+    {
+      "id": "a1_u11_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wie oft soll ich die {answer} nehmen?",
+        "ar": "Wie oft soll ich die {answer} nehmen?",
+        "en": "Wie oft soll ich die {answer} nehmen?"
+      },
+      "acceptedAnswers": [
+        "Tablette"
+      ]
+    },
+    {
+      "id": "a1_u11_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wo ist die nächste {answer}?",
+        "ar": "Wo ist die nächste {answer}?",
+        "en": "Wo ist die nächste {answer}?"
+      },
+      "acceptedAnswers": [
+        "Apotheke"
+      ]
+    },
+    {
+      "id": "a1_u11_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "Schmerzen",
+        "ar": "Schmerzen",
+        "en": "Schmerzen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "pain",
+            "ar": "آلام",
+            "en": "pain"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "hurt",
+            "ar": "يؤلم",
+            "en": "hurt"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "cough",
+            "ar": "سعال",
+            "en": "cough"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u11_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "weh tun",
+        "ar": "weh tun",
+        "en": "weh tun"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "hurt",
+            "ar": "يؤلم",
+            "en": "hurt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "cough",
+            "ar": "سعال",
+            "en": "cough"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "fever",
+            "ar": "حمّى",
+            "en": "fever"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u11_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "Husten",
+        "ar": "Husten",
+        "en": "Husten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "cough",
+            "ar": "سعال",
+            "en": "cough"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "fever",
+            "ar": "حمّى",
+            "en": "fever"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "tablet",
+            "ar": "حبّة دواء",
+            "en": "tablet"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u11_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "Fieber",
+        "ar": "Fieber",
+        "en": "Fieber"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "fever",
+            "ar": "حمّى",
+            "en": "fever"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "tablet",
+            "ar": "حبّة دواء",
+            "en": "tablet"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "pharmacy",
+            "ar": "صيدلية",
+            "en": "pharmacy"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u11_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlergalerie — falsch → warum → richtig",
+        "ar": "معرض الأخطاء — خطأ ← لماذا ← صحيح",
+        "en": "Error gallery — wrong → why → right"
+      },
+      "body": {
+        "de": "Analysiere jeden Fehler, bevor du die Korrektur liest:\n• ❌ Ich bin Kopfschmerzen. → ✅ Ich habe Kopfschmerzen.\n• ❌ Mein Rücken macht weh. → verständlich, idiomatischer ✅ Mein Rücken tut weh.\n• ❌ Ich habe 39 Fieber. → ✅ 39 Grad Fieber.\n• ❌ Wie viele oft? → ✅ Wie oft?\n\nDanach: verdecke die Korrektur, korrigiere aus dem Gedächtnis und bilde mit derselben Regel einen neuen Satz.",
+        "ar": "حلّل سبب كل خطأ قبل قراءة التصحيح:\n• ❌ Ich bin Kopfschmerzen. → ✅ Ich habe Kopfschmerzen.\n• ❌ Mein Rücken macht weh. → verständlich, idiomatischer ✅ Mein Rücken tut weh.\n• ❌ Ich habe 39 Fieber. → ✅ 39 Grad Fieber.\n• ❌ Wie viele oft? → ✅ Wie oft?\n\nبعد ذلك أخفِ التصحيح، صحح من الذاكرة وأنشئ جملة جديدة بنفس القاعدة.",
+        "en": "Analyze why each error is wrong before reading the correction:\n• ❌ Ich bin Kopfschmerzen. → ✅ Ich habe Kopfschmerzen.\n• ❌ Mein Rücken macht weh. → verständlich, idiomatischer ✅ Mein Rücken tut weh.\n• ❌ Ich habe 39 Fieber. → ✅ 39 Grad Fieber.\n• ❌ Wie viele oft? → ✅ Wie oft?\n\nThen hide the correction, fix it from memory and create a new sentence with the same rule."
+      }
+    },
+    {
+      "id": "a1_u11_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdrill — eine Bedeutung, mehrere Formen",
+        "ar": "تدريب المقارنة — معنى واحد وصيغ متعددة",
+        "en": "Contrast drill — one meaning, multiple forms"
+      },
+      "body": {
+        "de": "Arbeite die Unterschiede aktiv heraus:\n• Symptom mit haben: Husten/Fieber/Schmerzen haben\n• Körperteil + tut/tun weh\n• wie oft = Häufigkeit; wie viel = Menge\n\nFür jeden Punkt: bilde ein Minimalpaar, ändere genau ein Element und erkläre, warum sich Form oder Bedeutung ändert.",
+        "ar": "استخرج الفروق بنشاط:\n• Symptom mit haben: Husten/Fieber/Schmerzen haben\n• Körperteil + tut/tun weh\n• wie oft = Häufigkeit; wie viel = Menge\n\nلكل نقطة أنشئ زوجًا متقاربًا، غيّر عنصرًا واحدًا فقط، واشرح لماذا تغير الشكل أو المعنى.",
+        "en": "Actively work out the contrasts:\n• Symptom mit haben: Husten/Fieber/Schmerzen haben\n• Körperteil + tut/tun weh\n• wie oft = Häufigkeit; wie viel = Menge\n\nFor each point create a minimal pair, change exactly one element and explain why form or meaning changes."
+      }
+    },
+    {
+      "id": "a1_u11_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Circuit — vier Wiederholungen",
+        "ar": "دائرة الحياة الواقعية — أربع جولات",
+        "en": "Real-life circuit — four repetitions"
+      },
+      "body": {
+        "de": "Führe ein Apothekengespräch: Symptom, Dauer, Stärke, Allergiefrage, Einnahmehäufigkeit und Rückfrage bei Unklarheit. Keine Selbstdiagnose nötig.\n\nWiederholung 1: mit Vorlage. Wiederholung 2: ohne Vorlage. Wiederholung 3: Rollen tauschen oder Daten ändern. Wiederholung 4: nach einer Pause erneut durchführen und alle Selbstkorrekturen markieren.",
+        "ar": "Führe ein Apothekengespräch: Symptom, Dauer, Stärke, Allergiefrage, Einnahmehäufigkeit und Rückfrage bei Unklarheit. Keine Selbstdiagnose nötig.\n\nالجولة 1: مع النموذج. الجولة 2: دون نموذج. الجولة 3: بدّل الأدوار أو البيانات. الجولة 4: بعد فاصل زمني أعد المهمة وحدد كل تصحيح ذاتي.",
+        "en": "Führe ein Apothekengespräch: Symptom, Dauer, Stärke, Allergiefrage, Einnahmehäufigkeit und Rückfrage bei Unklarheit. Keine Selbstdiagnose nötig.\n\nRound 1: with the model. Round 2: without it. Round 3: swap roles or details. Round 4: repeat after a delay and mark every self-correction."
+      }
+    },
+    {
+      "id": "a1_u11_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A1",
+        "en": "A1 casebook complete"
+      },
+      "canDo": [
+        "A1_U11_CASEBOOK"
+      ]
+    }
+  ]
+}
