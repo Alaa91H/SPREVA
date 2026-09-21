@@ -46,6 +46,8 @@ data class UnitDto(
 @Serializable
 data class LessonRefDto(
     @SerialName("id") val id: String,
+    @SerialName("title") val title: LocalizedTextDto? = null,
+    @SerialName("activityCount") val activityCount: Int = 0,
 )
 
 @Serializable

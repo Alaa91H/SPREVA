@@ -50,18 +50,21 @@ class OfflineFirstCurriculumRepository @Inject constructor(
     override fun observeLessonSummaries(): Flow<List<com.spreva.core.model.LessonSummary>> =
         kotlinx.coroutines.flow.flow {
             val course = contentSource.loadCourse(COURSE_ID)
-            // First level of the course until multi-level selection ships.
-            val summaries = course.levels.firstOrNull()?.units
-                ?.flatMap { unit -> unit.lessons }
-                ?.map { ref -> contentSource.loadLesson(ref.id) }
-                ?.map { lesson ->
-                    com.spreva.core.model.LessonSummary(
-                        id = lesson.id,
-                        title = lesson.title,
-                        activityCount = lesson.activities.size,
-                    )
+            val summaries = course.levels
+                .flatMap { level -> level.units }
+                .flatMap { unit -> unit.lessons }
+                .map { ref ->
+                    if (ref.title.de.isNotBlank() && ref.activityCount > 0) {
+                        ref
+                    } else {
+                        val lesson = contentSource.loadLesson(ref.id)
+                        com.spreva.core.model.LessonSummary(
+                            id = lesson.id,
+                            title = lesson.title,
+                            activityCount = lesson.activities.size,
+                        )
+                    }
                 }
-                .orEmpty()
             emit(summaries)
         }
 

@@ -57,7 +57,13 @@ class ContentParser(
                     Unit(
                         id = UnitId(unitDto.id),
                         title = unitDto.title.toModel(),
-                        lessons = unitDto.lessons.map { LessonSummary(LessonId(it.id), LocalizedText(""), 0) },
+                        lessons = unitDto.lessons.map { ref ->
+                            LessonSummary(
+                                id = LessonId(ref.id),
+                                title = ref.title?.toModel() ?: LocalizedText(""),
+                                activityCount = ref.activityCount,
+                            )
+                        },
                     )
                 },
             )

@@ -24,8 +24,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.spreva.core.model.LessonStatus
 
 /**
- * Learn tab: clean vertical CEFR journey (plan section 47). Phase 3 ships
- * the A1 level; other levels render as locked placeholders.
+ * Learn tab: clean vertical CEFR journey (plan section 47).
+ * All bundled CEFR levels are rendered from content data.
  */
 @Composable
 fun LearnRoute(onOpenCourse: (levelId: String) -> Unit, viewModel: LearnViewModel = hiltViewModel()) {
