@@ -31,6 +31,7 @@ import com.spreva.core.model.LessonStatus
 fun LearnRoute(onOpenCourse: (levelId: String) -> Unit, viewModel: LearnViewModel = hiltViewModel()) {
     val course by viewModel.courseState.collectAsStateWithLifecycle()
     val progress by viewModel.progressByLesson.collectAsStateWithLifecycle()
+    val uiLanguage by viewModel.uiLanguage.collectAsStateWithLifecycle()
 
     LazyColumn(
         modifier = Modifier
@@ -58,7 +59,7 @@ fun LearnRoute(onOpenCourse: (levelId: String) -> Unit, viewModel: LearnViewMode
             ) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                        Text(level.title.de, style = MaterialTheme.typography.titleMedium)
+                        Text(level.title.resolveFor(uiLanguage), style = MaterialTheme.typography.titleMedium)
                         Text(
                             text = "$completed / ${lessons.size}",
                             style = MaterialTheme.typography.labelMedium,
@@ -83,6 +84,7 @@ fun CourseRoute(
 ) {
     val course by viewModel.courseState.collectAsStateWithLifecycle()
     val progress by viewModel.progressByLesson.collectAsStateWithLifecycle()
+    val uiLanguage by viewModel.uiLanguage.collectAsStateWithLifecycle()
 
     LaunchedEffect(levelId) {
         viewModel.setLevel(levelId)
@@ -98,14 +100,14 @@ fun CourseRoute(
     ) {
         item {
             Text(
-                text = level?.title?.de ?: "Loading...",
+                text = level?.title?.resolveFor(uiLanguage) ?: "Loading...",
                 style = MaterialTheme.typography.headlineSmall,
             )
         }
         level?.units?.forEach { unit ->
             item(key = "unit_${unit.id.value}") {
                 Text(
-                    text = unit.title.de,
+                    text = unit.title.resolveFor(uiLanguage),
                     style = MaterialTheme.typography.titleMedium,
                     modifier = Modifier.padding(top = 8.dp),
                 )
@@ -125,7 +127,7 @@ fun CourseRoute(
                     ) {
                         Column {
                             Text(
-                                text = lesson.title.de.ifBlank { lesson.id.value },
+                                text = lesson.title.resolveFor(uiLanguage).ifBlank { lesson.id.value },
                                 style = MaterialTheme.typography.bodyLarge,
                             )
                             Spacer(Modifier.height(4.dp))
