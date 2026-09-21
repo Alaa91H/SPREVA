@@ -1,0 +1,296 @@
+{
+  "id": "b2_u05_l03",
+  "unitId": "de-core-b2-u05",
+  "title": {
+    "de": "Intensivtraining: Indirekte Rede & Distanz",
+    "ar": "تدريب مكثف: النقل غير المباشر والمسافة الأسلوبية",
+    "en": "Mastery lab: Reported speech & stance distance"
+  },
+  "canDo": [
+    "B2_U05_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u05_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Indirekte Rede & Distanz“. Nach jeder Lösung: semantische Funktion erklären, mindestens zwei stilistische Alternativen bilden und sagen, welche Variante in Alltag, Beruf oder Fachtext am passendsten ist.",
+        "ar": "عمّق «النقل غير المباشر والمسافة الأسلوبية». بعد كل حل: اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين على الأقل، وحدد الأنسب في الحديث اليومي أو العمل أو النص المتخصص.",
+        "en": "Deepen “Reported speech & stance distance”. After each solution explain the semantic function, create at least two stylistic alternatives and decide which best fits everyday, professional or specialist contexts."
+      }
+    },
+    {
+      "id": "b2_u05_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u05_l03_w1",
+          "german": "laut",
+          "translation": {
+            "de": "according to",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "b2_u05_l03_w2",
+          "german": "erklären",
+          "translation": {
+            "de": "state/explain",
+            "ar": "يصرّح/يشرح",
+            "en": "state/explain"
+          }
+        },
+        {
+          "id": "b2_u05_l03_w3",
+          "german": "berichten",
+          "translation": {
+            "de": "report",
+            "ar": "يذكر في تقرير",
+            "en": "report"
+          }
+        },
+        {
+          "id": "b2_u05_l03_w4",
+          "german": "behaupten",
+          "translation": {
+            "de": "claim",
+            "ar": "يدعي",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "b2_u05_l03_w5",
+          "german": "angeben",
+          "translation": {
+            "de": "state/provide",
+            "ar": "يفيد/يذكر",
+            "en": "state/provide"
+          }
+        },
+        {
+          "id": "b2_u05_l03_w6",
+          "german": "abweichen",
+          "translation": {
+            "de": "deviate",
+            "ar": "يختلف",
+            "en": "deviate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u05_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er sagt, er {answer} krank.",
+        "ar": "Er sagt, er {answer} krank.",
+        "en": "Er sagt, er {answer} krank."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "b2_u05_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie erklärt, sie {answer} die Nachricht erhalten.",
+        "ar": "Sie erklärt, sie {answer} die Nachricht erhalten.",
+        "en": "Sie erklärt, sie {answer} die Nachricht erhalten."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "b2_u05_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Konjunktiv I signalisiert, {answer} eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.",
+        "ar": "Konjunktiv I signalisiert, {answer} eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.",
+        "en": "Konjunktiv I signalisiert, {answer} eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "b2_u05_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Sprecher erklärte, die Lage sei stabil.",
+        "ar": "{answer} Sprecher erklärte, die Lage sei stabil.",
+        "en": "{answer} Sprecher erklärte, die Lage sei stabil."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "b2_u05_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Zeugin sagte, sie habe nichts gesehen.",
+        "ar": "{answer} Zeugin sagte, sie habe nichts gesehen.",
+        "en": "{answer} Zeugin sagte, sie habe nichts gesehen."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u05_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Bericht weist darauf hin, die Zahlen könnten abweichen.",
+        "ar": "{answer} Bericht weist darauf hin, die Zahlen könnten abweichen.",
+        "en": "{answer} Bericht weist darauf hin, die Zahlen könnten abweichen."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "b2_u05_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "laut",
+        "ar": "laut",
+        "en": "laut"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "according to",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "state/explain",
+            "ar": "يصرّح/يشرح",
+            "en": "state/explain"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "report",
+            "ar": "يذكر في تقرير",
+            "en": "report"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u05_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "behaupten",
+        "ar": "behaupten",
+        "en": "behaupten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "claim",
+            "ar": "يدعي",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "state/provide",
+            "ar": "يفيد/يذكر",
+            "en": "state/provide"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "deviate",
+            "ar": "يختلف",
+            "en": "deviate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u05_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Konjunktiv I signalisiert, dass eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.\n2. Der Sprecher erklärte, die Lage sei stabil.\n3. Die Zeugin sagte, sie habe nichts gesehen.\n4. Der Bericht weist darauf hin, die Zahlen könnten abweichen.\n\nFormuliere je eine nahe Alternative und erkläre, was sich ändert: Logik, Modalität, Fokus, Register oder Informationsdichte. Markiere Varianten, die grammatisch möglich, aber im Kontext unidiomatisch sind.",
+        "ar": "نماذج البداية:\n1. Konjunktiv I signalisiert, dass eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.\n2. Der Sprecher erklärte, die Lage sei stabil.\n3. Die Zeugin sagte, sie habe nichts gesehen.\n4. Der Bericht weist darauf hin, die Zahlen könnten abweichen.\n\nأنشئ بديلًا قريبًا لكل نموذج واشرح ما يتغير: المنطق أو درجة اليقين أو البؤرة أو السجل أو كثافة المعلومات. حدّد الصيغ الممكنة نحويًا لكنها غير طبيعية في السياق.",
+        "en": "Base patterns:\n1. Konjunktiv I signalisiert, dass eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.\n2. Der Sprecher erklärte, die Lage sei stabil.\n3. Die Zeugin sagte, sie habe nichts gesehen.\n4. Der Bericht weist darauf hin, die Zahlen könnten abweichen.\n\nCreate a close alternative for each and explain what changes: logic, modality, focus, register or information density. Mark forms that are grammatical but unidiomatic in context."
+      }
+    },
+    {
+      "id": "b2_u05_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Zu jeder Kernaussage fünf Fassungen: verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ formeller Fachstil. Danach Bedeutungsnuancen und Kollokationen vergleichen.",
+        "ar": "لكل فكرة خمس صيغ: فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ رسمي متخصص. ثم قارن الفروق الدلالية والمتلازمات.",
+        "en": "Create five versions of each key statement: verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ cautiously hedged; everyday ↔ formal specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u05_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "Schreibe 140–180 Wörter oder sprich drei Minuten. Trenne Beobachtung, Interpretation und Bewertung; integriere drei Zielstrukturen, ein Gegenargument, eine Einschränkung und eine begründete Schlussfolgerung. Überarbeite danach Register, Kohäsion und Präzision.",
+        "ar": "اكتب 140–180 كلمة أو تحدث ثلاث دقائق. افصل بين الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا وخلاصة معللة. ثم راجع السجل والترابط والدقة.",
+        "en": "Write 140–180 words or speak for three minutes. Separate observation, interpretation and evaluation; include three target structures, a counterargument, a limitation and a reasoned conclusion. Revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u05_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U05_MASTERY"
+      ]
+    }
+  ]
+}

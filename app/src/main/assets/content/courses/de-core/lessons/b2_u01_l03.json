@@ -1,0 +1,297 @@
+{
+  "id": "b2_u01_l03",
+  "unitId": "de-core-b2-u01",
+  "title": {
+    "de": "Intensivtraining: Komplexe Konnektoren & Argumentlogik",
+    "ar": "تدريب مكثف: الروابط المعقدة ومنطق الحجة",
+    "en": "Mastery lab: Complex connectors & argument logic"
+  },
+  "canDo": [
+    "B2_U01_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u01_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Komplexe Konnektoren & Argumentlogik“. Nach jeder Lösung: semantische Funktion erklären, mindestens zwei stilistische Alternativen bilden und sagen, welche Variante in Alltag, Beruf oder Fachtext am passendsten ist.",
+        "ar": "عمّق «الروابط المعقدة ومنطق الحجة». بعد كل حل: اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين على الأقل، وحدد الأنسب في الحديث اليومي أو العمل أو النص المتخصص.",
+        "en": "Deepen “Complex connectors & argument logic”. After each solution explain the semantic function, create at least two stylistic alternatives and decide which best fits everyday, professional or specialist contexts."
+      }
+    },
+    {
+      "id": "b2_u01_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u01_l03_w1",
+          "german": "sofern",
+          "translation": {
+            "de": "provided that",
+            "ar": "بشرط أن",
+            "en": "provided that"
+          }
+        },
+        {
+          "id": "b2_u01_l03_w2",
+          "german": "dennoch",
+          "translation": {
+            "de": "nevertheless",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "b2_u01_l03_w3",
+          "german": "hingegen",
+          "translation": {
+            "de": "by contrast",
+            "ar": "في المقابل",
+            "en": "by contrast"
+          }
+        },
+        {
+          "id": "b2_u01_l03_w4",
+          "german": "sodass",
+          "translation": {
+            "de": "so that/as a result",
+            "ar": "بحيث / مما أدى إلى",
+            "en": "so that/as a result"
+          }
+        },
+        {
+          "id": "b2_u01_l03_w5",
+          "german": "einschränken",
+          "translation": {
+            "de": "limit",
+            "ar": "يقيّد",
+            "en": "limit"
+          }
+        },
+        {
+          "id": "b2_u01_l03_w6",
+          "german": "abwägen",
+          "translation": {
+            "de": "weigh up",
+            "ar": "يوازن",
+            "en": "weigh up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u01_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} die Daten begrenzt sind, ist der Trend sichtbar.",
+        "ar": "{answer} die Daten begrenzt sind, ist der Trend sichtbar.",
+        "en": "{answer} die Daten begrenzt sind, ist der Trend sichtbar."
+      },
+      "acceptedAnswers": [
+        "Obwohl"
+      ]
+    },
+    {
+      "id": "b2_u01_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Unterlagen sind vollständig; {answer} kann der Vorgang starten.",
+        "ar": "Die Unterlagen sind vollständig; {answer} kann der Vorgang starten.",
+        "en": "Die Unterlagen sind vollständig; {answer} kann der Vorgang starten."
+      },
+      "acceptedAnswers": [
+        "daher",
+        "deshalb"
+      ]
+    },
+    {
+      "id": "b2_u01_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} die Maßnahme teuer ist, kann sie langfristig Kosten senken.",
+        "ar": "{answer} die Maßnahme teuer ist, kann sie langfristig Kosten senken.",
+        "en": "{answer} die Maßnahme teuer ist, kann sie langfristig Kosten senken."
+      },
+      "acceptedAnswers": [
+        "Obwohl"
+      ]
+    },
+    {
+      "id": "b2_u01_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten sind begrenzt; {answer} lässt sich ein Trend erkennen.",
+        "ar": "Die Daten sind begrenzt; {answer} lässt sich ein Trend erkennen.",
+        "en": "Die Daten sind begrenzt; {answer} lässt sich ein Trend erkennen."
+      },
+      "acceptedAnswers": [
+        "dennoch"
+      ]
+    },
+    {
+      "id": "b2_u01_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.",
+        "ar": "{answer} alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.",
+        "en": "{answer} alle Unterlagen vorliegen, kann der Antrag bearbeitet werden."
+      },
+      "acceptedAnswers": [
+        "Sofern"
+      ]
+    },
+    {
+      "id": "b2_u01_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Diskussion, Bericht, Beschwerde oder Präsentation: Bedingungen, Gegenargumente, Folgen {answer} Einschränkungen sprachlich sauber verknüpfen.",
+        "ar": "Diskussion, Bericht, Beschwerde oder Präsentation: Bedingungen, Gegenargumente, Folgen {answer} Einschränkungen sprachlich sauber verknüpfen.",
+        "en": "Diskussion, Bericht, Beschwerde oder Präsentation: Bedingungen, Gegenargumente, Folgen {answer} Einschränkungen sprachlich sauber verknüpfen."
+      },
+      "acceptedAnswers": [
+        "und"
+      ]
+    },
+    {
+      "id": "b2_u01_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "sofern",
+        "ar": "sofern",
+        "en": "sofern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "provided that",
+            "ar": "بشرط أن",
+            "en": "provided that"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nevertheless",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "by contrast",
+            "ar": "في المقابل",
+            "en": "by contrast"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u01_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "sodass",
+        "ar": "sodass",
+        "en": "sodass"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "so that/as a result",
+            "ar": "بحيث / مما أدى إلى",
+            "en": "so that/as a result"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "limit",
+            "ar": "يقيّد",
+            "en": "limit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weigh up",
+            "ar": "يوازن",
+            "en": "weigh up"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u01_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n2. Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n3. Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.\n4. Diskussion, Bericht, Beschwerde oder Präsentation: Bedingungen, Gegenargumente, Folgen und Einschränkungen sprachlich sauber verknüpfen.\n\nFormuliere je eine nahe Alternative und erkläre, was sich ändert: Logik, Modalität, Fokus, Register oder Informationsdichte. Markiere Varianten, die grammatisch möglich, aber im Kontext unidiomatisch sind.",
+        "ar": "نماذج البداية:\n1. Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n2. Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n3. Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.\n4. Diskussion, Bericht, Beschwerde oder Präsentation: Bedingungen, Gegenargumente, Folgen und Einschränkungen sprachlich sauber verknüpfen.\n\nأنشئ بديلًا قريبًا لكل نموذج واشرح ما يتغير: المنطق أو درجة اليقين أو البؤرة أو السجل أو كثافة المعلومات. حدّد الصيغ الممكنة نحويًا لكنها غير طبيعية في السياق.",
+        "en": "Base patterns:\n1. Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n2. Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n3. Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.\n4. Diskussion, Bericht, Beschwerde oder Präsentation: Bedingungen, Gegenargumente, Folgen und Einschränkungen sprachlich sauber verknüpfen.\n\nCreate a close alternative for each and explain what changes: logic, modality, focus, register or information density. Mark forms that are grammatical but unidiomatic in context."
+      }
+    },
+    {
+      "id": "b2_u01_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Zu jeder Kernaussage fünf Fassungen: verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ formeller Fachstil. Danach Bedeutungsnuancen und Kollokationen vergleichen.",
+        "ar": "لكل فكرة خمس صيغ: فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ رسمي متخصص. ثم قارن الفروق الدلالية والمتلازمات.",
+        "en": "Create five versions of each key statement: verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ cautiously hedged; everyday ↔ formal specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u01_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "Schreibe 140–180 Wörter oder sprich drei Minuten. Trenne Beobachtung, Interpretation und Bewertung; integriere drei Zielstrukturen, ein Gegenargument, eine Einschränkung und eine begründete Schlussfolgerung. Überarbeite danach Register, Kohäsion und Präzision.",
+        "ar": "اكتب 140–180 كلمة أو تحدث ثلاث دقائق. افصل بين الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا وخلاصة معللة. ثم راجع السجل والترابط والدقة.",
+        "en": "Write 140–180 words or speak for three minutes. Separate observation, interpretation and evaluation; include three target structures, a counterargument, a limitation and a reasoned conclusion. Revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u01_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U01_MASTERY"
+      ]
+    }
+  ]
+}
