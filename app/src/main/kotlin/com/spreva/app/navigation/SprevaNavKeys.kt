@@ -19,3 +19,7 @@ data class LessonKey(val lessonId: String) : NavKey
 
 @Serializable
 data object ReviewSessionKey : NavKey
+
+
+@Serializable
+data object PlacementKey : NavKey

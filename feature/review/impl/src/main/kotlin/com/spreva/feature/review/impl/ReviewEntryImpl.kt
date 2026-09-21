@@ -1,6 +1,7 @@
 package com.spreva.feature.review.impl
 
 import com.spreva.feature.review.api.PracticeEntry
+import com.spreva.feature.review.api.PlacementEntry
 import com.spreva.feature.review.api.ReviewEntry
 import dagger.Module
 import dagger.Provides
@@ -14,8 +15,21 @@ object ReviewEntryModule {
 
     @Provides
     @Singleton
-    fun providePracticeEntry(): PracticeEntry = PracticeEntry { onStartReview ->
-        PracticeRoute(onStartReview = onStartReview)
+    fun providePracticeEntry(): PracticeEntry = PracticeEntry { onStartReview, onStartPlacement, onOpenLesson ->
+        PracticeRoute(
+            onStartReview = onStartReview,
+            onStartPlacement = onStartPlacement,
+            onOpenLesson = onOpenLesson,
+        )
+    }
+
+    @Provides
+    @Singleton
+    fun providePlacementEntry(): PlacementEntry = PlacementEntry { onOpenCourse, onFinished ->
+        PlacementRoute(
+            onOpenCourse = onOpenCourse,
+            onFinished = onFinished,
+        )
     }
 
     @Provides

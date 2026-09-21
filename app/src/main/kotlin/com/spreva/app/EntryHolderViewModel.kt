@@ -8,6 +8,7 @@ import com.spreva.feature.home.api.HomeEntry
 import com.spreva.feature.lesson.api.LessonEntry
 import com.spreva.feature.onboarding.api.OnboardingEntry
 import com.spreva.feature.review.api.PracticeEntry
+import com.spreva.feature.review.api.PlacementEntry
 import com.spreva.feature.review.api.ReviewEntry
 import com.spreva.feature.settings.api.SettingsEntry
 import javax.inject.Inject
@@ -25,6 +26,7 @@ class EntryHolderViewModel @Inject constructor(
     val courseEntry: CourseEntry,
     val lessonEntry: LessonEntry,
     val practiceEntry: PracticeEntry,
+    val placementEntry: PlacementEntry,
     val reviewEntry: ReviewEntry,
     val settingsEntry: SettingsEntry,
 ) : ViewModel()
