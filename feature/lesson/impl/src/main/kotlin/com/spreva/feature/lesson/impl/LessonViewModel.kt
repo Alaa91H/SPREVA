@@ -18,6 +18,7 @@ import com.spreva.core.model.ActivityAttempt
 import com.spreva.core.model.Lesson
 import com.spreva.core.model.LessonId
 import com.spreva.domain.curriculum.GetLesson
+import com.spreva.domain.learning.CompleteLesson
 import com.spreva.domain.learning.LearningRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
@@ -44,6 +45,7 @@ class LessonViewModel @Inject constructor(
     @ApplicationContext private val appContext: Context,
     private val getLesson: GetLesson,
     private val learningRepository: LearningRepository,
+    private val completeLesson: CompleteLesson,
     private val clock: AppClock,
     private val ttsProvider: TtsProvider,
     private val courseAudioPlayer: CourseAudioPlayer,
@@ -393,7 +395,11 @@ class LessonViewModel @Inject constructor(
         _uiState.value = _uiState.value.copy(completionState = LessonCompletionState.Saving)
         viewModelScope.launch {
             runCatching {
-                learningRepository.completeLesson(lesson.id, lesson.activities.size)
+                completeLesson(
+                    lessonId = lesson.id,
+                    totalActivities = lesson.activities.size,
+                    now = clock.now(),
+                )
             }.onSuccess {
                 _uiState.value = _uiState.value.copy(completionState = LessonCompletionState.Success)
             }.onFailure {

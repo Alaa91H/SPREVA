@@ -391,8 +391,8 @@ class RoomLearningEventLog @Inject constructor(
 }
 
 /**
- * Provisions review cards for lesson vocabulary. Phase 3 uses a static
- * mapping from the bundled demo lesson; idempotent via INSERT OR IGNORE.
+ * Provisions review cards for vocabulary found in any bundled lesson.
+ * Card IDs are deterministic and INSERT OR IGNORE keeps completion retries idempotent.
  */
 @Singleton
 class DefaultReviewCardProvisioner @Inject constructor(
