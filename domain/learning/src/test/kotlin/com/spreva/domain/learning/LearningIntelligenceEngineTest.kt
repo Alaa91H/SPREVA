@@ -43,6 +43,7 @@ class LearningIntelligenceEngineTest {
             ),
         )
         val grammar = profile.mastery.single()
+        assertEquals(1, profile.topics.single().objectiveAttempts)
         assertEquals(1, grammar.objectiveAttempts)
         assertTrue(grammar.scorePercent!! < 100)
         assertTrue(grammar.confidencePercent < 20)

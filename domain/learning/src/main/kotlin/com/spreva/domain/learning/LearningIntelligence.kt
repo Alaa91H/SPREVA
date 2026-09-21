@@ -10,6 +10,7 @@ import com.spreva.core.model.MistakeInsight
 import com.spreva.core.model.MistakePattern
 import com.spreva.core.model.SkillArea
 import com.spreva.core.model.SkillMastery
+import com.spreva.core.model.TopicMastery
 import javax.inject.Inject
 import kotlinx.coroutines.flow.Flow
 import kotlin.math.roundToInt
@@ -66,6 +67,32 @@ class LearningIntelligenceEngine @Inject constructor() {
             )
         }
 
+        val topics = evidence
+            .groupBy { it.lessonId }
+            .mapNotNull { (lessonId, rows) ->
+                val objective = rows.filter { it.objective }.flatMap { it.attempts }
+                if (objective.isEmpty()) return@mapNotNull null
+                val correct = objective.count { it.correct }
+                val n = objective.size
+                val confidence = ((n / 12.0).coerceIn(0.0, 1.0) * 100).roundToInt()
+                val posterior = (correct + 2.0) / (n + 4.0)
+                val shrink = confidence / 100.0
+                val score = (50.0 + (posterior * 100.0 - 50.0) * shrink)
+                    .roundToInt()
+                    .coerceIn(0, 100)
+                val representative = rows.first()
+                TopicMastery(
+                    lessonId = lessonId,
+                    lessonTitle = representative.lessonTitle,
+                    skill = representative.skill,
+                    scorePercent = score,
+                    confidencePercent = confidence,
+                    objectiveCorrect = correct,
+                    objectiveAttempts = n,
+                )
+            }
+            .sortedWith(compareBy<TopicMastery> { it.scorePercent }.thenByDescending { it.confidencePercent })
+
         val mistakes = evidence.flatMap { row -> mistakeSignals(row) }
             .sortedByDescending { it.severityPercent }
 
@@ -90,6 +117,7 @@ class LearningIntelligenceEngine @Inject constructor() {
 
         return LearningProfile(
             mastery = mastery,
+            topics = topics,
             mistakes = mistakes.take(20),
             focus = focus,
             totalAttempts = evidence.sumOf { it.attempts.size },

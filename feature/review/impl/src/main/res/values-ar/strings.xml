@@ -52,4 +52,5 @@
     <string name="spreva_review_hours">%1$d س</string>
     <string name="spreva_review_days">%1$d يوم</string>
     <string name="spreva_review_recommended_level">مستوى البداية المقترح المحفوظ: %1$s</string>
+    <string name="spreva_review_focus_detail_mastery">%1$s · الأولوية %2$d%% · %3$s · إتقان الموضوع %4$d%% (موثوقية %5$d%%)</string>
 </resources>

@@ -150,13 +150,25 @@ fun PracticeRoute(
                         verticalArrangement = Arrangement.spacedBy(4.dp),
                     ) {
                         Text(focus.lessonTitle.de, style = MaterialTheme.typography.titleMedium)
+                        val topic = profile.topics.firstOrNull { it.lessonId == focus.lessonId }
                         Text(
-                            stringResource(
-                                R.string.spreva_review_focus_detail,
-                                skillLabel(focus.skill),
-                                focus.priorityPercent,
-                                mistakeLabel(focus.reason),
-                            ),
+                            if (topic != null) {
+                                stringResource(
+                                    R.string.spreva_review_focus_detail_mastery,
+                                    skillLabel(focus.skill),
+                                    focus.priorityPercent,
+                                    mistakeLabel(focus.reason),
+                                    topic.scorePercent,
+                                    topic.confidencePercent,
+                                )
+                            } else {
+                                stringResource(
+                                    R.string.spreva_review_focus_detail,
+                                    skillLabel(focus.skill),
+                                    focus.priorityPercent,
+                                    mistakeLabel(focus.reason),
+                                )
+                            },
                             style = MaterialTheme.typography.bodyMedium,
                         )
                     }

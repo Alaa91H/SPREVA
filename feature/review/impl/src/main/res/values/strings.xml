@@ -52,4 +52,5 @@
     <string name="spreva_review_hours">%1$d h</string>
     <string name="spreva_review_days">%1$d d</string>
     <string name="spreva_review_recommended_level">Saved starting-level recommendation: %1$s</string>
+    <string name="spreva_review_focus_detail_mastery">%1$s · priority %2$d%% · %3$s · topic mastery %4$d%% (confidence %5$d%%)</string>
 </resources>

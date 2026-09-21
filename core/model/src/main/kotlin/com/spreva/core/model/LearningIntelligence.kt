@@ -29,6 +29,16 @@ data class SkillMastery(
     val productiveAttempts: Int,
 )
 
+data class TopicMastery(
+    val lessonId: LessonId,
+    val lessonTitle: LocalizedText,
+    val skill: SkillArea,
+    val scorePercent: Int,
+    val confidencePercent: Int,
+    val objectiveCorrect: Int,
+    val objectiveAttempts: Int,
+)
+
 data class MistakeInsight(
     val lessonId: LessonId,
     val activityId: ActivityId,
@@ -49,6 +59,7 @@ data class FocusRecommendation(
 
 data class LearningProfile(
     val mastery: List<SkillMastery> = emptyList(),
+    val topics: List<TopicMastery> = emptyList(),
     val mistakes: List<MistakeInsight> = emptyList(),
     val focus: List<FocusRecommendation> = emptyList(),
     val totalAttempts: Int = 0,
