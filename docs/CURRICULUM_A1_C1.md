@@ -1,6 +1,6 @@
 # SPREVA Academic German Curriculum — A1 to C1
 
-> Content version: `2026.09.academic.3`
+> Content version: `2026.09.academic.4`
 
 SPREVA's bundled German course is organized as an offline-first CEFR-oriented learning path from A1 through C1. The curriculum is designed around practical **Can-Do outcomes**, explicit language-system explanations, contextual vocabulary, controlled practice, production tasks, self-correction, and progressively more complex real-life, professional, academic, and civic communication.
 
@@ -9,9 +9,9 @@ SPREVA's bundled German course is organized as an offline-first CEFR-oriented le
 | Metric | Total |
 |---|---:|
 | CEFR levels | 5 |
-| Units | 68 |
-| Lessons | 272 |
-| Learning activities | 2,997 |
+| Units | 73 |
+| Lessons | 292 |
+| Learning activities | 3,267 |
 | Instruction languages | German + Arabic + English |
 
 Every lesson is a real JSON content object consumed by the app, not a placeholder title. Every unit now follows a four-layer progression:
@@ -46,6 +46,10 @@ Each lesson follows a consistent instructional contract:
 
 The activity schema deliberately stays compatible with the existing renderer. New pedagogical depth is carried through supported activity types instead of shipping JSON that the app cannot render.
 
+## Integrated capstones
+
+Each CEFR level ends with a dedicated integration unit. These capstones deliberately mix previously separated topics so the learner must select the correct rule under realistic pressure rather than recognizing a lesson theme in advance. Each capstone itself follows the same four-layer architecture and includes cumulative cloze retrieval, discrimination, free production, error logging and delayed/interleaved review.
+
 ## CEFR orientation
 
 The curriculum uses CEFR levels as a progression framework and follows an action-oriented, Can-Do-centered design. It is **CEFR-oriented**, not an official Council of Europe certification or endorsement. Formal external alignment/validation can be added later with independent expert review and calibrated assessment data.
@@ -54,7 +58,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### A1 — A1 — Everyday foundations
 
-**13 units · 52 lessons · 577 activities**
+**14 units · 56 lessons · 631 activities**
 
 1. **Begrüßung & Vorstellung** — التحية والتعارف
 2. **Alphabet, Aussprache & persönliche Daten** — الأبجدية والنطق والبيانات الشخصية
@@ -72,7 +76,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### A2 — A2 — More independent everyday communication
 
-**13 units · 52 lessons · 572 activities**
+**14 units · 56 lessons · 626 activities**
 
 1. **Vergangenheit mit Perfekt** — الماضي بصيغة Perfekt
 2. **Präteritum im Alltag** — Präteritum في الحياة اليومية
@@ -90,7 +94,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### B1 — B1 — Independent action & argumentation
 
-**13 units · 52 lessons · 572 activities**
+**14 units · 56 lessons · 626 activities**
 
 1. **Erzählen & zeitliche Zusammenhänge** — السرد والعلاقات الزمنية
 2. **Passiv in Alltag & Arbeit** — المبني للمجهول في الحياة والعمل
@@ -108,7 +112,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### B2 — B2 — Precision, professional language & complex topics
 
-**14 units · 56 lessons · 616 activities**
+**15 units · 60 lessons · 670 activities**
 
 1. **Komplexe Konnektoren & Argumentlogik** — الروابط المعقدة ومنطق الحجة
 2. **Passiversatz & Handlungsfokus** — بدائل المبني للمجهول وتركيز الفعل
@@ -127,7 +131,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### C1 — C1 — Academic, professional & stylistic mastery
 
-**15 units · 60 lessons · 660 activities**
+**16 units · 64 lessons · 714 activities**
 
 1. **Informationsstruktur, Fokus & Satzrhythmus** — بنية المعلومات والتركيز وإيقاع الجملة
 2. **Komplexe Subordination & Bedeutungsnuancen** — الجمل التابعة المعقدة والفروق الدلالية
