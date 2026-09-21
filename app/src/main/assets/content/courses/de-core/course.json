@@ -1394,6 +1394,15 @@
                 "en": "Handling medical conversations linguistically"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b1_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Gesundheit, Arzt & Versicherung",
+                "ar": "تدريب مكثف: الصحة والطبيب والتأمين",
+                "en": "Mastery lab: Health, doctors & insurance"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1422,6 +1431,15 @@
                 "en": "Giving a nuanced, reasoned opinion"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b1_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Medien, Meinung & Argumentation",
+                "ar": "تدريب مكثف: الإعلام والرأي والحجاج",
+                "en": "Mastery lab: Media, opinion & argumentation"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1450,6 +1468,15 @@
                 "en": "Presenting and discussing a B1 topic"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b1_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Umwelt, Gesellschaft & Präsentation",
+                "ar": "تدريب مكثف: البيئة والمجتمع والعرض",
+                "en": "Mastery lab: Environment, society & presentation"
+              },
+              "activityCount": 14
             }
           ]
         }
