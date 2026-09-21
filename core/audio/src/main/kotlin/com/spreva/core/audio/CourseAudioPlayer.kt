@@ -20,7 +20,12 @@ interface CourseAudioPlayer {
     fun play(contentPath: String, speed: Float = 1f)
 
     /** Plays [contentPath] when bundled audio exists, otherwise speaks via TTS. */
-    fun playOrSpeak(contentPath: String?, fallbackText: String, article: String? = null)
+    fun playOrSpeak(
+        contentPath: String?,
+        fallbackText: String,
+        article: String? = null,
+        speed: Float = 1f,
+    )
 
     /** Plays an arbitrary local [file] (e.g. the learner's recording). */
     fun playFile(file: java.io.File)
@@ -73,14 +78,18 @@ class ExoPlayerCourseAudioPlayer @Inject constructor(
         exo.playWhenReady = true
     }
 
-    override fun playOrSpeak(contentPath: String?, fallbackText: String, article: String?) {
+    override fun playOrSpeak(
+        contentPath: String?,
+        fallbackText: String,
+        article: String?,
+        speed: Float,
+    ) {
         val uri = locator.resolve(contentPath)
         if (uri != null) {
-            play(contentPath ?: return, 1f)
+            play(contentPath ?: return, speed)
         } else {
-            // Native recording missing → built-in TTS fallback (plan section 65:
-            // offline-first with graceful degradation).
-            ttsProvider.speakGerman(article = article, text = fallbackText)
+            // Native recording missing → built-in TTS fallback.
+            ttsProvider.speakGerman(article = article, text = fallbackText, rate = speed)
         }
     }
 

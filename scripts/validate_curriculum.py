@@ -191,8 +191,6 @@ def validate():
                 for option in options:
                     require_localized(option.get("text"), f"{aid}/{option.get('id')} text", errors)
             elif kind == "speaking_repeat":
-                if not activity.get("audio"):
-                    errors.append(f"{aid}: speaking_repeat missing audio")
                 require_localized(activity.get("text"), f"{aid} text", errors)
                 if activity.get("prompt") is not None:
                     require_localized(activity.get("prompt"), f"{aid} prompt", errors)

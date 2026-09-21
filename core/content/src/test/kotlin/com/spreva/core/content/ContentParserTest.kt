@@ -196,6 +196,21 @@ class ContentParserTest {
         assertEquals("die Uhr", speaking.text.de)
     }
 
+    @Test
+    fun `speaking repeat supports local TTS fallback without bundled audio`() {
+        val json = """
+            {"id": "l1", "unitId": "u1", "title": {"de": "t"}, "canDo": ["X"], "activities": [
+              {"id": "a1", "type": "speaking_repeat",
+               "text": {"de": "Ich spreche langsam.", "ar": "x", "en": "x"}}
+            ]}
+        """
+        val lesson = parser.parseLesson(json.trimIndent()).let(parser::toLesson)
+        val speaking = lesson.activities.single() as com.spreva.core.model.LearningActivity.SpeakingRepeat
+        assertEquals(null, speaking.audio)
+        assertEquals("Ich spreche langsam.", speaking.text.de)
+        assertEquals(emptyList<String>(), ContentValidator.validateLesson(lesson))
+    }
+
     @Test(expected = ContentValidationException::class)
     fun `speaking repeat without text is rejected`() {
         val json = """

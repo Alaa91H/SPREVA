@@ -206,7 +206,8 @@ class LessonViewModel @Inject constructor(
         val state = _uiState.value
         val modelFile = state.lesson?.activities?.getOrNull(state.currentIndex)
             ?.let { it as? com.spreva.core.model.LearningActivity.SpeakingRepeat }
-            ?.let { audioFileResolver.resolveFile(it.audio) }
+            ?.audio
+            ?.let { audioFileResolver.resolveFile(it) }
         val own = lastRecording ?: return
         _uiState.value = _uiState.value.copy(
             similarityScore = if (modelFile?.isFile == true) {
@@ -234,7 +235,11 @@ class LessonViewModel @Inject constructor(
         val lesson = state.lesson ?: return
         val activity = lesson.activities.getOrNull(state.currentIndex)
         if (activity is com.spreva.core.model.LearningActivity.SpeakingRepeat) {
-            courseAudioPlayer.play(activity.audio, speed)
+            courseAudioPlayer.playOrSpeak(
+                contentPath = activity.audio,
+                fallbackText = activity.text.de,
+                speed = speed,
+            )
         }
     }
 

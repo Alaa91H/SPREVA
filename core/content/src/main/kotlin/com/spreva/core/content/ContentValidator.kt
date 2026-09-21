@@ -49,6 +49,10 @@ object ContentValidator {
                     if (activity.minWords <= 0) add("FreeWrite ${activity.id.value} minWords must be > 0")
                 }
 
+                is com.spreva.core.model.LearningActivity.SpeakingRepeat -> {
+                    if (activity.text.de.isBlank()) add("SpeakingRepeat ${activity.id.value} has blank model text")
+                }
+
                 is com.spreva.core.model.LearningActivity.SpeakingPrompt -> {
                     if (activity.minSeconds <= 0) add("SpeakingPrompt ${activity.id.value} minSeconds must be > 0")
                 }

@@ -61,8 +61,8 @@ sealed interface LearningActivity {
      */
     data class SpeakingRepeat(
         override val id: ActivityId,
-        /** Bundled model recording, relative to content/. */
-        val audio: String,
+        /** Bundled model recording, relative to content/. Null uses local German TTS. */
+        val audio: String? = null,
         val prompt: LocalizedText? = null,
         /** The phrase the learner should repeat. */
         val text: LocalizedText,
