@@ -103,16 +103,17 @@ fun PracticeRoute(
                         verticalArrangement = Arrangement.spacedBy(6.dp),
                     ) {
                         Text(skillLabel(mastery.skill), style = MaterialTheme.typography.titleMedium)
-                        if (mastery.scorePercent != null) {
+                        val score = mastery.scorePercent
+                        if (score != null) {
                             Text(
                                 stringResource(
                                     R.string.spreva_review_mastery_score,
-                                    mastery.scorePercent,
+                                    score,
                                     mastery.confidencePercent,
                                 ),
                             )
                             LinearProgressIndicator(
-                                progress = { mastery.scorePercent / 100f },
+                                progress = { score / 100f },
                                 modifier = Modifier.fillMaxWidth(),
                             )
                         } else {
