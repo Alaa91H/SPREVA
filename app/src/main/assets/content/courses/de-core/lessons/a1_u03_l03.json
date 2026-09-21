@@ -281,6 +281,176 @@
       }
     },
     {
+      "id": "a1_u03_l03_act15",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u03_l03_audio_w1",
+          "german": "eins",
+          "translation": {
+            "de": "—",
+            "ar": "واحد",
+            "en": "one"
+          },
+          "audio": "audio/cc-by-sa/de-eins.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w2",
+          "german": "zwei",
+          "translation": {
+            "de": "—",
+            "ar": "اثنان",
+            "en": "two"
+          },
+          "audio": "audio/cc-by-sa/de-zwei.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w3",
+          "german": "drei",
+          "translation": {
+            "de": "—",
+            "ar": "ثلاثة",
+            "en": "three"
+          },
+          "audio": "audio/cc-by-sa/de-drei.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w4",
+          "german": "vier",
+          "translation": {
+            "de": "—",
+            "ar": "أربعة",
+            "en": "four"
+          },
+          "audio": "audio/cc-by-sa/de-vier.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w5",
+          "german": "fünf",
+          "translation": {
+            "de": "—",
+            "ar": "خمسة",
+            "en": "five"
+          },
+          "audio": "audio/cc-by-sa/de-fuenf.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w6",
+          "german": "sechs",
+          "translation": {
+            "de": "—",
+            "ar": "ستة",
+            "en": "six"
+          },
+          "audio": "audio/cc-by-sa/de-sechs.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w7",
+          "german": "sieben",
+          "translation": {
+            "de": "—",
+            "ar": "سبعة",
+            "en": "seven"
+          },
+          "audio": "audio/cc-by-sa/de-sieben.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w8",
+          "german": "acht",
+          "translation": {
+            "de": "—",
+            "ar": "ثمانية",
+            "en": "eight"
+          },
+          "audio": "audio/cc-by-sa/de-acht.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w9",
+          "german": "neun",
+          "translation": {
+            "de": "—",
+            "ar": "تسعة",
+            "en": "nine"
+          },
+          "audio": "audio/cc-by-sa/de-neun.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w10",
+          "german": "zehn",
+          "translation": {
+            "de": "—",
+            "ar": "عشرة",
+            "en": "ten"
+          },
+          "audio": "audio/cc-by-sa/de-zehn.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w11",
+          "german": "die Uhr",
+          "article": "die",
+          "plural": "die Uhren",
+          "translation": {
+            "de": "—",
+            "ar": "الساعة",
+            "en": "the clock / o'clock"
+          },
+          "audio": "audio/cc-by-sa/de-uhr.ogg"
+        }
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act16",
+      "type": "listening_choice",
+      "audio": "audio/cc-by-sa/de-acht.ogg",
+      "prompt": {
+        "de": "Zahl auditiv erkennen",
+        "ar": "تعرّف على الرقم من الصوت",
+        "en": "Recognize the number by sound"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vier",
+            "ar": "vier",
+            "en": "vier"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "acht",
+            "ar": "acht",
+            "en": "acht"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sechs",
+            "ar": "sechs",
+            "en": "sechs"
+          }
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "a1_u03_l03_act17",
+      "type": "speaking_repeat",
+      "audio": "audio/cc-by-sa/de-uhr.ogg",
+      "prompt": {
+        "de": "Sprich Rhythmus und Vokal klar nach.",
+        "ar": "كرر الإيقاع والصوت بوضوح.",
+        "en": "Repeat the rhythm and vowel clearly."
+      },
+      "text": {
+        "de": "die Uhr",
+        "ar": "die Uhr",
+        "en": "die Uhr"
+      }
+    },
+    {
       "id": "a1_u03_l03_act14",
       "type": "lesson_summary",
       "title": {
