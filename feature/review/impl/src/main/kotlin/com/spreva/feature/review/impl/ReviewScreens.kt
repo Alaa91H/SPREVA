@@ -46,6 +46,7 @@ fun PracticeRoute(
     val dueCount by viewModel.dueCount.collectAsStateWithLifecycle()
     val profile by viewModel.profile.collectAsStateWithLifecycle()
     val recommendedLevel by viewModel.recommendedLevel.collectAsStateWithLifecycle()
+    val uiLanguage by viewModel.uiLanguage.collectAsStateWithLifecycle()
 
     Column(
         Modifier
@@ -149,7 +150,7 @@ fun PracticeRoute(
                         Modifier.padding(14.dp),
                         verticalArrangement = Arrangement.spacedBy(4.dp),
                     ) {
-                        Text(focus.lessonTitle.de, style = MaterialTheme.typography.titleMedium)
+                        Text(focus.lessonTitle.resolveFor(uiLanguage), style = MaterialTheme.typography.titleMedium)
                         val topic = profile.topics.firstOrNull { it.lessonId == focus.lessonId }
                         Text(
                             if (topic != null) {
@@ -348,6 +349,7 @@ fun PlacementRoute(
     viewModel: PlacementViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val uiLanguage by viewModel.uiLanguage.collectAsStateWithLifecycle()
 
     Column(
         Modifier
@@ -431,7 +433,7 @@ fun PlacementRoute(
                             verticalArrangement = Arrangement.spacedBy(10.dp),
                         ) {
                             Text(
-                                question.prompt.de,
+                                question.prompt.resolveFor(uiLanguage),
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )

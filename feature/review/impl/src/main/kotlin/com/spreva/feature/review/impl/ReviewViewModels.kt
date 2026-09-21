@@ -7,6 +7,7 @@ import com.spreva.core.common.AppClock
 import com.spreva.core.datastore.SettingsDataSource
 import com.spreva.core.model.ReviewCard
 import com.spreva.core.model.ReviewRating
+import com.spreva.core.model.UiLanguage
 import com.spreva.core.model.CefrLevel
 import com.spreva.core.model.LearningProfile
 import com.spreva.core.model.PlacementAnswer
@@ -45,6 +46,10 @@ class PracticeViewModel @Inject constructor(
 
     val profile: StateFlow<LearningProfile> = intelligenceRepository.observeProfile()
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), LearningProfile())
+
+    val uiLanguage: StateFlow<UiLanguage> = settingsDataSource.settings
+        .map { it.uiLanguage }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), UiLanguage.ENGLISH)
 
     val recommendedLevel: StateFlow<CefrLevel?> = settingsDataSource.settings
         .map { it.recommendedLevel }
@@ -172,6 +177,10 @@ class PlacementViewModel @Inject constructor(
     private val engine: AdaptivePlacementEngine,
     private val settingsDataSource: SettingsDataSource,
 ) : ViewModel() {
+
+    val uiLanguage: StateFlow<UiLanguage> = settingsDataSource.settings
+        .map { it.uiLanguage }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), UiLanguage.ENGLISH)
 
     private val _state = MutableStateFlow(PlacementUiState())
     val state: StateFlow<PlacementUiState> = _state.asStateFlow()
