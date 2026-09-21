@@ -177,10 +177,44 @@ def validate():
                 require_localized(activity.get("title"), f"{aid} title", errors)
                 if activity.get("canDo") != can_do:
                     errors.append(f"{aid}: lesson_summary Can-Do list differs from lesson")
-            elif kind in {"listening_choice", "speaking_repeat"}:
-                # Existing renderer-supported audio activities remain valid; media integrity is checked separately.
+            elif kind == "listening_choice":
+                options = activity.get("options", [])
+                ids = [o.get("id") for o in options]
+                if len(options) < 2:
+                    errors.append(f"{aid}: listening_choice needs at least 2 options")
+                if activity.get("correctOptionId") not in ids:
+                    errors.append(f"{aid}: correctOptionId not found in listening options")
+                if not activity.get("audio") and not (activity.get("text") or {}).get("de"):
+                    errors.append(f"{aid}: listening_choice needs bundled audio or hidden German fallback text")
+                if activity.get("prompt") is not None:
+                    require_localized(activity.get("prompt"), f"{aid} prompt", errors)
+                for option in options:
+                    require_localized(option.get("text"), f"{aid}/{option.get('id')} text", errors)
+            elif kind == "speaking_repeat":
                 if not activity.get("audio"):
-                    errors.append(f"{aid}: {kind} missing audio")
+                    errors.append(f"{aid}: speaking_repeat missing audio")
+                require_localized(activity.get("text"), f"{aid} text", errors)
+                if activity.get("prompt") is not None:
+                    require_localized(activity.get("prompt"), f"{aid} prompt", errors)
+            elif kind == "dictation":
+                require_localized(activity.get("text"), f"{aid} text", errors)
+                if activity.get("prompt") is not None:
+                    require_localized(activity.get("prompt"), f"{aid} prompt", errors)
+                answers = activity.get("acceptedAnswers", [])
+                if not answers or any(not isinstance(x, str) or not x.strip() for x in answers):
+                    errors.append(f"{aid}: dictation needs non-empty acceptedAnswers")
+            elif kind == "free_write":
+                require_localized(activity.get("prompt"), f"{aid} prompt", errors)
+                if not isinstance(activity.get("minWords"), int) or activity["minWords"] <= 0:
+                    errors.append(f"{aid}: free_write minWords must be a positive integer")
+                for index, item in enumerate(activity.get("checklist", [])):
+                    require_localized(item, f"{aid} checklist[{index}]", errors)
+            elif kind == "speaking_prompt":
+                require_localized(activity.get("prompt"), f"{aid} prompt", errors)
+                if not isinstance(activity.get("minSeconds"), int) or activity["minSeconds"] <= 0:
+                    errors.append(f"{aid}: speaking_prompt minSeconds must be a positive integer")
+                for index, item in enumerate(activity.get("checklist", [])):
+                    require_localized(item, f"{aid} checklist[{index}]", errors)
             else:
                 errors.append(f"{aid}: unsupported activity type {kind!r}")
 
@@ -198,10 +232,10 @@ def validate():
             if type_counts.get("cloze", 0) < 6 or type_counts.get("multiple_choice", 0) < 2:
                 errors.append(f"{lesson_id}: mastery layer needs >=6 cloze and >=2 multiple-choice drills")
         if lesson_id.endswith("_l04"):
-            if len(activities) != 16:
-                errors.append(f"{lesson_id}: casebook layer must have exactly 16 activities")
-            if type_counts.get("cloze", 0) != 6 or type_counts.get("multiple_choice", 0) != 4:
-                errors.append(f"{lesson_id}: casebook layer must have exactly 6 cloze and 4 multiple-choice drills")
+            if len(activities) < 16:
+                errors.append(f"{lesson_id}: casebook layer must have at least 16 activities")
+            if type_counts.get("cloze", 0) != 6 or type_counts.get("multiple_choice", 0) < 4:
+                errors.append(f"{lesson_id}: casebook layer must have exactly 6 cloze and at least 4 multiple-choice drills")
 
     if errors:
         print(f"Curriculum validation FAILED with {len(errors)} error(s):", file=sys.stderr)
