@@ -1,0 +1,362 @@
+{
+  "id": "b1_u16_l01",
+  "unitId": "de-core-b1-u16",
+  "title": {
+    "de": "Phonetik: hören & unterscheiden",
+    "ar": "الصوتيات: الاستماع والتمييز",
+    "en": "Phonetics: listen & discriminate"
+  },
+  "canDo": [
+    "B1_PHONETICS_DISCRIMINATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u16_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Hören & unterscheiden",
+        "ar": "الاستماع والتمييز",
+        "en": "Listen & discriminate"
+      },
+      "body": {
+        "de": "Satzrhythmus, Reduktion unbetonter Silben, Komposita, Kontrastakzent, Sprechgruppen und natürliche Pausen.",
+        "ar": "إيقاع الجملة، اختزال المقاطع غير المنبورة، الكلمات المركبة، النبر المقارن، مجموعات الكلام والوقفات الطبيعية.",
+        "en": "Sentence rhythm, reduction of unstressed syllables, compounds, contrastive stress, speech groups and natural pauses."
+      }
+    },
+    {
+      "id": "b1_u16_l01_act02",
+      "type": "listening_choice",
+      "text": {
+        "de": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt.",
+        "ar": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt.",
+        "en": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Dienstag ist korrigiert hervorgehoben",
+            "ar": "Dienstag ist korrigiert hervorgehoben",
+            "en": "Dienstag ist korrigiert hervorgehoben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Montag bleibt Termin",
+            "ar": "Montag bleibt Termin",
+            "en": "Montag bleibt Termin"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "beide Tage",
+            "ar": "beide Tage",
+            "en": "beide Tage"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l01_act03",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich habe den Antrag bereits gestern eingereicht.",
+        "ar": "Ich habe den Antrag bereits gestern eingereicht.",
+        "en": "Ich habe den Antrag bereits gestern eingereicht."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "gestern bereits eingereicht",
+            "ar": "gestern bereits eingereicht",
+            "en": "gestern bereits eingereicht"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "morgen einreichen",
+            "ar": "morgen einreichen",
+            "en": "morgen einreichen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Antrag fehlt",
+            "ar": "Antrag fehlt",
+            "en": "Antrag fehlt"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l01_act04",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Kundenservice hat mir die Unterlagen zugeschickt.",
+        "ar": "Der Kundenservice hat mir die Unterlagen zugeschickt.",
+        "en": "Der Kundenservice hat mir die Unterlagen zugeschickt."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Unterlagen wurden zugeschickt",
+            "ar": "Unterlagen wurden zugeschickt",
+            "en": "Unterlagen wurden zugeschickt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Unterlagen fehlen",
+            "ar": "Unterlagen fehlen",
+            "en": "Unterlagen fehlen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Kunde schickt Geld",
+            "ar": "Kunde schickt Geld",
+            "en": "Kunde schickt Geld"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l01_act05",
+      "type": "listening_choice",
+      "text": {
+        "de": "Obwohl die Quelle seriös wirkt, sollte man die Daten prüfen.",
+        "ar": "Obwohl die Quelle seriös wirkt, sollte man die Daten prüfen.",
+        "en": "Obwohl die Quelle seriös wirkt, sollte man die Daten prüfen."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Quelle wirkt seriös, Daten trotzdem prüfen",
+            "ar": "Quelle wirkt seriös, Daten trotzdem prüfen",
+            "en": "Quelle wirkt seriös, Daten trotzdem prüfen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Quelle ist falsch",
+            "ar": "Quelle ist falsch",
+            "en": "Quelle ist falsch"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Daten sind sicher",
+            "ar": "Daten sind sicher",
+            "en": "Daten sind sicher"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Zusammenfassend würde ich die zweite Lösung bevorzugen.",
+        "ar": "Zusammenfassend würde ich die zweite Lösung bevorzugen.",
+        "en": "Zusammenfassend würde ich die zweite Lösung bevorzugen."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zweite Lösung bevorzugt",
+            "ar": "zweite Lösung bevorzugt",
+            "en": "zweite Lösung bevorzugt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "erste Lösung bevorzugt",
+            "ar": "erste Lösung bevorzugt",
+            "en": "erste Lösung bevorzugt"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Präferenz",
+            "ar": "keine Präferenz",
+            "en": "keine Präferenz"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "ar": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "en": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ein Nachweis fehlt",
+            "ar": "ein Nachweis fehlt",
+            "en": "ein Nachweis fehlt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Antrag ist fertig",
+            "ar": "Antrag ist fertig",
+            "en": "Antrag ist fertig"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Frist ist vorbei",
+            "ar": "Frist ist vorbei",
+            "en": "Frist ist vorbei"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l01_act08",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "ar": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "en": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis."
+      },
+      "acceptedAnswers": [
+        "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis."
+      ]
+    },
+    {
+      "id": "b1_u16_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Obwohl die Quelle seriös wirkt, sollte man die Daten genauer prüfen.",
+        "ar": "Obwohl die Quelle seriös wirkt, sollte man die Daten genauer prüfen.",
+        "en": "Obwohl die Quelle seriös wirkt, sollte man die Daten genauer prüfen."
+      },
+      "acceptedAnswers": [
+        "Obwohl die Quelle seriös wirkt, sollte man die Daten genauer prüfen."
+      ]
+    },
+    {
+      "id": "b1_u16_l01_act10",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt.",
+        "ar": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt.",
+        "en": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt."
+      }
+    },
+    {
+      "id": "b1_u16_l01_act11",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "ar": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "en": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis."
+      }
+    },
+    {
+      "id": "b1_u16_l01_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Mikro-Hörschleife",
+        "ar": "حلقة استماع قصيرة",
+        "en": "Micro-listening loop"
+      },
+      "body": {
+        "de": "Hören → Schlüsselstelle identifizieren → nachsprechen → erneut hören → eigene Aufnahme vergleichen. Maximal ein Ausspracheziel pro Runde.",
+        "ar": "استمع ← حدد الموضع المهم ← ردد ← استمع ثانية ← قارن تسجيلك. هدف نطق واحد فقط في كل جولة.",
+        "en": "Listen → identify the key spot → repeat → listen again → compare your recording. Use only one pronunciation target per round."
+      }
+    },
+    {
+      "id": "b1_u16_l01_act13",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Hörgenauigkeit trainiert",
+        "ar": "تم تدريب دقة الاستماع",
+        "en": "Listening precision trained"
+      },
+      "canDo": [
+        "B1_PHONETICS_DISCRIMINATION"
+      ]
+    }
+  ]
+}

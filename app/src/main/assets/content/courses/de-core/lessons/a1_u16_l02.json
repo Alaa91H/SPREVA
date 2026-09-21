@@ -1,0 +1,171 @@
+{
+  "id": "a1_u16_l02",
+  "unitId": "de-core-a1-u16",
+  "title": {
+    "de": "Phonetik: Shadowing & Sprechfluss",
+    "ar": "الصوتيات: الترديد وطلاقة الكلام",
+    "en": "Phonetics: shadowing & flow"
+  },
+  "canDo": [
+    "A1_PHONETICS_SHADOWING"
+  ],
+  "activities": [
+    {
+      "id": "a1_u16_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Shadowing & Artikulation",
+        "ar": "الترديد والنطق",
+        "en": "Shadowing & articulation"
+      },
+      "body": {
+        "de": "Trainieren Sie nicht nur einzelne Laute, sondern ganze Sprechgruppen. Beginnen Sie langsam und erhöhen Sie erst bei stabiler Verständlichkeit das Tempo.",
+        "ar": "لا تدرب الأصوات منفردة فقط، بل مجموعات الكلام. ابدأ ببطء ولا ترفع السرعة إلا بعد ثبات الوضوح.",
+        "en": "Train whole thought groups, not only isolated sounds. Start slowly and increase speed only after clarity is stable."
+      }
+    },
+    {
+      "id": "a1_u16_l02_act02",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Ich heiße Amir und wohne in München.",
+        "ar": "Ich heiße Amir und wohne in München.",
+        "en": "Ich heiße Amir und wohne in München."
+      }
+    },
+    {
+      "id": "a1_u16_l02_act03",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Ich möchte fünf Brötchen, bitte.",
+        "ar": "Ich möchte fünf Brötchen, bitte.",
+        "en": "Ich möchte fünf Brötchen, bitte."
+      }
+    },
+    {
+      "id": "a1_u16_l02_act04",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Heute ist das Wetter schön, aber kühl.",
+        "ar": "Heute ist das Wetter schön, aber kühl.",
+        "en": "Heute ist das Wetter schön, aber kühl."
+      }
+    },
+    {
+      "id": "a1_u16_l02_act05",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+        "ar": "Entschuldigung, wie komme ich zum Bahnhof?",
+        "en": "Entschuldigung, wie komme ich zum Bahnhof?"
+      }
+    },
+    {
+      "id": "a1_u16_l02_act06",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Die Küche ist heute geschlossen.",
+        "ar": "Die Küche ist heute geschlossen.",
+        "en": "Die Küche ist heute geschlossen."
+      },
+      "acceptedAnswers": [
+        "Die Küche ist heute geschlossen."
+      ]
+    },
+    {
+      "id": "a1_u16_l02_act07",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Ich suche ein günstiges Zimmer.",
+        "ar": "Ich suche ein günstiges Zimmer.",
+        "en": "Ich suche ein günstiges Zimmer."
+      },
+      "acceptedAnswers": [
+        "Ich suche ein günstiges Zimmer."
+      ]
+    },
+    {
+      "id": "a1_u16_l02_act08",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Sprechen Sie 20–30 Sekunden über Ihren Tag. Achten Sie bewusst auf lange/kurze Vokale und deutliche Wortakzente.",
+        "ar": "تحدث 20–30 ثانية عن يومك وركّز على طول الحركات ونبر الكلمات.",
+        "en": "Speak for 20–30 seconds about your day, focusing on vowel length and clear word stress."
+      },
+      "minSeconds": 20,
+      "checklist": [
+        {
+          "de": "Rhythmus und Pausen bewusst gesetzt",
+          "ar": "تم ضبط الإيقاع والوقفات بوعي",
+          "en": "Rhythm and pauses used deliberately"
+        },
+        {
+          "de": "wichtige Wörter hörbar hervorgehoben",
+          "ar": "تم إبراز الكلمات المهمة",
+          "en": "Important words audibly highlighted"
+        },
+        {
+          "de": "Tempo bleibt verständlich",
+          "ar": "السرعة تبقى مفهومة",
+          "en": "Pace remains intelligible"
+        }
+      ]
+    },
+    {
+      "id": "a1_u16_l02_act09",
+      "type": "text_intro",
+      "title": {
+        "de": "Aufnahme vergleichen",
+        "ar": "مقارنة التسجيل",
+        "en": "Compare recordings"
+      },
+      "body": {
+        "de": "Vergleichen Sie nie alles gleichzeitig. Runde 1: Rhythmus. Runde 2: ein Laut/Akzent. Runde 3: Natürlichkeit. Nehmen Sie danach erneut auf.",
+        "ar": "لا تقارن كل شيء دفعة واحدة. الجولة 1: الإيقاع. 2: صوت/نبر واحد. 3: الطبيعية. ثم سجّل مجددًا.",
+        "en": "Never compare everything at once. Round 1: rhythm. Round 2: one sound/stress target. Round 3: naturalness. Then record again."
+      }
+    },
+    {
+      "id": "a1_u16_l02_act10",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Shadowing abgeschlossen",
+        "ar": "اكتمل تدريب الترديد",
+        "en": "Shadowing complete"
+      },
+      "canDo": [
+        "A1_PHONETICS_SHADOWING"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "id": "b2_u17_l04",
+  "unitId": "de-core-b2-u17",
+  "title": {
+    "de": "Aussprache-Casebook",
+    "ar": "دفتر حالات النطق",
+    "en": "Pronunciation casebook"
+  },
+  "canDo": [
+    "B2_PHONETICS_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u17_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Aussprache-Casebook",
+        "ar": "دفتر حالات النطق",
+        "en": "Pronunciation casebook"
+      },
+      "body": {
+        "de": "Diagnostizieren Sie, ob ein Problem aus Laut, Akzent, Rhythmus, Intonation oder Tempo entsteht. Ändern Sie pro Wiederholung nur einen Faktor.",
+        "ar": "شخّص هل المشكلة من الصوت أو النبر أو الإيقاع أو اللحن أو السرعة. غيّر عاملًا واحدًا فقط في كل تكرار.",
+        "en": "Diagnose whether a problem comes from sound, stress, rhythm, intonation or pace. Change only one factor per repetition."
+      }
+    },
+    {
+      "id": "b2_u17_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "„wohl“ kann eine Aussage epistemisch {answer}.",
+        "ar": "„wohl“ kann eine Aussage epistemisch {answer}.",
+        "en": "„wohl“ kann eine Aussage epistemisch {answer}."
+      },
+      "acceptedAnswers": [
+        "abschwächen"
+      ]
+    },
+    {
+      "id": "b2_u17_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bedingungen können prosodisch vom Hauptpunkt {answer} werden.",
+        "ar": "Bedingungen können prosodisch vom Hauptpunkt {answer} werden.",
+        "en": "Bedingungen können prosodisch vom Hauptpunkt {answer} werden."
+      },
+      "acceptedAnswers": [
+        "abgesetzt"
+      ]
+    },
+    {
+      "id": "b2_u17_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein Gegenargument sollte hörbar, aber nicht künstlich {answer} sein.",
+        "ar": "Ein Gegenargument sollte hörbar, aber nicht künstlich {answer} sein.",
+        "en": "Ein Gegenargument sollte hörbar, aber nicht künstlich {answer} sein."
+      },
+      "acceptedAnswers": [
+        "markiert"
+      ]
+    },
+    {
+      "id": "b2_u17_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Professioneller Ton bedeutet nicht vollständig {answer} zu sprechen.",
+        "ar": "Professioneller Ton bedeutet nicht vollständig {answer} zu sprechen.",
+        "en": "Professioneller Ton bedeutet nicht vollständig {answer} zu sprechen."
+      },
+      "acceptedAnswers": [
+        "monoton"
+      ]
+    },
+    {
+      "id": "b2_u17_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Fokusakzent kann den gemeinten {answer} verändern.",
+        "ar": "Fokusakzent kann den gemeinten {answer} verändern.",
+        "en": "Fokusakzent kann den gemeinten {answer} verändern."
+      },
+      "acceptedAnswers": [
+        "Kontrast"
+      ]
+    },
+    {
+      "id": "b2_u17_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gute Prosodie unterstützt logische {answer}.",
+        "ar": "Gute Prosodie unterstützt logische {answer}.",
+        "en": "Gute Prosodie unterstützt logische {answer}."
+      },
+      "acceptedAnswers": [
+        "Gliederung"
+      ]
+    },
+    {
+      "id": "b2_u17_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Welche Wirkung hat „wohl“ häufig?",
+        "ar": "Welche Wirkung hat „wohl“ häufig?",
+        "en": "Welche Wirkung hat „wohl“ häufig?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorsichtige Einschätzung",
+            "ar": "vorsichtige Einschätzung",
+            "en": "vorsichtige Einschätzung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Befehl",
+            "ar": "Befehl",
+            "en": "Befehl"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Plural",
+            "ar": "Plural",
+            "en": "Plural"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wozu dient Fokusakzent?",
+        "ar": "Wozu dient Fokusakzent?",
+        "en": "Wozu dient Fokusakzent?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "relevante Information hervorheben",
+            "ar": "relevante Information hervorheben",
+            "en": "relevante Information hervorheben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kasus ersetzen",
+            "ar": "Kasus ersetzen",
+            "en": "Kasus ersetzen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Tempo erhöhen",
+            "ar": "Tempo erhöhen",
+            "en": "Tempo erhöhen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was hilft bei Einschüben?",
+        "ar": "Was hilft bei Einschüben?",
+        "en": "Was hilft bei Einschüben?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sinnvolle Pausen",
+            "ar": "sinnvolle Pausen",
+            "en": "sinnvolle Pausen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "keine Atmung",
+            "ar": "keine Atmung",
+            "en": "keine Atmung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "jedes Wort gleich betonen",
+            "ar": "jedes Wort gleich betonen",
+            "en": "jedes Wort gleich betonen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Professionelle Prosodie bedeutet vor allem?",
+        "ar": "Professionelle Prosodie bedeutet vor allem?",
+        "en": "Professionelle Prosodie bedeutet vor allem?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "klar strukturieren und angemessen gewichten",
+            "ar": "klar strukturieren und angemessen gewichten",
+            "en": "klar strukturieren und angemessen gewichten"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "immer langsam",
+            "ar": "immer langsam",
+            "en": "immer langsam"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "immer leise",
+            "ar": "immer leise",
+            "en": "immer leise"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Laut Bericht sei die Nachfrage deutlich gestiegen.",
+        "ar": "Laut Bericht sei die Nachfrage deutlich gestiegen.",
+        "en": "Laut Bericht sei die Nachfrage deutlich gestiegen."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "berichtete Aussage",
+            "ar": "berichtete Aussage",
+            "en": "berichtete Aussage"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "eigene sichere Behauptung",
+            "ar": "eigene sichere Behauptung",
+            "en": "eigene sichere Behauptung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Frage",
+            "ar": "Frage",
+            "en": "Frage"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l04_act13",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Ich verstehe Ihren Punkt; dennoch bleibt die Datenlage begrenzt.",
+        "ar": "Ich verstehe Ihren Punkt; dennoch bleibt die Datenlage begrenzt.",
+        "en": "Ich verstehe Ihren Punkt; dennoch bleibt die Datenlage begrenzt."
+      },
+      "acceptedAnswers": [
+        "Ich verstehe Ihren Punkt; dennoch bleibt die Datenlage begrenzt."
+      ]
+    },
+    {
+      "id": "b2_u17_l04_act14",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Ich verstehe Ihren Punkt; dennoch bleibt die Datenlage begrenzt.",
+        "ar": "Ich verstehe Ihren Punkt; dennoch bleibt die Datenlage begrenzt.",
+        "en": "Ich verstehe Ihren Punkt; dennoch bleibt die Datenlage begrenzt."
+      }
+    },
+    {
+      "id": "b2_u17_l04_act15",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Präsentieren Sie etwa eine Minute eine Empfehlung mit Befund, Einschränkung und Gegenargument. Machen Sie Fokus und Unsicherheit auch prosodisch hörbar.",
+        "ar": "قدّم توصية لنحو دقيقة مع نتيجة وقيد وحجة مضادة، واجعل البؤرة وعدم اليقين مسموعين في النبرة.",
+        "en": "Present a one-minute recommendation with finding, limitation and counterargument, making focus and uncertainty audible in your prosody."
+      },
+      "minSeconds": 60,
+      "checklist": [
+        {
+          "de": "Fokus hörbar",
+          "ar": "البؤرة مسموعة",
+          "en": "Focus audible"
+        },
+        {
+          "de": "Pausen sinnvoll",
+          "ar": "الوقفات مناسبة",
+          "en": "Pauses meaningful"
+        }
+      ]
+    },
+    {
+      "id": "b2_u17_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Aussprache-Casebook abgeschlossen",
+        "ar": "اكتمل دفتر النطق",
+        "en": "Pronunciation casebook complete"
+      },
+      "canDo": [
+        "B2_PHONETICS_CASEBOOK"
+      ]
+    }
+  ]
+}

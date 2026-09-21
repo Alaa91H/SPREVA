@@ -1,0 +1,329 @@
+{
+  "id": "b2_u17_l03",
+  "unitId": "de-core-b2-u17",
+  "title": {
+    "de": "Phonetik-Mastery",
+    "ar": "إتقان الصوتيات",
+    "en": "Phonetics mastery"
+  },
+  "canDo": [
+    "B2_PHONETICS_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u17_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Phonetik-Mastery",
+        "ar": "إتقان الصوتيات",
+        "en": "Phonetics mastery"
+      },
+      "body": {
+        "de": "Verbinden Sie Wissen über Lautung und Prosodie mit aktivem Hören und Nachsprechen.",
+        "ar": "اربط معرفة النطق والإيقاع بالاستماع والترديد الفعلي.",
+        "en": "Connect knowledge about pronunciation/prosody with active listening and shadowing."
+      }
+    },
+    {
+      "id": "b2_u17_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kontrastiver Fokus hebt eine Information gezielt {answer}.",
+        "ar": "Kontrastiver Fokus hebt eine Information gezielt {answer}.",
+        "en": "Kontrastiver Fokus hebt eine Information gezielt {answer}."
+      },
+      "acceptedAnswers": [
+        "hervor"
+      ]
+    },
+    {
+      "id": "b2_u17_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Modalpartikeln verändern oft die pragmatische {answer}.",
+        "ar": "Modalpartikeln verändern oft die pragmatische {answer}.",
+        "en": "Modalpartikeln verändern oft die pragmatische {answer}."
+      },
+      "acceptedAnswers": [
+        "Wirkung"
+      ]
+    },
+    {
+      "id": "b2_u17_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Vorsichtige Aussagen brauchen passende sprachliche und prosodische {answer}.",
+        "ar": "Vorsichtige Aussagen brauchen passende sprachliche und prosodische {answer}.",
+        "en": "Vorsichtige Aussagen brauchen passende sprachliche und prosodische {answer}."
+      },
+      "acceptedAnswers": [
+        "Abstufung"
+      ]
+    },
+    {
+      "id": "b2_u17_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Einschübe sollten durch natürliche {answer} abgesetzt werden.",
+        "ar": "Einschübe sollten durch natürliche {answer} abgesetzt werden.",
+        "en": "Einschübe sollten durch natürliche {answer} abgesetzt werden."
+      },
+      "acceptedAnswers": [
+        "Pausen"
+      ]
+    },
+    {
+      "id": "b2_u17_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Präsentationsprosodie strukturiert komplexe {answer}.",
+        "ar": "Präsentationsprosodie strukturiert komplexe {answer}.",
+        "en": "Präsentationsprosodie strukturiert komplexe {answer}."
+      },
+      "acceptedAnswers": [
+        "Information"
+      ]
+    },
+    {
+      "id": "b2_u17_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zu monotone Intonation erschwert das Erkennen von {answer}.",
+        "ar": "Zu monotone Intonation erschwert das Erkennen von {answer}.",
+        "en": "Zu monotone Intonation erschwert das Erkennen von {answer}."
+      },
+      "acceptedAnswers": [
+        "Fokus"
+      ]
+    },
+    {
+      "id": "b2_u17_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Welche Wirkung hat „wohl“ häufig?",
+        "ar": "Welche Wirkung hat „wohl“ häufig?",
+        "en": "Welche Wirkung hat „wohl“ häufig?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorsichtige Einschätzung",
+            "ar": "vorsichtige Einschätzung",
+            "en": "vorsichtige Einschätzung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Befehl",
+            "ar": "Befehl",
+            "en": "Befehl"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Plural",
+            "ar": "Plural",
+            "en": "Plural"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wozu dient Fokusakzent?",
+        "ar": "Wozu dient Fokusakzent?",
+        "en": "Wozu dient Fokusakzent?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "relevante Information hervorheben",
+            "ar": "relevante Information hervorheben",
+            "en": "relevante Information hervorheben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kasus ersetzen",
+            "ar": "Kasus ersetzen",
+            "en": "Kasus ersetzen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Tempo erhöhen",
+            "ar": "Tempo erhöhen",
+            "en": "Tempo erhöhen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Daten legen einen Zusammenhang nahe, beweisen aber keine Ursache.",
+        "ar": "Die Daten legen einen Zusammenhang nahe, beweisen aber keine Ursache.",
+        "en": "Die Daten legen einen Zusammenhang nahe, beweisen aber keine Ursache."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Zusammenhang ja, Ursache nicht bewiesen",
+            "ar": "Zusammenhang ja, Ursache nicht bewiesen",
+            "en": "Zusammenhang ja, Ursache nicht bewiesen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Ursache sicher",
+            "ar": "Ursache sicher",
+            "en": "Ursache sicher"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Daten",
+            "ar": "keine Daten",
+            "en": "keine Daten"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Das wäre wohl die praktikabelste Lösung.",
+        "ar": "Das wäre wohl die praktikabelste Lösung.",
+        "en": "Das wäre wohl die praktikabelste Lösung."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorsichtige Einschätzung",
+            "ar": "vorsichtige Einschätzung",
+            "en": "vorsichtige Einschätzung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "absolute Sicherheit",
+            "ar": "absolute Sicherheit",
+            "en": "absolute Sicherheit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Ablehnung",
+            "ar": "Ablehnung",
+            "en": "Ablehnung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u17_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Die Daten legen einen Zusammenhang nahe, beweisen aber keine eindeutige Ursache.",
+        "ar": "Die Daten legen einen Zusammenhang nahe, beweisen aber keine eindeutige Ursache.",
+        "en": "Die Daten legen einen Zusammenhang nahe, beweisen aber keine eindeutige Ursache."
+      },
+      "acceptedAnswers": [
+        "Die Daten legen einen Zusammenhang nahe, beweisen aber keine eindeutige Ursache."
+      ]
+    },
+    {
+      "id": "b2_u17_l03_act13",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Laut Bericht sei die Nachfrage deutlich gestiegen.",
+        "ar": "Laut Bericht sei die Nachfrage deutlich gestiegen.",
+        "en": "Laut Bericht sei die Nachfrage deutlich gestiegen."
+      }
+    },
+    {
+      "id": "b2_u17_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Präsentieren Sie etwa eine Minute eine Empfehlung mit Befund, Einschränkung und Gegenargument. Machen Sie Fokus und Unsicherheit auch prosodisch hörbar.",
+        "ar": "قدّم توصية لنحو دقيقة مع نتيجة وقيد وحجة مضادة، واجعل البؤرة وعدم اليقين مسموعين في النبرة.",
+        "en": "Present a one-minute recommendation with finding, limitation and counterargument, making focus and uncertainty audible in your prosody."
+      },
+      "minSeconds": 60,
+      "checklist": [
+        {
+          "de": "ein konkretes Ausspracheziel gewählt",
+          "ar": "تم اختيار هدف نطق محدد",
+          "en": "One concrete pronunciation target chosen"
+        },
+        {
+          "de": "Aufnahme nach Selbstkorrektur wiederholt",
+          "ar": "أعيد التسجيل بعد التصحيح الذاتي",
+          "en": "Recording repeated after self-correction"
+        }
+      ]
+    },
+    {
+      "id": "b2_u17_l03_act15",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Phonetik-Mastery erreicht",
+        "ar": "تم إتقان الصوتيات",
+        "en": "Phonetics mastery reached"
+      },
+      "canDo": [
+        "B2_PHONETICS_MASTERY"
+      ]
+    }
+  ]
+}

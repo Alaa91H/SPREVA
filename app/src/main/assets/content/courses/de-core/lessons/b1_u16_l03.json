@@ -1,0 +1,329 @@
+{
+  "id": "b1_u16_l03",
+  "unitId": "de-core-b1-u16",
+  "title": {
+    "de": "Phonetik-Mastery",
+    "ar": "إتقان الصوتيات",
+    "en": "Phonetics mastery"
+  },
+  "canDo": [
+    "B1_PHONETICS_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u16_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Phonetik-Mastery",
+        "ar": "إتقان الصوتيات",
+        "en": "Phonetics mastery"
+      },
+      "body": {
+        "de": "Verbinden Sie Wissen über Lautung und Prosodie mit aktivem Hören und Nachsprechen.",
+        "ar": "اربط معرفة النطق والإيقاع بالاستماع والترديد الفعلي.",
+        "en": "Connect knowledge about pronunciation/prosody with active listening and shadowing."
+      }
+    },
+    {
+      "id": "b1_u16_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein Kompositum hat meist einen klaren Haupt{answer}.",
+        "ar": "Ein Kompositum hat meist einen klaren Haupt{answer}.",
+        "en": "Ein Kompositum hat meist einen klaren Haupt{answer}."
+      },
+      "acceptedAnswers": [
+        "akzent"
+      ]
+    },
+    {
+      "id": "b1_u16_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kontrastakzent hebt einen bewussten {answer} hervor.",
+        "ar": "Kontrastakzent hebt einen bewussten {answer} hervor.",
+        "en": "Kontrastakzent hebt einen bewussten {answer} hervor."
+      },
+      "acceptedAnswers": [
+        "Gegensatz"
+      ]
+    },
+    {
+      "id": "b1_u16_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Natürliche Pausen teilen lange Sätze in {answer}.",
+        "ar": "Natürliche Pausen teilen lange Sätze in {answer}.",
+        "en": "Natürliche Pausen teilen lange Sätze in {answer}."
+      },
+      "acceptedAnswers": [
+        "Sprechgruppen"
+      ]
+    },
+    {
+      "id": "b1_u16_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unbetonte Silben werden im Alltag häufig {answer}.",
+        "ar": "Unbetonte Silben werden im Alltag häufig {answer}.",
+        "en": "Unbetonte Silben werden im Alltag häufig {answer}."
+      },
+      "acceptedAnswers": [
+        "reduziert"
+      ]
+    },
+    {
+      "id": "b1_u16_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zu viele gleich starke Wörter machen Sprache {answer}.",
+        "ar": "Zu viele gleich starke Wörter machen Sprache {answer}.",
+        "en": "Zu viele gleich starke Wörter machen Sprache {answer}."
+      },
+      "acceptedAnswers": [
+        "unnatürlich"
+      ]
+    },
+    {
+      "id": "b1_u16_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Satzrhythmus hilft Hörerinnen und Hörern beim {answer}.",
+        "ar": "Satzrhythmus hilft Hörerinnen und Hörern beim {answer}.",
+        "en": "Satzrhythmus hilft Hörerinnen und Hörern beim {answer}."
+      },
+      "acceptedAnswers": [
+        "Verstehen"
+      ]
+    },
+    {
+      "id": "b1_u16_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was ist Connected Speech?",
+        "ar": "Was ist Connected Speech?",
+        "en": "Was ist Connected Speech?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "natürlich verbundenes Sprechen in Wortgruppen",
+            "ar": "natürlich verbundenes Sprechen in Wortgruppen",
+            "en": "natürlich verbundenes Sprechen in Wortgruppen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nur lautes Lesen",
+            "ar": "nur lautes Lesen",
+            "en": "nur lautes Lesen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einzelne Buchstaben",
+            "ar": "einzelne Buchstaben",
+            "en": "einzelne Buchstaben"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wozu dient Kontrastakzent?",
+        "ar": "Wozu dient Kontrastakzent?",
+        "en": "Wozu dient Kontrastakzent?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Gegensatz oder Korrektur hervorheben",
+            "ar": "Gegensatz oder Korrektur hervorheben",
+            "en": "Gegensatz oder Korrektur hervorheben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Artikel markieren",
+            "ar": "Artikel markieren",
+            "en": "Artikel markieren"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Plural bilden",
+            "ar": "Plural bilden",
+            "en": "Plural bilden"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt.",
+        "ar": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt.",
+        "en": "Nicht am Montag, sondern am Dienstag findet die Besprechung statt."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Dienstag ist korrigiert hervorgehoben",
+            "ar": "Dienstag ist korrigiert hervorgehoben",
+            "en": "Dienstag ist korrigiert hervorgehoben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Montag bleibt Termin",
+            "ar": "Montag bleibt Termin",
+            "en": "Montag bleibt Termin"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "beide Tage",
+            "ar": "beide Tage",
+            "en": "beide Tage"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich habe den Antrag bereits gestern eingereicht.",
+        "ar": "Ich habe den Antrag bereits gestern eingereicht.",
+        "en": "Ich habe den Antrag bereits gestern eingereicht."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "gestern bereits eingereicht",
+            "ar": "gestern bereits eingereicht",
+            "en": "gestern bereits eingereicht"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "morgen einreichen",
+            "ar": "morgen einreichen",
+            "en": "morgen einreichen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Antrag fehlt",
+            "ar": "Antrag fehlt",
+            "en": "Antrag fehlt"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "ar": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "en": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis."
+      },
+      "acceptedAnswers": [
+        "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis."
+      ]
+    },
+    {
+      "id": "b1_u16_l03_act13",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Der Kundenservice hat mir die Unterlagen bereits gestern zugeschickt.",
+        "ar": "Der Kundenservice hat mir die Unterlagen bereits gestern zugeschickt.",
+        "en": "Der Kundenservice hat mir die Unterlagen bereits gestern zugeschickt."
+      }
+    },
+    {
+      "id": "b1_u16_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Sprechen Sie 45–60 Sekunden über eine Entscheidung. Verwenden Sie mindestens einen Kontrastakzent und gliedern Sie lange Sätze in natürliche Sprechgruppen.",
+        "ar": "تحدث 45–60 ثانية عن قرار، واستخدم نبرًا مقارنًا وقسّم الجمل الطويلة إلى مجموعات كلام طبيعية.",
+        "en": "Speak for 45–60 seconds about a decision, using at least one contrastive stress and natural thought groups."
+      },
+      "minSeconds": 45,
+      "checklist": [
+        {
+          "de": "ein konkretes Ausspracheziel gewählt",
+          "ar": "تم اختيار هدف نطق محدد",
+          "en": "One concrete pronunciation target chosen"
+        },
+        {
+          "de": "Aufnahme nach Selbstkorrektur wiederholt",
+          "ar": "أعيد التسجيل بعد التصحيح الذاتي",
+          "en": "Recording repeated after self-correction"
+        }
+      ]
+    },
+    {
+      "id": "b1_u16_l03_act15",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Phonetik-Mastery erreicht",
+        "ar": "تم إتقان الصوتيات",
+        "en": "Phonetics mastery reached"
+      },
+      "canDo": [
+        "B1_PHONETICS_MASTERY"
+      ]
+    }
+  ]
+}

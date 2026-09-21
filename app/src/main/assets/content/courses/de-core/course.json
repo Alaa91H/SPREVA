@@ -704,6 +704,52 @@
               "activityCount": 18
             }
           ]
+        },
+        {
+          "id": "de-core-a1-u16",
+          "title": {
+            "de": "A1 Aussprache & Hörgenauigkeit",
+            "ar": "النطق ودقة الاستماع A1",
+            "en": "A1 Pronunciation & Listening Precision"
+          },
+          "lessons": [
+            {
+              "id": "a1_u16_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "a1_u16_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "a1_u16_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "a1_u16_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
+            }
+          ]
         }
       ]
     },
@@ -1405,6 +1451,52 @@
               "activityCount": 18
             }
           ]
+        },
+        {
+          "id": "de-core-a2-u16",
+          "title": {
+            "de": "A2 Aussprache, Rhythmus & Satzmelodie",
+            "ar": "النطق والإيقاع ولحن الجملة A2",
+            "en": "A2 Pronunciation, Rhythm & Intonation"
+          },
+          "lessons": [
+            {
+              "id": "a2_u16_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "a2_u16_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "a2_u16_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "a2_u16_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
+            }
+          ]
         }
       ]
     },
@@ -2104,6 +2196,52 @@
                 "en": "Full simulation: Reading · Listening · Writing · Speaking"
               },
               "activityCount": 18
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u16",
+          "title": {
+            "de": "B1 Sprechfluss, Akzent & Connected Speech",
+            "ar": "طلاقة الكلام والنبر والربط B1",
+            "en": "B1 Fluency, Stress & Connected Speech"
+          },
+          "lessons": [
+            {
+              "id": "b1_u16_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "b1_u16_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "b1_u16_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "b1_u16_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
             }
           ]
         }
@@ -2851,6 +2989,52 @@
                 "en": "Full simulation: Reading · Listening · Writing · Speaking"
               },
               "activityCount": 18
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u17",
+          "title": {
+            "de": "B2 Prosodie, Fokus & pragmatische Wirkung",
+            "ar": "النبر الخطابي والبؤرة والأثر التداولي B2",
+            "en": "B2 Prosody, Focus & Pragmatic Effect"
+          },
+          "lessons": [
+            {
+              "id": "b2_u17_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "b2_u17_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "b2_u17_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "b2_u17_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
             }
           ]
         }
@@ -3644,6 +3828,52 @@
                 "en": "Full simulation: Reading · Listening · Writing · Speaking"
               },
               "activityCount": 18
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u18",
+          "title": {
+            "de": "C1 Rhetorische Prosodie & professionelle Sprechkontrolle",
+            "ar": "الإيقاع البلاغي والتحكم المهني في الكلام C1",
+            "en": "C1 Rhetorical Prosody & Professional Speech Control"
+          },
+          "lessons": [
+            {
+              "id": "c1_u18_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "c1_u18_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "c1_u18_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "c1_u18_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
             }
           ]
         }

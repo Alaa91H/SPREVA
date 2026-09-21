@@ -1,0 +1,329 @@
+{
+  "id": "a2_u16_l03",
+  "unitId": "de-core-a2-u16",
+  "title": {
+    "de": "Phonetik-Mastery",
+    "ar": "إتقان الصوتيات",
+    "en": "Phonetics mastery"
+  },
+  "canDo": [
+    "A2_PHONETICS_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u16_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Phonetik-Mastery",
+        "ar": "إتقان الصوتيات",
+        "en": "Phonetics mastery"
+      },
+      "body": {
+        "de": "Verbinden Sie Wissen über Lautung und Prosodie mit aktivem Hören und Nachsprechen.",
+        "ar": "اربط معرفة النطق والإيقاع بالاستماع والترديد الفعلي.",
+        "en": "Connect knowledge about pronunciation/prosody with active listening and shadowing."
+      }
+    },
+    {
+      "id": "a2_u16_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bei trennbaren Verben trägt das Präfix oft den Haupt{answer}.",
+        "ar": "Bei trennbaren Verben trägt das Präfix oft den Haupt{answer}.",
+        "en": "Bei trennbaren Verben trägt das Präfix oft den Haupt{answer}."
+      },
+      "acceptedAnswers": [
+        "akzent"
+      ]
+    },
+    {
+      "id": "a2_u16_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unbetontes e klingt häufig wie ein {answer}.",
+        "ar": "Unbetontes e klingt häufig wie ein {answer}.",
+        "en": "Unbetontes e klingt häufig wie ein {answer}."
+      },
+      "acceptedAnswers": [
+        "Schwa"
+      ]
+    },
+    {
+      "id": "a2_u16_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine Ja/Nein-Frage kann am Ende {answer}.",
+        "ar": "Eine Ja/Nein-Frage kann am Ende {answer}.",
+        "en": "Eine Ja/Nein-Frage kann am Ende {answer}."
+      },
+      "acceptedAnswers": [
+        "steigen"
+      ]
+    },
+    {
+      "id": "a2_u16_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In längeren Sätzen werden wichtige Wörter stärker {answer}.",
+        "ar": "In längeren Sätzen werden wichtige Wörter stärker {answer}.",
+        "en": "In längeren Sätzen werden wichtige Wörter stärker {answer}."
+      },
+      "acceptedAnswers": [
+        "betont"
+      ]
+    },
+    {
+      "id": "a2_u16_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beim flüssigen Sprechen bilden mehrere Wörter eine {answer}.",
+        "ar": "Beim flüssigen Sprechen bilden mehrere Wörter eine {answer}.",
+        "en": "Beim flüssigen Sprechen bilden mehrere Wörter eine {answer}."
+      },
+      "acceptedAnswers": [
+        "Rhythmusgruppe"
+      ]
+    },
+    {
+      "id": "a2_u16_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Endungen sollen hörbar, aber nicht übertrieben {answer} sein.",
+        "ar": "Endungen sollen hörbar, aber nicht übertrieben {answer} sein.",
+        "en": "Endungen sollen hörbar, aber nicht übertrieben {answer} sein."
+      },
+      "acceptedAnswers": [
+        "deutlich"
+      ]
+    },
+    {
+      "id": "a2_u16_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wo liegt typischerweise der Akzent bei „aufstehen“?",
+        "ar": "Wo liegt typischerweise der Akzent bei „aufstehen“?",
+        "en": "Wo liegt typischerweise der Akzent bei „aufstehen“?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "auf-",
+            "ar": "auf-",
+            "en": "auf-"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "-stehen gleich stark",
+            "ar": "-stehen gleich stark",
+            "en": "-stehen gleich stark"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nur auf -en",
+            "ar": "nur auf -en",
+            "en": "nur auf -en"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was ist Schwa?",
+        "ar": "Was ist Schwa?",
+        "en": "Was ist Schwa?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ein unbetonter Reduktionsvokal",
+            "ar": "ein unbetonter Reduktionsvokal",
+            "en": "ein unbetonter Reduktionsvokal"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ein Konsonant",
+            "ar": "ein Konsonant",
+            "en": "ein Konsonant"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ein Umlautzeichen",
+            "ar": "ein Umlautzeichen",
+            "en": "ein Umlautzeichen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich stehe jeden Morgen um sieben Uhr auf.",
+        "ar": "Ich stehe jeden Morgen um sieben Uhr auf.",
+        "en": "Ich stehe jeden Morgen um sieben Uhr auf."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "stehe ... auf",
+            "ar": "stehe ... auf",
+            "en": "stehe ... auf"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "stelle ... auf",
+            "ar": "stelle ... auf",
+            "en": "stelle ... auf"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "stehe ... an",
+            "ar": "stehe ... an",
+            "en": "stehe ... an"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wann kommst du morgen zurück?",
+        "ar": "Wann kommst du morgen zurück?",
+        "en": "Wann kommst du morgen zurück?"
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "morgen zurück",
+            "ar": "morgen zurück",
+            "en": "morgen zurück"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "heute zurück",
+            "ar": "heute zurück",
+            "en": "heute zurück"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "morgen vorbei",
+            "ar": "morgen vorbei",
+            "en": "morgen vorbei"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Ich habe mich gestern um die Stelle beworben.",
+        "ar": "Ich habe mich gestern um die Stelle beworben.",
+        "en": "Ich habe mich gestern um die Stelle beworben."
+      },
+      "acceptedAnswers": [
+        "Ich habe mich gestern um die Stelle beworben."
+      ]
+    },
+    {
+      "id": "a2_u16_l03_act13",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Ich habe mich gestern um die Stelle beworben.",
+        "ar": "Ich habe mich gestern um die Stelle beworben.",
+        "en": "Ich habe mich gestern um die Stelle beworben."
+      }
+    },
+    {
+      "id": "a2_u16_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Erzählen Sie etwa 30 Sekunden von gestern. Markieren Sie mit Ihrer Stimme wichtige Zeitangaben und neue Informationen.",
+        "ar": "تحدث نحو 30 ثانية عن الأمس واجعل الزمن والمعلومات الجديدة بارزة بالنبر.",
+        "en": "Speak for about 30 seconds about yesterday, using stress to highlight time references and new information."
+      },
+      "minSeconds": 30,
+      "checklist": [
+        {
+          "de": "ein konkretes Ausspracheziel gewählt",
+          "ar": "تم اختيار هدف نطق محدد",
+          "en": "One concrete pronunciation target chosen"
+        },
+        {
+          "de": "Aufnahme nach Selbstkorrektur wiederholt",
+          "ar": "أعيد التسجيل بعد التصحيح الذاتي",
+          "en": "Recording repeated after self-correction"
+        }
+      ]
+    },
+    {
+      "id": "a2_u16_l03_act15",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Phonetik-Mastery erreicht",
+        "ar": "تم إتقان الصوتيات",
+        "en": "Phonetics mastery reached"
+      },
+      "canDo": [
+        "A2_PHONETICS_MASTERY"
+      ]
+    }
+  ]
+}
