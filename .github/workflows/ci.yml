@@ -36,6 +36,9 @@ jobs:
       # One invocation for everything: a single configuration pass, and
       # `assembleDebug` reuses the compiled classes produced by `test`.
       # Audit §15: Android lint is part of the fast PR gate.
+      - name: Curriculum integrity (A1-C1)
+        run: python3 scripts/validate_curriculum.py
+
       - name: Unit tests + lint + assemble debug
         run: ./gradlew test lint assembleDebug --console=plain --stacktrace
 

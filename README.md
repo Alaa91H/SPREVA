@@ -21,7 +21,10 @@ with first-class Arabic support. This repository contains a production-grade,
 - Phase 4 stabilization — onboarding/goal persistence, safe lesson completion,
   instruction-language policy, permission flow, recorder safety, media-registry
   integrity validation in CI: **complete**
-- Next: FSRS scheduler, Can-Do evidence model, mistake intelligence (see docs/plan)
+- Academic German curriculum A1 → C1: **complete** — 68 units, 136 lessons,
+  952 activities, German/Arabic/English instructional content, and curriculum integrity validation
+  (see [docs/CURRICULUM_A1_C1.md](docs/CURRICULUM_A1_C1.md))
+- Next: calibrated assessment, FSRS scheduler, Can-Do evidence model, mistake intelligence (see docs/plan)
 
 ## Stack (all stable, verified 2026-09-18)
 
@@ -36,14 +39,15 @@ with first-class Arabic support. This repository contains a production-grade,
 ```bash
 # Requirements: JDK 17 (JAVA_HOME set), Android SDK (local.properties or ANDROID_HOME)
 ./gradlew assembleDebug     # debug APK
-./gradlew test              # unit tests (16)
+./gradlew test              # unit tests
 ./gradlew assembleRelease   # R8-minified release
 ```
 
-Open in Android Studio, pick a device/emulator, run `:app`. The demo flow:
-Welcome → language/goal → Home → Learn → A1 → "Hallo!" lesson (all five
-activity types) → lesson completes → Practice → review cards for the
-lesson's vocabulary (Again/Hard/Good/Easy) → restart: progress persists.
+Open in Android Studio, pick a device/emulator, run `:app`. The learning flow:
+Welcome → language/goal → Home → Learn → choose A1/A2/B1/B2/C1 → open a unit
+and lesson → complete explanation, vocabulary, retrieval and production
+activities → Practice → review cards for lesson vocabulary → restart:
+progress persists.
 Theme (light/dark/system/dynamic) and UI language (English/العربية) switch
 live from Settings.
 
@@ -54,7 +58,7 @@ live from Settings.
 - **Navigation 3** — type-safe keys, app-owned entry provider (ADR-0003)
 - **Convention plugins** — one-line module setup (ADR-0004)
 - **Demo scheduler → FSRS-ready** — versioned scheduler state (ADR-0005)
-- **Content-as-data** — bundled JSON course; parser+validator tested; downloadable packages later
+- **Content-as-data** — bundled JSON course; complete A1–C1 academic path (136 lessons), parser + curriculum/media integrity gates; downloadable packages later
 
 Module map, dependency graph, DB schema and next steps:
 [phase3-final-report.md](phase3-final-report.md).
