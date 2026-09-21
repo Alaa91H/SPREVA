@@ -8,14 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Academic curriculum
+- Added **Exam & Skills Labs** for A1, A2, B1, B2 and C1: 5 new units / 20 lessons / 280 activities covering reading, listening, dictation, free writing, free speaking, mixed mastery and original four-skill full mocks. Added renderer-native `dictation`, `free_write` and `speaking_prompt` activities, TTS fallback for listening, and 0.75×/1.0×/1.15× shadowing playback.
 - Added **Integrated CEFR capstones** at A1, A2, B1, B2 and C1: 5 new units / 20 lessons / 270 activities that interleave grammar, vocabulary, real-life scenarios, error analysis and free production across multiple previously learned topics.
 - Expanded every unit to a four-layer learning architecture: **Foundation → Real Life → Mastery → Casebook**. The new Mastery and Casebook layers add repeated retrieval, contrastive case drills, error diagnosis, transformation matrices, spaced/interleaved review, scenario transfer and level-appropriate revision.
-- Replaced the two-lesson demo curriculum with a complete **A1 → C1 academic German path**: 73 units, 292 lessons and 3,267 rendered learning activities across everyday life, housing, health communication, work, public services, travel, finance, technology, media literacy, academic language, professional communication and advanced C1 discourse.
+- Replaced the two-lesson demo curriculum with a complete **A1 → C1 academic German path**: 78 units, 312 lessons and 3,547 rendered learning activities across everyday life, housing, health communication, work, public services, travel, finance, technology, media literacy, academic language, professional communication and advanced C1 discourse.
 - Every lesson now ships indexed localized titles (German/Arabic/English), a deep explanation/context activity, contextual vocabulary, rule/example analysis, retrieval practice, cloze production, an active transfer/revision task and a stable Can-Do summary.
 - Extended the content index schema with optional lesson titles and `activityCount`, and removed the repository's first-level-only lesson-summary assumption so all CEFR levels are first-class content.
 - Added `scripts/validate_curriculum.py` and a CI curriculum-integrity gate covering level/package coverage, JSON/reference integrity, duplicate IDs, localized index fields, activity counts, MCQ/cloze validity, vocabulary blocks and Can-Do summaries.
 - Added the full curriculum map and authoring/quality standard in `docs/CURRICULUM_A1_C1.md`.
-- Content package version bumped from `2026.09.demo.2` to `2026.09.academic.4`.
+- Content package version bumped from `2026.09.demo.2` to `2026.09.academic.5`.
 
 
 ### Added
