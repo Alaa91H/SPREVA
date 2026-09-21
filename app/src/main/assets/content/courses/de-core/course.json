@@ -902,6 +902,15 @@
                 "en": "Reporting problems in a home"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a2_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Wohnen, Miete & Reparaturen",
+                "ar": "تدريب مكثف: السكن والإيجار والإصلاحات",
+                "en": "Mastery lab: Housing, rent & repairs"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -930,6 +939,15 @@
                 "en": "Writing a simple application and follow-up"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a2_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Arbeit & Bewerbung",
+                "ar": "تدريب مكثف: العمل والتقديم للوظيفة",
+                "en": "Mastery lab: Work & job applications"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -958,6 +976,15 @@
                 "en": "Solving problems politely"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a2_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Reisen, Service & Beschwerden",
+                "ar": "تدريب مكثف: السفر والخدمات والشكاوى",
+                "en": "Mastery lab: Travel, service & complaints"
+              },
+              "activityCount": 14
             }
           ]
         }

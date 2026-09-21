@@ -1,0 +1,298 @@
+{
+  "id": "a2_u13_l03",
+  "unitId": "de-core-a2-u13",
+  "title": {
+    "de": "Intensivtraining: Reisen, Service & Beschwerden",
+    "ar": "تدريب مكثف: السفر والخدمات والشكاوى",
+    "en": "Mastery lab: Travel, service & complaints"
+  },
+  "canDo": [
+    "A2_U13_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u13_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Reisen, Service & Beschwerden“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «السفر والخدمات والشكاوى». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Travel, service & complaints”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u13_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u13_l03_w1",
+          "german": "die Beschwerde",
+          "translation": {
+            "de": "complaint",
+            "ar": "الشكوى",
+            "en": "complaint"
+          }
+        },
+        {
+          "id": "a2_u13_l03_w2",
+          "german": "umtauschen",
+          "translation": {
+            "de": "exchange",
+            "ar": "يستبدل",
+            "en": "exchange"
+          }
+        },
+        {
+          "id": "a2_u13_l03_w3",
+          "german": "erstatten",
+          "translation": {
+            "de": "refund",
+            "ar": "يرد المال",
+            "en": "refund"
+          }
+        },
+        {
+          "id": "a2_u13_l03_w4",
+          "german": "der Kundenservice",
+          "translation": {
+            "de": "customer service",
+            "ar": "خدمة العملاء",
+            "en": "customer service"
+          }
+        },
+        {
+          "id": "a2_u13_l03_w5",
+          "german": "prüfen",
+          "translation": {
+            "de": "check",
+            "ar": "يتحقق",
+            "en": "check"
+          }
+        },
+        {
+          "id": "a2_u13_l03_w6",
+          "german": "die Lösung",
+          "translation": {
+            "de": "solution",
+            "ar": "الحل",
+            "en": "solution"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u13_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Sie mir bitte helfen?",
+        "ar": "{answer} Sie mir bitte helfen?",
+        "en": "{answer} Sie mir bitte helfen?"
+      },
+      "acceptedAnswers": [
+        "Könnten",
+        "Koennten"
+      ]
+    },
+    {
+      "id": "a2_u13_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wissen Sie, wann der Zug {answer}?",
+        "ar": "Wissen Sie, wann der Zug {answer}?",
+        "en": "Wissen Sie, wann der Zug {answer}?"
+      },
+      "acceptedAnswers": [
+        "fährt",
+        "faehrt"
+      ]
+    },
+    {
+      "id": "a2_u13_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Höfliche Fragen verwenden oft könnte/würde: Könnten Sie mir helfen? Ich würde gern das Zimmer wechseln. Indirekte W-Fragen behalten das Fragewort, aber das Verb steht am Ende: Wissen Sie, wann {answer} Zug fährt? Ja/Nein-Fragen werden indirekt mit ob eingeleitet.",
+        "ar": "Höfliche Fragen verwenden oft könnte/würde: Könnten Sie mir helfen? Ich würde gern das Zimmer wechseln. Indirekte W-Fragen behalten das Fragewort, aber das Verb steht am Ende: Wissen Sie, wann {answer} Zug fährt? Ja/Nein-Fragen werden indirekt mit ob eingeleitet.",
+        "en": "Höfliche Fragen verwenden oft könnte/würde: Könnten Sie mir helfen? Ich würde gern das Zimmer wechseln. Indirekte W-Fragen behalten das Fragewort, aber das Verb steht am Ende: Wissen Sie, wann {answer} Zug fährt? Ja/Nein-Fragen werden indirekt mit ob eingeleitet."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u13_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Könnten Sie {answer} bitte helfen?",
+        "ar": "Könnten Sie {answer} bitte helfen?",
+        "en": "Könnten Sie {answer} bitte helfen?"
+      },
+      "acceptedAnswers": [
+        "mir"
+      ]
+    },
+    {
+      "id": "a2_u13_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wissen Sie, wann {answer} nächste Zug fährt?",
+        "ar": "Wissen Sie, wann {answer} nächste Zug fährt?",
+        "en": "Wissen Sie, wann {answer} nächste Zug fährt?"
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u13_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} würde gern dieses Zimmer wechseln.",
+        "ar": "{answer} würde gern dieses Zimmer wechseln.",
+        "en": "{answer} würde gern dieses Zimmer wechseln."
+      },
+      "acceptedAnswers": [
+        "Ich"
+      ]
+    },
+    {
+      "id": "a2_u13_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Beschwerde",
+        "ar": "die Beschwerde",
+        "en": "die Beschwerde"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "complaint",
+            "ar": "الشكوى",
+            "en": "complaint"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "exchange",
+            "ar": "يستبدل",
+            "en": "exchange"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "refund",
+            "ar": "يرد المال",
+            "en": "refund"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u13_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Kundenservice",
+        "ar": "der Kundenservice",
+        "en": "der Kundenservice"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "customer service",
+            "ar": "خدمة العملاء",
+            "en": "customer service"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "check",
+            "ar": "يتحقق",
+            "en": "check"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "solution",
+            "ar": "الحل",
+            "en": "solution"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u13_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Höfliche Fragen verwenden oft könnte/würde: Könnten Sie mir helfen? Ich würde gern das Zimmer wechseln. Indirekte W-Fragen behalten das Fragewort, aber das Verb steht am Ende: Wissen Sie, wann der Zug fährt? Ja/Nein-Fragen werden indirekt mit ob eingeleitet.\n2. Könnten Sie mir bitte helfen?\n3. Wissen Sie, wann der nächste Zug fährt?\n4. Ich würde gern dieses Zimmer wechseln.\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. Höfliche Fragen verwenden oft könnte/würde: Könnten Sie mir helfen? Ich würde gern das Zimmer wechseln. Indirekte W-Fragen behalten das Fragewort, aber das Verb steht am Ende: Wissen Sie, wann der Zug fährt? Ja/Nein-Fragen werden indirekt mit ob eingeleitet.\n2. Könnten Sie mir bitte helfen?\n3. Wissen Sie, wann der nächste Zug fährt?\n4. Ich würde gern dieses Zimmer wechseln.\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. Höfliche Fragen verwenden oft könnte/würde: Könnten Sie mir helfen? Ich würde gern das Zimmer wechseln. Indirekte W-Fragen behalten das Fragewort, aber das Verb steht am Ende: Wissen Sie, wann der Zug fährt? Ja/Nein-Fragen werden indirekt mit ob eingeleitet.\n2. Könnten Sie mir bitte helfen?\n3. Wissen Sie, wann der nächste Zug fährt?\n4. Ich würde gern dieses Zimmer wechseln.\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u13_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order."
+      }
+    },
+    {
+      "id": "a2_u13_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; später neue Beispiele; am nächsten Lerntag mit einer älteren Kasus-/Tempusregel mischen; schließlich in Nachricht oder Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ أنشئ أمثلة جديدة لاحقًا؛ امزجها في اليوم التالي مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve unaided now; create new examples later; next day interleave with an older case/tense rule; finally use it in a message or role-play."
+      }
+    },
+    {
+      "id": "a2_u13_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U13_MASTERY"
+      ]
+    }
+  ]
+}
