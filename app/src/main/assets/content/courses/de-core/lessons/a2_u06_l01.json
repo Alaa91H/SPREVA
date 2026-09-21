@@ -1,0 +1,154 @@
+{
+  "id": "a2_u06_l01",
+  "unitId": "de-core-a2-u06",
+  "title": {
+    "de": "in/an/auf/unter/über/vor/hinter/neben/zwischen: Wo? Dativ, Wohin? Akkusativ",
+    "ar": "حروف الجر الثنائية: Wo مع Dativ وWohin مع Akkusativ",
+    "en": "Two-way prepositions: Wo? dative, Wohin? accusative"
+  },
+  "canDo": [
+    "A2_U06_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u06_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "in/an/auf/unter/über/vor/hinter/neben/zwischen: Wo? Dativ, Wohin? Akkusativ",
+        "ar": "حروف الجر الثنائية: Wo مع Dativ وWohin مع Akkusativ",
+        "en": "Two-way prepositions: Wo? dative, Wohin? accusative"
+      },
+      "body": {
+        "de": "Lernziel: in/an/auf/unter/über/vor/hinter/neben/zwischen: Wo? Dativ, Wohin? Akkusativ\n\nKernregel:\nBei Wechselpräpositionen entscheidet die Bedeutung: Wo? = Position → Dativ: Das Bild hängt an der Wand. Wohin? = Richtung/Veränderung → Akkusativ: Ich hänge das Bild an die Wand. Nicht das Verb allein, sondern die räumliche Beziehung ist entscheidend.\n\nBeispiele:\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür.\n\nAnwendungsfeld:\nUmzug, Möbelaufbau oder Wohnungsbeschreibung: sagen, wo Dinge stehen und wohin sie gestellt werden sollen.\n\nTypische Fehlerquelle:\nNicht pauschal „Bewegung = Akkusativ“ lernen. Man kann sich in einem Raum bewegen und trotzdem eine Position beschreiben. Frage semantisch: Wo oder Wohin?",
+        "ar": "هدف الدرس: حروف الجر الثنائية: Wo مع Dativ وWohin مع Akkusativ\n\nالقاعدة:\nمع حروف الجر الثنائية تحدد الدلالة الحالة: Wo للمكان الثابت مع Dativ، وWohin للحركة/التغيير مع Akkusativ.\n\nأمثلة:\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür.\n\nالاستخدام:\nالانتقال أو تركيب الأثاث أو وصف السكن: قول أين توجد الأشياء وإلى أين يجب وضعها.\n\nخطأ شائع:\nلا تحفظ ببساطة «الحركة = Akkusativ». قد تتحرك داخل مكان مع وصف موقع. اسأل عن المعنى: Wo أم Wohin؟",
+        "en": "Goal: Two-way prepositions: Wo? dative, Wohin? accusative\n\nCore rule:\nWith two-way prepositions, meaning determines the case: Wo? location → dative; Wohin? direction/change → accusative. The spatial relation, not just the verb, is decisive.\n\nExamples:\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür.\n\nUse case:\nMoving, furniture assembly or home description: say where objects are and where they should be placed.\n\nCommon pitfall:\nDo not memorize “movement = accusative” too mechanically. Ask semantically whether the sentence answers Wo? or Wohin?."
+      }
+    },
+    {
+      "id": "a2_u06_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u06_l01_w1",
+          "german": "stellen",
+          "translation": {
+            "de": "put/place",
+            "ar": "يضع عموديًا",
+            "en": "put/place"
+          }
+        },
+        {
+          "id": "a2_u06_l01_w2",
+          "german": "liegen",
+          "translation": {
+            "de": "lie",
+            "ar": "يكون موضوعًا أفقيًا",
+            "en": "lie"
+          }
+        },
+        {
+          "id": "a2_u06_l01_w3",
+          "german": "hängen",
+          "translation": {
+            "de": "hang",
+            "ar": "يعلّق / يكون معلّقًا",
+            "en": "hang"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u06_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nBei Wechselpräpositionen entscheidet die Bedeutung: Wo? = Position → Dativ: Das Bild hängt an der Wand. Wohin? = Richtung/Veränderung → Akkusativ: Ich hänge das Bild an die Wand. Nicht das Verb allein, sondern die räumliche Beziehung ist entscheidend.\n\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür.",
+        "ar": "قاعدة مختصرة:\nمع حروف الجر الثنائية تحدد الدلالة الحالة: Wo للمكان الثابت مع Dativ، وWohin للحركة/التغيير مع Akkusativ.\n\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür.",
+        "en": "Key rule:\nWith two-way prepositions, meaning determines the case: Wo? location → dative; Wohin? direction/change → accusative. The spatial relation, not just the verb, is decisive.\n\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür."
+      }
+    },
+    {
+      "id": "a2_u06_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "stellen",
+        "ar": "stellen",
+        "en": "stellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "put/place",
+            "ar": "يضع عموديًا",
+            "en": "put/place"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "lie",
+            "ar": "يكون موضوعًا أفقيًا",
+            "en": "lie"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "hang",
+            "ar": "يعلّق / يكون معلّقًا",
+            "en": "hang"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u06_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Bild hängt an {answer} Wand.",
+        "ar": "Das Bild hängt an {answer} Wand.",
+        "en": "Das Bild hängt an {answer} Wand."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u06_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Wechselpräpositionen & Wohnung“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «حروف الجر الثنائية والسكن». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Two-way prepositions & housing”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u06_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U06_FOUNDATION"
+      ]
+    }
+  ]
+}

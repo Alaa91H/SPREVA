@@ -1,0 +1,154 @@
+{
+  "id": "a2_u11_l01",
+  "unitId": "de-core-a2-u11",
+  "title": {
+    "de": "Höfliche Bitten, Dativ/Akkusativ und schriftliche Meldungen",
+    "ar": "الطلبات المهذبة والداتيف/الأكوزاتيف والبلاغات المكتوبة",
+    "en": "Polite requests, dative/accusative and written reports"
+  },
+  "canDo": [
+    "A2_U11_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u11_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Höfliche Bitten, Dativ/Akkusativ und schriftliche Meldungen",
+        "ar": "الطلبات المهذبة والداتيف/الأكوزاتيف والبلاغات المكتوبة",
+        "en": "Polite requests, dative/accusative and written reports"
+      },
+      "body": {
+        "de": "Lernziel: Höfliche Bitten, Dativ/Akkusativ und schriftliche Meldungen\n\nKernregel:\nFür höfliche Bitten eignen sich „Könnten Sie …?“ und „Bitte …“. Beim Melden eines Problems sind klare Angaben wichtig: Was ist kaputt? Seit wann? Wo? Welche Folge? Kurze Hauptsätze plus weil-Satz reichen auf A2.\n\nBeispiele:\n• Die Heizung funktioniert seit gestern nicht.\n• Könnten Sie bitte jemanden schicken?\n• Ich bin ab 16 Uhr zu Hause.\n\nAnwendungsfeld:\nVermieter, Hausverwaltung oder Hausmeister kontaktieren: Heizung, Wasser, Strom, Fenster oder Tür melden und einen Reparaturtermin vereinbaren.\n\nTypische Fehlerquelle:\nBei einer Meldung sachlich und konkret bleiben. „Es geht nicht“ ist oft zu ungenau; besser das Gerät/Problem und den Zeitraum nennen.",
+        "ar": "هدف الدرس: الطلبات المهذبة والداتيف/الأكوزاتيف والبلاغات المكتوبة\n\nالقاعدة:\nللطلب المهذب يمكن استخدام Könnten Sie…? وعند الإبلاغ عن مشكلة اذكر: ما العطل؟ منذ متى؟ أين؟ وما النتيجة؟ تكفي جمل رئيسية قصيرة مع weil في A2.\n\nأمثلة:\n• Die Heizung funktioniert seit gestern nicht.\n• Könnten Sie bitte jemanden schicken?\n• Ich bin ab 16 Uhr zu Hause.\n\nالاستخدام:\nالتواصل مع المؤجر أو إدارة البناء: الإبلاغ عن التدفئة أو الماء أو الكهرباء أو النوافذ وتحديد موعد إصلاح.\n\nخطأ شائع:\nفي البلاغ كن موضوعيًا ودقيقًا. عبارة Es geht nicht عامة جدًا؛ من الأفضل ذكر الجهاز أو المشكلة والمدة.",
+        "en": "Goal: Polite requests, dative/accusative and written reports\n\nCore rule:\nFor polite requests use Könnten Sie …? When reporting a problem, state what is broken, since when, where and what the consequence is. Short main clauses plus a weil-clause are sufficient at A2.\n\nExamples:\n• Die Heizung funktioniert seit gestern nicht.\n• Könnten Sie bitte jemanden schicken?\n• Ich bin ab 16 Uhr zu Hause.\n\nUse case:\nContact landlord, property management or caretaker: report heating, water, electricity, window or door problems and arrange a repair appointment.\n\nCommon pitfall:\nKeep reports factual and specific. Es geht nicht is often too vague; name the device/problem and time period."
+      }
+    },
+    {
+      "id": "a2_u11_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u11_l01_w1",
+          "german": "die Heizung",
+          "translation": {
+            "de": "heating",
+            "ar": "التدفئة",
+            "en": "heating"
+          }
+        },
+        {
+          "id": "a2_u11_l01_w2",
+          "german": "kaputt",
+          "translation": {
+            "de": "broken",
+            "ar": "معطل",
+            "en": "broken"
+          }
+        },
+        {
+          "id": "a2_u11_l01_w3",
+          "german": "reparieren",
+          "translation": {
+            "de": "repair",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u11_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nFür höfliche Bitten eignen sich „Könnten Sie …?“ und „Bitte …“. Beim Melden eines Problems sind klare Angaben wichtig: Was ist kaputt? Seit wann? Wo? Welche Folge? Kurze Hauptsätze plus weil-Satz reichen auf A2.\n\n• Die Heizung funktioniert seit gestern nicht.\n• Könnten Sie bitte jemanden schicken?\n• Ich bin ab 16 Uhr zu Hause.",
+        "ar": "قاعدة مختصرة:\nللطلب المهذب يمكن استخدام Könnten Sie…? وعند الإبلاغ عن مشكلة اذكر: ما العطل؟ منذ متى؟ أين؟ وما النتيجة؟ تكفي جمل رئيسية قصيرة مع weil في A2.\n\n• Die Heizung funktioniert seit gestern nicht.\n• Könnten Sie bitte jemanden schicken?\n• Ich bin ab 16 Uhr zu Hause.",
+        "en": "Key rule:\nFor polite requests use Könnten Sie …? When reporting a problem, state what is broken, since when, where and what the consequence is. Short main clauses plus a weil-clause are sufficient at A2.\n\n• Die Heizung funktioniert seit gestern nicht.\n• Könnten Sie bitte jemanden schicken?\n• Ich bin ab 16 Uhr zu Hause."
+      }
+    },
+    {
+      "id": "a2_u11_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "die Heizung",
+        "ar": "die Heizung",
+        "en": "die Heizung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "heating",
+            "ar": "التدفئة",
+            "en": "heating"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "broken",
+            "ar": "معطل",
+            "en": "broken"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "repair",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u11_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Heizung {answer} nicht.",
+        "ar": "Die Heizung {answer} nicht.",
+        "en": "Die Heizung {answer} nicht."
+      },
+      "acceptedAnswers": [
+        "funktioniert"
+      ]
+    },
+    {
+      "id": "a2_u11_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Wohnen, Miete & Reparaturen“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «السكن والإيجار والإصلاحات». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Housing, rent & repairs”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u11_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U11_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "a2_u05_l02",
+  "unitId": "de-core-a2-u05",
+  "title": {
+    "de": "Helfen, geben, danken und erklären",
+    "ar": "المساعدة والعطاء والشكر والشرح",
+    "en": "Helping, giving, thanking and explaining"
+  },
+  "canDo": [
+    "A2_U05_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a2_u05_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Helfen, geben, danken und erklären",
+        "ar": "المساعدة والعطاء والشكر والشرح",
+        "en": "Helping, giving, thanking and explaining"
+      },
+      "body": {
+        "de": "Realsituation:\nNachbarschaft, Arbeit, Familie oder Service: jemandem helfen, etwas geben, sich bedanken und sagen, wem etwas gehört oder gefällt.\n\nModelldialog:\nA: Kannst du mir bitte den Schlüssel geben?\nB: Ja, natürlich. Hier bitte.\nA: Danke dir!\nB: Gern. Soll ich dir auch mit der Tasche helfen?\n\nSprachfokus:\nEinige Verben verlangen den Dativ: helfen, danken, gefallen. Bei geben gibt es oft Dativ + Akkusativ: Ich gebe dem Mann den Schlüssel. Pronomen: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen.\n\nTransfer: Passe den Dialog an deine Situation an, stelle eine Rückfrage und formuliere eine höfliche Alternative.",
+        "ar": "الموقف الواقعي:\nالجيران أو العمل أو العائلة أو الخدمة: مساعدة شخص وإعطاؤه شيئًا والشكر وذكر من يعجبه شيء.\n\nحوار نموذجي:\nA: Kannst du mir bitte den Schlüssel geben?\nB: Ja, natürlich. Hier bitte.\nA: Danke dir!\nB: Gern. Soll ich dir auch mit der Tasche helfen?\n\nالتركيز اللغوي:\nبعض الأفعال تتطلب Dativ مثل helfen وdanken وgefallen. مع geben غالبًا يوجد Dativ + Akkusativ: Ich gebe dem Mann den Schlüssel. الضمائر: mir, dir, ihm, ihr…\n\nتطبيق: عدّل الحوار ليلائم وضعك، أضف سؤال متابعة وصياغة بديلة مهذبة.",
+        "en": "Real-life situation:\nNeighborhood, work, family or service: help someone, give something, thank someone and say who likes or receives something.\n\nModel dialogue:\nA: Kannst du mir bitte den Schlüssel geben?\nB: Ja, natürlich. Hier bitte.\nA: Danke dir!\nB: Gern. Soll ich dir auch mit der Tasche helfen?\n\nLanguage focus:\nSome verbs require the dative: helfen, danken, gefallen. geben often takes dative + accusative: Ich gebe dem Mann den Schlüssel. Pronouns: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen.\n\nTransfer: Adapt the dialogue to your situation, add a follow-up question and a polite alternative."
+      }
+    },
+    {
+      "id": "a2_u05_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u05_l02_w1",
+          "german": "gefallen",
+          "translation": {
+            "de": "appeal to/like",
+            "ar": "يعجب",
+            "en": "appeal to/like"
+          }
+        },
+        {
+          "id": "a2_u05_l02_w2",
+          "german": "der Schlüssel",
+          "translation": {
+            "de": "key",
+            "ar": "المفتاح",
+            "en": "key"
+          }
+        },
+        {
+          "id": "a2_u05_l02_w3",
+          "german": "die Unterlagen",
+          "translation": {
+            "de": "documents",
+            "ar": "المستندات",
+            "en": "documents"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u05_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nEinige Verben verlangen den Dativ: helfen, danken, gefallen. Bei geben gibt es oft Dativ + Akkusativ: Ich gebe dem Mann den Schlüssel. Pronomen: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen.\n\n• Kannst du mir helfen?\n• Ich gebe meiner Kollegin die Unterlagen.\n• Das gefällt ihm gut.",
+        "ar": "قاعدة مختصرة:\nبعض الأفعال تتطلب Dativ مثل helfen وdanken وgefallen. مع geben غالبًا يوجد Dativ + Akkusativ: Ich gebe dem Mann den Schlüssel. الضمائر: mir, dir, ihm, ihr…\n\n• Kannst du mir helfen?\n• Ich gebe meiner Kollegin die Unterlagen.\n• Das gefällt ihm gut.",
+        "en": "Key rule:\nSome verbs require the dative: helfen, danken, gefallen. geben often takes dative + accusative: Ich gebe dem Mann den Schlüssel. Pronouns: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen.\n\n• Kannst du mir helfen?\n• Ich gebe meiner Kollegin die Unterlagen.\n• Das gefällt ihm gut."
+      }
+    },
+    {
+      "id": "a2_u05_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "gefallen",
+        "ar": "gefallen",
+        "en": "gefallen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "appeal to/like",
+            "ar": "يعجب",
+            "en": "appeal to/like"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "key",
+            "ar": "المفتاح",
+            "en": "key"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "documents",
+            "ar": "المستندات",
+            "en": "documents"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u05_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich gebe {answer} Kollegin die Unterlagen.",
+        "ar": "Ich gebe {answer} Kollegin die Unterlagen.",
+        "en": "Ich gebe {answer} Kollegin die Unterlagen."
+      },
+      "acceptedAnswers": [
+        "meiner"
+      ]
+    },
+    {
+      "id": "a2_u05_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Dativ & persönliche Beziehungen“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «الداتيف والعلاقات بين الأشخاص». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Dative & personal relations”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u05_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U05_REAL_LIFE"
+      ]
+    }
+  ]
+}

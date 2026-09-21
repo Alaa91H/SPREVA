@@ -1,0 +1,154 @@
+{
+  "id": "a2_u10_l01",
+  "unitId": "de-core-a2-u10",
+  "title": {
+    "de": "Relativpronomen im Nominativ und Akkusativ",
+    "ar": "ضمائر الوصل في Nominativ وAkkusativ",
+    "en": "Relative pronouns in nominative and accusative"
+  },
+  "canDo": [
+    "A2_U10_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u10_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Relativpronomen im Nominativ und Akkusativ",
+        "ar": "ضمائر الوصل في Nominativ وAkkusativ",
+        "en": "Relative pronouns in nominative and accusative"
+      },
+      "body": {
+        "de": "Lernziel: Relativpronomen im Nominativ und Akkusativ\n\nKernregel:\nRelativsätze geben Zusatzinformationen: Das ist der Mann, der hier arbeitet. Das ist der Mann, den ich kenne. Das Relativpronomen richtet sich in Genus/Numerus nach dem Bezugswort, sein Kasus kommt aus seiner Funktion im Relativsatz. Das Verb steht am Ende.\n\nBeispiele:\n• Das ist die Kollegin, die neu ist.\n• Ich suche den Brief, den du geschickt hast.\n• Die Wohnung, die wir besichtigt haben, ist teuer.\n\nAnwendungsfeld:\nArbeit, Nachbarschaft, Wohnung oder Gegenstände: erklären, welche Person oder Sache gemeint ist, ohne zwei kurze Sätze nebeneinanderzustellen.\n\nTypische Fehlerquelle:\nDer Kasus des Relativpronomens kommt nicht automatisch vom Bezugswort. Frage im Relativsatz: Wer arbeitet? der; Wen kenne ich? den.",
+        "ar": "هدف الدرس: ضمائر الوصل في Nominativ وAkkusativ\n\nالقاعدة:\nالجملة الموصولة تضيف معلومات. ضمير الوصل يتبع الاسم في الجنس والعدد، أما الحالة فتحددها وظيفته داخل الجملة الموصولة. الفعل يأتي في النهاية.\n\nأمثلة:\n• Das ist die Kollegin, die neu ist.\n• Ich suche den Brief, den du geschickt hast.\n• Die Wohnung, die wir besichtigt haben, ist teuer.\n\nالاستخدام:\nفي العمل أو الحي أو السكن: تحديد الشخص أو الشيء المقصود بدل استخدام جملتين منفصلتين.\n\nخطأ شائع:\nالحالة الإعرابية لضمير الوصل لا تأتي تلقائيًا من الاسم السابق، بل من وظيفته داخل الجملة الموصولة.",
+        "en": "Goal: Relative pronouns in nominative and accusative\n\nCore rule:\nRelative clauses add information. The relative pronoun matches the antecedent in gender/number; its case is determined by its role inside the relative clause. The verb goes to the end.\n\nExamples:\n• Das ist die Kollegin, die neu ist.\n• Ich suche den Brief, den du geschickt hast.\n• Die Wohnung, die wir besichtigt haben, ist teuer.\n\nUse case:\nAt work, in the neighborhood or when describing objects: identify which person or thing you mean without using two separate short sentences.\n\nCommon pitfall:\nThe relative pronoun’s case is not copied automatically from the antecedent; determine its role inside the relative clause."
+      }
+    },
+    {
+      "id": "a2_u10_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u10_l01_w1",
+          "german": "der Kollege",
+          "translation": {
+            "de": "colleague",
+            "ar": "الزميل",
+            "en": "colleague"
+          }
+        },
+        {
+          "id": "a2_u10_l01_w2",
+          "german": "die Nachbarin",
+          "translation": {
+            "de": "female neighbor",
+            "ar": "الجارة",
+            "en": "female neighbor"
+          }
+        },
+        {
+          "id": "a2_u10_l01_w3",
+          "german": "gemeint",
+          "translation": {
+            "de": "meant",
+            "ar": "المقصود",
+            "en": "meant"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u10_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nRelativsätze geben Zusatzinformationen: Das ist der Mann, der hier arbeitet. Das ist der Mann, den ich kenne. Das Relativpronomen richtet sich in Genus/Numerus nach dem Bezugswort, sein Kasus kommt aus seiner Funktion im Relativsatz. Das Verb steht am Ende.\n\n• Das ist die Kollegin, die neu ist.\n• Ich suche den Brief, den du geschickt hast.\n• Die Wohnung, die wir besichtigt haben, ist teuer.",
+        "ar": "قاعدة مختصرة:\nالجملة الموصولة تضيف معلومات. ضمير الوصل يتبع الاسم في الجنس والعدد، أما الحالة فتحددها وظيفته داخل الجملة الموصولة. الفعل يأتي في النهاية.\n\n• Das ist die Kollegin, die neu ist.\n• Ich suche den Brief, den du geschickt hast.\n• Die Wohnung, die wir besichtigt haben, ist teuer.",
+        "en": "Key rule:\nRelative clauses add information. The relative pronoun matches the antecedent in gender/number; its case is determined by its role inside the relative clause. The verb goes to the end.\n\n• Das ist die Kollegin, die neu ist.\n• Ich suche den Brief, den du geschickt hast.\n• Die Wohnung, die wir besichtigt haben, ist teuer."
+      }
+    },
+    {
+      "id": "a2_u10_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "der Kollege",
+        "ar": "der Kollege",
+        "en": "der Kollege"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "colleague",
+            "ar": "الزميل",
+            "en": "colleague"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "female neighbor",
+            "ar": "الجارة",
+            "en": "female neighbor"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "meant",
+            "ar": "المقصود",
+            "en": "meant"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u10_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist die Frau, {answer} hier arbeitet.",
+        "ar": "Das ist die Frau, {answer} hier arbeitet.",
+        "en": "Das ist die Frau, {answer} hier arbeitet."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "a2_u10_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Relativsätze einfach“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «الجمل الموصولة البسيطة». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Basic relative clauses”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u10_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U10_FOUNDATION"
+      ]
+    }
+  ]
+}

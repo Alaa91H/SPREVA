@@ -380,6 +380,381 @@
           ]
         }
       ]
+    },
+    {
+      "id": "de-core-a2",
+      "cefr": "A2",
+      "title": {
+        "de": "A2 — Selbstständig im täglichen Leben",
+        "ar": "A2 — استقلال أكبر في الحياة اليومية",
+        "en": "A2 — More independent everyday communication"
+      },
+      "units": [
+        {
+          "id": "de-core-a2-u01",
+          "title": {
+            "de": "Vergangenheit mit Perfekt",
+            "ar": "الماضي بصيغة Perfekt",
+            "en": "Past tense with Perfekt"
+          },
+          "lessons": [
+            {
+              "id": "a2_u01_l01",
+              "title": {
+                "de": "Perfekt mit haben/sein und Partizip II",
+                "ar": "Perfekt مع haben/sein وPartizip II",
+                "en": "Perfekt with haben/sein and past participles"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u01_l02",
+              "title": {
+                "de": "Über das Wochenende und Erlebnisse erzählen",
+                "ar": "الحديث عن عطلة نهاية الأسبوع والتجارب",
+                "en": "Talking about weekends and experiences"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u02",
+          "title": {
+            "de": "Präteritum im Alltag",
+            "ar": "Präteritum في الحياة اليومية",
+            "en": "Everyday Präteritum"
+          },
+          "lessons": [
+            {
+              "id": "a2_u02_l01",
+              "title": {
+                "de": "war, hatte und Modalverben im Präteritum",
+                "ar": "war وhatte والأفعال الناقصة في Präteritum",
+                "en": "war, hatte and modal verbs in Präteritum"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u02_l02",
+              "title": {
+                "de": "Frühere Situationen knapp beschreiben",
+                "ar": "وصف مواقف سابقة بإيجاز",
+                "en": "Describing past situations concisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u03",
+          "title": {
+            "de": "Gründe & Aussagen mit weil/dass",
+            "ar": "الأسباب والجمل مع weil/dass",
+            "en": "Reasons & statements with weil/dass"
+          },
+          "lessons": [
+            {
+              "id": "a2_u03_l01",
+              "title": {
+                "de": "Nebensätze mit weil und dass",
+                "ar": "الجمل التابعة مع weil وdass",
+                "en": "Subordinate clauses with weil and dass"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u03_l02",
+              "title": {
+                "de": "Begründen und Informationen weitergeben",
+                "ar": "التعليل ونقل المعلومات",
+                "en": "Giving reasons and relaying information"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u04",
+          "title": {
+            "de": "Bedingungen & Zeit mit wenn/als",
+            "ar": "الشروط والزمن مع wenn/als",
+            "en": "Conditions & time with wenn/als"
+          },
+          "lessons": [
+            {
+              "id": "a2_u04_l01",
+              "title": {
+                "de": "wenn für Wiederholung/Bedingung, als für einmalige Vergangenheit",
+                "ar": "wenn للتكرار/الشرط وals للماضي مرة واحدة",
+                "en": "wenn for repeated/conditional situations, als for one-time past events"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u04_l02",
+              "title": {
+                "de": "Bedingungen und Zeitpunkte klar ausdrücken",
+                "ar": "التعبير بوضوح عن الشروط والأوقات",
+                "en": "Expressing conditions and time clearly"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u05",
+          "title": {
+            "de": "Dativ & persönliche Beziehungen",
+            "ar": "الداتيف والعلاقات بين الأشخاص",
+            "en": "Dative & personal relations"
+          },
+          "lessons": [
+            {
+              "id": "a2_u05_l01",
+              "title": {
+                "de": "Dativobjekte und Personalpronomen",
+                "ar": "مفعول الداتيف والضمائر الشخصية",
+                "en": "Dative objects and personal pronouns"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u05_l02",
+              "title": {
+                "de": "Helfen, geben, danken und erklären",
+                "ar": "المساعدة والعطاء والشكر والشرح",
+                "en": "Helping, giving, thanking and explaining"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u06",
+          "title": {
+            "de": "Wechselpräpositionen & Wohnung",
+            "ar": "حروف الجر الثنائية والسكن",
+            "en": "Two-way prepositions & housing"
+          },
+          "lessons": [
+            {
+              "id": "a2_u06_l01",
+              "title": {
+                "de": "in/an/auf/unter/über/vor/hinter/neben/zwischen: Wo? Dativ, Wohin? Akkusativ",
+                "ar": "حروف الجر الثنائية: Wo مع Dativ وWohin مع Akkusativ",
+                "en": "Two-way prepositions: Wo? dative, Wohin? accusative"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u06_l02",
+              "title": {
+                "de": "Möbel stellen und Orte genau beschreiben",
+                "ar": "وضع الأثاث ووصف المكان بدقة",
+                "en": "Placing furniture and describing locations precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u07",
+          "title": {
+            "de": "Reflexive Verben & Alltag",
+            "ar": "الأفعال الانعكاسية والحياة اليومية",
+            "en": "Reflexive verbs & daily life"
+          },
+          "lessons": [
+            {
+              "id": "a2_u07_l01",
+              "title": {
+                "de": "Reflexivpronomen und feste reflexive Verben",
+                "ar": "الضمائر الانعكاسية والأفعال الانعكاسية الثابتة",
+                "en": "Reflexive pronouns and fixed reflexive verbs"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u07_l02",
+              "title": {
+                "de": "Routine, Gefühle und Termine ausdrücken",
+                "ar": "التعبير عن الروتين والمشاعر والمواعيد",
+                "en": "Expressing routines, feelings and appointments"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u08",
+          "title": {
+            "de": "Vergleichen & auswählen",
+            "ar": "المقارنة والاختيار",
+            "en": "Comparing & choosing"
+          },
+          "lessons": [
+            {
+              "id": "a2_u08_l01",
+              "title": {
+                "de": "Komparativ, Superlativ und als/wie",
+                "ar": "المقارنة والتفضيل وals/wie",
+                "en": "Comparative, superlative and als/wie"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u08_l02",
+              "title": {
+                "de": "Produkte, Wohnungen und Optionen vergleichen",
+                "ar": "مقارنة المنتجات والسكن والخيارات",
+                "en": "Comparing products, homes and options"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u09",
+          "title": {
+            "de": "Adjektive im Alltag",
+            "ar": "الصفات في الحياة اليومية",
+            "en": "Adjectives in everyday German"
+          },
+          "lessons": [
+            {
+              "id": "a2_u09_l01",
+              "title": {
+                "de": "Grundlagen der Adjektivendungen",
+                "ar": "أساسيات نهايات الصفات",
+                "en": "Basics of adjective endings"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u09_l02",
+              "title": {
+                "de": "Kleidung, Produkte und Personen genauer beschreiben",
+                "ar": "وصف الملابس والمنتجات والأشخاص بدقة أكبر",
+                "en": "Describing clothes, products and people more precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u10",
+          "title": {
+            "de": "Relativsätze einfach",
+            "ar": "الجمل الموصولة البسيطة",
+            "en": "Basic relative clauses"
+          },
+          "lessons": [
+            {
+              "id": "a2_u10_l01",
+              "title": {
+                "de": "Relativpronomen im Nominativ und Akkusativ",
+                "ar": "ضمائر الوصل في Nominativ وAkkusativ",
+                "en": "Relative pronouns in nominative and accusative"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u10_l02",
+              "title": {
+                "de": "Personen und Dinge genauer erklären",
+                "ar": "شرح الأشخاص والأشياء بدقة أكبر",
+                "en": "Explaining people and things more precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u11",
+          "title": {
+            "de": "Wohnen, Miete & Reparaturen",
+            "ar": "السكن والإيجار والإصلاحات",
+            "en": "Housing, rent & repairs"
+          },
+          "lessons": [
+            {
+              "id": "a2_u11_l01",
+              "title": {
+                "de": "Höfliche Bitten, Dativ/Akkusativ und schriftliche Meldungen",
+                "ar": "الطلبات المهذبة والداتيف/الأكوزاتيف والبلاغات المكتوبة",
+                "en": "Polite requests, dative/accusative and written reports"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u11_l02",
+              "title": {
+                "de": "Probleme in der Wohnung melden",
+                "ar": "الإبلاغ عن مشكلات السكن",
+                "en": "Reporting problems in a home"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u12",
+          "title": {
+            "de": "Arbeit & Bewerbung",
+            "ar": "العمل والتقديم للوظيفة",
+            "en": "Work & job applications"
+          },
+          "lessons": [
+            {
+              "id": "a2_u12_l01",
+              "title": {
+                "de": "Formelle E-Mail, weil/dass und beruflicher Wortschatz",
+                "ar": "البريد الرسمي وweil/dass ومفردات العمل",
+                "en": "Formal email, weil/dass and workplace vocabulary"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u12_l02",
+              "title": {
+                "de": "Eine einfache Bewerbung und Rückfrage schreiben",
+                "ar": "كتابة تقديم بسيط وسؤال متابعة",
+                "en": "Writing a simple application and follow-up"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u13",
+          "title": {
+            "de": "Reisen, Service & Beschwerden",
+            "ar": "السفر والخدمات والشكاوى",
+            "en": "Travel, service & complaints"
+          },
+          "lessons": [
+            {
+              "id": "a2_u13_l01",
+              "title": {
+                "de": "Indirekte Fragen und höflicher Konjunktiv II",
+                "ar": "الأسئلة غير المباشرة وKonjunktiv II المهذب",
+                "en": "Indirect questions and polite Konjunktiv II"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u13_l02",
+              "title": {
+                "de": "Probleme höflich lösen",
+                "ar": "حل المشكلات بأدب",
+                "en": "Solving problems politely"
+              },
+              "activityCount": 7
+            }
+          ]
+        }
+      ]
     }
   ]
 }

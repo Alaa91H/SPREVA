@@ -1,0 +1,154 @@
+{
+  "id": "a2_u09_l01",
+  "unitId": "de-core-a2-u09",
+  "title": {
+    "de": "Grundlagen der Adjektivendungen",
+    "ar": "أساسيات نهايات الصفات",
+    "en": "Basics of adjective endings"
+  },
+  "canDo": [
+    "A2_U09_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u09_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Grundlagen der Adjektivendungen",
+        "ar": "أساسيات نهايات الصفات",
+        "en": "Basics of adjective endings"
+      },
+      "body": {
+        "de": "Lernziel: Grundlagen der Adjektivendungen\n\nKernregel:\nSteht ein Adjektiv vor einem Nomen, bekommt es eine Endung: der rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.\n\nBeispiele:\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot.\n\nAnwendungsfeld:\nKleidung kaufen, Gegenstände beschreiben oder Personen erkennen: Farbe, Größe, Material und Eigenschaften kombinieren.\n\nTypische Fehlerquelle:\nAdjektivendungen nicht isoliert auswendig lernen, sondern als Muster mit Artikel + Nomen: einen schwarzen Mantel, eine schwarze Jacke.",
+        "ar": "هدف الدرس: أساسيات نهايات الصفات\n\nالقاعدة:\nإذا جاءت الصفة قبل الاسم فإنها تأخذ نهاية: der rote Pullover، ein roter Pullover. النهاية تعتمد على الأداة والجنس والحالة والعدد. في A2 ركّز أولًا على أنماط Nominativ/Akkusativ الشائعة.\n\nأمثلة:\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot.\n\nالاستخدام:\nشراء الملابس أو وصف الأشياء أو التعرف على الأشخاص: الجمع بين اللون والحجم والمادة والصفات.\n\nخطأ شائع:\nلا تحفظ نهاية الصفة وحدها بل مع النمط: أداة + صفة + اسم مثل einen schwarzen Mantel.",
+        "en": "Goal: Basics of adjective endings\n\nCore rule:\nAn adjective before a noun takes an ending: der rote Pullover, ein roter Pullover. The ending depends on article, gender, case and number. At A2, automate common nominative/accusative patterns first.\n\nExamples:\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot.\n\nUse case:\nBuying clothes, describing objects or identifying people: combine color, size, material and qualities.\n\nCommon pitfall:\nDo not memorize adjective endings in isolation; learn article + adjective + noun chunks such as einen schwarzen Mantel."
+      }
+    },
+    {
+      "id": "a2_u09_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u09_l01_w1",
+          "german": "der Mantel",
+          "translation": {
+            "de": "coat",
+            "ar": "المعطف",
+            "en": "coat"
+          }
+        },
+        {
+          "id": "a2_u09_l01_w2",
+          "german": "der Pullover",
+          "translation": {
+            "de": "sweater",
+            "ar": "الكنزة",
+            "en": "sweater"
+          }
+        },
+        {
+          "id": "a2_u09_l01_w3",
+          "german": "hell",
+          "translation": {
+            "de": "light/bright",
+            "ar": "فاتح / مضيء",
+            "en": "light/bright"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u09_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nSteht ein Adjektiv vor einem Nomen, bekommt es eine Endung: der rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.\n\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot.",
+        "ar": "قاعدة مختصرة:\nإذا جاءت الصفة قبل الاسم فإنها تأخذ نهاية: der rote Pullover، ein roter Pullover. النهاية تعتمد على الأداة والجنس والحالة والعدد. في A2 ركّز أولًا على أنماط Nominativ/Akkusativ الشائعة.\n\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot.",
+        "en": "Key rule:\nAn adjective before a noun takes an ending: der rote Pullover, ein roter Pullover. The ending depends on article, gender, case and number. At A2, automate common nominative/accusative patterns first.\n\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot."
+      }
+    },
+    {
+      "id": "a2_u09_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "der Mantel",
+        "ar": "der Mantel",
+        "en": "der Mantel"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "coat",
+            "ar": "المعطف",
+            "en": "coat"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sweater",
+            "ar": "الكنزة",
+            "en": "sweater"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "light/bright",
+            "ar": "فاتح / مضيء",
+            "en": "light/bright"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u09_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich suche einen schwarz{answer} Mantel.",
+        "ar": "Ich suche einen schwarz{answer} Mantel.",
+        "en": "Ich suche einen schwarz{answer} Mantel."
+      },
+      "acceptedAnswers": [
+        "en"
+      ]
+    },
+    {
+      "id": "a2_u09_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Adjektive im Alltag“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «الصفات في الحياة اليومية». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Adjectives in everyday German”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u09_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U09_FOUNDATION"
+      ]
+    }
+  ]
+}

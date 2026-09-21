@@ -1,0 +1,154 @@
+{
+  "id": "a2_u02_l01",
+  "unitId": "de-core-a2-u02",
+  "title": {
+    "de": "war, hatte und Modalverben im Präteritum",
+    "ar": "war وhatte والأفعال الناقصة في Präteritum",
+    "en": "war, hatte and modal verbs in Präteritum"
+  },
+  "canDo": [
+    "A2_U02_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u02_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "war, hatte und Modalverben im Präteritum",
+        "ar": "war وhatte والأفعال الناقصة في Präteritum",
+        "en": "war, hatte and modal verbs in Präteritum"
+      },
+      "body": {
+        "de": "Lernziel: war, hatte und Modalverben im Präteritum\n\nKernregel:\nsein und haben werden im gesprochenen Deutsch häufig im Präteritum verwendet: ich war, ich hatte. Auch Modalverben erscheinen oft so: ich konnte, musste, wollte, durfte. Der Vollverb kann als Infinitiv am Ende stehen: Ich musste lange warten.\n\nBeispiele:\n• Früher war meine Wohnung kleiner.\n• Ich hatte gestern keine Zeit.\n• Ich musste zwei Stunden warten.\n\nAnwendungsfeld:\nFrühere Arbeit, Schule, Reise oder Krankheit: kurz sagen, wie eine Situation war, was man hatte oder tun musste.\n\nTypische Fehlerquelle:\nPräteritum und Perfekt nicht wahllos mischen. Für sein/haben/Modalverben ist Präteritum sehr häufig; für viele Vollverben im Gespräch eher Perfekt.",
+        "ar": "هدف الدرس: war وhatte والأفعال الناقصة في Präteritum\n\nالقاعدة:\nيُستخدم sein وhaben كثيرًا في المحادثة بصيغة Präteritum: ich war، ich hatte. وكذلك الأفعال الناقصة: konnte، musste، wollte، durfte.\n\nأمثلة:\n• Früher war meine Wohnung kleiner.\n• Ich hatte gestern keine Zeit.\n• Ich musste zwei Stunden warten.\n\nالاستخدام:\nالعمل أو المدرسة أو السفر أو المرض في الماضي: وصف الوضع وما كان لديك وما اضطررت لفعله.\n\nخطأ شائع:\nلا تخلط Präteritum وPerfekt عشوائيًا. مع sein/haben والأفعال الناقصة يكون Präteritum شائعًا جدًا، ومع كثير من الأفعال الأخرى في الحديث يُفضّل Perfekt.",
+        "en": "Goal: war, hatte and modal verbs in Präteritum\n\nCore rule:\nsein and haben are often used in spoken German in Präteritum: ich war, ich hatte. Modal verbs also commonly appear this way: konnte, musste, wollte, durfte. The full verb may remain as an infinitive at the end.\n\nExamples:\n• Früher war meine Wohnung kleiner.\n• Ich hatte gestern keine Zeit.\n• Ich musste zwei Stunden warten.\n\nUse case:\nPast work, school, travel or illness: briefly say what a situation was like, what you had, or what you had to do.\n\nCommon pitfall:\nDo not mix Präteritum and Perfekt randomly. Präteritum is very common for sein/haben/modal verbs; spoken German often prefers Perfekt for many full verbs."
+      }
+    },
+    {
+      "id": "a2_u02_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u02_l01_w1",
+          "german": "früher",
+          "translation": {
+            "de": "in the past",
+            "ar": "سابقًا",
+            "en": "in the past"
+          }
+        },
+        {
+          "id": "a2_u02_l01_w2",
+          "german": "damals",
+          "translation": {
+            "de": "back then",
+            "ar": "آنذاك",
+            "en": "back then"
+          }
+        },
+        {
+          "id": "a2_u02_l01_w3",
+          "german": "war",
+          "translation": {
+            "de": "was",
+            "ar": "كان",
+            "en": "was"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u02_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nsein und haben werden im gesprochenen Deutsch häufig im Präteritum verwendet: ich war, ich hatte. Auch Modalverben erscheinen oft so: ich konnte, musste, wollte, durfte. Der Vollverb kann als Infinitiv am Ende stehen: Ich musste lange warten.\n\n• Früher war meine Wohnung kleiner.\n• Ich hatte gestern keine Zeit.\n• Ich musste zwei Stunden warten.",
+        "ar": "قاعدة مختصرة:\nيُستخدم sein وhaben كثيرًا في المحادثة بصيغة Präteritum: ich war، ich hatte. وكذلك الأفعال الناقصة: konnte، musste، wollte، durfte.\n\n• Früher war meine Wohnung kleiner.\n• Ich hatte gestern keine Zeit.\n• Ich musste zwei Stunden warten.",
+        "en": "Key rule:\nsein and haben are often used in spoken German in Präteritum: ich war, ich hatte. Modal verbs also commonly appear this way: konnte, musste, wollte, durfte. The full verb may remain as an infinitive at the end.\n\n• Früher war meine Wohnung kleiner.\n• Ich hatte gestern keine Zeit.\n• Ich musste zwei Stunden warten."
+      }
+    },
+    {
+      "id": "a2_u02_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "früher",
+        "ar": "früher",
+        "en": "früher"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "in the past",
+            "ar": "سابقًا",
+            "en": "in the past"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "back then",
+            "ar": "آنذاك",
+            "en": "back then"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "was",
+            "ar": "كان",
+            "en": "was"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u02_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gestern {answer} ich keine Zeit.",
+        "ar": "Gestern {answer} ich keine Zeit.",
+        "en": "Gestern {answer} ich keine Zeit."
+      },
+      "acceptedAnswers": [
+        "hatte"
+      ]
+    },
+    {
+      "id": "a2_u02_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Präteritum im Alltag“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «Präteritum في الحياة اليومية». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Everyday Präteritum”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u02_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U02_FOUNDATION"
+      ]
+    }
+  ]
+}

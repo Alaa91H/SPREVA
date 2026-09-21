@@ -1,0 +1,154 @@
+{
+  "id": "a2_u08_l01",
+  "unitId": "de-core-a2-u08",
+  "title": {
+    "de": "Komparativ, Superlativ und als/wie",
+    "ar": "المقارنة والتفضيل وals/wie",
+    "en": "Comparative, superlative and als/wie"
+  },
+  "canDo": [
+    "A2_U08_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u08_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komparativ, Superlativ und als/wie",
+        "ar": "المقارنة والتفضيل وals/wie",
+        "en": "Comparative, superlative and als/wie"
+      },
+      "body": {
+        "de": "Lernziel: Komparativ, Superlativ und als/wie\n\nKernregel:\nKomparativ meist mit -er: schnell → schneller. Vergleich mit „als“: größer als. Gleichheit mit „so … wie“: so teuer wie. Superlativ prädikativ häufig „am …-sten“: am günstigsten. Unregelmäßig: gut – besser – am besten.\n\nBeispiele:\n• Diese Wohnung ist größer als die andere.\n• Der Bus ist so schnell wie die Bahn.\n• Das Angebot ist am günstigsten.\n\nAnwendungsfeld:\nWohnungssuche, Technik, Tarife oder Einkauf: Preis, Qualität, Größe und Entfernung vergleichen und eine Wahl begründen.\n\nTypische Fehlerquelle:\n„als“ bei Ungleichheit, „wie“ bei Gleichheit. Nicht „größer wie“ in der Standardsprache, sondern „größer als“.",
+        "ar": "هدف الدرس: المقارنة والتفضيل وals/wie\n\nالقاعدة:\nالمقارنة غالبًا بإضافة -er، ومع als للمفاضلة وso…wie للتساوي، والتفضيل غالبًا am…-sten. توجد أشكال شاذة مثل gut – besser – am besten.\n\nأمثلة:\n• Diese Wohnung ist größer als die andere.\n• Der Bus ist so schnell wie die Bahn.\n• Das Angebot ist am günstigsten.\n\nالاستخدام:\nالبحث عن شقة أو تقنية أو باقات أو تسوق: مقارنة السعر والجودة والحجم والمسافة وتبرير الاختيار.\n\nخطأ شائع:\nنستخدم als عند الاختلاف وwie عند التساوي. في الألمانية المعيارية نقول größer als وليس größer wie.",
+        "en": "Goal: Comparative, superlative and als/wie\n\nCore rule:\nComparatives usually take -er; use als for difference and so … wie for equality. Predicative superlatives often use am …-sten. Irregular: gut – besser – am besten.\n\nExamples:\n• Diese Wohnung ist größer als die andere.\n• Der Bus ist so schnell wie die Bahn.\n• Das Angebot ist am günstigsten.\n\nUse case:\nApartment search, technology, plans or shopping: compare price, quality, size and distance and justify a choice.\n\nCommon pitfall:\nUse als for inequality and wie for equality. Standard German uses größer als, not größer wie."
+      }
+    },
+    {
+      "id": "a2_u08_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u08_l01_w1",
+          "german": "günstig",
+          "translation": {
+            "de": "affordable",
+            "ar": "مناسب السعر",
+            "en": "affordable"
+          }
+        },
+        {
+          "id": "a2_u08_l01_w2",
+          "german": "teuer",
+          "translation": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        },
+        {
+          "id": "a2_u08_l01_w3",
+          "german": "groß",
+          "translation": {
+            "de": "large",
+            "ar": "كبير",
+            "en": "large"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u08_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nKomparativ meist mit -er: schnell → schneller. Vergleich mit „als“: größer als. Gleichheit mit „so … wie“: so teuer wie. Superlativ prädikativ häufig „am …-sten“: am günstigsten. Unregelmäßig: gut – besser – am besten.\n\n• Diese Wohnung ist größer als die andere.\n• Der Bus ist so schnell wie die Bahn.\n• Das Angebot ist am günstigsten.",
+        "ar": "قاعدة مختصرة:\nالمقارنة غالبًا بإضافة -er، ومع als للمفاضلة وso…wie للتساوي، والتفضيل غالبًا am…-sten. توجد أشكال شاذة مثل gut – besser – am besten.\n\n• Diese Wohnung ist größer als die andere.\n• Der Bus ist so schnell wie die Bahn.\n• Das Angebot ist am günstigsten.",
+        "en": "Key rule:\nComparatives usually take -er; use als for difference and so … wie for equality. Predicative superlatives often use am …-sten. Irregular: gut – besser – am besten.\n\n• Diese Wohnung ist größer als die andere.\n• Der Bus ist so schnell wie die Bahn.\n• Das Angebot ist am günstigsten."
+      }
+    },
+    {
+      "id": "a2_u08_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "günstig",
+        "ar": "günstig",
+        "en": "günstig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "affordable",
+            "ar": "مناسب السعر",
+            "en": "affordable"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "large",
+            "ar": "كبير",
+            "en": "large"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u08_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die zweite Wohnung ist günstiger {answer} die erste.",
+        "ar": "Die zweite Wohnung ist günstiger {answer} die erste.",
+        "en": "Die zweite Wohnung ist günstiger {answer} die erste."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "a2_u08_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Vergleichen & auswählen“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «المقارنة والاختيار». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Comparing & choosing”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u08_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U08_FOUNDATION"
+      ]
+    }
+  ]
+}

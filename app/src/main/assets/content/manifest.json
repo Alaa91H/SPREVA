@@ -6,6 +6,11 @@
       "id": "de-core-a1-academic",
       "courseId": "de-core",
       "level": "A1"
+    },
+    {
+      "id": "de-core-a2-academic",
+      "courseId": "de-core",
+      "level": "A2"
     }
   ]
 }

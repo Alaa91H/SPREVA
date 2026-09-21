@@ -1,0 +1,154 @@
+{
+  "id": "a2_u12_l02",
+  "unitId": "de-core-a2-u12",
+  "title": {
+    "de": "Eine einfache Bewerbung und Rückfrage schreiben",
+    "ar": "كتابة تقديم بسيط وسؤال متابعة",
+    "en": "Writing a simple application and follow-up"
+  },
+  "canDo": [
+    "A2_U12_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a2_u12_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Eine einfache Bewerbung und Rückfrage schreiben",
+        "ar": "كتابة تقديم بسيط وسؤال متابعة",
+        "en": "Writing a simple application and follow-up"
+      },
+      "body": {
+        "de": "Realsituation:\nStellenanzeige, Praktikum oder Kurs: Interesse zeigen, Verfügbarkeit nennen, nach Unterlagen oder Termin fragen und professionell abschließen.\n\nModelldialog:\nA: Guten Tag, ich rufe wegen Ihrer Stellenanzeige an.\nB: Welche Stelle meinen Sie?\nA: Die Stelle als Lagerhelfer. Ist sie noch frei?\nB: Ja. Bitte schicken Sie uns Ihren Lebenslauf.\n\nSprachfokus:\nEine einfache formelle E-Mail enthält Anrede, Anlass, relevante Information, Bitte/Frage und Gruß. Höfliche Formulierungen: „Ich interessiere mich für …“, „Könnten Sie mir mitteilen, ob …?“, „Vielen Dank im Voraus“. Das Verb im ob-Nebensatz steht am Ende.\n\nTransfer: Passe den Dialog an deine Situation an, stelle eine Rückfrage und formuliere eine höfliche Alternative.",
+        "ar": "الموقف الواقعي:\nإعلان وظيفة أو تدريب أو دورة: إظهار الاهتمام وذكر التوفر والسؤال عن المستندات أو الموعد وإنهاء الرسالة بشكل مهني.\n\nحوار نموذجي:\nA: Guten Tag, ich rufe wegen Ihrer Stellenanzeige an.\nB: Welche Stelle meinen Sie?\nA: Die Stelle als Lagerhelfer. Ist sie noch frei?\nB: Ja. Bitte schicken Sie uns Ihren Lebenslauf.\n\nالتركيز اللغوي:\nيتضمن البريد الرسمي: التحية، السبب، المعلومات المهمة، الطلب/السؤال، والخاتمة. من الصيغ المهذبة Ich interessiere mich für… وKönnten Sie mir mitteilen, ob…? وفي جملة ob يأتي الفعل في النهاية.\n\nتطبيق: عدّل الحوار ليلائم وضعك، أضف سؤال متابعة وصياغة بديلة مهذبة.",
+        "en": "Real-life situation:\nJob ad, internship or course: express interest, state availability, ask about documents or appointment and close professionally.\n\nModel dialogue:\nA: Guten Tag, ich rufe wegen Ihrer Stellenanzeige an.\nB: Welche Stelle meinen Sie?\nA: Die Stelle als Lagerhelfer. Ist sie noch frei?\nB: Ja. Bitte schicken Sie uns Ihren Lebenslauf.\n\nLanguage focus:\nA simple formal email includes greeting, purpose, relevant information, request/question and closing. Useful polite formulas include Ich interessiere mich für … and Könnten Sie mir mitteilen, ob …? In an ob-clause, the verb goes to the end.\n\nTransfer: Adapt the dialogue to your situation, add a follow-up question and a polite alternative."
+      }
+    },
+    {
+      "id": "a2_u12_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u12_l02_w1",
+          "german": "die Erfahrung",
+          "translation": {
+            "de": "experience",
+            "ar": "الخبرة",
+            "en": "experience"
+          }
+        },
+        {
+          "id": "a2_u12_l02_w2",
+          "german": "verfügbar",
+          "translation": {
+            "de": "available",
+            "ar": "متاح",
+            "en": "available"
+          }
+        },
+        {
+          "id": "a2_u12_l02_w3",
+          "german": "das Vorstellungsgespräch",
+          "translation": {
+            "de": "job interview",
+            "ar": "مقابلة العمل",
+            "en": "job interview"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u12_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nEine einfache formelle E-Mail enthält Anrede, Anlass, relevante Information, Bitte/Frage und Gruß. Höfliche Formulierungen: „Ich interessiere mich für …“, „Könnten Sie mir mitteilen, ob …?“, „Vielen Dank im Voraus“. Das Verb im ob-Nebensatz steht am Ende.\n\n• Ich interessiere mich für die Stelle als Fahrer.\n• Könnten Sie mir mitteilen, ob die Stelle noch frei ist?\n• Mit freundlichen Grüßen",
+        "ar": "قاعدة مختصرة:\nيتضمن البريد الرسمي: التحية، السبب، المعلومات المهمة، الطلب/السؤال، والخاتمة. من الصيغ المهذبة Ich interessiere mich für… وKönnten Sie mir mitteilen, ob…? وفي جملة ob يأتي الفعل في النهاية.\n\n• Ich interessiere mich für die Stelle als Fahrer.\n• Könnten Sie mir mitteilen, ob die Stelle noch frei ist?\n• Mit freundlichen Grüßen",
+        "en": "Key rule:\nA simple formal email includes greeting, purpose, relevant information, request/question and closing. Useful polite formulas include Ich interessiere mich für … and Könnten Sie mir mitteilen, ob …? In an ob-clause, the verb goes to the end.\n\n• Ich interessiere mich für die Stelle als Fahrer.\n• Könnten Sie mir mitteilen, ob die Stelle noch frei ist?\n• Mit freundlichen Grüßen"
+      }
+    },
+    {
+      "id": "a2_u12_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "die Erfahrung",
+        "ar": "die Erfahrung",
+        "en": "die Erfahrung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "experience",
+            "ar": "الخبرة",
+            "en": "experience"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "available",
+            "ar": "متاح",
+            "en": "available"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "job interview",
+            "ar": "مقابلة العمل",
+            "en": "job interview"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u12_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Könnten Sie mir sagen, ob die Stelle noch frei {answer}?",
+        "ar": "Könnten Sie mir sagen, ob die Stelle noch frei {answer}?",
+        "en": "Könnten Sie mir sagen, ob die Stelle noch frei {answer}?"
+      },
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "a2_u12_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Arbeit & Bewerbung“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «العمل والتقديم للوظيفة». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Work & job applications”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u12_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U12_REAL_LIFE"
+      ]
+    }
+  ]
+}

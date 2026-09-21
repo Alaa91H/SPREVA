@@ -1,0 +1,154 @@
+{
+  "id": "a2_u01_l01",
+  "unitId": "de-core-a2-u01",
+  "title": {
+    "de": "Perfekt mit haben/sein und Partizip II",
+    "ar": "Perfekt مع haben/sein وPartizip II",
+    "en": "Perfekt with haben/sein and past participles"
+  },
+  "canDo": [
+    "A2_U01_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u01_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Perfekt mit haben/sein und Partizip II",
+        "ar": "Perfekt مع haben/sein وPartizip II",
+        "en": "Perfekt with haben/sein and past participles"
+      },
+      "body": {
+        "de": "Lernziel: Perfekt mit haben/sein und Partizip II\n\nKernregel:\nDas Perfekt besteht aus haben/sein auf Position 2 und dem Partizip II am Satzende. Bewegungs- und Zustandswechselverben verwenden häufig sein: Ich bin gefahren. Viele andere Verben verwenden haben: Ich habe gearbeitet. Trennbare Verben bilden oft ge- zwischen Präfix und Stamm: eingekauft.\n\nBeispiele:\n• Ich habe am Samstag gearbeitet.\n• Wir sind nach Hamburg gefahren.\n• Am Abend habe ich Freunde getroffen.\n\nAnwendungsfeld:\nNach dem Wochenende, im Kurs oder bei Freunden: erzählen, was man gemacht, besucht, gekauft oder erlebt hat.\n\nTypische Fehlerquelle:\nNicht jedes Verb verwendet dasselbe Hilfsverb. Lerne Perfektformen als Einheit: fahren – ist gefahren; arbeiten – hat gearbeitet.",
+        "ar": "هدف الدرس: Perfekt مع haben/sein وPartizip II\n\nالقاعدة:\nيتكون Perfekt من haben/sein في الموقع الثاني وPartizip II في نهاية الجملة. أفعال الحركة وتغير الحالة تستخدم غالبًا sein مثل Ich bin gefahren، ومعظم الأفعال الأخرى haben مثل Ich habe gearbeitet.\n\nأمثلة:\n• Ich habe am Samstag gearbeitet.\n• Wir sind nach Hamburg gefahren.\n• Am Abend habe ich Freunde getroffen.\n\nالاستخدام:\nبعد عطلة نهاية الأسبوع أو في الدورة أو مع الأصدقاء: الحديث عما فعلته أو زرته أو اشتريته أو عشته.\n\nخطأ شائع:\nليست كل الأفعال مع نفس الفعل المساعد. احفظ صيغة Perfekt كوحدة: fahren – ist gefahren؛ arbeiten – hat gearbeitet.",
+        "en": "Goal: Perfekt with haben/sein and past participles\n\nCore rule:\nThe Perfekt uses haben/sein in position 2 and the past participle at the end. Motion/change-of-state verbs often take sein: Ich bin gefahren. Many other verbs take haben: Ich habe gearbeitet. Separable verbs often insert ge-: eingekauft.\n\nExamples:\n• Ich habe am Samstag gearbeitet.\n• Wir sind nach Hamburg gefahren.\n• Am Abend habe ich Freunde getroffen.\n\nUse case:\nAfter a weekend, in class or with friends: say what you did, visited, bought or experienced.\n\nCommon pitfall:\nNot every verb uses the same auxiliary. Learn Perfekt forms as chunks: fahren – ist gefahren; arbeiten – hat gearbeitet."
+      }
+    },
+    {
+      "id": "a2_u01_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u01_l01_w1",
+          "german": "gestern",
+          "translation": {
+            "de": "yesterday",
+            "ar": "أمس",
+            "en": "yesterday"
+          }
+        },
+        {
+          "id": "a2_u01_l01_w2",
+          "german": "das Wochenende",
+          "translation": {
+            "de": "weekend",
+            "ar": "عطلة نهاية الأسبوع",
+            "en": "weekend"
+          }
+        },
+        {
+          "id": "a2_u01_l01_w3",
+          "german": "erleben",
+          "translation": {
+            "de": "experience",
+            "ar": "يعيش تجربة",
+            "en": "experience"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u01_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nDas Perfekt besteht aus haben/sein auf Position 2 und dem Partizip II am Satzende. Bewegungs- und Zustandswechselverben verwenden häufig sein: Ich bin gefahren. Viele andere Verben verwenden haben: Ich habe gearbeitet. Trennbare Verben bilden oft ge- zwischen Präfix und Stamm: eingekauft.\n\n• Ich habe am Samstag gearbeitet.\n• Wir sind nach Hamburg gefahren.\n• Am Abend habe ich Freunde getroffen.",
+        "ar": "قاعدة مختصرة:\nيتكون Perfekt من haben/sein في الموقع الثاني وPartizip II في نهاية الجملة. أفعال الحركة وتغير الحالة تستخدم غالبًا sein مثل Ich bin gefahren، ومعظم الأفعال الأخرى haben مثل Ich habe gearbeitet.\n\n• Ich habe am Samstag gearbeitet.\n• Wir sind nach Hamburg gefahren.\n• Am Abend habe ich Freunde getroffen.",
+        "en": "Key rule:\nThe Perfekt uses haben/sein in position 2 and the past participle at the end. Motion/change-of-state verbs often take sein: Ich bin gefahren. Many other verbs take haben: Ich habe gearbeitet. Separable verbs often insert ge-: eingekauft.\n\n• Ich habe am Samstag gearbeitet.\n• Wir sind nach Hamburg gefahren.\n• Am Abend habe ich Freunde getroffen."
+      }
+    },
+    {
+      "id": "a2_u01_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "gestern",
+        "ar": "gestern",
+        "en": "gestern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "yesterday",
+            "ar": "أمس",
+            "en": "yesterday"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "weekend",
+            "ar": "عطلة نهاية الأسبوع",
+            "en": "weekend"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "experience",
+            "ar": "يعيش تجربة",
+            "en": "experience"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u01_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} gestern lange gearbeitet.",
+        "ar": "Ich {answer} gestern lange gearbeitet.",
+        "en": "Ich {answer} gestern lange gearbeitet."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a2_u01_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Vergangenheit mit Perfekt“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «الماضي بصيغة Perfekt». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Past tense with Perfekt”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u01_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U01_FOUNDATION"
+      ]
+    }
+  ]
+}
