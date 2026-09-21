@@ -1,0 +1,154 @@
+{
+  "id": "b2_u04_l02",
+  "unitId": "de-core-b2-u04",
+  "title": {
+    "de": "Komplexe Nominalgruppen in Fachtexten entschlüsseln",
+    "ar": "فك المجموعات الاسمية المعقدة في النصوص المتخصصة",
+    "en": "Decoding complex noun phrases in specialist texts"
+  },
+  "canDo": [
+    "B2_U04_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u04_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe Nominalgruppen in Fachtexten entschlüsseln",
+        "ar": "فك المجموعات الاسمية المعقدة في النصوص المتخصصة",
+        "en": "Decoding complex noun phrases in specialist texts"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nZeitung, Vertrag, Bericht, Stellenanzeige oder Wissenschaft: lange Nominalgruppen verstehen und Informationen kompakt formulieren.\n\nModelldialog:\nA: Welche Anträge werden heute bearbeitet?\nB: Zuerst die gestern eingegangenen Anträge.\nA: Und die unvollständig ausgefüllten Formulare?\nB: Die werden an die Antragstellenden zurückgeschickt.\n\nSprachliche Strategie:\nPartizipien können wie Adjektive vor Nomen stehen: die steigenden Kosten (Kosten, die steigen), die gestern eingereichten Unterlagen (Unterlagen, die gestern eingereicht wurden). Die Endung folgt der Adjektivdeklination. Beim Lesen hilft es, die Struktur zunächst in einen Relativsatz zurückzuverwandeln.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nصحيفة أو عقد أو تقرير أو إعلان عمل أو علم: فهم مجموعات اسمية طويلة وصياغة معلومات مكثفة.\n\nحوار نموذجي:\nA: Welche Anträge werden heute bearbeitet?\nB: Zuerst die gestern eingegangenen Anträge.\nA: Und die unvollständig ausgefüllten Formulare?\nB: Die werden an die Antragstellenden zurückgeschickt.\n\nالاستراتيجية اللغوية:\nيمكن استخدام Partizip كصفة قبل الاسم: die steigenden Kosten = التكاليف التي ترتفع؛ die eingereichten Unterlagen = المستندات التي قُدمت. النهايات تتبع تصريف الصفات.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nNews, contracts, reports, job ads or science: understand long noun phrases and formulate information compactly.\n\nModel dialogue:\nA: Welche Anträge werden heute bearbeitet?\nB: Zuerst die gestern eingegangenen Anträge.\nA: Und die unvollständig ausgefüllten Formulare?\nB: Die werden an die Antragstellenden zurückgeschickt.\n\nLanguage strategy:\nParticiples can function as attributive adjectives: die steigenden Kosten = costs that are rising; die gestern eingereichten Unterlagen = documents submitted yesterday. Endings follow adjective declension. When reading, expand the phrase into a relative clause.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u04_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u04_l02_w1",
+          "german": "eingehend",
+          "translation": {
+            "de": "incoming",
+            "ar": "وارد",
+            "en": "incoming"
+          }
+        },
+        {
+          "id": "b2_u04_l02_w2",
+          "german": "betreffend",
+          "translation": {
+            "de": "concerning",
+            "ar": "متعلق بـ",
+            "en": "concerning"
+          }
+        },
+        {
+          "id": "b2_u04_l02_w3",
+          "german": "selbstständig",
+          "translation": {
+            "de": "independently",
+            "ar": "بشكل مستقل",
+            "en": "independently"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u04_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nPartizipien können wie Adjektive vor Nomen stehen: die steigenden Kosten (Kosten, die steigen), die gestern eingereichten Unterlagen (Unterlagen, die gestern eingereicht wurden). Die Endung folgt der Adjektivdeklination. Beim Lesen hilft es, die Struktur zunächst in einen Relativsatz zurückzuverwandeln.\n\n• Die steigenden Energiepreise belasten viele Haushalte.\n• Die gestern eingereichten Unterlagen werden geprüft.\n• Wir suchen eine selbstständig arbeitende Fachkraft.",
+        "ar": "المبدأ الأساسي:\nيمكن استخدام Partizip كصفة قبل الاسم: die steigenden Kosten = التكاليف التي ترتفع؛ die eingereichten Unterlagen = المستندات التي قُدمت. النهايات تتبع تصريف الصفات.\n\n• Die steigenden Energiepreise belasten viele Haushalte.\n• Die gestern eingereichten Unterlagen werden geprüft.\n• Wir suchen eine selbstständig arbeitende Fachkraft.",
+        "en": "Core principle:\nParticiples can function as attributive adjectives: die steigenden Kosten = costs that are rising; die gestern eingereichten Unterlagen = documents submitted yesterday. Endings follow adjective declension. When reading, expand the phrase into a relative clause.\n\n• Die steigenden Energiepreise belasten viele Haushalte.\n• Die gestern eingereichten Unterlagen werden geprüft.\n• Wir suchen eine selbstständig arbeitende Fachkraft."
+      }
+    },
+    {
+      "id": "b2_u04_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "eingehend",
+        "ar": "eingehend",
+        "en": "eingehend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "incoming",
+            "ar": "وارد",
+            "en": "incoming"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "concerning",
+            "ar": "متعلق بـ",
+            "en": "concerning"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "independently",
+            "ar": "بشكل مستقل",
+            "en": "independently"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u04_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} Kosten sind ein Problem.",
+        "ar": "Die {answer} Kosten sind ein Problem.",
+        "en": "Die {answer} Kosten sind ein Problem."
+      },
+      "acceptedAnswers": [
+        "steigenden"
+      ]
+    },
+    {
+      "id": "b2_u04_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Partizipialattribute & Informationsdichte“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «صفات اسم الفاعل/المفعول وكثافة المعلومات». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Participial attributes & information density”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u04_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U04_REAL_LIFE"
+      ]
+    }
+  ]
+}

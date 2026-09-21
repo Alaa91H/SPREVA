@@ -1,0 +1,155 @@
+{
+  "id": "a1_u09_l02",
+  "unitId": "de-core-a1-u09",
+  "title": {
+    "de": "Nach dem Weg fragen und Anweisungen verstehen",
+    "ar": "السؤال عن الطريق وفهم التعليمات",
+    "en": "Asking for and understanding directions"
+  },
+  "canDo": [
+    "A1_U09_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u09_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Nach dem Weg fragen und Anweisungen verstehen",
+        "ar": "السؤال عن الطريق وفهم التعليمات",
+        "en": "Asking for and understanding directions"
+      },
+      "body": {
+        "de": "Realsituation:\nIn einer unbekannten Stadt: Haltestelle, Arzt, Apotheke, Bahnhof oder Amt finden und einfache Wegangaben geben.\n\nModelldialog:\nA: Entschuldigung, wo ist die Post?\nB: Gehen Sie hier geradeaus.\nA: Und dann?\nB: An der Ampel rechts. Die Post ist neben der Bank.\n\nSprachfokus:\n„Wo?“ fragt nach einem Ort, „Wohin?“ nach einer Richtung. Häufige Muster: am Bahnhof, in der Stadt, zum Arzt, zur Post. Der höfliche Imperativ mit Sie: Gehen Sie geradeaus. Nehmen Sie die zweite Straße links.\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nفي مدينة غير مألوفة: إيجاد المحطة أو الطبيب أو الصيدلية أو محطة القطار أو الدائرة وفهم اتجاهات بسيطة.\n\nحوار نموذجي:\nA: Entschuldigung, wo ist die Post?\nB: Gehen Sie hier geradeaus.\nA: Und dann?\nB: An der Ampel rechts. Die Post ist neben der Bank.\n\nالتركيز اللغوي:\nWo تسأل عن المكان وWohin عن الاتجاه. أمثلة: am Bahnhof، in der Stadt، zum Arzt، zur Post. الأمر الرسمي مع Sie: Gehen Sie geradeaus.\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nIn an unfamiliar city: find a stop, doctor, pharmacy, station or public office and give simple directions.\n\nModel dialogue:\nA: Entschuldigung, wo ist die Post?\nB: Gehen Sie hier geradeaus.\nA: Und dann?\nB: An der Ampel rechts. Die Post ist neben der Bank.\n\nLanguage focus:\nWo asks for location, Wohin for direction. Common patterns include am Bahnhof, in der Stadt, zum Arzt, zur Post. Formal imperative with Sie: Gehen Sie geradeaus.\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u09_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u09_l02_w1",
+          "german": "die Kreuzung",
+          "translation": {
+            "de": "intersection",
+            "ar": "التقاطع",
+            "en": "intersection"
+          }
+        },
+        {
+          "id": "a1_u09_l02_w2",
+          "german": "die Ampel",
+          "translation": {
+            "de": "traffic light",
+            "ar": "إشارة المرور",
+            "en": "traffic light"
+          }
+        },
+        {
+          "id": "a1_u09_l02_w3",
+          "german": "neben",
+          "translation": {
+            "de": "next to",
+            "ar": "بجانب",
+            "en": "next to"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u09_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: „Wo?“ fragt nach einem Ort, „Wohin?“ nach einer Richtung. Häufige Muster: am Bahnhof, in der Stadt, zum Arzt, zur Post. Der höfliche Imperativ mit Sie: Gehen Sie geradeaus. Nehmen Sie die zweite Straße links.\n\nBeispiele:\n• Wo ist der Bahnhof?\n• Gehen Sie geradeaus und dann links.\n• Ich fahre zur Arbeit.",
+        "ar": "قاعدة مختصرة: Wo تسأل عن المكان وWohin عن الاتجاه. أمثلة: am Bahnhof، in der Stadt، zum Arzt، zur Post. الأمر الرسمي مع Sie: Gehen Sie geradeaus.\n\nالأمثلة:\n• Wo ist der Bahnhof?\n• Gehen Sie geradeaus und dann links.\n• Ich fahre zur Arbeit.",
+        "en": "Key rule: Wo asks for location, Wohin for direction. Common patterns include am Bahnhof, in der Stadt, zum Arzt, zur Post. Formal imperative with Sie: Gehen Sie geradeaus.\n\nExamples:\n• Wo ist der Bahnhof?\n• Gehen Sie geradeaus und dann links.\n• Ich fahre zur Arbeit."
+      }
+    },
+    {
+      "id": "a1_u09_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "die Kreuzung",
+        "ar": "die Kreuzung",
+        "en": "die Kreuzung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "intersection",
+            "ar": "التقاطع",
+            "en": "intersection"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "traffic light",
+            "ar": "إشارة المرور",
+            "en": "traffic light"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "next to",
+            "ar": "بجانب",
+            "en": "next to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u09_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "An der Ampel gehen Sie {answer}.",
+        "ar": "An der Ampel gehen Sie {answer}.",
+        "en": "An der Ampel gehen Sie {answer}."
+      },
+      "acceptedAnswers": [
+        "rechts",
+        "links"
+      ]
+    },
+    {
+      "id": "a1_u09_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Nach dem Weg fragen und Anweisungen verstehen“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «السؤال عن الطريق وفهم التعليمات». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Asking for and understanding directions”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u09_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U09_REAL_LIFE"
+      ]
+    }
+  ]
+}

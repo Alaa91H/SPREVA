@@ -1,0 +1,378 @@
+{
+  "id": "b1_u14_l04",
+  "unitId": "de-core-b1-u14",
+  "title": {
+    "de": "Integrations-Casebook",
+    "ar": "دفتر حالات التكامل",
+    "en": "Integration casebook"
+  },
+  "canDo": [
+    "B1_U14_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u14_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Casebook",
+        "ar": "دفتر حالات التكامل",
+        "en": "Integration casebook"
+      },
+      "body": {
+        "de": "Casebook-Ziel: Halte 4 Minuten Präsentation mit Quelle, Gegenargument, Beispiel, Einschränkung und Schluss. Trenne Fehler in Grammatik, Bedeutung, Register und Informationsstruktur; korrigiere anschließend minimal und vollständig.",
+        "ar": "هدف دفتر الحالات: Halte 4 Minuten Präsentation mit Quelle, Gegenargument, Beispiel, Einschränkung und Schluss. صنّف الأخطاء إلى نحو ومعنى وسجل وبنية معلومات، ثم صحح بأقل تغيير وبصياغة كاملة.",
+        "en": "Casebook goal: Halte 4 Minuten Präsentation mit Quelle, Gegenargument, Beispiel, Einschränkung und Schluss. Classify errors into grammar, meaning, register and information structure, then repair minimally and fully."
+      }
+    },
+    {
+      "id": "b1_u14_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u14_l04_w1",
+          "german": "Vorgang",
+          "translation": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b1_u14_l04_w2",
+          "german": "zuständig",
+          "translation": {
+            "de": "zuständig",
+            "ar": "مختص",
+            "en": "responsible"
+          }
+        },
+        {
+          "id": "b1_u14_l04_w3",
+          "german": "Vorschlag",
+          "translation": {
+            "de": "Vorschlag",
+            "ar": "اقتراح",
+            "en": "proposal"
+          }
+        },
+        {
+          "id": "b1_u14_l04_w4",
+          "german": "Überweisung",
+          "translation": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "b1_u14_l04_w5",
+          "german": "begründen",
+          "translation": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "b1_u14_l04_w6",
+          "german": "zusammenfassend",
+          "translation": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u14_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} die Quelle unklar ist, wird sie oft geteilt.",
+        "ar": "{answer} die Quelle unklar ist, wird sie oft geteilt.",
+        "en": "{answer} die Quelle unklar ist, wird sie oft geteilt."
+      },
+      "acceptedAnswers": [
+        "Obwohl"
+      ]
+    },
+    {
+      "id": "b1_u14_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Quelle ist unklar; {answer} prüfe ich sie.",
+        "ar": "Die Quelle ist unklar; {answer} prüfe ich sie.",
+        "en": "Die Quelle ist unklar; {answer} prüfe ich sie."
+      },
+      "acceptedAnswers": [
+        "deshalb"
+      ]
+    },
+    {
+      "id": "b1_u14_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dagegen lässt sich {answer}, dass die Kosten hoch sind.",
+        "ar": "Dagegen lässt sich {answer}, dass die Kosten hoch sind.",
+        "en": "Dagegen lässt sich {answer}, dass die Kosten hoch sind."
+      },
+      "acceptedAnswers": [
+        "einwenden"
+      ]
+    },
+    {
+      "id": "b1_u14_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zuerst möchte ich die Situation {answer}.",
+        "ar": "Zuerst möchte ich die Situation {answer}.",
+        "en": "Zuerst möchte ich die Situation {answer}."
+      },
+      "acceptedAnswers": [
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "b1_u14_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein weiterer Punkt {answer} die Umsetzung.",
+        "ar": "Ein weiterer Punkt {answer} die Umsetzung.",
+        "en": "Ein weiterer Punkt {answer} die Umsetzung."
+      },
+      "acceptedAnswers": [
+        "betrifft"
+      ]
+    },
+    {
+      "id": "b1_u14_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} halte ich die Maßnahme für sinnvoll.",
+        "ar": "{answer} halte ich die Maßnahme für sinnvoll.",
+        "en": "{answer} halte ich die Maßnahme für sinnvoll."
+      },
+      "acceptedAnswers": [
+        "Zusammenfassend"
+      ]
+    },
+    {
+      "id": "b1_u14_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Überweisung",
+        "ar": "Überweisung",
+        "en": "Überweisung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "begründen",
+        "ar": "begründen",
+        "en": "begründen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "zusammenfassend",
+        "ar": "zusammenfassend",
+        "en": "zusammenfassend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zuständig",
+            "ar": "مختص",
+            "en": "responsible"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Vorgang",
+        "ar": "Vorgang",
+        "en": "Vorgang"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zuständig",
+            "ar": "مختص",
+            "en": "responsible"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Vorschlag",
+            "ar": "اقتراح",
+            "en": "proposal"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdiagnose",
+        "ar": "تشخيص الفروق",
+        "en": "Contrast diagnosis"
+      },
+      "body": {
+        "de": "Nimm jede Lösung und formuliere eine sehr ähnliche, aber falsche oder unpassende Variante. Erkläre exakt, welcher Faktor den Unterschied macht.",
+        "ar": "لكل حل أنشئ صيغة شديدة الشبه لكنها خاطئة أو غير مناسبة، واشرح العامل الذي أحدث الفرق بدقة.",
+        "en": "For each solution create a very similar but wrong or inappropriate variant and explain exactly which factor creates the difference."
+      }
+    },
+    {
+      "id": "b1_u14_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Prüfungssimulation",
+        "ar": "محاكاة اختبار",
+        "en": "Exam simulation"
+      },
+      "body": {
+        "de": "Bearbeite alle Fälle ohne Zurückspringen. Danach zweite Runde nur mit den unsicheren Aufgaben und begründe jede Änderung.",
+        "ar": "حل جميع الحالات دون الرجوع للخلف. ثم جولة ثانية فقط للمهام غير المؤكدة مع تعليل كل تغيير.",
+        "en": "Complete all cases without going back. Then do a second pass only on uncertain items and justify every change."
+      }
+    },
+    {
+      "id": "b1_u14_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Abschlussleistung",
+        "ar": "المهمة الختامية",
+        "en": "Final performance"
+      },
+      "body": {
+        "de": "Halte 4 Minuten Präsentation mit Quelle, Gegenargument, Beispiel, Einschränkung und Schluss.",
+        "ar": "Halte 4 Minuten Präsentation mit Quelle, Gegenargument, Beispiel, Einschränkung und Schluss.",
+        "en": "Halte 4 Minuten Präsentation mit Quelle, Gegenargument, Beispiel, Einschränkung und Schluss."
+      }
+    },
+    {
+      "id": "b1_u14_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Integrations-Casebook",
+        "ar": "دفتر تكامل B1",
+        "en": "B1 integration casebook"
+      },
+      "canDo": [
+        "B1_U14_CASEBOOK"
+      ]
+    }
+  ]
+}

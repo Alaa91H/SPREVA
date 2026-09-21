@@ -1,0 +1,154 @@
+{
+  "id": "c1_u07_l01",
+  "unitId": "de-core-c1-u07",
+  "title": {
+    "de": "Kernaussage, Paraphrase, Quellenintegration und Synthese",
+    "ar": "الفكرة المركزية وإعادة الصياغة ودمج المصادر والتركيب",
+    "en": "Main claim, paraphrase, source integration and synthesis"
+  },
+  "canDo": [
+    "C1_U07_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u07_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Kernaussage, Paraphrase, Quellenintegration und Synthese",
+        "ar": "الفكرة المركزية وإعادة الصياغة ودمج المصادر والتركيب",
+        "en": "Main claim, paraphrase, source integration and synthesis"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Kernaussage, Paraphrase, Quellenintegration und Synthese\n\nSystematische Erklärung:\nEine Synthese ist mehr als mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.\n\nReferenzbeispiele:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.\n\nAuthentische Einsatzfelder:\nStudium, Weiterbildung, Bericht oder Recherche: zwei bis drei Quellen lesen, vergleichen und in einer neutralen Synthese mit klarer Quellenkennzeichnung verbinden.\n\nDiagnostischer Hinweis:\nParaphrasieren heißt nicht, einzelne Wörter durch Synonyme zu ersetzen. Struktur und Wortlaut müssen eigenständig sein, die Aussage der Quelle jedoch unverändert bleiben.",
+        "ar": "هدف C1: الفكرة المركزية وإعادة الصياغة ودمج المصادر والتركيب\n\nشرح منهجي عميق:\nالتركيب ليس سلسلة تلخيصات منفصلة. حدد سؤال البحث والأفكار والأدلة والقيود لكل مصدر ثم اجمع نقاط الاتفاق والاختلاف والأسئلة المفتوحة حسب الموضوع. يجب أن تحافظ إعادة الصياغة على المعنى والمصدر، وأن تفصل تقييمك الشخصي.\n\nأمثلة مرجعية:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.\n\nمجالات استخدام واقعية:\nفي الدراسة أو التدريب أو التقرير أو البحث: قراءة مصدرين أو ثلاثة ومقارنتها ودمجها في تركيب محايد مع توثيق واضح.\n\nملاحظة تشخيصية:\nإعادة الصياغة ليست تبديل كلمات بمرادفات فقط؛ يجب أن تكون البنية واللغة مستقلتين مع الحفاظ على معنى المصدر.",
+        "en": "C1 competence goal: Main claim, paraphrase, source integration and synthesis\n\nSystematic explanation:\nA synthesis is more than a sequence of summaries. Identify each source’s question, main claims, evidence and limitations, then group agreements, differences and open questions thematically. Paraphrases must preserve meaning and attribution; your evaluation should be linguistically separate.\n\nReference examples:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.\n\nAuthentic domains:\nStudy, training, reporting or research: read two or three sources, compare them and combine them in a neutral synthesis with clear attribution.\n\nDiagnostic note:\nParaphrasing is not word-by-word synonym substitution. Structure and wording should be independent while preserving the source’s meaning."
+      }
+    },
+    {
+      "id": "c1_u07_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u07_l01_w1",
+          "german": "synthetisieren",
+          "translation": {
+            "de": "synthesize",
+            "ar": "يركّب بين مصادر",
+            "en": "synthesize"
+          }
+        },
+        {
+          "id": "c1_u07_l01_w2",
+          "german": "paraphrasieren",
+          "translation": {
+            "de": "paraphrase",
+            "ar": "يعيد الصياغة",
+            "en": "paraphrase"
+          }
+        },
+        {
+          "id": "c1_u07_l01_w3",
+          "german": "übereinstimmen",
+          "translation": {
+            "de": "agree",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u07_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nEine Synthese ist mehr als mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.\n\nBeispiele:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.",
+        "ar": "المبدأ الأساسي:\nالتركيب ليس سلسلة تلخيصات منفصلة. حدد سؤال البحث والأفكار والأدلة والقيود لكل مصدر ثم اجمع نقاط الاتفاق والاختلاف والأسئلة المفتوحة حسب الموضوع. يجب أن تحافظ إعادة الصياغة على المعنى والمصدر، وأن تفصل تقييمك الشخصي.\n\nالأمثلة:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.",
+        "en": "Core principle:\nA synthesis is more than a sequence of summaries. Identify each source’s question, main claims, evidence and limitations, then group agreements, differences and open questions thematically. Paraphrases must preserve meaning and attribution; your evaluation should be linguistically separate.\n\nExamples:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt."
+      }
+    },
+    {
+      "id": "c1_u07_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "synthetisieren",
+        "ar": "synthetisieren",
+        "en": "synthetisieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "synthesize",
+            "ar": "يركّب بين مصادر",
+            "en": "synthesize"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "paraphrase",
+            "ar": "يعيد الصياغة",
+            "en": "paraphrase"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "agree",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u07_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beide Quellen stimmen darin {answer}, dass die Kosten steigen.",
+        "ar": "Beide Quellen stimmen darin {answer}, dass die Kosten steigen.",
+        "en": "Beide Quellen stimmen darin {answer}, dass die Kosten steigen."
+      },
+      "acceptedAnswers": [
+        "überein"
+      ]
+    },
+    {
+      "id": "c1_u07_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Akademisch zusammenfassen & synthetisieren“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «التلخيص والتركيب الأكاديمي». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Academic summarizing & synthesis”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u07_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U07_FOUNDATION"
+      ]
+    }
+  ]
+}

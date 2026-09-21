@@ -1,0 +1,361 @@
+{
+  "id": "c1_u17_l03",
+  "unitId": "de-core-c1-u17",
+  "title": {
+    "de": "Prüfungs-Mastery: gemischte Aufgaben",
+    "ar": "إتقان الامتحان: مهام مختلطة",
+    "en": "Exam mastery: mixed tasks"
+  },
+  "canDo": [
+    "C1_EXAM_MIXED_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u17_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mixed Mastery — ohne Themenhinweis",
+        "ar": "إتقان مختلط — دون تلميح بالموضوع",
+        "en": "Mixed mastery — no topic cue"
+      },
+      "body": {
+        "de": "Lösen Sie die Aufgaben gemischt. Entscheiden Sie selbst, welche Grammatik-, Hör- oder Kommunikationsstrategie gebraucht wird.",
+        "ar": "حل المهام مختلطة وحدد بنفسك قاعدة النحو أو استراتيجية الاستماع أو التواصل المطلوبة.",
+        "en": "Solve the mixed tasks and decide which grammar, listening or communication strategy is needed."
+      }
+    },
+    {
+      "id": "c1_u17_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "ar": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "en": "Was die Finanzierung {answer}, bestehen offene Fragen."
+      },
+      "acceptedAnswers": [
+        "betrifft"
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Ansatz ist {answer} überzeugend, als er mehrere Ziele verbindet.",
+        "ar": "Der Ansatz ist {answer} überzeugend, als er mehrere Ziele verbindet.",
+        "en": "Der Ansatz ist {answer} überzeugend, als er mehrere Ziele verbindet."
+      },
+      "acceptedAnswers": [
+        "insofern"
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Änderung {answer} erhebliche Folgen haben.",
+        "ar": "Die Änderung {answer} erhebliche Folgen haben.",
+        "en": "Die Änderung {answer} erhebliche Folgen haben."
+      },
+      "acceptedAnswers": [
+        "dürfte"
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dem Bericht zufolge {answer} die Ursache unklar.",
+        "ar": "Dem Bericht zufolge {answer} die Ursache unklar.",
+        "en": "Dem Bericht zufolge {answer} die Ursache unklar."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beide Quellen stimmen darin {answer}, dass …",
+        "ar": "Beide Quellen stimmen darin {answer}, dass …",
+        "en": "Beide Quellen stimmen darin {answer}, dass …"
+      },
+      "acceptedAnswers": [
+        "überein"
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Quelle B {answer} in einem Punkt ab.",
+        "ar": "Quelle B {answer} in einem Punkt ab.",
+        "en": "Quelle B {answer} in einem Punkt ab."
+      },
+      "acceptedAnswers": [
+        "weicht"
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?",
+        "ar": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?",
+        "en": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann.",
+            "ar": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann.",
+            "en": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Der Effekt gilt sicher für jede Person.",
+            "ar": "Der Effekt gilt sicher für jede Person.",
+            "en": "Der Effekt gilt sicher für jede Person."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Die Studien widersprechen sich vollständig.",
+            "ar": "Die Studien widersprechen sich vollständig.",
+            "en": "Die Studien widersprechen sich vollständig."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?",
+        "ar": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?",
+        "en": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden",
+            "ar": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden",
+            "en": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ob das Papier Wörter enthält",
+            "ar": "ob das Papier Wörter enthält",
+            "en": "ob das Papier Wörter enthält"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ob Computer Strom benötigen",
+            "ar": "ob Computer Strom benötigen",
+            "en": "ob Computer Strom benötigen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Befunde dürften auf einen Effekt hindeuten; angesichts der heterogenen Stichproben wäre eine weitreichende Verallgemeinerung jedoch verfrüht.",
+        "ar": "Die Befunde dürften auf einen Effekt hindeuten; angesichts der heterogenen Stichproben wäre eine weitreichende Verallgemeinerung jedoch verfrüht.",
+        "en": "Die Befunde dürften auf einen Effekt hindeuten; angesichts der heterogenen Stichproben wäre eine weitreichende Verallgemeinerung jedoch verfrüht."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorsichtige Schlussfolgerung mit Einschränkung",
+            "ar": "vorsichtige Schlussfolgerung mit Einschränkung",
+            "en": "vorsichtige Schlussfolgerung mit Einschränkung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sichere Allgemeingültigkeit",
+            "ar": "sichere Allgemeingültigkeit",
+            "en": "sichere Allgemeingültigkeit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Befunde",
+            "ar": "keine Befunde",
+            "en": "keine Befunde"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Bericht führt aus, die Maßnahme habe Kosten reduziert; unabhängige Daten zur langfristigen Wirkung lägen allerdings noch nicht vor.",
+        "ar": "Der Bericht führt aus, die Maßnahme habe Kosten reduziert; unabhängige Daten zur langfristigen Wirkung lägen allerdings noch nicht vor.",
+        "en": "Der Bericht führt aus, die Maßnahme habe Kosten reduziert; unabhängige Daten zur langfristigen Wirkung lägen allerdings noch nicht vor."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Quelle berichtet Nutzen, Langzeitdaten fehlen",
+            "ar": "Quelle berichtet Nutzen, Langzeitdaten fehlen",
+            "en": "Quelle berichtet Nutzen, Langzeitdaten fehlen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Langzeitwirkung bewiesen",
+            "ar": "Langzeitwirkung bewiesen",
+            "en": "Langzeitwirkung bewiesen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Kostenaussage",
+            "ar": "keine Kostenaussage",
+            "en": "keine Kostenaussage"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Die Befunde dürften auf einen Zusammenhang hindeuten, rechtfertigen jedoch keine uneingeschränkte Verallgemeinerung.",
+        "ar": "Die Befunde dürften auf einen Zusammenhang hindeuten, rechtfertigen jedoch keine uneingeschränkte Verallgemeinerung.",
+        "en": "Die Befunde dürften auf einen Zusammenhang hindeuten, rechtfertigen jedoch keine uneingeschränkte Verallgemeinerung."
+      },
+      "acceptedAnswers": [
+        "Die Befunde dürften auf einen Zusammenhang hindeuten, rechtfertigen jedoch keine uneingeschränkte Verallgemeinerung."
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act13",
+      "type": "free_write",
+      "prompt": {
+        "de": "Redigieren Sie argumentativ eine Position zu KI, Forschung oder Gesellschaft: faire Gegenposition, Kriterien, empirische und normative Ebene, bedingte Schlussfolgerung.",
+        "ar": "حرر موقفًا حجاجيًا حول الذكاء الاصطناعي أو البحث أو المجتمع: موقف مضاد عادل، معايير، مستوى تجريبي ومعياري وخلاصة مشروطة.",
+        "en": "Edit an argumentative position on AI, research or society: fair counterposition, criteria, empirical and normative level, conditional conclusion."
+      },
+      "minWords": 220,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Kritisieren Sie eine fiktive Studie mündlich: Forschungsfrage, Operationalisierung, Stichprobe, Kausalität, Limitation und Übertragbarkeit.",
+        "ar": "انتقد دراسة افتراضية شفهيًا: سؤال البحث، التشغيل الإجرائي، العينة، السببية، القيد وقابلية التعميم.",
+        "en": "Critique a hypothetical study orally: research question, operationalization, sample, causality, limitation and generalizability."
+      },
+      "minSeconds": 120,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "c1_u17_l03_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerjournal",
+        "ar": "سجل الأخطاء",
+        "en": "Error journal"
+      },
+      "body": {
+        "de": "Notieren Sie nur Fehler, die wiederkehren: Form, Ursache, Korrekturregel und ein neues eigenes Beispiel. Wiederholen Sie diese Aufgaben später erneut.",
+        "ar": "دوّن فقط الأخطاء المتكررة: الصيغة والسبب وقاعدة التصحيح ومثال جديد. أعد هذه المهام لاحقًا.",
+        "en": "Record only recurring errors: form, cause, repair rule and a new example. Repeat these tasks later."
+      }
+    },
+    {
+      "id": "c1_u17_l03_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mixed Mastery abgeschlossen",
+        "ar": "اكتمل الإتقان المختلط",
+        "en": "Mixed mastery complete"
+      },
+      "canDo": [
+        "C1_EXAM_MIXED_MASTERY"
+      ]
+    }
+  ]
+}

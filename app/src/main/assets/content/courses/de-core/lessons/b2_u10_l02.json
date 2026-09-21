@@ -1,0 +1,154 @@
+{
+  "id": "b2_u10_l02",
+  "unitId": "de-core-b2-u10",
+  "title": {
+    "de": "Informationen kritisch zusammenfassen",
+    "ar": "تلخيص المعلومات نقديًا",
+    "en": "Critically summarizing information"
+  },
+  "canDo": [
+    "B2_U10_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u10_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Informationen kritisch zusammenfassen",
+        "ar": "تلخيص المعلومات نقديًا",
+        "en": "Critically summarizing information"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nNachrichten, soziale Medien, Werbung oder Fachartikel: Urheber, Datum, Belege, Interessen und Gegendarstellungen prüfen und neutral zusammenfassen.\n\nModelldialog:\nA: Kann man diese Meldung teilen?\nB: Ich würde zuerst die Originalquelle prüfen.\nA: Warum?\nB: Der Beitrag nennt weder Autor noch Datum und belegt die zentrale Behauptung nicht.\n\nSprachliche Strategie:\nB2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nالأخبار ووسائل التواصل والإعلانات أو المقالات المتخصصة: فحص المصدر والتاريخ والأدلة والمصالح والردود ثم التلخيص بحياد.\n\nحوار نموذجي:\nA: Kann man diese Meldung teilen?\nB: Ich würde zuerst die Originalquelle prüfen.\nA: Warum?\nB: Der Beitrag nennt weder Autor noch Datum und belegt die zentrale Behauptung nicht.\n\nالاستراتيجية اللغوية:\nلغة B2 تفرق بين المصدر والادعاء والتقييم: Laut Bericht…؛ Der Autor behauptet…؛ Die Daten legen nahe…؛ وتستخدم درجات اليقين مثل vermutlich وmöglicherweise.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nNews, social media, advertising or specialist articles: check author, date, evidence, interests and counterstatements, then summarize neutrally.\n\nModel dialogue:\nA: Kann man diese Meldung teilen?\nB: Ich würde zuerst die Originalquelle prüfen.\nA: Warum?\nB: Der Beitrag nennt weder Autor noch Datum und belegt die zentrale Behauptung nicht.\n\nLanguage strategy:\nB2 language distinguishes source, claim and evaluation: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …. Uncertainty can be graded with offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u10_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u10_l02_w1",
+          "german": "nachvollziehbar",
+          "translation": {
+            "de": "traceable",
+            "ar": "قابل للتتبع/الفهم",
+            "en": "traceable"
+          }
+        },
+        {
+          "id": "b2_u10_l02_w2",
+          "german": "widerlegen",
+          "translation": {
+            "de": "disprove",
+            "ar": "يدحض",
+            "en": "disprove"
+          }
+        },
+        {
+          "id": "b2_u10_l02_w3",
+          "german": "nahelegen",
+          "translation": {
+            "de": "suggest",
+            "ar": "يرجح/يشير",
+            "en": "suggest"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u10_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nB2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt.",
+        "ar": "المبدأ الأساسي:\nلغة B2 تفرق بين المصدر والادعاء والتقييم: Laut Bericht…؛ Der Autor behauptet…؛ Die Daten legen nahe…؛ وتستخدم درجات اليقين مثل vermutlich وmöglicherweise.\n\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt.",
+        "en": "Core principle:\nB2 language distinguishes source, claim and evaluation: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …. Uncertainty can be graded with offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt."
+      }
+    },
+    {
+      "id": "b2_u10_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "nachvollziehbar",
+        "ar": "nachvollziehbar",
+        "en": "nachvollziehbar"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "traceable",
+            "ar": "قابل للتتبع/الفهم",
+            "en": "traceable"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "disprove",
+            "ar": "يدحض",
+            "en": "disprove"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "suggest",
+            "ar": "يرجح/يشير",
+            "en": "suggest"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u10_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Behauptung wird nicht durch Daten {answer}.",
+        "ar": "Die Behauptung wird nicht durch Daten {answer}.",
+        "en": "Die Behauptung wird nicht durch Daten {answer}."
+      },
+      "acceptedAnswers": [
+        "belegt"
+      ]
+    },
+    {
+      "id": "b2_u10_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Medienkompetenz & Quellenkritik“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الكفاءة الإعلامية ونقد المصادر». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Media literacy & source evaluation”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u10_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U10_REAL_LIFE"
+      ]
+    }
+  ]
+}

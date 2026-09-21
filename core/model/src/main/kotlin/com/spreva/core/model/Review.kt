@@ -20,7 +20,7 @@ data class ReviewCard(
     val reviewCount: Int = 0,
     val lapseCount: Int = 0,
     /** Version of the scheduler that produced the current state. */
-    val schedulerVersion: String = SCHEDULER_VERSION_DEMO,
+    val schedulerVersion: String = SCHEDULER_VERSION_FSRS6,
     /** Opaque serialized scheduler state for recompute/migration. */
     val schedulerState: String? = null,
     /**
@@ -32,6 +32,7 @@ data class ReviewCard(
 ) {
     companion object {
         const val SCHEDULER_VERSION_DEMO = "demo-v1"
+        const val SCHEDULER_VERSION_FSRS6 = "fsrs-6-default-v1"
     }
 }
 
@@ -49,8 +50,23 @@ data class SchedulingResult(
     val nextDueAt: Instant,
 )
 
-/** Serializable state persistence for the demo scheduler internals. */
+/** Serializable state persistence for the legacy demo scheduler internals. */
 @Serializable
 data class DemoSchedulerState(
     val intervalIndex: Int = 0,
+)
+
+/**
+ * FSRS-6 memory state persisted inside [ReviewCard.schedulerState].
+ *
+ * Stability is measured in days and represents the interval at which the
+ * model predicts 90% retrievability. Difficulty is clamped to 1..10.
+ * Keeping this opaque JSON in the existing card column lets scheduler
+ * upgrades happen without changing the general Room schema.
+ */
+@Serializable
+data class FsrsSchedulerState(
+    val stabilityDays: Double,
+    val difficulty: Double,
+    val lastReviewAtEpochMs: Long,
 )

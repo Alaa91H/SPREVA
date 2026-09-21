@@ -1,0 +1,296 @@
+{
+  "id": "b2_u04_l03",
+  "unitId": "de-core-b2-u04",
+  "title": {
+    "de": "Intensivtraining: Partizipialattribute & Informationsdichte",
+    "ar": "تدريب مكثف: صفات اسم الفاعل/المفعول وكثافة المعلومات",
+    "en": "Mastery lab: Participial attributes & information density"
+  },
+  "canDo": [
+    "B2_U04_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u04_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Partizipialattribute & Informationsdichte“. Nach jeder Lösung: semantische Funktion erklären, mindestens zwei stilistische Alternativen bilden und sagen, welche Variante in Alltag, Beruf oder Fachtext am passendsten ist.",
+        "ar": "عمّق «صفات اسم الفاعل/المفعول وكثافة المعلومات». بعد كل حل: اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين على الأقل، وحدد الأنسب في الحديث اليومي أو العمل أو النص المتخصص.",
+        "en": "Deepen “Participial attributes & information density”. After each solution explain the semantic function, create at least two stylistic alternatives and decide which best fits everyday, professional or specialist contexts."
+      }
+    },
+    {
+      "id": "b2_u04_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u04_l03_w1",
+          "german": "steigend",
+          "translation": {
+            "de": "rising",
+            "ar": "متزايد",
+            "en": "rising"
+          }
+        },
+        {
+          "id": "b2_u04_l03_w2",
+          "german": "eingereicht",
+          "translation": {
+            "de": "submitted",
+            "ar": "مقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "b2_u04_l03_w3",
+          "german": "ausgefüllt",
+          "translation": {
+            "de": "completed/filled out",
+            "ar": "معبأ",
+            "en": "completed/filled out"
+          }
+        },
+        {
+          "id": "b2_u04_l03_w4",
+          "german": "eingehend",
+          "translation": {
+            "de": "incoming",
+            "ar": "وارد",
+            "en": "incoming"
+          }
+        },
+        {
+          "id": "b2_u04_l03_w5",
+          "german": "betreffend",
+          "translation": {
+            "de": "concerning",
+            "ar": "متعلق بـ",
+            "en": "concerning"
+          }
+        },
+        {
+          "id": "b2_u04_l03_w6",
+          "german": "selbstständig",
+          "translation": {
+            "de": "independently",
+            "ar": "بشكل مستقل",
+            "en": "independently"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u04_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die gestern {answer} Unterlagen werden geprüft.",
+        "ar": "Die gestern {answer} Unterlagen werden geprüft.",
+        "en": "Die gestern {answer} Unterlagen werden geprüft."
+      },
+      "acceptedAnswers": [
+        "eingereichten"
+      ]
+    },
+    {
+      "id": "b2_u04_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} Kosten sind ein Problem.",
+        "ar": "Die {answer} Kosten sind ein Problem.",
+        "en": "Die {answer} Kosten sind ein Problem."
+      },
+      "acceptedAnswers": [
+        "steigenden"
+      ]
+    },
+    {
+      "id": "b2_u04_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Partizipien können wie Adjektive vor Nomen stehen: die steigenden Kosten (Kosten, die steigen), die gestern eingereichten Unterlagen (Unterlagen, die gestern eingereicht wurden). Die Endung folgt {answer} Adjektivdeklination. Beim Lesen hilft es, die Struktur zunächst in einen Relativsatz zurückzuverwandeln.",
+        "ar": "Partizipien können wie Adjektive vor Nomen stehen: die steigenden Kosten (Kosten, die steigen), die gestern eingereichten Unterlagen (Unterlagen, die gestern eingereicht wurden). Die Endung folgt {answer} Adjektivdeklination. Beim Lesen hilft es, die Struktur zunächst in einen Relativsatz zurückzuverwandeln.",
+        "en": "Partizipien können wie Adjektive vor Nomen stehen: die steigenden Kosten (Kosten, die steigen), die gestern eingereichten Unterlagen (Unterlagen, die gestern eingereicht wurden). Die Endung folgt {answer} Adjektivdeklination. Beim Lesen hilft es, die Struktur zunächst in einen Relativsatz zurückzuverwandeln."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u04_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} steigenden Energiepreise belasten viele Haushalte.",
+        "ar": "{answer} steigenden Energiepreise belasten viele Haushalte.",
+        "en": "{answer} steigenden Energiepreise belasten viele Haushalte."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u04_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} gestern eingereichten Unterlagen werden geprüft.",
+        "ar": "{answer} gestern eingereichten Unterlagen werden geprüft.",
+        "en": "{answer} gestern eingereichten Unterlagen werden geprüft."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u04_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} suchen eine selbstständig arbeitende Fachkraft.",
+        "ar": "{answer} suchen eine selbstständig arbeitende Fachkraft.",
+        "en": "{answer} suchen eine selbstständig arbeitende Fachkraft."
+      },
+      "acceptedAnswers": [
+        "Wir"
+      ]
+    },
+    {
+      "id": "b2_u04_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "steigend",
+        "ar": "steigend",
+        "en": "steigend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "rising",
+            "ar": "متزايد",
+            "en": "rising"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "submitted",
+            "ar": "مقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "completed/filled out",
+            "ar": "معبأ",
+            "en": "completed/filled out"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u04_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "eingehend",
+        "ar": "eingehend",
+        "en": "eingehend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "incoming",
+            "ar": "وارد",
+            "en": "incoming"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "concerning",
+            "ar": "متعلق بـ",
+            "en": "concerning"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "independently",
+            "ar": "بشكل مستقل",
+            "en": "independently"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u04_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Partizipien können wie Adjektive vor Nomen stehen: die steigenden Kosten (Kosten, die steigen), die gestern eingereichten Unterlagen (Unterlagen, die gestern eingereicht wurden). Die Endung folgt der Adjektivdeklination. Beim Lesen hilft es, die Struktur zunächst in einen Relativsatz zurückzuverwandeln.\n2. Die steigenden Energiepreise belasten viele Haushalte.\n3. Die gestern eingereichten Unterlagen werden geprüft.\n4. Wir suchen eine selbstständig arbeitende Fachkraft.\n\nFormuliere je eine nahe Alternative und erkläre, was sich ändert: Logik, Modalität, Fokus, Register oder Informationsdichte. Markiere Varianten, die grammatisch möglich, aber im Kontext unidiomatisch sind.",
+        "ar": "نماذج البداية:\n1. Partizipien können wie Adjektive vor Nomen stehen: die steigenden Kosten (Kosten, die steigen), die gestern eingereichten Unterlagen (Unterlagen, die gestern eingereicht wurden). Die Endung folgt der Adjektivdeklination. Beim Lesen hilft es, die Struktur zunächst in einen Relativsatz zurückzuverwandeln.\n2. Die steigenden Energiepreise belasten viele Haushalte.\n3. Die gestern eingereichten Unterlagen werden geprüft.\n4. Wir suchen eine selbstständig arbeitende Fachkraft.\n\nأنشئ بديلًا قريبًا لكل نموذج واشرح ما يتغير: المنطق أو درجة اليقين أو البؤرة أو السجل أو كثافة المعلومات. حدّد الصيغ الممكنة نحويًا لكنها غير طبيعية في السياق.",
+        "en": "Base patterns:\n1. Partizipien können wie Adjektive vor Nomen stehen: die steigenden Kosten (Kosten, die steigen), die gestern eingereichten Unterlagen (Unterlagen, die gestern eingereicht wurden). Die Endung folgt der Adjektivdeklination. Beim Lesen hilft es, die Struktur zunächst in einen Relativsatz zurückzuverwandeln.\n2. Die steigenden Energiepreise belasten viele Haushalte.\n3. Die gestern eingereichten Unterlagen werden geprüft.\n4. Wir suchen eine selbstständig arbeitende Fachkraft.\n\nCreate a close alternative for each and explain what changes: logic, modality, focus, register or information density. Mark forms that are grammatical but unidiomatic in context."
+      }
+    },
+    {
+      "id": "b2_u04_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Zu jeder Kernaussage fünf Fassungen: verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ formeller Fachstil. Danach Bedeutungsnuancen und Kollokationen vergleichen.",
+        "ar": "لكل فكرة خمس صيغ: فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ رسمي متخصص. ثم قارن الفروق الدلالية والمتلازمات.",
+        "en": "Create five versions of each key statement: verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ cautiously hedged; everyday ↔ formal specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u04_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "Schreibe 140–180 Wörter oder sprich drei Minuten. Trenne Beobachtung, Interpretation und Bewertung; integriere drei Zielstrukturen, ein Gegenargument, eine Einschränkung und eine begründete Schlussfolgerung. Überarbeite danach Register, Kohäsion und Präzision.",
+        "ar": "اكتب 140–180 كلمة أو تحدث ثلاث دقائق. افصل بين الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا وخلاصة معللة. ثم راجع السجل والترابط والدقة.",
+        "en": "Write 140–180 words or speak for three minutes. Separate observation, interpretation and evaluation; include three target structures, a counterargument, a limitation and a reasoned conclusion. Revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u04_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U04_MASTERY"
+      ]
+    }
+  ]
+}

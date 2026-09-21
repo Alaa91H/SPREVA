@@ -21,4 +21,24 @@
     <string name="spreva_lesson_shadowing_hint">استمع، ثم ردّد بصوت عالٍ، ثم قارن بأذنيك. يبقى تسجيلك على الجهاز ويُحذف عند مغادرة الدرس.</string>
     <string name="spreva_lesson_similarity">تشابه شكل الموجة: %1$d%%</string>
     <string name="spreva_lesson_recording_error">تعذّر بدء التسجيل. قد يكون المايكروفون مستخدمًا — حاول مجددًا.</string>
+    <string name="spreva_lesson_shadowing_speed">سرعة النموذج</string>
+    <string name="spreva_lesson_dictation_hint">استمع بدقة واكتب ما تسمعه كما هو.</string>
+    <string name="spreva_lesson_word_count">%1$d / %2$d كلمة</string>
+    <string name="spreva_lesson_write_response">اكتب إجابتك</string>
+    <string name="spreva_lesson_self_review">قائمة المراجعة الذاتية</string>
+    <string name="spreva_lesson_speaking_target">الهدف: %1$d ثانية على الأقل</string>
+    <string name="spreva_lesson_recording_duration">مدة التسجيل: %1$d ثانية</string>
+    <string name="spreva_lesson_objective_score">المهام الموضوعية: %1$d / %2$d صحيحة (%3$d%%)</string>
+    <string name="spreva_lesson_productive_completion">مهام الإنتاج المكتملة: %1$d / %2$d</string>
+    <string name="spreva_lesson_productive_disclaimer">تُحسب الكتابة والكلام كإتمام للمهمة فقط. عدد الكلمات أو مدة التسجيل ليسا درجة لجودة اللغة.</string>
+    <string name="spreva_lesson_self_review_rubric">مراجعة ذاتية بمعايير واضحة</string>
+    <string name="spreva_lesson_self_review_disclaimer">قيّم أداءك وفق أوصاف المستوى. هذه بيانات للتأمل والمراجعة وليست شهادة CEFR أو درجة آلية لجودة اللغة.</string>
+    <string name="spreva_lesson_save_self_review">حفظ المراجعة الذاتية</string>
+    <string name="spreva_lesson_saving_self_review">جارٍ حفظ المراجعة…</string>
+    <string name="spreva_lesson_self_review_score">نتيجة المراجعة الذاتية: %1$d%%</string>
+    <string name="spreva_lesson_self_review_save_error">تعذر حفظ المراجعة الذاتية. حاول مجددًا.</string>
+    <string name="spreva_rubric_needs_revision">يحتاج إلى مراجعة</string>
+    <string name="spreva_rubric_emerging">في طور التطور</string>
+    <string name="spreva_rubric_mostly_effective">فعّال في الغالب</string>
+    <string name="spreva_rubric_consistent">متقن باستمرار</string>
 </resources>

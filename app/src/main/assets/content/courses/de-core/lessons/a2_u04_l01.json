@@ -1,0 +1,154 @@
+{
+  "id": "a2_u04_l01",
+  "unitId": "de-core-a2-u04",
+  "title": {
+    "de": "wenn für Wiederholung/Bedingung, als für einmalige Vergangenheit",
+    "ar": "wenn للتكرار/الشرط وals للماضي مرة واحدة",
+    "en": "wenn for repeated/conditional situations, als for one-time past events"
+  },
+  "canDo": [
+    "A2_U04_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u04_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "wenn für Wiederholung/Bedingung, als für einmalige Vergangenheit",
+        "ar": "wenn للتكرار/الشرط وals للماضي مرة واحدة",
+        "en": "wenn for repeated/conditional situations, als for one-time past events"
+      },
+      "body": {
+        "de": "Lernziel: wenn für Wiederholung/Bedingung, als für einmalige Vergangenheit\n\nKernregel:\n„wenn“ benutzt man für Bedingungen und wiederholte Situationen: Wenn ich Zeit habe, komme ich. „als“ beschreibt einen einmaligen Zeitpunkt in der Vergangenheit: Als ich nach Deutschland kam, war alles neu. In beiden Nebensätzen steht das Verb am Ende.\n\nBeispiele:\n• Wenn ich früher fertig bin, rufe ich dich an.\n• Wenn es regnet, fahre ich mit dem Bus.\n• Als ich 18 war, zog ich in eine andere Stadt.\n\nAnwendungsfeld:\nTermine, Arbeit, Familie und Biografie: sagen, was unter einer Bedingung passiert oder was zu einem bestimmten früheren Zeitpunkt geschah.\n\nTypische Fehlerquelle:\nFür einen einmaligen vergangenen Zeitpunkt nicht „wenn“ verwenden. Merksatz: einmal Vergangenheit = als; Bedingung oder Wiederholung = wenn.",
+        "ar": "هدف الدرس: wenn للتكرار/الشرط وals للماضي مرة واحدة\n\nالقاعدة:\nنستخدم wenn للشرط أو الأحداث المتكررة، وals لحدث واحد في الماضي. في كلتا الحالتين يأتي الفعل في نهاية الجملة التابعة.\n\nأمثلة:\n• Wenn ich früher fertig bin, rufe ich dich an.\n• Wenn es regnet, fahre ich mit dem Bus.\n• Als ich 18 war, zog ich in eine andere Stadt.\n\nالاستخدام:\nالمواعيد والعمل والعائلة والسيرة: قول ما يحدث بشرط معين أو ما حدث في وقت سابق محدد.\n\nخطأ شائع:\nلحدث واحد في الماضي لا تستخدم wenn. قاعدة مختصرة: مرة واحدة في الماضي = als؛ شرط أو تكرار = wenn.",
+        "en": "Goal: wenn for repeated/conditional situations, als for one-time past events\n\nCore rule:\nUse wenn for conditions and repeated situations; use als for a one-time event in the past. In both subordinate clauses the conjugated verb goes to the end.\n\nExamples:\n• Wenn ich früher fertig bin, rufe ich dich an.\n• Wenn es regnet, fahre ich mit dem Bus.\n• Als ich 18 war, zog ich in eine andere Stadt.\n\nUse case:\nAppointments, work, family and biography: say what happens under a condition or what happened at a specific past time.\n\nCommon pitfall:\nFor a single past event, do not use wenn. Rule of thumb: one-time past = als; condition/repetition = wenn."
+      }
+    },
+    {
+      "id": "a2_u04_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u04_l01_w1",
+          "german": "wenn",
+          "translation": {
+            "de": "if/when",
+            "ar": "إذا / عندما المتكرر",
+            "en": "if/when"
+          }
+        },
+        {
+          "id": "a2_u04_l01_w2",
+          "german": "als",
+          "translation": {
+            "de": "when (past, once)",
+            "ar": "عندما في الماضي مرة واحدة",
+            "en": "when (past, once)"
+          }
+        },
+        {
+          "id": "a2_u04_l01_w3",
+          "german": "die Bedingung",
+          "translation": {
+            "de": "condition",
+            "ar": "الشرط",
+            "en": "condition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u04_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\n„wenn“ benutzt man für Bedingungen und wiederholte Situationen: Wenn ich Zeit habe, komme ich. „als“ beschreibt einen einmaligen Zeitpunkt in der Vergangenheit: Als ich nach Deutschland kam, war alles neu. In beiden Nebensätzen steht das Verb am Ende.\n\n• Wenn ich früher fertig bin, rufe ich dich an.\n• Wenn es regnet, fahre ich mit dem Bus.\n• Als ich 18 war, zog ich in eine andere Stadt.",
+        "ar": "قاعدة مختصرة:\nنستخدم wenn للشرط أو الأحداث المتكررة، وals لحدث واحد في الماضي. في كلتا الحالتين يأتي الفعل في نهاية الجملة التابعة.\n\n• Wenn ich früher fertig bin, rufe ich dich an.\n• Wenn es regnet, fahre ich mit dem Bus.\n• Als ich 18 war, zog ich in eine andere Stadt.",
+        "en": "Key rule:\nUse wenn for conditions and repeated situations; use als for a one-time event in the past. In both subordinate clauses the conjugated verb goes to the end.\n\n• Wenn ich früher fertig bin, rufe ich dich an.\n• Wenn es regnet, fahre ich mit dem Bus.\n• Als ich 18 war, zog ich in eine andere Stadt."
+      }
+    },
+    {
+      "id": "a2_u04_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "wenn",
+        "ar": "wenn",
+        "en": "wenn"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "if/when",
+            "ar": "إذا / عندما المتكرر",
+            "en": "if/when"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "when (past, once)",
+            "ar": "عندما في الماضي مرة واحدة",
+            "en": "when (past, once)"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "condition",
+            "ar": "الشرط",
+            "en": "condition"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u04_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich Zeit {answer}, komme ich.",
+        "ar": "Wenn ich Zeit {answer}, komme ich.",
+        "en": "Wenn ich Zeit {answer}, komme ich."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a2_u04_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Bedingungen & Zeit mit wenn/als“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «الشروط والزمن مع wenn/als». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Conditions & time with wenn/als”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u04_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U04_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -17,8 +17,14 @@ import com.spreva.core.datastore.SettingsDataSource
 import com.spreva.core.model.ActivityAttempt
 import com.spreva.core.model.Lesson
 import com.spreva.core.model.LessonId
+import com.spreva.core.model.ProductionSelfAssessment
+import com.spreva.core.model.RubricRating
 import com.spreva.domain.curriculum.GetLesson
+import com.spreva.domain.learning.CompleteLesson
 import com.spreva.domain.learning.LearningRepository
+import com.spreva.domain.learning.ProductionRubricFactory
+import com.spreva.domain.learning.ProductionRubricScorer
+import com.spreva.domain.learning.RecordProductionSelfAssessment
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -44,6 +50,10 @@ class LessonViewModel @Inject constructor(
     @ApplicationContext private val appContext: Context,
     private val getLesson: GetLesson,
     private val learningRepository: LearningRepository,
+    private val completeLesson: CompleteLesson,
+    private val rubricFactory: ProductionRubricFactory,
+    private val rubricScorer: ProductionRubricScorer,
+    private val recordProductionSelfAssessment: RecordProductionSelfAssessment,
     private val clock: AppClock,
     private val ttsProvider: TtsProvider,
     private val courseAudioPlayer: CourseAudioPlayer,
@@ -100,8 +110,22 @@ class LessonViewModel @Inject constructor(
                 ttsProvider.speakGerman(article = null, text = activity.question.de)
 
             is com.spreva.core.model.LearningActivity.ListeningChoice ->
-                // The task IS the audio — the header speaker button replays it.
-                courseAudioPlayer.play(activity.audio)
+                courseAudioPlayer.playOrSpeak(
+                    contentPath = activity.audio,
+                    fallbackText = activity.text?.de.orEmpty(),
+                )
+
+            is com.spreva.core.model.LearningActivity.Dictation ->
+                courseAudioPlayer.playOrSpeak(
+                    contentPath = activity.audio,
+                    fallbackText = activity.text.de,
+                )
+
+            is com.spreva.core.model.LearningActivity.FreeWrite ->
+                ttsProvider.speakGerman(article = null, text = activity.prompt.de)
+
+            is com.spreva.core.model.LearningActivity.SpeakingPrompt ->
+                ttsProvider.speakGerman(article = null, text = activity.prompt.de)
 
             is com.spreva.core.model.LearningActivity.Cloze ->
                 ttsProvider.speakGerman(
@@ -133,7 +157,23 @@ class LessonViewModel @Inject constructor(
         val lesson = state.lesson ?: return
         val activity = lesson.activities.getOrNull(state.currentIndex)
         if (activity is com.spreva.core.model.LearningActivity.ListeningChoice) {
-            courseAudioPlayer.play(activity.audio)
+            courseAudioPlayer.playOrSpeak(
+                contentPath = activity.audio,
+                fallbackText = activity.text?.de.orEmpty(),
+            )
+        }
+    }
+
+    /** Replays a dictation source without revealing its target text. */
+    fun playDictationAudio() {
+        val state = _uiState.value
+        val lesson = state.lesson ?: return
+        val activity = lesson.activities.getOrNull(state.currentIndex)
+        if (activity is com.spreva.core.model.LearningActivity.Dictation) {
+            courseAudioPlayer.playOrSpeak(
+                contentPath = activity.audio,
+                fallbackText = activity.text.de,
+            )
         }
     }
 
@@ -157,7 +197,9 @@ class LessonViewModel @Inject constructor(
         _uiState.value = _uiState.value.copy(
             isRecording = false,
             hasRecording = recording != null,
+            recordingDurationMs = recording?.durationMs,
         )
+        lastRecording?.takeIf { it != recording?.file }?.delete()
         lastRecording = recording?.file
         computeSimilarity()
     }
@@ -174,7 +216,8 @@ class LessonViewModel @Inject constructor(
         val state = _uiState.value
         val modelFile = state.lesson?.activities?.getOrNull(state.currentIndex)
             ?.let { it as? com.spreva.core.model.LearningActivity.SpeakingRepeat }
-            ?.let { audioFileResolver.resolveFile(it.audio) }
+            ?.audio
+            ?.let { audioFileResolver.resolveFile(it) }
         val own = lastRecording ?: return
         _uiState.value = _uiState.value.copy(
             similarityScore = if (modelFile?.isFile == true) {
@@ -197,12 +240,16 @@ class LessonViewModel @Inject constructor(
     }
 
     /** Plays the model recording for the current speaking activity. */
-    fun playModelAudio() {
+    fun playModelAudio(speed: Float = 1f) {
         val state = _uiState.value
         val lesson = state.lesson ?: return
         val activity = lesson.activities.getOrNull(state.currentIndex)
         if (activity is com.spreva.core.model.LearningActivity.SpeakingRepeat) {
-            courseAudioPlayer.play(activity.audio)
+            courseAudioPlayer.playOrSpeak(
+                contentPath = activity.audio,
+                fallbackText = activity.text.de,
+                speed = speed,
+            )
         }
     }
 
@@ -271,6 +318,31 @@ class LessonViewModel @Inject constructor(
                 )
             }
 
+            is com.spreva.core.model.LearningActivity.Dictation -> {
+                val normalized = normalize(state.typedAnswer)
+                AnswerState(
+                    correct = activity.acceptedAnswers.any { normalize(it) == normalized },
+                    solution = activity.acceptedAnswers.firstOrNull(),
+                )
+            }
+
+            is com.spreva.core.model.LearningActivity.FreeWrite -> {
+                val count = wordCount(state.typedAnswer)
+                AnswerState(
+                    correct = count >= activity.minWords,
+                    solution = if (count >= activity.minWords) null else "Minimum ${activity.minWords} words",
+                )
+            }
+
+            is com.spreva.core.model.LearningActivity.SpeakingPrompt -> {
+                val duration = state.recordingDurationMs ?: 0L
+                val correct = state.hasRecording && duration >= activity.minSeconds * 1_000L
+                AnswerState(
+                    correct = correct,
+                    solution = if (correct) null else "Record at least ${activity.minSeconds} seconds",
+                )
+            }
+
             else -> AnswerState(correct = true)
         }
 
@@ -280,10 +352,91 @@ class LessonViewModel @Inject constructor(
             correct = answerState.correct,
         )
 
+        val objective = activity is com.spreva.core.model.LearningActivity.MultipleChoice ||
+            activity is com.spreva.core.model.LearningActivity.Cloze ||
+            activity is com.spreva.core.model.LearningActivity.ListeningChoice ||
+            activity is com.spreva.core.model.LearningActivity.Dictation
+        val productive = activity is com.spreva.core.model.LearningActivity.FreeWrite ||
+            activity is com.spreva.core.model.LearningActivity.SpeakingPrompt
+        val rubric = if (productive && answerState.correct) {
+            rubricFactory.forActivity(lesson.id, activity)
+        } else {
+            null
+        }
+
         _uiState.value = state.copy(
             answerState = answerState,
             completedCount = if (answerState.correct) state.completedCount + 1 else state.completedCount,
+            objectiveAttempted = state.objectiveAttempted + if (objective) 1 else 0,
+            objectiveCorrect = state.objectiveCorrect + if (objective && answerState.correct) 1 else 0,
+            productiveAttempted = state.productiveAttempted + if (productive) 1 else 0,
+            productiveCompleted = state.productiveCompleted + if (productive && answerState.correct) 1 else 0,
+            productionRubric = rubric,
+            rubricRatings = emptyMap(),
+            rubricSubmitted = false,
+            rubricSaving = false,
+            rubricScorePercent = null,
+            rubricSaveError = null,
         )
+    }
+
+    fun onRubricRatingChanged(criterionId: String, rating: RubricRating) {
+        val state = _uiState.value
+        if (state.rubricSubmitted || state.productionRubric == null) return
+        _uiState.value = state.copy(
+            rubricRatings = state.rubricRatings + (criterionId to rating),
+            rubricSaveError = null,
+        )
+    }
+
+    fun submitProductionRubric() {
+        val state = _uiState.value
+        val lesson = state.lesson ?: return
+        val rubric = state.productionRubric ?: return
+        if (!state.canSubmitRubric || state.rubricSubmitted) return
+        val activity = lesson.activities.getOrNull(state.currentIndex) ?: return
+        val score = runCatching { rubricScorer.score(rubric, state.rubricRatings) }
+            .getOrElse {
+                _uiState.value = state.copy(rubricSaveError = it.message ?: "Rubric incomplete")
+                return
+            }
+
+        val assessment = ProductionSelfAssessment(
+            lessonId = lesson.id,
+            activityId = activity.id,
+            level = rubric.level,
+            mode = rubric.mode,
+            ratings = state.rubricRatings,
+            selfScorePercent = score,
+            wordCount = (activity as? com.spreva.core.model.LearningActivity.FreeWrite)
+                ?.let { wordCount(state.typedAnswer) },
+            durationMs = (activity as? com.spreva.core.model.LearningActivity.SpeakingPrompt)
+                ?.let { state.recordingDurationMs },
+        )
+
+        _uiState.value = state.copy(rubricSaving = true, rubricSaveError = null)
+        viewModelScope.launch {
+            runCatching {
+                recordProductionSelfAssessment(assessment, clock.now())
+            }.onSuccess {
+                val latest = _uiState.value
+                if (latest.lesson?.id == lesson.id &&
+                    latest.lesson.activities.getOrNull(latest.currentIndex)?.id == activity.id
+                ) {
+                    _uiState.value = latest.copy(
+                        rubricSubmitted = true,
+                        rubricSaving = false,
+                        rubricScorePercent = score,
+                        rubricSaveError = null,
+                    )
+                }
+            }.onFailure {
+                _uiState.value = _uiState.value.copy(
+                    rubricSaving = false,
+                    rubricSaveError = it.message ?: "Could not save self-review",
+                )
+            }
+        }
     }
 
     /** Moves to the next activity (or stays on the summary). */
@@ -292,11 +445,24 @@ class LessonViewModel @Inject constructor(
         val lesson = state.lesson ?: return
         val nextIndex = (state.currentIndex + 1).coerceAtMost(lesson.activities.lastIndex)
         currentActivityShownAtMs = clock.now().toEpochMilli()
+        voiceRecorder.cancel()
+        lastRecording?.delete()
+        lastRecording = null
         _uiState.value = state.copy(
             currentIndex = nextIndex,
             selectedOptionId = null,
             typedAnswer = "",
             answerState = null,
+            isRecording = false,
+            hasRecording = false,
+            similarityScore = null,
+            recordingError = null,
+            recordingDurationMs = null,
+            productionRubric = null,
+            rubricRatings = emptyMap(),
+            rubricSubmitted = false,
+            rubricScorePercent = null,
+            rubricSaveError = null,
         )
     }
 
@@ -312,7 +478,11 @@ class LessonViewModel @Inject constructor(
         _uiState.value = _uiState.value.copy(completionState = LessonCompletionState.Saving)
         viewModelScope.launch {
             runCatching {
-                learningRepository.completeLesson(lesson.id, lesson.activities.size)
+                completeLesson(
+                    lessonId = lesson.id,
+                    totalActivities = lesson.activities.size,
+                    now = clock.now(),
+                )
             }.onSuccess {
                 _uiState.value = _uiState.value.copy(completionState = LessonCompletionState.Success)
             }.onFailure {
@@ -340,8 +510,12 @@ class LessonViewModel @Inject constructor(
         }
     }
 
+    private fun wordCount(text: String): Int =
+        text.trim().split(Regex("\\s+")).count { it.isNotBlank() }
+
     private fun normalize(answer: String): String = answer
         .trim()
         .lowercase()
+        .replace(Regex("\\s+"), " ")
         .trimEnd('.', '!', '?', ',')
 }

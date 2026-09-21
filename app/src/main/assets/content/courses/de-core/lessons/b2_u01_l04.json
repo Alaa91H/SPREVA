@@ -1,0 +1,378 @@
+{
+  "id": "b2_u01_l04",
+  "unitId": "de-core-b2-u01",
+  "title": {
+    "de": "Falltraining: Komplexe Konnektoren & Argumentlogik",
+    "ar": "تدريب الحالات: الروابط المعقدة ومنطق الحجة",
+    "en": "Casebook: Complex connectors & argument logic"
+  },
+  "canDo": [
+    "B2_U01_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u01_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Komplexe Konnektoren & Argumentlogik\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Bedingung: sofern/falls; Einräumung: obwohl/dennoch\n• Gegensatz: hingegen/wohingegen; Folge: sodass\n• insofern schränkt Geltungsbereich ein; zumal fügt verstärkenden Grund hinzu",
+        "ar": "الموضوع: الروابط المعقدة ومنطق الحجة\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Bedingung: sofern/falls; Einräumung: obwohl/dennoch\n• Gegensatz: hingegen/wohingegen; Folge: sodass\n• insofern schränkt Geltungsbereich ein; zumal fügt verstärkenden Grund hinzu",
+        "en": "Topic: Complex connectors & argument logic\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Bedingung: sofern/falls; Einräumung: obwohl/dennoch\n• Gegensatz: hingegen/wohingegen; Folge: sodass\n• insofern schränkt Geltungsbereich ein; zumal fügt verstärkenden Grund hinzu"
+      }
+    },
+    {
+      "id": "b2_u01_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u01_l04_w1",
+          "german": "sofern",
+          "translation": {
+            "de": "sofern",
+            "ar": "بشرط أن",
+            "en": "provided that"
+          }
+        },
+        {
+          "id": "b2_u01_l04_w2",
+          "german": "dennoch",
+          "translation": {
+            "de": "dennoch",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "b2_u01_l04_w3",
+          "german": "hingegen",
+          "translation": {
+            "de": "hingegen",
+            "ar": "في المقابل",
+            "en": "by contrast"
+          }
+        },
+        {
+          "id": "b2_u01_l04_w4",
+          "german": "sodass",
+          "translation": {
+            "de": "sodass",
+            "ar": "بحيث/مما أدى",
+            "en": "so that"
+          }
+        },
+        {
+          "id": "b2_u01_l04_w5",
+          "german": "zumal",
+          "translation": {
+            "de": "zumal",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "b2_u01_l04_w6",
+          "german": "insofern",
+          "translation": {
+            "de": "insofern",
+            "ar": "من هذه الناحية",
+            "en": "insofar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u01_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} alle Unterlagen vorliegen, kann der Antrag beginnen.",
+        "ar": "{answer} alle Unterlagen vorliegen, kann der Antrag beginnen.",
+        "en": "{answer} alle Unterlagen vorliegen, kann der Antrag beginnen."
+      },
+      "acceptedAnswers": [
+        "Sofern"
+      ]
+    },
+    {
+      "id": "b2_u01_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten sind begrenzt; {answer} ist ein Trend erkennbar.",
+        "ar": "Die Daten sind begrenzt; {answer} ist ein Trend erkennbar.",
+        "en": "Die Daten sind begrenzt; {answer} ist ein Trend erkennbar."
+      },
+      "acceptedAnswers": [
+        "dennoch"
+      ]
+    },
+    {
+      "id": "b2_u01_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gruppe A stieg, Gruppe B {answer} sank.",
+        "ar": "Gruppe A stieg, Gruppe B {answer} sank.",
+        "en": "Gruppe A stieg, Gruppe B {answer} sank."
+      },
+      "acceptedAnswers": [
+        "hingegen"
+      ]
+    },
+    {
+      "id": "b2_u01_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Nachfrage stieg, {answer} Wartezeiten entstanden.",
+        "ar": "Die Nachfrage stieg, {answer} Wartezeiten entstanden.",
+        "en": "Die Nachfrage stieg, {answer} Wartezeiten entstanden."
+      },
+      "acceptedAnswers": [
+        "sodass"
+      ]
+    },
+    {
+      "id": "b2_u01_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Lösung ist sinnvoll, {answer} sie wenig kostet.",
+        "ar": "Die Lösung ist sinnvoll, {answer} sie wenig kostet.",
+        "en": "Die Lösung ist sinnvoll, {answer} sie wenig kostet."
+      },
+      "acceptedAnswers": [
+        "zumal"
+      ]
+    },
+    {
+      "id": "b2_u01_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Vorschlag überzeugt {answer}, als er beide Ziele verbindet.",
+        "ar": "Der Vorschlag überzeugt {answer}, als er beide Ziele verbindet.",
+        "en": "Der Vorschlag überzeugt {answer}, als er beide Ziele verbindet."
+      },
+      "acceptedAnswers": [
+        "insofern"
+      ]
+    },
+    {
+      "id": "b2_u01_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "sofern",
+        "ar": "sofern",
+        "en": "sofern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sofern",
+            "ar": "بشرط أن",
+            "en": "provided that"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "dennoch",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "hingegen",
+            "ar": "في المقابل",
+            "en": "by contrast"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u01_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "dennoch",
+        "ar": "dennoch",
+        "en": "dennoch"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "dennoch",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "hingegen",
+            "ar": "في المقابل",
+            "en": "by contrast"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sodass",
+            "ar": "بحيث/مما أدى",
+            "en": "so that"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u01_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "hingegen",
+        "ar": "hingegen",
+        "en": "hingegen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "hingegen",
+            "ar": "في المقابل",
+            "en": "by contrast"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sodass",
+            "ar": "بحيث/مما أدى",
+            "en": "so that"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zumal",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u01_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "sodass",
+        "ar": "sodass",
+        "en": "sodass"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sodass",
+            "ar": "بحيث/مما أدى",
+            "en": "so that"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zumal",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "insofern",
+            "ar": "من هذه الناحية",
+            "en": "insofar"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u01_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ sofern = obwohl → ✅ Bedingung, nicht Einräumung\n• ❌ dennoch im Nebensatz mit Verb am Ende → ✅ dennoch ist Satzadverb im Hauptsatz\n• ❌ sodass für Ursache → ✅ sodass markiert Folge\n• ❌ seltenen Konnektor nur zur Dekoration einsetzen → Funktion muss passen.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ sofern = obwohl → ✅ Bedingung, nicht Einräumung\n• ❌ dennoch im Nebensatz mit Verb am Ende → ✅ dennoch ist Satzadverb im Hauptsatz\n• ❌ sodass für Ursache → ✅ sodass markiert Folge\n• ❌ seltenen Konnektor nur zur Dekoration einsetzen → Funktion muss passen.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ sofern = obwohl → ✅ Bedingung, nicht Einräumung\n• ❌ dennoch im Nebensatz mit Verb am Ende → ✅ dennoch ist Satzadverb im Hauptsatz\n• ❌ sodass für Ursache → ✅ sodass markiert Folge\n• ❌ seltenen Konnektor nur zur Dekoration einsetzen → Funktion muss passen.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u01_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Bedingung: sofern/falls; Einräumung: obwohl/dennoch\n• Gegensatz: hingegen/wohingegen; Folge: sodass\n• insofern schränkt Geltungsbereich ein; zumal fügt verstärkenden Grund hinzu\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Bedingung: sofern/falls; Einräumung: obwohl/dennoch\n• Gegensatz: hingegen/wohingegen; Folge: sodass\n• insofern schränkt Geltungsbereich ein; zumal fügt verstärkenden Grund hinzu\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Bedingung: sofern/falls; Einräumung: obwohl/dennoch\n• Gegensatz: hingegen/wohingegen; Folge: sodass\n• insofern schränkt Geltungsbereich ein; zumal fügt verstärkenden Grund hinzu\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u01_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Schreibe zwei Argumentationen zum selben Thema: einmal neutral-analytisch, einmal formell. Nutze sechs verschiedene Konnektoren und erkläre ihre logische Funktion.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Schreibe zwei Argumentationen zum selben Thema: einmal neutral-analytisch, einmal formell. Nutze sechs verschiedene Konnektoren und erkläre ihre logische Funktion.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Schreibe zwei Argumentationen zum selben Thema: einmal neutral-analytisch, einmal formell. Nutze sechs verschiedene Konnektoren und erkläre ihre logische Funktion.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u01_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U01_CASEBOOK"
+      ]
+    }
+  ]
+}

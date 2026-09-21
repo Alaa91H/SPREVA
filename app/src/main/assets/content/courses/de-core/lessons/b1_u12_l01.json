@@ -1,0 +1,154 @@
+{
+  "id": "b1_u12_l01",
+  "unitId": "de-core-b1-u12",
+  "title": {
+    "de": "Konnektoren obwohl, trotzdem, deshalb, während",
+    "ar": "الروابط obwohl وtrotzdem وdeshalb وwährend",
+    "en": "Connectors obwohl, trotzdem, deshalb and während"
+  },
+  "canDo": [
+    "B1_U12_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u12_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Konnektoren obwohl, trotzdem, deshalb, während",
+        "ar": "الروابط obwohl وtrotzdem وdeshalb وwährend",
+        "en": "Connectors obwohl, trotzdem, deshalb and während"
+      },
+      "body": {
+        "de": "Kompetenzziel: Konnektoren obwohl, trotzdem, deshalb, während\n\nSystematik:\nKonnektoren strukturieren Argumente: weil/da = Grund, deshalb/daher = Folge, obwohl = Einräumung im Nebensatz, trotzdem = Kontrast im Hauptsatz. „während“ kann zeitlich oder kontrastiv sein. Verbposition richtet sich nach Konnektortyp.\n\nBeispielnetz:\n• Obwohl soziale Medien praktisch sind, können sie ablenken.\n• Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n• Ich verstehe den Punkt, trotzdem sehe ich das anders.\n\nPraxisdomäne:\nNachrichten, soziale Medien, Schule oder Arbeit: Meinung ausdrücken, Vor- und Nachteile abwägen und auf andere Positionen reagieren.\n\nFehlerdiagnose:\nKonnektoren nicht nur zur Variation einsetzen; ihre logische Beziehung muss stimmen. „obwohl“ markiert eine unerwartete Gegenbeziehung, nicht einfach irgendeinen zweiten Satz.",
+        "ar": "هدف الكفاءة: الروابط obwohl وtrotzdem وdeshalb وwährend\n\nالشرح المنهجي:\nتنظم الروابط الحجة: weil/da للسبب، deshalb/daher للنتيجة، obwohl للتنازل في جملة تابعة، trotzdem للتعارض في جملة رئيسية.\n\nأمثلة مترابطة:\n• Obwohl soziale Medien praktisch sind, können sie ablenken.\n• Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n• Ich verstehe den Punkt, trotzdem sehe ich das anders.\n\nالمجال العملي:\nالأخبار ووسائل التواصل والمدرسة أو العمل: التعبير عن الرأي وموازنة المزايا والعيوب والرد على مواقف الآخرين.\n\nتشخيص الأخطاء:\nلا تستخدم الروابط فقط للتنويع؛ يجب أن تكون العلاقة المنطقية صحيحة. obwohl تدل على تعارض غير متوقع.",
+        "en": "Competence goal: Connectors obwohl, trotzdem, deshalb and während\n\nSystem:\nConnectors structure arguments: weil/da for cause, deshalb/daher for consequence, obwohl for concession in a subordinate clause, trotzdem for contrast in a main clause. Verb position depends on connector type.\n\nExample network:\n• Obwohl soziale Medien praktisch sind, können sie ablenken.\n• Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n• Ich verstehe den Punkt, trotzdem sehe ich das anders.\n\nPractice domain:\nNews, social media, school or work: express opinions, weigh pros and cons and respond to other positions.\n\nError diagnosis:\nDo not use connectors merely for variation; the logical relation must fit. obwohl marks an unexpected contrast/concession."
+      }
+    },
+    {
+      "id": "b1_u12_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u12_l01_w1",
+          "german": "der Vorteil",
+          "translation": {
+            "de": "advantage",
+            "ar": "الميزة",
+            "en": "advantage"
+          }
+        },
+        {
+          "id": "b1_u12_l01_w2",
+          "german": "der Nachteil",
+          "translation": {
+            "de": "disadvantage",
+            "ar": "العيب",
+            "en": "disadvantage"
+          }
+        },
+        {
+          "id": "b1_u12_l01_w3",
+          "german": "die Quelle",
+          "translation": {
+            "de": "source",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u12_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nKonnektoren strukturieren Argumente: weil/da = Grund, deshalb/daher = Folge, obwohl = Einräumung im Nebensatz, trotzdem = Kontrast im Hauptsatz. „während“ kann zeitlich oder kontrastiv sein. Verbposition richtet sich nach Konnektortyp.\n\nKontrastive Beispiele:\n• Obwohl soziale Medien praktisch sind, können sie ablenken.\n• Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n• Ich verstehe den Punkt, trotzdem sehe ich das anders.",
+        "ar": "القاعدة:\nتنظم الروابط الحجة: weil/da للسبب، deshalb/daher للنتيجة، obwohl للتنازل في جملة تابعة، trotzdem للتعارض في جملة رئيسية.\n\nأمثلة:\n• Obwohl soziale Medien praktisch sind, können sie ablenken.\n• Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n• Ich verstehe den Punkt, trotzdem sehe ich das anders.",
+        "en": "Rule:\nConnectors structure arguments: weil/da for cause, deshalb/daher for consequence, obwohl for concession in a subordinate clause, trotzdem for contrast in a main clause. Verb position depends on connector type.\n\nExamples:\n• Obwohl soziale Medien praktisch sind, können sie ablenken.\n• Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n• Ich verstehe den Punkt, trotzdem sehe ich das anders."
+      }
+    },
+    {
+      "id": "b1_u12_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "der Vorteil",
+        "ar": "der Vorteil",
+        "en": "der Vorteil"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "advantage",
+            "ar": "الميزة",
+            "en": "advantage"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "disadvantage",
+            "ar": "العيب",
+            "en": "disadvantage"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "source",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u12_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} es praktisch ist, gibt es Nachteile.",
+        "ar": "{answer} es praktisch ist, gibt es Nachteile.",
+        "en": "{answer} es praktisch ist, gibt es Nachteile."
+      },
+      "acceptedAnswers": [
+        "Obwohl"
+      ]
+    },
+    {
+      "id": "b1_u12_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Medien, Meinung & Argumentation“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الإعلام والرأي والحجاج». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Media, opinion & argumentation”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u12_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U12_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "c1_u15_l03",
+  "unitId": "de-core-c1-u15",
+  "title": {
+    "de": "Intensivtraining: Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur",
+    "ar": "تدريب مكثف: التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي",
+    "en": "Mastery lab: Editing, error diagnosis & stylistic self-correction"
+  },
+  "canDo": [
+    "C1_U15_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u15_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur“. Forme dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte um, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي». أعد صياغة الفكرة بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Editing, error diagnosis & stylistic self-correction”. Reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u15_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u15_l03_w1",
+          "german": "redigieren",
+          "translation": {
+            "de": "edit",
+            "ar": "يحرر ويراجع",
+            "en": "edit"
+          }
+        },
+        {
+          "id": "c1_u15_l03_w2",
+          "german": "der Bezug",
+          "translation": {
+            "de": "reference",
+            "ar": "الإحالة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "c1_u15_l03_w3",
+          "german": "die Kohäsion",
+          "translation": {
+            "de": "cohesion",
+            "ar": "الترابط النصي",
+            "en": "cohesion"
+          }
+        },
+        {
+          "id": "c1_u15_l03_w4",
+          "german": "überladen",
+          "translation": {
+            "de": "overloaded",
+            "ar": "مثقل",
+            "en": "overloaded"
+          }
+        },
+        {
+          "id": "c1_u15_l03_w5",
+          "german": "straffen",
+          "translation": {
+            "de": "tighten",
+            "ar": "يختصر ويحكم",
+            "en": "tighten"
+          }
+        },
+        {
+          "id": "c1_u15_l03_w6",
+          "german": "das Fehlermuster",
+          "translation": {
+            "de": "error pattern",
+            "ar": "نمط الخطأ",
+            "en": "error pattern"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u15_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Pronomenbezug ist nicht eindeutig und muss {answer} werden.",
+        "ar": "Der Pronomenbezug ist nicht eindeutig und muss {answer} werden.",
+        "en": "Der Pronomenbezug ist nicht eindeutig und muss {answer} werden."
+      },
+      "acceptedAnswers": [
+        "präzisiert"
+      ]
+    },
+    {
+      "id": "c1_u15_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In einem zweiten Durchgang sollte der Text sprachlich {answer} werden.",
+        "ar": "In einem zweiten Durchgang sollte der Text sprachlich {answer} werden.",
+        "en": "In einem zweiten Durchgang sollte der Text sprachlich {answer} werden."
+      },
+      "acceptedAnswers": [
+        "gestrafft"
+      ]
+    },
+    {
+      "id": "c1_u15_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Professionelle Revision erfolgt in Durchgängen: 1) Inhalt/Logik, 2) Gliederung/Kohärenz, 3) Absatz- und Satzbezüge, 4) Register/Kollokationen, 5) Grammatik/Orthografie, 6) Kürzung. Typische C1-Probleme sind unklare Pronomenbezüge, überladene Sätze, Registermischung und unnötige Nominalketten. Korrektur ist stärker, wenn {answer} Fehlertyp benannt und eine Regel abgeleitet wird.",
+        "ar": "Professionelle Revision erfolgt in Durchgängen: 1) Inhalt/Logik, 2) Gliederung/Kohärenz, 3) Absatz- und Satzbezüge, 4) Register/Kollokationen, 5) Grammatik/Orthografie, 6) Kürzung. Typische C1-Probleme sind unklare Pronomenbezüge, überladene Sätze, Registermischung und unnötige Nominalketten. Korrektur ist stärker, wenn {answer} Fehlertyp benannt und eine Regel abgeleitet wird.",
+        "en": "Professionelle Revision erfolgt in Durchgängen: 1) Inhalt/Logik, 2) Gliederung/Kohärenz, 3) Absatz- und Satzbezüge, 4) Register/Kollokationen, 5) Grammatik/Orthografie, 6) Kürzung. Typische C1-Probleme sind unklare Pronomenbezüge, überladene Sätze, Registermischung und unnötige Nominalketten. Korrektur ist stärker, wenn {answer} Fehlertyp benannt und eine Regel abgeleitet wird."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "c1_u15_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unklar: „Die Leitung sprach mit {answer} Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?",
+        "ar": "Unklar: „Die Leitung sprach mit {answer} Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?",
+        "en": "Unklar: „Die Leitung sprach mit {answer} Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?"
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "c1_u15_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer}-Mail, Bericht, Bewerbung, Essay oder Prüfung: Entwurf nicht nur korrigieren, sondern gezielt verbessern und wiederkehrende persönliche Fehlermuster dokumentieren.",
+        "ar": "{answer}-Mail, Bericht, Bewerbung, Essay oder Prüfung: Entwurf nicht nur korrigieren, sondern gezielt verbessern und wiederkehrende persönliche Fehlermuster dokumentieren.",
+        "en": "{answer}-Mail, Bericht, Bewerbung, Essay oder Prüfung: Entwurf nicht nur korrigieren, sondern gezielt verbessern und wiederkehrende persönliche Fehlermuster dokumentieren."
+      },
+      "acceptedAnswers": [
+        "E"
+      ]
+    },
+    {
+      "id": "c1_u15_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Korrektur nicht nur {answer} Suche nach „falsch/richtig“ betrachten. Auf C1 sind viele Verbesserungen Entscheidungen zwischen korrekt, passend, präzise und elegant.",
+        "ar": "Korrektur nicht nur {answer} Suche nach „falsch/richtig“ betrachten. Auf C1 sind viele Verbesserungen Entscheidungen zwischen korrekt, passend, präzise und elegant.",
+        "en": "Korrektur nicht nur {answer} Suche nach „falsch/richtig“ betrachten. Auf C1 sind viele Verbesserungen Entscheidungen zwischen korrekt, passend, präzise und elegant."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u15_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "redigieren",
+        "ar": "redigieren",
+        "en": "redigieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "edit",
+            "ar": "يحرر ويراجع",
+            "en": "edit"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "reference",
+            "ar": "الإحالة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "cohesion",
+            "ar": "الترابط النصي",
+            "en": "cohesion"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u15_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "überladen",
+        "ar": "überladen",
+        "en": "überladen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "overloaded",
+            "ar": "مثقل",
+            "en": "overloaded"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "tighten",
+            "ar": "يختصر ويحكم",
+            "en": "tighten"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "error pattern",
+            "ar": "نمط الخطأ",
+            "en": "error pattern"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u15_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Professionelle Revision erfolgt in Durchgängen: 1) Inhalt/Logik, 2) Gliederung/Kohärenz, 3) Absatz- und Satzbezüge, 4) Register/Kollokationen, 5) Grammatik/Orthografie, 6) Kürzung. Typische C1-Probleme sind unklare Pronomenbezüge, überladene Sätze, Registermischung und unnötige Nominalketten. Korrektur ist stärker, wenn der Fehlertyp benannt und eine Regel abgeleitet wird.\n2. Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n3. E-Mail, Bericht, Bewerbung, Essay oder Prüfung: Entwurf nicht nur korrigieren, sondern gezielt verbessern und wiederkehrende persönliche Fehlermuster dokumentieren.\n4. Korrektur nicht nur als Suche nach „falsch/richtig“ betrachten. Auf C1 sind viele Verbesserungen Entscheidungen zwischen korrekt, passend, präzise und elegant.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre, welche Bedeutung gleich blieb und welche Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Professionelle Revision erfolgt in Durchgängen: 1) Inhalt/Logik, 2) Gliederung/Kohärenz, 3) Absatz- und Satzbezüge, 4) Register/Kollokationen, 5) Grammatik/Orthografie, 6) Kürzung. Typische C1-Probleme sind unklare Pronomenbezüge, überladene Sätze, Registermischung und unnötige Nominalketten. Korrektur ist stärker, wenn der Fehlertyp benannt und eine Regel abgeleitet wird.\n2. Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n3. E-Mail, Bericht, Bewerbung, Essay oder Prüfung: Entwurf nicht nur korrigieren, sondern gezielt verbessern und wiederkehrende persönliche Fehlermuster dokumentieren.\n4. Korrektur nicht nur als Suche nach „falsch/richtig“ betrachten. Auf C1 sind viele Verbesserungen Entscheidungen zwischen korrekt, passend, präzise und elegant.\n\nغيّر بُعدًا واحدًا فقط: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. اشرح ما بقي من المعنى وما تغير في الأثر.",
+        "en": "Base patterns:\n1. Professionelle Revision erfolgt in Durchgängen: 1) Inhalt/Logik, 2) Gliederung/Kohärenz, 3) Absatz- und Satzbezüge, 4) Register/Kollokationen, 5) Grammatik/Orthografie, 6) Kürzung. Typische C1-Probleme sind unklare Pronomenbezüge, überladene Sätze, Registermischung und unnötige Nominalketten. Korrektur ist stärker, wenn der Fehlertyp benannt und eine Regel abgeleitet wird.\n2. Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n3. E-Mail, Bericht, Bewerbung, Essay oder Prüfung: Entwurf nicht nur korrigieren, sondern gezielt verbessern und wiederkehrende persönliche Fehlermuster dokumentieren.\n4. Korrektur nicht nur als Suche nach „falsch/richtig“ betrachten. Auf C1 sind viele Verbesserungen Entscheidungen zwischen korrekt, passend, präzise und elegant.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what stayed constant and what effect changed."
+      }
+    },
+    {
+      "id": "c1_u15_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Prüfe propositionalen Kern, Evidenzstärke und Quellenklarheit.",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. تحقق من ثبات المعنى وقوة الدليل ووضوح المصدر.",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. Check propositional core, evidence strength and source clarity."
+      }
+    },
+    {
+      "id": "c1_u15_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "200–260 Wörter oder vier Minuten: vier Zielstrukturen, fair dargestellte Gegenposition, Quellen-/Evidenzhinweis und präzise Einschränkung. Revision: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "200–260 كلمة أو أربع دقائق: أربع بنيات مستهدفة، موقف مضاد ممثل بإنصاف، إشارة لمصدر/دليل وقيد دقيق. المراجعة: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "200–260 words or four minutes: four target structures, fairly represented counterposition, source/evidence marker and precise limitation. Revise: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u15_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U15_MASTERY"
+      ]
+    }
+  ]
+}

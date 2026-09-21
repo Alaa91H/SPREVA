@@ -1,0 +1,378 @@
+{
+  "id": "a2_u14_l04",
+  "unitId": "de-core-a2-u14",
+  "title": {
+    "de": "Integrations-Casebook",
+    "ar": "دفتر حالات التكامل",
+    "en": "Integration casebook"
+  },
+  "canDo": [
+    "A2_U14_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u14_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Casebook",
+        "ar": "دفتر حالات التكامل",
+        "en": "Integration casebook"
+      },
+      "body": {
+        "de": "Casebook-Ziel: Schreibe eine sachliche Beschwerde über Reise oder Wohnung und erzähle anschließend mündlich, was vorher passiert ist. Trenne Fehler in Grammatik, Bedeutung, Register und Informationsstruktur; korrigiere anschließend minimal und vollständig.",
+        "ar": "هدف دفتر الحالات: Schreibe eine sachliche Beschwerde über Reise oder Wohnung und erzähle anschließend mündlich, was vorher passiert ist. صنّف الأخطاء إلى نحو ومعنى وسجل وبنية معلومات، ثم صحح بأقل تغيير وبصياغة كاملة.",
+        "en": "Casebook goal: Schreibe eine sachliche Beschwerde über Reise oder Wohnung und erzähle anschließend mündlich, was vorher passiert ist. Classify errors into grammar, meaning, register and information structure, then repair minimally and fully."
+      }
+    },
+    {
+      "id": "a2_u14_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u14_l04_w1",
+          "german": "eingereicht",
+          "translation": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "a2_u14_l04_w2",
+          "german": "reparieren",
+          "translation": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "a2_u14_l04_w3",
+          "german": "bewerben",
+          "translation": {
+            "de": "bewerben",
+            "ar": "يتقدم لوظيفة",
+            "en": "apply"
+          }
+        },
+        {
+          "id": "a2_u14_l04_w4",
+          "german": "Verspätung",
+          "translation": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "a2_u14_l04_w5",
+          "german": "weil",
+          "translation": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "a2_u14_l04_w6",
+          "german": "trotzdem",
+          "translation": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u14_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte mich über den Service {answer}.",
+        "ar": "Ich möchte mich über den Service {answer}.",
+        "en": "Ich möchte mich über den Service {answer}."
+      },
+      "acceptedAnswers": [
+        "beschweren"
+      ]
+    },
+    {
+      "id": "a2_u14_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Zug hat 20 Minuten {answer}.",
+        "ar": "Der Zug hat 20 Minuten {answer}.",
+        "en": "Der Zug hat 20 Minuten {answer}."
+      },
+      "acceptedAnswers": [
+        "Verspätung"
+      ]
+    },
+    {
+      "id": "a2_u14_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können Sie den Betrag {answer}?",
+        "ar": "Können Sie den Betrag {answer}?",
+        "en": "Können Sie den Betrag {answer}?"
+      },
+      "acceptedAnswers": [
+        "erstatten"
+      ]
+    },
+    {
+      "id": "a2_u14_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Heizung ist seit drei Tagen {answer}.",
+        "ar": "Die Heizung ist seit drei Tagen {answer}.",
+        "en": "Die Heizung ist seit drei Tagen {answer}."
+      },
+      "acceptedAnswers": [
+        "kaputt"
+      ]
+    },
+    {
+      "id": "a2_u14_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe den Schaden bereits {answer}.",
+        "ar": "Ich habe den Schaden bereits {answer}.",
+        "en": "Ich habe den Schaden bereits {answer}."
+      },
+      "acceptedAnswers": [
+        "gemeldet"
+      ]
+    },
+    {
+      "id": "a2_u14_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} habe ich noch keine Antwort bekommen.",
+        "ar": "{answer} habe ich noch keine Antwort bekommen.",
+        "en": "{answer} habe ich noch keine Antwort bekommen."
+      },
+      "acceptedAnswers": [
+        "Trotzdem"
+      ]
+    },
+    {
+      "id": "a2_u14_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Verspätung",
+        "ar": "Verspätung",
+        "en": "Verspätung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "weil",
+        "ar": "weil",
+        "en": "weil"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "trotzdem",
+        "ar": "trotzdem",
+        "en": "trotzdem"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "eingereicht",
+        "ar": "eingereicht",
+        "en": "eingereicht"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "bewerben",
+            "ar": "يتقدم لوظيفة",
+            "en": "apply"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdiagnose",
+        "ar": "تشخيص الفروق",
+        "en": "Contrast diagnosis"
+      },
+      "body": {
+        "de": "Nimm jede Lösung und formuliere eine sehr ähnliche, aber falsche oder unpassende Variante. Erkläre exakt, welcher Faktor den Unterschied macht.",
+        "ar": "لكل حل أنشئ صيغة شديدة الشبه لكنها خاطئة أو غير مناسبة، واشرح العامل الذي أحدث الفرق بدقة.",
+        "en": "For each solution create a very similar but wrong or inappropriate variant and explain exactly which factor creates the difference."
+      }
+    },
+    {
+      "id": "a2_u14_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Prüfungssimulation",
+        "ar": "محاكاة اختبار",
+        "en": "Exam simulation"
+      },
+      "body": {
+        "de": "Bearbeite alle Fälle ohne Zurückspringen. Danach zweite Runde nur mit den unsicheren Aufgaben und begründe jede Änderung.",
+        "ar": "حل جميع الحالات دون الرجوع للخلف. ثم جولة ثانية فقط للمهام غير المؤكدة مع تعليل كل تغيير.",
+        "en": "Complete all cases without going back. Then do a second pass only on uncertain items and justify every change."
+      }
+    },
+    {
+      "id": "a2_u14_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Abschlussleistung",
+        "ar": "المهمة الختامية",
+        "en": "Final performance"
+      },
+      "body": {
+        "de": "Schreibe eine sachliche Beschwerde über Reise oder Wohnung und erzähle anschließend mündlich, was vorher passiert ist.",
+        "ar": "Schreibe eine sachliche Beschwerde über Reise oder Wohnung und erzähle anschließend mündlich, was vorher passiert ist.",
+        "en": "Schreibe eine sachliche Beschwerde über Reise oder Wohnung und erzähle anschließend mündlich, was vorher passiert ist."
+      }
+    },
+    {
+      "id": "a2_u14_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Integrations-Casebook",
+        "ar": "دفتر تكامل A2",
+        "en": "A2 integration casebook"
+      },
+      "canDo": [
+        "A2_U14_CASEBOOK"
+      ]
+    }
+  ]
+}

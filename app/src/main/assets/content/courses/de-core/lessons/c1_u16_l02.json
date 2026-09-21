@@ -1,0 +1,268 @@
+{
+  "id": "c1_u16_l02",
+  "unitId": "de-core-c1-u16",
+  "title": {
+    "de": "Real-Life Mission",
+    "ar": "مهمة واقعية متكاملة",
+    "en": "Real-life mission"
+  },
+  "canDo": [
+    "C1_U16_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u16_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Mission",
+        "ar": "مهمة واقعية متكاملة",
+        "en": "Real-life mission"
+      },
+      "body": {
+        "de": "Realistische Kette: Erstelle Executive Summary und moderiere anschließend ein Entscheidungsgespräch mit Interessen, Risiken, Optionen und verbindlichem Abschluss. Jede Antwort verändert die nächste Situation. Wiederhole mit neuen Daten und Rollen.",
+        "ar": "سلسلة واقعية: Erstelle Executive Summary und moderiere anschließend ein Entscheidungsgespräch mit Interessen, Risiken, Optionen und verbindlichem Abschluss. كل إجابة تغيّر الموقف التالي. أعد المهمة ببيانات وأدوار جديدة.",
+        "en": "Realistic chain: Erstelle Executive Summary und moderiere anschließend ein Entscheidungsgespräch mit Interessen, Risiken, Optionen und verbindlichem Abschluss. Each response changes the next situation. Repeat with new data and roles."
+      }
+    },
+    {
+      "id": "c1_u16_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u16_l02_w1",
+          "german": "quellentreu",
+          "translation": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        },
+        {
+          "id": "c1_u16_l02_w2",
+          "german": "Operationalisierung",
+          "translation": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        },
+        {
+          "id": "c1_u16_l02_w3",
+          "german": "Präsupposition",
+          "translation": {
+            "de": "Präsupposition",
+            "ar": "افتراض مسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "c1_u16_l02_w4",
+          "german": "Kohärenz",
+          "translation": {
+            "de": "Kohärenz",
+            "ar": "تماسك",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "c1_u16_l02_w5",
+          "german": "reframen",
+          "translation": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "c1_u16_l02_w6",
+          "german": "Evidenzgrad",
+          "translation": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u16_l02_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beide Quellen stimmen darin {answer}, dass …",
+        "ar": "Beide Quellen stimmen darin {answer}, dass …",
+        "en": "Beide Quellen stimmen darin {answer}, dass …"
+      },
+      "acceptedAnswers": [
+        "überein"
+      ]
+    },
+    {
+      "id": "c1_u16_l02_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Quelle B {answer} in einem Punkt ab.",
+        "ar": "Quelle B {answer} in einem Punkt ab.",
+        "en": "Quelle B {answer} in einem Punkt ab."
+      },
+      "acceptedAnswers": [
+        "weicht"
+      ]
+    },
+    {
+      "id": "c1_u16_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der wichtigste {answer} betrifft die Datenqualität.",
+        "ar": "Der wichtigste {answer} betrifft die Datenqualität.",
+        "en": "Der wichtigste {answer} betrifft die Datenqualität."
+      },
+      "acceptedAnswers": [
+        "Befund"
+      ]
+    },
+    {
+      "id": "c1_u16_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Empfehlung muss {answer} begründet sein.",
+        "ar": "Die Empfehlung muss {answer} begründet sein.",
+        "en": "Die Empfehlung muss {answer} begründet sein."
+      },
+      "acceptedAnswers": [
+        "nachvollziehbar"
+      ]
+    },
+    {
+      "id": "c1_u16_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit.",
+        "ar": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit.",
+        "en": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit."
+      },
+      "acceptedAnswers": [
+        "verstehe"
+      ]
+    },
+    {
+      "id": "c1_u16_l02_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können wir uns darauf {answer}, dass …?",
+        "ar": "Können wir uns darauf {answer}, dass …?",
+        "en": "Können wir uns darauf {answer}, dass …?"
+      },
+      "acceptedAnswers": [
+        "verständigen"
+      ]
+    },
+    {
+      "id": "c1_u16_l02_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Kohärenz",
+        "ar": "Kohärenz",
+        "en": "Kohärenz"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kohärenz",
+            "ar": "تماسك",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l02_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "reframen",
+        "ar": "reframen",
+        "en": "reframen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l02_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Erstelle Executive Summary und moderiere anschließend ein Entscheidungsgespräch mit Interessen, Risiken, Optionen und verbindlichem Abschluss.",
+        "ar": "Erstelle Executive Summary und moderiere anschließend ein Entscheidungsgespräch mit Interessen, Risiken, Optionen und verbindlichem Abschluss.",
+        "en": "Erstelle Executive Summary und moderiere anschließend ein Entscheidungsgespräch mit Interessen, Risiken, Optionen und verbindlichem Abschluss."
+      }
+    },
+    {
+      "id": "c1_u16_l02_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Integration gesichert",
+        "ar": "تم تثبيت تكامل C1",
+        "en": "C1 integration secured"
+      },
+      "canDo": [
+        "C1_U16_REAL_LIFE"
+      ]
+    }
+  ]
+}

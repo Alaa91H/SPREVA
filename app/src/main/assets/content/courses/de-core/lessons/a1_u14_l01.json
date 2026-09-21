@@ -1,0 +1,268 @@
+{
+  "id": "a1_u14_l01",
+  "unitId": "de-core-a1-u14",
+  "title": {
+    "de": "Integrationsgrundlagen",
+    "ar": "أساسيات التكامل",
+    "en": "Integration foundations"
+  },
+  "canDo": [
+    "A1_U14_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u14_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrationsgrundlagen",
+        "ar": "أساسيات التكامل",
+        "en": "Integration foundations"
+      },
+      "body": {
+        "de": "Dieses Abschlussmodul verbindet mehrere A1-Themen gleichzeitig. Entscheide bei jeder Aufgabe nicht nur die Form, sondern auch, welche ältere Regel aktiviert werden muss.",
+        "ar": "هذه الوحدة الختامية تربط عدة موضوعات من A1 في الوقت نفسه. حدّد في كل مهمة القاعدة السابقة التي يجب تفعيلها، لا الصيغة فقط.",
+        "en": "This capstone combines several A1 topics at once. For every task, identify not only the form but which earlier rule must be activated."
+      }
+    },
+    {
+      "id": "a1_u14_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u14_l01_w1",
+          "german": "der Termin",
+          "translation": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "a1_u14_l01_w2",
+          "german": "die Fahrkarte",
+          "translation": {
+            "de": "die Fahrkarte",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "a1_u14_l01_w3",
+          "german": "die Apotheke",
+          "translation": {
+            "de": "die Apotheke",
+            "ar": "الصيدلية",
+            "en": "pharmacy"
+          }
+        },
+        {
+          "id": "a1_u14_l01_w4",
+          "german": "bestellen",
+          "translation": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "a1_u14_l01_w5",
+          "german": "bezahlen",
+          "translation": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "a1_u14_l01_w6",
+          "german": "einladen",
+          "translation": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u14_l01_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} um sieben Uhr auf.",
+        "ar": "Ich {answer} um sieben Uhr auf.",
+        "en": "Ich {answer} um sieben Uhr auf."
+      },
+      "acceptedAnswers": [
+        "stehe"
+      ]
+    },
+    {
+      "id": "a1_u14_l01_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Termin ist {answer} Montag.",
+        "ar": "Der Termin ist {answer} Montag.",
+        "en": "Der Termin ist {answer} Montag."
+      },
+      "acceptedAnswers": [
+        "am"
+      ]
+    },
+    {
+      "id": "a1_u14_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir treffen uns {answer} neun Uhr.",
+        "ar": "Wir treffen uns {answer} neun Uhr.",
+        "en": "Wir treffen uns {answer} neun Uhr."
+      },
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "a1_u14_l01_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} heute arbeiten.",
+        "ar": "Ich {answer} heute arbeiten.",
+        "en": "Ich {answer} heute arbeiten."
+      },
+      "acceptedAnswers": [
+        "muss"
+      ]
+    },
+    {
+      "id": "a1_u14_l01_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Danach {answer} ich ein.",
+        "ar": "Danach {answer} ich ein.",
+        "en": "Danach {answer} ich ein."
+      },
+      "acceptedAnswers": [
+        "kaufe"
+      ]
+    },
+    {
+      "id": "a1_u14_l01_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kannst du {answer} helfen?",
+        "ar": "Kannst du {answer} helfen?",
+        "en": "Kannst du {answer} helfen?"
+      },
+      "acceptedAnswers": [
+        "mir"
+      ]
+    },
+    {
+      "id": "a1_u14_l01_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "bestellen",
+        "ar": "bestellen",
+        "en": "bestellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l01_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "bezahlen",
+        "ar": "bezahlen",
+        "en": "bezahlen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Plane deinen ganzen Tag von morgens bis abends und verbinde Zeit, Arbeit, Verkehr, Gesundheit, Einkauf und Freizeit.",
+        "ar": "Plane deinen ganzen Tag von morgens bis abends und verbinde Zeit, Arbeit, Verkehr, Gesundheit, Einkauf und Freizeit.",
+        "en": "Plane deinen ganzen Tag von morgens bis abends und verbinde Zeit, Arbeit, Verkehr, Gesundheit, Einkauf und Freizeit."
+      }
+    },
+    {
+      "id": "a1_u14_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1-Integration gesichert",
+        "ar": "تم تثبيت تكامل A1",
+        "en": "A1 integration secured"
+      },
+      "canDo": [
+        "A1_U14_FOUNDATION"
+      ]
+    }
+  ]
+}

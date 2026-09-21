@@ -1,0 +1,378 @@
+{
+  "id": "c1_u03_l04",
+  "unitId": "de-core-c1-u03",
+  "title": {
+    "de": "Falltraining: Modale Feinabstufung & epistemische Distanz",
+    "ar": "تدريب الحالات: تدرج الموقف واليقين والمسافة المعرفية",
+    "en": "Casebook: Modal nuance & epistemic distance"
+  },
+  "canDo": [
+    "C1_U03_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u03_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Modale Feinabstufung & epistemische Distanz\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• dürfte = begründete Wahrscheinlichkeit; müsste = starke Inferenz\n• offenbar stützt sich eher auf erkennbare Indizien; anscheinend auf Erscheinungsbild\n• keineswegs weist Schlussfolgerung stark zurück; kaum reduziert Wahrscheinlichkeit",
+        "ar": "الموضوع: تدرج الموقف واليقين والمسافة المعرفية\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• dürfte = begründete Wahrscheinlichkeit; müsste = starke Inferenz\n• offenbar stützt sich eher auf erkennbare Indizien; anscheinend auf Erscheinungsbild\n• keineswegs weist Schlussfolgerung stark zurück; kaum reduziert Wahrscheinlichkeit",
+        "en": "Topic: Modal nuance & epistemic distance\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• dürfte = begründete Wahrscheinlichkeit; müsste = starke Inferenz\n• offenbar stützt sich eher auf erkennbare Indizien; anscheinend auf Erscheinungsbild\n• keineswegs weist Schlussfolgerung stark zurück; kaum reduziert Wahrscheinlichkeit"
+      }
+    },
+    {
+      "id": "c1_u03_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u03_l04_w1",
+          "german": "dürfte",
+          "translation": {
+            "de": "dürfte",
+            "ar": "يرجح",
+            "en": "is likely to"
+          }
+        },
+        {
+          "id": "c1_u03_l04_w2",
+          "german": "müsste",
+          "translation": {
+            "de": "müsste",
+            "ar": "ينبغي منطقيًا",
+            "en": "should/must logically"
+          }
+        },
+        {
+          "id": "c1_u03_l04_w3",
+          "german": "wohl",
+          "translation": {
+            "de": "wohl",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "c1_u03_l04_w4",
+          "german": "offenbar",
+          "translation": {
+            "de": "offenbar",
+            "ar": "على ما يبدو من قرائن",
+            "en": "apparently"
+          }
+        },
+        {
+          "id": "c1_u03_l04_w5",
+          "german": "anscheinend",
+          "translation": {
+            "de": "anscheinend",
+            "ar": "ظاهريًا",
+            "en": "seemingly"
+          }
+        },
+        {
+          "id": "c1_u03_l04_w6",
+          "german": "keineswegs",
+          "translation": {
+            "de": "keineswegs",
+            "ar": "بأي حال",
+            "en": "by no means"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u03_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Änderung {answer} Folgen haben.",
+        "ar": "Die Änderung {answer} Folgen haben.",
+        "en": "Die Änderung {answer} Folgen haben."
+      },
+      "acceptedAnswers": [
+        "dürfte"
+      ]
+    },
+    {
+      "id": "c1_u03_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach diesen Daten {answer} der Fehler behoben sein.",
+        "ar": "Nach diesen Daten {answer} der Fehler behoben sein.",
+        "en": "Nach diesen Daten {answer} der Fehler behoben sein."
+      },
+      "acceptedAnswers": [
+        "müsste"
+      ]
+    },
+    {
+      "id": "c1_u03_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er hat {answer} den Termin vergessen.",
+        "ar": "Er hat {answer} den Termin vergessen.",
+        "en": "Er hat {answer} den Termin vergessen."
+      },
+      "acceptedAnswers": [
+        "wohl"
+      ]
+    },
+    {
+      "id": "c1_u03_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Nachfrage ist {answer} gestiegen.",
+        "ar": "Die Nachfrage ist {answer} gestiegen.",
+        "en": "Die Nachfrage ist {answer} gestiegen."
+      },
+      "acceptedAnswers": [
+        "offenbar"
+      ]
+    },
+    {
+      "id": "c1_u03_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} funktioniert das System wieder.",
+        "ar": "{answer} funktioniert das System wieder.",
+        "en": "{answer} funktioniert das System wieder."
+      },
+      "acceptedAnswers": [
+        "Anscheinend"
+      ]
+    },
+    {
+      "id": "c1_u03_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Ergebnisse sind {answer} eindeutig.",
+        "ar": "Die Ergebnisse sind {answer} eindeutig.",
+        "en": "Die Ergebnisse sind {answer} eindeutig."
+      },
+      "acceptedAnswers": [
+        "keineswegs"
+      ]
+    },
+    {
+      "id": "c1_u03_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "dürfte",
+        "ar": "dürfte",
+        "en": "dürfte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "dürfte",
+            "ar": "يرجح",
+            "en": "is likely to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "müsste",
+            "ar": "ينبغي منطقيًا",
+            "en": "should/must logically"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "wohl",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u03_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "müsste",
+        "ar": "müsste",
+        "en": "müsste"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "müsste",
+            "ar": "ينبغي منطقيًا",
+            "en": "should/must logically"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "wohl",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "offenbar",
+            "ar": "على ما يبدو من قرائن",
+            "en": "apparently"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u03_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "wohl",
+        "ar": "wohl",
+        "en": "wohl"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wohl",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "offenbar",
+            "ar": "على ما يبدو من قرائن",
+            "en": "apparently"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "anscheinend",
+            "ar": "ظاهريًا",
+            "en": "seemingly"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u03_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "offenbar",
+        "ar": "offenbar",
+        "en": "offenbar"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "offenbar",
+            "ar": "على ما يبدو من قرائن",
+            "en": "apparently"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "anscheinend",
+            "ar": "ظاهريًا",
+            "en": "seemingly"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keineswegs",
+            "ar": "بأي حال",
+            "en": "by no means"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u03_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ dürfte = darf → epistemische Bedeutung im Kontext beachten\n• ❌ offenbar/anscheinend als völlig identisch behandeln\n• ❌ starke Schlussfolgerung bei schwacher Evidenz\n• ❌ Hedging so stark machen, dass Aussage inhaltsleer wird.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ dürfte = darf → epistemische Bedeutung im Kontext beachten\n• ❌ offenbar/anscheinend als völlig identisch behandeln\n• ❌ starke Schlussfolgerung bei schwacher Evidenz\n• ❌ Hedging so stark machen, dass Aussage inhaltsleer wird.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ dürfte = darf → epistemische Bedeutung im Kontext beachten\n• ❌ offenbar/anscheinend als völlig identisch behandeln\n• ❌ starke Schlussfolgerung bei schwacher Evidenz\n• ❌ Hedging so stark machen, dass Aussage inhaltsleer wird.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u03_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• dürfte = begründete Wahrscheinlichkeit; müsste = starke Inferenz\n• offenbar stützt sich eher auf erkennbare Indizien; anscheinend auf Erscheinungsbild\n• keineswegs weist Schlussfolgerung stark zurück; kaum reduziert Wahrscheinlichkeit\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• dürfte = begründete Wahrscheinlichkeit; müsste = starke Inferenz\n• offenbar stützt sich eher auf erkennbare Indizien; anscheinend auf Erscheinungsbild\n• keineswegs weist Schlussfolgerung stark zurück; kaum reduziert Wahrscheinlichkeit\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• dürfte = begründete Wahrscheinlichkeit; müsste = starke Inferenz\n• offenbar stützt sich eher auf erkennbare Indizien; anscheinend auf Erscheinungsbild\n• keineswegs weist Schlussfolgerung stark zurück; kaum reduziert Wahrscheinlichkeit\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u03_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Ordne zehn Aussagen auf einer Sicherheitsskala und formuliere jede in drei Stärken. Begründe die passende Evidenz für jede Stärke.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Ordne zehn Aussagen auf einer Sicherheitsskala und formuliere jede in drei Stärken. Begründe die passende Evidenz für jede Stärke.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Ordne zehn Aussagen auf einer Sicherheitsskala und formuliere jede in drei Stärken. Begründe die passende Evidenz für jede Stärke.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u03_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U03_CASEBOOK"
+      ]
+    }
+  ]
+}

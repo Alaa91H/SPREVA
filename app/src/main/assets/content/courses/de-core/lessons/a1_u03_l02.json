@@ -1,0 +1,154 @@
+{
+  "id": "a1_u03_l02",
+  "unitId": "de-core-a1-u03",
+  "title": {
+    "de": "Einen Termin vereinbaren und verstehen",
+    "ar": "حجز موعد وفهمه",
+    "en": "Arranging and understanding an appointment"
+  },
+  "canDo": [
+    "A1_U03_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u03_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Einen Termin vereinbaren und verstehen",
+        "ar": "حجز موعد وفهمه",
+        "en": "Arranging and understanding an appointment"
+      },
+      "body": {
+        "de": "Realsituation:\nArzt, Bürgerbüro, Kurs oder Werkstatt: nach freiem Termin fragen, Datum und Uhrzeit bestätigen, Verspätung mitteilen.\n\nModelldialog:\nA: Haben Sie am Mittwoch einen Termin frei?\nB: Ja, um 14 Uhr.\nA: Das passt. Mittwoch um 14 Uhr.\nB: Genau. Bitte seien Sie zehn Minuten früher da.\n\nSprachfokus:\nFür Uhrzeiten verwendet man meist „um“: um 9 Uhr. Für Wochentage und Tagesabschnitte: am Montag, am Vormittag. Das Verb bleibt im Hauptsatz an Position 2: „Am Montag habe ich Zeit.“\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nالطبيب أو البلدية أو الدورة أو الورشة: السؤال عن موعد متاح، تأكيد التاريخ والوقت، وإبلاغ التأخير.\n\nحوار نموذجي:\nA: Haben Sie am Mittwoch einen Termin frei?\nB: Ja, um 14 Uhr.\nA: Das passt. Mittwoch um 14 Uhr.\nB: Genau. Bitte seien Sie zehn Minuten früher da.\n\nالتركيز اللغوي:\nللوقت نستخدم غالبًا um مثل um 9 Uhr، ولأيام الأسبوع وأجزاء اليوم نستخدم am مثل am Montag. يبقى الفعل في الجملة الرئيسية بالموقع الثاني: Am Montag habe ich Zeit.\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nDoctor, public office, course or workshop: ask for an available appointment, confirm date and time, report a delay.\n\nModel dialogue:\nA: Haben Sie am Mittwoch einen Termin frei?\nB: Ja, um 14 Uhr.\nA: Das passt. Mittwoch um 14 Uhr.\nB: Genau. Bitte seien Sie zehn Minuten früher da.\n\nLanguage focus:\nUse um for clock time: um 9 Uhr. Use am for weekdays and parts of the day: am Montag, am Vormittag. The conjugated verb stays in position 2: “Am Montag habe ich Zeit.”\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u03_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u03_l02_w1",
+          "german": "morgen",
+          "translation": {
+            "de": "tomorrow",
+            "ar": "غدًا",
+            "en": "tomorrow"
+          }
+        },
+        {
+          "id": "a1_u03_l02_w2",
+          "german": "pünktlich",
+          "translation": {
+            "de": "punctual",
+            "ar": "في الموعد",
+            "en": "punctual"
+          }
+        },
+        {
+          "id": "a1_u03_l02_w3",
+          "german": "später",
+          "translation": {
+            "de": "later",
+            "ar": "لاحقًا / متأخرًا",
+            "en": "later"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u03_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Für Uhrzeiten verwendet man meist „um“: um 9 Uhr. Für Wochentage und Tagesabschnitte: am Montag, am Vormittag. Das Verb bleibt im Hauptsatz an Position 2: „Am Montag habe ich Zeit.“\n\nBeispiele:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs.",
+        "ar": "قاعدة مختصرة: للوقت نستخدم غالبًا um مثل um 9 Uhr، ولأيام الأسبوع وأجزاء اليوم نستخدم am مثل am Montag. يبقى الفعل في الجملة الرئيسية بالموقع الثاني: Am Montag habe ich Zeit.\n\nالأمثلة:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs.",
+        "en": "Key rule: Use um for clock time: um 9 Uhr. Use am for weekdays and parts of the day: am Montag, am Vormittag. The conjugated verb stays in position 2: “Am Montag habe ich Zeit.”\n\nExamples:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs."
+      }
+    },
+    {
+      "id": "a1_u03_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "morgen",
+        "ar": "morgen",
+        "en": "morgen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "tomorrow",
+            "ar": "غدًا",
+            "en": "tomorrow"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "punctual",
+            "ar": "في الموعد",
+            "en": "punctual"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "later",
+            "ar": "لاحقًا / متأخرًا",
+            "en": "later"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u03_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir treffen uns {answer} Montag.",
+        "ar": "Wir treffen uns {answer} Montag.",
+        "en": "Wir treffen uns {answer} Montag."
+      },
+      "acceptedAnswers": [
+        "am"
+      ]
+    },
+    {
+      "id": "a1_u03_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Einen Termin vereinbaren und verstehen“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «حجز موعد وفهمه». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Arranging and understanding an appointment”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u03_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U03_REAL_LIFE"
+      ]
+    }
+  ]
+}

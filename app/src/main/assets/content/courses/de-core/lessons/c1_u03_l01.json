@@ -1,0 +1,155 @@
+{
+  "id": "c1_u03_l01",
+  "unitId": "de-core-c1-u03",
+  "title": {
+    "de": "dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs",
+    "ar": "dürfte وmüsste وsollte وwohl وoffenbar وanscheinend وkaum وkeineswegs",
+    "en": "dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs"
+  },
+  "canDo": [
+    "C1_U03_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u03_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs",
+        "ar": "dürfte وmüsste وsollte وwohl وoffenbar وanscheinend وkaum وkeineswegs",
+        "en": "dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs\n\nSystematische Erklärung:\nC1-Sprache graduiert Aussagen. „dürfte“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.\n\nReferenzbeispiele:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig.\n\nAuthentische Einsatzfelder:\nForschung, Bericht, Diagnosegespräch, Technik oder Strategie: Unsicherheit transparent machen, ohne vage oder übertrieben sicher zu klingen.\n\nDiagnostischer Hinweis:\nUnsicherheitsmarker nicht als Schutzschild gegen jede Verantwortung verwenden. Formulierung, Datenlage und Quelle müssen zusammenpassen; bei hoher Unsicherheit sollte auch die Begründung genannt werden.",
+        "ar": "هدف C1: dürfte وmüsste وsollte وwohl وoffenbar وanscheinend وkaum وkeineswegs\n\nشرح منهجي عميق:\nلغة C1 تدرج قوة الادعاء: dürfte لاحتمال مبرر، müsste لاستنتاج قوي، wohl لافتراض متوسط، offenbar لما يبدو واضحًا من المؤشرات، anscheinend للمظهر الخارجي. kaum يخفض الاحتمال وkeineswegs ينفي الاستنتاج بقوة. يجب أن تتناسب قوة العبارة مع الدليل.\n\nأمثلة مرجعية:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig.\n\nمجالات استخدام واقعية:\nفي البحث أو التقرير أو الحوار التشخيصي أو التقنية أو الاستراتيجية: إظهار عدم اليقين دون غموض أو ادعاء ثقة زائدة.\n\nملاحظة تشخيصية:\nلا تستخدم عبارات عدم اليقين كغطاء دائم. يجب أن تتطابق الصياغة مع جودة البيانات والمصدر، ومع ارتفاع عدم اليقين اذكر سبب ذلك.",
+        "en": "C1 competence goal: dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs\n\nSystematic explanation:\nC1 language grades claims. dürfte signals reasoned probability; müsste a strong inference; wohl a moderate assumption; offenbar an inference from evidence; anscheinend outward appearance. kaum lowers probability; keineswegs strongly rejects a conclusion. Wording strength should match the evidence.\n\nReference examples:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig.\n\nAuthentic domains:\nResearch, reports, diagnostic conversations, technology or strategy: make uncertainty transparent without sounding vague or overconfident.\n\nDiagnostic note:\nDo not use hedging as a shield against all responsibility. Wording, evidence quality and source must align; with high uncertainty, explain why."
+      }
+    },
+    {
+      "id": "c1_u03_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u03_l01_w1",
+          "german": "offenbar",
+          "translation": {
+            "de": "apparently/evidently",
+            "ar": "على ما يبدو بوضوح من القرائن",
+            "en": "apparently/evidently"
+          }
+        },
+        {
+          "id": "c1_u03_l01_w2",
+          "german": "anscheinend",
+          "translation": {
+            "de": "seemingly",
+            "ar": "ظاهريًا",
+            "en": "seemingly"
+          }
+        },
+        {
+          "id": "c1_u03_l01_w3",
+          "german": "keineswegs",
+          "translation": {
+            "de": "by no means",
+            "ar": "بأي حال من الأحوال",
+            "en": "by no means"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u03_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nC1-Sprache graduiert Aussagen. „dürfte“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.\n\nBeispiele:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig.",
+        "ar": "المبدأ الأساسي:\nلغة C1 تدرج قوة الادعاء: dürfte لاحتمال مبرر، müsste لاستنتاج قوي، wohl لافتراض متوسط، offenbar لما يبدو واضحًا من المؤشرات، anscheinend للمظهر الخارجي. kaum يخفض الاحتمال وkeineswegs ينفي الاستنتاج بقوة. يجب أن تتناسب قوة العبارة مع الدليل.\n\nالأمثلة:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig.",
+        "en": "Core principle:\nC1 language grades claims. dürfte signals reasoned probability; müsste a strong inference; wohl a moderate assumption; offenbar an inference from evidence; anscheinend outward appearance. kaum lowers probability; keineswegs strongly rejects a conclusion. Wording strength should match the evidence.\n\nExamples:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig."
+      }
+    },
+    {
+      "id": "c1_u03_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "offenbar",
+        "ar": "offenbar",
+        "en": "offenbar"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "apparently/evidently",
+            "ar": "على ما يبدو بوضوح من القرائن",
+            "en": "apparently/evidently"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "seemingly",
+            "ar": "ظاهريًا",
+            "en": "seemingly"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "by no means",
+            "ar": "بأي حال من الأحوال",
+            "en": "by no means"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u03_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Änderung {answer} erhebliche Folgen haben.",
+        "ar": "Die Änderung {answer} erhebliche Folgen haben.",
+        "en": "Die Änderung {answer} erhebliche Folgen haben."
+      },
+      "acceptedAnswers": [
+        "dürfte",
+        "duerfte"
+      ]
+    },
+    {
+      "id": "c1_u03_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Modale Feinabstufung & epistemische Distanz“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «تدرج الموقف واليقين والمسافة المعرفية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Modal nuance & epistemic distance”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u03_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U03_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "b1_u05_l02",
+  "unitId": "de-core-b1-u05",
+  "title": {
+    "de": "Absicht, Alternative und Begleitumstände ausdrücken",
+    "ar": "التعبير عن الهدف والبديل والظروف",
+    "en": "Expressing purpose, alternatives and accompanying circumstances"
+  },
+  "canDo": [
+    "B1_U05_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u05_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Absicht, Alternative und Begleitumstände ausdrücken",
+        "ar": "التعبير عن الهدف والبديل والظروف",
+        "en": "Expressing purpose, alternatives and accompanying circumstances"
+      },
+      "body": {
+        "de": "Authentische Situation:\nArbeit, Lernen, Gesundheit und Organisation: Ziele formulieren, Schritte erklären und bessere Alternativen beschreiben.\n\nModelldialog:\nA: Warum machst du den Kurs?\nB: Um meine Chancen auf dem Arbeitsmarkt zu verbessern.\nA: Lernst du jeden Tag?\nB: Ja, ich versuche, mindestens dreißig Minuten zu üben.\n\nSprachliche Entscheidung:\nInfinitivsätze mit zu werden häufig verwendet, wenn Subjekt/Handelnder im Haupt- und Nebenteil zusammenpasst: Ich versuche, pünktlich zu kommen. „um … zu“ drückt Zweck aus. „ohne … zu“ = etwas nicht tun; „statt … zu“ = Alternative.\n\nTransfer: Führe denselben Austausch mit neuen Daten. Ergänze eine Begründung, eine Rückfrage und eine angemessene Reaktion.",
+        "ar": "موقف واقعي:\nالعمل والتعلم والصحة والتنظيم: صياغة الأهداف وشرح الخطوات والبدائل الأفضل.\n\nحوار نموذجي:\nA: Warum machst du den Kurs?\nB: Um meine Chancen auf dem Arbeitsmarkt zu verbessern.\nA: Lernst du jeden Tag?\nB: Ja, ich versuche, mindestens dreißig Minuten zu üben.\n\nالقرار اللغوي:\nتراكيب zu تُستخدم عندما يكون الفاعل نفسه غالبًا: Ich versuche, pünktlich zu kommen. وum…zu للهدف، ohne…zu لعدم فعل شيء، statt…zu للبديل.\n\nتطبيق: أعد الحوار ببيانات جديدة، وأضف تعليلًا وسؤال متابعة وردًا مناسبًا.",
+        "en": "Authentic situation:\nWork, learning, health and organization: formulate goals, explain steps and describe better alternatives.\n\nModel dialogue:\nA: Warum machst du den Kurs?\nB: Um meine Chancen auf dem Arbeitsmarkt zu verbessern.\nA: Lernst du jeden Tag?\nB: Ja, ich versuche, mindestens dreißig Minuten zu üben.\n\nLanguage choice:\nzu-infinitive clauses are common when the implied subject is shared: Ich versuche, pünktlich zu kommen. um…zu expresses purpose, ohne…zu absence of an action, statt…zu an alternative.\n\nTransfer: Repeat the exchange with new details, adding a reason, follow-up question and appropriate response."
+      }
+    },
+    {
+      "id": "b1_u05_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u05_l02_w1",
+          "german": "statt",
+          "translation": {
+            "de": "instead of",
+            "ar": "بدلًا من",
+            "en": "instead of"
+          }
+        },
+        {
+          "id": "b1_u05_l02_w2",
+          "german": "ohne",
+          "translation": {
+            "de": "without",
+            "ar": "دون",
+            "en": "without"
+          }
+        },
+        {
+          "id": "b1_u05_l02_w3",
+          "german": "verbessern",
+          "translation": {
+            "de": "improve",
+            "ar": "يحسن",
+            "en": "improve"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u05_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nInfinitivsätze mit zu werden häufig verwendet, wenn Subjekt/Handelnder im Haupt- und Nebenteil zusammenpasst: Ich versuche, pünktlich zu kommen. „um … zu“ drückt Zweck aus. „ohne … zu“ = etwas nicht tun; „statt … zu“ = Alternative.\n\nKontrastive Beispiele:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail.",
+        "ar": "القاعدة:\nتراكيب zu تُستخدم عندما يكون الفاعل نفسه غالبًا: Ich versuche, pünktlich zu kommen. وum…zu للهدف، ohne…zu لعدم فعل شيء، statt…zu للبديل.\n\nأمثلة:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail.",
+        "en": "Rule:\nzu-infinitive clauses are common when the implied subject is shared: Ich versuche, pünktlich zu kommen. um…zu expresses purpose, ohne…zu absence of an action, statt…zu an alternative.\n\nExamples:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail."
+      }
+    },
+    {
+      "id": "b1_u05_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "statt",
+        "ar": "statt",
+        "en": "statt"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "instead of",
+            "ar": "بدلًا من",
+            "en": "instead of"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "without",
+            "ar": "دون",
+            "en": "without"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "improve",
+            "ar": "يحسن",
+            "en": "improve"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u05_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er ging, ohne sich zu {answer}.",
+        "ar": "Er ging, ohne sich zu {answer}.",
+        "en": "Er ging, ohne sich zu {answer}."
+      },
+      "acceptedAnswers": [
+        "verabschieden"
+      ]
+    },
+    {
+      "id": "b1_u05_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Ziele & Infinitivkonstruktionen“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الأهداف وتراكيب المصدر». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Goals & infinitive constructions”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u05_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U05_REAL_LIFE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "a2_u03_l03",
+  "unitId": "de-core-a2-u03",
+  "title": {
+    "de": "Intensivtraining: Gründe & Aussagen mit weil/dass",
+    "ar": "تدريب مكثف: الأسباب والجمل مع weil/dass",
+    "en": "Mastery lab: Reasons & statements with weil/dass"
+  },
+  "canDo": [
+    "A2_U03_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u03_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Gründe & Aussagen mit weil/dass“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «الأسباب والجمل مع weil/dass». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Reasons & statements with weil/dass”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u03_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u03_l03_w1",
+          "german": "der Grund",
+          "translation": {
+            "de": "reason",
+            "ar": "السبب",
+            "en": "reason"
+          }
+        },
+        {
+          "id": "a2_u03_l03_w2",
+          "german": "weil",
+          "translation": {
+            "de": "because",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "a2_u03_l03_w3",
+          "german": "dass",
+          "translation": {
+            "de": "that",
+            "ar": "أنّ",
+            "en": "that"
+          }
+        },
+        {
+          "id": "a2_u03_l03_w4",
+          "german": "glauben",
+          "translation": {
+            "de": "believe",
+            "ar": "يعتقد",
+            "en": "believe"
+          }
+        },
+        {
+          "id": "a2_u03_l03_w5",
+          "german": "wissen",
+          "translation": {
+            "de": "know",
+            "ar": "يعرف",
+            "en": "know"
+          }
+        },
+        {
+          "id": "a2_u03_l03_w6",
+          "german": "absagen",
+          "translation": {
+            "de": "cancel",
+            "ar": "يلغي / يعتذر",
+            "en": "cancel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u03_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bleibe zu Hause, weil ich krank {answer}.",
+        "ar": "Ich bleibe zu Hause, weil ich krank {answer}.",
+        "en": "Ich bleibe zu Hause, weil ich krank {answer}."
+      },
+      "acceptedAnswers": [
+        "bin"
+      ]
+    },
+    {
+      "id": "a2_u03_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich glaube, dass der Termin morgen {answer}.",
+        "ar": "Ich glaube, dass der Termin morgen {answer}.",
+        "en": "Ich glaube, dass der Termin morgen {answer}."
+      },
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "a2_u03_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In Nebensätzen mit weil oder dass steht das konjugierte Verb am Ende: Ich bleibe zu Hause, weil ich krank bin. Ich glaube, dass {answer} Termin morgen ist. Der Hauptsatz behält die normale Verbzweitstellung.",
+        "ar": "In Nebensätzen mit weil oder dass steht das konjugierte Verb am Ende: Ich bleibe zu Hause, weil ich krank bin. Ich glaube, dass {answer} Termin morgen ist. Der Hauptsatz behält die normale Verbzweitstellung.",
+        "en": "In Nebensätzen mit weil oder dass steht das konjugierte Verb am Ende: Ich bleibe zu Hause, weil ich krank bin. Ich glaube, dass {answer} Termin morgen ist. Der Hauptsatz behält die normale Verbzweitstellung."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u03_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich komme später, weil {answer} Zug Verspätung hat.",
+        "ar": "Ich komme später, weil {answer} Zug Verspätung hat.",
+        "en": "Ich komme später, weil {answer} Zug Verspätung hat."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u03_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich weiß, dass {answer} Kurs um neun beginnt.",
+        "ar": "Ich weiß, dass {answer} Kurs um neun beginnt.",
+        "en": "Ich weiß, dass {answer} Kurs um neun beginnt."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u03_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie sagt, {answer} sie krank ist.",
+        "ar": "Sie sagt, {answer} sie krank ist.",
+        "en": "Sie sagt, {answer} sie krank ist."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "a2_u03_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Grund",
+        "ar": "der Grund",
+        "en": "der Grund"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reason",
+            "ar": "السبب",
+            "en": "reason"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "because",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "that",
+            "ar": "أنّ",
+            "en": "that"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u03_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "glauben",
+        "ar": "glauben",
+        "en": "glauben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "believe",
+            "ar": "يعتقد",
+            "en": "believe"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "know",
+            "ar": "يعرف",
+            "en": "know"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "cancel",
+            "ar": "يلغي / يعتذر",
+            "en": "cancel"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u03_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. In Nebensätzen mit weil oder dass steht das konjugierte Verb am Ende: Ich bleibe zu Hause, weil ich krank bin. Ich glaube, dass der Termin morgen ist. Der Hauptsatz behält die normale Verbzweitstellung.\n2. Ich komme später, weil der Zug Verspätung hat.\n3. Ich weiß, dass der Kurs um neun beginnt.\n4. Sie sagt, dass sie krank ist.\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. In Nebensätzen mit weil oder dass steht das konjugierte Verb am Ende: Ich bleibe zu Hause, weil ich krank bin. Ich glaube, dass der Termin morgen ist. Der Hauptsatz behält die normale Verbzweitstellung.\n2. Ich komme später, weil der Zug Verspätung hat.\n3. Ich weiß, dass der Kurs um neun beginnt.\n4. Sie sagt, dass sie krank ist.\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا متأثرًا باللغة الأم، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. In Nebensätzen mit weil oder dass steht das konjugierte Verb am Ende: Ich bleibe zu Hause, weil ich krank bin. Ich glaube, dass der Termin morgen ist. Der Hauptsatz behält die normale Verbzweitstellung.\n2. Ich komme später, weil der Zug Verspätung hat.\n3. Ich weiß, dass der Kurs um neun beginnt.\n4. Sie sagt, dass sie krank ist.\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u03_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren. Zu jeder Änderung die Regel laut begründen.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات بعد تغيير بداية الجملة. علّل كل تغيير.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order after changing the prefield. Explain every change."
+      }
+    },
+    {
+      "id": "a2_u03_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; nach 10–20 Minuten neue Beispiele; am nächsten Lerntag gemischt mit einer älteren Kasus-/Tempusregel; schließlich in einer realen Nachricht oder einem Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ بعد 10–20 دقيقة أنشئ أمثلة جديدة؛ في يوم التعلم التالي امزجها مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve now unaided; after 10–20 minutes create new examples; next study day interleave with an older case/tense rule; finally use it in a real message or role-play."
+      }
+    },
+    {
+      "id": "a2_u03_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U03_MASTERY"
+      ]
+    }
+  ]
+}

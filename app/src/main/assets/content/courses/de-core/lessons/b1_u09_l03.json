@@ -1,0 +1,296 @@
+{
+  "id": "b1_u09_l03",
+  "unitId": "de-core-b1-u09",
+  "title": {
+    "de": "Intensivtraining: Arbeitsplatz & Besprechungen",
+    "ar": "تدريب مكثف: مكان العمل والاجتماعات",
+    "en": "Mastery lab: Workplace & meetings"
+  },
+  "canDo": [
+    "B1_U09_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u09_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Arbeitsplatz & Besprechungen“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz in eine zweite Struktur umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «مكان العمل والاجتماعات». بعد كل حل اشرح القرار النحوي وحوّل الجملة إلى بنية ثانية ثم عبّر عن المعنى في موقف واقعي جديد.",
+        "en": "Deepen “Workplace & meetings”. After each solution explain the grammatical choice, transform the sentence into a second structure and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u09_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u09_l03_w1",
+          "german": "die Besprechung",
+          "translation": {
+            "de": "meeting",
+            "ar": "الاجتماع",
+            "en": "meeting"
+          }
+        },
+        {
+          "id": "b1_u09_l03_w2",
+          "german": "der Vorschlag",
+          "translation": {
+            "de": "proposal",
+            "ar": "الاقتراح",
+            "en": "proposal"
+          }
+        },
+        {
+          "id": "b1_u09_l03_w3",
+          "german": "zustimmen",
+          "translation": {
+            "de": "agree",
+            "ar": "يوافق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "b1_u09_l03_w4",
+          "german": "ablehnen",
+          "translation": {
+            "de": "reject",
+            "ar": "يرفض",
+            "en": "reject"
+          }
+        },
+        {
+          "id": "b1_u09_l03_w5",
+          "german": "festhalten",
+          "translation": {
+            "de": "record",
+            "ar": "يثبت/يدون",
+            "en": "record"
+          }
+        },
+        {
+          "id": "b1_u09_l03_w6",
+          "german": "verschieben",
+          "translation": {
+            "de": "postpone",
+            "ar": "يؤجل",
+            "en": "postpone"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u09_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich schlage vor, {answer} wir den Termin verschieben.",
+        "ar": "Ich schlage vor, {answer} wir den Termin verschieben.",
+        "en": "Ich schlage vor, {answer} wir den Termin verschieben."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "b1_u09_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} dem Vorschlag zu.",
+        "ar": "Ich {answer} dem Vorschlag zu.",
+        "en": "Ich {answer} dem Vorschlag zu."
+      },
+      "acceptedAnswers": [
+        "stimme"
+      ]
+    },
+    {
+      "id": "b1_u09_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich schlage vor, dass wir {answer} Termin verschieben.",
+        "ar": "Ich schlage vor, dass wir {answer} Termin verschieben.",
+        "en": "Ich schlage vor, dass wir {answer} Termin verschieben."
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "b1_u09_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stimme {answer} Vorschlag zu.",
+        "ar": "Ich stimme {answer} Vorschlag zu.",
+        "en": "Ich stimme {answer} Vorschlag zu."
+      },
+      "acceptedAnswers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "b1_u09_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Frau Klein sagt, dass {answer} Lieferung morgen kommt.",
+        "ar": "Frau Klein sagt, dass {answer} Lieferung morgen kommt.",
+        "en": "Frau Klein sagt, dass {answer} Lieferung morgen kommt."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b1_u09_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Teammeeting, Schichtübergabe oder Projekt: Vorschläge machen, Zustimmung/Ablehnung begründen, Aufgaben {answer} Termine festhalten.",
+        "ar": "Teammeeting, Schichtübergabe oder Projekt: Vorschläge machen, Zustimmung/Ablehnung begründen, Aufgaben {answer} Termine festhalten.",
+        "en": "Teammeeting, Schichtübergabe oder Projekt: Vorschläge machen, Zustimmung/Ablehnung begründen, Aufgaben {answer} Termine festhalten."
+      },
+      "acceptedAnswers": [
+        "und"
+      ]
+    },
+    {
+      "id": "b1_u09_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "die Besprechung",
+        "ar": "die Besprechung",
+        "en": "die Besprechung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "meeting",
+            "ar": "الاجتماع",
+            "en": "meeting"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "proposal",
+            "ar": "الاقتراح",
+            "en": "proposal"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "agree",
+            "ar": "يوافق",
+            "en": "agree"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u09_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "ablehnen",
+        "ar": "ablehnen",
+        "en": "ablehnen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reject",
+            "ar": "يرفض",
+            "en": "reject"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "record",
+            "ar": "يثبت/يدون",
+            "en": "record"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "postpone",
+            "ar": "يؤجل",
+            "en": "postpone"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u09_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Ich schlage vor, dass wir den Termin verschieben.\n2. Ich stimme dem Vorschlag zu.\n3. Frau Klein sagt, dass die Lieferung morgen kommt.\n4. Teammeeting, Schichtübergabe oder Projekt: Vorschläge machen, Zustimmung/Ablehnung begründen, Aufgaben und Termine festhalten.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp, korrigiere und bilde danach eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Ich schlage vor, dass wir den Termin verschieben.\n2. Ich stimme dem Vorschlag zu.\n3. Frau Klein sagt, dass die Lieferung morgen kommt.\n4. Teammeeting, Schichtübergabe oder Projekt: Vorschläge machen, Zustimmung/Ablehnung begründen, Aufgaben und Termine festhalten.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة، سمِّ نوع الخطأ، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Ich schlage vor, dass wir den Termin verschieben.\n2. Ich stimme dem Vorschlag zu.\n3. Frau Klein sagt, dass die Lieferung morgen kommt.\n4. Teammeeting, Schichtübergabe oder Projekt: Vorschläge machen, Zustimmung/Ablehnung begründen, Aufgaben und Termine festhalten.\n\nCreate one plausible wrong form for each pattern, name the error type, correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u09_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان قصيرتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; two short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u09_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische die Zielstruktur mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten mit mindestens drei Zielstrukturen, zwei Konnektoren, einer Rückfrage und einer Selbstkorrektur.",
+        "ar": "امزج البنية مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين مستخدمًا ثلاث بنيات مستهدفة ورابطين وسؤال متابعة وتصحيحًا ذاتيًا.",
+        "en": "Interleave with two earlier B1 topics. Write 80–120 words or speak for two minutes using three target structures, two connectors, one follow-up question and one self-correction."
+      }
+    },
+    {
+      "id": "b1_u09_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U09_MASTERY"
+      ]
+    }
+  ]
+}

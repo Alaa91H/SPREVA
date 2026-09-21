@@ -1,0 +1,378 @@
+{
+  "id": "b1_u01_l04",
+  "unitId": "de-core-b1-u01",
+  "title": {
+    "de": "Falltraining: Erzählen & zeitliche Zusammenhänge",
+    "ar": "تدريب الحالات: السرد والعلاقات الزمنية",
+    "en": "Casebook: Narration & time relationships"
+  },
+  "canDo": [
+    "B1_U01_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u01_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Erzählen & zeitliche Zusammenhänge\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• nachdem = Vorzeitigkeit; bevor = spätere Handlung aus Sicht des Nebensatzes\n• während = Gleichzeitigkeit oder Kontrast\n• Nebensatz zuerst → Hauptsatz mit Verb direkt nach Komma",
+        "ar": "الموضوع: السرد والعلاقات الزمنية\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• nachdem = Vorzeitigkeit; bevor = spätere Handlung aus Sicht des Nebensatzes\n• während = Gleichzeitigkeit oder Kontrast\n• Nebensatz zuerst → Hauptsatz mit Verb direkt nach Komma",
+        "en": "Topic: Narration & time relationships\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• nachdem = Vorzeitigkeit; bevor = spätere Handlung aus Sicht des Nebensatzes\n• während = Gleichzeitigkeit oder Kontrast\n• Nebensatz zuerst → Hauptsatz mit Verb direkt nach Komma"
+      }
+    },
+    {
+      "id": "b1_u01_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u01_l04_w1",
+          "german": "nachdem",
+          "translation": {
+            "de": "nachdem",
+            "ar": "بعد أن",
+            "en": "after"
+          }
+        },
+        {
+          "id": "b1_u01_l04_w2",
+          "german": "bevor",
+          "translation": {
+            "de": "bevor",
+            "ar": "قبل أن",
+            "en": "before"
+          }
+        },
+        {
+          "id": "b1_u01_l04_w3",
+          "german": "während",
+          "translation": {
+            "de": "während",
+            "ar": "بينما",
+            "en": "while"
+          }
+        },
+        {
+          "id": "b1_u01_l04_w4",
+          "german": "zuerst",
+          "translation": {
+            "de": "zuerst",
+            "ar": "أولًا",
+            "en": "first"
+          }
+        },
+        {
+          "id": "b1_u01_l04_w5",
+          "german": "anschließend",
+          "translation": {
+            "de": "anschließend",
+            "ar": "بعد ذلك",
+            "en": "subsequently"
+          }
+        },
+        {
+          "id": "b1_u01_l04_w6",
+          "german": "schließlich",
+          "translation": {
+            "de": "schließlich",
+            "ar": "أخيرًا",
+            "en": "finally"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u01_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich angekommen war, rief ich an.",
+        "ar": "{answer} ich angekommen war, rief ich an.",
+        "en": "{answer} ich angekommen war, rief ich an."
+      },
+      "acceptedAnswers": [
+        "Nachdem"
+      ]
+    },
+    {
+      "id": "b1_u01_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich losfuhr, prüfte ich die Adresse.",
+        "ar": "{answer} ich losfuhr, prüfte ich die Adresse.",
+        "en": "{answer} ich losfuhr, prüfte ich die Adresse."
+      },
+      "acceptedAnswers": [
+        "Bevor"
+      ]
+    },
+    {
+      "id": "b1_u01_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich wartete, las ich die Unterlagen.",
+        "ar": "{answer} ich wartete, las ich die Unterlagen.",
+        "en": "{answer} ich wartete, las ich die Unterlagen."
+      },
+      "acceptedAnswers": [
+        "Während"
+      ]
+    },
+    {
+      "id": "b1_u01_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} erledigte ich die wichtigsten Aufgaben.",
+        "ar": "{answer} erledigte ich die wichtigsten Aufgaben.",
+        "en": "{answer} erledigte ich die wichtigsten Aufgaben."
+      },
+      "acceptedAnswers": [
+        "Zuerst"
+      ]
+    },
+    {
+      "id": "b1_u01_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} schrieb ich den Bericht.",
+        "ar": "{answer} schrieb ich den Bericht.",
+        "en": "{answer} schrieb ich den Bericht."
+      },
+      "acceptedAnswers": [
+        "Anschließend"
+      ]
+    },
+    {
+      "id": "b1_u01_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} konnte ich nach Hause gehen.",
+        "ar": "{answer} konnte ich nach Hause gehen.",
+        "en": "{answer} konnte ich nach Hause gehen."
+      },
+      "acceptedAnswers": [
+        "Schließlich"
+      ]
+    },
+    {
+      "id": "b1_u01_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "nachdem",
+        "ar": "nachdem",
+        "en": "nachdem"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "nachdem",
+            "ar": "بعد أن",
+            "en": "after"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bevor",
+            "ar": "قبل أن",
+            "en": "before"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "während",
+            "ar": "بينما",
+            "en": "while"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u01_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "bevor",
+        "ar": "bevor",
+        "en": "bevor"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bevor",
+            "ar": "قبل أن",
+            "en": "before"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "während",
+            "ar": "بينما",
+            "en": "while"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zuerst",
+            "ar": "أولًا",
+            "en": "first"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u01_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "während",
+        "ar": "während",
+        "en": "während"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "während",
+            "ar": "بينما",
+            "en": "while"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zuerst",
+            "ar": "أولًا",
+            "en": "first"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "anschließend",
+            "ar": "بعد ذلك",
+            "en": "subsequently"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u01_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "zuerst",
+        "ar": "zuerst",
+        "en": "zuerst"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zuerst",
+            "ar": "أولًا",
+            "en": "first"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "anschließend",
+            "ar": "بعد ذلك",
+            "en": "subsequently"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schließlich",
+            "ar": "أخيرًا",
+            "en": "finally"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u01_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ Nachdem ich war angekommen → ✅ Nachdem ich angekommen war.\n• ❌ Bevor ich habe gegangen → ✅ Bevor ich gegangen bin / bevor ich ging.\n• ❌ Während ich gewartet habe, ich las … → ✅ … las ich …\n• ❌ zuerst/danach ohne klare Chronologie kann Geschichte unübersichtlich machen.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ Nachdem ich war angekommen → ✅ Nachdem ich angekommen war.\n• ❌ Bevor ich habe gegangen → ✅ Bevor ich gegangen bin / bevor ich ging.\n• ❌ Während ich gewartet habe, ich las … → ✅ … las ich …\n• ❌ zuerst/danach ohne klare Chronologie kann Geschichte unübersichtlich machen.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ Nachdem ich war angekommen → ✅ Nachdem ich angekommen war.\n• ❌ Bevor ich habe gegangen → ✅ Bevor ich gegangen bin / bevor ich ging.\n• ❌ Während ich gewartet habe, ich las … → ✅ … las ich …\n• ❌ zuerst/danach ohne klare Chronologie kann Geschichte unübersichtlich machen.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u01_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• nachdem = Vorzeitigkeit; bevor = spätere Handlung aus Sicht des Nebensatzes\n• während = Gleichzeitigkeit oder Kontrast\n• Nebensatz zuerst → Hauptsatz mit Verb direkt nach Komma\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• nachdem = Vorzeitigkeit; bevor = spätere Handlung aus Sicht des Nebensatzes\n• während = Gleichzeitigkeit oder Kontrast\n• Nebensatz zuerst → Hauptsatz mit Verb direkt nach Komma\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• nachdem = Vorzeitigkeit; bevor = spätere Handlung aus Sicht des Nebensatzes\n• während = Gleichzeitigkeit oder Kontrast\n• Nebensatz zuerst → Hauptsatz mit Verb direkt nach Komma\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u01_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Erzähle Unfall, Arbeitstag und Reise jeweils in 8–10 Sätzen. Ordne Ereignisse neu und erkläre, warum nachdem/bevor/während jeweils passt.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Erzähle Unfall, Arbeitstag und Reise jeweils in 8–10 Sätzen. Ordne Ereignisse neu und erkläre, warum nachdem/bevor/während jeweils passt.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Erzähle Unfall, Arbeitstag und Reise jeweils in 8–10 Sätzen. Ordne Ereignisse neu und erkläre, warum nachdem/bevor/während jeweils passt.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u01_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U01_CASEBOOK"
+      ]
+    }
+  ]
+}

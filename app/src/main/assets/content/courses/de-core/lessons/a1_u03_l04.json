@@ -1,0 +1,378 @@
+{
+  "id": "a1_u03_l04",
+  "unitId": "de-core-a1-u03",
+  "title": {
+    "de": "Falltraining: Zahlen, Uhrzeit & Termine",
+    "ar": "تدريب الحالات: الأرقام والوقت والمواعيد",
+    "en": "Casebook: Numbers, time & appointments"
+  },
+  "canDo": [
+    "A1_U03_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u03_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Casebook — ähnliche Fälle sicher unterscheiden",
+        "ar": "دفتر الحالات — التمييز الآمن بين الحالات المتشابهة",
+        "en": "Casebook — distinguish similar cases"
+      },
+      "body": {
+        "de": "Thema: Zahlen, Uhrzeit & Termine\n\nZiel: Nicht nur einen Mustersatz kennen, sondern ähnliche Formen gegeneinander abgrenzen. Arbeite jeden Fall dreifach: korrekt ergänzen → Regel laut erklären → neue Variante bilden.\n\nKontrastpunkte:\n• um + Uhrzeit / am + Wochentag/Datum\n• halb neun = 30 Minuten vor neun\n• Viertel vor / Viertel nach + nächste/aktuelle Stunde unterscheiden",
+        "ar": "الموضوع: الأرقام والوقت والمواعيد\n\nالهدف: عدم الاكتفاء بجملة نموذجية واحدة، بل التمييز بين الصيغ المتشابهة. اعمل على كل حالة بثلاث خطوات: أكملها بشكل صحيح ← اشرح القاعدة ← أنشئ مثالًا جديدًا.\n\nنقاط المقارنة:\n• um + Uhrzeit / am + Wochentag/Datum\n• halb neun = 30 Minuten vor neun\n• Viertel vor / Viertel nach + nächste/aktuelle Stunde unterscheiden",
+        "en": "Topic: Numbers, time & appointments\n\nGoal: go beyond one model sentence and discriminate similar forms. Work each case in three steps: complete correctly → explain the rule aloud → create a new variant.\n\nContrast points:\n• um + Uhrzeit / am + Wochentag/Datum\n• halb neun = 30 Minuten vor neun\n• Viertel vor / Viertel nach + nächste/aktuelle Stunde unterscheiden"
+      }
+    },
+    {
+      "id": "a1_u03_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u03_l04_w1",
+          "german": "die Uhr",
+          "translation": {
+            "de": "die Uhr",
+            "ar": "الساعة",
+            "en": "clock/o'clock"
+          }
+        },
+        {
+          "id": "a1_u03_l04_w2",
+          "german": "halb",
+          "translation": {
+            "de": "halb",
+            "ar": "النصف",
+            "en": "half past"
+          }
+        },
+        {
+          "id": "a1_u03_l04_w3",
+          "german": "Viertel",
+          "translation": {
+            "de": "Viertel",
+            "ar": "ربع",
+            "en": "quarter"
+          }
+        },
+        {
+          "id": "a1_u03_l04_w4",
+          "german": "um",
+          "translation": {
+            "de": "um",
+            "ar": "عند الساعة",
+            "en": "at"
+          }
+        },
+        {
+          "id": "a1_u03_l04_w5",
+          "german": "am",
+          "translation": {
+            "de": "am",
+            "ar": "في يوم",
+            "en": "on"
+          }
+        },
+        {
+          "id": "a1_u03_l04_w6",
+          "german": "von … bis",
+          "translation": {
+            "de": "von … bis",
+            "ar": "من … إلى",
+            "en": "from … to"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u03_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Termin ist {answer} 9 Uhr.",
+        "ar": "Der Termin ist {answer} 9 Uhr.",
+        "en": "Der Termin ist {answer} 9 Uhr."
+      },
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "a1_u03_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir treffen uns {answer} Montag.",
+        "ar": "Wir treffen uns {answer} Montag.",
+        "en": "Wir treffen uns {answer} Montag."
+      },
+      "acceptedAnswers": [
+        "am"
+      ]
+    },
+    {
+      "id": "a1_u03_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Es ist {answer} neun.",
+        "ar": "Es ist {answer} neun.",
+        "en": "Es ist {answer} neun."
+      },
+      "acceptedAnswers": [
+        "halb"
+      ]
+    },
+    {
+      "id": "a1_u03_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Kurs ist {answer} 8 bis 12 Uhr.",
+        "ar": "Der Kurs ist {answer} 8 bis 12 Uhr.",
+        "en": "Der Kurs ist {answer} 8 bis 12 Uhr."
+      },
+      "acceptedAnswers": [
+        "von"
+      ]
+    },
+    {
+      "id": "a1_u03_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Es ist Viertel {answer} zehn.",
+        "ar": "Es ist Viertel {answer} zehn.",
+        "en": "Es ist Viertel {answer} zehn."
+      },
+      "acceptedAnswers": [
+        "vor"
+      ]
+    },
+    {
+      "id": "a1_u03_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Es ist Viertel {answer} neun.",
+        "ar": "Es ist Viertel {answer} neun.",
+        "en": "Es ist Viertel {answer} neun."
+      },
+      "acceptedAnswers": [
+        "nach"
+      ]
+    },
+    {
+      "id": "a1_u03_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "die Uhr",
+        "ar": "die Uhr",
+        "en": "die Uhr"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "clock/o'clock",
+            "ar": "الساعة",
+            "en": "clock/o'clock"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "half past",
+            "ar": "النصف",
+            "en": "half past"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "quarter",
+            "ar": "ربع",
+            "en": "quarter"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u03_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "halb",
+        "ar": "halb",
+        "en": "halb"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "half past",
+            "ar": "النصف",
+            "en": "half past"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "quarter",
+            "ar": "ربع",
+            "en": "quarter"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "at",
+            "ar": "عند الساعة",
+            "en": "at"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u03_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "Viertel",
+        "ar": "Viertel",
+        "en": "Viertel"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "quarter",
+            "ar": "ربع",
+            "en": "quarter"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "at",
+            "ar": "عند الساعة",
+            "en": "at"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "on",
+            "ar": "في يوم",
+            "en": "on"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u03_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "um",
+        "ar": "um",
+        "en": "um"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "at",
+            "ar": "عند الساعة",
+            "en": "at"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "on",
+            "ar": "في يوم",
+            "en": "on"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "from … to",
+            "ar": "من … إلى",
+            "en": "from … to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u03_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlergalerie — falsch → warum → richtig",
+        "ar": "معرض الأخطاء — خطأ ← لماذا ← صحيح",
+        "en": "Error gallery — wrong → why → right"
+      },
+      "body": {
+        "de": "Analysiere jeden Fehler, bevor du die Korrektur liest:\n• ❌ am 9 Uhr → ✅ um 9 Uhr\n• ❌ um Montag → ✅ am Montag\n• ❌ halb neun = 9:30 → ✅ halb neun = 8:30\n• ❌ von 8 um 12 → ✅ von 8 bis 12\n\nDanach: verdecke die Korrektur, korrigiere aus dem Gedächtnis und bilde mit derselben Regel einen neuen Satz.",
+        "ar": "حلّل سبب كل خطأ قبل قراءة التصحيح:\n• ❌ am 9 Uhr → ✅ um 9 Uhr\n• ❌ um Montag → ✅ am Montag\n• ❌ halb neun = 9:30 → ✅ halb neun = 8:30\n• ❌ von 8 um 12 → ✅ von 8 bis 12\n\nبعد ذلك أخفِ التصحيح، صحح من الذاكرة وأنشئ جملة جديدة بنفس القاعدة.",
+        "en": "Analyze why each error is wrong before reading the correction:\n• ❌ am 9 Uhr → ✅ um 9 Uhr\n• ❌ um Montag → ✅ am Montag\n• ❌ halb neun = 9:30 → ✅ halb neun = 8:30\n• ❌ von 8 um 12 → ✅ von 8 bis 12\n\nThen hide the correction, fix it from memory and create a new sentence with the same rule."
+      }
+    },
+    {
+      "id": "a1_u03_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdrill — eine Bedeutung, mehrere Formen",
+        "ar": "تدريب المقارنة — معنى واحد وصيغ متعددة",
+        "en": "Contrast drill — one meaning, multiple forms"
+      },
+      "body": {
+        "de": "Arbeite die Unterschiede aktiv heraus:\n• um + Uhrzeit / am + Wochentag/Datum\n• halb neun = 30 Minuten vor neun\n• Viertel vor / Viertel nach + nächste/aktuelle Stunde unterscheiden\n\nFür jeden Punkt: bilde ein Minimalpaar, ändere genau ein Element und erkläre, warum sich Form oder Bedeutung ändert.",
+        "ar": "استخرج الفروق بنشاط:\n• um + Uhrzeit / am + Wochentag/Datum\n• halb neun = 30 Minuten vor neun\n• Viertel vor / Viertel nach + nächste/aktuelle Stunde unterscheiden\n\nلكل نقطة أنشئ زوجًا متقاربًا، غيّر عنصرًا واحدًا فقط، واشرح لماذا تغير الشكل أو المعنى.",
+        "en": "Actively work out the contrasts:\n• um + Uhrzeit / am + Wochentag/Datum\n• halb neun = 30 Minuten vor neun\n• Viertel vor / Viertel nach + nächste/aktuelle Stunde unterscheiden\n\nFor each point create a minimal pair, change exactly one element and explain why form or meaning changes."
+      }
+    },
+    {
+      "id": "a1_u03_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Circuit — vier Wiederholungen",
+        "ar": "دائرة الحياة الواقعية — أربع جولات",
+        "en": "Real-life circuit — four repetitions"
+      },
+      "body": {
+        "de": "Vereinbare drei Termine, verschiebe einen davon und wiederhole Uhrzeit und Datum zur Bestätigung.\n\nWiederholung 1: mit Vorlage. Wiederholung 2: ohne Vorlage. Wiederholung 3: Rollen tauschen oder Daten ändern. Wiederholung 4: nach einer Pause erneut durchführen und alle Selbstkorrekturen markieren.",
+        "ar": "Vereinbare drei Termine, verschiebe einen davon und wiederhole Uhrzeit und Datum zur Bestätigung.\n\nالجولة 1: مع النموذج. الجولة 2: دون نموذج. الجولة 3: بدّل الأدوار أو البيانات. الجولة 4: بعد فاصل زمني أعد المهمة وحدد كل تصحيح ذاتي.",
+        "en": "Vereinbare drei Termine, verschiebe einen davon und wiederhole Uhrzeit und Datum zur Bestätigung.\n\nRound 1: with the model. Round 2: without it. Round 3: swap roles or details. Round 4: repeat after a delay and mark every self-correction."
+      }
+    },
+    {
+      "id": "a1_u03_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A1",
+        "en": "A1 casebook complete"
+      },
+      "canDo": [
+        "A1_U03_CASEBOOK"
+      ]
+    }
+  ]
+}

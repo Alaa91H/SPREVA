@@ -1,0 +1,378 @@
+{
+  "id": "a1_u14_l04",
+  "unitId": "de-core-a1-u14",
+  "title": {
+    "de": "Integrations-Casebook",
+    "ar": "دفتر حالات التكامل",
+    "en": "Integration casebook"
+  },
+  "canDo": [
+    "A1_U14_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u14_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Casebook",
+        "ar": "دفتر حالات التكامل",
+        "en": "Integration casebook"
+      },
+      "body": {
+        "de": "Casebook-Ziel: Abschlussprüfung: 3 Minuten frei sprechen + 100 Wörter schreiben. Nutze mindestens zehn Strukturen aus A1 und korrigiere dich sichtbar einmal. Trenne Fehler in Grammatik, Bedeutung, Register und Informationsstruktur; korrigiere anschließend minimal und vollständig.",
+        "ar": "هدف دفتر الحالات: Abschlussprüfung: 3 Minuten frei sprechen + 100 Wörter schreiben. Nutze mindestens zehn Strukturen aus A1 und korrigiere dich sichtbar einmal. صنّف الأخطاء إلى نحو ومعنى وسجل وبنية معلومات، ثم صحح بأقل تغيير وبصياغة كاملة.",
+        "en": "Casebook goal: Abschlussprüfung: 3 Minuten frei sprechen + 100 Wörter schreiben. Nutze mindestens zehn Strukturen aus A1 und korrigiere dich sichtbar einmal. Classify errors into grammar, meaning, register and information structure, then repair minimally and fully."
+      }
+    },
+    {
+      "id": "a1_u14_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u14_l04_w1",
+          "german": "der Termin",
+          "translation": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "a1_u14_l04_w2",
+          "german": "die Fahrkarte",
+          "translation": {
+            "de": "die Fahrkarte",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "a1_u14_l04_w3",
+          "german": "die Apotheke",
+          "translation": {
+            "de": "die Apotheke",
+            "ar": "الصيدلية",
+            "en": "pharmacy"
+          }
+        },
+        {
+          "id": "a1_u14_l04_w4",
+          "german": "bestellen",
+          "translation": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "a1_u14_l04_w5",
+          "german": "bezahlen",
+          "translation": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "a1_u14_l04_w6",
+          "german": "einladen",
+          "translation": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u14_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Hast du am Samstag {answer}?",
+        "ar": "Hast du am Samstag {answer}?",
+        "en": "Hast du am Samstag {answer}?"
+      },
+      "acceptedAnswers": [
+        "Zeit"
+      ]
+    },
+    {
+      "id": "a1_u14_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte dich {answer}.",
+        "ar": "Ich möchte dich {answer}.",
+        "en": "Ich möchte dich {answer}."
+      },
+      "acceptedAnswers": [
+        "einladen"
+      ]
+    },
+    {
+      "id": "a1_u14_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Leider {answer} ich nicht kommen.",
+        "ar": "Leider {answer} ich nicht kommen.",
+        "en": "Leider {answer} ich nicht kommen."
+      },
+      "acceptedAnswers": [
+        "kann"
+      ]
+    },
+    {
+      "id": "a1_u14_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Heute ist es {answer}.",
+        "ar": "Heute ist es {answer}.",
+        "en": "Heute ist es {answer}."
+      },
+      "acceptedAnswers": [
+        "sonnig"
+      ]
+    },
+    {
+      "id": "a1_u14_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir treffen {answer} um sechs.",
+        "ar": "Wir treffen {answer} um sechs.",
+        "en": "Wir treffen {answer} um sechs."
+      },
+      "acceptedAnswers": [
+        "uns"
+      ]
+    },
+    {
+      "id": "a1_u14_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} kann ich am Sonntag.",
+        "ar": "{answer} kann ich am Sonntag.",
+        "en": "{answer} kann ich am Sonntag."
+      },
+      "acceptedAnswers": [
+        "Vielleicht"
+      ]
+    },
+    {
+      "id": "a1_u14_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "bestellen",
+        "ar": "bestellen",
+        "en": "bestellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "bezahlen",
+        "ar": "bezahlen",
+        "en": "bezahlen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "einladen",
+        "ar": "einladen",
+        "en": "einladen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "die Fahrkarte",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "der Termin",
+        "ar": "der Termin",
+        "en": "der Termin"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "die Fahrkarte",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "die Apotheke",
+            "ar": "الصيدلية",
+            "en": "pharmacy"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdiagnose",
+        "ar": "تشخيص الفروق",
+        "en": "Contrast diagnosis"
+      },
+      "body": {
+        "de": "Nimm jede Lösung und formuliere eine sehr ähnliche, aber falsche oder unpassende Variante. Erkläre exakt, welcher Faktor den Unterschied macht.",
+        "ar": "لكل حل أنشئ صيغة شديدة الشبه لكنها خاطئة أو غير مناسبة، واشرح العامل الذي أحدث الفرق بدقة.",
+        "en": "For each solution create a very similar but wrong or inappropriate variant and explain exactly which factor creates the difference."
+      }
+    },
+    {
+      "id": "a1_u14_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Prüfungssimulation",
+        "ar": "محاكاة اختبار",
+        "en": "Exam simulation"
+      },
+      "body": {
+        "de": "Bearbeite alle Fälle ohne Zurückspringen. Danach zweite Runde nur mit den unsicheren Aufgaben und begründe jede Änderung.",
+        "ar": "حل جميع الحالات دون الرجوع للخلف. ثم جولة ثانية فقط للمهام غير المؤكدة مع تعليل كل تغيير.",
+        "en": "Complete all cases without going back. Then do a second pass only on uncertain items and justify every change."
+      }
+    },
+    {
+      "id": "a1_u14_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Abschlussleistung",
+        "ar": "المهمة الختامية",
+        "en": "Final performance"
+      },
+      "body": {
+        "de": "Abschlussprüfung: 3 Minuten frei sprechen + 100 Wörter schreiben. Nutze mindestens zehn Strukturen aus A1 und korrigiere dich sichtbar einmal.",
+        "ar": "Abschlussprüfung: 3 Minuten frei sprechen + 100 Wörter schreiben. Nutze mindestens zehn Strukturen aus A1 und korrigiere dich sichtbar einmal.",
+        "en": "Abschlussprüfung: 3 Minuten frei sprechen + 100 Wörter schreiben. Nutze mindestens zehn Strukturen aus A1 und korrigiere dich sichtbar einmal."
+      }
+    },
+    {
+      "id": "a1_u14_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1-Integrations-Casebook",
+        "ar": "دفتر تكامل A1",
+        "en": "A1 integration casebook"
+      },
+      "canDo": [
+        "A1_U14_CASEBOOK"
+      ]
+    }
+  ]
+}

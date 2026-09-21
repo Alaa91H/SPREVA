@@ -1,0 +1,378 @@
+{
+  "id": "c1_u07_l04",
+  "unitId": "de-core-c1-u07",
+  "title": {
+    "de": "Falltraining: Akademisch zusammenfassen & synthetisieren",
+    "ar": "تدريب الحالات: التلخيص والتركيب الأكاديمي",
+    "en": "Casebook: Academic summarizing & synthesis"
+  },
+  "canDo": [
+    "C1_U07_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u07_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Akademisch zusammenfassen & synthetisieren\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• nach Themen statt nach Quellen organisieren\n• Übereinstimmung, Unterschied, Evidenz und Limitation bündeln\n• eigene Position erst klar getrennt nach quellentreuer Darstellung",
+        "ar": "الموضوع: التلخيص والتركيب الأكاديمي\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• nach Themen statt nach Quellen organisieren\n• Übereinstimmung, Unterschied, Evidenz und Limitation bündeln\n• eigene Position erst klar getrennt nach quellentreuer Darstellung",
+        "en": "Topic: Academic summarizing & synthesis\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• nach Themen statt nach Quellen organisieren\n• Übereinstimmung, Unterschied, Evidenz und Limitation bündeln\n• eigene Position erst klar getrennt nach quellentreuer Darstellung"
+      }
+    },
+    {
+      "id": "c1_u07_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u07_l04_w1",
+          "german": "synthetisieren",
+          "translation": {
+            "de": "synthetisieren",
+            "ar": "يركّب",
+            "en": "synthesize"
+          }
+        },
+        {
+          "id": "c1_u07_l04_w2",
+          "german": "paraphrasieren",
+          "translation": {
+            "de": "paraphrasieren",
+            "ar": "يعيد الصياغة",
+            "en": "paraphrase"
+          }
+        },
+        {
+          "id": "c1_u07_l04_w3",
+          "german": "Befund",
+          "translation": {
+            "de": "Befund",
+            "ar": "نتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "c1_u07_l04_w4",
+          "german": "übereinstimmen",
+          "translation": {
+            "de": "übereinstimmen",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "c1_u07_l04_w5",
+          "german": "abweichen",
+          "translation": {
+            "de": "abweichen",
+            "ar": "يختلف",
+            "en": "differ"
+          }
+        },
+        {
+          "id": "c1_u07_l04_w6",
+          "german": "quellentreu",
+          "translation": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u07_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Quellen stimmen darin {answer}, dass …",
+        "ar": "Die Quellen stimmen darin {answer}, dass …",
+        "en": "Die Quellen stimmen darin {answer}, dass …"
+      },
+      "acceptedAnswers": [
+        "überein"
+      ]
+    },
+    {
+      "id": "c1_u07_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Quelle B {answer} in diesem Punkt ab.",
+        "ar": "Quelle B {answer} in diesem Punkt ab.",
+        "en": "Quelle B {answer} in diesem Punkt ab."
+      },
+      "acceptedAnswers": [
+        "weicht"
+      ]
+    },
+    {
+      "id": "c1_u07_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der zentrale {answer} lautet …",
+        "ar": "Der zentrale {answer} lautet …",
+        "en": "Der zentrale {answer} lautet …"
+      },
+      "acceptedAnswers": [
+        "Befund"
+      ]
+    },
+    {
+      "id": "c1_u07_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Aussagen müssen {answer} wiedergegeben werden.",
+        "ar": "Die Aussagen müssen {answer} wiedergegeben werden.",
+        "en": "Die Aussagen müssen {answer} wiedergegeben werden."
+      },
+      "acceptedAnswers": [
+        "quellentreu"
+      ]
+    },
+    {
+      "id": "c1_u07_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Statt zu kopieren, sollte man {answer}.",
+        "ar": "Statt zu kopieren, sollte man {answer}.",
+        "en": "Statt zu kopieren, sollte man {answer}."
+      },
+      "acceptedAnswers": [
+        "paraphrasieren"
+      ]
+    },
+    {
+      "id": "c1_u07_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mehrere Quellen lassen sich thematisch {answer}.",
+        "ar": "Mehrere Quellen lassen sich thematisch {answer}.",
+        "en": "Mehrere Quellen lassen sich thematisch {answer}."
+      },
+      "acceptedAnswers": [
+        "synthetisieren"
+      ]
+    },
+    {
+      "id": "c1_u07_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "synthetisieren",
+        "ar": "synthetisieren",
+        "en": "synthetisieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "synthetisieren",
+            "ar": "يركّب",
+            "en": "synthesize"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "paraphrasieren",
+            "ar": "يعيد الصياغة",
+            "en": "paraphrase"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Befund",
+            "ar": "نتيجة",
+            "en": "finding"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u07_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "paraphrasieren",
+        "ar": "paraphrasieren",
+        "en": "paraphrasieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "paraphrasieren",
+            "ar": "يعيد الصياغة",
+            "en": "paraphrase"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Befund",
+            "ar": "نتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "übereinstimmen",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u07_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Befund",
+        "ar": "Befund",
+        "en": "Befund"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Befund",
+            "ar": "نتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "übereinstimmen",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "abweichen",
+            "ar": "يختلف",
+            "en": "differ"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u07_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "übereinstimmen",
+        "ar": "übereinstimmen",
+        "en": "übereinstimmen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "übereinstimmen",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "abweichen",
+            "ar": "يختلف",
+            "en": "differ"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u07_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ Synthese = Quelle A zusammenfassen, dann B, dann C\n• ❌ Paraphrase = nur Synonyme austauschen\n• ❌ Einschränkung einer Quelle beim Zusammenfassen verlieren\n• ❌ eigene Bewertung unmarkiert in Quellensynthese mischen.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ Synthese = Quelle A zusammenfassen, dann B, dann C\n• ❌ Paraphrase = nur Synonyme austauschen\n• ❌ Einschränkung einer Quelle beim Zusammenfassen verlieren\n• ❌ eigene Bewertung unmarkiert in Quellensynthese mischen.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ Synthese = Quelle A zusammenfassen, dann B, dann C\n• ❌ Paraphrase = nur Synonyme austauschen\n• ❌ Einschränkung einer Quelle beim Zusammenfassen verlieren\n• ❌ eigene Bewertung unmarkiert in Quellensynthese mischen.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u07_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• nach Themen statt nach Quellen organisieren\n• Übereinstimmung, Unterschied, Evidenz und Limitation bündeln\n• eigene Position erst klar getrennt nach quellentreuer Darstellung\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• nach Themen statt nach Quellen organisieren\n• Übereinstimmung, Unterschied, Evidenz und Limitation bündeln\n• eigene Position erst klar getrennt nach quellentreuer Darstellung\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• nach Themen statt nach Quellen organisieren\n• Übereinstimmung, Unterschied, Evidenz und Limitation bündeln\n• eigene Position erst klar getrennt nach quellentreuer Darstellung\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u07_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Synthetisiere drei Miniquellen zu 180–220 Wörtern. Baue Themencluster, Übereinstimmung, Konflikt und offene Frage ein.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Synthetisiere drei Miniquellen zu 180–220 Wörtern. Baue Themencluster, Übereinstimmung, Konflikt und offene Frage ein.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Synthetisiere drei Miniquellen zu 180–220 Wörtern. Baue Themencluster, Übereinstimmung, Konflikt und offene Frage ein.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u07_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U07_CASEBOOK"
+      ]
+    }
+  ]
+}

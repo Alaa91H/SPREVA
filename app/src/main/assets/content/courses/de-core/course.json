@@ -1,24 +1,3880 @@
 {
   "id": "de-core",
-  "title": { "de": "Deutsch Core", "ar": "الألمانية الأساسية", "en": "German Core" },
+  "title": {
+    "de": "SPREVA Deutschakademie",
+    "ar": "أكاديمية SPREVA للألمانية",
+    "en": "SPREVA German Academy"
+  },
   "levels": [
     {
       "id": "de-core-a1",
       "cefr": "A1",
-      "title": { "de": "A1 — Erste Schritte", "ar": "A1 — الخطوات الأولى", "en": "A1 — First steps" },
+      "title": {
+        "de": "A1 — Grundlagen im Alltag",
+        "ar": "A1 — أساسيات الحياة اليومية",
+        "en": "A1 — Everyday foundations"
+      },
       "units": [
         {
           "id": "de-core-a1-u01",
-          "title": { "de": "Begrüßung & Vorstellung", "ar": "التحية والتعارف", "en": "Greetings & introductions" },
+          "title": {
+            "de": "Begrüßung & Vorstellung",
+            "ar": "التحية والتعارف",
+            "en": "Greetings & introductions"
+          },
           "lessons": [
-            { "id": "a1_u01_l01" }
+            {
+              "id": "a1_u01_l01",
+              "title": {
+                "de": "Personalpronomen, sein und W-Fragen",
+                "ar": "الضمائر الشخصية وفعل sein وأسئلة W",
+                "en": "Personal pronouns, sein and W-questions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u01_l02",
+              "title": {
+                "de": "Sich sicher vorstellen",
+                "ar": "تقديم النفس بثقة",
+                "en": "Introducing yourself confidently"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u01_l03",
+              "title": {
+                "de": "Intensivtraining: Begrüßung & Vorstellung",
+                "ar": "تدريب مكثف: التحية والتعارف",
+                "en": "Mastery lab: Greetings & introductions"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "a1_u01_l04",
+              "title": {
+                "de": "Falltraining: Begrüßung & Vorstellung",
+                "ar": "تدريب الحالات: التحية والتعارف",
+                "en": "Casebook: Greetings & introductions"
+              },
+              "activityCount": 16
+            }
           ]
         },
         {
           "id": "de-core-a1-u02",
-          "title": { "de": "Zahlen & Uhrzeit", "ar": "الأرقام والوقت", "en": "Numbers & time" },
+          "title": {
+            "de": "Alphabet, Aussprache & persönliche Daten",
+            "ar": "الأبجدية والنطق والبيانات الشخصية",
+            "en": "Alphabet, pronunciation & personal data"
+          },
           "lessons": [
-            { "id": "a1_u02_l01" }
+            {
+              "id": "a1_u02_l01",
+              "title": {
+                "de": "Buchstabieren, kommen/wohnen und einfache Angaben",
+                "ar": "تهجئة الكلمات وتصريف kommen/wohnen والبيانات الأساسية",
+                "en": "Spelling, kommen/wohnen and basic personal details"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u02_l02",
+              "title": {
+                "de": "Namen, Adresse und E-Mail korrekt angeben",
+                "ar": "إعطاء الاسم والعنوان والبريد الإلكتروني بشكل صحيح",
+                "en": "Giving name, address and email correctly"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u02_l03",
+              "title": {
+                "de": "Intensivtraining: Alphabet, Aussprache & persönliche Daten",
+                "ar": "تدريب مكثف: الأبجدية والنطق والبيانات الشخصية",
+                "en": "Mastery lab: Alphabet, pronunciation & personal data"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u02_l04",
+              "title": {
+                "de": "Falltraining: Alphabet, Aussprache & persönliche Daten",
+                "ar": "تدريب الحالات: الأبجدية والنطق والبيانات الشخصية",
+                "en": "Casebook: Alphabet, pronunciation & personal data"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u03",
+          "title": {
+            "de": "Zahlen, Uhrzeit & Termine",
+            "ar": "الأرقام والوقت والمواعيد",
+            "en": "Numbers, time & appointments"
+          },
+          "lessons": [
+            {
+              "id": "a1_u03_l01",
+              "title": {
+                "de": "Zahlen, um/am und Zeitangaben",
+                "ar": "الأرقام واستخدام um/am وتعبيرات الزمن",
+                "en": "Numbers, um/am and time expressions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u03_l02",
+              "title": {
+                "de": "Einen Termin vereinbaren und verstehen",
+                "ar": "حجز موعد وفهمه",
+                "en": "Arranging and understanding an appointment"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u03_l03",
+              "title": {
+                "de": "Intensivtraining: Zahlen, Uhrzeit & Termine",
+                "ar": "تدريب مكثف: الأرقام والوقت والمواعيد",
+                "en": "Mastery lab: Numbers, time & appointments"
+              },
+              "activityCount": 17
+            },
+            {
+              "id": "a1_u03_l04",
+              "title": {
+                "de": "Falltraining: Zahlen, Uhrzeit & Termine",
+                "ar": "تدريب الحالات: الأرقام والوقت والمواعيد",
+                "en": "Casebook: Numbers, time & appointments"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u04",
+          "title": {
+            "de": "Familie & Beziehungen",
+            "ar": "العائلة والعلاقات",
+            "en": "Family & relationships"
+          },
+          "lessons": [
+            {
+              "id": "a1_u04_l01",
+              "title": {
+                "de": "Possessivartikel mein/dein/sein/ihr",
+                "ar": "أدوات الملكية mein/dein/sein/ihr",
+                "en": "Possessive determiners mein/dein/sein/ihr"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u04_l02",
+              "title": {
+                "de": "Über Familie und wichtige Personen sprechen",
+                "ar": "التحدث عن العائلة والأشخاص المهمين",
+                "en": "Talking about family and important people"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u04_l03",
+              "title": {
+                "de": "Intensivtraining: Familie & Beziehungen",
+                "ar": "تدريب مكثف: العائلة والعلاقات",
+                "en": "Mastery lab: Family & relationships"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u04_l04",
+              "title": {
+                "de": "Falltraining: Familie & Beziehungen",
+                "ar": "تدريب الحالات: العائلة والعلاقات",
+                "en": "Casebook: Family & relationships"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u05",
+          "title": {
+            "de": "Wohnen & Zuhause",
+            "ar": "السكن والمنزل",
+            "en": "Home & housing"
+          },
+          "lessons": [
+            {
+              "id": "a1_u05_l01",
+              "title": {
+                "de": "Artikel der/die/das und es gibt + Akkusativ",
+                "ar": "أدوات التعريف der/die/das و es gibt مع Akkusativ",
+                "en": "Articles der/die/das and es gibt + accusative"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u05_l02",
+              "title": {
+                "de": "Wohnung, Zimmer und Möbel beschreiben",
+                "ar": "وصف السكن والغرف والأثاث",
+                "en": "Describing a home, rooms and furniture"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u05_l03",
+              "title": {
+                "de": "Intensivtraining: Wohnen & Zuhause",
+                "ar": "تدريب مكثف: السكن والمنزل",
+                "en": "Mastery lab: Home & housing"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u05_l04",
+              "title": {
+                "de": "Falltraining: Wohnen & Zuhause",
+                "ar": "تدريب الحالات: السكن والمنزل",
+                "en": "Casebook: Home & housing"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u06",
+          "title": {
+            "de": "Essen, Trinken & Restaurant",
+            "ar": "الطعام والشراب والمطعم",
+            "en": "Food, drink & restaurants"
+          },
+          "lessons": [
+            {
+              "id": "a1_u06_l01",
+              "title": {
+                "de": "möchten, gern und Akkusativ beim Bestellen",
+                "ar": "möchten وgern وAkkusativ عند الطلب",
+                "en": "möchten, gern and the accusative when ordering"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u06_l02",
+              "title": {
+                "de": "Bestellen, Wünsche äußern und bezahlen",
+                "ar": "الطلب والتعبير عن الرغبات والدفع",
+                "en": "Ordering, expressing wishes and paying"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u06_l03",
+              "title": {
+                "de": "Intensivtraining: Essen, Trinken & Restaurant",
+                "ar": "تدريب مكثف: الطعام والشراب والمطعم",
+                "en": "Mastery lab: Food, drink & restaurants"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u06_l04",
+              "title": {
+                "de": "Falltraining: Essen, Trinken & Restaurant",
+                "ar": "تدريب الحالات: الطعام والشراب والمطعم",
+                "en": "Casebook: Food, drink & restaurants"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u07",
+          "title": {
+            "de": "Einkaufen & Geld",
+            "ar": "التسوق والمال",
+            "en": "Shopping & money"
+          },
+          "lessons": [
+            {
+              "id": "a1_u07_l01",
+              "title": {
+                "de": "Preise, Mengen und brauchen/haben",
+                "ar": "الأسعار والكميات واستخدام brauchen/haben",
+                "en": "Prices, quantities and brauchen/haben"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u07_l02",
+              "title": {
+                "de": "Im Supermarkt und Geschäft einkaufen",
+                "ar": "التسوق في السوبرماركت والمتجر",
+                "en": "Shopping in supermarkets and stores"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u07_l03",
+              "title": {
+                "de": "Intensivtraining: Einkaufen & Geld",
+                "ar": "تدريب مكثف: التسوق والمال",
+                "en": "Mastery lab: Shopping & money"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u07_l04",
+              "title": {
+                "de": "Falltraining: Einkaufen & Geld",
+                "ar": "تدريب الحالات: التسوق والمال",
+                "en": "Casebook: Shopping & money"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u08",
+          "title": {
+            "de": "Tagesablauf & trennbare Verben",
+            "ar": "الروتين اليومي والأفعال المنفصلة",
+            "en": "Daily routine & separable verbs"
+          },
+          "lessons": [
+            {
+              "id": "a1_u08_l01",
+              "title": {
+                "de": "Verbzweitstellung und trennbare Verben",
+                "ar": "الموقع الثاني للفعل والأفعال المنفصلة",
+                "en": "Verb-second word order and separable verbs"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u08_l02",
+              "title": {
+                "de": "Den eigenen Tagesablauf beschreiben",
+                "ar": "وصف الروتين اليومي",
+                "en": "Describing your daily routine"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u08_l03",
+              "title": {
+                "de": "Intensivtraining: Tagesablauf & trennbare Verben",
+                "ar": "تدريب مكثف: الروتين اليومي والأفعال المنفصلة",
+                "en": "Mastery lab: Daily routine & separable verbs"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u08_l04",
+              "title": {
+                "de": "Falltraining: Tagesablauf & trennbare Verben",
+                "ar": "تدريب الحالات: الروتين اليومي والأفعال المنفصلة",
+                "en": "Casebook: Daily routine & separable verbs"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u09",
+          "title": {
+            "de": "Stadt & Wegbeschreibung",
+            "ar": "المدينة ووصف الطريق",
+            "en": "City & directions"
+          },
+          "lessons": [
+            {
+              "id": "a1_u09_l01",
+              "title": {
+                "de": "Wo?/Wohin?, lokale Präpositionen und Imperativ Sie",
+                "ar": "Wo/Wohin وحروف المكان وصيغة الأمر الرسمية",
+                "en": "Wo?/Wohin?, local prepositions and formal imperative"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u09_l02",
+              "title": {
+                "de": "Nach dem Weg fragen und Anweisungen verstehen",
+                "ar": "السؤال عن الطريق وفهم التعليمات",
+                "en": "Asking for and understanding directions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u09_l03",
+              "title": {
+                "de": "Intensivtraining: Stadt & Wegbeschreibung",
+                "ar": "تدريب مكثف: المدينة ووصف الطريق",
+                "en": "Mastery lab: City & directions"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u09_l04",
+              "title": {
+                "de": "Falltraining: Stadt & Wegbeschreibung",
+                "ar": "تدريب الحالات: المدينة ووصف الطريق",
+                "en": "Casebook: City & directions"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u10",
+          "title": {
+            "de": "Verkehr & Tickets",
+            "ar": "المواصلات والتذاكر",
+            "en": "Transport & tickets"
+          },
+          "lessons": [
+            {
+              "id": "a1_u10_l01",
+              "title": {
+                "de": "können/müssen und Satzklammer mit Modalverben",
+                "ar": "können/müssen وإطار الجملة مع الأفعال الناقصة",
+                "en": "können/müssen and the modal-verb sentence frame"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u10_l02",
+              "title": {
+                "de": "Mit Bus und Bahn fahren",
+                "ar": "استخدام الحافلة والقطار",
+                "en": "Using bus and rail transport"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u10_l03",
+              "title": {
+                "de": "Intensivtraining: Verkehr & Tickets",
+                "ar": "تدريب مكثف: المواصلات والتذاكر",
+                "en": "Mastery lab: Transport & tickets"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u10_l04",
+              "title": {
+                "de": "Falltraining: Verkehr & Tickets",
+                "ar": "تدريب الحالات: المواصلات والتذاكر",
+                "en": "Casebook: Transport & tickets"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u11",
+          "title": {
+            "de": "Gesundheit & Apotheke",
+            "ar": "الصحة والصيدلية",
+            "en": "Health & pharmacy"
+          },
+          "lessons": [
+            {
+              "id": "a1_u11_l01",
+              "title": {
+                "de": "haben, brauchen und „weh tun“",
+                "ar": "استخدام haben وbrauchen وweh tun",
+                "en": "haben, brauchen and weh tun"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u11_l02",
+              "title": {
+                "de": "Einfache Beschwerden beschreiben",
+                "ar": "وصف الأعراض البسيطة",
+                "en": "Describing simple health complaints"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Gesundheit & Apotheke",
+                "ar": "تدريب مكثف: الصحة والصيدلية",
+                "en": "Mastery lab: Health & pharmacy"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u11_l04",
+              "title": {
+                "de": "Falltraining: Gesundheit & Apotheke",
+                "ar": "تدريب الحالات: الصحة والصيدلية",
+                "en": "Casebook: Health & pharmacy"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u12",
+          "title": {
+            "de": "Arbeit, Lernen & Fähigkeiten",
+            "ar": "العمل والتعلم والقدرات",
+            "en": "Work, study & abilities"
+          },
+          "lessons": [
+            {
+              "id": "a1_u12_l01",
+              "title": {
+                "de": "Berufe, können und einfache Tätigkeitsbeschreibungen",
+                "ar": "المهن وkönnen ووصف المهام البسيطة",
+                "en": "Jobs, können and simple task descriptions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u12_l02",
+              "title": {
+                "de": "Über Arbeit, Kurs und Kompetenzen sprechen",
+                "ar": "التحدث عن العمل والدورة والمهارات",
+                "en": "Talking about work, courses and skills"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Arbeit, Lernen & Fähigkeiten",
+                "ar": "تدريب مكثف: العمل والتعلم والقدرات",
+                "en": "Mastery lab: Work, study & abilities"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u12_l04",
+              "title": {
+                "de": "Falltraining: Arbeit, Lernen & Fähigkeiten",
+                "ar": "تدريب الحالات: العمل والتعلم والقدرات",
+                "en": "Casebook: Work, study & abilities"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u13",
+          "title": {
+            "de": "Freizeit, Wetter & Einladungen",
+            "ar": "وقت الفراغ والطقس والدعوات",
+            "en": "Leisure, weather & invitations"
+          },
+          "lessons": [
+            {
+              "id": "a1_u13_l01",
+              "title": {
+                "de": "mögen/gern, möchten und einfache Einladungen",
+                "ar": "mögen/gern وmöchten وصياغة الدعوات البسيطة",
+                "en": "mögen/gern, möchten and simple invitations"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u13_l02",
+              "title": {
+                "de": "Pläne machen, einladen und reagieren",
+                "ar": "وضع خطط وتوجيه دعوة والرد عليها",
+                "en": "Making plans, inviting and responding"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Freizeit, Wetter & Einladungen",
+                "ar": "تدريب مكثف: وقت الفراغ والطقس والدعوات",
+                "en": "Mastery lab: Leisure, weather & invitations"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u13_l04",
+              "title": {
+                "de": "Falltraining: Freizeit, Wetter & Einladungen",
+                "ar": "تدريب الحالات: وقت الفراغ والطقس والدعوات",
+                "en": "Casebook: Leisure, weather & invitations"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u14",
+          "title": {
+            "de": "A1 Integration — ein kompletter Alltagstag",
+            "ar": "تكامل A1 — يوم كامل في الحياة اليومية",
+            "en": "A1 Integration — a complete day in real life"
+          },
+          "lessons": [
+            {
+              "id": "a1_u14_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a1_u14_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a1_u14_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u14_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u15",
+          "title": {
+            "de": "A1 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات A1",
+            "en": "A1 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "a1_u15_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a1_u15_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "a1_u15_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "a1_u15_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u16",
+          "title": {
+            "de": "A1 Aussprache & Hörgenauigkeit",
+            "ar": "النطق ودقة الاستماع A1",
+            "en": "A1 Pronunciation & Listening Precision"
+          },
+          "lessons": [
+            {
+              "id": "a1_u16_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "a1_u16_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "a1_u16_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "a1_u16_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-core-a2",
+      "cefr": "A2",
+      "title": {
+        "de": "A2 — Selbstständig im täglichen Leben",
+        "ar": "A2 — استقلال أكبر في الحياة اليومية",
+        "en": "A2 — More independent everyday communication"
+      },
+      "units": [
+        {
+          "id": "de-core-a2-u01",
+          "title": {
+            "de": "Vergangenheit mit Perfekt",
+            "ar": "الماضي بصيغة Perfekt",
+            "en": "Past tense with Perfekt"
+          },
+          "lessons": [
+            {
+              "id": "a2_u01_l01",
+              "title": {
+                "de": "Perfekt mit haben/sein und Partizip II",
+                "ar": "Perfekt مع haben/sein وPartizip II",
+                "en": "Perfekt with haben/sein and past participles"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u01_l02",
+              "title": {
+                "de": "Über das Wochenende und Erlebnisse erzählen",
+                "ar": "الحديث عن عطلة نهاية الأسبوع والتجارب",
+                "en": "Talking about weekends and experiences"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u01_l03",
+              "title": {
+                "de": "Intensivtraining: Vergangenheit mit Perfekt",
+                "ar": "تدريب مكثف: الماضي بصيغة Perfekt",
+                "en": "Mastery lab: Past tense with Perfekt"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u01_l04",
+              "title": {
+                "de": "Falltraining: Vergangenheit mit Perfekt",
+                "ar": "تدريب الحالات: الماضي بصيغة Perfekt",
+                "en": "Casebook: Past tense with Perfekt"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u02",
+          "title": {
+            "de": "Präteritum im Alltag",
+            "ar": "Präteritum في الحياة اليومية",
+            "en": "Everyday Präteritum"
+          },
+          "lessons": [
+            {
+              "id": "a2_u02_l01",
+              "title": {
+                "de": "war, hatte und Modalverben im Präteritum",
+                "ar": "war وhatte والأفعال الناقصة في Präteritum",
+                "en": "war, hatte and modal verbs in Präteritum"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u02_l02",
+              "title": {
+                "de": "Frühere Situationen knapp beschreiben",
+                "ar": "وصف مواقف سابقة بإيجاز",
+                "en": "Describing past situations concisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u02_l03",
+              "title": {
+                "de": "Intensivtraining: Präteritum im Alltag",
+                "ar": "تدريب مكثف: Präteritum في الحياة اليومية",
+                "en": "Mastery lab: Everyday Präteritum"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u02_l04",
+              "title": {
+                "de": "Falltraining: Präteritum im Alltag",
+                "ar": "تدريب الحالات: Präteritum في الحياة اليومية",
+                "en": "Casebook: Everyday Präteritum"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u03",
+          "title": {
+            "de": "Gründe & Aussagen mit weil/dass",
+            "ar": "الأسباب والجمل مع weil/dass",
+            "en": "Reasons & statements with weil/dass"
+          },
+          "lessons": [
+            {
+              "id": "a2_u03_l01",
+              "title": {
+                "de": "Nebensätze mit weil und dass",
+                "ar": "الجمل التابعة مع weil وdass",
+                "en": "Subordinate clauses with weil and dass"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u03_l02",
+              "title": {
+                "de": "Begründen und Informationen weitergeben",
+                "ar": "التعليل ونقل المعلومات",
+                "en": "Giving reasons and relaying information"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u03_l03",
+              "title": {
+                "de": "Intensivtraining: Gründe & Aussagen mit weil/dass",
+                "ar": "تدريب مكثف: الأسباب والجمل مع weil/dass",
+                "en": "Mastery lab: Reasons & statements with weil/dass"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u03_l04",
+              "title": {
+                "de": "Falltraining: Gründe & Aussagen mit weil/dass",
+                "ar": "تدريب الحالات: الأسباب والجمل مع weil/dass",
+                "en": "Casebook: Reasons & statements with weil/dass"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u04",
+          "title": {
+            "de": "Bedingungen & Zeit mit wenn/als",
+            "ar": "الشروط والزمن مع wenn/als",
+            "en": "Conditions & time with wenn/als"
+          },
+          "lessons": [
+            {
+              "id": "a2_u04_l01",
+              "title": {
+                "de": "wenn für Wiederholung/Bedingung, als für einmalige Vergangenheit",
+                "ar": "wenn للتكرار/الشرط وals للماضي مرة واحدة",
+                "en": "wenn for repeated/conditional situations, als for one-time past events"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u04_l02",
+              "title": {
+                "de": "Bedingungen und Zeitpunkte klar ausdrücken",
+                "ar": "التعبير بوضوح عن الشروط والأوقات",
+                "en": "Expressing conditions and time clearly"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u04_l03",
+              "title": {
+                "de": "Intensivtraining: Bedingungen & Zeit mit wenn/als",
+                "ar": "تدريب مكثف: الشروط والزمن مع wenn/als",
+                "en": "Mastery lab: Conditions & time with wenn/als"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u04_l04",
+              "title": {
+                "de": "Falltraining: Bedingungen & Zeit mit wenn/als",
+                "ar": "تدريب الحالات: الشروط والزمن مع wenn/als",
+                "en": "Casebook: Conditions & time with wenn/als"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u05",
+          "title": {
+            "de": "Dativ & persönliche Beziehungen",
+            "ar": "الداتيف والعلاقات بين الأشخاص",
+            "en": "Dative & personal relations"
+          },
+          "lessons": [
+            {
+              "id": "a2_u05_l01",
+              "title": {
+                "de": "Dativobjekte und Personalpronomen",
+                "ar": "مفعول الداتيف والضمائر الشخصية",
+                "en": "Dative objects and personal pronouns"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u05_l02",
+              "title": {
+                "de": "Helfen, geben, danken und erklären",
+                "ar": "المساعدة والعطاء والشكر والشرح",
+                "en": "Helping, giving, thanking and explaining"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u05_l03",
+              "title": {
+                "de": "Intensivtraining: Dativ & persönliche Beziehungen",
+                "ar": "تدريب مكثف: الداتيف والعلاقات بين الأشخاص",
+                "en": "Mastery lab: Dative & personal relations"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u05_l04",
+              "title": {
+                "de": "Falltraining: Dativ & persönliche Beziehungen",
+                "ar": "تدريب الحالات: الداتيف والعلاقات بين الأشخاص",
+                "en": "Casebook: Dative & personal relations"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u06",
+          "title": {
+            "de": "Wechselpräpositionen & Wohnung",
+            "ar": "حروف الجر الثنائية والسكن",
+            "en": "Two-way prepositions & housing"
+          },
+          "lessons": [
+            {
+              "id": "a2_u06_l01",
+              "title": {
+                "de": "in/an/auf/unter/über/vor/hinter/neben/zwischen: Wo? Dativ, Wohin? Akkusativ",
+                "ar": "حروف الجر الثنائية: Wo مع Dativ وWohin مع Akkusativ",
+                "en": "Two-way prepositions: Wo? dative, Wohin? accusative"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u06_l02",
+              "title": {
+                "de": "Möbel stellen und Orte genau beschreiben",
+                "ar": "وضع الأثاث ووصف المكان بدقة",
+                "en": "Placing furniture and describing locations precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u06_l03",
+              "title": {
+                "de": "Intensivtraining: Wechselpräpositionen & Wohnung",
+                "ar": "تدريب مكثف: حروف الجر الثنائية والسكن",
+                "en": "Mastery lab: Two-way prepositions & housing"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u06_l04",
+              "title": {
+                "de": "Falltraining: Wechselpräpositionen & Wohnung",
+                "ar": "تدريب الحالات: حروف الجر الثنائية والسكن",
+                "en": "Casebook: Two-way prepositions & housing"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u07",
+          "title": {
+            "de": "Reflexive Verben & Alltag",
+            "ar": "الأفعال الانعكاسية والحياة اليومية",
+            "en": "Reflexive verbs & daily life"
+          },
+          "lessons": [
+            {
+              "id": "a2_u07_l01",
+              "title": {
+                "de": "Reflexivpronomen und feste reflexive Verben",
+                "ar": "الضمائر الانعكاسية والأفعال الانعكاسية الثابتة",
+                "en": "Reflexive pronouns and fixed reflexive verbs"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u07_l02",
+              "title": {
+                "de": "Routine, Gefühle und Termine ausdrücken",
+                "ar": "التعبير عن الروتين والمشاعر والمواعيد",
+                "en": "Expressing routines, feelings and appointments"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u07_l03",
+              "title": {
+                "de": "Intensivtraining: Reflexive Verben & Alltag",
+                "ar": "تدريب مكثف: الأفعال الانعكاسية والحياة اليومية",
+                "en": "Mastery lab: Reflexive verbs & daily life"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u07_l04",
+              "title": {
+                "de": "Falltraining: Reflexive Verben & Alltag",
+                "ar": "تدريب الحالات: الأفعال الانعكاسية والحياة اليومية",
+                "en": "Casebook: Reflexive verbs & daily life"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u08",
+          "title": {
+            "de": "Vergleichen & auswählen",
+            "ar": "المقارنة والاختيار",
+            "en": "Comparing & choosing"
+          },
+          "lessons": [
+            {
+              "id": "a2_u08_l01",
+              "title": {
+                "de": "Komparativ, Superlativ und als/wie",
+                "ar": "المقارنة والتفضيل وals/wie",
+                "en": "Comparative, superlative and als/wie"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u08_l02",
+              "title": {
+                "de": "Produkte, Wohnungen und Optionen vergleichen",
+                "ar": "مقارنة المنتجات والسكن والخيارات",
+                "en": "Comparing products, homes and options"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u08_l03",
+              "title": {
+                "de": "Intensivtraining: Vergleichen & auswählen",
+                "ar": "تدريب مكثف: المقارنة والاختيار",
+                "en": "Mastery lab: Comparing & choosing"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u08_l04",
+              "title": {
+                "de": "Falltraining: Vergleichen & auswählen",
+                "ar": "تدريب الحالات: المقارنة والاختيار",
+                "en": "Casebook: Comparing & choosing"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u09",
+          "title": {
+            "de": "Adjektive im Alltag",
+            "ar": "الصفات في الحياة اليومية",
+            "en": "Adjectives in everyday German"
+          },
+          "lessons": [
+            {
+              "id": "a2_u09_l01",
+              "title": {
+                "de": "Grundlagen der Adjektivendungen",
+                "ar": "أساسيات نهايات الصفات",
+                "en": "Basics of adjective endings"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u09_l02",
+              "title": {
+                "de": "Kleidung, Produkte und Personen genauer beschreiben",
+                "ar": "وصف الملابس والمنتجات والأشخاص بدقة أكبر",
+                "en": "Describing clothes, products and people more precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u09_l03",
+              "title": {
+                "de": "Intensivtraining: Adjektive im Alltag",
+                "ar": "تدريب مكثف: الصفات في الحياة اليومية",
+                "en": "Mastery lab: Adjectives in everyday German"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u09_l04",
+              "title": {
+                "de": "Falltraining: Adjektive im Alltag",
+                "ar": "تدريب الحالات: الصفات في الحياة اليومية",
+                "en": "Casebook: Adjectives in everyday German"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u10",
+          "title": {
+            "de": "Relativsätze einfach",
+            "ar": "الجمل الموصولة البسيطة",
+            "en": "Basic relative clauses"
+          },
+          "lessons": [
+            {
+              "id": "a2_u10_l01",
+              "title": {
+                "de": "Relativpronomen im Nominativ und Akkusativ",
+                "ar": "ضمائر الوصل في Nominativ وAkkusativ",
+                "en": "Relative pronouns in nominative and accusative"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u10_l02",
+              "title": {
+                "de": "Personen und Dinge genauer erklären",
+                "ar": "شرح الأشخاص والأشياء بدقة أكبر",
+                "en": "Explaining people and things more precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u10_l03",
+              "title": {
+                "de": "Intensivtraining: Relativsätze einfach",
+                "ar": "تدريب مكثف: الجمل الموصولة البسيطة",
+                "en": "Mastery lab: Basic relative clauses"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u10_l04",
+              "title": {
+                "de": "Falltraining: Relativsätze einfach",
+                "ar": "تدريب الحالات: الجمل الموصولة البسيطة",
+                "en": "Casebook: Basic relative clauses"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u11",
+          "title": {
+            "de": "Wohnen, Miete & Reparaturen",
+            "ar": "السكن والإيجار والإصلاحات",
+            "en": "Housing, rent & repairs"
+          },
+          "lessons": [
+            {
+              "id": "a2_u11_l01",
+              "title": {
+                "de": "Höfliche Bitten, Dativ/Akkusativ und schriftliche Meldungen",
+                "ar": "الطلبات المهذبة والداتيف/الأكوزاتيف والبلاغات المكتوبة",
+                "en": "Polite requests, dative/accusative and written reports"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u11_l02",
+              "title": {
+                "de": "Probleme in der Wohnung melden",
+                "ar": "الإبلاغ عن مشكلات السكن",
+                "en": "Reporting problems in a home"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Wohnen, Miete & Reparaturen",
+                "ar": "تدريب مكثف: السكن والإيجار والإصلاحات",
+                "en": "Mastery lab: Housing, rent & repairs"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u11_l04",
+              "title": {
+                "de": "Falltraining: Wohnen, Miete & Reparaturen",
+                "ar": "تدريب الحالات: السكن والإيجار والإصلاحات",
+                "en": "Casebook: Housing, rent & repairs"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u12",
+          "title": {
+            "de": "Arbeit & Bewerbung",
+            "ar": "العمل والتقديم للوظيفة",
+            "en": "Work & job applications"
+          },
+          "lessons": [
+            {
+              "id": "a2_u12_l01",
+              "title": {
+                "de": "Formelle E-Mail, weil/dass und beruflicher Wortschatz",
+                "ar": "البريد الرسمي وweil/dass ومفردات العمل",
+                "en": "Formal email, weil/dass and workplace vocabulary"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u12_l02",
+              "title": {
+                "de": "Eine einfache Bewerbung und Rückfrage schreiben",
+                "ar": "كتابة تقديم بسيط وسؤال متابعة",
+                "en": "Writing a simple application and follow-up"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Arbeit & Bewerbung",
+                "ar": "تدريب مكثف: العمل والتقديم للوظيفة",
+                "en": "Mastery lab: Work & job applications"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u12_l04",
+              "title": {
+                "de": "Falltraining: Arbeit & Bewerbung",
+                "ar": "تدريب الحالات: العمل والتقديم للوظيفة",
+                "en": "Casebook: Work & job applications"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u13",
+          "title": {
+            "de": "Reisen, Service & Beschwerden",
+            "ar": "السفر والخدمات والشكاوى",
+            "en": "Travel, service & complaints"
+          },
+          "lessons": [
+            {
+              "id": "a2_u13_l01",
+              "title": {
+                "de": "Indirekte Fragen und höflicher Konjunktiv II",
+                "ar": "الأسئلة غير المباشرة وKonjunktiv II المهذب",
+                "en": "Indirect questions and polite Konjunktiv II"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u13_l02",
+              "title": {
+                "de": "Probleme höflich lösen",
+                "ar": "حل المشكلات بأدب",
+                "en": "Solving problems politely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a2_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Reisen, Service & Beschwerden",
+                "ar": "تدريب مكثف: السفر والخدمات والشكاوى",
+                "en": "Mastery lab: Travel, service & complaints"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u13_l04",
+              "title": {
+                "de": "Falltraining: Reisen, Service & Beschwerden",
+                "ar": "تدريب الحالات: السفر والخدمات والشكاوى",
+                "en": "Casebook: Travel, service & complaints"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u14",
+          "title": {
+            "de": "A2 Integration — selbstständig durch Alltag & Arbeit",
+            "ar": "تكامل A2 — الاستقلال في الحياة والعمل",
+            "en": "A2 Integration — independent everyday and work life"
+          },
+          "lessons": [
+            {
+              "id": "a2_u14_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a2_u14_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a2_u14_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u14_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u15",
+          "title": {
+            "de": "A2 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات A2",
+            "en": "A2 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "a2_u15_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a2_u15_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "a2_u15_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "a2_u15_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
+            }
+          ]
+        },
+        {
+          "id": "de-core-a2-u16",
+          "title": {
+            "de": "A2 Aussprache, Rhythmus & Satzmelodie",
+            "ar": "النطق والإيقاع ولحن الجملة A2",
+            "en": "A2 Pronunciation, Rhythm & Intonation"
+          },
+          "lessons": [
+            {
+              "id": "a2_u16_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "a2_u16_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "a2_u16_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "a2_u16_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-core-b1",
+      "cefr": "B1",
+      "title": {
+        "de": "B1 — Selbstständig handeln & argumentieren",
+        "ar": "B1 — الاستقلال في التصرف والحجاج",
+        "en": "B1 — Independent action & argumentation"
+      },
+      "units": [
+        {
+          "id": "de-core-b1-u01",
+          "title": {
+            "de": "Erzählen & zeitliche Zusammenhänge",
+            "ar": "السرد والعلاقات الزمنية",
+            "en": "Narration & time relationships"
+          },
+          "lessons": [
+            {
+              "id": "b1_u01_l01",
+              "title": {
+                "de": "Perfekt/Präteritum plus nachdem, bevor, während",
+                "ar": "Perfekt/Präteritum مع nachdem وbevor وwährend",
+                "en": "Perfekt/Präteritum with nachdem, bevor and während"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u01_l02",
+              "title": {
+                "de": "Erlebnisse strukturiert erzählen",
+                "ar": "سرد التجارب بشكل منظم",
+                "en": "Narrating experiences coherently"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u01_l03",
+              "title": {
+                "de": "Intensivtraining: Erzählen & zeitliche Zusammenhänge",
+                "ar": "تدريب مكثف: السرد والعلاقات الزمنية",
+                "en": "Mastery lab: Narration & time relationships"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u01_l04",
+              "title": {
+                "de": "Falltraining: Erzählen & zeitliche Zusammenhänge",
+                "ar": "تدريب الحالات: السرد والعلاقات الزمنية",
+                "en": "Casebook: Narration & time relationships"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u02",
+          "title": {
+            "de": "Passiv in Alltag & Arbeit",
+            "ar": "المبني للمجهول في الحياة والعمل",
+            "en": "Passive voice in everyday and work contexts"
+          },
+          "lessons": [
+            {
+              "id": "b1_u02_l01",
+              "title": {
+                "de": "Vorgangspassiv mit werden + Partizip II",
+                "ar": "المبني للمجهول بـ werden + Partizip II",
+                "en": "Event passive with werden + past participle"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u02_l02",
+              "title": {
+                "de": "Prozesse, Regeln und Reparaturen beschreiben",
+                "ar": "وصف العمليات والقواعد والإصلاحات",
+                "en": "Describing processes, rules and repairs"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u02_l03",
+              "title": {
+                "de": "Intensivtraining: Passiv in Alltag & Arbeit",
+                "ar": "تدريب مكثف: المبني للمجهول في الحياة والعمل",
+                "en": "Mastery lab: Passive voice in everyday and work contexts"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u02_l04",
+              "title": {
+                "de": "Falltraining: Passiv in Alltag & Arbeit",
+                "ar": "تدريب الحالات: المبني للمجهول في الحياة والعمل",
+                "en": "Casebook: Passive voice in everyday and work contexts"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u03",
+          "title": {
+            "de": "Wünsche, Höflichkeit & Hypothesen",
+            "ar": "الرغبات والتهذيب والافتراض",
+            "en": "Wishes, politeness & hypotheses"
+          },
+          "lessons": [
+            {
+              "id": "b1_u03_l01",
+              "title": {
+                "de": "Konjunktiv II mit wäre, hätte, könnte, würde",
+                "ar": "Konjunktiv II مع wäre وhätte وkönnte وwürde",
+                "en": "Konjunktiv II with wäre, hätte, könnte and würde"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u03_l02",
+              "title": {
+                "de": "Irreale Situationen und höfliche Lösungen formulieren",
+                "ar": "صياغة مواقف غير واقعية وحلول مهذبة",
+                "en": "Formulating unreal situations and polite solutions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u03_l03",
+              "title": {
+                "de": "Intensivtraining: Wünsche, Höflichkeit & Hypothesen",
+                "ar": "تدريب مكثف: الرغبات والتهذيب والافتراض",
+                "en": "Mastery lab: Wishes, politeness & hypotheses"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u03_l04",
+              "title": {
+                "de": "Falltraining: Wünsche, Höflichkeit & Hypothesen",
+                "ar": "تدريب الحالات: الرغبات والتهذيب والافتراض",
+                "en": "Casebook: Wishes, politeness & hypotheses"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u04",
+          "title": {
+            "de": "Relativsätze in allen wichtigen Fällen",
+            "ar": "الجمل الموصولة في الحالات الأساسية كلها",
+            "en": "Relative clauses in key cases"
+          },
+          "lessons": [
+            {
+              "id": "b1_u04_l01",
+              "title": {
+                "de": "Relativpronomen Nominativ, Akkusativ, Dativ und mit Präposition",
+                "ar": "ضمائر الوصل مع Nominativ/Akkusativ/Dativ وحرف الجر",
+                "en": "Relative pronouns in nominative, accusative, dative and with prepositions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u04_l02",
+              "title": {
+                "de": "Personen, Dokumente und Situationen präzise definieren",
+                "ar": "تحديد الأشخاص والمستندات والمواقف بدقة",
+                "en": "Defining people, documents and situations precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u04_l03",
+              "title": {
+                "de": "Intensivtraining: Relativsätze in allen wichtigen Fällen",
+                "ar": "تدريب مكثف: الجمل الموصولة في الحالات الأساسية كلها",
+                "en": "Mastery lab: Relative clauses in key cases"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u04_l04",
+              "title": {
+                "de": "Falltraining: Relativsätze in allen wichtigen Fällen",
+                "ar": "تدريب الحالات: الجمل الموصولة في الحالات الأساسية كلها",
+                "en": "Casebook: Relative clauses in key cases"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u05",
+          "title": {
+            "de": "Ziele & Infinitivkonstruktionen",
+            "ar": "الأهداف وتراكيب المصدر",
+            "en": "Goals & infinitive constructions"
+          },
+          "lessons": [
+            {
+              "id": "b1_u05_l01",
+              "title": {
+                "de": "zu + Infinitiv, um…zu, ohne…zu, statt…zu",
+                "ar": "zu + المصدر وum…zu وohne…zu وstatt…zu",
+                "en": "zu-infinitive, um…zu, ohne…zu and statt…zu"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u05_l02",
+              "title": {
+                "de": "Absicht, Alternative und Begleitumstände ausdrücken",
+                "ar": "التعبير عن الهدف والبديل والظروف",
+                "en": "Expressing purpose, alternatives and accompanying circumstances"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u05_l03",
+              "title": {
+                "de": "Intensivtraining: Ziele & Infinitivkonstruktionen",
+                "ar": "تدريب مكثف: الأهداف وتراكيب المصدر",
+                "en": "Mastery lab: Goals & infinitive constructions"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u05_l04",
+              "title": {
+                "de": "Falltraining: Ziele & Infinitivkonstruktionen",
+                "ar": "تدريب الحالات: الأهداف وتراكيب المصدر",
+                "en": "Casebook: Goals & infinitive constructions"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u06",
+          "title": {
+            "de": "Adjektivdeklination sicher anwenden",
+            "ar": "إتقان تصريف الصفات",
+            "en": "Mastering adjective declension"
+          },
+          "lessons": [
+            {
+              "id": "b1_u06_l01",
+              "title": {
+                "de": "Adjektivendungen nach bestimmten, unbestimmten und Nullartikeln",
+                "ar": "نهايات الصفات بعد أدوات محددة وغير محددة وبدون أداة",
+                "en": "Adjective endings after definite, indefinite and zero articles"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u06_l02",
+              "title": {
+                "de": "Personen, Produkte und Anforderungen differenziert beschreiben",
+                "ar": "وصف الأشخاص والمنتجات والمتطلبات بتفصيل",
+                "en": "Describing people, products and requirements precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u06_l03",
+              "title": {
+                "de": "Intensivtraining: Adjektivdeklination sicher anwenden",
+                "ar": "تدريب مكثف: إتقان تصريف الصفات",
+                "en": "Mastery lab: Mastering adjective declension"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u06_l04",
+              "title": {
+                "de": "Falltraining: Adjektivdeklination sicher anwenden",
+                "ar": "تدريب الحالات: إتقان تصريف الصفات",
+                "en": "Casebook: Mastering adjective declension"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u07",
+          "title": {
+            "de": "Verben mit Präpositionen",
+            "ar": "الأفعال مع حروف الجر الثابتة",
+            "en": "Verbs with fixed prepositions"
+          },
+          "lessons": [
+            {
+              "id": "b1_u07_l01",
+              "title": {
+                "de": "Feste Präpositionen und Pronominaladverbien da-/wo-",
+                "ar": "حروف الجر الثابتة وda-/wo-",
+                "en": "Fixed prepositions and da-/wo- compounds"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u07_l02",
+              "title": {
+                "de": "Über Interessen, Erwartungen und Probleme sprechen",
+                "ar": "التحدث عن الاهتمامات والتوقعات والمشكلات",
+                "en": "Talking about interests, expectations and problems"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u07_l03",
+              "title": {
+                "de": "Intensivtraining: Verben mit Präpositionen",
+                "ar": "تدريب مكثف: الأفعال مع حروف الجر الثابتة",
+                "en": "Mastery lab: Verbs with fixed prepositions"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u07_l04",
+              "title": {
+                "de": "Falltraining: Verben mit Präpositionen",
+                "ar": "تدريب الحالات: الأفعال مع حروف الجر الثابتة",
+                "en": "Casebook: Verbs with fixed prepositions"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u08",
+          "title": {
+            "de": "Genitiv & N-Deklination",
+            "ar": "Genitiv وتصريف N",
+            "en": "Genitive & N-declension"
+          },
+          "lessons": [
+            {
+              "id": "b1_u08_l01",
+              "title": {
+                "de": "Zugehörigkeit mit Genitiv und schwache maskuline Nomen",
+                "ar": "الملكية بـ Genitiv والأسماء المذكرة الضعيفة",
+                "en": "Possession with genitive and weak masculine nouns"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u08_l02",
+              "title": {
+                "de": "Formelle Texte und Beziehungen verstehen",
+                "ar": "فهم النصوص الرسمية والعلاقات",
+                "en": "Understanding formal texts and relationships"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u08_l03",
+              "title": {
+                "de": "Intensivtraining: Genitiv & N-Deklination",
+                "ar": "تدريب مكثف: Genitiv وتصريف N",
+                "en": "Mastery lab: Genitive & N-declension"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u08_l04",
+              "title": {
+                "de": "Falltraining: Genitiv & N-Deklination",
+                "ar": "تدريب الحالات: Genitiv وتصريف N",
+                "en": "Casebook: Genitive & N-declension"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u09",
+          "title": {
+            "de": "Arbeitsplatz & Besprechungen",
+            "ar": "مكان العمل والاجتماعات",
+            "en": "Workplace & meetings"
+          },
+          "lessons": [
+            {
+              "id": "b1_u09_l01",
+              "title": {
+                "de": "Vorschläge, indirekte Wiedergabe mit dass und Gesprächssteuerung",
+                "ar": "الاقتراحات والنقل غير المباشر بـ dass وإدارة الحوار",
+                "en": "Suggestions, reported content with dass and meeting management"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u09_l02",
+              "title": {
+                "de": "An Besprechungen aktiv teilnehmen",
+                "ar": "المشاركة الفعالة في الاجتماعات",
+                "en": "Participating actively in meetings"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u09_l03",
+              "title": {
+                "de": "Intensivtraining: Arbeitsplatz & Besprechungen",
+                "ar": "تدريب مكثف: مكان العمل والاجتماعات",
+                "en": "Mastery lab: Workplace & meetings"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u09_l04",
+              "title": {
+                "de": "Falltraining: Arbeitsplatz & Besprechungen",
+                "ar": "تدريب الحالات: مكان العمل والاجتماعات",
+                "en": "Casebook: Workplace & meetings"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u10",
+          "title": {
+            "de": "Behörden, Anträge & formelle Beschwerden",
+            "ar": "الدوائر والطلبات والشكاوى الرسمية",
+            "en": "Public offices, applications & formal complaints"
+          },
+          "lessons": [
+            {
+              "id": "b1_u10_l01",
+              "title": {
+                "de": "Formeller Stil, Passiv und strukturierte Anliegen",
+                "ar": "الأسلوب الرسمي والمبني للمجهول وتنظيم الطلب",
+                "en": "Formal style, passive and structured requests"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u10_l02",
+              "title": {
+                "de": "Ein Anliegen sachlich schriftlich klären",
+                "ar": "حل مسألة رسمية كتابيًا بموضوعية",
+                "en": "Resolving an official matter in writing"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u10_l03",
+              "title": {
+                "de": "Intensivtraining: Behörden, Anträge & formelle Beschwerden",
+                "ar": "تدريب مكثف: الدوائر والطلبات والشكاوى الرسمية",
+                "en": "Mastery lab: Public offices, applications & formal complaints"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u10_l04",
+              "title": {
+                "de": "Falltraining: Behörden, Anträge & formelle Beschwerden",
+                "ar": "تدريب الحالات: الدوائر والطلبات والشكاوى الرسمية",
+                "en": "Casebook: Public offices, applications & formal complaints"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u11",
+          "title": {
+            "de": "Gesundheit, Arzt & Versicherung",
+            "ar": "الصحة والطبيب والتأمين",
+            "en": "Health, doctors & insurance"
+          },
+          "lessons": [
+            {
+              "id": "b1_u11_l01",
+              "title": {
+                "de": "Symptome differenziert, seit/seitdem und Ratschläge",
+                "ar": "وصف الأعراض بدقة وseit/seitdem والنصائح",
+                "en": "Detailed symptoms, seit/seitdem and advice"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u11_l02",
+              "title": {
+                "de": "Medizinische Gespräche sprachlich bewältigen",
+                "ar": "إدارة الحوار الطبي لغويًا",
+                "en": "Handling medical conversations linguistically"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Gesundheit, Arzt & Versicherung",
+                "ar": "تدريب مكثف: الصحة والطبيب والتأمين",
+                "en": "Mastery lab: Health, doctors & insurance"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u11_l04",
+              "title": {
+                "de": "Falltraining: Gesundheit, Arzt & Versicherung",
+                "ar": "تدريب الحالات: الصحة والطبيب والتأمين",
+                "en": "Casebook: Health, doctors & insurance"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u12",
+          "title": {
+            "de": "Medien, Meinung & Argumentation",
+            "ar": "الإعلام والرأي والحجاج",
+            "en": "Media, opinion & argumentation"
+          },
+          "lessons": [
+            {
+              "id": "b1_u12_l01",
+              "title": {
+                "de": "Konnektoren obwohl, trotzdem, deshalb, während",
+                "ar": "الروابط obwohl وtrotzdem وdeshalb وwährend",
+                "en": "Connectors obwohl, trotzdem, deshalb and während"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u12_l02",
+              "title": {
+                "de": "Eine Meinung differenziert begründen",
+                "ar": "تقديم رأي مبرر ومتوازن",
+                "en": "Giving a nuanced, reasoned opinion"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Medien, Meinung & Argumentation",
+                "ar": "تدريب مكثف: الإعلام والرأي والحجاج",
+                "en": "Mastery lab: Media, opinion & argumentation"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u12_l04",
+              "title": {
+                "de": "Falltraining: Medien, Meinung & Argumentation",
+                "ar": "تدريب الحالات: الإعلام والرأي والحجاج",
+                "en": "Casebook: Media, opinion & argumentation"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u13",
+          "title": {
+            "de": "Umwelt, Gesellschaft & Präsentation",
+            "ar": "البيئة والمجتمع والعرض",
+            "en": "Environment, society & presentation"
+          },
+          "lessons": [
+            {
+              "id": "b1_u13_l01",
+              "title": {
+                "de": "Präsentationssprache, Nominalgruppen und strukturierte Schlussfolgerungen",
+                "ar": "لغة العرض والمجموعات الاسمية والخلاصات المنظمة",
+                "en": "Presentation language, noun groups and structured conclusions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u13_l02",
+              "title": {
+                "de": "Ein B1-Thema präsentieren und diskutieren",
+                "ar": "عرض موضوع B1 ومناقشته",
+                "en": "Presenting and discussing a B1 topic"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Umwelt, Gesellschaft & Präsentation",
+                "ar": "تدريب مكثف: البيئة والمجتمع والعرض",
+                "en": "Mastery lab: Environment, society & presentation"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u13_l04",
+              "title": {
+                "de": "Falltraining: Umwelt, Gesellschaft & Präsentation",
+                "ar": "تدريب الحالات: البيئة والمجتمع والعرض",
+                "en": "Casebook: Environment, society & presentation"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u14",
+          "title": {
+            "de": "B1 Integration — selbstständig handeln, erklären, verhandeln",
+            "ar": "تكامل B1 — التصرف والشرح والتفاوض باستقلال",
+            "en": "B1 Integration — act, explain and negotiate independently"
+          },
+          "lessons": [
+            {
+              "id": "b1_u14_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b1_u14_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b1_u14_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u14_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u15",
+          "title": {
+            "de": "B1 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات B1",
+            "en": "B1 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "b1_u15_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b1_u15_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "b1_u15_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "b1_u15_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u16",
+          "title": {
+            "de": "B1 Sprechfluss, Akzent & Connected Speech",
+            "ar": "طلاقة الكلام والنبر والربط B1",
+            "en": "B1 Fluency, Stress & Connected Speech"
+          },
+          "lessons": [
+            {
+              "id": "b1_u16_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "b1_u16_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "b1_u16_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "b1_u16_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-core-b2",
+      "cefr": "B2",
+      "title": {
+        "de": "B2 — Präzision, Beruf & komplexe Themen",
+        "ar": "B2 — الدقة والعمل والموضوعات المعقدة",
+        "en": "B2 — Precision, professional language & complex topics"
+      },
+      "units": [
+        {
+          "id": "de-core-b2-u01",
+          "title": {
+            "de": "Komplexe Konnektoren & Argumentlogik",
+            "ar": "الروابط المعقدة ومنطق الحجة",
+            "en": "Complex connectors & argument logic"
+          },
+          "lessons": [
+            {
+              "id": "b2_u01_l01",
+              "title": {
+                "de": "obwohl, dennoch, sofern, während, hingegen, sodass",
+                "ar": "obwohl وdennoch وsofern وwährend وhingegen وsodass",
+                "en": "obwohl, dennoch, sofern, während, hingegen and sodass"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u01_l02",
+              "title": {
+                "de": "Komplexe Beziehungen zwischen Argumenten ausdrücken",
+                "ar": "التعبير عن علاقات معقدة بين الحجج",
+                "en": "Expressing complex relationships between arguments"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u01_l03",
+              "title": {
+                "de": "Intensivtraining: Komplexe Konnektoren & Argumentlogik",
+                "ar": "تدريب مكثف: الروابط المعقدة ومنطق الحجة",
+                "en": "Mastery lab: Complex connectors & argument logic"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u01_l04",
+              "title": {
+                "de": "Falltraining: Komplexe Konnektoren & Argumentlogik",
+                "ar": "تدريب الحالات: الروابط المعقدة ومنطق الحجة",
+                "en": "Casebook: Complex connectors & argument logic"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u02",
+          "title": {
+            "de": "Passiversatz & Handlungsfokus",
+            "ar": "بدائل المبني للمجهول وتركيز الفعل",
+            "en": "Passive alternatives & action focus"
+          },
+          "lessons": [
+            {
+              "id": "b2_u02_l01",
+              "title": {
+                "de": "sich lassen, sein + zu, bekommen-Passiv und unpersönliche Formen",
+                "ar": "sich lassen وsein + zu وbekommen-Passiv والصيغ غير الشخصية",
+                "en": "sich lassen, sein + zu, bekommen-passive and impersonal forms"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u02_l02",
+              "title": {
+                "de": "Prozesse stilistisch variabel beschreiben",
+                "ar": "وصف العمليات بتنوع أسلوبي",
+                "en": "Describing processes with stylistic variation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u02_l03",
+              "title": {
+                "de": "Intensivtraining: Passiversatz & Handlungsfokus",
+                "ar": "تدريب مكثف: بدائل المبني للمجهول وتركيز الفعل",
+                "en": "Mastery lab: Passive alternatives & action focus"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u02_l04",
+              "title": {
+                "de": "Falltraining: Passiversatz & Handlungsfokus",
+                "ar": "تدريب الحالات: بدائل المبني للمجهول وتركيز الفعل",
+                "en": "Casebook: Passive alternatives & action focus"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u03",
+          "title": {
+            "de": "Nominalstil & formelle Texte",
+            "ar": "الأسلوب الاسمي والنصوص الرسمية",
+            "en": "Nominal style & formal texts"
+          },
+          "lessons": [
+            {
+              "id": "b2_u03_l01",
+              "title": {
+                "de": "Nominalisierung von Verben/Adjektiven und Präpositionalgefüge",
+                "ar": "تحويل الأفعال/الصفات إلى أسماء والتراكيب الاسمية",
+                "en": "Nominalization of verbs/adjectives and prepositional structures"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u03_l02",
+              "title": {
+                "de": "Dichte Verwaltungs- und Fachsprache verstehen und produzieren",
+                "ar": "فهم وإنتاج لغة إدارية ومتخصصة كثيفة",
+                "en": "Understanding and producing dense administrative/professional language"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u03_l03",
+              "title": {
+                "de": "Intensivtraining: Nominalstil & formelle Texte",
+                "ar": "تدريب مكثف: الأسلوب الاسمي والنصوص الرسمية",
+                "en": "Mastery lab: Nominal style & formal texts"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u03_l04",
+              "title": {
+                "de": "Falltraining: Nominalstil & formelle Texte",
+                "ar": "تدريب الحالات: الأسلوب الاسمي والنصوص الرسمية",
+                "en": "Casebook: Nominal style & formal texts"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u04",
+          "title": {
+            "de": "Partizipialattribute & Informationsdichte",
+            "ar": "صفات اسم الفاعل/المفعول وكثافة المعلومات",
+            "en": "Participial attributes & information density"
+          },
+          "lessons": [
+            {
+              "id": "b2_u04_l01",
+              "title": {
+                "de": "Partizip I/II als Attribute und Auflösung in Relativsätze",
+                "ar": "Partizip I/II كصفات وتحويلها إلى جمل موصولة",
+                "en": "Participle I/II as attributes and expansion into relative clauses"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u04_l02",
+              "title": {
+                "de": "Komplexe Nominalgruppen in Fachtexten entschlüsseln",
+                "ar": "فك المجموعات الاسمية المعقدة في النصوص المتخصصة",
+                "en": "Decoding complex noun phrases in specialist texts"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u04_l03",
+              "title": {
+                "de": "Intensivtraining: Partizipialattribute & Informationsdichte",
+                "ar": "تدريب مكثف: صفات اسم الفاعل/المفعول وكثافة المعلومات",
+                "en": "Mastery lab: Participial attributes & information density"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u04_l04",
+              "title": {
+                "de": "Falltraining: Partizipialattribute & Informationsdichte",
+                "ar": "تدريب الحالات: صفات اسم الفاعل/المفعول وكثافة المعلومات",
+                "en": "Casebook: Participial attributes & information density"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u05",
+          "title": {
+            "de": "Indirekte Rede & Distanz",
+            "ar": "النقل غير المباشر والمسافة الأسلوبية",
+            "en": "Reported speech & stance distance"
+          },
+          "lessons": [
+            {
+              "id": "b2_u05_l01",
+              "title": {
+                "de": "Konjunktiv I und Ersatzformen",
+                "ar": "Konjunktiv I وصيغ التعويض",
+                "en": "Konjunktiv I and substitute forms"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u05_l02",
+              "title": {
+                "de": "Aussagen neutral wiedergeben",
+                "ar": "نقل الأقوال بحياد",
+                "en": "Reporting statements neutrally"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u05_l03",
+              "title": {
+                "de": "Intensivtraining: Indirekte Rede & Distanz",
+                "ar": "تدريب مكثف: النقل غير المباشر والمسافة الأسلوبية",
+                "en": "Mastery lab: Reported speech & stance distance"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u05_l04",
+              "title": {
+                "de": "Falltraining: Indirekte Rede & Distanz",
+                "ar": "تدريب الحالات: النقل غير المباشر والمسافة الأسلوبية",
+                "en": "Casebook: Reported speech & stance distance"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u06",
+          "title": {
+            "de": "Register, Modalpartikeln & Pragmatik",
+            "ar": "السجل اللغوي والجسيمات المقامية",
+            "en": "Register, modal particles & pragmatics"
+          },
+          "lessons": [
+            {
+              "id": "b2_u06_l01",
+              "title": {
+                "de": "doch, ja, eben, wohl, mal und situationsgerechter Ton",
+                "ar": "doch وja وeben وwohl وmal والنبرة المناسبة",
+                "en": "doch, ja, eben, wohl, mal and context-appropriate tone"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u06_l02",
+              "title": {
+                "de": "Natürlich und situationsangemessen klingen",
+                "ar": "التحدث بطبيعية وبما يناسب المقام",
+                "en": "Sounding natural and context-appropriate"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u06_l03",
+              "title": {
+                "de": "Intensivtraining: Register, Modalpartikeln & Pragmatik",
+                "ar": "تدريب مكثف: السجل اللغوي والجسيمات المقامية",
+                "en": "Mastery lab: Register, modal particles & pragmatics"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u06_l04",
+              "title": {
+                "de": "Falltraining: Register, Modalpartikeln & Pragmatik",
+                "ar": "تدريب الحالات: السجل اللغوي والجسيمات المقامية",
+                "en": "Casebook: Register, modal particles & pragmatics"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u07",
+          "title": {
+            "de": "Argumentieren & Debattieren",
+            "ar": "الحجاج والمناظرة",
+            "en": "Argumentation & debate"
+          },
+          "lessons": [
+            {
+              "id": "b2_u07_l01",
+              "title": {
+                "de": "These, Begründung, Beispiel, Gegenargument, Einschränkung",
+                "ar": "الأطروحة والتعليل والمثال والحجة المضادة والتحفظ",
+                "en": "Claim, reasoning, example, counterargument and qualification"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u07_l02",
+              "title": {
+                "de": "Eine Position überzeugend und fair vertreten",
+                "ar": "الدفاع عن موقف بإقناع وإنصاف",
+                "en": "Defending a position persuasively and fairly"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u07_l03",
+              "title": {
+                "de": "Intensivtraining: Argumentieren & Debattieren",
+                "ar": "تدريب مكثف: الحجاج والمناظرة",
+                "en": "Mastery lab: Argumentation & debate"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u07_l04",
+              "title": {
+                "de": "Falltraining: Argumentieren & Debattieren",
+                "ar": "تدريب الحالات: الحجاج والمناظرة",
+                "en": "Casebook: Argumentation & debate"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u08",
+          "title": {
+            "de": "Präsentieren & Daten beschreiben",
+            "ar": "العرض ووصف البيانات",
+            "en": "Presentations & describing data"
+          },
+          "lessons": [
+            {
+              "id": "b2_u08_l01",
+              "title": {
+                "de": "Trends, Vergleichssprache und vorsichtige Interpretation",
+                "ar": "الاتجاهات ولغة المقارنة والتفسير الحذر",
+                "en": "Trends, comparison language and cautious interpretation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u08_l02",
+              "title": {
+                "de": "Grafiken und Ergebnisse mündlich darstellen",
+                "ar": "عرض الرسوم والنتائج شفهيًا",
+                "en": "Presenting charts and results orally"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u08_l03",
+              "title": {
+                "de": "Intensivtraining: Präsentieren & Daten beschreiben",
+                "ar": "تدريب مكثف: العرض ووصف البيانات",
+                "en": "Mastery lab: Presentations & describing data"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u08_l04",
+              "title": {
+                "de": "Falltraining: Präsentieren & Daten beschreiben",
+                "ar": "تدريب الحالات: العرض ووصف البيانات",
+                "en": "Casebook: Presentations & describing data"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u09",
+          "title": {
+            "de": "Verhandeln & Konflikte lösen",
+            "ar": "التفاوض وحل النزاعات",
+            "en": "Negotiation & conflict resolution"
+          },
+          "lessons": [
+            {
+              "id": "b2_u09_l01",
+              "title": {
+                "de": "Interessen, Bedingungen, Zugeständnisse und Deeskalation",
+                "ar": "المصالح والشروط والتنازلات وتهدئة التصعيد",
+                "en": "Interests, conditions, concessions and de-escalation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u09_l02",
+              "title": {
+                "de": "Lösungsorientiert verhandeln",
+                "ar": "التفاوض باتجاه الحل",
+                "en": "Negotiating toward solutions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u09_l03",
+              "title": {
+                "de": "Intensivtraining: Verhandeln & Konflikte lösen",
+                "ar": "تدريب مكثف: التفاوض وحل النزاعات",
+                "en": "Mastery lab: Negotiation & conflict resolution"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u09_l04",
+              "title": {
+                "de": "Falltraining: Verhandeln & Konflikte lösen",
+                "ar": "تدريب الحالات: التفاوض وحل النزاعات",
+                "en": "Casebook: Negotiation & conflict resolution"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u10",
+          "title": {
+            "de": "Medienkompetenz & Quellenkritik",
+            "ar": "الكفاءة الإعلامية ونقد المصادر",
+            "en": "Media literacy & source evaluation"
+          },
+          "lessons": [
+            {
+              "id": "b2_u10_l01",
+              "title": {
+                "de": "Quellen markieren, Unsicherheit graduieren und Behauptungen prüfen",
+                "ar": "تحديد المصادر وتدرج عدم اليقين وفحص الادعاءات",
+                "en": "Marking sources, grading uncertainty and checking claims"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u10_l02",
+              "title": {
+                "de": "Informationen kritisch zusammenfassen",
+                "ar": "تلخيص المعلومات نقديًا",
+                "en": "Critically summarizing information"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u10_l03",
+              "title": {
+                "de": "Intensivtraining: Medienkompetenz & Quellenkritik",
+                "ar": "تدريب مكثف: الكفاءة الإعلامية ونقد المصادر",
+                "en": "Mastery lab: Media literacy & source evaluation"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u10_l04",
+              "title": {
+                "de": "Falltraining: Medienkompetenz & Quellenkritik",
+                "ar": "تدريب الحالات: الكفاءة الإعلامية ونقد المصادر",
+                "en": "Casebook: Media literacy & source evaluation"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u11",
+          "title": {
+            "de": "Wirtschaft, Konsum & Finanzen",
+            "ar": "الاقتصاد والاستهلاك والمال",
+            "en": "Economics, consumption & finance"
+          },
+          "lessons": [
+            {
+              "id": "b2_u11_l01",
+              "title": {
+                "de": "Ursache-Folge, Bedingungen und finanzielle Fachsprache",
+                "ar": "السبب والنتيجة والشروط ومفردات مالية",
+                "en": "Cause-effect, conditions and financial terminology"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u11_l02",
+              "title": {
+                "de": "Verträge, Preise und finanzielle Entscheidungen verstehen",
+                "ar": "فهم العقود والأسعار والقرارات المالية",
+                "en": "Understanding contracts, prices and financial decisions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Wirtschaft, Konsum & Finanzen",
+                "ar": "تدريب مكثف: الاقتصاد والاستهلاك والمال",
+                "en": "Mastery lab: Economics, consumption & finance"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u11_l04",
+              "title": {
+                "de": "Falltraining: Wirtschaft, Konsum & Finanzen",
+                "ar": "تدريب الحالات: الاقتصاد والاستهلاك والمال",
+                "en": "Casebook: Economics, consumption & finance"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u12",
+          "title": {
+            "de": "Recht, Verwaltung & Arbeitsleben",
+            "ar": "القانون والإدارة والحياة المهنية",
+            "en": "Law, administration & working life"
+          },
+          "lessons": [
+            {
+              "id": "b2_u12_l01",
+              "title": {
+                "de": "Rechts- und Verwaltungssprache entschlüsseln",
+                "ar": "فك لغة القانون والإدارة",
+                "en": "Decoding legal and administrative language"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u12_l02",
+              "title": {
+                "de": "Formelle Regeltexte sicher lesen",
+                "ar": "قراءة النصوص التنظيمية الرسمية بأمان",
+                "en": "Reading formal rules and administrative texts safely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Recht, Verwaltung & Arbeitsleben",
+                "ar": "تدريب مكثف: القانون والإدارة والحياة المهنية",
+                "en": "Mastery lab: Law, administration & working life"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u12_l04",
+              "title": {
+                "de": "Falltraining: Recht, Verwaltung & Arbeitsleben",
+                "ar": "تدريب الحالات: القانون والإدارة والحياة المهنية",
+                "en": "Casebook: Law, administration & working life"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u13",
+          "title": {
+            "de": "Wissenschaft, Technik & Digitalisierung",
+            "ar": "العلم والتقنية والرقمنة",
+            "en": "Science, technology & digitalization"
+          },
+          "lessons": [
+            {
+              "id": "b2_u13_l01",
+              "title": {
+                "de": "Prozessbeschreibung, Wahrscheinlichkeit und technische Präzision",
+                "ar": "وصف العمليات والاحتمال والدقة التقنية",
+                "en": "Process description, probability and technical precision"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u13_l02",
+              "title": {
+                "de": "Komplexe technische Sachverhalte erklären",
+                "ar": "شرح موضوعات تقنية معقدة",
+                "en": "Explaining complex technical topics"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Wissenschaft, Technik & Digitalisierung",
+                "ar": "تدريب مكثف: العلم والتقنية والرقمنة",
+                "en": "Mastery lab: Science, technology & digitalization"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u13_l04",
+              "title": {
+                "de": "Falltraining: Wissenschaft, Technik & Digitalisierung",
+                "ar": "تدريب الحالات: العلم والتقنية والرقمنة",
+                "en": "Casebook: Science, technology & digitalization"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u14",
+          "title": {
+            "de": "Umwelt, Klima & Stadtentwicklung",
+            "ar": "البيئة والمناخ وتطوير المدن",
+            "en": "Environment, climate & urban development"
+          },
+          "lessons": [
+            {
+              "id": "b2_u14_l01",
+              "title": {
+                "de": "Abwägung, Prognose und Maßnahmenbewertung",
+                "ar": "الموازنة والتنبؤ وتقييم الإجراءات",
+                "en": "Trade-offs, forecasts and policy evaluation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u14_l02",
+              "title": {
+                "de": "Komplexe Maßnahmen sachlich bewerten",
+                "ar": "تقييم الإجراءات المعقدة بموضوعية",
+                "en": "Evaluating complex measures objectively"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u14_l03",
+              "title": {
+                "de": "Intensivtraining: Umwelt, Klima & Stadtentwicklung",
+                "ar": "تدريب مكثف: البيئة والمناخ وتطوير المدن",
+                "en": "Mastery lab: Environment, climate & urban development"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u14_l04",
+              "title": {
+                "de": "Falltraining: Umwelt, Klima & Stadtentwicklung",
+                "ar": "تدريب الحالات: البيئة والمناخ وتطوير المدن",
+                "en": "Casebook: Environment, climate & urban development"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u15",
+          "title": {
+            "de": "B2 Integration — analysieren, entscheiden & professionell kommunizieren",
+            "ar": "تكامل B2 — التحليل واتخاذ القرار والتواصل المهني",
+            "en": "B2 Integration — analyze, decide & communicate professionally"
+          },
+          "lessons": [
+            {
+              "id": "b2_u15_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b2_u15_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b2_u15_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u15_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u16",
+          "title": {
+            "de": "B2 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات B2",
+            "en": "B2 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "b2_u16_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b2_u16_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "b2_u16_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "b2_u16_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u17",
+          "title": {
+            "de": "B2 Prosodie, Fokus & pragmatische Wirkung",
+            "ar": "النبر الخطابي والبؤرة والأثر التداولي B2",
+            "en": "B2 Prosody, Focus & Pragmatic Effect"
+          },
+          "lessons": [
+            {
+              "id": "b2_u17_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "b2_u17_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "b2_u17_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "b2_u17_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-core-c1",
+      "cefr": "C1",
+      "title": {
+        "de": "C1 — Akademische, professionelle & stilistische Meisterschaft",
+        "ar": "C1 — إتقان أكاديمي ومهني وأسلوبي",
+        "en": "C1 — Academic, professional & stylistic mastery"
+      },
+      "units": [
+        {
+          "id": "de-core-c1-u01",
+          "title": {
+            "de": "Informationsstruktur, Fokus & Satzrhythmus",
+            "ar": "بنية المعلومات والتركيز وإيقاع الجملة",
+            "en": "Information structure, focus & sentence rhythm"
+          },
+          "lessons": [
+            {
+              "id": "c1_u01_l01",
+              "title": {
+                "de": "Thema–Rhema, Vorfeldvariation, Nachfeld und gezielte Hervorhebung",
+                "ar": "الموضوع والمعلومة الجديدة وتغيير مقدمة الجملة والتوكيد",
+                "en": "Theme–rheme, prefield variation, postfield and deliberate emphasis"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u01_l02",
+              "title": {
+                "de": "Komplexe Aussagen adressatengerecht strukturieren",
+                "ar": "تنظيم الأفكار المعقدة بحسب المتلقي",
+                "en": "Structuring complex statements for the audience"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u01_l03",
+              "title": {
+                "de": "Intensivtraining: Informationsstruktur, Fokus & Satzrhythmus",
+                "ar": "تدريب مكثف: بنية المعلومات والتركيز وإيقاع الجملة",
+                "en": "Mastery lab: Information structure, focus & sentence rhythm"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u01_l04",
+              "title": {
+                "de": "Falltraining: Informationsstruktur, Fokus & Satzrhythmus",
+                "ar": "تدريب الحالات: بنية المعلومات والتركيز وإيقاع الجملة",
+                "en": "Casebook: Information structure, focus & sentence rhythm"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u02",
+          "title": {
+            "de": "Komplexe Subordination & Bedeutungsnuancen",
+            "ar": "الجمل التابعة المعقدة والفروق الدلالية",
+            "en": "Complex subordination & semantic nuance"
+          },
+          "lessons": [
+            {
+              "id": "c1_u02_l01",
+              "title": {
+                "de": "indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass",
+                "ar": "indem وinsofern وsofern وzumal وwohingegen وals dass وohne dass",
+                "en": "indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u02_l02",
+              "title": {
+                "de": "Logische Beziehungen präzise und ökonomisch ausdrücken",
+                "ar": "التعبير الدقيق والموجز عن العلاقات المنطقية",
+                "en": "Expressing logical relationships precisely and economically"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u02_l03",
+              "title": {
+                "de": "Intensivtraining: Komplexe Subordination & Bedeutungsnuancen",
+                "ar": "تدريب مكثف: الجمل التابعة المعقدة والفروق الدلالية",
+                "en": "Mastery lab: Complex subordination & semantic nuance"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u02_l04",
+              "title": {
+                "de": "Falltraining: Komplexe Subordination & Bedeutungsnuancen",
+                "ar": "تدريب الحالات: الجمل التابعة المعقدة والفروق الدلالية",
+                "en": "Casebook: Complex subordination & semantic nuance"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u03",
+          "title": {
+            "de": "Modale Feinabstufung & epistemische Distanz",
+            "ar": "تدرج الموقف واليقين والمسافة المعرفية",
+            "en": "Modal nuance & epistemic distance"
+          },
+          "lessons": [
+            {
+              "id": "c1_u03_l01",
+              "title": {
+                "de": "dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs",
+                "ar": "dürfte وmüsste وsollte وwohl وoffenbar وanscheinend وkaum وkeineswegs",
+                "en": "dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u03_l02",
+              "title": {
+                "de": "Sicherheit, Vermutung und Zurückhaltung präzise markieren",
+                "ar": "تحديد درجات اليقين والاحتمال والتحفظ بدقة",
+                "en": "Marking certainty, inference and caution precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u03_l03",
+              "title": {
+                "de": "Intensivtraining: Modale Feinabstufung & epistemische Distanz",
+                "ar": "تدريب مكثف: تدرج الموقف واليقين والمسافة المعرفية",
+                "en": "Mastery lab: Modal nuance & epistemic distance"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u03_l04",
+              "title": {
+                "de": "Falltraining: Modale Feinabstufung & epistemische Distanz",
+                "ar": "تدريب الحالات: تدرج الموقف واليقين والمسافة المعرفية",
+                "en": "Casebook: Modal nuance & epistemic distance"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u04",
+          "title": {
+            "de": "Indirekte Rede, Quellen & Stimmenvielfalt",
+            "ar": "النقل غير المباشر وتعدد المصادر والأصوات",
+            "en": "Reported speech, sources & multiple voices"
+          },
+          "lessons": [
+            {
+              "id": "c1_u04_l01",
+              "title": {
+                "de": "Konjunktiv I/II, Quellenrahmen und mehrstufige Wiedergabe",
+                "ar": "Konjunktiv I/II وإطار المصدر والنقل متعدد المراحل",
+                "en": "Konjunktiv I/II, source framing and multi-layer reporting"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u04_l02",
+              "title": {
+                "de": "Mehrere Aussagen sauber voneinander und von der eigenen Position trennen",
+                "ar": "فصل أقوال متعددة عن بعضها وعن موقف الكاتب",
+                "en": "Separating multiple statements from one another and from your own stance"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u04_l03",
+              "title": {
+                "de": "Intensivtraining: Indirekte Rede, Quellen & Stimmenvielfalt",
+                "ar": "تدريب مكثف: النقل غير المباشر وتعدد المصادر والأصوات",
+                "en": "Mastery lab: Reported speech, sources & multiple voices"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u04_l04",
+              "title": {
+                "de": "Falltraining: Indirekte Rede, Quellen & Stimmenvielfalt",
+                "ar": "تدريب الحالات: النقل غير المباشر وتعدد المصادر والأصوات",
+                "en": "Casebook: Reported speech, sources & multiple voices"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u05",
+          "title": {
+            "de": "Nominalstil, Verdichtung & Rückübersetzung",
+            "ar": "الأسلوب الاسمي والتكثيف وإعادة الصياغة الفعلية",
+            "en": "Nominal style, compression & verbal expansion"
+          },
+          "lessons": [
+            {
+              "id": "c1_u05_l01",
+              "title": {
+                "de": "Komplexe Nominalketten analysieren und stilistisch umformen",
+                "ar": "تحليل السلاسل الاسمية المعقدة وإعادة صياغتها",
+                "en": "Analyzing complex noun chains and stylistic transformation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u05_l02",
+              "title": {
+                "de": "Akademische und administrative Texte präzise entschlüsseln und redigieren",
+                "ar": "فك وتحرير النصوص الأكاديمية والإدارية بدقة",
+                "en": "Decoding and editing academic/administrative texts precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u05_l03",
+              "title": {
+                "de": "Intensivtraining: Nominalstil, Verdichtung & Rückübersetzung",
+                "ar": "تدريب مكثف: الأسلوب الاسمي والتكثيف وإعادة الصياغة الفعلية",
+                "en": "Mastery lab: Nominal style, compression & verbal expansion"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u05_l04",
+              "title": {
+                "de": "Falltraining: Nominalstil, Verdichtung & Rückübersetzung",
+                "ar": "تدريب الحالات: الأسلوب الاسمي والتكثيف وإعادة الصياغة الفعلية",
+                "en": "Casebook: Nominal style, compression & verbal expansion"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u06",
+          "title": {
+            "de": "Kollokationen, Wortbildung & idiomatische Präzision",
+            "ar": "المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية",
+            "en": "Collocations, word formation & idiomatic precision"
+          },
+          "lessons": [
+            {
+              "id": "c1_u06_l01",
+              "title": {
+                "de": "Feste Wortverbindungen, Präfixe/Suffixe und Bedeutungsfelder",
+                "ar": "التراكيب الثابتة واللواحق/السوابق والحقول الدلالية",
+                "en": "Fixed combinations, affixes and semantic fields"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u06_l02",
+              "title": {
+                "de": "Wortschatz nicht nur breit, sondern treffsicher einsetzen",
+                "ar": "استخدام مفردات دقيقة لا واسعة فقط",
+                "en": "Using vocabulary precisely, not merely broadly"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u06_l03",
+              "title": {
+                "de": "Intensivtraining: Kollokationen, Wortbildung & idiomatische Präzision",
+                "ar": "تدريب مكثف: المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية",
+                "en": "Mastery lab: Collocations, word formation & idiomatic precision"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u06_l04",
+              "title": {
+                "de": "Falltraining: Kollokationen, Wortbildung & idiomatische Präzision",
+                "ar": "تدريب الحالات: المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية",
+                "en": "Casebook: Collocations, word formation & idiomatic precision"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u07",
+          "title": {
+            "de": "Akademisch zusammenfassen & synthetisieren",
+            "ar": "التلخيص والتركيب الأكاديمي",
+            "en": "Academic summarizing & synthesis"
+          },
+          "lessons": [
+            {
+              "id": "c1_u07_l01",
+              "title": {
+                "de": "Kernaussage, Paraphrase, Quellenintegration und Synthese",
+                "ar": "الفكرة المركزية وإعادة الصياغة ودمج المصادر والتركيب",
+                "en": "Main claim, paraphrase, source integration and synthesis"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u07_l02",
+              "title": {
+                "de": "Mehrere Texte zu einer eigenständigen, quellentreuen Darstellung verbinden",
+                "ar": "دمج عدة نصوص في عرض مستقل أمين للمصادر",
+                "en": "Combining multiple texts into an independent, source-faithful account"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u07_l03",
+              "title": {
+                "de": "Intensivtraining: Akademisch zusammenfassen & synthetisieren",
+                "ar": "تدريب مكثف: التلخيص والتركيب الأكاديمي",
+                "en": "Mastery lab: Academic summarizing & synthesis"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u07_l04",
+              "title": {
+                "de": "Falltraining: Akademisch zusammenfassen & synthetisieren",
+                "ar": "تدريب الحالات: التلخيص والتركيب الأكاديمي",
+                "en": "Casebook: Academic summarizing & synthesis"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u08",
+          "title": {
+            "de": "Berichte, Memos & Executive Summary",
+            "ar": "التقارير والمذكرات والملخص التنفيذي",
+            "en": "Reports, memos & executive summaries"
+          },
+          "lessons": [
+            {
+              "id": "c1_u08_l01",
+              "title": {
+                "de": "Adressatenorientierung, Befund–Bewertung–Empfehlung und prägnanter Stil",
+                "ar": "مراعاة المتلقي وبنية النتيجة–التقييم–التوصية والأسلوب الموجز",
+                "en": "Audience focus, finding–assessment–recommendation and concise style"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u08_l02",
+              "title": {
+                "de": "Komplexe Sachverhalte für Entscheider verdichten",
+                "ar": "تكثيف موضوعات معقدة لصناع القرار",
+                "en": "Condensing complex issues for decision-makers"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u08_l03",
+              "title": {
+                "de": "Intensivtraining: Berichte, Memos & Executive Summary",
+                "ar": "تدريب مكثف: التقارير والمذكرات والملخص التنفيذي",
+                "en": "Mastery lab: Reports, memos & executive summaries"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u08_l04",
+              "title": {
+                "de": "Falltraining: Berichte, Memos & Executive Summary",
+                "ar": "تدريب الحالات: التقارير والمذكرات والملخص التنفيذي",
+                "en": "Casebook: Reports, memos & executive summaries"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u09",
+          "title": {
+            "de": "Verhandeln, Moderieren & Führungskommunikation",
+            "ar": "التفاوض وإدارة النقاش والتواصل القيادي",
+            "en": "Negotiation, facilitation & leadership communication"
+          },
+          "lessons": [
+            {
+              "id": "c1_u09_l01",
+              "title": {
+                "de": "Reframing, Interessenklärung, Einwandbehandlung und verbindliche Vereinbarungen",
+                "ar": "إعادة التأطير وتوضيح المصالح ومعالجة الاعتراضات والاتفاقات الملزمة",
+                "en": "Reframing, interest clarification, handling objections and binding agreements"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u09_l02",
+              "title": {
+                "de": "Komplexe Gespräche lösungsorientiert steuern",
+                "ar": "إدارة الحوارات المعقدة باتجاه الحل",
+                "en": "Steering complex conversations toward solutions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u09_l03",
+              "title": {
+                "de": "Intensivtraining: Verhandeln, Moderieren & Führungskommunikation",
+                "ar": "تدريب مكثف: التفاوض وإدارة النقاش والتواصل القيادي",
+                "en": "Mastery lab: Negotiation, facilitation & leadership communication"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u09_l04",
+              "title": {
+                "de": "Falltraining: Verhandeln, Moderieren & Führungskommunikation",
+                "ar": "تدريب الحالات: التفاوض وإدارة النقاش والتواصل القيادي",
+                "en": "Casebook: Negotiation, facilitation & leadership communication"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u10",
+          "title": {
+            "de": "Rhetorik, Framing & Diskursanalyse",
+            "ar": "البلاغة والتأطير وتحليل الخطاب",
+            "en": "Rhetoric, framing & discourse analysis"
+          },
+          "lessons": [
+            {
+              "id": "c1_u10_l01",
+              "title": {
+                "de": "Metaphern, Präsuppositionen, Euphemismen und argumentative Rahmung",
+                "ar": "الاستعارة والافتراضات المسبقة والتلطيف والتأطير الحجاجي",
+                "en": "Metaphors, presuppositions, euphemisms and argumentative framing"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u10_l02",
+              "title": {
+                "de": "Sprachliche Wirkung erkennen, ohne Inhalt und Wirkung zu verwechseln",
+                "ar": "تمييز أثر اللغة دون الخلط بين الأسلوب والحقائق",
+                "en": "Recognizing linguistic effects without confusing style and substance"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u10_l03",
+              "title": {
+                "de": "Intensivtraining: Rhetorik, Framing & Diskursanalyse",
+                "ar": "تدريب مكثف: البلاغة والتأطير وتحليل الخطاب",
+                "en": "Mastery lab: Rhetoric, framing & discourse analysis"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u10_l04",
+              "title": {
+                "de": "Falltraining: Rhetorik, Framing & Diskursanalyse",
+                "ar": "تدريب الحالات: البلاغة والتأطير وتحليل الخطاب",
+                "en": "Casebook: Rhetoric, framing & discourse analysis"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u11",
+          "title": {
+            "de": "Literarische Sprache & Stilmittel",
+            "ar": "اللغة الأدبية والأساليب البلاغية",
+            "en": "Literary language & stylistic devices"
+          },
+          "lessons": [
+            {
+              "id": "c1_u11_l01",
+              "title": {
+                "de": "Erzählperspektive, Metapher, Ironie, Ellipse und Registerwechsel",
+                "ar": "منظور السرد والاستعارة والسخرية والحذف وتغيير السجل",
+                "en": "Narrative perspective, metaphor, irony, ellipsis and register shift"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u11_l02",
+              "title": {
+                "de": "Anspruchsvolle literarische und essayistische Texte interpretieren",
+                "ar": "تفسير نصوص أدبية ومقالية متقدمة",
+                "en": "Interpreting advanced literary and essayistic texts"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Literarische Sprache & Stilmittel",
+                "ar": "تدريب مكثف: اللغة الأدبية والأساليب البلاغية",
+                "en": "Mastery lab: Literary language & stylistic devices"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u11_l04",
+              "title": {
+                "de": "Falltraining: Literarische Sprache & Stilmittel",
+                "ar": "تدريب الحالات: اللغة الأدبية والأساليب البلاغية",
+                "en": "Casebook: Literary language & stylistic devices"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u12",
+          "title": {
+            "de": "Gesellschaft, Ethik & differenzierte Debatte",
+            "ar": "المجتمع والأخلاق والنقاش المتوازن",
+            "en": "Society, ethics & nuanced debate"
+          },
+          "lessons": [
+            {
+              "id": "c1_u12_l01",
+              "title": {
+                "de": "Wertekonflikte, Perspektivübernahme und qualifizierte Bewertung",
+                "ar": "تعارض القيم وتبني المنظور والتقييم المشروط",
+                "en": "Value conflicts, perspective-taking and qualified evaluation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u12_l02",
+              "title": {
+                "de": "Komplexe normative Fragen fair und präzise diskutieren",
+                "ar": "مناقشة القضايا المعيارية المعقدة بعدل ودقة",
+                "en": "Discussing complex normative issues fairly and precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Gesellschaft, Ethik & differenzierte Debatte",
+                "ar": "تدريب مكثف: المجتمع والأخلاق والنقاش المتوازن",
+                "en": "Mastery lab: Society, ethics & nuanced debate"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u12_l04",
+              "title": {
+                "de": "Falltraining: Gesellschaft, Ethik & differenzierte Debatte",
+                "ar": "تدريب الحالات: المجتمع والأخلاق والنقاش المتوازن",
+                "en": "Casebook: Society, ethics & nuanced debate"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u13",
+          "title": {
+            "de": "Wissenschaft, Forschung & Methodenkritik",
+            "ar": "العلم والبحث ونقد المنهج",
+            "en": "Science, research & methodological critique"
+          },
+          "lessons": [
+            {
+              "id": "c1_u13_l01",
+              "title": {
+                "de": "Hypothesen, Operationalisierung, Korrelation, Kausalität und Limitationen",
+                "ar": "الفرضيات والتشغيل الإجرائي والارتباط والسببية والقيود",
+                "en": "Hypotheses, operationalization, correlation, causality and limitations"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u13_l02",
+              "title": {
+                "de": "Forschungsbefunde sprachlich präzise einordnen",
+                "ar": "تقييم نتائج البحث بدقة لغوية",
+                "en": "Interpreting research findings precisely"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Wissenschaft, Forschung & Methodenkritik",
+                "ar": "تدريب مكثف: العلم والبحث ونقد المنهج",
+                "en": "Mastery lab: Science, research & methodological critique"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u13_l04",
+              "title": {
+                "de": "Falltraining: Wissenschaft, Forschung & Methodenkritik",
+                "ar": "تدريب الحالات: العلم والبحث ونقد المنهج",
+                "en": "Casebook: Science, research & methodological critique"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u14",
+          "title": {
+            "de": "Technologie, KI & verantwortungsvolle Kommunikation",
+            "ar": "التقنية والذكاء الاصطناعي والتواصل المسؤول",
+            "en": "Technology, AI & responsible communication"
+          },
+          "lessons": [
+            {
+              "id": "c1_u14_l01",
+              "title": {
+                "de": "Technische Erklärung, Unsicherheit, Datenschutz und Risikokommunikation",
+                "ar": "الشرح التقني وعدم اليقين وحماية البيانات والتواصل حول المخاطر",
+                "en": "Technical explanation, uncertainty, privacy and risk communication"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u14_l02",
+              "title": {
+                "de": "Technische Systeme verständlich und verantwortungsvoll erklären",
+                "ar": "شرح الأنظمة التقنية بمسؤولية ووضوح",
+                "en": "Explaining technical systems clearly and responsibly"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u14_l03",
+              "title": {
+                "de": "Intensivtraining: Technologie, KI & verantwortungsvolle Kommunikation",
+                "ar": "تدريب مكثف: التقنية والذكاء الاصطناعي والتواصل المسؤول",
+                "en": "Mastery lab: Technology, AI & responsible communication"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u14_l04",
+              "title": {
+                "de": "Falltraining: Technologie, KI & verantwortungsvolle Kommunikation",
+                "ar": "تدريب الحالات: التقنية والذكاء الاصطناعي والتواصل المسؤول",
+                "en": "Casebook: Technology, AI & responsible communication"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u15",
+          "title": {
+            "de": "Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur",
+            "ar": "التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي",
+            "en": "Editing, error diagnosis & stylistic self-correction"
+          },
+          "lessons": [
+            {
+              "id": "c1_u15_l01",
+              "title": {
+                "de": "Kohäsion, Referenz, Parallelität, Register, Grammatik und Präzisionsrevision",
+                "ar": "الترابط والإحالة والتوازي والسجل والنحو ومراجعة الدقة",
+                "en": "Cohesion, reference, parallelism, register, grammar and precision revision"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u15_l02",
+              "title": {
+                "de": "Eigene Texte systematisch auf C1-Niveau überarbeiten",
+                "ar": "مراجعة النصوص ذاتيًا بمنهجية على مستوى C1",
+                "en": "Systematically revising your own writing at C1"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u15_l03",
+              "title": {
+                "de": "Intensivtraining: Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur",
+                "ar": "تدريب مكثف: التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي",
+                "en": "Mastery lab: Editing, error diagnosis & stylistic self-correction"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u15_l04",
+              "title": {
+                "de": "Falltraining: Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur",
+                "ar": "تدريب الحالات: التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي",
+                "en": "Casebook: Editing, error diagnosis & stylistic self-correction"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u16",
+          "title": {
+            "de": "C1 Integration — Synthese, Führung, Forschung & Revision",
+            "ar": "تكامل C1 — التركيب والقيادة والبحث والمراجعة",
+            "en": "C1 Integration — synthesis, leadership, research & revision"
+          },
+          "lessons": [
+            {
+              "id": "c1_u16_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "c1_u16_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "c1_u16_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u16_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u17",
+          "title": {
+            "de": "C1 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات C1",
+            "en": "C1 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "c1_u17_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "c1_u17_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "c1_u17_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "c1_u17_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u18",
+          "title": {
+            "de": "C1 Rhetorische Prosodie & professionelle Sprechkontrolle",
+            "ar": "الإيقاع البلاغي والتحكم المهني في الكلام C1",
+            "en": "C1 Rhetorical Prosody & Professional Speech Control"
+          },
+          "lessons": [
+            {
+              "id": "c1_u18_l01",
+              "title": {
+                "de": "Phonetik: hören & unterscheiden",
+                "ar": "الصوتيات: الاستماع والتمييز",
+                "en": "Phonetics: listen & discriminate"
+              },
+              "activityCount": 13
+            },
+            {
+              "id": "c1_u18_l02",
+              "title": {
+                "de": "Phonetik: Shadowing & Sprechfluss",
+                "ar": "الصوتيات: الترديد وطلاقة الكلام",
+                "en": "Phonetics: shadowing & flow"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "c1_u18_l03",
+              "title": {
+                "de": "Phonetik-Mastery",
+                "ar": "إتقان الصوتيات",
+                "en": "Phonetics mastery"
+              },
+              "activityCount": 15
+            },
+            {
+              "id": "c1_u18_l04",
+              "title": {
+                "de": "Aussprache-Casebook",
+                "ar": "دفتر حالات النطق",
+                "en": "Pronunciation casebook"
+              },
+              "activityCount": 16
+            }
           ]
         }
       ]

@@ -1,0 +1,154 @@
+{
+  "id": "b2_u13_l01",
+  "unitId": "de-core-b2-u13",
+  "title": {
+    "de": "Prozessbeschreibung, Wahrscheinlichkeit und technische Präzision",
+    "ar": "وصف العمليات والاحتمال والدقة التقنية",
+    "en": "Process description, probability and technical precision"
+  },
+  "canDo": [
+    "B2_U13_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u13_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Prozessbeschreibung, Wahrscheinlichkeit und technische Präzision",
+        "ar": "وصف العمليات والاحتمال والدقة التقنية",
+        "en": "Process description, probability and technical precision"
+      },
+      "body": {
+        "de": "Kompetenzziel: Prozessbeschreibung, Wahrscheinlichkeit und technische Präzision\n\nSprachsystem:\nTechnische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft werden: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.\n\nReferenzbeispiele:\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.\n\nAnwendungsdomäne:\nSoftwareproblem, Datenschutz, KI, Energie oder naturwissenschaftliches Thema: Funktionsweise erklären, Risiken benennen und Unsicherheit korrekt markieren.\n\nQualitätskontrolle:\nTechnische Sicherheit nicht vortäuschen. Wenn Information unvollständig ist, Unsicherheit ausdrücklich markieren und Quelle/Version nennen.",
+        "ar": "هدف الكفاءة: وصف العمليات والاحتمال والدقة التقنية\n\nالنظام اللغوي:\nتنجح الشروحات التقنية عبر المصطلحات الواضحة والسبب والنتيجة والقيود. يمكن تدرج الاحتمال مثل vermutlich وmöglicherweise. يُستخدم المبني للمجهول والأسلوب الاسمي كثيرًا.\n\nأمثلة مرجعية:\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.\n\nمجال التطبيق:\nمشكلة برمجية أو حماية البيانات أو الذكاء الاصطناعي أو الطاقة: شرح الآلية وذكر المخاطر وتحديد عدم اليقين بدقة.\n\nمراجعة الجودة:\nلا تدّعِ يقينًا تقنيًا غير موجود. عند نقص المعلومات اذكر عدم اليقين بوضوح وحدد المصدر/الإصدار.",
+        "en": "Competence goal: Process description, probability and technical precision\n\nLanguage system:\nTechnical explanations rely on clear terminology, cause-effect and limitations. Probability can be graded: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Processes often use passive or nominal style; examples and analogies improve comprehension.\n\nReference examples:\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.\n\nApplication domain:\nSoftware issue, data protection, AI, energy or science topic: explain how something works, name risks and mark uncertainty accurately.\n\nQuality control:\nDo not feign technical certainty. If information is incomplete, explicitly mark uncertainty and identify source/version."
+      }
+    },
+    {
+      "id": "b2_u13_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u13_l01_w1",
+          "german": "verschlüsseln",
+          "translation": {
+            "de": "encrypt",
+            "ar": "يشفّر",
+            "en": "encrypt"
+          }
+        },
+        {
+          "id": "b2_u13_l01_w2",
+          "german": "verarbeiten",
+          "translation": {
+            "de": "process",
+            "ar": "يعالج البيانات",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b2_u13_l01_w3",
+          "german": "die Berechtigung",
+          "translation": {
+            "de": "permission",
+            "ar": "الإذن",
+            "en": "permission"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u13_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nTechnische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft werden: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.\n\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.",
+        "ar": "المبدأ الأساسي:\nتنجح الشروحات التقنية عبر المصطلحات الواضحة والسبب والنتيجة والقيود. يمكن تدرج الاحتمال مثل vermutlich وmöglicherweise. يُستخدم المبني للمجهول والأسلوب الاسمي كثيرًا.\n\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.",
+        "en": "Core principle:\nTechnical explanations rely on clear terminology, cause-effect and limitations. Probability can be graded: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Processes often use passive or nominal style; examples and analogies improve comprehension.\n\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten."
+      }
+    },
+    {
+      "id": "b2_u13_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "verschlüsseln",
+        "ar": "verschlüsseln",
+        "en": "verschlüsseln"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "encrypt",
+            "ar": "يشفّر",
+            "en": "encrypt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "process",
+            "ar": "يعالج البيانات",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "permission",
+            "ar": "الإذن",
+            "en": "permission"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u13_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten werden lokal {answer}.",
+        "ar": "Die Daten werden lokal {answer}.",
+        "en": "Die Daten werden lokal {answer}."
+      },
+      "acceptedAnswers": [
+        "verarbeitet"
+      ]
+    },
+    {
+      "id": "b2_u13_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Wissenschaft, Technik & Digitalisierung“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «العلم والتقنية والرقمنة». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Science, technology & digitalization”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u13_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U13_FOUNDATION"
+      ]
+    }
+  ]
+}

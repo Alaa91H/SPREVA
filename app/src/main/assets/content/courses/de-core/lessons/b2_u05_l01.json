@@ -1,0 +1,154 @@
+{
+  "id": "b2_u05_l01",
+  "unitId": "de-core-b2-u05",
+  "title": {
+    "de": "Konjunktiv I und Ersatzformen",
+    "ar": "Konjunktiv I وصيغ التعويض",
+    "en": "Konjunktiv I and substitute forms"
+  },
+  "canDo": [
+    "B2_U05_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u05_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Konjunktiv I und Ersatzformen",
+        "ar": "Konjunktiv I وصيغ التعويض",
+        "en": "Konjunktiv I and substitute forms"
+      },
+      "body": {
+        "de": "Kompetenzziel: Konjunktiv I und Ersatzformen\n\nSprachsystem:\nKonjunktiv I signalisiert, dass eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.\n\nReferenzbeispiele:\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen.\n\nAnwendungsdomäne:\nNachrichten, Protokolle, Konflikte oder Arbeitsberichte: Aussagen verschiedener Personen sauber trennen und Quellen sprachlich markieren.\n\nQualitätskontrolle:\nKonjunktiv I bedeutet nicht automatisch Zweifel. Er markiert primär Quelle und Distanz zur Aussage; Bewertung muss zusätzlich sprachlich kenntlich gemacht werden.",
+        "ar": "هدف الكفاءة: Konjunktiv I وصيغ التعويض\n\nالنظام اللغوي:\nيدل Konjunktiv I على نقل قول دون تبنيه كحقيقة: Er sagt, er sei krank. إذا تطابقت الصيغة مع Indikativ قد يُستخدم Konjunktiv II. في الصحافة والتقارير الرسمية هو مهم.\n\nأمثلة مرجعية:\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen.\n\nمجال التطبيق:\nالأخبار أو المحاضر أو الخلافات أو تقارير العمل: فصل أقوال الأشخاص وتحديد المصدر لغويًا.\n\nمراجعة الجودة:\nKonjunktiv I لا يعني الشك تلقائيًا؛ وظيفته الأساسية تحديد المصدر والمسافة من القول. التقييم يحتاج تعبيرًا إضافيًا.",
+        "en": "Competence goal: Konjunktiv I and substitute forms\n\nLanguage system:\nKonjunktiv I marks reported speech without endorsing the statement as fact: Er sagt, er sei krank. If the form matches the indicative, Konjunktiv II can substitute. Everyday speech often uses dass + indicative; press and formal reports rely more on Konjunktiv I.\n\nReference examples:\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen.\n\nApplication domain:\nNews, minutes, conflicts or work reports: separate different speakers' statements and mark sources linguistically.\n\nQuality control:\nKonjunktiv I does not automatically imply doubt. It primarily marks source and distance; evaluation must be expressed separately."
+      }
+    },
+    {
+      "id": "b2_u05_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u05_l01_w1",
+          "german": "laut",
+          "translation": {
+            "de": "according to",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "b2_u05_l01_w2",
+          "german": "erklären",
+          "translation": {
+            "de": "state/explain",
+            "ar": "يصرّح/يشرح",
+            "en": "state/explain"
+          }
+        },
+        {
+          "id": "b2_u05_l01_w3",
+          "german": "berichten",
+          "translation": {
+            "de": "report",
+            "ar": "يذكر في تقرير",
+            "en": "report"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u05_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nKonjunktiv I signalisiert, dass eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.\n\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen.",
+        "ar": "المبدأ الأساسي:\nيدل Konjunktiv I على نقل قول دون تبنيه كحقيقة: Er sagt, er sei krank. إذا تطابقت الصيغة مع Indikativ قد يُستخدم Konjunktiv II. في الصحافة والتقارير الرسمية هو مهم.\n\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen.",
+        "en": "Core principle:\nKonjunktiv I marks reported speech without endorsing the statement as fact: Er sagt, er sei krank. If the form matches the indicative, Konjunktiv II can substitute. Everyday speech often uses dass + indicative; press and formal reports rely more on Konjunktiv I.\n\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen."
+      }
+    },
+    {
+      "id": "b2_u05_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "laut",
+        "ar": "laut",
+        "en": "laut"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "according to",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "state/explain",
+            "ar": "يصرّح/يشرح",
+            "en": "state/explain"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "report",
+            "ar": "يذكر في تقرير",
+            "en": "report"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u05_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er sagt, er {answer} krank.",
+        "ar": "Er sagt, er {answer} krank.",
+        "en": "Er sagt, er {answer} krank."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "b2_u05_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Indirekte Rede & Distanz“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «النقل غير المباشر والمسافة الأسلوبية». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Reported speech & stance distance”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u05_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U05_FOUNDATION"
+      ]
+    }
+  ]
+}

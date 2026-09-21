@@ -1,0 +1,296 @@
+{
+  "id": "b2_u03_l03",
+  "unitId": "de-core-b2-u03",
+  "title": {
+    "de": "Intensivtraining: Nominalstil & formelle Texte",
+    "ar": "تدريب مكثف: الأسلوب الاسمي والنصوص الرسمية",
+    "en": "Mastery lab: Nominal style & formal texts"
+  },
+  "canDo": [
+    "B2_U03_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u03_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Nominalstil & formelle Texte“. Nach jeder Lösung: semantische Funktion erklären, mindestens zwei stilistische Alternativen bilden und sagen, welche Variante in Alltag, Beruf oder Fachtext am passendsten ist.",
+        "ar": "عمّق «الأسلوب الاسمي والنصوص الرسمية». بعد كل حل: اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين على الأقل، وحدد الأنسب في الحديث اليومي أو العمل أو النص المتخصص.",
+        "en": "Deepen “Nominal style & formal texts”. After each solution explain the semantic function, create at least two stylistic alternatives and decide which best fits everyday, professional or specialist contexts."
+      }
+    },
+    {
+      "id": "b2_u03_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u03_l03_w1",
+          "german": "aufgrund",
+          "translation": {
+            "de": "due to",
+            "ar": "بسبب",
+            "en": "due to"
+          }
+        },
+        {
+          "id": "b2_u03_l03_w2",
+          "german": "der Abschluss",
+          "translation": {
+            "de": "completion",
+            "ar": "الانتهاء",
+            "en": "completion"
+          }
+        },
+        {
+          "id": "b2_u03_l03_w3",
+          "german": "die Einführung",
+          "translation": {
+            "de": "introduction",
+            "ar": "الإدخال/التطبيق",
+            "en": "introduction"
+          }
+        },
+        {
+          "id": "b2_u03_l03_w4",
+          "german": "die Durchführung",
+          "translation": {
+            "de": "implementation/conduct",
+            "ar": "التنفيذ",
+            "en": "implementation/conduct"
+          }
+        },
+        {
+          "id": "b2_u03_l03_w5",
+          "german": "die Verzögerung",
+          "translation": {
+            "de": "delay",
+            "ar": "التأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "b2_u03_l03_w6",
+          "german": "die Voraussetzung",
+          "translation": {
+            "de": "prerequisite",
+            "ar": "المتطلب",
+            "en": "prerequisite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u03_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Aufgrund {answer} Verzögerung wurde der Termin verschoben.",
+        "ar": "Aufgrund {answer} Verzögerung wurde der Termin verschoben.",
+        "en": "Aufgrund {answer} Verzögerung wurde der Termin verschoben."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u03_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach {answer} der Prüfung erhalten Sie Bescheid.",
+        "ar": "Nach {answer} der Prüfung erhalten Sie Bescheid.",
+        "en": "Nach {answer} der Prüfung erhalten Sie Bescheid."
+      },
+      "acceptedAnswers": [
+        "Abschluss"
+      ]
+    },
+    {
+      "id": "b2_u03_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach Abschluss {answer} Prüfung erhalten Sie eine Rückmeldung.",
+        "ar": "Nach Abschluss {answer} Prüfung erhalten Sie eine Rückmeldung.",
+        "en": "Nach Abschluss {answer} Prüfung erhalten Sie eine Rückmeldung."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u03_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Einführung des Systems erfordert zusätzliche Schulungen.",
+        "ar": "{answer} Einführung des Systems erfordert zusätzliche Schulungen.",
+        "en": "{answer} Einführung des Systems erfordert zusätzliche Schulungen."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u03_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bescheid, Bericht, Protokoll, Bewerbung oder Fachtext: nominale Strukturen entschlüsseln und gezielt verwenden, ohne unnötig kompliziert {answer} schreiben.",
+        "ar": "Bescheid, Bericht, Protokoll, Bewerbung oder Fachtext: nominale Strukturen entschlüsseln und gezielt verwenden, ohne unnötig kompliziert {answer} schreiben.",
+        "en": "Bescheid, Bericht, Protokoll, Bewerbung oder Fachtext: nominale Strukturen entschlüsseln und gezielt verwenden, ohne unnötig kompliziert {answer} schreiben."
+      },
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "b2_u03_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nominalstil ist kein Qualitätsmerkmal {answer} sich. Zu viele lange Nominalketten machen Texte unklar. Nutze ihn dort, wo Sachlichkeit oder Verdichtung wirklich hilft.",
+        "ar": "Nominalstil ist kein Qualitätsmerkmal {answer} sich. Zu viele lange Nominalketten machen Texte unklar. Nutze ihn dort, wo Sachlichkeit oder Verdichtung wirklich hilft.",
+        "en": "Nominalstil ist kein Qualitätsmerkmal {answer} sich. Zu viele lange Nominalketten machen Texte unklar. Nutze ihn dort, wo Sachlichkeit oder Verdichtung wirklich hilft."
+      },
+      "acceptedAnswers": [
+        "an"
+      ]
+    },
+    {
+      "id": "b2_u03_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "aufgrund",
+        "ar": "aufgrund",
+        "en": "aufgrund"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "due to",
+            "ar": "بسبب",
+            "en": "due to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "completion",
+            "ar": "الانتهاء",
+            "en": "completion"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "introduction",
+            "ar": "الإدخال/التطبيق",
+            "en": "introduction"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u03_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "die Durchführung",
+        "ar": "die Durchführung",
+        "en": "die Durchführung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "implementation/conduct",
+            "ar": "التنفيذ",
+            "en": "implementation/conduct"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "delay",
+            "ar": "التأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "prerequisite",
+            "ar": "المتطلب",
+            "en": "prerequisite"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u03_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Aufgrund der Verzögerung wurde der Termin verschoben.\n2. Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n3. Die Einführung des Systems erfordert zusätzliche Schulungen.\n4. Bescheid, Bericht, Protokoll, Bewerbung oder Fachtext: nominale Strukturen entschlüsseln und gezielt verwenden, ohne unnötig kompliziert zu schreiben.\n\nFormuliere je eine nahe Alternative und erkläre, was sich ändert: Logik, Modalität, Fokus, Register oder Informationsdichte. Markiere Varianten, die grammatisch möglich, aber im Kontext unidiomatisch sind.",
+        "ar": "نماذج البداية:\n1. Aufgrund der Verzögerung wurde der Termin verschoben.\n2. Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n3. Die Einführung des Systems erfordert zusätzliche Schulungen.\n4. Bescheid, Bericht, Protokoll, Bewerbung oder Fachtext: nominale Strukturen entschlüsseln und gezielt verwenden, ohne unnötig kompliziert zu schreiben.\n\nأنشئ بديلًا قريبًا لكل نموذج واشرح ما يتغير: المنطق أو درجة اليقين أو البؤرة أو السجل أو كثافة المعلومات. حدّد الصيغ الممكنة نحويًا لكنها غير طبيعية في السياق.",
+        "en": "Base patterns:\n1. Aufgrund der Verzögerung wurde der Termin verschoben.\n2. Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n3. Die Einführung des Systems erfordert zusätzliche Schulungen.\n4. Bescheid, Bericht, Protokoll, Bewerbung oder Fachtext: nominale Strukturen entschlüsseln und gezielt verwenden, ohne unnötig kompliziert zu schreiben.\n\nCreate a close alternative for each and explain what changes: logic, modality, focus, register or information density. Mark forms that are grammatical but unidiomatic in context."
+      }
+    },
+    {
+      "id": "b2_u03_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Zu jeder Kernaussage fünf Fassungen: verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ formeller Fachstil. Danach Bedeutungsnuancen und Kollokationen vergleichen.",
+        "ar": "لكل فكرة خمس صيغ: فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ رسمي متخصص. ثم قارن الفروق الدلالية والمتلازمات.",
+        "en": "Create five versions of each key statement: verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ cautiously hedged; everyday ↔ formal specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u03_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "Schreibe 140–180 Wörter oder sprich drei Minuten. Trenne Beobachtung, Interpretation und Bewertung; integriere drei Zielstrukturen, ein Gegenargument, eine Einschränkung und eine begründete Schlussfolgerung. Überarbeite danach Register, Kohäsion und Präzision.",
+        "ar": "اكتب 140–180 كلمة أو تحدث ثلاث دقائق. افصل بين الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا وخلاصة معللة. ثم راجع السجل والترابط والدقة.",
+        "en": "Write 140–180 words or speak for three minutes. Separate observation, interpretation and evaluation; include three target structures, a counterargument, a limitation and a reasoned conclusion. Revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u03_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U03_MASTERY"
+      ]
+    }
+  ]
+}

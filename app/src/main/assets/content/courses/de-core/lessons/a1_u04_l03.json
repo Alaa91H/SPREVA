@@ -1,0 +1,296 @@
+{
+  "id": "a1_u04_l03",
+  "unitId": "de-core-a1-u04",
+  "title": {
+    "de": "Intensivtraining: Familie & Beziehungen",
+    "ar": "تدريب مكثف: العائلة والعلاقات",
+    "en": "Mastery lab: Family & relationships"
+  },
+  "canDo": [
+    "A1_U04_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u04_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Familie & Beziehungen“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «العائلة والعلاقات». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.\n\nالدورة: استرجاع ← تعرّف ← إكمال ← تحويل ← إنتاج حر ← تصحيح ← استرجاع لاحق.",
+        "en": "Intensive practice for “Family & relationships”. After every answer, state the rule, create a second example and explain one typical error.\n\nCycle: recall → recognize → complete → transform → produce → correct → retrieve later."
+      }
+    },
+    {
+      "id": "a1_u04_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u04_l03_w1",
+          "german": "die Familie",
+          "translation": {
+            "de": "family",
+            "ar": "العائلة",
+            "en": "family"
+          }
+        },
+        {
+          "id": "a1_u04_l03_w2",
+          "german": "der Bruder",
+          "translation": {
+            "de": "brother",
+            "ar": "الأخ",
+            "en": "brother"
+          }
+        },
+        {
+          "id": "a1_u04_l03_w3",
+          "german": "die Schwester",
+          "translation": {
+            "de": "sister",
+            "ar": "الأخت",
+            "en": "sister"
+          }
+        },
+        {
+          "id": "a1_u04_l03_w4",
+          "german": "die Eltern",
+          "translation": {
+            "de": "parents",
+            "ar": "الوالدان",
+            "en": "parents"
+          }
+        },
+        {
+          "id": "a1_u04_l03_w5",
+          "german": "das Kind",
+          "translation": {
+            "de": "child",
+            "ar": "الطفل",
+            "en": "child"
+          }
+        },
+        {
+          "id": "a1_u04_l03_w6",
+          "german": "verheiratet",
+          "translation": {
+            "de": "married",
+            "ar": "متزوج",
+            "en": "married"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u04_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist {answer} Mutter.",
+        "ar": "Das ist {answer} Mutter.",
+        "en": "Das ist {answer} Mutter."
+      },
+      "acceptedAnswers": [
+        "meine"
+      ]
+    },
+    {
+      "id": "a1_u04_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Omar hat einen Sohn. {answer} Sohn ist drei Jahre alt.",
+        "ar": "Omar hat einen Sohn. {answer} Sohn ist drei Jahre alt.",
+        "en": "Omar hat einen Sohn. {answer} Sohn ist drei Jahre alt."
+      },
+      "acceptedAnswers": [
+        "Sein"
+      ]
+    },
+    {
+      "id": "a1_u04_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Possessivartikel richten sich nach Besitzer und Nomen: mein Bruder, meine Schwester; dein Vater, deine Mutter. Bei er verwendet man sein-, bei sie ihr-. {answer} Endung folgt dem Geschlecht und Kasus des Nomens.",
+        "ar": "Possessivartikel richten sich nach Besitzer und Nomen: mein Bruder, meine Schwester; dein Vater, deine Mutter. Bei er verwendet man sein-, bei sie ihr-. {answer} Endung folgt dem Geschlecht und Kasus des Nomens.",
+        "en": "Possessivartikel richten sich nach Besitzer und Nomen: mein Bruder, meine Schwester; dein Vater, deine Mutter. Bei er verwendet man sein-, bei sie ihr-. {answer} Endung folgt dem Geschlecht und Kasus des Nomens."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "a1_u04_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ist meine Schwester.",
+        "ar": "{answer} ist meine Schwester.",
+        "en": "{answer} ist meine Schwester."
+      },
+      "acceptedAnswers": [
+        "Das"
+      ]
+    },
+    {
+      "id": "a1_u04_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sein Sohn {answer} fünf Jahre alt.",
+        "ar": "Sein Sohn {answer} fünf Jahre alt.",
+        "en": "Sein Sohn {answer} fünf Jahre alt."
+      },
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "a1_u04_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} heißt deine Mutter?",
+        "ar": "{answer} heißt deine Mutter?",
+        "en": "{answer} heißt deine Mutter?"
+      },
+      "acceptedAnswers": [
+        "Wie"
+      ]
+    },
+    {
+      "id": "a1_u04_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Familie",
+        "ar": "die Familie",
+        "en": "die Familie"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "family",
+            "ar": "العائلة",
+            "en": "family"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "brother",
+            "ar": "الأخ",
+            "en": "brother"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sister",
+            "ar": "الأخت",
+            "en": "sister"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u04_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Eltern",
+        "ar": "die Eltern",
+        "en": "die Eltern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "parents",
+            "ar": "الوالدان",
+            "en": "parents"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "child",
+            "ar": "الطفل",
+            "en": "child"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "married",
+            "ar": "متزوج",
+            "en": "married"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u04_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Possessivartikel richten sich nach Besitzer und Nomen: mein Bruder, meine Schwester; dein Vater, deine Mutter. Bei er verwendet man sein-, bei sie ihr-. Die Endung folgt dem Geschlecht und Kasus des Nomens.\n2. Das ist meine Schwester.\n3. Sein Sohn ist fünf Jahre alt.\n4. Wie heißt deine Mutter?\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. Possessivartikel richten sich nach Besitzer und Nomen: mein Bruder, meine Schwester; dein Vater, deine Mutter. Bei er verwendet man sein-, bei sie ihr-. Die Endung folgt dem Geschlecht und Kasus des Nomens.\n2. Das ist meine Schwester.\n3. Sein Sohn ist fünf Jahre alt.\n4. Wie heißt deine Mutter?\n\nحدّد الصيغة الحاسمة، أنشئ خطأً شائعًا، اشرح سببه ثم صححه دون نموذج.",
+        "en": "Correct patterns:\n1. Possessivartikel richten sich nach Besitzer und Nomen: mein Bruder, meine Schwester; dein Vater, deine Mutter. Bei er verwendet man sein-, bei sie ihr-. Die Endung folgt dem Geschlecht und Kasus des Nomens.\n2. Das ist meine Schwester.\n3. Sein Sohn ist fünf Jahre alt.\n4. Wie heißt deine Mutter?\n\nMark the decisive form, create a typical wrong version, explain it, then correct it without the model."
+      }
+    },
+    {
+      "id": "a1_u04_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة خمس مرات: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model five ways: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u04_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel einfach erklären. D in Nachricht/Dialog anwenden. E mit zwei älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: ستة فراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في رسالة/حوار. E امزجها مع موضوعين سابقين. الإتقان = إنتاج + تفسير + نقل.",
+        "en": "A now: six blanks orally. B later: six new sentences. C explain the rule. D use it in a message/dialogue. E interleave with two older topics. Mastery = produce + explain + transfer."
+      }
+    },
+    {
+      "id": "a1_u04_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U04_MASTERY"
+      ]
+    }
+  ]
+}

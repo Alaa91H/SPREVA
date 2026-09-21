@@ -16,7 +16,7 @@ import com.spreva.core.common.SystemClock
 import com.spreva.core.common.UuidGenerator
 import com.spreva.core.database.SprevaDatabase
 import com.spreva.core.datastore.SettingsDataSource
-import com.spreva.core.memory.DemoReviewScheduler
+import com.spreva.core.memory.Fsrs6ReviewScheduler
 import com.spreva.core.memory.ReviewScheduler
 import dagger.Module
 import dagger.Provides
@@ -28,7 +28,7 @@ import kotlinx.serialization.json.Json
 
 /**
  * Core singletons: Room database, DataStore settings, clock/id abstractions
- * and the demo review scheduler (plan sections 63/87/97/98).
+ * and the FSRS-6 review scheduler (plan sections 63/87/97/98).
  */
 @Module
 @InstallIn(SingletonComponent::class)
@@ -57,7 +57,13 @@ object CoreModule {
 
     @Provides
     @Singleton
-    fun provideScheduler(json: Json): ReviewScheduler = DemoReviewScheduler(json)
+    fun provideScheduler(
+        json: Json,
+        settingsDataSource: SettingsDataSource,
+    ): ReviewScheduler = Fsrs6ReviewScheduler(
+        json = json,
+        desiredRetentionProvider = settingsDataSource::currentReviewRetentionTarget,
+    )
 
     @Provides
     @Singleton

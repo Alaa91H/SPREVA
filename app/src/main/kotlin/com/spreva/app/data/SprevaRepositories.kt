@@ -14,6 +14,7 @@ import com.spreva.core.database.entity.ReviewLogEntity
 import com.spreva.core.database.mapper.toEntity
 import com.spreva.core.database.mapper.toModel
 import com.spreva.core.database.SprevaDatabase
+import com.spreva.core.datastore.SettingsDataSource
 import com.spreva.core.model.ActivityAttempt
 import com.spreva.core.model.LessonId
 import com.spreva.core.model.LessonProgress
@@ -21,9 +22,16 @@ import com.spreva.core.model.LessonStatus
 import com.spreva.core.model.ReviewCard
 import com.spreva.core.model.ReviewCardId
 import com.spreva.core.model.ReviewRating
+import com.spreva.core.model.SkillArea
+import com.spreva.core.model.LearningActivity
+import com.spreva.core.model.PlacementQuestion
 import com.spreva.domain.curriculum.CurriculumRepository
 import com.spreva.domain.learning.LearningEventLog
 import com.spreva.domain.learning.LearningRepository
+import com.spreva.domain.learning.ActivityEvidence
+import com.spreva.domain.learning.LearningIntelligenceEngine
+import com.spreva.domain.learning.LearningIntelligenceRepository
+import com.spreva.domain.learning.PlacementQuestionRepository
 import com.spreva.domain.learning.ReviewCardProvisioner
 import com.spreva.domain.review.ReviewRepository
 import java.time.Instant
@@ -50,18 +58,21 @@ class OfflineFirstCurriculumRepository @Inject constructor(
     override fun observeLessonSummaries(): Flow<List<com.spreva.core.model.LessonSummary>> =
         kotlinx.coroutines.flow.flow {
             val course = contentSource.loadCourse(COURSE_ID)
-            // First level of the course until multi-level selection ships.
-            val summaries = course.levels.firstOrNull()?.units
-                ?.flatMap { unit -> unit.lessons }
-                ?.map { ref -> contentSource.loadLesson(ref.id) }
-                ?.map { lesson ->
-                    com.spreva.core.model.LessonSummary(
-                        id = lesson.id,
-                        title = lesson.title,
-                        activityCount = lesson.activities.size,
-                    )
+            val summaries = course.levels
+                .flatMap { level -> level.units }
+                .flatMap { unit -> unit.lessons }
+                .map { ref ->
+                    if (ref.title.de.isNotBlank() && ref.activityCount > 0) {
+                        ref
+                    } else {
+                        val lesson = contentSource.loadLesson(ref.id)
+                        com.spreva.core.model.LessonSummary(
+                            id = lesson.id,
+                            title = lesson.title,
+                            activityCount = lesson.activities.size,
+                        )
+                    }
                 }
-                .orEmpty()
             emit(summaries)
         }
 
@@ -92,16 +103,21 @@ class OfflineFirstCurriculumRepository @Inject constructor(
 @Singleton
 class OfflineFirstLearningRepository @Inject constructor(
     private val database: SprevaDatabase,
+    private val contentSource: ContentSource,
 ) : LearningRepository {
 
     private val progressDao: LessonProgressDao = database.lessonProgressDao()
     private val attemptsDao: ActivityAttemptDao = database.activityAttemptDao()
+    private val reviewCardDao: ReviewCardDao = database.reviewCardDao()
 
     override fun observeLessonProgress(lessonId: LessonId): Flow<LessonProgress?> =
         progressDao.observeByLesson(lessonId.value).map { it?.toModel() }
 
     override fun observeAllProgress(): Flow<List<LessonProgress>> =
         progressDao.observeAll().map { list -> list.map { it.toModel() } }
+
+    override fun observeAttempts(): Flow<List<ActivityAttempt>> =
+        attemptsDao.observeAll().map { list -> list.map { it.toModel() } }
 
     override suspend fun recordAttempt(attempt: ActivityAttempt) {
         attemptsDao.insert(
@@ -116,6 +132,66 @@ class OfflineFirstLearningRepository @Inject constructor(
                 createdAtEpochMs = attempt.createdAt.toEpochMilli(),
             ),
         )
+        if (!attempt.correct) provisionRepeatedMistakeCard(attempt)
+    }
+
+    private suspend fun provisionRepeatedMistakeCard(attempt: ActivityAttempt) {
+        val incorrectCount = attemptsDao.countIncorrectForActivity(
+            lessonId = attempt.lessonId.value,
+            activityId = attempt.activityId.value,
+        )
+        if (incorrectCount < 2) return
+
+        val lesson = runCatching { contentSource.loadLesson(attempt.lessonId) }.getOrNull() ?: return
+        val activity = lesson.activities.firstOrNull { it.id == attempt.activityId } ?: return
+        val card = when (activity) {
+            is LearningActivity.MultipleChoice -> {
+                val correct = activity.options.firstOrNull { it.id == activity.correctOptionId } ?: return
+                ReviewCard(
+                    id = ReviewCardId("mistake_${attempt.lessonId.value}_${activity.id.value}"),
+                    knowledgeItemId = com.spreva.core.model.KnowledgeItemId("mistake:${activity.id.value}"),
+                    prompt = activity.question.de,
+                    answer = correct.text.de,
+                    dueAt = attempt.createdAt,
+                )
+            }
+
+            is LearningActivity.Cloze -> ReviewCard(
+                id = ReviewCardId("mistake_${attempt.lessonId.value}_${activity.id.value}"),
+                knowledgeItemId = com.spreva.core.model.KnowledgeItemId("mistake:${activity.id.value}"),
+                prompt = activity.sentenceTemplate.de,
+                answer = activity.acceptedAnswers.firstOrNull() ?: return,
+                dueAt = attempt.createdAt,
+            )
+
+            is LearningActivity.ListeningChoice -> {
+                val audio = activity.audio ?: return
+                val correct = activity.options.firstOrNull { it.id == activity.correctOptionId } ?: return
+                ReviewCard(
+                    id = ReviewCardId("mistake_${attempt.lessonId.value}_${activity.id.value}"),
+                    knowledgeItemId = com.spreva.core.model.KnowledgeItemId("mistake:${activity.id.value}"),
+                    prompt = "",
+                    answer = activity.text?.de ?: correct.text.de,
+                    dueAt = attempt.createdAt,
+                    audioPath = audio,
+                )
+            }
+
+            is LearningActivity.Dictation -> {
+                val audio = activity.audio ?: return
+                ReviewCard(
+                    id = ReviewCardId("mistake_${attempt.lessonId.value}_${activity.id.value}"),
+                    knowledgeItemId = com.spreva.core.model.KnowledgeItemId("mistake:${activity.id.value}"),
+                    prompt = "",
+                    answer = activity.acceptedAnswers.firstOrNull() ?: activity.text.de,
+                    dueAt = attempt.createdAt,
+                    audioPath = audio,
+                )
+            }
+
+            else -> return
+        }
+        reviewCardDao.insertAll(listOf(card.toEntity()))
     }
 
     override suspend fun completeLesson(lessonId: LessonId, totalActivities: Int) {
@@ -160,6 +236,131 @@ class OfflineFirstLearningRepository @Inject constructor(
 }
 
 @Singleton
+class OfflineFirstLearningIntelligenceRepository @Inject constructor(
+    private val database: SprevaDatabase,
+    private val contentSource: ContentSource,
+    private val engine: LearningIntelligenceEngine,
+) : LearningIntelligenceRepository {
+
+    private val attemptsDao: ActivityAttemptDao = database.activityAttemptDao()
+
+    override fun observeProfile(): Flow<com.spreva.core.model.LearningProfile> =
+        attemptsDao.observeAll().map { entities ->
+            if (entities.isEmpty()) return@map com.spreva.core.model.LearningProfile()
+
+            val attempts = entities.map { it.toModel() }
+            val course = contentSource.loadCourse(OfflineFirstCurriculumRepository.COURSE_ID)
+
+            val unitByLesson = buildMap<String, com.spreva.core.model.Unit> {
+                course.levels.forEach { level ->
+                    level.units.forEach { unit ->
+                        unit.lessons.forEach { lesson -> put(lesson.id.value, unit) }
+                    }
+                }
+            }
+
+            val lessonCache = attempts
+                .map { it.lessonId }
+                .distinct()
+                .associateWith { id -> contentSource.loadLesson(id) }
+
+            val evidence = attempts
+                .groupBy { it.activityId }
+                .mapNotNull { (_, grouped) ->
+                    val first = grouped.first()
+                    val lesson = lessonCache[first.lessonId] ?: return@mapNotNull null
+                    val activity = lesson.activities.firstOrNull { it.id == first.activityId }
+                        ?: return@mapNotNull null
+                    val unit = unitByLesson[first.lessonId.value]
+                    val pronunciationUnit = unit?.title?.de.orEmpty().containsAnyIgnoreCase(
+                        "Aussprache",
+                        "Phonetik",
+                        "Prosodie",
+                    )
+
+                    val skill = when (activity) {
+                        is LearningActivity.ListeningChoice,
+                        is LearningActivity.Dictation,
+                        -> if (pronunciationUnit) SkillArea.PRONUNCIATION else SkillArea.LISTENING
+
+                        is LearningActivity.FreeWrite -> SkillArea.WRITING
+                        is LearningActivity.SpeakingPrompt ->
+                            if (pronunciationUnit) SkillArea.PRONUNCIATION else SkillArea.SPEAKING
+
+                        is LearningActivity.MultipleChoice ->
+                            if (pronunciationUnit) {
+                                SkillArea.PRONUNCIATION
+                            } else if (unit?.title?.de.orEmpty().containsAnyIgnoreCase("Prüfung", "Exam")) {
+                                SkillArea.READING
+                            } else {
+                                SkillArea.GRAMMAR
+                            }
+
+                        is LearningActivity.Cloze ->
+                            if (pronunciationUnit) SkillArea.PRONUNCIATION else SkillArea.GRAMMAR
+
+                        else -> return@mapNotNull null
+                    }
+
+                    ActivityEvidence(
+                        lessonId = lesson.id,
+                        lessonTitle = lesson.title,
+                        activityId = activity.id,
+                        skill = skill,
+                        objective = activity is LearningActivity.MultipleChoice ||
+                            activity is LearningActivity.Cloze ||
+                            activity is LearningActivity.ListeningChoice ||
+                            activity is LearningActivity.Dictation,
+                        productive = activity is LearningActivity.FreeWrite ||
+                            activity is LearningActivity.SpeakingPrompt,
+                        attempts = grouped.map { it },
+                    )
+                }
+
+            engine.analyze(evidence)
+        }
+
+    private fun String.containsAnyIgnoreCase(vararg needles: String): Boolean =
+        needles.any { contains(it, ignoreCase = true) }
+}
+
+@Singleton
+class BundledPlacementQuestionRepository @Inject constructor(
+    private val contentSource: ContentSource,
+) : PlacementQuestionRepository {
+
+    override suspend fun questions(): List<PlacementQuestion> {
+        val course = contentSource.loadCourse(OfflineFirstCurriculumRepository.COURSE_ID)
+        return course.levels
+            .filter { it.cefr in com.spreva.domain.learning.AdaptivePlacementEngine.LEVELS }
+            .flatMap { level ->
+                val examUnit = level.units.firstOrNull { unit ->
+                    unit.title.de.contains("Prüfungs-", ignoreCase = true) ||
+                        unit.title.en?.contains("Exam & Skills", ignoreCase = true) == true
+                } ?: return@flatMap emptyList()
+
+                examUnit.lessons
+                    .flatMap { summary ->
+                        contentSource.loadLesson(summary.id).activities
+                    }
+                    .filterIsInstance<LearningActivity.MultipleChoice>()
+                    .distinctBy { it.id.value }
+                    .take(12)
+                    .map { activity ->
+                        PlacementQuestion(
+                            id = activity.id.value,
+                            level = level.cefr,
+                            prompt = activity.prompt,
+                            question = activity.question,
+                            options = activity.options,
+                            correctOptionId = activity.correctOptionId,
+                        )
+                    }
+            }
+    }
+}
+
+@Singleton
 class RoomLearningEventLog @Inject constructor(
     private val database: SprevaDatabase,
 ) : LearningEventLog {
@@ -191,8 +392,8 @@ class RoomLearningEventLog @Inject constructor(
 }
 
 /**
- * Provisions review cards for lesson vocabulary. Phase 3 uses a static
- * mapping from the bundled demo lesson; idempotent via INSERT OR IGNORE.
+ * Provisions review cards for vocabulary found in any bundled lesson.
+ * Card IDs are deterministic and INSERT OR IGNORE keeps completion retries idempotent.
  */
 @Singleton
 class DefaultReviewCardProvisioner @Inject constructor(
@@ -246,6 +447,8 @@ class DefaultReviewCardProvisioner @Inject constructor(
 @Singleton
 class RoomReviewRepository @Inject constructor(
     private val database: SprevaDatabase,
+    private val settingsDataSource: SettingsDataSource,
+    private val retentionCalibrator: com.spreva.domain.review.ReviewRetentionCalibrator,
 ) : ReviewRepository {
 
     private val cardDao: ReviewCardDao = database.reviewCardDao()
@@ -278,6 +481,12 @@ class RoomReviewRepository @Inject constructor(
                     schedulerVersion = card.schedulerVersion,
                 ),
             )
+        }
+
+        val ratings = logDao.getRecentRatings(com.spreva.domain.review.ReviewRetentionCalibrator.MAX_HISTORY)
+            .mapNotNull { runCatching { ReviewRating.valueOf(it) }.getOrNull() }
+        retentionCalibrator.recommend(ratings)?.let { recommendation ->
+            settingsDataSource.setReviewRetentionTarget(recommendation.target)
         }
     }
 

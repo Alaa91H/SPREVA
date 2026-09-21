@@ -1,0 +1,154 @@
+{
+  "id": "b1_u05_l01",
+  "unitId": "de-core-b1-u05",
+  "title": {
+    "de": "zu + Infinitiv, um…zu, ohne…zu, statt…zu",
+    "ar": "zu + المصدر وum…zu وohne…zu وstatt…zu",
+    "en": "zu-infinitive, um…zu, ohne…zu and statt…zu"
+  },
+  "canDo": [
+    "B1_U05_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u05_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "zu + Infinitiv, um…zu, ohne…zu, statt…zu",
+        "ar": "zu + المصدر وum…zu وohne…zu وstatt…zu",
+        "en": "zu-infinitive, um…zu, ohne…zu and statt…zu"
+      },
+      "body": {
+        "de": "Kompetenzziel: zu + Infinitiv, um…zu, ohne…zu, statt…zu\n\nSystematik:\nInfinitivsätze mit zu werden häufig verwendet, wenn Subjekt/Handelnder im Haupt- und Nebenteil zusammenpasst: Ich versuche, pünktlich zu kommen. „um … zu“ drückt Zweck aus. „ohne … zu“ = etwas nicht tun; „statt … zu“ = Alternative.\n\nBeispielnetz:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail.\n\nPraxisdomäne:\nArbeit, Lernen, Gesundheit und Organisation: Ziele formulieren, Schritte erklären und bessere Alternativen beschreiben.\n\nFehlerdiagnose:\nNach Modalverben steht kein zu; in Infinitivkonstruktionen sehr wohl. Trennbare Verben setzen zu zwischen Präfix und Stamm: anzufangen.",
+        "ar": "هدف الكفاءة: zu + المصدر وum…zu وohne…zu وstatt…zu\n\nالشرح المنهجي:\nتراكيب zu تُستخدم عندما يكون الفاعل نفسه غالبًا: Ich versuche, pünktlich zu kommen. وum…zu للهدف، ohne…zu لعدم فعل شيء، statt…zu للبديل.\n\nأمثلة مترابطة:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail.\n\nالمجال العملي:\nالعمل والتعلم والصحة والتنظيم: صياغة الأهداف وشرح الخطوات والبدائل الأفضل.\n\nتشخيص الأخطاء:\nبعد الأفعال الناقصة لا نستخدم zu، أما في تراكيب المصدر فنستخدمه. في الفعل المنفصل يأتي zu بين الجزء المنفصل والجذر مثل anzufangen.",
+        "en": "Competence goal: zu-infinitive, um…zu, ohne…zu and statt…zu\n\nSystem:\nzu-infinitive clauses are common when the implied subject is shared: Ich versuche, pünktlich zu kommen. um…zu expresses purpose, ohne…zu absence of an action, statt…zu an alternative.\n\nExample network:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail.\n\nPractice domain:\nWork, learning, health and organization: formulate goals, explain steps and describe better alternatives.\n\nError diagnosis:\nModal verbs do not take zu; infinitive constructions do. With separable verbs, zu is inserted between prefix and stem: anzufangen."
+      }
+    },
+    {
+      "id": "b1_u05_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u05_l01_w1",
+          "german": "das Ziel",
+          "translation": {
+            "de": "goal",
+            "ar": "الهدف",
+            "en": "goal"
+          }
+        },
+        {
+          "id": "b1_u05_l01_w2",
+          "german": "versuchen",
+          "translation": {
+            "de": "try",
+            "ar": "يحاول",
+            "en": "try"
+          }
+        },
+        {
+          "id": "b1_u05_l01_w3",
+          "german": "vermeiden",
+          "translation": {
+            "de": "avoid",
+            "ar": "يتجنب",
+            "en": "avoid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u05_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nInfinitivsätze mit zu werden häufig verwendet, wenn Subjekt/Handelnder im Haupt- und Nebenteil zusammenpasst: Ich versuche, pünktlich zu kommen. „um … zu“ drückt Zweck aus. „ohne … zu“ = etwas nicht tun; „statt … zu“ = Alternative.\n\nKontrastive Beispiele:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail.",
+        "ar": "القاعدة:\nتراكيب zu تُستخدم عندما يكون الفاعل نفسه غالبًا: Ich versuche, pünktlich zu kommen. وum…zu للهدف، ohne…zu لعدم فعل شيء، statt…zu للبديل.\n\nأمثلة:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail.",
+        "en": "Rule:\nzu-infinitive clauses are common when the implied subject is shared: Ich versuche, pünktlich zu kommen. um…zu expresses purpose, ohne…zu absence of an action, statt…zu an alternative.\n\nExamples:\n• Ich lerne jeden Tag, um die Prüfung zu bestehen.\n• Er ging, ohne sich zu verabschieden.\n• Statt anzurufen, schrieb sie eine E-Mail."
+      }
+    },
+    {
+      "id": "b1_u05_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "das Ziel",
+        "ar": "das Ziel",
+        "en": "das Ziel"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "goal",
+            "ar": "الهدف",
+            "en": "goal"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "try",
+            "ar": "يحاول",
+            "en": "try"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "avoid",
+            "ar": "يتجنب",
+            "en": "avoid"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u05_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich lerne, um die Prüfung zu {answer}.",
+        "ar": "Ich lerne, um die Prüfung zu {answer}.",
+        "en": "Ich lerne, um die Prüfung zu {answer}."
+      },
+      "acceptedAnswers": [
+        "bestehen"
+      ]
+    },
+    {
+      "id": "b1_u05_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Ziele & Infinitivkonstruktionen“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الأهداف وتراكيب المصدر». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Goals & infinitive constructions”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u05_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U05_FOUNDATION"
+      ]
+    }
+  ]
+}

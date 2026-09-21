@@ -1,0 +1,296 @@
+{
+  "id": "a2_u11_l03",
+  "unitId": "de-core-a2-u11",
+  "title": {
+    "de": "Intensivtraining: Wohnen, Miete & Reparaturen",
+    "ar": "تدريب مكثف: السكن والإيجار والإصلاحات",
+    "en": "Mastery lab: Housing, rent & repairs"
+  },
+  "canDo": [
+    "A2_U11_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u11_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Wohnen, Miete & Reparaturen“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «السكن والإيجار والإصلاحات». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Housing, rent & repairs”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u11_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u11_l03_w1",
+          "german": "die Heizung",
+          "translation": {
+            "de": "heating",
+            "ar": "التدفئة",
+            "en": "heating"
+          }
+        },
+        {
+          "id": "a2_u11_l03_w2",
+          "german": "kaputt",
+          "translation": {
+            "de": "broken",
+            "ar": "معطل",
+            "en": "broken"
+          }
+        },
+        {
+          "id": "a2_u11_l03_w3",
+          "german": "reparieren",
+          "translation": {
+            "de": "repair",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "a2_u11_l03_w4",
+          "german": "der Hausmeister",
+          "translation": {
+            "de": "caretaker",
+            "ar": "عامل/مشرف المبنى",
+            "en": "caretaker"
+          }
+        },
+        {
+          "id": "a2_u11_l03_w5",
+          "german": "die Hausverwaltung",
+          "translation": {
+            "de": "property management",
+            "ar": "إدارة العقار",
+            "en": "property management"
+          }
+        },
+        {
+          "id": "a2_u11_l03_w6",
+          "german": "funktionieren",
+          "translation": {
+            "de": "function",
+            "ar": "يعمل",
+            "en": "function"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u11_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Heizung {answer} nicht.",
+        "ar": "Die Heizung {answer} nicht.",
+        "en": "Die Heizung {answer} nicht."
+      },
+      "acceptedAnswers": [
+        "funktioniert"
+      ]
+    },
+    {
+      "id": "a2_u11_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Könnten Sie bitte jemanden {answer}?",
+        "ar": "Könnten Sie bitte jemanden {answer}?",
+        "en": "Könnten Sie bitte jemanden {answer}?"
+      },
+      "acceptedAnswers": [
+        "schicken"
+      ]
+    },
+    {
+      "id": "a2_u11_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Für höfliche Bitten eignen sich „Könnten Sie …?“ und „Bitte …“. Beim Melden eines Problems sind klare Angaben wichtig: Was ist kaputt? Seit wann? Wo? Welche Folge? Kurze Hauptsätze plus {answer}-Satz reichen auf A2.",
+        "ar": "Für höfliche Bitten eignen sich „Könnten Sie …?“ und „Bitte …“. Beim Melden eines Problems sind klare Angaben wichtig: Was ist kaputt? Seit wann? Wo? Welche Folge? Kurze Hauptsätze plus {answer}-Satz reichen auf A2.",
+        "en": "Für höfliche Bitten eignen sich „Könnten Sie …?“ und „Bitte …“. Beim Melden eines Problems sind klare Angaben wichtig: Was ist kaputt? Seit wann? Wo? Welche Folge? Kurze Hauptsätze plus {answer}-Satz reichen auf A2."
+      },
+      "acceptedAnswers": [
+        "weil"
+      ]
+    },
+    {
+      "id": "a2_u11_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Heizung funktioniert seit gestern nicht.",
+        "ar": "{answer} Heizung funktioniert seit gestern nicht.",
+        "en": "{answer} Heizung funktioniert seit gestern nicht."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "a2_u11_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Könnten {answer} bitte jemanden schicken?",
+        "ar": "Könnten {answer} bitte jemanden schicken?",
+        "en": "Könnten {answer} bitte jemanden schicken?"
+      },
+      "acceptedAnswers": [
+        "Sie"
+      ]
+    },
+    {
+      "id": "a2_u11_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bin ab 16 Uhr {answer} Hause.",
+        "ar": "Ich bin ab 16 Uhr {answer} Hause.",
+        "en": "Ich bin ab 16 Uhr {answer} Hause."
+      },
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "a2_u11_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Heizung",
+        "ar": "die Heizung",
+        "en": "die Heizung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "heating",
+            "ar": "التدفئة",
+            "en": "heating"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "broken",
+            "ar": "معطل",
+            "en": "broken"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "repair",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u11_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Hausmeister",
+        "ar": "der Hausmeister",
+        "en": "der Hausmeister"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "caretaker",
+            "ar": "عامل/مشرف المبنى",
+            "en": "caretaker"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "property management",
+            "ar": "إدارة العقار",
+            "en": "property management"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "function",
+            "ar": "يعمل",
+            "en": "function"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u11_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Für höfliche Bitten eignen sich „Könnten Sie …?“ und „Bitte …“. Beim Melden eines Problems sind klare Angaben wichtig: Was ist kaputt? Seit wann? Wo? Welche Folge? Kurze Hauptsätze plus weil-Satz reichen auf A2.\n2. Die Heizung funktioniert seit gestern nicht.\n3. Könnten Sie bitte jemanden schicken?\n4. Ich bin ab 16 Uhr zu Hause.\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. Für höfliche Bitten eignen sich „Könnten Sie …?“ und „Bitte …“. Beim Melden eines Problems sind klare Angaben wichtig: Was ist kaputt? Seit wann? Wo? Welche Folge? Kurze Hauptsätze plus weil-Satz reichen auf A2.\n2. Die Heizung funktioniert seit gestern nicht.\n3. Könnten Sie bitte jemanden schicken?\n4. Ich bin ab 16 Uhr zu Hause.\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. Für höfliche Bitten eignen sich „Könnten Sie …?“ und „Bitte …“. Beim Melden eines Problems sind klare Angaben wichtig: Was ist kaputt? Seit wann? Wo? Welche Folge? Kurze Hauptsätze plus weil-Satz reichen auf A2.\n2. Die Heizung funktioniert seit gestern nicht.\n3. Könnten Sie bitte jemanden schicken?\n4. Ich bin ab 16 Uhr zu Hause.\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u11_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order."
+      }
+    },
+    {
+      "id": "a2_u11_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; später neue Beispiele; am nächsten Lerntag mit einer älteren Kasus-/Tempusregel mischen; schließlich in Nachricht oder Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ أنشئ أمثلة جديدة لاحقًا؛ امزجها في اليوم التالي مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve unaided now; create new examples later; next day interleave with an older case/tense rule; finally use it in a message or role-play."
+      }
+    },
+    {
+      "id": "a2_u11_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U11_MASTERY"
+      ]
+    }
+  ]
+}

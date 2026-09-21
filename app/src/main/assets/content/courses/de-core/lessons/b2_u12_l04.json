@@ -1,0 +1,378 @@
+{
+  "id": "b2_u12_l04",
+  "unitId": "de-core-b2-u12",
+  "title": {
+    "de": "Falltraining: Recht, Verwaltung & Arbeitsleben",
+    "ar": "تدريب الحالات: القانون والإدارة والحياة المهنية",
+    "en": "Casebook: Law, administration & working life"
+  },
+  "canDo": [
+    "B2_U12_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u12_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Recht, Verwaltung & Arbeitsleben\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• muss/ist verpflichtet = Pflicht; darf/kann berechtigt sein = Erlaubnis/Ermessen je Kontext\n• innerhalb von Zeitraum braucht Bezugsbeginn\n• sofern = Bedingung, nicht Garantie",
+        "ar": "الموضوع: القانون والإدارة والحياة المهنية\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• muss/ist verpflichtet = Pflicht; darf/kann berechtigt sein = Erlaubnis/Ermessen je Kontext\n• innerhalb von Zeitraum braucht Bezugsbeginn\n• sofern = Bedingung, nicht Garantie",
+        "en": "Topic: Law, administration & working life\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• muss/ist verpflichtet = Pflicht; darf/kann berechtigt sein = Erlaubnis/Ermessen je Kontext\n• innerhalb von Zeitraum braucht Bezugsbeginn\n• sofern = Bedingung, nicht Garantie"
+      }
+    },
+    {
+      "id": "b2_u12_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u12_l04_w1",
+          "german": "verpflichtet",
+          "translation": {
+            "de": "verpflichtet",
+            "ar": "ملزم",
+            "en": "obliged"
+          }
+        },
+        {
+          "id": "b2_u12_l04_w2",
+          "german": "berechtigt",
+          "translation": {
+            "de": "berechtigt",
+            "ar": "مخوّل",
+            "en": "entitled"
+          }
+        },
+        {
+          "id": "b2_u12_l04_w3",
+          "german": "zulässig",
+          "translation": {
+            "de": "zulässig",
+            "ar": "مسموح",
+            "en": "permissible"
+          }
+        },
+        {
+          "id": "b2_u12_l04_w4",
+          "german": "unverzüglich",
+          "translation": {
+            "de": "unverzüglich",
+            "ar": "دون تأخير",
+            "en": "without undue delay"
+          }
+        },
+        {
+          "id": "b2_u12_l04_w5",
+          "german": "innerhalb",
+          "translation": {
+            "de": "innerhalb",
+            "ar": "خلال",
+            "en": "within"
+          }
+        },
+        {
+          "id": "b2_u12_l04_w6",
+          "german": "sofern",
+          "translation": {
+            "de": "sofern",
+            "ar": "بشرط",
+            "en": "provided that"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u12_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beschäftigte sind {answer}, Änderungen mitzuteilen.",
+        "ar": "Beschäftigte sind {answer}, Änderungen mitzuteilen.",
+        "en": "Beschäftigte sind {answer}, Änderungen mitzuteilen."
+      },
+      "acceptedAnswers": [
+        "verpflichtet"
+      ]
+    },
+    {
+      "id": "b2_u12_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie sind dazu {answer}, Einsicht zu nehmen.",
+        "ar": "Sie sind dazu {answer}, Einsicht zu nehmen.",
+        "en": "Sie sind dazu {answer}, Einsicht zu nehmen."
+      },
+      "acceptedAnswers": [
+        "berechtigt"
+      ]
+    },
+    {
+      "id": "b2_u12_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Nutzung ist nur dann {answer}.",
+        "ar": "Die Nutzung ist nur dann {answer}.",
+        "en": "Die Nutzung ist nur dann {answer}."
+      },
+      "acceptedAnswers": [
+        "zulässig"
+      ]
+    },
+    {
+      "id": "b2_u12_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Änderungen sind {answer} mitzuteilen.",
+        "ar": "Änderungen sind {answer} mitzuteilen.",
+        "en": "Änderungen sind {answer} mitzuteilen."
+      },
+      "acceptedAnswers": [
+        "unverzüglich"
+      ]
+    },
+    {
+      "id": "b2_u12_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag muss {answer} eines Monats erfolgen.",
+        "ar": "Der Antrag muss {answer} eines Monats erfolgen.",
+        "en": "Der Antrag muss {answer} eines Monats erfolgen."
+      },
+      "acceptedAnswers": [
+        "innerhalb"
+      ]
+    },
+    {
+      "id": "b2_u12_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} die Voraussetzungen erfüllt sind, ist es möglich.",
+        "ar": "{answer} die Voraussetzungen erfüllt sind, ist es möglich.",
+        "en": "{answer} die Voraussetzungen erfüllt sind, ist es möglich."
+      },
+      "acceptedAnswers": [
+        "Sofern"
+      ]
+    },
+    {
+      "id": "b2_u12_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "verpflichtet",
+        "ar": "verpflichtet",
+        "en": "verpflichtet"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "verpflichtet",
+            "ar": "ملزم",
+            "en": "obliged"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "berechtigt",
+            "ar": "مخوّل",
+            "en": "entitled"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zulässig",
+            "ar": "مسموح",
+            "en": "permissible"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u12_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "berechtigt",
+        "ar": "berechtigt",
+        "en": "berechtigt"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "berechtigt",
+            "ar": "مخوّل",
+            "en": "entitled"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zulässig",
+            "ar": "مسموح",
+            "en": "permissible"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "unverzüglich",
+            "ar": "دون تأخير",
+            "en": "without undue delay"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u12_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "zulässig",
+        "ar": "zulässig",
+        "en": "zulässig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zulässig",
+            "ar": "مسموح",
+            "en": "permissible"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "unverzüglich",
+            "ar": "دون تأخير",
+            "en": "without undue delay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "innerhalb",
+            "ar": "خلال",
+            "en": "within"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u12_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "unverzüglich",
+        "ar": "unverzüglich",
+        "en": "unverzüglich"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "unverzüglich",
+            "ar": "دون تأخير",
+            "en": "without undue delay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "innerhalb",
+            "ar": "خلال",
+            "en": "within"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sofern",
+            "ar": "بشرط",
+            "en": "provided that"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u12_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ kann = immer Anspruch\n• ❌ unverzüglich = exakt sofort in jedem Kontext\n• ❌ Frist ohne Startpunkt interpretieren\n• ❌ Sprachverständnis mit individueller Rechtsberatung verwechseln.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ kann = immer Anspruch\n• ❌ unverzüglich = exakt sofort in jedem Kontext\n• ❌ Frist ohne Startpunkt interpretieren\n• ❌ Sprachverständnis mit individueller Rechtsberatung verwechseln.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ kann = immer Anspruch\n• ❌ unverzüglich = exakt sofort in jedem Kontext\n• ❌ Frist ohne Startpunkt interpretieren\n• ❌ Sprachverständnis mit individueller Rechtsberatung verwechseln.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u12_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• muss/ist verpflichtet = Pflicht; darf/kann berechtigt sein = Erlaubnis/Ermessen je Kontext\n• innerhalb von Zeitraum braucht Bezugsbeginn\n• sofern = Bedingung, nicht Garantie\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• muss/ist verpflichtet = Pflicht; darf/kann berechtigt sein = Erlaubnis/Ermessen je Kontext\n• innerhalb von Zeitraum braucht Bezugsbeginn\n• sofern = Bedingung, nicht Garantie\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• muss/ist verpflichtet = Pflicht; darf/kann berechtigt sein = Erlaubnis/Ermessen je Kontext\n• innerhalb von Zeitraum braucht Bezugsbeginn\n• sofern = Bedingung, nicht Garantie\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u12_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Markiere in einem fiktiven Regeltext alle Rechte, Pflichten, Verbote, Bedingungen und Fristen. Paraphrasiere sie anschließend in Alltagssprache.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Markiere in einem fiktiven Regeltext alle Rechte, Pflichten, Verbote, Bedingungen und Fristen. Paraphrasiere sie anschließend in Alltagssprache.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Markiere in einem fiktiven Regeltext alle Rechte, Pflichten, Verbote, Bedingungen und Fristen. Paraphrasiere sie anschließend in Alltagssprache.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u12_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U12_CASEBOOK"
+      ]
+    }
+  ]
+}

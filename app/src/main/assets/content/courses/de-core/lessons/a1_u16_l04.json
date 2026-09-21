@@ -1,0 +1,370 @@
+{
+  "id": "a1_u16_l04",
+  "unitId": "de-core-a1-u16",
+  "title": {
+    "de": "Aussprache-Casebook",
+    "ar": "دفتر حالات النطق",
+    "en": "Pronunciation casebook"
+  },
+  "canDo": [
+    "A1_PHONETICS_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u16_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Aussprache-Casebook",
+        "ar": "دفتر حالات النطق",
+        "en": "Pronunciation casebook"
+      },
+      "body": {
+        "de": "Diagnostizieren Sie, ob ein Problem aus Laut, Akzent, Rhythmus, Intonation oder Tempo entsteht. Ändern Sie pro Wiederholung nur einen Faktor.",
+        "ar": "شخّص هل المشكلة من الصوت أو النبر أو الإيقاع أو اللحن أو السرعة. غيّر عاملًا واحدًا فقط في كل تكرار.",
+        "en": "Diagnose whether a problem comes from sound, stress, rhythm, intonation or pace. Change only one factor per repetition."
+      }
+    },
+    {
+      "id": "a1_u16_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "„Buch“ endet schriftlich auf ch; das ch gehört zum {answer}-Laut.",
+        "ar": "„Buch“ endet schriftlich auf ch; das ch gehört zum {answer}-Laut.",
+        "en": "„Buch“ endet schriftlich auf ch; das ch gehört zum {answer}-Laut."
+      },
+      "acceptedAnswers": [
+        "ach"
+      ]
+    },
+    {
+      "id": "a1_u16_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "„Milch“ enthält den {answer}-Laut.",
+        "ar": "„Milch“ enthält den {answer}-Laut.",
+        "en": "„Milch“ enthält den {answer}-Laut."
+      },
+      "acceptedAnswers": [
+        "ich"
+      ]
+    },
+    {
+      "id": "a1_u16_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Lange Vokale dauern meist {answer} als kurze.",
+        "ar": "Lange Vokale dauern meist {answer} als kurze.",
+        "en": "Lange Vokale dauern meist {answer} als kurze."
+      },
+      "acceptedAnswers": [
+        "länger"
+      ]
+    },
+    {
+      "id": "a1_u16_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In „bitte“ ist die erste Silbe stärker {answer}.",
+        "ar": "In „bitte“ ist die erste Silbe stärker {answer}.",
+        "en": "In „bitte“ ist die erste Silbe stärker {answer}."
+      },
+      "acceptedAnswers": [
+        "betont"
+      ]
+    },
+    {
+      "id": "a1_u16_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beim Nachsprechen hilft zuerst langsames, dann {answer} Tempo.",
+        "ar": "Beim Nachsprechen hilft zuerst langsames, dann {answer} Tempo.",
+        "en": "Beim Nachsprechen hilft zuerst langsames, dann {answer} Tempo."
+      },
+      "acceptedAnswers": [
+        "normales"
+      ]
+    },
+    {
+      "id": "a1_u16_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Deutliche Wortgrenzen helfen am Anfang beim {answer}.",
+        "ar": "Deutliche Wortgrenzen helfen am Anfang beim {answer}.",
+        "en": "Deutliche Wortgrenzen helfen am Anfang beim {answer}."
+      },
+      "acceptedAnswers": [
+        "Verstehen"
+      ]
+    },
+    {
+      "id": "a1_u16_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Welche Form enthält ü?",
+        "ar": "Welche Form enthält ü?",
+        "en": "Welche Form enthält ü?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "grün",
+            "ar": "grün",
+            "en": "grün"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "groß",
+            "ar": "groß",
+            "en": "groß"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "grau",
+            "ar": "grau",
+            "en": "grau"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Welche Form enthält ö?",
+        "ar": "Welche Form enthält ö?",
+        "en": "Welche Form enthält ö?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "schön",
+            "ar": "schön",
+            "en": "schön"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "schon",
+            "ar": "schon",
+            "en": "schon"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schlau",
+            "ar": "schlau",
+            "en": "schlau"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wo hört man den ich-Laut?",
+        "ar": "Wo hört man den ich-Laut?",
+        "en": "Wo hört man den ich-Laut?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ich",
+            "ar": "ich",
+            "en": "ich"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Bach",
+            "ar": "Bach",
+            "en": "Bach"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Buch",
+            "ar": "Buch",
+            "en": "Buch"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was hilft beim Shadowing?",
+        "ar": "Was hilft beim Shadowing?",
+        "en": "Was hilft beim Shadowing?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "mehrfach hören und nachsprechen",
+            "ar": "mehrfach hören und nachsprechen",
+            "en": "mehrfach hören und nachsprechen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nur lesen",
+            "ar": "nur lesen",
+            "en": "nur lesen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "möglichst schnell beginnen",
+            "ar": "möglichst schnell beginnen",
+            "en": "möglichst schnell beginnen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Heute frage ich nach dem Weg.",
+        "ar": "Heute frage ich nach dem Weg.",
+        "en": "Heute frage ich nach dem Weg."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "frage nach dem Weg",
+            "ar": "frage nach dem Weg",
+            "en": "frage nach dem Weg"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "fahre nach Berlin",
+            "ar": "fahre nach Berlin",
+            "en": "fahre nach Berlin"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "warte am Weg",
+            "ar": "warte am Weg",
+            "en": "warte am Weg"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l04_act13",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Ich suche ein günstiges Zimmer.",
+        "ar": "Ich suche ein günstiges Zimmer.",
+        "en": "Ich suche ein günstiges Zimmer."
+      },
+      "acceptedAnswers": [
+        "Ich suche ein günstiges Zimmer."
+      ]
+    },
+    {
+      "id": "a1_u16_l04_act14",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Heute ist das Wetter schön, aber kühl.",
+        "ar": "Heute ist das Wetter schön, aber kühl.",
+        "en": "Heute ist das Wetter schön, aber kühl."
+      }
+    },
+    {
+      "id": "a1_u16_l04_act15",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Sprechen Sie 20–30 Sekunden über Ihren Tag. Achten Sie bewusst auf lange/kurze Vokale und deutliche Wortakzente.",
+        "ar": "تحدث 20–30 ثانية عن يومك وركّز على طول الحركات ونبر الكلمات.",
+        "en": "Speak for 20–30 seconds about your day, focusing on vowel length and clear word stress."
+      },
+      "minSeconds": 20,
+      "checklist": [
+        {
+          "de": "Fokus hörbar",
+          "ar": "البؤرة مسموعة",
+          "en": "Focus audible"
+        },
+        {
+          "de": "Pausen sinnvoll",
+          "ar": "الوقفات مناسبة",
+          "en": "Pauses meaningful"
+        }
+      ]
+    },
+    {
+      "id": "a1_u16_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Aussprache-Casebook abgeschlossen",
+        "ar": "اكتمل دفتر النطق",
+        "en": "Pronunciation casebook complete"
+      },
+      "canDo": [
+        "A1_PHONETICS_CASEBOOK"
+      ]
+    }
+  ]
+}

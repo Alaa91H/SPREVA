@@ -27,7 +27,7 @@ interface TtsProvider {
     val status: StateFlow<TtsStatus>
 
     /** Speaks [text]; if [article] is present it is spoken first (die/das/der). */
-    fun speakGerman(article: String?, text: String)
+    fun speakGerman(article: String?, text: String, rate: Float = 1f)
 
     fun stop()
 
@@ -66,10 +66,11 @@ class AndroidTtsProvider @Inject constructor(
         }
     }
 
-    override fun speakGerman(article: String?, text: String) {
+    override fun speakGerman(article: String?, text: String, rate: Float) {
         if (_status.value != TtsStatus.READY) return
         val utterance = SpeechText.forVocabulary(article, text)
         if (utterance.isBlank()) return
+        engine?.setSpeechRate(rate.coerceIn(0.5f, 1.5f))
         engine?.speak(utterance, TextToSpeech.QUEUE_FLUSH, null, "spreva-${System.nanoTime()}")
     }
 

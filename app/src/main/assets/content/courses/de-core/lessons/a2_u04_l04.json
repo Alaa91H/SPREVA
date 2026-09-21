@@ -1,0 +1,378 @@
+{
+  "id": "a2_u04_l04",
+  "unitId": "de-core-a2-u04",
+  "title": {
+    "de": "Falltraining: Bedingungen & Zeit mit wenn/als",
+    "ar": "تدريب الحالات: الشروط والزمن مع wenn/als",
+    "en": "Casebook: Conditions & time with wenn/als"
+  },
+  "canDo": [
+    "A2_U04_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u04_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Bedingungen & Zeit mit wenn/als\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• wenn = Bedingung/Wiederholung/Gegenwart-Zukunft\n• als = einmaliger Zeitpunkt/Zeitraum in der Vergangenheit\n• Nebensatz zuerst: Wenn …, komme ich … (Inversion im Hauptsatz)",
+        "ar": "الموضوع: الشروط والزمن مع wenn/als\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• wenn = Bedingung/Wiederholung/Gegenwart-Zukunft\n• als = einmaliger Zeitpunkt/Zeitraum in der Vergangenheit\n• Nebensatz zuerst: Wenn …, komme ich … (Inversion im Hauptsatz)",
+        "en": "Topic: Conditions & time with wenn/als\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• wenn = Bedingung/Wiederholung/Gegenwart-Zukunft\n• als = einmaliger Zeitpunkt/Zeitraum in der Vergangenheit\n• Nebensatz zuerst: Wenn …, komme ich … (Inversion im Hauptsatz)"
+      }
+    },
+    {
+      "id": "a2_u04_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u04_l04_w1",
+          "german": "wenn",
+          "translation": {
+            "de": "wenn",
+            "ar": "إذا/عندما",
+            "en": "if/whenever"
+          }
+        },
+        {
+          "id": "a2_u04_l04_w2",
+          "german": "als",
+          "translation": {
+            "de": "als",
+            "ar": "عندما مرة واحدة في الماضي",
+            "en": "when once in past"
+          }
+        },
+        {
+          "id": "a2_u04_l04_w3",
+          "german": "immer wenn",
+          "translation": {
+            "de": "immer wenn",
+            "ar": "كلما",
+            "en": "whenever"
+          }
+        },
+        {
+          "id": "a2_u04_l04_w4",
+          "german": "damals",
+          "translation": {
+            "de": "damals",
+            "ar": "آنذاك",
+            "en": "back then"
+          }
+        },
+        {
+          "id": "a2_u04_l04_w5",
+          "german": "jedes Mal",
+          "translation": {
+            "de": "jedes Mal",
+            "ar": "كل مرة",
+            "en": "every time"
+          }
+        },
+        {
+          "id": "a2_u04_l04_w6",
+          "german": "zum ersten Mal",
+          "translation": {
+            "de": "zum ersten Mal",
+            "ar": "لأول مرة",
+            "en": "for the first time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u04_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich Zeit habe, rufe ich dich an.",
+        "ar": "{answer} ich Zeit habe, rufe ich dich an.",
+        "en": "{answer} ich Zeit habe, rufe ich dich an."
+      },
+      "acceptedAnswers": [
+        "Wenn"
+      ]
+    },
+    {
+      "id": "a2_u04_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich klein war, lebte ich in Damaskus.",
+        "ar": "{answer} ich klein war, lebte ich in Damaskus.",
+        "en": "{answer} ich klein war, lebte ich in Damaskus."
+      },
+      "acceptedAnswers": [
+        "Als"
+      ]
+    },
+    {
+      "id": "a2_u04_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Immer {answer} es regnet, nehme ich den Bus.",
+        "ar": "Immer {answer} es regnet, nehme ich den Bus.",
+        "en": "Immer {answer} es regnet, nehme ich den Bus."
+      },
+      "acceptedAnswers": [
+        "wenn"
+      ]
+    },
+    {
+      "id": "a2_u04_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} wir gestern ankamen, war es spät.",
+        "ar": "{answer} wir gestern ankamen, war es spät.",
+        "en": "{answer} wir gestern ankamen, war es spät."
+      },
+      "acceptedAnswers": [
+        "Als"
+      ]
+    },
+    {
+      "id": "a2_u04_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} du Hilfe brauchst, sag Bescheid.",
+        "ar": "{answer} du Hilfe brauchst, sag Bescheid.",
+        "en": "{answer} du Hilfe brauchst, sag Bescheid."
+      },
+      "acceptedAnswers": [
+        "Wenn"
+      ]
+    },
+    {
+      "id": "a2_u04_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Als ich ihn {answer} Mal sah, war ich überrascht.",
+        "ar": "Als ich ihn {answer} Mal sah, war ich überrascht.",
+        "en": "Als ich ihn {answer} Mal sah, war ich überrascht."
+      },
+      "acceptedAnswers": [
+        "zum ersten"
+      ]
+    },
+    {
+      "id": "a2_u04_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "wenn",
+        "ar": "wenn",
+        "en": "wenn"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wenn",
+            "ar": "إذا/عندما",
+            "en": "if/whenever"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "als",
+            "ar": "عندما مرة واحدة في الماضي",
+            "en": "when once in past"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "immer wenn",
+            "ar": "كلما",
+            "en": "whenever"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u04_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "als",
+        "ar": "als",
+        "en": "als"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "als",
+            "ar": "عندما مرة واحدة في الماضي",
+            "en": "when once in past"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "immer wenn",
+            "ar": "كلما",
+            "en": "whenever"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "damals",
+            "ar": "آنذاك",
+            "en": "back then"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u04_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "immer wenn",
+        "ar": "immer wenn",
+        "en": "immer wenn"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "immer wenn",
+            "ar": "كلما",
+            "en": "whenever"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "damals",
+            "ar": "آنذاك",
+            "en": "back then"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "jedes Mal",
+            "ar": "كل مرة",
+            "en": "every time"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u04_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "damals",
+        "ar": "damals",
+        "en": "damals"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "damals",
+            "ar": "آنذاك",
+            "en": "back then"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "jedes Mal",
+            "ar": "كل مرة",
+            "en": "every time"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zum ersten Mal",
+            "ar": "لأول مرة",
+            "en": "for the first time"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u04_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ Wenn ich gestern geboren war … → ✅ Als … (einmalige Vergangenheit)\n• ❌ Als ich Zeit habe, komme ich. → ✅ Wenn ich Zeit habe …\n• ❌ Wenn es regnet, ich bleibe … → ✅ … bleibe ich …\n• ❌ als immer → ✅ immer wenn\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ Wenn ich gestern geboren war … → ✅ Als … (einmalige Vergangenheit)\n• ❌ Als ich Zeit habe, komme ich. → ✅ Wenn ich Zeit habe …\n• ❌ Wenn es regnet, ich bleibe … → ✅ … bleibe ich …\n• ❌ als immer → ✅ immer wenn\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ Wenn ich gestern geboren war … → ✅ Als … (einmalige Vergangenheit)\n• ❌ Als ich Zeit habe, komme ich. → ✅ Wenn ich Zeit habe …\n• ❌ Wenn es regnet, ich bleibe … → ✅ … bleibe ich …\n• ❌ als immer → ✅ immer wenn\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u04_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• wenn = Bedingung/Wiederholung/Gegenwart-Zukunft\n• als = einmaliger Zeitpunkt/Zeitraum in der Vergangenheit\n• Nebensatz zuerst: Wenn …, komme ich … (Inversion im Hauptsatz)\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• wenn = Bedingung/Wiederholung/Gegenwart-Zukunft\n• als = einmaliger Zeitpunkt/Zeitraum in der Vergangenheit\n• Nebensatz zuerst: Wenn …, komme ich … (Inversion im Hauptsatz)\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• wenn = Bedingung/Wiederholung/Gegenwart-Zukunft\n• als = einmaliger Zeitpunkt/Zeitraum in der Vergangenheit\n• Nebensatz zuerst: Wenn …, komme ich … (Inversion im Hauptsatz)\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u04_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Bilde zehn Paare: fünf einmalige vergangene Situationen mit als und fünf wiederkehrende/bedingte Situationen mit wenn.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Bilde zehn Paare: fünf einmalige vergangene Situationen mit als und fünf wiederkehrende/bedingte Situationen mit wenn.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Bilde zehn Paare: fünf einmalige vergangene Situationen mit als und fünf wiederkehrende/bedingte Situationen mit wenn.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u04_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U04_CASEBOOK"
+      ]
+    }
+  ]
+}

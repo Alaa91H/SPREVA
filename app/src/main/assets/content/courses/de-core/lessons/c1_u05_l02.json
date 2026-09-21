@@ -1,0 +1,155 @@
+{
+  "id": "c1_u05_l02",
+  "unitId": "de-core-c1-u05",
+  "title": {
+    "de": "Akademische und administrative Texte präzise entschlüsseln und redigieren",
+    "ar": "فك وتحرير النصوص الأكاديمية والإدارية بدقة",
+    "en": "Decoding and editing academic/administrative texts precisely"
+  },
+  "canDo": [
+    "C1_U05_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u05_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Akademische und administrative Texte präzise entschlüsseln und redigieren",
+        "ar": "فك وتحرير النصوص الأكاديمية والإدارية بدقة",
+        "en": "Decoding and editing academic/administrative texts precisely"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nBehördentext, Bericht, wissenschaftlicher Absatz oder Unternehmenskommunikation: schwer lesbare Passagen vereinfachen, ohne Präzision zu verlieren.\n\nModelldialog:\nA: Der Satz ist korrekt, aber kaum lesbar.\nB: Dann lösen wir die Nominalkette auf.\nA: Geht dabei Information verloren?\nB: Nicht, wenn wir Akteur, Handlung und Bedingung ausdrücklich erhalten.\n\nStrategische Sprachentscheidung:\nC1 verlangt bidirektionale Kontrolle: nominale Verdichtung verstehen und bei Bedarf wieder in klare Verbstrukturen auflösen. „Nach erfolgter Prüfung der eingereichten Unterlagen“ kann zu „Nachdem die eingereichten Unterlagen geprüft worden sind“ werden. Gute Redaktion wägt Dichte gegen Lesbarkeit ab und vermeidet unnötige Funktionsverbketten.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي نص إداري أو تقرير أو فقرة علمية أو تواصل مؤسسي: تبسيط المقاطع الثقيلة دون فقدان الدقة.\n\nحوار نموذجي:\nA: Der Satz ist korrekt, aber kaum lesbar.\nB: Dann lösen wir die Nominalkette auf.\nA: Geht dabei Information verloren?\nB: Nicht, wenn wir Akteur, Handlung und Bedingung ausdrücklich erhalten.\n\nالقرار اللغوي الاستراتيجي:\nيتطلب C1 القدرة في الاتجاهين: فهم التكثيف الاسمي وتحويله عند الحاجة إلى تراكيب فعلية واضحة. يمكن تحويل Nach erfolgter Prüfung… إلى Nachdem… geprüft worden sind. التحرير الجيد يوازن الكثافة مع سهولة القراءة.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nAdministrative text, report, academic paragraph or corporate communication: simplify difficult passages without losing precision.\n\nModel dialogue:\nA: Der Satz ist korrekt, aber kaum lesbar.\nB: Dann lösen wir die Nominalkette auf.\nA: Geht dabei Information verloren?\nB: Nicht, wenn wir Akteur, Handlung und Bedingung ausdrücklich erhalten.\n\nStrategic language choice:\nC1 requires bidirectional control: understand nominal compression and expand it into clear verbal structures when useful. “Nach erfolgter Prüfung…” can become “Nachdem … geprüft worden sind”. Good editing balances density against readability and avoids unnecessary function-verb chains.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u05_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u05_l02_w1",
+          "german": "das Funktionsverbgefüge",
+          "translation": {
+            "de": "light-verb construction",
+            "ar": "تركيب اسم + فعل وظيفي",
+            "en": "light-verb construction"
+          }
+        },
+        {
+          "id": "c1_u05_l02_w2",
+          "german": "präzisieren",
+          "translation": {
+            "de": "specify",
+            "ar": "يدقق",
+            "en": "specify"
+          }
+        },
+        {
+          "id": "c1_u05_l02_w3",
+          "german": "redigieren",
+          "translation": {
+            "de": "edit",
+            "ar": "يحرر",
+            "en": "edit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u05_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nC1 verlangt bidirektionale Kontrolle: nominale Verdichtung verstehen und bei Bedarf wieder in klare Verbstrukturen auflösen. „Nach erfolgter Prüfung der eingereichten Unterlagen“ kann zu „Nachdem die eingereichten Unterlagen geprüft worden sind“ werden. Gute Redaktion wägt Dichte gegen Lesbarkeit ab und vermeidet unnötige Funktionsverbketten.\n\nBeispiele:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen.",
+        "ar": "المبدأ الأساسي:\nيتطلب C1 القدرة في الاتجاهين: فهم التكثيف الاسمي وتحويله عند الحاجة إلى تراكيب فعلية واضحة. يمكن تحويل Nach erfolgter Prüfung… إلى Nachdem… geprüft worden sind. التحرير الجيد يوازن الكثافة مع سهولة القراءة.\n\nالأمثلة:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen.",
+        "en": "Core principle:\nC1 requires bidirectional control: understand nominal compression and expand it into clear verbal structures when useful. “Nach erfolgter Prüfung…” can become “Nachdem … geprüft worden sind”. Good editing balances density against readability and avoids unnecessary function-verb chains.\n\nExamples:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen."
+      }
+    },
+    {
+      "id": "c1_u05_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "das Funktionsverbgefüge",
+        "ar": "das Funktionsverbgefüge",
+        "en": "das Funktionsverbgefüge"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "light-verb construction",
+            "ar": "تركيب اسم + فعل وظيفي",
+            "en": "light-verb construction"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "specify",
+            "ar": "يدقق",
+            "en": "specify"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "edit",
+            "ar": "يحرر",
+            "en": "edit"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u05_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Nominalkette lässt sich in einen Nebensatz {answer}.",
+        "ar": "Die Nominalkette lässt sich in einen Nebensatz {answer}.",
+        "en": "Die Nominalkette lässt sich in einen Nebensatz {answer}."
+      },
+      "acceptedAnswers": [
+        "auflösen",
+        "aufloesen"
+      ]
+    },
+    {
+      "id": "c1_u05_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Nominalstil, Verdichtung & Rückübersetzung“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «الأسلوب الاسمي والتكثيف وإعادة الصياغة الفعلية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Nominal style, compression & verbal expansion”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u05_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U05_REAL_LIFE"
+      ]
+    }
+  ]
+}

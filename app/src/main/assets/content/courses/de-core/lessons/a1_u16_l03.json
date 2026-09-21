@@ -1,0 +1,329 @@
+{
+  "id": "a1_u16_l03",
+  "unitId": "de-core-a1-u16",
+  "title": {
+    "de": "Phonetik-Mastery",
+    "ar": "إتقان الصوتيات",
+    "en": "Phonetics mastery"
+  },
+  "canDo": [
+    "A1_PHONETICS_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u16_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Phonetik-Mastery",
+        "ar": "إتقان الصوتيات",
+        "en": "Phonetics mastery"
+      },
+      "body": {
+        "de": "Verbinden Sie Wissen über Lautung und Prosodie mit aktivem Hören und Nachsprechen.",
+        "ar": "اربط معرفة النطق والإيقاع بالاستماع والترديد الفعلي.",
+        "en": "Connect knowledge about pronunciation/prosody with active listening and shadowing."
+      }
+    },
+    {
+      "id": "a1_u16_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bei „ich“ hört man den {answer}-Laut.",
+        "ar": "Bei „ich“ hört man den {answer}-Laut.",
+        "en": "Bei „ich“ hört man den {answer}-Laut."
+      },
+      "acceptedAnswers": [
+        "ich"
+      ]
+    },
+    {
+      "id": "a1_u16_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach a, o, u hört man oft den {answer}-Laut.",
+        "ar": "Nach a, o, u hört man oft den {answer}-Laut.",
+        "en": "Nach a, o, u hört man oft den {answer}-Laut."
+      },
+      "acceptedAnswers": [
+        "ach"
+      ]
+    },
+    {
+      "id": "a1_u16_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In „grün“ steht der Umlaut {answer}.",
+        "ar": "In „grün“ steht der Umlaut {answer}.",
+        "en": "In „grün“ steht der Umlaut {answer}."
+      },
+      "acceptedAnswers": [
+        "ü"
+      ]
+    },
+    {
+      "id": "a1_u16_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In „schön“ steht der Umlaut {answer}.",
+        "ar": "In „schön“ steht der Umlaut {answer}.",
+        "en": "In „schön“ steht der Umlaut {answer}."
+      },
+      "acceptedAnswers": [
+        "ö"
+      ]
+    },
+    {
+      "id": "a1_u16_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bei einer Frage kann die Satzmelodie am Ende {answer}.",
+        "ar": "Bei einer Frage kann die Satzmelodie am Ende {answer}.",
+        "en": "Bei einer Frage kann die Satzmelodie am Ende {answer}."
+      },
+      "acceptedAnswers": [
+        "steigen"
+      ]
+    },
+    {
+      "id": "a1_u16_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Hauptakzent macht eine Silbe besonders {answer}.",
+        "ar": "Der Hauptakzent macht eine Silbe besonders {answer}.",
+        "en": "Der Hauptakzent macht eine Silbe besonders {answer}."
+      },
+      "acceptedAnswers": [
+        "deutlich"
+      ]
+    },
+    {
+      "id": "a1_u16_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Welche Form enthält ü?",
+        "ar": "Welche Form enthält ü?",
+        "en": "Welche Form enthält ü?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "grün",
+            "ar": "grün",
+            "en": "grün"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "groß",
+            "ar": "groß",
+            "en": "groß"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "grau",
+            "ar": "grau",
+            "en": "grau"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Welche Form enthält ö?",
+        "ar": "Welche Form enthält ö?",
+        "en": "Welche Form enthält ö?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "schön",
+            "ar": "schön",
+            "en": "schön"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "schon",
+            "ar": "schon",
+            "en": "schon"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schlau",
+            "ar": "schlau",
+            "en": "schlau"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich möchte fünf grüne Bücher.",
+        "ar": "Ich möchte fünf grüne Bücher.",
+        "en": "Ich möchte fünf grüne Bücher."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "fünf grüne Bücher",
+            "ar": "fünf grüne Bücher",
+            "en": "fünf grüne Bücher"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "fünf rote Bücher",
+            "ar": "fünf rote Bücher",
+            "en": "fünf rote Bücher"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "vier grüne Bücher",
+            "ar": "vier grüne Bücher",
+            "en": "vier grüne Bücher"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Küche ist nicht groß.",
+        "ar": "Die Küche ist nicht groß.",
+        "en": "Die Küche ist nicht groß."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Küche nicht groß",
+            "ar": "Küche nicht groß",
+            "en": "Küche nicht groß"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kirche sehr groß",
+            "ar": "Kirche sehr groß",
+            "en": "Kirche sehr groß"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Küche sehr schön",
+            "ar": "Küche sehr schön",
+            "en": "Küche sehr schön"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Ich möchte einen grünen Tee, bitte.",
+        "ar": "Ich möchte einen grünen Tee, bitte.",
+        "en": "Ich möchte einen grünen Tee, bitte."
+      },
+      "acceptedAnswers": [
+        "Ich möchte einen grünen Tee, bitte."
+      ]
+    },
+    {
+      "id": "a1_u16_l03_act13",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Meine Schwester arbeitet in einer Küche.",
+        "ar": "Meine Schwester arbeitet in einer Küche.",
+        "en": "Meine Schwester arbeitet in einer Küche."
+      }
+    },
+    {
+      "id": "a1_u16_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Sprechen Sie 20–30 Sekunden über Ihren Tag. Achten Sie bewusst auf lange/kurze Vokale und deutliche Wortakzente.",
+        "ar": "تحدث 20–30 ثانية عن يومك وركّز على طول الحركات ونبر الكلمات.",
+        "en": "Speak for 20–30 seconds about your day, focusing on vowel length and clear word stress."
+      },
+      "minSeconds": 20,
+      "checklist": [
+        {
+          "de": "ein konkretes Ausspracheziel gewählt",
+          "ar": "تم اختيار هدف نطق محدد",
+          "en": "One concrete pronunciation target chosen"
+        },
+        {
+          "de": "Aufnahme nach Selbstkorrektur wiederholt",
+          "ar": "أعيد التسجيل بعد التصحيح الذاتي",
+          "en": "Recording repeated after self-correction"
+        }
+      ]
+    },
+    {
+      "id": "a1_u16_l03_act15",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Phonetik-Mastery erreicht",
+        "ar": "تم إتقان الصوتيات",
+        "en": "Phonetics mastery reached"
+      },
+      "canDo": [
+        "A1_PHONETICS_MASTERY"
+      ]
+    }
+  ]
+}

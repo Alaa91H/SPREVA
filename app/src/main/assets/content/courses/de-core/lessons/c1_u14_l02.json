@@ -1,0 +1,154 @@
+{
+  "id": "c1_u14_l02",
+  "unitId": "de-core-c1-u14",
+  "title": {
+    "de": "Technische Systeme verständlich und verantwortungsvoll erklären",
+    "ar": "شرح الأنظمة التقنية بمسؤولية ووضوح",
+    "en": "Explaining technical systems clearly and responsibly"
+  },
+  "canDo": [
+    "C1_U14_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u14_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Technische Systeme verständlich und verantwortungsvoll erklären",
+        "ar": "شرح الأنظمة التقنية بمسؤولية ووضوح",
+        "en": "Explaining technical systems clearly and responsibly"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nSoftware, KI-System, Cloud-Dienst oder digitale Behörde: Berechtigungen, Datennutzung, automatisierte Entscheidungen und Grenzen für nichttechnische Personen erklären.\n\nModelldialog:\nA: Ist das System immer zuverlässig?\nB: Nein. Es kann Fehler machen, besonders außerhalb der Bedingungen, für die es getestet wurde.\nA: Wie erkläre ich das Nutzern?\nB: Konkret: welche Aufgabe es kann, welche Grenzen bekannt sind und wie Ergebnisse überprüft werden sollten.\n\nStrategische Sprachentscheidung:\nBei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus als auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي البرمجيات أو أنظمة الذكاء الاصطناعي أو الخدمات السحابية أو الإدارة الرقمية: شرح الأذونات واستخدام البيانات والقرارات الآلية والحدود لغير المتخصصين.\n\nحوار نموذجي:\nA: Ist das System immer zuverlässig?\nB: Nein. Es kann Fehler machen, besonders außerhalb der Bedingungen, für die es getestet wurde.\nA: Wie erkläre ich das Nutzern?\nB: Konkret: welche Aufgabe es kann, welche Grenzen bekannt sind und wie Ergebnisse überprüft werden sollten.\n\nالقرار اللغوي الاستراتيجي:\nعند شرح التقنية المعقدة يجب فصل آلية العمل وتدفق البيانات والافتراضات والحدود ومصادر الخطأ. تواصل المخاطر يتجنب التهويل والثقة الزائفة، ويحدد البيانات وخطوات المعالجة بدل عبارات عامة.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nSoftware, AI systems, cloud services or digital administration: explain permissions, data use, automated decisions and limitations to non-technical audiences.\n\nModel dialogue:\nA: Ist das System immer zuverlässig?\nB: Nein. Es kann Fehler machen, besonders außerhalb der Bedingungen, für die es getestet wurde.\nA: Wie erkläre ich das Nutzern?\nB: Konkret: welche Aufgabe es kann, welche Grenzen bekannt sind und wie Ergebnisse überprüft werden sollten.\n\nStrategic language choice:\nWhen explaining complex technology, separate mechanism, data flow, assumptions, limitations and failure modes. Risk communication avoids both alarmism and false reassurance. Useful wording includes unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob …. Privacy language should name concrete data and processing steps.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u14_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u14_l02_w1",
+          "german": "automatisiert",
+          "translation": {
+            "de": "automated",
+            "ar": "مؤتمت",
+            "en": "automated"
+          }
+        },
+        {
+          "id": "c1_u14_l02_w2",
+          "german": "der Einsatzkontext",
+          "translation": {
+            "de": "deployment context",
+            "ar": "سياق الاستخدام",
+            "en": "deployment context"
+          }
+        },
+        {
+          "id": "c1_u14_l02_w3",
+          "german": "überprüfen",
+          "translation": {
+            "de": "verify",
+            "ar": "يتحقق",
+            "en": "verify"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u14_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nBei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus als auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.\n\nBeispiele:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.",
+        "ar": "المبدأ الأساسي:\nعند شرح التقنية المعقدة يجب فصل آلية العمل وتدفق البيانات والافتراضات والحدود ومصادر الخطأ. تواصل المخاطر يتجنب التهويل والثقة الزائفة، ويحدد البيانات وخطوات المعالجة بدل عبارات عامة.\n\nالأمثلة:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.",
+        "en": "Core principle:\nWhen explaining complex technology, separate mechanism, data flow, assumptions, limitations and failure modes. Risk communication avoids both alarmism and false reassurance. Useful wording includes unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob …. Privacy language should name concrete data and processing steps.\n\nExamples:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab."
+      }
+    },
+    {
+      "id": "c1_u14_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "automatisiert",
+        "ar": "automatisiert",
+        "en": "automatisiert"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "automated",
+            "ar": "مؤتمت",
+            "en": "automated"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deployment context",
+            "ar": "سياق الاستخدام",
+            "en": "deployment context"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "verify",
+            "ar": "يتحقق",
+            "en": "verify"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u14_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Zuverlässigkeit hängt davon ab, unter welchen Bedingungen es {answer} wurde.",
+        "ar": "Die Zuverlässigkeit hängt davon ab, unter welchen Bedingungen es {answer} wurde.",
+        "en": "Die Zuverlässigkeit hängt davon ab, unter welchen Bedingungen es {answer} wurde."
+      },
+      "acceptedAnswers": [
+        "getestet"
+      ]
+    },
+    {
+      "id": "c1_u14_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Technologie, KI & verantwortungsvolle Kommunikation“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «التقنية والذكاء الاصطناعي والتواصل المسؤول». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Technology, AI & responsible communication”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u14_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U14_REAL_LIFE"
+      ]
+    }
+  ]
+}

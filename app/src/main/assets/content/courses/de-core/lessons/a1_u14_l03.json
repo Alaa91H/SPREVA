@@ -1,0 +1,296 @@
+{
+  "id": "a1_u14_l03",
+  "unitId": "de-core-a1-u14",
+  "title": {
+    "de": "Integrations-Mastery",
+    "ar": "إتقان التكامل",
+    "en": "Integration mastery"
+  },
+  "canDo": [
+    "A1_U14_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u14_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Mastery",
+        "ar": "إتقان التكامل",
+        "en": "Integration mastery"
+      },
+      "body": {
+        "de": "Mastery-Ziel: Wiederhole dieselbe Mission mit neuen Uhrzeiten, Orten, Preisen und Personen; markiere jede Stelle, an der Artikel oder Verbform sich ändert. Löse zuerst ohne Hilfe, erkläre danach die Regel und bilde eine zweite korrekte Variante.",
+        "ar": "هدف الإتقان: Wiederhole dieselbe Mission mit neuen Uhrzeiten, Orten, Preisen und Personen; markiere jede Stelle, an der Artikel oder Verbform sich ändert. حل أولًا دون مساعدة، ثم اشرح القاعدة وأنشئ صيغة صحيحة ثانية.",
+        "en": "Mastery goal: Wiederhole dieselbe Mission mit neuen Uhrzeiten, Orten, Preisen und Personen; markiere jede Stelle, an der Artikel oder Verbform sich ändert. Solve unaided first, then explain the rule and create a second correct variant."
+      }
+    },
+    {
+      "id": "a1_u14_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u14_l03_w1",
+          "german": "der Termin",
+          "translation": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "a1_u14_l03_w2",
+          "german": "die Fahrkarte",
+          "translation": {
+            "de": "die Fahrkarte",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "a1_u14_l03_w3",
+          "german": "die Apotheke",
+          "translation": {
+            "de": "die Apotheke",
+            "ar": "الصيدلية",
+            "en": "pharmacy"
+          }
+        },
+        {
+          "id": "a1_u14_l03_w4",
+          "german": "bestellen",
+          "translation": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "a1_u14_l03_w5",
+          "german": "bezahlen",
+          "translation": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "a1_u14_l03_w6",
+          "german": "einladen",
+          "translation": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u14_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} einen Tee.",
+        "ar": "Ich {answer} einen Tee.",
+        "en": "Ich {answer} einen Tee."
+      },
+      "acceptedAnswers": [
+        "möchte"
+      ]
+    },
+    {
+      "id": "a1_u14_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Rechnung, {answer}.",
+        "ar": "Die Rechnung, {answer}.",
+        "en": "Die Rechnung, {answer}."
+      },
+      "acceptedAnswers": [
+        "bitte"
+      ]
+    },
+    {
+      "id": "a1_u14_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kann ich mit Karte {answer}?",
+        "ar": "Kann ich mit Karte {answer}?",
+        "en": "Kann ich mit Karte {answer}?"
+      },
+      "acceptedAnswers": [
+        "zahlen"
+      ]
+    },
+    {
+      "id": "a1_u14_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das kostet zehn {answer}.",
+        "ar": "Das kostet zehn {answer}.",
+        "en": "Das kostet zehn {answer}."
+      },
+      "acceptedAnswers": [
+        "Euro"
+      ]
+    },
+    {
+      "id": "a1_u14_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich brauche {answer} Jacke.",
+        "ar": "Ich brauche {answer} Jacke.",
+        "en": "Ich brauche {answer} Jacke."
+      },
+      "acceptedAnswers": [
+        "eine"
+      ]
+    },
+    {
+      "id": "a1_u14_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist zu {answer}.",
+        "ar": "Das ist zu {answer}.",
+        "en": "Das ist zu {answer}."
+      },
+      "acceptedAnswers": [
+        "teuer"
+      ]
+    },
+    {
+      "id": "a1_u14_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "bestellen",
+        "ar": "bestellen",
+        "en": "bestellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "bezahlen",
+        "ar": "bezahlen",
+        "en": "bezahlen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerprotokoll",
+        "ar": "سجل الأخطاء",
+        "en": "Error log"
+      },
+      "body": {
+        "de": "Notiere für jede falsche Antwort: meine Form → korrekte Form → Regel → neues eigenes Beispiel. Wiederhole nur die Fehler nach einer Pause.",
+        "ar": "لكل إجابة خاطئة اكتب: صيغتي ← الصيغة الصحيحة ← القاعدة ← مثال جديد. أعد الأخطاء فقط بعد فاصل.",
+        "en": "For every wrong answer record: my form → correct form → rule → new example. Repeat only the errors after a delay."
+      }
+    },
+    {
+      "id": "a1_u14_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving",
+        "ar": "تداخل القواعد",
+        "en": "Interleaving"
+      },
+      "body": {
+        "de": "Mische die sechs Zielstrukturen neu und löse sie in zufälliger Reihenfolge. Nenne vor jeder Antwort die vermutete Regel.",
+        "ar": "امزج البنيات الست وأجب بترتيب عشوائي. قبل كل إجابة سمِّ القاعدة التي تعتقد أنها مطلوبة.",
+        "en": "Shuffle the six target structures and solve them in random order. Name the expected rule before answering."
+      }
+    },
+    {
+      "id": "a1_u14_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Freie Produktion",
+        "ar": "إنتاج حر",
+        "en": "Free production"
+      },
+      "body": {
+        "de": "Wiederhole dieselbe Mission mit neuen Uhrzeiten, Orten, Preisen und Personen; markiere jede Stelle, an der Artikel oder Verbform sich ändert.",
+        "ar": "Wiederhole dieselbe Mission mit neuen Uhrzeiten, Orten, Preisen und Personen; markiere jede Stelle, an der Artikel oder Verbform sich ändert.",
+        "en": "Wiederhole dieselbe Mission mit neuen Uhrzeiten, Orten, Preisen und Personen; markiere jede Stelle, an der Artikel oder Verbform sich ändert."
+      }
+    },
+    {
+      "id": "a1_u14_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1-Integrations-Mastery",
+        "ar": "إتقان تكامل A1",
+        "en": "A1 integration mastery"
+      },
+      "canDo": [
+        "A1_U14_MASTERY"
+      ]
+    }
+  ]
+}

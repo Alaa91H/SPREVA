@@ -1,0 +1,154 @@
+{
+  "id": "a2_u06_l02",
+  "unitId": "de-core-a2-u06",
+  "title": {
+    "de": "Möbel stellen und Orte genau beschreiben",
+    "ar": "وضع الأثاث ووصف المكان بدقة",
+    "en": "Placing furniture and describing locations precisely"
+  },
+  "canDo": [
+    "A2_U06_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a2_u06_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Möbel stellen und Orte genau beschreiben",
+        "ar": "وضع الأثاث ووصف المكان بدقة",
+        "en": "Placing furniture and describing locations precisely"
+      },
+      "body": {
+        "de": "Realsituation:\nUmzug, Möbelaufbau oder Wohnungsbeschreibung: sagen, wo Dinge stehen und wohin sie gestellt werden sollen.\n\nModelldialog:\nA: Wo soll das Regal stehen?\nB: Stell es bitte neben die Tür.\nA: Und der Tisch?\nB: Der Tisch bleibt vor dem Fenster.\n\nSprachfokus:\nBei Wechselpräpositionen entscheidet die Bedeutung: Wo? = Position → Dativ: Das Bild hängt an der Wand. Wohin? = Richtung/Veränderung → Akkusativ: Ich hänge das Bild an die Wand. Nicht das Verb allein, sondern die räumliche Beziehung ist entscheidend.\n\nTransfer: Passe den Dialog an deine Situation an, stelle eine Rückfrage und formuliere eine höfliche Alternative.",
+        "ar": "الموقف الواقعي:\nالانتقال أو تركيب الأثاث أو وصف السكن: قول أين توجد الأشياء وإلى أين يجب وضعها.\n\nحوار نموذجي:\nA: Wo soll das Regal stehen?\nB: Stell es bitte neben die Tür.\nA: Und der Tisch?\nB: Der Tisch bleibt vor dem Fenster.\n\nالتركيز اللغوي:\nمع حروف الجر الثنائية تحدد الدلالة الحالة: Wo للمكان الثابت مع Dativ، وWohin للحركة/التغيير مع Akkusativ.\n\nتطبيق: عدّل الحوار ليلائم وضعك، أضف سؤال متابعة وصياغة بديلة مهذبة.",
+        "en": "Real-life situation:\nMoving, furniture assembly or home description: say where objects are and where they should be placed.\n\nModel dialogue:\nA: Wo soll das Regal stehen?\nB: Stell es bitte neben die Tür.\nA: Und der Tisch?\nB: Der Tisch bleibt vor dem Fenster.\n\nLanguage focus:\nWith two-way prepositions, meaning determines the case: Wo? location → dative; Wohin? direction/change → accusative. The spatial relation, not just the verb, is decisive.\n\nTransfer: Adapt the dialogue to your situation, add a follow-up question and a polite alternative."
+      }
+    },
+    {
+      "id": "a2_u06_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u06_l02_w1",
+          "german": "neben",
+          "translation": {
+            "de": "next to",
+            "ar": "بجانب",
+            "en": "next to"
+          }
+        },
+        {
+          "id": "a2_u06_l02_w2",
+          "german": "zwischen",
+          "translation": {
+            "de": "between",
+            "ar": "بين",
+            "en": "between"
+          }
+        },
+        {
+          "id": "a2_u06_l02_w3",
+          "german": "die Wand",
+          "translation": {
+            "de": "wall",
+            "ar": "الجدار",
+            "en": "wall"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u06_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nBei Wechselpräpositionen entscheidet die Bedeutung: Wo? = Position → Dativ: Das Bild hängt an der Wand. Wohin? = Richtung/Veränderung → Akkusativ: Ich hänge das Bild an die Wand. Nicht das Verb allein, sondern die räumliche Beziehung ist entscheidend.\n\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür.",
+        "ar": "قاعدة مختصرة:\nمع حروف الجر الثنائية تحدد الدلالة الحالة: Wo للمكان الثابت مع Dativ، وWohin للحركة/التغيير مع Akkusativ.\n\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür.",
+        "en": "Key rule:\nWith two-way prepositions, meaning determines the case: Wo? location → dative; Wohin? direction/change → accusative. The spatial relation, not just the verb, is decisive.\n\n• Der Tisch steht neben dem Fenster.\n• Ich stelle den Tisch neben das Fenster.\n• Die Jacke hängt an der Tür."
+      }
+    },
+    {
+      "id": "a2_u06_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "neben",
+        "ar": "neben",
+        "en": "neben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "next to",
+            "ar": "بجانب",
+            "en": "next to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "between",
+            "ar": "بين",
+            "en": "between"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "wall",
+            "ar": "الجدار",
+            "en": "wall"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u06_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stelle den Stuhl neben {answer} Tisch.",
+        "ar": "Ich stelle den Stuhl neben {answer} Tisch.",
+        "en": "Ich stelle den Stuhl neben {answer} Tisch."
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "a2_u06_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Wechselpräpositionen & Wohnung“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «حروف الجر الثنائية والسكن». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Two-way prepositions & housing”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u06_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U06_REAL_LIFE"
+      ]
+    }
+  ]
+}

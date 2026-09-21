@@ -1,0 +1,296 @@
+{
+  "id": "a2_u04_l03",
+  "unitId": "de-core-a2-u04",
+  "title": {
+    "de": "Intensivtraining: Bedingungen & Zeit mit wenn/als",
+    "ar": "تدريب مكثف: الشروط والزمن مع wenn/als",
+    "en": "Mastery lab: Conditions & time with wenn/als"
+  },
+  "canDo": [
+    "A2_U04_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u04_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Bedingungen & Zeit mit wenn/als“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «الشروط والزمن مع wenn/als». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Conditions & time with wenn/als”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u04_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u04_l03_w1",
+          "german": "wenn",
+          "translation": {
+            "de": "if/when",
+            "ar": "إذا / عندما المتكرر",
+            "en": "if/when"
+          }
+        },
+        {
+          "id": "a2_u04_l03_w2",
+          "german": "als",
+          "translation": {
+            "de": "when (past, once)",
+            "ar": "عندما في الماضي مرة واحدة",
+            "en": "when (past, once)"
+          }
+        },
+        {
+          "id": "a2_u04_l03_w3",
+          "german": "die Bedingung",
+          "translation": {
+            "de": "condition",
+            "ar": "الشرط",
+            "en": "condition"
+          }
+        },
+        {
+          "id": "a2_u04_l03_w4",
+          "german": "früher",
+          "translation": {
+            "de": "earlier",
+            "ar": "أبكر / سابقًا",
+            "en": "earlier"
+          }
+        },
+        {
+          "id": "a2_u04_l03_w5",
+          "german": "passieren",
+          "translation": {
+            "de": "happen",
+            "ar": "يحدث",
+            "en": "happen"
+          }
+        },
+        {
+          "id": "a2_u04_l03_w6",
+          "german": "anrufen",
+          "translation": {
+            "de": "call",
+            "ar": "يتصل",
+            "en": "call"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u04_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich Zeit {answer}, komme ich.",
+        "ar": "Wenn ich Zeit {answer}, komme ich.",
+        "en": "Wenn ich Zeit {answer}, komme ich."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a2_u04_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Als ich 20 {answer}, bin ich umgezogen.",
+        "ar": "Als ich 20 {answer}, bin ich umgezogen.",
+        "en": "Als ich 20 {answer}, bin ich umgezogen."
+      },
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "a2_u04_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "„wenn“ benutzt man für Bedingungen und wiederholte Situationen: Wenn ich Zeit habe, komme ich. „als“ beschreibt einen einmaligen Zeitpunkt in {answer} Vergangenheit: Als ich nach Deutschland kam, war alles neu. In beiden Nebensätzen steht das Verb am Ende.",
+        "ar": "„wenn“ benutzt man für Bedingungen und wiederholte Situationen: Wenn ich Zeit habe, komme ich. „als“ beschreibt einen einmaligen Zeitpunkt in {answer} Vergangenheit: Als ich nach Deutschland kam, war alles neu. In beiden Nebensätzen steht das Verb am Ende.",
+        "en": "„wenn“ benutzt man für Bedingungen und wiederholte Situationen: Wenn ich Zeit habe, komme ich. „als“ beschreibt einen einmaligen Zeitpunkt in {answer} Vergangenheit: Als ich nach Deutschland kam, war alles neu. In beiden Nebensätzen steht das Verb am Ende."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u04_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich früher fertig bin, rufe ich {answer} an.",
+        "ar": "Wenn ich früher fertig bin, rufe ich {answer} an.",
+        "en": "Wenn ich früher fertig bin, rufe ich {answer} an."
+      },
+      "acceptedAnswers": [
+        "dich"
+      ]
+    },
+    {
+      "id": "a2_u04_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn es regnet, fahre ich mit {answer} Bus.",
+        "ar": "Wenn es regnet, fahre ich mit {answer} Bus.",
+        "en": "Wenn es regnet, fahre ich mit {answer} Bus."
+      },
+      "acceptedAnswers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "a2_u04_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Als ich 18 war, zog ich in {answer} andere Stadt.",
+        "ar": "Als ich 18 war, zog ich in {answer} andere Stadt.",
+        "en": "Als ich 18 war, zog ich in {answer} andere Stadt."
+      },
+      "acceptedAnswers": [
+        "eine"
+      ]
+    },
+    {
+      "id": "a2_u04_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "wenn",
+        "ar": "wenn",
+        "en": "wenn"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "if/when",
+            "ar": "إذا / عندما المتكرر",
+            "en": "if/when"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "when (past, once)",
+            "ar": "عندما في الماضي مرة واحدة",
+            "en": "when (past, once)"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "condition",
+            "ar": "الشرط",
+            "en": "condition"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u04_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "früher",
+        "ar": "früher",
+        "en": "früher"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "earlier",
+            "ar": "أبكر / سابقًا",
+            "en": "earlier"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "happen",
+            "ar": "يحدث",
+            "en": "happen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "call",
+            "ar": "يتصل",
+            "en": "call"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u04_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. „wenn“ benutzt man für Bedingungen und wiederholte Situationen: Wenn ich Zeit habe, komme ich. „als“ beschreibt einen einmaligen Zeitpunkt in der Vergangenheit: Als ich nach Deutschland kam, war alles neu. In beiden Nebensätzen steht das Verb am Ende.\n2. Wenn ich früher fertig bin, rufe ich dich an.\n3. Wenn es regnet, fahre ich mit dem Bus.\n4. Als ich 18 war, zog ich in eine andere Stadt.\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. „wenn“ benutzt man für Bedingungen und wiederholte Situationen: Wenn ich Zeit habe, komme ich. „als“ beschreibt einen einmaligen Zeitpunkt in der Vergangenheit: Als ich nach Deutschland kam, war alles neu. In beiden Nebensätzen steht das Verb am Ende.\n2. Wenn ich früher fertig bin, rufe ich dich an.\n3. Wenn es regnet, fahre ich mit dem Bus.\n4. Als ich 18 war, zog ich in eine andere Stadt.\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا متأثرًا باللغة الأم، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. „wenn“ benutzt man für Bedingungen und wiederholte Situationen: Wenn ich Zeit habe, komme ich. „als“ beschreibt einen einmaligen Zeitpunkt in der Vergangenheit: Als ich nach Deutschland kam, war alles neu. In beiden Nebensätzen steht das Verb am Ende.\n2. Wenn ich früher fertig bin, rufe ich dich an.\n3. Wenn es regnet, fahre ich mit dem Bus.\n4. Als ich 18 war, zog ich in eine andere Stadt.\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u04_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren. Zu jeder Änderung die Regel laut begründen.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات بعد تغيير بداية الجملة. علّل كل تغيير.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order after changing the prefield. Explain every change."
+      }
+    },
+    {
+      "id": "a2_u04_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; nach 10–20 Minuten neue Beispiele; am nächsten Lerntag gemischt mit einer älteren Kasus-/Tempusregel; schließlich in einer realen Nachricht oder einem Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ بعد 10–20 دقيقة أنشئ أمثلة جديدة؛ في يوم التعلم التالي امزجها مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve now unaided; after 10–20 minutes create new examples; next study day interleave with an older case/tense rule; finally use it in a real message or role-play."
+      }
+    },
+    {
+      "id": "a2_u04_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U04_MASTERY"
+      ]
+    }
+  ]
+}

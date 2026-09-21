@@ -1,0 +1,268 @@
+{
+  "id": "a2_u14_l02",
+  "unitId": "de-core-a2-u14",
+  "title": {
+    "de": "Real-Life Mission",
+    "ar": "مهمة واقعية متكاملة",
+    "en": "Real-life mission"
+  },
+  "canDo": [
+    "A2_U14_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a2_u14_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Mission",
+        "ar": "مهمة واقعية متكاملة",
+        "en": "Real-life mission"
+      },
+      "body": {
+        "de": "Realistische Kette: Beschreibe Wohnung und Umzug: Wo liegt etwas? Wohin stellst du es? Nutze Dativ/Akkusativ bewusst. Jede Antwort verändert die nächste Situation. Wiederhole mit neuen Daten und Rollen.",
+        "ar": "سلسلة واقعية: Beschreibe Wohnung und Umzug: Wo liegt etwas? Wohin stellst du es? Nutze Dativ/Akkusativ bewusst. كل إجابة تغيّر الموقف التالي. أعد المهمة ببيانات وأدوار جديدة.",
+        "en": "Realistic chain: Beschreibe Wohnung und Umzug: Wo liegt etwas? Wohin stellst du es? Nutze Dativ/Akkusativ bewusst. Each response changes the next situation. Repeat with new data and roles."
+      }
+    },
+    {
+      "id": "a2_u14_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u14_l02_w1",
+          "german": "eingereicht",
+          "translation": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "a2_u14_l02_w2",
+          "german": "reparieren",
+          "translation": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "a2_u14_l02_w3",
+          "german": "bewerben",
+          "translation": {
+            "de": "bewerben",
+            "ar": "يتقدم لوظيفة",
+            "en": "apply"
+          }
+        },
+        {
+          "id": "a2_u14_l02_w4",
+          "german": "Verspätung",
+          "translation": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "a2_u14_l02_w5",
+          "german": "weil",
+          "translation": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "a2_u14_l02_w6",
+          "german": "trotzdem",
+          "translation": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u14_l02_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Lampe steht {answer} dem Tisch.",
+        "ar": "Die Lampe steht {answer} dem Tisch.",
+        "en": "Die Lampe steht {answer} dem Tisch."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "a2_u14_l02_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stelle sie {answer} den Tisch.",
+        "ar": "Ich stelle sie {answer} den Tisch.",
+        "en": "Ich stelle sie {answer} den Tisch."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "a2_u14_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kannst du {answer} helfen?",
+        "ar": "Kannst du {answer} helfen?",
+        "en": "Kannst du {answer} helfen?"
+      },
+      "acceptedAnswers": [
+        "mir"
+      ]
+    },
+    {
+      "id": "a2_u14_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das gefällt {answer} gut.",
+        "ar": "Das gefällt {answer} gut.",
+        "en": "Das gefällt {answer} gut."
+      },
+      "acceptedAnswers": [
+        "ihm"
+      ]
+    },
+    {
+      "id": "a2_u14_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich wasche {answer} die Hände.",
+        "ar": "Ich wasche {answer} die Hände.",
+        "en": "Ich wasche {answer} die Hände."
+      },
+      "acceptedAnswers": [
+        "mir"
+      ]
+    },
+    {
+      "id": "a2_u14_l02_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich interessiere mich {answer} Technik.",
+        "ar": "Ich interessiere mich {answer} Technik.",
+        "en": "Ich interessiere mich {answer} Technik."
+      },
+      "acceptedAnswers": [
+        "für"
+      ]
+    },
+    {
+      "id": "a2_u14_l02_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Verspätung",
+        "ar": "Verspätung",
+        "en": "Verspätung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l02_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "weil",
+        "ar": "weil",
+        "en": "weil"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l02_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Beschreibe Wohnung und Umzug: Wo liegt etwas? Wohin stellst du es? Nutze Dativ/Akkusativ bewusst.",
+        "ar": "Beschreibe Wohnung und Umzug: Wo liegt etwas? Wohin stellst du es? Nutze Dativ/Akkusativ bewusst.",
+        "en": "Beschreibe Wohnung und Umzug: Wo liegt etwas? Wohin stellst du es? Nutze Dativ/Akkusativ bewusst."
+      }
+    },
+    {
+      "id": "a2_u14_l02_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Integration gesichert",
+        "ar": "تم تثبيت تكامل A2",
+        "en": "A2 integration secured"
+      },
+      "canDo": [
+        "A2_U14_REAL_LIFE"
+      ]
+    }
+  ]
+}

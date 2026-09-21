@@ -1,0 +1,154 @@
+{
+  "id": "a2_u09_l02",
+  "unitId": "de-core-a2-u09",
+  "title": {
+    "de": "Kleidung, Produkte und Personen genauer beschreiben",
+    "ar": "وصف الملابس والمنتجات والأشخاص بدقة أكبر",
+    "en": "Describing clothes, products and people more precisely"
+  },
+  "canDo": [
+    "A2_U09_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a2_u09_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Kleidung, Produkte und Personen genauer beschreiben",
+        "ar": "وصف الملابس والمنتجات والأشخاص بدقة أكبر",
+        "en": "Describing clothes, products and people more precisely"
+      },
+      "body": {
+        "de": "Realsituation:\nKleidung kaufen, Gegenstände beschreiben oder Personen erkennen: Farbe, Größe, Material und Eigenschaften kombinieren.\n\nModelldialog:\nA: Kann ich Ihnen helfen?\nB: Ja, ich suche einen warmen Pullover.\nA: Welche Farbe möchten Sie?\nB: Vielleicht einen dunklen Pullover.\n\nSprachfokus:\nSteht ein Adjektiv vor einem Nomen, bekommt es eine Endung: der rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.\n\nTransfer: Passe den Dialog an deine Situation an, stelle eine Rückfrage und formuliere eine höfliche Alternative.",
+        "ar": "الموقف الواقعي:\nشراء الملابس أو وصف الأشياء أو التعرف على الأشخاص: الجمع بين اللون والحجم والمادة والصفات.\n\nحوار نموذجي:\nA: Kann ich Ihnen helfen?\nB: Ja, ich suche einen warmen Pullover.\nA: Welche Farbe möchten Sie?\nB: Vielleicht einen dunklen Pullover.\n\nالتركيز اللغوي:\nإذا جاءت الصفة قبل الاسم فإنها تأخذ نهاية: der rote Pullover، ein roter Pullover. النهاية تعتمد على الأداة والجنس والحالة والعدد. في A2 ركّز أولًا على أنماط Nominativ/Akkusativ الشائعة.\n\nتطبيق: عدّل الحوار ليلائم وضعك، أضف سؤال متابعة وصياغة بديلة مهذبة.",
+        "en": "Real-life situation:\nBuying clothes, describing objects or identifying people: combine color, size, material and qualities.\n\nModel dialogue:\nA: Kann ich Ihnen helfen?\nB: Ja, ich suche einen warmen Pullover.\nA: Welche Farbe möchten Sie?\nB: Vielleicht einen dunklen Pullover.\n\nLanguage focus:\nAn adjective before a noun takes an ending: der rote Pullover, ein roter Pullover. The ending depends on article, gender, case and number. At A2, automate common nominative/accusative patterns first.\n\nTransfer: Adapt the dialogue to your situation, add a follow-up question and a polite alternative."
+      }
+    },
+    {
+      "id": "a2_u09_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u09_l02_w1",
+          "german": "dunkel",
+          "translation": {
+            "de": "dark",
+            "ar": "داكن",
+            "en": "dark"
+          }
+        },
+        {
+          "id": "a2_u09_l02_w2",
+          "german": "bequem",
+          "translation": {
+            "de": "comfortable",
+            "ar": "مريح",
+            "en": "comfortable"
+          }
+        },
+        {
+          "id": "a2_u09_l02_w3",
+          "german": "passen",
+          "translation": {
+            "de": "fit/suit",
+            "ar": "يناسب",
+            "en": "fit/suit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u09_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nSteht ein Adjektiv vor einem Nomen, bekommt es eine Endung: der rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.\n\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot.",
+        "ar": "قاعدة مختصرة:\nإذا جاءت الصفة قبل الاسم فإنها تأخذ نهاية: der rote Pullover، ein roter Pullover. النهاية تعتمد على الأداة والجنس والحالة والعدد. في A2 ركّز أولًا على أنماط Nominativ/Akkusativ الشائعة.\n\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot.",
+        "en": "Key rule:\nAn adjective before a noun takes an ending: der rote Pullover, ein roter Pullover. The ending depends on article, gender, case and number. At A2, automate common nominative/accusative patterns first.\n\n• Ich suche einen schwarzen Mantel.\n• Die blaue Jacke ist schön.\n• Das ist ein gutes Angebot."
+      }
+    },
+    {
+      "id": "a2_u09_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "dunkel",
+        "ar": "dunkel",
+        "en": "dunkel"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "dark",
+            "ar": "داكن",
+            "en": "dark"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "comfortable",
+            "ar": "مريح",
+            "en": "comfortable"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "fit/suit",
+            "ar": "يناسب",
+            "en": "fit/suit"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u09_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist eine bequem{answer} Jacke.",
+        "ar": "Das ist eine bequem{answer} Jacke.",
+        "en": "Das ist eine bequem{answer} Jacke."
+      },
+      "acceptedAnswers": [
+        "e"
+      ]
+    },
+    {
+      "id": "a2_u09_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Adjektive im Alltag“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «الصفات في الحياة اليومية». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Adjectives in everyday German”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u09_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U09_REAL_LIFE"
+      ]
+    }
+  ]
+}

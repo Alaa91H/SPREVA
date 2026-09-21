@@ -1,0 +1,329 @@
+{
+  "id": "c1_u18_l03",
+  "unitId": "de-core-c1-u18",
+  "title": {
+    "de": "Phonetik-Mastery",
+    "ar": "إتقان الصوتيات",
+    "en": "Phonetics mastery"
+  },
+  "canDo": [
+    "C1_PHONETICS_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u18_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Phonetik-Mastery",
+        "ar": "إتقان الصوتيات",
+        "en": "Phonetics mastery"
+      },
+      "body": {
+        "de": "Verbinden Sie Wissen über Lautung und Prosodie mit aktivem Hören und Nachsprechen.",
+        "ar": "اربط معرفة النطق والإيقاع بالاستماع والترديد الفعلي.",
+        "en": "Connect knowledge about pronunciation/prosody with active listening and shadowing."
+      }
+    },
+    {
+      "id": "c1_u18_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Rhetorische Pausen strukturieren komplexe {answer}.",
+        "ar": "Rhetorische Pausen strukturieren komplexe {answer}.",
+        "en": "Rhetorische Pausen strukturieren komplexe {answer}."
+      },
+      "acceptedAnswers": [
+        "Gedankengänge"
+      ]
+    },
+    {
+      "id": "c1_u18_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Epistemische Distanz sollte auch in der Sprechweise {answer} bleiben.",
+        "ar": "Epistemische Distanz sollte auch in der Sprechweise {answer} bleiben.",
+        "en": "Epistemische Distanz sollte auch in der Sprechweise {answer} bleiben."
+      },
+      "acceptedAnswers": [
+        "hörbar"
+      ]
+    },
+    {
+      "id": "c1_u18_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Quellenstimmen müssen prosodisch klar in den eigenen Diskurs {answer} werden.",
+        "ar": "Quellenstimmen müssen prosodisch klar in den eigenen Diskurs {answer} werden.",
+        "en": "Quellenstimmen müssen prosodisch klar in den eigenen Diskurs {answer} werden."
+      },
+      "acceptedAnswers": [
+        "eingebettet"
+      ]
+    },
+    {
+      "id": "c1_u18_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Informationsfokus kann durch Akzent und Wortstellung gemeinsam {answer} werden.",
+        "ar": "Informationsfokus kann durch Akzent und Wortstellung gemeinsam {answer} werden.",
+        "en": "Informationsfokus kann durch Akzent und Wortstellung gemeinsam {answer} werden."
+      },
+      "acceptedAnswers": [
+        "markiert"
+      ]
+    },
+    {
+      "id": "c1_u18_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Moderation braucht einen ruhigen, aber steuernden {answer}.",
+        "ar": "Moderation braucht einen ruhigen, aber steuernden {answer}.",
+        "en": "Moderation braucht einen ruhigen, aber steuernden {answer}."
+      },
+      "acceptedAnswers": [
+        "Ton"
+      ]
+    },
+    {
+      "id": "c1_u18_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Akademische Präsentation profitiert von variabler {answer}.",
+        "ar": "Akademische Präsentation profitiert von variabler {answer}.",
+        "en": "Akademische Präsentation profitiert von variabler {answer}."
+      },
+      "acceptedAnswers": [
+        "Sprechgeschwindigkeit"
+      ]
+    },
+    {
+      "id": "c1_u18_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was leistet rhetorische Prosodie?",
+        "ar": "Was leistet rhetorische Prosodie?",
+        "en": "Was leistet rhetorische Prosodie?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "strukturiert Gewichtung und Wirkung",
+            "ar": "strukturiert Gewichtung und Wirkung",
+            "en": "strukturiert Gewichtung und Wirkung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ersetzt Evidenz",
+            "ar": "ersetzt Evidenz",
+            "en": "ersetzt Evidenz"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ersetzt Grammatik",
+            "ar": "ersetzt Grammatik",
+            "en": "ersetzt Grammatik"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wie sollte Quellenwiedergabe klingen?",
+        "ar": "Wie sollte Quellenwiedergabe klingen?",
+        "en": "Wie sollte Quellenwiedergabe klingen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "klar zugeordnet und distanziert passend",
+            "ar": "klar zugeordnet und distanziert passend",
+            "en": "klar zugeordnet und distanziert passend"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "wie eigene sichere Tatsache",
+            "ar": "wie eigene sichere Tatsache",
+            "en": "wie eigene sichere Tatsache"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "immer ironisch",
+            "ar": "immer ironisch",
+            "en": "immer ironisch"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "ar": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "en": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorsichtige Evidenzbewertung",
+            "ar": "vorsichtige Evidenzbewertung",
+            "en": "vorsichtige Evidenzbewertung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sichere Verallgemeinerung",
+            "ar": "sichere Verallgemeinerung",
+            "en": "sichere Verallgemeinerung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Befunde",
+            "ar": "keine Befunde",
+            "en": "keine Befunde"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Dem Bericht zufolge sei die Ursache weiterhin unklar.",
+        "ar": "Dem Bericht zufolge sei die Ursache weiterhin unklar.",
+        "en": "Dem Bericht zufolge sei die Ursache weiterhin unklar."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Quelle wird distanziert wiedergegeben",
+            "ar": "Quelle wird distanziert wiedergegeben",
+            "en": "Quelle wird distanziert wiedergegeben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "eigene Gewissheit",
+            "ar": "eigene Gewissheit",
+            "en": "eigene Gewissheit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Befehl",
+            "ar": "Befehl",
+            "en": "Befehl"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "ar": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "en": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht."
+      },
+      "acceptedAnswers": [
+        "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht."
+      ]
+    },
+    {
+      "id": "c1_u18_l03_act13",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend.",
+        "ar": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend.",
+        "en": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend."
+      }
+    },
+    {
+      "id": "c1_u18_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Sprechen Sie 75–90 Sekunden wie in einer akademischen oder professionellen Präsentation: Befund, Quelle, Einschränkung, Gegenposition und bedingte Schlussfolgerung. Steuern Sie Tempo, Fokus und Pausen bewusst.",
+        "ar": "تحدث 75–90 ثانية كما في عرض أكاديمي أو مهني: نتيجة، مصدر، قيد، موقف مضاد وخلاصة مشروطة. تحكم بالسرعة والبؤرة والوقفات.",
+        "en": "Speak for 75–90 seconds as in an academic/professional presentation: finding, source, limitation, counterposition and conditional conclusion. Control pace, focus and pauses deliberately."
+      },
+      "minSeconds": 75,
+      "checklist": [
+        {
+          "de": "ein konkretes Ausspracheziel gewählt",
+          "ar": "تم اختيار هدف نطق محدد",
+          "en": "One concrete pronunciation target chosen"
+        },
+        {
+          "de": "Aufnahme nach Selbstkorrektur wiederholt",
+          "ar": "أعيد التسجيل بعد التصحيح الذاتي",
+          "en": "Recording repeated after self-correction"
+        }
+      ]
+    },
+    {
+      "id": "c1_u18_l03_act15",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Phonetik-Mastery erreicht",
+        "ar": "تم إتقان الصوتيات",
+        "en": "Phonetics mastery reached"
+      },
+      "canDo": [
+        "C1_PHONETICS_MASTERY"
+      ]
+    }
+  ]
+}

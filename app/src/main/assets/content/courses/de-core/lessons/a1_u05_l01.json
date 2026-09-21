@@ -1,0 +1,154 @@
+{
+  "id": "a1_u05_l01",
+  "unitId": "de-core-a1-u05",
+  "title": {
+    "de": "Artikel der/die/das und es gibt + Akkusativ",
+    "ar": "أدوات التعريف der/die/das و es gibt مع Akkusativ",
+    "en": "Articles der/die/das and es gibt + accusative"
+  },
+  "canDo": [
+    "A1_U05_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u05_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Artikel der/die/das und es gibt + Akkusativ",
+        "ar": "أدوات التعريف der/die/das و es gibt مع Akkusativ",
+        "en": "Articles der/die/das and es gibt + accusative"
+      },
+      "body": {
+        "de": "Lernziel: Artikel der/die/das und es gibt + Akkusativ\n\nKernregel:\nJedes deutsche Nomen hat ein grammatisches Geschlecht: der Tisch, die Lampe, das Bett. Nach „es gibt“ steht der Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad. Lerne neue Nomen möglichst mit Artikel und Plural.\n\nMusterbeispiele:\n• Die Wohnung hat zwei Zimmer.\n• Es gibt einen Balkon.\n• Das Bad ist klein, aber hell.\n\nPraxisbezug:\nWohnungsbesichtigung, Gespräch mit Vermieter oder Besuch: Räume benennen, Ausstattung beschreiben und einfache Fragen stellen.\n\nTypische Stolperfalle:\nNomen nicht ohne Artikel lernen. Bei maskulinen Nomen ändert sich der unbestimmte Artikel im Akkusativ: ein Balkon → einen Balkon.",
+        "ar": "هدف الدرس: أدوات التعريف der/die/das و es gibt مع Akkusativ\n\nالقاعدة الأساسية:\nلكل اسم ألماني جنس نحوي: der Tisch، die Lampe، das Bett. بعد es gibt يأتي Akkusativ: einen Balkon / eine Küche / ein Bad. تعلم الاسم دائمًا مع أداة التعريف والجمع.\n\nأمثلة ألمانية:\n• Die Wohnung hat zwei Zimmer.\n• Es gibt einen Balkon.\n• Das Bad ist klein, aber hell.\n\nالاستخدام في الحياة:\nمعاينة شقة أو الحديث مع المؤجر أو زيارة: تسمية الغرف ووصف التجهيزات وطرح أسئلة بسيطة.\n\nخطأ شائع يجب تجنبه:\nلا تتعلم الاسم دون أداة. في الاسم المذكر يتحول ein إلى einen في Akkusativ: ein Balkon → einen Balkon.",
+        "en": "Lesson goal: Articles der/die/das and es gibt + accusative\n\nCore rule:\nEvery German noun has grammatical gender: der Tisch, die Lampe, das Bett. After es gibt use the accusative: einen Balkon / eine Küche / ein Bad. Learn nouns with article and plural.\n\nGerman examples:\n• Die Wohnung hat zwei Zimmer.\n• Es gibt einen Balkon.\n• Das Bad ist klein, aber hell.\n\nReal-life use:\nApartment viewing, landlord conversation or visit: name rooms, describe facilities and ask simple questions.\n\nCommon pitfall:\nDo not learn nouns without articles. Masculine indefinite articles change in the accusative: ein Balkon → einen Balkon."
+      }
+    },
+    {
+      "id": "a1_u05_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u05_l01_w1",
+          "german": "die Wohnung",
+          "translation": {
+            "de": "apartment",
+            "ar": "الشقة",
+            "en": "apartment"
+          }
+        },
+        {
+          "id": "a1_u05_l01_w2",
+          "german": "das Zimmer",
+          "translation": {
+            "de": "room",
+            "ar": "الغرفة",
+            "en": "room"
+          }
+        },
+        {
+          "id": "a1_u05_l01_w3",
+          "german": "die Küche",
+          "translation": {
+            "de": "kitchen",
+            "ar": "المطبخ",
+            "en": "kitchen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u05_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Jedes deutsche Nomen hat ein grammatisches Geschlecht: der Tisch, die Lampe, das Bett. Nach „es gibt“ steht der Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad. Lerne neue Nomen möglichst mit Artikel und Plural.\n\nBeispiele:\n• Die Wohnung hat zwei Zimmer.\n• Es gibt einen Balkon.\n• Das Bad ist klein, aber hell.",
+        "ar": "قاعدة مختصرة: لكل اسم ألماني جنس نحوي: der Tisch، die Lampe، das Bett. بعد es gibt يأتي Akkusativ: einen Balkon / eine Küche / ein Bad. تعلم الاسم دائمًا مع أداة التعريف والجمع.\n\nالأمثلة:\n• Die Wohnung hat zwei Zimmer.\n• Es gibt einen Balkon.\n• Das Bad ist klein, aber hell.",
+        "en": "Key rule: Every German noun has grammatical gender: der Tisch, die Lampe, das Bett. After es gibt use the accusative: einen Balkon / eine Küche / ein Bad. Learn nouns with article and plural.\n\nExamples:\n• Die Wohnung hat zwei Zimmer.\n• Es gibt einen Balkon.\n• Das Bad ist klein, aber hell."
+      }
+    },
+    {
+      "id": "a1_u05_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "die Wohnung",
+        "ar": "die Wohnung",
+        "en": "die Wohnung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "apartment",
+            "ar": "الشقة",
+            "en": "apartment"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "room",
+            "ar": "الغرفة",
+            "en": "room"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "kitchen",
+            "ar": "المطبخ",
+            "en": "kitchen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u05_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Es gibt {answer} Balkon.",
+        "ar": "Es gibt {answer} Balkon.",
+        "en": "Es gibt {answer} Balkon."
+      },
+      "acceptedAnswers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "a1_u05_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Wohnen & Zuhause“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «السكن والمنزل». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Home & housing”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u05_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U05_FOUNDATION"
+      ]
+    }
+  ]
+}

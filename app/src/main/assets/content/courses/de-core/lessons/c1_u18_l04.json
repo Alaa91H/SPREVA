@@ -1,0 +1,370 @@
+{
+  "id": "c1_u18_l04",
+  "unitId": "de-core-c1-u18",
+  "title": {
+    "de": "Aussprache-Casebook",
+    "ar": "دفتر حالات النطق",
+    "en": "Pronunciation casebook"
+  },
+  "canDo": [
+    "C1_PHONETICS_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u18_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Aussprache-Casebook",
+        "ar": "دفتر حالات النطق",
+        "en": "Pronunciation casebook"
+      },
+      "body": {
+        "de": "Diagnostizieren Sie, ob ein Problem aus Laut, Akzent, Rhythmus, Intonation oder Tempo entsteht. Ändern Sie pro Wiederholung nur einen Faktor.",
+        "ar": "شخّص هل المشكلة من الصوت أو النبر أو الإيقاع أو اللحن أو السرعة. غيّر عاملًا واحدًا فقط في كل تكرار.",
+        "en": "Diagnose whether a problem comes from sound, stress, rhythm, intonation or pace. Change only one factor per repetition."
+      }
+    },
+    {
+      "id": "c1_u18_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zu starke Dramatisierung kann den Evidenzgrad sprachlich {answer}.",
+        "ar": "Zu starke Dramatisierung kann den Evidenzgrad sprachlich {answer}.",
+        "en": "Zu starke Dramatisierung kann den Evidenzgrad sprachlich {answer}."
+      },
+      "acceptedAnswers": [
+        "verzerren"
+      ]
+    },
+    {
+      "id": "c1_u18_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine bedingte Schlussfolgerung sollte nicht wie absolute Gewissheit {answer}.",
+        "ar": "Eine bedingte Schlussfolgerung sollte nicht wie absolute Gewissheit {answer}.",
+        "en": "Eine bedingte Schlussfolgerung sollte nicht wie absolute Gewissheit {answer}."
+      },
+      "acceptedAnswers": [
+        "klingen"
+      ]
+    },
+    {
+      "id": "c1_u18_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Pausen können Übergänge zwischen Argumenten {answer}.",
+        "ar": "Pausen können Übergänge zwischen Argumenten {answer}.",
+        "en": "Pausen können Übergänge zwischen Argumenten {answer}."
+      },
+      "acceptedAnswers": [
+        "signalisieren"
+      ]
+    },
+    {
+      "id": "c1_u18_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Prosodie unterstützt die Trennung von Quelle und eigener {answer}.",
+        "ar": "Prosodie unterstützt die Trennung von Quelle und eigener {answer}.",
+        "en": "Prosodie unterstützt die Trennung von Quelle und eigener {answer}."
+      },
+      "acceptedAnswers": [
+        "Bewertung"
+      ]
+    },
+    {
+      "id": "c1_u18_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Führungskommunikation braucht Klarheit ohne unnötige {answer}.",
+        "ar": "Führungskommunikation braucht Klarheit ohne unnötige {answer}.",
+        "en": "Führungskommunikation braucht Klarheit ohne unnötige {answer}."
+      },
+      "acceptedAnswers": [
+        "Härte"
+      ]
+    },
+    {
+      "id": "c1_u18_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "C1-Sprechkontrolle bedeutet flexible Anpassung an Publikum und {answer}.",
+        "ar": "C1-Sprechkontrolle bedeutet flexible Anpassung an Publikum und {answer}.",
+        "en": "C1-Sprechkontrolle bedeutet flexible Anpassung an Publikum und {answer}."
+      },
+      "acceptedAnswers": [
+        "Situation"
+      ]
+    },
+    {
+      "id": "c1_u18_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was leistet rhetorische Prosodie?",
+        "ar": "Was leistet rhetorische Prosodie?",
+        "en": "Was leistet rhetorische Prosodie?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "strukturiert Gewichtung und Wirkung",
+            "ar": "strukturiert Gewichtung und Wirkung",
+            "en": "strukturiert Gewichtung und Wirkung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ersetzt Evidenz",
+            "ar": "ersetzt Evidenz",
+            "en": "ersetzt Evidenz"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ersetzt Grammatik",
+            "ar": "ersetzt Grammatik",
+            "en": "ersetzt Grammatik"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wie sollte Quellenwiedergabe klingen?",
+        "ar": "Wie sollte Quellenwiedergabe klingen?",
+        "en": "Wie sollte Quellenwiedergabe klingen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "klar zugeordnet und distanziert passend",
+            "ar": "klar zugeordnet und distanziert passend",
+            "en": "klar zugeordnet und distanziert passend"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "wie eigene sichere Tatsache",
+            "ar": "wie eigene sichere Tatsache",
+            "en": "wie eigene sichere Tatsache"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "immer ironisch",
+            "ar": "immer ironisch",
+            "en": "immer ironisch"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was bedeutet flexible Sprechkontrolle?",
+        "ar": "Was bedeutet flexible Sprechkontrolle?",
+        "en": "Was bedeutet flexible Sprechkontrolle?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Tempo, Fokus und Ton an Situation anpassen",
+            "ar": "Tempo, Fokus und Ton an Situation anpassen",
+            "en": "Tempo, Fokus und Ton an Situation anpassen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "immer gleich sprechen",
+            "ar": "immer gleich sprechen",
+            "en": "immer gleich sprechen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "möglichst schnell sprechen",
+            "ar": "möglichst schnell sprechen",
+            "en": "möglichst schnell sprechen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Warum ist epistemische Prosodie wichtig?",
+        "ar": "Warum ist epistemische Prosodie wichtig?",
+        "en": "Warum ist epistemische Prosodie wichtig?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Sprechwirkung soll Evidenzgrad nicht verfälschen",
+            "ar": "Sprechwirkung soll Evidenzgrad nicht verfälschen",
+            "en": "Sprechwirkung soll Evidenzgrad nicht verfälschen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sie ersetzt Quellen",
+            "ar": "sie ersetzt Quellen",
+            "en": "sie ersetzt Quellen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sie macht Texte länger",
+            "ar": "sie macht Texte länger",
+            "en": "sie macht Texte länger"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend.",
+        "ar": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend.",
+        "en": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "balancierte Schlussfolgerung",
+            "ar": "balancierte Schlussfolgerung",
+            "en": "balancierte Schlussfolgerung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "absolute Sicherheit",
+            "ar": "absolute Sicherheit",
+            "en": "absolute Sicherheit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "vollständige Ablehnung",
+            "ar": "vollständige Ablehnung",
+            "en": "vollständige Ablehnung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l04_act13",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend.",
+        "ar": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend.",
+        "en": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend."
+      },
+      "acceptedAnswers": [
+        "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend."
+      ]
+    },
+    {
+      "id": "c1_u18_l04_act14",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um Planungssicherheit.",
+        "ar": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um Planungssicherheit.",
+        "en": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um Planungssicherheit."
+      }
+    },
+    {
+      "id": "c1_u18_l04_act15",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Sprechen Sie 75–90 Sekunden wie in einer akademischen oder professionellen Präsentation: Befund, Quelle, Einschränkung, Gegenposition und bedingte Schlussfolgerung. Steuern Sie Tempo, Fokus und Pausen bewusst.",
+        "ar": "تحدث 75–90 ثانية كما في عرض أكاديمي أو مهني: نتيجة، مصدر، قيد، موقف مضاد وخلاصة مشروطة. تحكم بالسرعة والبؤرة والوقفات.",
+        "en": "Speak for 75–90 seconds as in an academic/professional presentation: finding, source, limitation, counterposition and conditional conclusion. Control pace, focus and pauses deliberately."
+      },
+      "minSeconds": 75,
+      "checklist": [
+        {
+          "de": "Fokus hörbar",
+          "ar": "البؤرة مسموعة",
+          "en": "Focus audible"
+        },
+        {
+          "de": "Pausen sinnvoll",
+          "ar": "الوقفات مناسبة",
+          "en": "Pauses meaningful"
+        }
+      ]
+    },
+    {
+      "id": "c1_u18_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Aussprache-Casebook abgeschlossen",
+        "ar": "اكتمل دفتر النطق",
+        "en": "Pronunciation casebook complete"
+      },
+      "canDo": [
+        "C1_PHONETICS_CASEBOOK"
+      ]
+    }
+  ]
+}

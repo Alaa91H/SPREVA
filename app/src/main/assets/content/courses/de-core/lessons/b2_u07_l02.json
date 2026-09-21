@@ -1,0 +1,154 @@
+{
+  "id": "b2_u07_l02",
+  "unitId": "de-core-b2-u07",
+  "title": {
+    "de": "Eine Position überzeugend und fair vertreten",
+    "ar": "الدفاع عن موقف بإقناع وإنصاف",
+    "en": "Defending a position persuasively and fairly"
+  },
+  "canDo": [
+    "B2_U07_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u07_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Eine Position überzeugend und fair vertreten",
+        "ar": "الدفاع عن موقف بإقناع وإنصاف",
+        "en": "Defending a position persuasively and fairly"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nTeamentscheidung, Prüfung, Verein oder öffentliche Diskussion: Standpunkte entwickeln, Gegenargumente aufnehmen und Kompromisse formulieren.\n\nModelldialog:\nA: Ich halte eine vollständige Homeoffice-Pflicht für problematisch.\nB: Dafür spricht allerdings die geringere Pendelzeit.\nA: Das stimmt, aber nicht jede Tätigkeit ist dafür geeignet.\nB: Dann wäre ein hybrides Modell vielleicht ein sinnvoller Kompromiss.\n\nSprachliche Strategie:\nEine belastbare Argumentation trennt Behauptung, Begründung und Beispiel. Gegenpositionen werden korrekt wiedergegeben, bevor man antwortet. Sprachmittel: Dafür spricht …; Dagegen lässt sich einwenden …; Dieser Einwand ist berechtigt, allerdings …; Unter der Voraussetzung, dass …\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nقرار فريق أو امتحان أو جمعية أو نقاش عام: تطوير المواقف والتعامل مع الحجج المضادة وصياغة حلول وسط.\n\nحوار نموذجي:\nA: Ich halte eine vollständige Homeoffice-Pflicht für problematisch.\nB: Dafür spricht allerdings die geringere Pendelzeit.\nA: Das stimmt, aber nicht jede Tätigkeit ist dafür geeignet.\nB: Dann wäre ein hybrides Modell vielleicht ein sinnvoller Kompromiss.\n\nالاستراتيجية اللغوية:\nالحجة القوية تفصل بين الادعاء والتعليل والمثال، وتنقل موقف الطرف الآخر بدقة قبل الرد. من التراكيب: Dafür spricht… وDagegen lässt sich einwenden…\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nTeam decision, exam, association or public discussion: develop positions, address counterarguments and formulate compromises.\n\nModel dialogue:\nA: Ich halte eine vollständige Homeoffice-Pflicht für problematisch.\nB: Dafür spricht allerdings die geringere Pendelzeit.\nA: Das stimmt, aber nicht jede Tätigkeit ist dafür geeignet.\nB: Dann wäre ein hybrides Modell vielleicht ein sinnvoller Kompromiss.\n\nLanguage strategy:\nStrong argumentation separates claim, reason and example. Opposing positions are represented accurately before responding. Useful phrases: Dafür spricht …; Dagegen lässt sich einwenden …; Dieser Einwand ist berechtigt, allerdings …\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u07_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u07_l02_w1",
+          "german": "überzeugend",
+          "translation": {
+            "de": "convincing",
+            "ar": "مقنع",
+            "en": "convincing"
+          }
+        },
+        {
+          "id": "b2_u07_l02_w2",
+          "german": "der Kompromiss",
+          "translation": {
+            "de": "compromise",
+            "ar": "الحل الوسط",
+            "en": "compromise"
+          }
+        },
+        {
+          "id": "b2_u07_l02_w3",
+          "german": "entkräften",
+          "translation": {
+            "de": "rebut",
+            "ar": "يدحض",
+            "en": "rebut"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u07_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nEine belastbare Argumentation trennt Behauptung, Begründung und Beispiel. Gegenpositionen werden korrekt wiedergegeben, bevor man antwortet. Sprachmittel: Dafür spricht …; Dagegen lässt sich einwenden …; Dieser Einwand ist berechtigt, allerdings …; Unter der Voraussetzung, dass …\n\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen.",
+        "ar": "المبدأ الأساسي:\nالحجة القوية تفصل بين الادعاء والتعليل والمثال، وتنقل موقف الطرف الآخر بدقة قبل الرد. من التراكيب: Dafür spricht… وDagegen lässt sich einwenden…\n\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen.",
+        "en": "Core principle:\nStrong argumentation separates claim, reason and example. Opposing positions are represented accurately before responding. Useful phrases: Dafür spricht …; Dagegen lässt sich einwenden …; Dieser Einwand ist berechtigt, allerdings …\n\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen."
+      }
+    },
+    {
+      "id": "b2_u07_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "überzeugend",
+        "ar": "überzeugend",
+        "en": "überzeugend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "convincing",
+            "ar": "مقنع",
+            "en": "convincing"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "compromise",
+            "ar": "الحل الوسط",
+            "en": "compromise"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "rebut",
+            "ar": "يدحض",
+            "en": "rebut"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u07_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dieser Einwand ist berechtigt; {answer} gibt es Alternativen.",
+        "ar": "Dieser Einwand ist berechtigt; {answer} gibt es Alternativen.",
+        "en": "Dieser Einwand ist berechtigt; {answer} gibt es Alternativen."
+      },
+      "acceptedAnswers": [
+        "allerdings"
+      ]
+    },
+    {
+      "id": "b2_u07_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Argumentieren & Debattieren“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الحجاج والمناظرة». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Argumentation & debate”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u07_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U07_REAL_LIFE"
+      ]
+    }
+  ]
+}

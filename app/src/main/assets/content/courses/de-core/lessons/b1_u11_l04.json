@@ -1,0 +1,378 @@
+{
+  "id": "b1_u11_l04",
+  "unitId": "de-core-b1-u11",
+  "title": {
+    "de": "Falltraining: Gesundheit, Arzt & Versicherung",
+    "ar": "تدريب الحالات: الصحة والطبيب والتأمين",
+    "en": "Casebook: Health, doctors & insurance"
+  },
+  "canDo": [
+    "B1_U11_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u11_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Gesundheit, Arzt & Versicherung\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• seit + Dativ/Zeitangabe; seitdem + Satz\n• Symptom, Ort, Dauer, Stärke, Verlauf getrennt nennen\n• sollte/müsste für Rat; vermutlich/vielleicht für Unsicherheit",
+        "ar": "الموضوع: الصحة والطبيب والتأمين\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• seit + Dativ/Zeitangabe; seitdem + Satz\n• Symptom, Ort, Dauer, Stärke, Verlauf getrennt nennen\n• sollte/müsste für Rat; vermutlich/vielleicht für Unsicherheit",
+        "en": "Topic: Health, doctors & insurance\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• seit + Dativ/Zeitangabe; seitdem + Satz\n• Symptom, Ort, Dauer, Stärke, Verlauf getrennt nennen\n• sollte/müsste für Rat; vermutlich/vielleicht für Unsicherheit"
+      }
+    },
+    {
+      "id": "b1_u11_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u11_l04_w1",
+          "german": "seit",
+          "translation": {
+            "de": "seit",
+            "ar": "منذ",
+            "en": "since/for"
+          }
+        },
+        {
+          "id": "b1_u11_l04_w2",
+          "german": "seitdem",
+          "translation": {
+            "de": "seitdem",
+            "ar": "منذ أن",
+            "en": "since"
+          }
+        },
+        {
+          "id": "b1_u11_l04_w3",
+          "german": "schwindelig",
+          "translation": {
+            "de": "schwindelig",
+            "ar": "يشعر بالدوار",
+            "en": "dizzy"
+          }
+        },
+        {
+          "id": "b1_u11_l04_w4",
+          "german": "Nebenwirkung",
+          "translation": {
+            "de": "Nebenwirkung",
+            "ar": "أثر جانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "b1_u11_l04_w5",
+          "german": "Überweisung",
+          "translation": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "b1_u11_l04_w6",
+          "german": "untersuchen",
+          "translation": {
+            "de": "untersuchen",
+            "ar": "يفحص طبيًا",
+            "en": "examine"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u11_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe {answer} drei Tagen Schmerzen.",
+        "ar": "Ich habe {answer} drei Tagen Schmerzen.",
+        "en": "Ich habe {answer} drei Tagen Schmerzen."
+      },
+      "acceptedAnswers": [
+        "seit"
+      ]
+    },
+    {
+      "id": "b1_u11_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich das Medikament nehme, bin ich müde.",
+        "ar": "{answer} ich das Medikament nehme, bin ich müde.",
+        "en": "{answer} ich das Medikament nehme, bin ich müde."
+      },
+      "acceptedAnswers": [
+        "Seitdem"
+      ]
+    },
+    {
+      "id": "b1_u11_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mir ist oft {answer}.",
+        "ar": "Mir ist oft {answer}.",
+        "en": "Mir ist oft {answer}."
+      },
+      "acceptedAnswers": [
+        "schwindelig"
+      ]
+    },
+    {
+      "id": "b1_u11_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ist das eine {answer}?",
+        "ar": "Ist das eine {answer}?",
+        "en": "Ist das eine {answer}?"
+      },
+      "acceptedAnswers": [
+        "Nebenwirkung"
+      ]
+    },
+    {
+      "id": "b1_u11_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Brauche ich eine {answer}?",
+        "ar": "Brauche ich eine {answer}?",
+        "en": "Brauche ich eine {answer}?"
+      },
+      "acceptedAnswers": [
+        "Überweisung"
+      ]
+    },
+    {
+      "id": "b1_u11_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Könnten Sie mich noch einmal {answer}?",
+        "ar": "Könnten Sie mich noch einmal {answer}?",
+        "en": "Könnten Sie mich noch einmal {answer}?"
+      },
+      "acceptedAnswers": [
+        "untersuchen"
+      ]
+    },
+    {
+      "id": "b1_u11_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "seit",
+        "ar": "seit",
+        "en": "seit"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "seit",
+            "ar": "منذ",
+            "en": "since/for"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "seitdem",
+            "ar": "منذ أن",
+            "en": "since"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schwindelig",
+            "ar": "يشعر بالدوار",
+            "en": "dizzy"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u11_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "seitdem",
+        "ar": "seitdem",
+        "en": "seitdem"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "seitdem",
+            "ar": "منذ أن",
+            "en": "since"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "schwindelig",
+            "ar": "يشعر بالدوار",
+            "en": "dizzy"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Nebenwirkung",
+            "ar": "أثر جانبي",
+            "en": "side effect"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u11_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "schwindelig",
+        "ar": "schwindelig",
+        "en": "schwindelig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "schwindelig",
+            "ar": "يشعر بالدوار",
+            "en": "dizzy"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Nebenwirkung",
+            "ar": "أثر جانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u11_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "Nebenwirkung",
+        "ar": "Nebenwirkung",
+        "en": "Nebenwirkung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Nebenwirkung",
+            "ar": "أثر جانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "untersuchen",
+            "ar": "يفحص طبيًا",
+            "en": "examine"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u11_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ seit drei Tage → ✅ seit drei Tagen\n• ❌ seitdem drei Tagen → ✅ seit drei Tagen / seitdem ich …\n• ❌ Ich bin schwindelig (regional möglich) → meist ✅ Mir ist schwindelig.\n• ❌ Symptom ohne Dauer/Intensität → Kommunikation bleibt unpräzise.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ seit drei Tage → ✅ seit drei Tagen\n• ❌ seitdem drei Tagen → ✅ seit drei Tagen / seitdem ich …\n• ❌ Ich bin schwindelig (regional möglich) → meist ✅ Mir ist schwindelig.\n• ❌ Symptom ohne Dauer/Intensität → Kommunikation bleibt unpräzise.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ seit drei Tage → ✅ seit drei Tagen\n• ❌ seitdem drei Tagen → ✅ seit drei Tagen / seitdem ich …\n• ❌ Ich bin schwindelig (regional möglich) → meist ✅ Mir ist schwindelig.\n• ❌ Symptom ohne Dauer/Intensität → Kommunikation bleibt unpräzise.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u11_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• seit + Dativ/Zeitangabe; seitdem + Satz\n• Symptom, Ort, Dauer, Stärke, Verlauf getrennt nennen\n• sollte/müsste für Rat; vermutlich/vielleicht für Unsicherheit\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• seit + Dativ/Zeitangabe; seitdem + Satz\n• Symptom, Ort, Dauer, Stärke, Verlauf getrennt nennen\n• sollte/müsste für Rat; vermutlich/vielleicht für Unsicherheit\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• seit + Dativ/Zeitangabe; seitdem + Satz\n• Symptom, Ort, Dauer, Stärke, Verlauf getrennt nennen\n• sollte/müsste für Rat; vermutlich/vielleicht für Unsicherheit\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u11_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Simuliere Arztgespräch und Krankenkassenanruf. Nenne vier Symptome mit Dauer/Verlauf und stelle drei präzise Rückfragen.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Simuliere Arztgespräch und Krankenkassenanruf. Nenne vier Symptome mit Dauer/Verlauf und stelle drei präzise Rückfragen.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Simuliere Arztgespräch und Krankenkassenanruf. Nenne vier Symptome mit Dauer/Verlauf und stelle drei präzise Rückfragen.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u11_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U11_CASEBOOK"
+      ]
+    }
+  ]
+}

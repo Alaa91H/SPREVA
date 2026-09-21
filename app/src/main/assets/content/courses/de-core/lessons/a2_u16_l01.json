@@ -1,0 +1,362 @@
+{
+  "id": "a2_u16_l01",
+  "unitId": "de-core-a2-u16",
+  "title": {
+    "de": "Phonetik: hören & unterscheiden",
+    "ar": "الصوتيات: الاستماع والتمييز",
+    "en": "Phonetics: listen & discriminate"
+  },
+  "canDo": [
+    "A2_PHONETICS_DISCRIMINATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u16_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Hören & unterscheiden",
+        "ar": "الاستماع والتمييز",
+        "en": "Listen & discriminate"
+      },
+      "body": {
+        "de": "Trennbare Präfixe, Satzakzent, Frageintonation, Endungen, schwa und flüssige Wortgruppen.",
+        "ar": "السوابق المنفصلة، نبر الجملة، لحن السؤال، النهايات، schwa ومجموعات الكلمات السلسة.",
+        "en": "Separable prefixes, sentence stress, question intonation, endings, schwa and fluent word groups."
+      }
+    },
+    {
+      "id": "a2_u16_l01_act02",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich stehe jeden Morgen um sieben Uhr auf.",
+        "ar": "Ich stehe jeden Morgen um sieben Uhr auf.",
+        "en": "Ich stehe jeden Morgen um sieben Uhr auf."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "stehe ... auf",
+            "ar": "stehe ... auf",
+            "en": "stehe ... auf"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "stelle ... auf",
+            "ar": "stelle ... auf",
+            "en": "stelle ... auf"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "stehe ... an",
+            "ar": "stehe ... an",
+            "en": "stehe ... an"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l01_act03",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wann kommst du morgen zurück?",
+        "ar": "Wann kommst du morgen zurück?",
+        "en": "Wann kommst du morgen zurück?"
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "morgen zurück",
+            "ar": "morgen zurück",
+            "en": "morgen zurück"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "heute zurück",
+            "ar": "heute zurück",
+            "en": "heute zurück"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "morgen vorbei",
+            "ar": "morgen vorbei",
+            "en": "morgen vorbei"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l01_act04",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich habe gestern länger gearbeitet.",
+        "ar": "Ich habe gestern länger gearbeitet.",
+        "en": "Ich habe gestern länger gearbeitet."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "gestern länger gearbeitet",
+            "ar": "gestern länger gearbeitet",
+            "en": "gestern länger gearbeitet"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "heute weniger gearbeitet",
+            "ar": "heute weniger gearbeitet",
+            "en": "heute weniger gearbeitet"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "gestern nicht gearbeitet",
+            "ar": "gestern nicht gearbeitet",
+            "en": "gestern nicht gearbeitet"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l01_act05",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die neue Wohnung gefällt mir besser.",
+        "ar": "Die neue Wohnung gefällt mir besser.",
+        "en": "Die neue Wohnung gefällt mir besser."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "neue Wohnung gefällt besser",
+            "ar": "neue Wohnung gefällt besser",
+            "en": "neue Wohnung gefällt besser"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "alte Wohnung ist größer",
+            "ar": "alte Wohnung ist größer",
+            "en": "alte Wohnung ist größer"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "neue Arbeit gefällt besser",
+            "ar": "neue Arbeit gefällt besser",
+            "en": "neue Arbeit gefällt besser"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Könnten Sie das bitte wiederholen?",
+        "ar": "Könnten Sie das bitte wiederholen?",
+        "en": "Könnten Sie das bitte wiederholen?"
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bitte wiederholen",
+            "ar": "bitte wiederholen",
+            "en": "bitte wiederholen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bitte bezahlen",
+            "ar": "bitte bezahlen",
+            "en": "bitte bezahlen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "bitte warten",
+            "ar": "bitte warten",
+            "en": "bitte warten"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wenn ich Zeit habe, rufe ich dich an.",
+        "ar": "Wenn ich Zeit habe, rufe ich dich an.",
+        "en": "Wenn ich Zeit habe, rufe ich dich an."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "rufe ich dich an",
+            "ar": "rufe ich dich an",
+            "en": "rufe ich dich an"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "komme ich vorbei",
+            "ar": "komme ich vorbei",
+            "en": "komme ich vorbei"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schreibe ich dir",
+            "ar": "schreibe ich dir",
+            "en": "schreibe ich dir"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l01_act08",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Ich habe mich gestern um die Stelle beworben.",
+        "ar": "Ich habe mich gestern um die Stelle beworben.",
+        "en": "Ich habe mich gestern um die Stelle beworben."
+      },
+      "acceptedAnswers": [
+        "Ich habe mich gestern um die Stelle beworben."
+      ]
+    },
+    {
+      "id": "a2_u16_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an.",
+        "ar": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an.",
+        "en": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an."
+      },
+      "acceptedAnswers": [
+        "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an."
+      ]
+    },
+    {
+      "id": "a2_u16_l01_act10",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Ich stehe früh auf und fahre anschließend zur Arbeit.",
+        "ar": "Ich stehe früh auf und fahre anschließend zur Arbeit.",
+        "en": "Ich stehe früh auf und fahre anschließend zur Arbeit."
+      }
+    },
+    {
+      "id": "a2_u16_l01_act11",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Könnten Sie das bitte etwas langsamer wiederholen?",
+        "ar": "Könnten Sie das bitte etwas langsamer wiederholen?",
+        "en": "Könnten Sie das bitte etwas langsamer wiederholen?"
+      }
+    },
+    {
+      "id": "a2_u16_l01_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Mikro-Hörschleife",
+        "ar": "حلقة استماع قصيرة",
+        "en": "Micro-listening loop"
+      },
+      "body": {
+        "de": "Hören → Schlüsselstelle identifizieren → nachsprechen → erneut hören → eigene Aufnahme vergleichen. Maximal ein Ausspracheziel pro Runde.",
+        "ar": "استمع ← حدد الموضع المهم ← ردد ← استمع ثانية ← قارن تسجيلك. هدف نطق واحد فقط في كل جولة.",
+        "en": "Listen → identify the key spot → repeat → listen again → compare your recording. Use only one pronunciation target per round."
+      }
+    },
+    {
+      "id": "a2_u16_l01_act13",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Hörgenauigkeit trainiert",
+        "ar": "تم تدريب دقة الاستماع",
+        "en": "Listening precision trained"
+      },
+      "canDo": [
+        "A2_PHONETICS_DISCRIMINATION"
+      ]
+    }
+  ]
+}

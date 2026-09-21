@@ -1,0 +1,154 @@
+{
+  "id": "c1_u10_l02",
+  "unitId": "de-core-c1-u10",
+  "title": {
+    "de": "Sprachliche Wirkung erkennen, ohne Inhalt und Wirkung zu verwechseln",
+    "ar": "تمييز أثر اللغة دون الخلط بين الأسلوب والحقائق",
+    "en": "Recognizing linguistic effects without confusing style and substance"
+  },
+  "canDo": [
+    "C1_U10_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u10_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Sprachliche Wirkung erkennen, ohne Inhalt und Wirkung zu verwechseln",
+        "ar": "تمييز أثر اللغة دون الخلط بين الأسلوب والحقائق",
+        "en": "Recognizing linguistic effects without confusing style and substance"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nWerbung, Medien, Unternehmenskommunikation, Debatte oder Kampagne: sprachliche Strategien beschreiben und anschließend getrennt prüfen, ob die Sachbehauptungen belegt sind.\n\nModelldialog:\nA: Ist eine emotional formulierte Überschrift automatisch falsch?\nB: Nein. Sie kann stark rahmen, aber die Fakten müssen separat geprüft werden.\nA: Was analysiere ich zuerst?\nB: Wortwahl, vorausgesetzte Annahmen und anschließend die Belege.\n\nStrategische Sprachentscheidung:\nFraming lenkt Aufmerksamkeit durch Auswahl und Benennung, ohne allein die Wahrheit einer Aussage zu bestimmen. Präsuppositionen setzen Informationen als gegeben voraus; Euphemismen mildern, Dysphemismen verschärfen; Metaphern übertragen Deutungsmuster. C1-Analyse fragt: Welche Begriffe werden gewählt? Welche Alternativen fehlen? Welche Annahmen werden vorausgesetzt? Welche Belege stützen den Inhalt?\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي الإعلان أو الإعلام أو التواصل المؤسسي أو النقاش أو الحملات: وصف الاستراتيجيات اللغوية ثم فحص الأدلة على الادعاءات بشكل منفصل.\n\nحوار نموذجي:\nA: Ist eine emotional formulierte Überschrift automatisch falsch?\nB: Nein. Sie kann stark rahmen, aber die Fakten müssen separat geprüft werden.\nA: Was analysiere ich zuerst?\nB: Wortwahl, vorausgesetzte Annahmen und anschließend die Belege.\n\nالقرار اللغوي الاستراتيجي:\nالتأطير يوجّه الانتباه عبر اختيار الألفاظ لكنه لا يحدد وحده صدق القول. الافتراضات المسبقة تقدم معلومات كأنها مسلّمة، والتلطيف يخفف، والاستعارة تنقل إطارًا. تحليل C1 يسأل عن الألفاظ والبدائل والافتراضات والأدلة.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nAdvertising, media, corporate communication, debate or campaigning: describe linguistic strategies, then separately check whether factual claims are supported.\n\nModel dialogue:\nA: Ist eine emotional formulierte Überschrift automatisch falsch?\nB: Nein. Sie kann stark rahmen, aber die Fakten müssen separat geprüft werden.\nA: Was analysiere ich zuerst?\nB: Wortwahl, vorausgesetzte Annahmen und anschließend die Belege.\n\nStrategic language choice:\nFraming directs attention through selection and naming but does not by itself determine truth. Presuppositions present information as given; euphemisms soften; dysphemisms intensify; metaphors transfer interpretive frames. C1 analysis asks which terms are chosen, which alternatives are absent, what is presupposed and what evidence supports the content.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u10_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u10_l02_w1",
+          "german": "die Metapher",
+          "translation": {
+            "de": "metaphor",
+            "ar": "الاستعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "c1_u10_l02_w2",
+          "german": "voraussetzen",
+          "translation": {
+            "de": "presuppose",
+            "ar": "يفترض مسبقًا",
+            "en": "presuppose"
+          }
+        },
+        {
+          "id": "c1_u10_l02_w3",
+          "german": "rahmen",
+          "translation": {
+            "de": "frame",
+            "ar": "يؤطّر",
+            "en": "frame"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u10_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFraming lenkt Aufmerksamkeit durch Auswahl und Benennung, ohne allein die Wahrheit einer Aussage zu bestimmen. Präsuppositionen setzen Informationen als gegeben voraus; Euphemismen mildern, Dysphemismen verschärfen; Metaphern übertragen Deutungsmuster. C1-Analyse fragt: Welche Begriffe werden gewählt? Welche Alternativen fehlen? Welche Annahmen werden vorausgesetzt? Welche Belege stützen den Inhalt?\n\nBeispiele:\n• Die Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv.\n• Die Frage setzt voraus, dass ein Problem tatsächlich besteht.\n• Die Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus.",
+        "ar": "المبدأ الأساسي:\nالتأطير يوجّه الانتباه عبر اختيار الألفاظ لكنه لا يحدد وحده صدق القول. الافتراضات المسبقة تقدم معلومات كأنها مسلّمة، والتلطيف يخفف، والاستعارة تنقل إطارًا. تحليل C1 يسأل عن الألفاظ والبدائل والافتراضات والأدلة.\n\nالأمثلة:\n• Die Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv.\n• Die Frage setzt voraus, dass ein Problem tatsächlich besteht.\n• Die Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus.",
+        "en": "Core principle:\nFraming directs attention through selection and naming but does not by itself determine truth. Presuppositions present information as given; euphemisms soften; dysphemisms intensify; metaphors transfer interpretive frames. C1 analysis asks which terms are chosen, which alternatives are absent, what is presupposed and what evidence supports the content.\n\nExamples:\n• Die Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv.\n• Die Frage setzt voraus, dass ein Problem tatsächlich besteht.\n• Die Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus."
+      }
+    },
+    {
+      "id": "c1_u10_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "die Metapher",
+        "ar": "die Metapher",
+        "en": "die Metapher"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "metaphor",
+            "ar": "الاستعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "presuppose",
+            "ar": "يفترض مسبقًا",
+            "en": "presuppose"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "frame",
+            "ar": "يؤطّر",
+            "en": "frame"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u10_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Wortwahl {answer} die Maßnahme positiv.",
+        "ar": "Die Wortwahl {answer} die Maßnahme positiv.",
+        "en": "Die Wortwahl {answer} die Maßnahme positiv."
+      },
+      "acceptedAnswers": [
+        "rahmt"
+      ]
+    },
+    {
+      "id": "c1_u10_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Rhetorik, Framing & Diskursanalyse“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «البلاغة والتأطير وتحليل الخطاب». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Rhetoric, framing & discourse analysis”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u10_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U10_REAL_LIFE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "a1_u02_l03",
+  "unitId": "de-core-a1-u02",
+  "title": {
+    "de": "Intensivtraining: Alphabet, Aussprache & persönliche Daten",
+    "ar": "تدريب مكثف: الأبجدية والنطق والبيانات الشخصية",
+    "en": "Mastery lab: Alphabet, pronunciation & personal data"
+  },
+  "canDo": [
+    "A1_U02_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u02_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Alphabet, Aussprache & persönliche Daten“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «الأبجدية والنطق والبيانات الشخصية». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.\n\nالدورة: استرجاع ← تعرّف ← إكمال ← تحويل ← إنتاج حر ← تصحيح ← استرجاع لاحق.",
+        "en": "Intensive practice for “Alphabet, pronunciation & personal data”. After every answer, state the rule, create a second example and explain one typical error.\n\nCycle: recall → recognize → complete → transform → produce → correct → retrieve later."
+      }
+    },
+    {
+      "id": "a1_u02_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u02_l03_w1",
+          "german": "der Vorname",
+          "translation": {
+            "de": "first name",
+            "ar": "الاسم الأول",
+            "en": "first name"
+          }
+        },
+        {
+          "id": "a1_u02_l03_w2",
+          "german": "der Nachname",
+          "translation": {
+            "de": "surname",
+            "ar": "اسم العائلة",
+            "en": "surname"
+          }
+        },
+        {
+          "id": "a1_u02_l03_w3",
+          "german": "buchstabieren",
+          "translation": {
+            "de": "to spell",
+            "ar": "يتهجّى",
+            "en": "to spell"
+          }
+        },
+        {
+          "id": "a1_u02_l03_w4",
+          "german": "die Adresse",
+          "translation": {
+            "de": "address",
+            "ar": "العنوان",
+            "en": "address"
+          }
+        },
+        {
+          "id": "a1_u02_l03_w5",
+          "german": "die Telefonnummer",
+          "translation": {
+            "de": "phone number",
+            "ar": "رقم الهاتف",
+            "en": "phone number"
+          }
+        },
+        {
+          "id": "a1_u02_l03_w6",
+          "german": "die E-Mail-Adresse",
+          "translation": {
+            "de": "email address",
+            "ar": "عنوان البريد الإلكتروني",
+            "en": "email address"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u02_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} in Duisburg.",
+        "ar": "Ich {answer} in Duisburg.",
+        "en": "Ich {answer} in Duisburg."
+      },
+      "acceptedAnswers": [
+        "wohne"
+      ]
+    },
+    {
+      "id": "a1_u02_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können Sie das bitte {answer}?",
+        "ar": "Können Sie das bitte {answer}?",
+        "en": "Können Sie das bitte {answer}?"
+      },
+      "acceptedAnswers": [
+        "buchstabieren"
+      ]
+    },
+    {
+      "id": "a1_u02_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Regelmäßige Verben auf -en verlieren im Stamm {answer} Endung: ich wohne, du wohnst, er wohnt, wir wohnen. Beim Buchstabieren werden Buchstaben einzeln gesprochen; Umlaute ä/ö/ü und ß sind eigenständige Zeichen im Deutschen.",
+        "ar": "Regelmäßige Verben auf -en verlieren im Stamm {answer} Endung: ich wohne, du wohnst, er wohnt, wir wohnen. Beim Buchstabieren werden Buchstaben einzeln gesprochen; Umlaute ä/ö/ü und ß sind eigenständige Zeichen im Deutschen.",
+        "en": "Regelmäßige Verben auf -en verlieren im Stamm {answer} Endung: ich wohne, du wohnst, er wohnt, wir wohnen. Beim Buchstabieren werden Buchstaben einzeln gesprochen; Umlaute ä/ö/ü und ß sind eigenständige Zeichen im Deutschen."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "a1_u02_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Nachname {answer} Haddad: H-A-D-D-A-D.",
+        "ar": "Mein Nachname {answer} Haddad: H-A-D-D-A-D.",
+        "en": "Mein Nachname {answer} Haddad: H-A-D-D-A-D."
+      },
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "a1_u02_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich wohne in {answer} Gartenstraße 12.",
+        "ar": "Ich wohne in {answer} Gartenstraße 12.",
+        "en": "Ich wohne in {answer} Gartenstraße 12."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u02_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Anmeldung, Telefonat oder Termin: Vor- und Nachname buchstabieren, Straße, Hausnummer, Telefonnummer und {answer}-Mail nennen.",
+        "ar": "Anmeldung, Telefonat oder Termin: Vor- und Nachname buchstabieren, Straße, Hausnummer, Telefonnummer und {answer}-Mail nennen.",
+        "en": "Anmeldung, Telefonat oder Termin: Vor- und Nachname buchstabieren, Straße, Hausnummer, Telefonnummer und {answer}-Mail nennen."
+      },
+      "acceptedAnswers": [
+        "E"
+      ]
+    },
+    {
+      "id": "a1_u02_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Vorname",
+        "ar": "der Vorname",
+        "en": "der Vorname"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "first name",
+            "ar": "الاسم الأول",
+            "en": "first name"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "surname",
+            "ar": "اسم العائلة",
+            "en": "surname"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "to spell",
+            "ar": "يتهجّى",
+            "en": "to spell"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u02_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Adresse",
+        "ar": "die Adresse",
+        "en": "die Adresse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "address",
+            "ar": "العنوان",
+            "en": "address"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "phone number",
+            "ar": "رقم الهاتف",
+            "en": "phone number"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "email address",
+            "ar": "عنوان البريد الإلكتروني",
+            "en": "email address"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u02_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Regelmäßige Verben auf -en verlieren im Stamm die Endung: ich wohne, du wohnst, er wohnt, wir wohnen. Beim Buchstabieren werden Buchstaben einzeln gesprochen; Umlaute ä/ö/ü und ß sind eigenständige Zeichen im Deutschen.\n2. Mein Nachname ist Haddad: H-A-D-D-A-D.\n3. Ich wohne in der Gartenstraße 12.\n4. Anmeldung, Telefonat oder Termin: Vor- und Nachname buchstabieren, Straße, Hausnummer, Telefonnummer und E-Mail nennen.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. Regelmäßige Verben auf -en verlieren im Stamm die Endung: ich wohne, du wohnst, er wohnt, wir wohnen. Beim Buchstabieren werden Buchstaben einzeln gesprochen; Umlaute ä/ö/ü und ß sind eigenständige Zeichen im Deutschen.\n2. Mein Nachname ist Haddad: H-A-D-D-A-D.\n3. Ich wohne in der Gartenstraße 12.\n4. Anmeldung, Telefonat oder Termin: Vor- und Nachname buchstabieren, Straße, Hausnummer, Telefonnummer und E-Mail nennen.\n\nحدّد الصيغة الحاسمة، أنشئ خطأً شائعًا، اشرح سببه ثم صححه دون نموذج.",
+        "en": "Correct patterns:\n1. Regelmäßige Verben auf -en verlieren im Stamm die Endung: ich wohne, du wohnst, er wohnt, wir wohnen. Beim Buchstabieren werden Buchstaben einzeln gesprochen; Umlaute ä/ö/ü und ß sind eigenständige Zeichen im Deutschen.\n2. Mein Nachname ist Haddad: H-A-D-D-A-D.\n3. Ich wohne in der Gartenstraße 12.\n4. Anmeldung, Telefonat oder Termin: Vor- und Nachname buchstabieren, Straße, Hausnummer, Telefonnummer und E-Mail nennen.\n\nMark the decisive form, create a typical wrong version, explain it, then correct it without the model."
+      }
+    },
+    {
+      "id": "a1_u02_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة خمس مرات: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model five ways: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u02_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel einfach erklären. D in Nachricht/Dialog anwenden. E mit zwei älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: ستة فراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في رسالة/حوار. E امزجها مع موضوعين سابقين. الإتقان = إنتاج + تفسير + نقل.",
+        "en": "A now: six blanks orally. B later: six new sentences. C explain the rule. D use it in a message/dialogue. E interleave with two older topics. Mastery = produce + explain + transfer."
+      }
+    },
+    {
+      "id": "a1_u02_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U02_MASTERY"
+      ]
+    }
+  ]
+}

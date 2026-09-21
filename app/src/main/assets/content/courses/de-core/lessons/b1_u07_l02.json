@@ -1,0 +1,154 @@
+{
+  "id": "b1_u07_l02",
+  "unitId": "de-core-b1-u07",
+  "title": {
+    "de": "Über Interessen, Erwartungen und Probleme sprechen",
+    "ar": "التحدث عن الاهتمامات والتوقعات والمشكلات",
+    "en": "Talking about interests, expectations and problems"
+  },
+  "canDo": [
+    "B1_U07_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u07_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Über Interessen, Erwartungen und Probleme sprechen",
+        "ar": "التحدث عن الاهتمامات والتوقعات والمشكلات",
+        "en": "Talking about interests, expectations and problems"
+      },
+      "body": {
+        "de": "Authentische Situation:\nArbeit, Kurs, Amt oder Alltag: über Zuständigkeiten, Teilnahme, Erwartungen, Erinnerungen und Abhängigkeiten sprechen.\n\nModelldialog:\nA: Hast du dich um den Termin gekümmert?\nB: Ja, ich habe mich darum gekümmert.\nA: Wartest du noch auf die Bestätigung?\nB: Genau, darauf warte ich noch.\n\nSprachliche Entscheidung:\nViele Verben verlangen feste Präpositionen: warten auf + Akk, teilnehmen an + Dat, sich kümmern um + Akk. Für Sachen verwendet man häufig da(r)+Präposition: Ich warte darauf. Fragen: Worauf wartest du? Bei Personen bleibt Präposition + Pronomen: auf ihn.\n\nTransfer: Führe denselben Austausch mit neuen Daten. Ergänze eine Begründung, eine Rückfrage und eine angemessene Reaktion.",
+        "ar": "موقف واقعي:\nالعمل أو الدورة أو الدائرة أو الحياة اليومية: الحديث عن المسؤوليات والمشاركة والتوقعات والتذكّر والاعتماد.\n\nحوار نموذجي:\nA: Hast du dich um den Termin gekümmert?\nB: Ja, ich habe mich darum gekümmert.\nA: Wartest du noch auf die Bestätigung?\nB: Genau, darauf warte ich noch.\n\nالقرار اللغوي:\nكثير من الأفعال تأتي مع حرف جر ثابت: warten auf، teilnehmen an، sich kümmern um. مع الأشياء نستخدم da(r)+حرف الجر مثل darauf، وفي السؤال wo(r)+… مثل Worauf?\n\nتطبيق: أعد الحوار ببيانات جديدة، وأضف تعليلًا وسؤال متابعة وردًا مناسبًا.",
+        "en": "Authentic situation:\nWork, course, public office or daily life: discuss responsibility, participation, expectations, reminders and dependencies.\n\nModel dialogue:\nA: Hast du dich um den Termin gekümmert?\nB: Ja, ich habe mich darum gekümmert.\nA: Wartest du noch auf die Bestätigung?\nB: Genau, darauf warte ich noch.\n\nLanguage choice:\nMany verbs require fixed prepositions: warten auf, teilnehmen an, sich kümmern um. For things, German often uses da(r)+preposition: darauf; questions use wo(r)+preposition: worauf. With people, keep preposition + pronoun.\n\nTransfer: Repeat the exchange with new details, adding a reason, follow-up question and appropriate response."
+      }
+    },
+    {
+      "id": "b1_u07_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u07_l02_w1",
+          "german": "denken an",
+          "translation": {
+            "de": "think of",
+            "ar": "يفكر في",
+            "en": "think of"
+          }
+        },
+        {
+          "id": "b1_u07_l02_w2",
+          "german": "abhängen von",
+          "translation": {
+            "de": "depend on",
+            "ar": "يعتمد على",
+            "en": "depend on"
+          }
+        },
+        {
+          "id": "b1_u07_l02_w3",
+          "german": "sich erinnern an",
+          "translation": {
+            "de": "remember",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u07_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nViele Verben verlangen feste Präpositionen: warten auf + Akk, teilnehmen an + Dat, sich kümmern um + Akk. Für Sachen verwendet man häufig da(r)+Präposition: Ich warte darauf. Fragen: Worauf wartest du? Bei Personen bleibt Präposition + Pronomen: auf ihn.\n\nKontrastive Beispiele:\n• Ich warte auf eine Antwort.\n• Worauf wartest du? – Ich warte darauf.\n• Sie nimmt an der Besprechung teil.",
+        "ar": "القاعدة:\nكثير من الأفعال تأتي مع حرف جر ثابت: warten auf، teilnehmen an، sich kümmern um. مع الأشياء نستخدم da(r)+حرف الجر مثل darauf، وفي السؤال wo(r)+… مثل Worauf?\n\nأمثلة:\n• Ich warte auf eine Antwort.\n• Worauf wartest du? – Ich warte darauf.\n• Sie nimmt an der Besprechung teil.",
+        "en": "Rule:\nMany verbs require fixed prepositions: warten auf, teilnehmen an, sich kümmern um. For things, German often uses da(r)+preposition: darauf; questions use wo(r)+preposition: worauf. With people, keep preposition + pronoun.\n\nExamples:\n• Ich warte auf eine Antwort.\n• Worauf wartest du? – Ich warte darauf.\n• Sie nimmt an der Besprechung teil."
+      }
+    },
+    {
+      "id": "b1_u07_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "denken an",
+        "ar": "denken an",
+        "en": "denken an"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "think of",
+            "ar": "يفكر في",
+            "en": "think of"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "depend on",
+            "ar": "يعتمد على",
+            "en": "depend on"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "remember",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u07_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Worauf wartest du? Ich warte {answer}.",
+        "ar": "Worauf wartest du? Ich warte {answer}.",
+        "en": "Worauf wartest du? Ich warte {answer}."
+      },
+      "acceptedAnswers": [
+        "darauf"
+      ]
+    },
+    {
+      "id": "b1_u07_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Verben mit Präpositionen“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الأفعال مع حروف الجر الثابتة». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Verbs with fixed prepositions”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u07_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U07_REAL_LIFE"
+      ]
+    }
+  ]
+}

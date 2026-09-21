@@ -1,0 +1,296 @@
+{
+  "id": "c1_u06_l03",
+  "unitId": "de-core-c1-u06",
+  "title": {
+    "de": "Intensivtraining: Kollokationen, Wortbildung & idiomatische Präzision",
+    "ar": "تدريب مكثف: المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية",
+    "en": "Mastery lab: Collocations, word formation & idiomatic precision"
+  },
+  "canDo": [
+    "C1_U06_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u06_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Kollokationen, Wortbildung & idiomatische Präzision“. Forme dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte um, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية». أعد صياغة الفكرة بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Collocations, word formation & idiomatic precision”. Reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u06_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u06_l03_w1",
+          "german": "Maßnahmen ergreifen",
+          "translation": {
+            "de": "take measures",
+            "ar": "يتخذ إجراءات",
+            "en": "take measures"
+          }
+        },
+        {
+          "id": "c1_u06_l03_w2",
+          "german": "Zweifel äußern",
+          "translation": {
+            "de": "express doubts",
+            "ar": "يبدي شكوكًا",
+            "en": "express doubts"
+          }
+        },
+        {
+          "id": "c1_u06_l03_w3",
+          "german": "Verantwortung übernehmen",
+          "translation": {
+            "de": "take responsibility",
+            "ar": "يتحمل المسؤولية",
+            "en": "take responsibility"
+          }
+        },
+        {
+          "id": "c1_u06_l03_w4",
+          "german": "zur Verfügung stehen",
+          "translation": {
+            "de": "be available",
+            "ar": "يكون متاحًا",
+            "en": "be available"
+          }
+        },
+        {
+          "id": "c1_u06_l03_w5",
+          "german": "in Betracht ziehen",
+          "translation": {
+            "de": "consider",
+            "ar": "يأخذ في الاعتبار",
+            "en": "consider"
+          }
+        },
+        {
+          "id": "c1_u06_l03_w6",
+          "german": "eine Entscheidung treffen",
+          "translation": {
+            "de": "make a decision",
+            "ar": "يتخذ قرارًا",
+            "en": "make a decision"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u06_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Leitung hat Maßnahmen {answer}.",
+        "ar": "Die Leitung hat Maßnahmen {answer}.",
+        "en": "Die Leitung hat Maßnahmen {answer}."
+      },
+      "acceptedAnswers": [
+        "ergriffen"
+      ]
+    },
+    {
+      "id": "c1_u06_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir sollten diese Option in Betracht {answer}.",
+        "ar": "Wir sollten diese Option in Betracht {answer}.",
+        "en": "Wir sollten diese Option in Betracht {answer}."
+      },
+      "acceptedAnswers": [
+        "ziehen"
+      ]
+    },
+    {
+      "id": "c1_u06_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Fortgeschrittene Beherrschung zeigt sich {answer} Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.",
+        "ar": "Fortgeschrittene Beherrschung zeigt sich {answer} Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.",
+        "en": "Fortgeschrittene Beherrschung zeigt sich {answer} Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich."
+      },
+      "acceptedAnswers": [
+        "in"
+      ]
+    },
+    {
+      "id": "c1_u06_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Leitung hat Maßnahmen ergriffen.",
+        "ar": "{answer} Leitung hat Maßnahmen ergriffen.",
+        "en": "{answer} Leitung hat Maßnahmen ergriffen."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "c1_u06_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mehrere Fachleute äußerten Zweifel an {answer} Umsetzbarkeit.",
+        "ar": "Mehrere Fachleute äußerten Zweifel an {answer} Umsetzbarkeit.",
+        "en": "Mehrere Fachleute äußerten Zweifel an {answer} Umsetzbarkeit."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "c1_u06_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Team übernimmt Verantwortung für {answer} Umsetzung.",
+        "ar": "Das Team übernimmt Verantwortung für {answer} Umsetzung.",
+        "en": "Das Team übernimmt Verantwortung für {answer} Umsetzung."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "c1_u06_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "Maßnahmen ergreifen",
+        "ar": "Maßnahmen ergreifen",
+        "en": "Maßnahmen ergreifen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "take measures",
+            "ar": "يتخذ إجراءات",
+            "en": "take measures"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "express doubts",
+            "ar": "يبدي شكوكًا",
+            "en": "express doubts"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "take responsibility",
+            "ar": "يتحمل المسؤولية",
+            "en": "take responsibility"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u06_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "zur Verfügung stehen",
+        "ar": "zur Verfügung stehen",
+        "en": "zur Verfügung stehen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "be available",
+            "ar": "يكون متاحًا",
+            "en": "be available"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "consider",
+            "ar": "يأخذ في الاعتبار",
+            "en": "consider"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "make a decision",
+            "ar": "يتخذ قرارًا",
+            "en": "make a decision"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u06_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Fortgeschrittene Beherrschung zeigt sich in Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.\n2. Die Leitung hat Maßnahmen ergriffen.\n3. Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n4. Das Team übernimmt Verantwortung für die Umsetzung.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre, welche Bedeutung gleich blieb und welche Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Fortgeschrittene Beherrschung zeigt sich in Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.\n2. Die Leitung hat Maßnahmen ergriffen.\n3. Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n4. Das Team übernimmt Verantwortung für die Umsetzung.\n\nغيّر بُعدًا واحدًا فقط: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. اشرح ما بقي من المعنى وما تغير في الأثر.",
+        "en": "Base patterns:\n1. Fortgeschrittene Beherrschung zeigt sich in Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.\n2. Die Leitung hat Maßnahmen ergriffen.\n3. Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n4. Das Team übernimmt Verantwortung für die Umsetzung.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what stayed constant and what effect changed."
+      }
+    },
+    {
+      "id": "c1_u06_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Prüfe propositionalen Kern, Evidenzstärke und Quellenklarheit.",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. تحقق من ثبات المعنى وقوة الدليل ووضوح المصدر.",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. Check propositional core, evidence strength and source clarity."
+      }
+    },
+    {
+      "id": "c1_u06_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "200–260 Wörter oder vier Minuten: vier Zielstrukturen, fair dargestellte Gegenposition, Quellen-/Evidenzhinweis und präzise Einschränkung. Revision: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "200–260 كلمة أو أربع دقائق: أربع بنيات مستهدفة، موقف مضاد ممثل بإنصاف، إشارة لمصدر/دليل وقيد دقيق. المراجعة: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "200–260 words or four minutes: four target structures, fairly represented counterposition, source/evidence marker and precise limitation. Revise: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u06_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U06_MASTERY"
+      ]
+    }
+  ]
+}

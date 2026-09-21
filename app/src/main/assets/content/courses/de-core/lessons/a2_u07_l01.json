@@ -1,0 +1,154 @@
+{
+  "id": "a2_u07_l01",
+  "unitId": "de-core-a2-u07",
+  "title": {
+    "de": "Reflexivpronomen und feste reflexive Verben",
+    "ar": "الضمائر الانعكاسية والأفعال الانعكاسية الثابتة",
+    "en": "Reflexive pronouns and fixed reflexive verbs"
+  },
+  "canDo": [
+    "A2_U07_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u07_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Reflexivpronomen und feste reflexive Verben",
+        "ar": "الضمائر الانعكاسية والأفعال الانعكاسية الثابتة",
+        "en": "Reflexive pronouns and fixed reflexive verbs"
+      },
+      "body": {
+        "de": "Lernziel: Reflexivpronomen und feste reflexive Verben\n\nKernregel:\nReflexivpronomen: mich, dich, sich, uns, euch, sich. Manche Verben sind häufig reflexiv: sich interessieren für, sich freuen auf/über, sich treffen, sich anmelden. Das Pronomen passt zum Subjekt.\n\nBeispiele:\n• Ich interessiere mich für Deutsch.\n• Wir treffen uns um 18 Uhr.\n• Hast du dich schon angemeldet?\n\nAnwendungsfeld:\nKursanmeldung, Freizeit, Gesundheit und Kontakte: sich anmelden, sich erinnern, sich freuen und sich mit jemandem treffen.\n\nTypische Fehlerquelle:\nDas Reflexivpronomen nicht vergessen und an das Subjekt anpassen. Außerdem feste Präpositionen mitlernen: sich interessieren für.",
+        "ar": "هدف الدرس: الضمائر الانعكاسية والأفعال الانعكاسية الثابتة\n\nالقاعدة:\nالضمائر الانعكاسية: mich, dich, sich, uns, euch, sich. بعض الأفعال تستخدم انعكاسيًا كثيرًا مثل sich interessieren für وsich anmelden. الضمير يتطابق مع الفاعل.\n\nأمثلة:\n• Ich interessiere mich für Deutsch.\n• Wir treffen uns um 18 Uhr.\n• Hast du dich schon angemeldet?\n\nالاستخدام:\nالتسجيل في دورة ووقت الفراغ والصحة والعلاقات: التسجيل والتذكر والفرح والالتقاء بشخص.\n\nخطأ شائع:\nلا تنس الضمير الانعكاسي وطابقه مع الفاعل، واحفظ حرف الجر الثابت مع الفعل مثل sich interessieren für.",
+        "en": "Goal: Reflexive pronouns and fixed reflexive verbs\n\nCore rule:\nReflexive pronouns are mich, dich, sich, uns, euch, sich. Common reflexive verbs include sich interessieren für, sich freuen auf/über, sich treffen and sich anmelden. The pronoun matches the subject.\n\nExamples:\n• Ich interessiere mich für Deutsch.\n• Wir treffen uns um 18 Uhr.\n• Hast du dich schon angemeldet?\n\nUse case:\nCourse registration, leisure, health and contacts: register, remember, look forward to something and meet someone.\n\nCommon pitfall:\nDo not omit the reflexive pronoun; match it to the subject. Learn fixed prepositions with the verb, e.g. sich interessieren für."
+      }
+    },
+    {
+      "id": "a2_u07_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u07_l01_w1",
+          "german": "sich anmelden",
+          "translation": {
+            "de": "register",
+            "ar": "يسجل نفسه",
+            "en": "register"
+          }
+        },
+        {
+          "id": "a2_u07_l01_w2",
+          "german": "sich treffen",
+          "translation": {
+            "de": "meet",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        },
+        {
+          "id": "a2_u07_l01_w3",
+          "german": "sich freuen",
+          "translation": {
+            "de": "look forward/be glad",
+            "ar": "يفرح / يتطلع",
+            "en": "look forward/be glad"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u07_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nReflexivpronomen: mich, dich, sich, uns, euch, sich. Manche Verben sind häufig reflexiv: sich interessieren für, sich freuen auf/über, sich treffen, sich anmelden. Das Pronomen passt zum Subjekt.\n\n• Ich interessiere mich für Deutsch.\n• Wir treffen uns um 18 Uhr.\n• Hast du dich schon angemeldet?",
+        "ar": "قاعدة مختصرة:\nالضمائر الانعكاسية: mich, dich, sich, uns, euch, sich. بعض الأفعال تستخدم انعكاسيًا كثيرًا مثل sich interessieren für وsich anmelden. الضمير يتطابق مع الفاعل.\n\n• Ich interessiere mich für Deutsch.\n• Wir treffen uns um 18 Uhr.\n• Hast du dich schon angemeldet?",
+        "en": "Key rule:\nReflexive pronouns are mich, dich, sich, uns, euch, sich. Common reflexive verbs include sich interessieren für, sich freuen auf/über, sich treffen and sich anmelden. The pronoun matches the subject.\n\n• Ich interessiere mich für Deutsch.\n• Wir treffen uns um 18 Uhr.\n• Hast du dich schon angemeldet?"
+      }
+    },
+    {
+      "id": "a2_u07_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "sich anmelden",
+        "ar": "sich anmelden",
+        "en": "sich anmelden"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "register",
+            "ar": "يسجل نفسه",
+            "en": "register"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "meet",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "look forward/be glad",
+            "ar": "يفرح / يتطلع",
+            "en": "look forward/be glad"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u07_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich interessiere {answer} für Sprachen.",
+        "ar": "Ich interessiere {answer} für Sprachen.",
+        "en": "Ich interessiere {answer} für Sprachen."
+      },
+      "acceptedAnswers": [
+        "mich"
+      ]
+    },
+    {
+      "id": "a2_u07_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Reflexive Verben & Alltag“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «الأفعال الانعكاسية والحياة اليومية». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Reflexive verbs & daily life”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u07_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U07_FOUNDATION"
+      ]
+    }
+  ]
+}

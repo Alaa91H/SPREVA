@@ -1,0 +1,378 @@
+{
+  "id": "a1_u01_l04",
+  "unitId": "de-core-a1-u01",
+  "title": {
+    "de": "Falltraining: Begrüßung & Vorstellung",
+    "ar": "تدريب الحالات: التحية والتعارف",
+    "en": "Casebook: Greetings & introductions"
+  },
+  "canDo": [
+    "A1_U01_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u01_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Casebook — ähnliche Fälle sicher unterscheiden",
+        "ar": "دفتر الحالات — التمييز الآمن بين الحالات المتشابهة",
+        "en": "Casebook — distinguish similar cases"
+      },
+      "body": {
+        "de": "Thema: Begrüßung & Vorstellung\n\nZiel: Nicht nur einen Mustersatz kennen, sondern ähnliche Formen gegeneinander abgrenzen. Arbeite jeden Fall dreifach: korrekt ergänzen → Regel laut erklären → neue Variante bilden.\n\nKontrastpunkte:\n• du: Wie heißt du? / Sie: Wie heißen Sie?\n• Herkunft: aus + Land/Stadt / Wohnort: in + Ort\n• Vorstellung: Ich bin … / Ich heiße …; beide möglich, aber nicht identisch in jeder Situation",
+        "ar": "الموضوع: التحية والتعارف\n\nالهدف: عدم الاكتفاء بجملة نموذجية واحدة، بل التمييز بين الصيغ المتشابهة. اعمل على كل حالة بثلاث خطوات: أكملها بشكل صحيح ← اشرح القاعدة ← أنشئ مثالًا جديدًا.\n\nنقاط المقارنة:\n• du: Wie heißt du? / Sie: Wie heißen Sie?\n• Herkunft: aus + Land/Stadt / Wohnort: in + Ort\n• Vorstellung: Ich bin … / Ich heiße …; beide möglich, aber nicht identisch in jeder Situation",
+        "en": "Topic: Greetings & introductions\n\nGoal: go beyond one model sentence and discriminate similar forms. Work each case in three steps: complete correctly → explain the rule aloud → create a new variant.\n\nContrast points:\n• du: Wie heißt du? / Sie: Wie heißen Sie?\n• Herkunft: aus + Land/Stadt / Wohnort: in + Ort\n• Vorstellung: Ich bin … / Ich heiße …; beide möglich, aber nicht identisch in jeder Situation"
+      }
+    },
+    {
+      "id": "a1_u01_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u01_l04_w1",
+          "german": "begrüßen",
+          "translation": {
+            "de": "begrüßen",
+            "ar": "يحيّي",
+            "en": "greet"
+          }
+        },
+        {
+          "id": "a1_u01_l04_w2",
+          "german": "sich vorstellen",
+          "translation": {
+            "de": "sich vorstellen",
+            "ar": "يعرّف بنفسه",
+            "en": "introduce oneself"
+          }
+        },
+        {
+          "id": "a1_u01_l04_w3",
+          "german": "heißen",
+          "translation": {
+            "de": "heißen",
+            "ar": "يُدعى",
+            "en": "be called"
+          }
+        },
+        {
+          "id": "a1_u01_l04_w4",
+          "german": "kommen aus",
+          "translation": {
+            "de": "kommen aus",
+            "ar": "يأتي من",
+            "en": "come from"
+          }
+        },
+        {
+          "id": "a1_u01_l04_w5",
+          "german": "wohnen in",
+          "translation": {
+            "de": "wohnen in",
+            "ar": "يسكن في",
+            "en": "live in"
+          }
+        },
+        {
+          "id": "a1_u01_l04_w6",
+          "german": "freut mich",
+          "translation": {
+            "de": "freut mich",
+            "ar": "تشرفت",
+            "en": "nice to meet you"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u01_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Guten Tag, ich {answer} Samir.",
+        "ar": "Guten Tag, ich {answer} Samir.",
+        "en": "Guten Tag, ich {answer} Samir."
+      },
+      "acceptedAnswers": [
+        "heiße"
+      ]
+    },
+    {
+      "id": "a1_u01_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Woher {answer} Sie?",
+        "ar": "Woher {answer} Sie?",
+        "en": "Woher {answer} Sie?"
+      },
+      "acceptedAnswers": [
+        "kommen"
+      ]
+    },
+    {
+      "id": "a1_u01_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} in Duisburg.",
+        "ar": "Ich {answer} in Duisburg.",
+        "en": "Ich {answer} in Duisburg."
+      },
+      "acceptedAnswers": [
+        "wohne"
+      ]
+    },
+    {
+      "id": "a1_u01_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wie {answer} du?",
+        "ar": "Wie {answer} du?",
+        "en": "Wie {answer} du?"
+      },
+      "acceptedAnswers": [
+        "heißt"
+      ]
+    },
+    {
+      "id": "a1_u01_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} aus Syrien.",
+        "ar": "Ich {answer} aus Syrien.",
+        "en": "Ich {answer} aus Syrien."
+      },
+      "acceptedAnswers": [
+        "komme"
+      ]
+    },
+    {
+      "id": "a1_u01_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} mich, Sie kennenzulernen.",
+        "ar": "{answer} mich, Sie kennenzulernen.",
+        "en": "{answer} mich, Sie kennenzulernen."
+      },
+      "acceptedAnswers": [
+        "Freut"
+      ]
+    },
+    {
+      "id": "a1_u01_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "begrüßen",
+        "ar": "begrüßen",
+        "en": "begrüßen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "greet",
+            "ar": "يحيّي",
+            "en": "greet"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "introduce oneself",
+            "ar": "يعرّف بنفسه",
+            "en": "introduce oneself"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "be called",
+            "ar": "يُدعى",
+            "en": "be called"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u01_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "sich vorstellen",
+        "ar": "sich vorstellen",
+        "en": "sich vorstellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "introduce oneself",
+            "ar": "يعرّف بنفسه",
+            "en": "introduce oneself"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "be called",
+            "ar": "يُدعى",
+            "en": "be called"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "come from",
+            "ar": "يأتي من",
+            "en": "come from"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u01_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "heißen",
+        "ar": "heißen",
+        "en": "heißen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "be called",
+            "ar": "يُدعى",
+            "en": "be called"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "come from",
+            "ar": "يأتي من",
+            "en": "come from"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "live in",
+            "ar": "يسكن في",
+            "en": "live in"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u01_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "kommen aus",
+        "ar": "kommen aus",
+        "en": "kommen aus"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "come from",
+            "ar": "يأتي من",
+            "en": "come from"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "live in",
+            "ar": "يسكن في",
+            "en": "live in"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nice to meet you",
+            "ar": "تشرفت",
+            "en": "nice to meet you"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u01_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlergalerie — falsch → warum → richtig",
+        "ar": "معرض الأخطاء — خطأ ← لماذا ← صحيح",
+        "en": "Error gallery — wrong → why → right"
+      },
+      "body": {
+        "de": "Analysiere jeden Fehler, bevor du die Korrektur liest:\n• ❌ Ich heißen Ali. → ✅ Ich heiße Ali.\n• ❌ Woher Sie kommen? → ✅ Woher kommen Sie?\n• ❌ Ich bin aus Berlin wohnen. → ✅ Ich wohne in Berlin.\n• ❌ Wie heißt Sie? → ✅ Wie heißen Sie?\n\nDanach: verdecke die Korrektur, korrigiere aus dem Gedächtnis und bilde mit derselben Regel einen neuen Satz.",
+        "ar": "حلّل سبب كل خطأ قبل قراءة التصحيح:\n• ❌ Ich heißen Ali. → ✅ Ich heiße Ali.\n• ❌ Woher Sie kommen? → ✅ Woher kommen Sie?\n• ❌ Ich bin aus Berlin wohnen. → ✅ Ich wohne in Berlin.\n• ❌ Wie heißt Sie? → ✅ Wie heißen Sie?\n\nبعد ذلك أخفِ التصحيح، صحح من الذاكرة وأنشئ جملة جديدة بنفس القاعدة.",
+        "en": "Analyze why each error is wrong before reading the correction:\n• ❌ Ich heißen Ali. → ✅ Ich heiße Ali.\n• ❌ Woher Sie kommen? → ✅ Woher kommen Sie?\n• ❌ Ich bin aus Berlin wohnen. → ✅ Ich wohne in Berlin.\n• ❌ Wie heißt Sie? → ✅ Wie heißen Sie?\n\nThen hide the correction, fix it from memory and create a new sentence with the same rule."
+      }
+    },
+    {
+      "id": "a1_u01_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdrill — eine Bedeutung, mehrere Formen",
+        "ar": "تدريب المقارنة — معنى واحد وصيغ متعددة",
+        "en": "Contrast drill — one meaning, multiple forms"
+      },
+      "body": {
+        "de": "Arbeite die Unterschiede aktiv heraus:\n• du: Wie heißt du? / Sie: Wie heißen Sie?\n• Herkunft: aus + Land/Stadt / Wohnort: in + Ort\n• Vorstellung: Ich bin … / Ich heiße …; beide möglich, aber nicht identisch in jeder Situation\n\nFür jeden Punkt: bilde ein Minimalpaar, ändere genau ein Element und erkläre, warum sich Form oder Bedeutung ändert.",
+        "ar": "استخرج الفروق بنشاط:\n• du: Wie heißt du? / Sie: Wie heißen Sie?\n• Herkunft: aus + Land/Stadt / Wohnort: in + Ort\n• Vorstellung: Ich bin … / Ich heiße …; beide möglich, aber nicht identisch in jeder Situation\n\nلكل نقطة أنشئ زوجًا متقاربًا، غيّر عنصرًا واحدًا فقط، واشرح لماذا تغير الشكل أو المعنى.",
+        "en": "Actively work out the contrasts:\n• du: Wie heißt du? / Sie: Wie heißen Sie?\n• Herkunft: aus + Land/Stadt / Wohnort: in + Ort\n• Vorstellung: Ich bin … / Ich heiße …; beide möglich, aber nicht identisch in jeder Situation\n\nFor each point create a minimal pair, change exactly one element and explain why form or meaning changes."
+      }
+    },
+    {
+      "id": "a1_u01_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Circuit — vier Wiederholungen",
+        "ar": "دائرة الحياة الواقعية — أربع جولات",
+        "en": "Real-life circuit — four repetitions"
+      },
+      "body": {
+        "de": "Spiele vier Begegnungen: Kurs, Behörde, Arbeitsplatz, Nachbarschaft. Verwende einmal du und einmal Sie; frage nach Name, Herkunft und Wohnort und reagiere höflich.\n\nWiederholung 1: mit Vorlage. Wiederholung 2: ohne Vorlage. Wiederholung 3: Rollen tauschen oder Daten ändern. Wiederholung 4: nach einer Pause erneut durchführen und alle Selbstkorrekturen markieren.",
+        "ar": "Spiele vier Begegnungen: Kurs, Behörde, Arbeitsplatz, Nachbarschaft. Verwende einmal du und einmal Sie; frage nach Name, Herkunft und Wohnort und reagiere höflich.\n\nالجولة 1: مع النموذج. الجولة 2: دون نموذج. الجولة 3: بدّل الأدوار أو البيانات. الجولة 4: بعد فاصل زمني أعد المهمة وحدد كل تصحيح ذاتي.",
+        "en": "Spiele vier Begegnungen: Kurs, Behörde, Arbeitsplatz, Nachbarschaft. Verwende einmal du und einmal Sie; frage nach Name, Herkunft und Wohnort und reagiere höflich.\n\nRound 1: with the model. Round 2: without it. Round 3: swap roles or details. Round 4: repeat after a delay and mark every self-correction."
+      }
+    },
+    {
+      "id": "a1_u01_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A1",
+        "en": "A1 casebook complete"
+      },
+      "canDo": [
+        "A1_U01_CASEBOOK"
+      ]
+    }
+  ]
+}

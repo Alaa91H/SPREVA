@@ -1,0 +1,154 @@
+{
+  "id": "b2_u13_l02",
+  "unitId": "de-core-b2-u13",
+  "title": {
+    "de": "Komplexe technische Sachverhalte erklären",
+    "ar": "شرح موضوعات تقنية معقدة",
+    "en": "Explaining complex technical topics"
+  },
+  "canDo": [
+    "B2_U13_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u13_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe technische Sachverhalte erklären",
+        "ar": "شرح موضوعات تقنية معقدة",
+        "en": "Explaining complex technical topics"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nSoftwareproblem, Datenschutz, KI, Energie oder naturwissenschaftliches Thema: Funktionsweise erklären, Risiken benennen und Unsicherheit korrekt markieren.\n\nModelldialog:\nA: Warum benötigt die App diese Berechtigung?\nB: Sie wird verwendet, um lokale Dateien auszuwählen.\nA: Werden die Daten hochgeladen?\nB: Laut Dokumentation werden sie nur übertragen, wenn die Synchronisierung aktiviert ist.\n\nSprachliche Strategie:\nTechnische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft werden: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nمشكلة برمجية أو حماية البيانات أو الذكاء الاصطناعي أو الطاقة: شرح الآلية وذكر المخاطر وتحديد عدم اليقين بدقة.\n\nحوار نموذجي:\nA: Warum benötigt die App diese Berechtigung?\nB: Sie wird verwendet, um lokale Dateien auszuwählen.\nA: Werden die Daten hochgeladen?\nB: Laut Dokumentation werden sie nur übertragen, wenn die Synchronisierung aktiviert ist.\n\nالاستراتيجية اللغوية:\nتنجح الشروحات التقنية عبر المصطلحات الواضحة والسبب والنتيجة والقيود. يمكن تدرج الاحتمال مثل vermutlich وmöglicherweise. يُستخدم المبني للمجهول والأسلوب الاسمي كثيرًا.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nSoftware issue, data protection, AI, energy or science topic: explain how something works, name risks and mark uncertainty accurately.\n\nModel dialogue:\nA: Warum benötigt die App diese Berechtigung?\nB: Sie wird verwendet, um lokale Dateien auszuwählen.\nA: Werden die Daten hochgeladen?\nB: Laut Dokumentation werden sie nur übertragen, wenn die Synchronisierung aktiviert ist.\n\nLanguage strategy:\nTechnical explanations rely on clear terminology, cause-effect and limitations. Probability can be graded: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Processes often use passive or nominal style; examples and analogies improve comprehension.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u13_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u13_l02_w1",
+          "german": "die Wahrscheinlichkeit",
+          "translation": {
+            "de": "probability",
+            "ar": "الاحتمال",
+            "en": "probability"
+          }
+        },
+        {
+          "id": "b2_u13_l02_w2",
+          "german": "die Ursache",
+          "translation": {
+            "de": "cause",
+            "ar": "السبب",
+            "en": "cause"
+          }
+        },
+        {
+          "id": "b2_u13_l02_w3",
+          "german": "die Einschränkung",
+          "translation": {
+            "de": "limitation",
+            "ar": "القيد",
+            "en": "limitation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u13_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nTechnische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft werden: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.\n\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.",
+        "ar": "المبدأ الأساسي:\nتنجح الشروحات التقنية عبر المصطلحات الواضحة والسبب والنتيجة والقيود. يمكن تدرج الاحتمال مثل vermutlich وmöglicherweise. يُستخدم المبني للمجهول والأسلوب الاسمي كثيرًا.\n\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.",
+        "en": "Core principle:\nTechnical explanations rely on clear terminology, cause-effect and limitations. Probability can be graded: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Processes often use passive or nominal style; examples and analogies improve comprehension.\n\n• Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n• Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n• Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten."
+      }
+    },
+    {
+      "id": "b2_u13_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "die Wahrscheinlichkeit",
+        "ar": "die Wahrscheinlichkeit",
+        "en": "die Wahrscheinlichkeit"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "probability",
+            "ar": "الاحتمال",
+            "en": "probability"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "cause",
+            "ar": "السبب",
+            "en": "cause"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "limitation",
+            "ar": "القيد",
+            "en": "limitation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u13_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf.",
+        "ar": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf.",
+        "en": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf."
+      },
+      "acceptedAnswers": [
+        "vermutlich"
+      ]
+    },
+    {
+      "id": "b2_u13_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Wissenschaft, Technik & Digitalisierung“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «العلم والتقنية والرقمنة». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Science, technology & digitalization”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u13_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U13_REAL_LIFE"
+      ]
+    }
+  ]
+}

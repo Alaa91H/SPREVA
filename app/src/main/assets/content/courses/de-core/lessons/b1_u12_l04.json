@@ -1,0 +1,378 @@
+{
+  "id": "b1_u12_l04",
+  "unitId": "de-core-b1-u12",
+  "title": {
+    "de": "Falltraining: Medien, Meinung & Argumentation",
+    "ar": "تدريب الحالات: الإعلام والرأي والحجاج",
+    "en": "Casebook: Media, opinion & argumentation"
+  },
+  "canDo": [
+    "B1_U12_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u12_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Medien, Meinung & Argumentation\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• obwohl = Einräumung im Nebensatz; trotzdem = Kontrast im Hauptsatz\n• deshalb/daher = Folge\n• Fakt, Behauptung und eigene Meinung sprachlich trennen",
+        "ar": "الموضوع: الإعلام والرأي والحجاج\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• obwohl = Einräumung im Nebensatz; trotzdem = Kontrast im Hauptsatz\n• deshalb/daher = Folge\n• Fakt, Behauptung und eigene Meinung sprachlich trennen",
+        "en": "Topic: Media, opinion & argumentation\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• obwohl = Einräumung im Nebensatz; trotzdem = Kontrast im Hauptsatz\n• deshalb/daher = Folge\n• Fakt, Behauptung und eigene Meinung sprachlich trennen"
+      }
+    },
+    {
+      "id": "b1_u12_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u12_l04_w1",
+          "german": "obwohl",
+          "translation": {
+            "de": "obwohl",
+            "ar": "رغم أن",
+            "en": "although"
+          }
+        },
+        {
+          "id": "b1_u12_l04_w2",
+          "german": "trotzdem",
+          "translation": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "b1_u12_l04_w3",
+          "german": "deshalb",
+          "translation": {
+            "de": "deshalb",
+            "ar": "لذلك",
+            "en": "therefore"
+          }
+        },
+        {
+          "id": "b1_u12_l04_w4",
+          "german": "die Quelle",
+          "translation": {
+            "de": "die Quelle",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "b1_u12_l04_w5",
+          "german": "behaupten",
+          "translation": {
+            "de": "behaupten",
+            "ar": "يدّعي",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "b1_u12_l04_w6",
+          "german": "begründen",
+          "translation": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u12_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} soziale Medien praktisch sind, lenken sie ab.",
+        "ar": "{answer} soziale Medien praktisch sind, lenken sie ab.",
+        "en": "{answer} soziale Medien praktisch sind, lenken sie ab."
+      },
+      "acceptedAnswers": [
+        "Obwohl"
+      ]
+    },
+    {
+      "id": "b1_u12_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Es regnet. {answer} gehe ich spazieren.",
+        "ar": "Es regnet. {answer} gehe ich spazieren.",
+        "en": "Es regnet. {answer} gehe ich spazieren."
+      },
+      "acceptedAnswers": [
+        "Trotzdem"
+      ]
+    },
+    {
+      "id": "b1_u12_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Quelle ist unklar. {answer} prüfe ich sie.",
+        "ar": "Die Quelle ist unklar. {answer} prüfe ich sie.",
+        "en": "Die Quelle ist unklar. {answer} prüfe ich sie."
+      },
+      "acceptedAnswers": [
+        "Deshalb"
+      ]
+    },
+    {
+      "id": "b1_u12_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Autor {answer}, die Maßnahme sei wirksam.",
+        "ar": "Der Autor {answer}, die Maßnahme sei wirksam.",
+        "en": "Der Autor {answer}, die Maßnahme sei wirksam."
+      },
+      "acceptedAnswers": [
+        "behauptet"
+      ]
+    },
+    {
+      "id": "b1_u12_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kannst du deine Meinung {answer}?",
+        "ar": "Kannst du deine Meinung {answer}?",
+        "en": "Kannst du deine Meinung {answer}?"
+      },
+      "acceptedAnswers": [
+        "begründen"
+      ]
+    },
+    {
+      "id": "b1_u12_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Welche {answer} nennt der Artikel?",
+        "ar": "Welche {answer} nennt der Artikel?",
+        "en": "Welche {answer} nennt der Artikel?"
+      },
+      "acceptedAnswers": [
+        "Quelle"
+      ]
+    },
+    {
+      "id": "b1_u12_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "obwohl",
+        "ar": "obwohl",
+        "en": "obwohl"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "obwohl",
+            "ar": "رغم أن",
+            "en": "although"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "deshalb",
+            "ar": "لذلك",
+            "en": "therefore"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u12_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "trotzdem",
+        "ar": "trotzdem",
+        "en": "trotzdem"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deshalb",
+            "ar": "لذلك",
+            "en": "therefore"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "die Quelle",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u12_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "deshalb",
+        "ar": "deshalb",
+        "en": "deshalb"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "deshalb",
+            "ar": "لذلك",
+            "en": "therefore"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "die Quelle",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "behaupten",
+            "ar": "يدّعي",
+            "en": "claim"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u12_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "die Quelle",
+        "ar": "die Quelle",
+        "en": "die Quelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "die Quelle",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "behaupten",
+            "ar": "يدّعي",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u12_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ Obwohl … trotzdem im einfachen Satz zwingend zusammen → nicht nötig; eines reicht oft strukturell.\n• ❌ deshalb = Gegensatz → ✅ deshalb = Folge\n• ❌ Behauptung als Tatsache wiedergeben → Quelle markieren\n• ❌ Meinung ohne Grund/Beispiel → B1 braucht Begründung.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ Obwohl … trotzdem im einfachen Satz zwingend zusammen → nicht nötig; eines reicht oft strukturell.\n• ❌ deshalb = Gegensatz → ✅ deshalb = Folge\n• ❌ Behauptung als Tatsache wiedergeben → Quelle markieren\n• ❌ Meinung ohne Grund/Beispiel → B1 braucht Begründung.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ Obwohl … trotzdem im einfachen Satz zwingend zusammen → nicht nötig; eines reicht oft strukturell.\n• ❌ deshalb = Gegensatz → ✅ deshalb = Folge\n• ❌ Behauptung als Tatsache wiedergeben → Quelle markieren\n• ❌ Meinung ohne Grund/Beispiel → B1 braucht Begründung.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u12_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• obwohl = Einräumung im Nebensatz; trotzdem = Kontrast im Hauptsatz\n• deshalb/daher = Folge\n• Fakt, Behauptung und eigene Meinung sprachlich trennen\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• obwohl = Einräumung im Nebensatz; trotzdem = Kontrast im Hauptsatz\n• deshalb/daher = Folge\n• Fakt, Behauptung und eigene Meinung sprachlich trennen\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• obwohl = Einräumung im Nebensatz; trotzdem = Kontrast im Hauptsatz\n• deshalb/daher = Folge\n• Fakt, Behauptung und eigene Meinung sprachlich trennen\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u12_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Diskutiere Homeoffice oder soziale Medien: These, zwei Gründe, Gegenargument, Einräumung, Beispiel, Schluss.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Diskutiere Homeoffice oder soziale Medien: These, zwei Gründe, Gegenargument, Einräumung, Beispiel, Schluss.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Diskutiere Homeoffice oder soziale Medien: These, zwei Gründe, Gegenargument, Einräumung, Beispiel, Schluss.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u12_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U12_CASEBOOK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "a2_u03_l01",
+  "unitId": "de-core-a2-u03",
+  "title": {
+    "de": "Nebensätze mit weil und dass",
+    "ar": "الجمل التابعة مع weil وdass",
+    "en": "Subordinate clauses with weil and dass"
+  },
+  "canDo": [
+    "A2_U03_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u03_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Nebensätze mit weil und dass",
+        "ar": "الجمل التابعة مع weil وdass",
+        "en": "Subordinate clauses with weil and dass"
+      },
+      "body": {
+        "de": "Lernziel: Nebensätze mit weil und dass\n\nKernregel:\nIn Nebensätzen mit weil oder dass steht das konjugierte Verb am Ende: Ich bleibe zu Hause, weil ich krank bin. Ich glaube, dass der Termin morgen ist. Der Hauptsatz behält die normale Verbzweitstellung.\n\nBeispiele:\n• Ich komme später, weil der Zug Verspätung hat.\n• Ich weiß, dass der Kurs um neun beginnt.\n• Sie sagt, dass sie krank ist.\n\nAnwendungsfeld:\nArbeit, Kurs, Arzt oder Familie: Gründe erklären, eine Absage begründen und weitergeben, was jemand gesagt oder geschrieben hat.\n\nTypische Fehlerquelle:\nDer häufigste Fehler ist Verbzweitstellung im Nebensatz: nicht „weil ich bin krank“, sondern „weil ich krank bin“.",
+        "ar": "هدف الدرس: الجمل التابعة مع weil وdass\n\nالقاعدة:\nفي الجملة التابعة مع weil أو dass يأتي الفعل المصرف في النهاية: weil ich krank bin. والجملة الرئيسية تبقى بترتيبها المعتاد.\n\nأمثلة:\n• Ich komme später, weil der Zug Verspätung hat.\n• Ich weiß, dass der Kurs um neun beginnt.\n• Sie sagt, dass sie krank ist.\n\nالاستخدام:\nفي العمل أو الدورة أو الطبيب أو العائلة: شرح الأسباب وتبرير الاعتذار ونقل ما قاله أو كتبه شخص آخر.\n\nخطأ شائع:\nالخطأ الشائع هو إبقاء الفعل ثانيًا في الجملة التابعة: الصحيح weil ich krank bin وليس weil ich bin krank.",
+        "en": "Goal: Subordinate clauses with weil and dass\n\nCore rule:\nIn subordinate clauses with weil or dass the conjugated verb goes to the end: weil ich krank bin. The main clause keeps normal verb-second order.\n\nExamples:\n• Ich komme später, weil der Zug Verspätung hat.\n• Ich weiß, dass der Kurs um neun beginnt.\n• Sie sagt, dass sie krank ist.\n\nUse case:\nAt work, in class, at the doctor or with family: explain reasons, justify a cancellation and relay what someone said or wrote.\n\nCommon pitfall:\nThe most common error is keeping verb-second order in the subordinate clause. Use weil ich krank bin, not weil ich bin krank."
+      }
+    },
+    {
+      "id": "a2_u03_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u03_l01_w1",
+          "german": "der Grund",
+          "translation": {
+            "de": "reason",
+            "ar": "السبب",
+            "en": "reason"
+          }
+        },
+        {
+          "id": "a2_u03_l01_w2",
+          "german": "weil",
+          "translation": {
+            "de": "because",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "a2_u03_l01_w3",
+          "german": "dass",
+          "translation": {
+            "de": "that",
+            "ar": "أنّ",
+            "en": "that"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u03_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nIn Nebensätzen mit weil oder dass steht das konjugierte Verb am Ende: Ich bleibe zu Hause, weil ich krank bin. Ich glaube, dass der Termin morgen ist. Der Hauptsatz behält die normale Verbzweitstellung.\n\n• Ich komme später, weil der Zug Verspätung hat.\n• Ich weiß, dass der Kurs um neun beginnt.\n• Sie sagt, dass sie krank ist.",
+        "ar": "قاعدة مختصرة:\nفي الجملة التابعة مع weil أو dass يأتي الفعل المصرف في النهاية: weil ich krank bin. والجملة الرئيسية تبقى بترتيبها المعتاد.\n\n• Ich komme später, weil der Zug Verspätung hat.\n• Ich weiß, dass der Kurs um neun beginnt.\n• Sie sagt, dass sie krank ist.",
+        "en": "Key rule:\nIn subordinate clauses with weil or dass the conjugated verb goes to the end: weil ich krank bin. The main clause keeps normal verb-second order.\n\n• Ich komme später, weil der Zug Verspätung hat.\n• Ich weiß, dass der Kurs um neun beginnt.\n• Sie sagt, dass sie krank ist."
+      }
+    },
+    {
+      "id": "a2_u03_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "der Grund",
+        "ar": "der Grund",
+        "en": "der Grund"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reason",
+            "ar": "السبب",
+            "en": "reason"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "because",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "that",
+            "ar": "أنّ",
+            "en": "that"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u03_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bleibe zu Hause, weil ich krank {answer}.",
+        "ar": "Ich bleibe zu Hause, weil ich krank {answer}.",
+        "en": "Ich bleibe zu Hause, weil ich krank {answer}."
+      },
+      "acceptedAnswers": [
+        "bin"
+      ]
+    },
+    {
+      "id": "a2_u03_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Gründe & Aussagen mit weil/dass“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «الأسباب والجمل مع weil/dass». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Reasons & statements with weil/dass”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u03_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U03_FOUNDATION"
+      ]
+    }
+  ]
+}

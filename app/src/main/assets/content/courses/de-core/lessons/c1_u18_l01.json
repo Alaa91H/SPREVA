@@ -1,0 +1,362 @@
+{
+  "id": "c1_u18_l01",
+  "unitId": "de-core-c1-u18",
+  "title": {
+    "de": "Phonetik: hören & unterscheiden",
+    "ar": "الصوتيات: الاستماع والتمييز",
+    "en": "Phonetics: listen & discriminate"
+  },
+  "canDo": [
+    "C1_PHONETICS_DISCRIMINATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u18_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Hören & unterscheiden",
+        "ar": "الاستماع والتمييز",
+        "en": "Listen & discriminate"
+      },
+      "body": {
+        "de": "Informationsstruktur, Quellenstimme, epistemische Distanz, rhetorische Pausen, Moderationston, akademische Präsentation und flexible Sprechgeschwindigkeit.",
+        "ar": "بنية المعلومات، صوت المصدر، المسافة المعرفية، الوقفات البلاغية، نبرة إدارة النقاش، العرض الأكاديمي والسرعة المرنة.",
+        "en": "Information structure, source voice, epistemic distance, rhetorical pauses, facilitation tone, academic presentation and flexible pacing."
+      }
+    },
+    {
+      "id": "c1_u18_l01_act02",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "ar": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "en": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorsichtige Evidenzbewertung",
+            "ar": "vorsichtige Evidenzbewertung",
+            "en": "vorsichtige Evidenzbewertung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sichere Verallgemeinerung",
+            "ar": "sichere Verallgemeinerung",
+            "en": "sichere Verallgemeinerung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Befunde",
+            "ar": "keine Befunde",
+            "en": "keine Befunde"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l01_act03",
+      "type": "listening_choice",
+      "text": {
+        "de": "Dem Bericht zufolge sei die Ursache weiterhin unklar.",
+        "ar": "Dem Bericht zufolge sei die Ursache weiterhin unklar.",
+        "en": "Dem Bericht zufolge sei die Ursache weiterhin unklar."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Quelle wird distanziert wiedergegeben",
+            "ar": "Quelle wird distanziert wiedergegeben",
+            "en": "Quelle wird distanziert wiedergegeben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "eigene Gewissheit",
+            "ar": "eigene Gewissheit",
+            "en": "eigene Gewissheit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Befehl",
+            "ar": "Befehl",
+            "en": "Befehl"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l01_act04",
+      "type": "listening_choice",
+      "text": {
+        "de": "Was die langfristigen Folgen betrifft, sollten wir zwischen Kosten und Verteilungseffekten unterscheiden.",
+        "ar": "Was die langfristigen Folgen betrifft, sollten wir zwischen Kosten und Verteilungseffekten unterscheiden.",
+        "en": "Was die langfristigen Folgen betrifft, sollten wir zwischen Kosten und Verteilungseffekten unterscheiden."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Thema wird fokussiert strukturiert",
+            "ar": "Thema wird fokussiert strukturiert",
+            "en": "Thema wird fokussiert strukturiert"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Thema gewechselt",
+            "ar": "Thema gewechselt",
+            "en": "Thema gewechselt"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Unterscheidung",
+            "ar": "keine Unterscheidung",
+            "en": "keine Unterscheidung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l01_act05",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um Planungssicherheit.",
+        "ar": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um Planungssicherheit.",
+        "en": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um Planungssicherheit."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Interesse wird reframed",
+            "ar": "Interesse wird reframed",
+            "en": "Interesse wird reframed"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Preis bestätigt",
+            "ar": "Preis bestätigt",
+            "en": "Preis bestätigt"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Gespräch beendet",
+            "ar": "Gespräch beendet",
+            "en": "Gespräch beendet"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Gerade diese Einschränkung ist für die Interpretation entscheidend.",
+        "ar": "Gerade diese Einschränkung ist für die Interpretation entscheidend.",
+        "en": "Gerade diese Einschränkung ist für die Interpretation entscheidend."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Einschränkung stark fokussiert",
+            "ar": "Einschränkung stark fokussiert",
+            "en": "Einschränkung stark fokussiert"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Einschränkung unwichtig",
+            "ar": "Einschränkung unwichtig",
+            "en": "Einschränkung unwichtig"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nur Grammatik",
+            "ar": "nur Grammatik",
+            "en": "nur Grammatik"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend.",
+        "ar": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend.",
+        "en": "Zusammenfassend lässt sich sagen: Die Evidenz ist relevant, aber nicht abschließend."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "balancierte Schlussfolgerung",
+            "ar": "balancierte Schlussfolgerung",
+            "en": "balancierte Schlussfolgerung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "absolute Sicherheit",
+            "ar": "absolute Sicherheit",
+            "en": "absolute Sicherheit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "vollständige Ablehnung",
+            "ar": "vollständige Ablehnung",
+            "en": "vollständige Ablehnung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u18_l01_act08",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "ar": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "en": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht."
+      },
+      "acceptedAnswers": [
+        "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht."
+      ]
+    },
+    {
+      "id": "c1_u18_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Dem Bericht zufolge sei die Ursache weiterhin unklar.",
+        "ar": "Dem Bericht zufolge sei die Ursache weiterhin unklar.",
+        "en": "Dem Bericht zufolge sei die Ursache weiterhin unklar."
+      },
+      "acceptedAnswers": [
+        "Dem Bericht zufolge sei die Ursache weiterhin unklar."
+      ]
+    },
+    {
+      "id": "c1_u18_l01_act10",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "ar": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht.",
+        "en": "Die Befunde dürften auf einen Effekt hindeuten; eine Verallgemeinerung wäre jedoch verfrüht."
+      }
+    },
+    {
+      "id": "c1_u18_l01_act11",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Dem Bericht zufolge sei die Ursache weiterhin unklar.",
+        "ar": "Dem Bericht zufolge sei die Ursache weiterhin unklar.",
+        "en": "Dem Bericht zufolge sei die Ursache weiterhin unklar."
+      }
+    },
+    {
+      "id": "c1_u18_l01_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Mikro-Hörschleife",
+        "ar": "حلقة استماع قصيرة",
+        "en": "Micro-listening loop"
+      },
+      "body": {
+        "de": "Hören → Schlüsselstelle identifizieren → nachsprechen → erneut hören → eigene Aufnahme vergleichen. Maximal ein Ausspracheziel pro Runde.",
+        "ar": "استمع ← حدد الموضع المهم ← ردد ← استمع ثانية ← قارن تسجيلك. هدف نطق واحد فقط في كل جولة.",
+        "en": "Listen → identify the key spot → repeat → listen again → compare your recording. Use only one pronunciation target per round."
+      }
+    },
+    {
+      "id": "c1_u18_l01_act13",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Hörgenauigkeit trainiert",
+        "ar": "تم تدريب دقة الاستماع",
+        "en": "Listening precision trained"
+      },
+      "canDo": [
+        "C1_PHONETICS_DISCRIMINATION"
+      ]
+    }
+  ]
+}

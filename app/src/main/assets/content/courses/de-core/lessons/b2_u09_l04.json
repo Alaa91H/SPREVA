@@ -1,0 +1,378 @@
+{
+  "id": "b2_u09_l04",
+  "unitId": "de-core-b2-u09",
+  "title": {
+    "de": "Falltraining: Verhandeln & Konflikte lösen",
+    "ar": "تدريب الحالات: التفاوض وحل النزاعات",
+    "en": "Casebook: Negotiation & conflict resolution"
+  },
+  "canDo": [
+    "B2_U09_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u09_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Verhandeln & Konflikte lösen\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Position = Forderung; Interesse = dahinterliegender Bedarf\n• Zugeständnis idealerweise gegen klare Gegenleistung/Bedingung\n• Vereinbarung braucht wer + was + bis wann",
+        "ar": "الموضوع: التفاوض وحل النزاعات\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Position = Forderung; Interesse = dahinterliegender Bedarf\n• Zugeständnis idealerweise gegen klare Gegenleistung/Bedingung\n• Vereinbarung braucht wer + was + bis wann",
+        "en": "Topic: Negotiation & conflict resolution\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Position = Forderung; Interesse = dahinterliegender Bedarf\n• Zugeständnis idealerweise gegen klare Gegenleistung/Bedingung\n• Vereinbarung braucht wer + was + bis wann"
+      }
+    },
+    {
+      "id": "b2_u09_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u09_l04_w1",
+          "german": "Bedingung",
+          "translation": {
+            "de": "Bedingung",
+            "ar": "شرط",
+            "en": "condition"
+          }
+        },
+        {
+          "id": "b2_u09_l04_w2",
+          "german": "Zugeständnis",
+          "translation": {
+            "de": "Zugeständnis",
+            "ar": "تنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "b2_u09_l04_w3",
+          "german": "Interesse",
+          "translation": {
+            "de": "Interesse",
+            "ar": "مصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "b2_u09_l04_w4",
+          "german": "entgegenkommen",
+          "translation": {
+            "de": "entgegenkommen",
+            "ar": "يبدي مرونة",
+            "en": "accommodate"
+          }
+        },
+        {
+          "id": "b2_u09_l04_w5",
+          "german": "vereinbaren",
+          "translation": {
+            "de": "vereinbaren",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "b2_u09_l04_w6",
+          "german": "verbindlich",
+          "translation": {
+            "de": "verbindlich",
+            "ar": "ملزم",
+            "en": "binding"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u09_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unter der {answer}, dass …",
+        "ar": "Unter der {answer}, dass …",
+        "en": "Unter der {answer}, dass …"
+      },
+      "acceptedAnswers": [
+        "Bedingung"
+      ]
+    },
+    {
+      "id": "b2_u09_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das wäre ein mögliches {answer}.",
+        "ar": "Das wäre ein mögliches {answer}.",
+        "en": "Das wäre ein mögliches {answer}."
+      },
+      "acceptedAnswers": [
+        "Zugeständnis"
+      ]
+    },
+    {
+      "id": "b2_u09_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Welches {answer} steht dahinter?",
+        "ar": "Welches {answer} steht dahinter?",
+        "en": "Welches {answer} steht dahinter?"
+      },
+      "acceptedAnswers": [
+        "Interesse"
+      ]
+    },
+    {
+      "id": "b2_u09_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können Sie uns dabei {answer}?",
+        "ar": "Können Sie uns dabei {answer}?",
+        "en": "Können Sie uns dabei {answer}?"
+      },
+      "acceptedAnswers": [
+        "entgegenkommen"
+      ]
+    },
+    {
+      "id": "b2_u09_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir sollten schriftlich {answer}, dass …",
+        "ar": "Wir sollten schriftlich {answer}, dass …",
+        "en": "Wir sollten schriftlich {answer}, dass …"
+      },
+      "acceptedAnswers": [
+        "vereinbaren"
+      ]
+    },
+    {
+      "id": "b2_u09_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Zusage muss {answer} sein.",
+        "ar": "Die Zusage muss {answer} sein.",
+        "en": "Die Zusage muss {answer} sein."
+      },
+      "acceptedAnswers": [
+        "verbindlich"
+      ]
+    },
+    {
+      "id": "b2_u09_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Bedingung",
+        "ar": "Bedingung",
+        "en": "Bedingung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Bedingung",
+            "ar": "شرط",
+            "en": "condition"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Zugeständnis",
+            "ar": "تنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Interesse",
+            "ar": "مصلحة",
+            "en": "interest"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u09_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Zugeständnis",
+        "ar": "Zugeständnis",
+        "en": "Zugeständnis"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Zugeständnis",
+            "ar": "تنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Interesse",
+            "ar": "مصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "entgegenkommen",
+            "ar": "يبدي مرونة",
+            "en": "accommodate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u09_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Interesse",
+        "ar": "Interesse",
+        "en": "Interesse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Interesse",
+            "ar": "مصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "entgegenkommen",
+            "ar": "يبدي مرونة",
+            "en": "accommodate"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "vereinbaren",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u09_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "entgegenkommen",
+        "ar": "entgegenkommen",
+        "en": "entgegenkommen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "entgegenkommen",
+            "ar": "يبدي مرونة",
+            "en": "accommodate"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "vereinbaren",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "verbindlich",
+            "ar": "ملزم",
+            "en": "binding"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u09_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ Position mit Interesse verwechseln\n• ❌ sofort nachgeben ohne Bedingungen zu klären\n• ❌ vage Einigung ohne Verantwortliche/Frist\n• ❌ deeskalieren = Problem kleinreden.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ Position mit Interesse verwechseln\n• ❌ sofort nachgeben ohne Bedingungen zu klären\n• ❌ vage Einigung ohne Verantwortliche/Frist\n• ❌ deeskalieren = Problem kleinreden.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ Position mit Interesse verwechseln\n• ❌ sofort nachgeben ohne Bedingungen zu klären\n• ❌ vage Einigung ohne Verantwortliche/Frist\n• ❌ deeskalieren = Problem kleinreden.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u09_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Position = Forderung; Interesse = dahinterliegender Bedarf\n• Zugeständnis idealerweise gegen klare Gegenleistung/Bedingung\n• Vereinbarung braucht wer + was + bis wann\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Position = Forderung; Interesse = dahinterliegender Bedarf\n• Zugeständnis idealerweise gegen klare Gegenleistung/Bedingung\n• Vereinbarung braucht wer + was + bis wann\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Position = Forderung; Interesse = dahinterliegender Bedarf\n• Zugeständnis idealerweise gegen klare Gegenleistung/Bedingung\n• Vereinbarung braucht wer + was + bis wann\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u09_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Verhandle Dienstplan, Preis oder Termin. Identifiziere Interessen, formuliere zwei Pakete und schließe mit überprüfbarer Vereinbarung.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Verhandle Dienstplan, Preis oder Termin. Identifiziere Interessen, formuliere zwei Pakete und schließe mit überprüfbarer Vereinbarung.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Verhandle Dienstplan, Preis oder Termin. Identifiziere Interessen, formuliere zwei Pakete und schließe mit überprüfbarer Vereinbarung.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u09_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U09_CASEBOOK"
+      ]
+    }
+  ]
+}

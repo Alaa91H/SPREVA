@@ -1,0 +1,297 @@
+{
+  "id": "a1_u06_l03",
+  "unitId": "de-core-a1-u06",
+  "title": {
+    "de": "Intensivtraining: Essen, Trinken & Restaurant",
+    "ar": "تدريب مكثف: الطعام والشراب والمطعم",
+    "en": "Mastery lab: Food, drink & restaurants"
+  },
+  "canDo": [
+    "A1_U06_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u06_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Essen, Trinken & Restaurant“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «الطعام والشراب والمطعم». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.",
+        "en": "Intensive practice for “Food, drink & restaurants”. After every answer, state the rule, create a second example and explain one typical error."
+      }
+    },
+    {
+      "id": "a1_u06_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u06_l03_w1",
+          "german": "die Speisekarte",
+          "translation": {
+            "de": "menu",
+            "ar": "قائمة الطعام",
+            "en": "menu"
+          }
+        },
+        {
+          "id": "a1_u06_l03_w2",
+          "german": "bestellen",
+          "translation": {
+            "de": "to order",
+            "ar": "يطلب",
+            "en": "to order"
+          }
+        },
+        {
+          "id": "a1_u06_l03_w3",
+          "german": "das Wasser",
+          "translation": {
+            "de": "water",
+            "ar": "الماء",
+            "en": "water"
+          }
+        },
+        {
+          "id": "a1_u06_l03_w4",
+          "german": "der Kaffee",
+          "translation": {
+            "de": "coffee",
+            "ar": "القهوة",
+            "en": "coffee"
+          }
+        },
+        {
+          "id": "a1_u06_l03_w5",
+          "german": "vegetarisch",
+          "translation": {
+            "de": "vegetarian",
+            "ar": "نباتي",
+            "en": "vegetarian"
+          }
+        },
+        {
+          "id": "a1_u06_l03_w6",
+          "german": "die Rechnung",
+          "translation": {
+            "de": "bill",
+            "ar": "الحساب / الفاتورة",
+            "en": "bill"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u06_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} einen Kaffee, bitte.",
+        "ar": "Ich {answer} einen Kaffee, bitte.",
+        "en": "Ich {answer} einen Kaffee, bitte."
+      },
+      "acceptedAnswers": [
+        "möchte",
+        "moechte"
+      ]
+    },
+    {
+      "id": "a1_u06_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer}, bitte.",
+        "ar": "Die {answer}, bitte.",
+        "en": "Die {answer}, bitte."
+      },
+      "acceptedAnswers": [
+        "Rechnung"
+      ]
+    },
+    {
+      "id": "a1_u06_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "„möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht {answer} direkte Objekt im Akkusativ.",
+        "ar": "„möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht {answer} direkte Objekt im Akkusativ.",
+        "en": "„möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht {answer} direkte Objekt im Akkusativ."
+      },
+      "acceptedAnswers": [
+        "das"
+      ]
+    },
+    {
+      "id": "a1_u06_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte {answer} Tee, bitte.",
+        "ar": "Ich möchte {answer} Tee, bitte.",
+        "en": "Ich möchte {answer} Tee, bitte."
+      },
+      "acceptedAnswers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "a1_u06_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} esse gern Gemüse.",
+        "ar": "{answer} esse gern Gemüse.",
+        "en": "{answer} esse gern Gemüse."
+      },
+      "acceptedAnswers": [
+        "Ich"
+      ]
+    },
+    {
+      "id": "a1_u06_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Rechnung, bitte.",
+        "ar": "{answer} Rechnung, bitte.",
+        "en": "{answer} Rechnung, bitte."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "a1_u06_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Speisekarte",
+        "ar": "die Speisekarte",
+        "en": "die Speisekarte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "menu",
+            "ar": "قائمة الطعام",
+            "en": "menu"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "to order",
+            "ar": "يطلب",
+            "en": "to order"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "water",
+            "ar": "الماء",
+            "en": "water"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u06_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Kaffee",
+        "ar": "der Kaffee",
+        "en": "der Kaffee"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "coffee",
+            "ar": "القهوة",
+            "en": "coffee"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "vegetarian",
+            "ar": "نباتي",
+            "en": "vegetarian"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "bill",
+            "ar": "الحساب / الفاتورة",
+            "en": "bill"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u06_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. „möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht das direkte Objekt im Akkusativ.\n2. Ich möchte einen Tee, bitte.\n3. Ich esse gern Gemüse.\n4. Die Rechnung, bitte.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. „möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht das direkte Objekt im Akkusativ.\n2. Ich möchte einen Tee, bitte.\n3. Ich esse gern Gemüse.\n4. Die Rechnung, bitte.\n\nحدّد الصيغة الحاسمة وأنشئ خطأً شائعًا ثم صححه.",
+        "en": "Correct patterns:\n1. „möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht das direkte Objekt im Akkusativ.\n2. Ich möchte einen Tee, bitte.\n3. Ich esse gern Gemüse.\n4. Die Rechnung, bitte.\n\nMark the decisive form, create a typical wrong version, explain and correct it."
+      }
+    },
+    {
+      "id": "a1_u06_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Check word order, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u06_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel erklären. D im Dialog anwenden. E mit älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: الفراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في حوار. E امزجها مع القديم.",
+        "en": "A now: blanks orally. B later: six new sentences. C explain the rule. D use it in a dialogue. E interleave with older topics."
+      }
+    },
+    {
+      "id": "a1_u06_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U06_MASTERY"
+      ]
+    }
+  ]
+}

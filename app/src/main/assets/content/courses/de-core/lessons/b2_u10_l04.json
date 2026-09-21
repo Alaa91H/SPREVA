@@ -1,0 +1,378 @@
+{
+  "id": "b2_u10_l04",
+  "unitId": "de-core-b2-u10",
+  "title": {
+    "de": "Falltraining: Medienkompetenz & Quellenkritik",
+    "ar": "تدريب الحالات: الكفاءة الإعلامية ونقد المصادر",
+    "en": "Casebook: Media literacy & source evaluation"
+  },
+  "canDo": [
+    "B2_U10_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u10_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Medienkompetenz & Quellenkritik\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Quellenzuverlässigkeit, Evidenzqualität und Plausibilität getrennt prüfen\n• Originalquelle vor Sekundärbericht bevorzugen\n• nahelegen schwächer als belegen/beweisen",
+        "ar": "الموضوع: الكفاءة الإعلامية ونقد المصادر\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Quellenzuverlässigkeit, Evidenzqualität und Plausibilität getrennt prüfen\n• Originalquelle vor Sekundärbericht bevorzugen\n• nahelegen schwächer als belegen/beweisen",
+        "en": "Topic: Media literacy & source evaluation\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Quellenzuverlässigkeit, Evidenzqualität und Plausibilität getrennt prüfen\n• Originalquelle vor Sekundärbericht bevorzugen\n• nahelegen schwächer als belegen/beweisen"
+      }
+    },
+    {
+      "id": "b2_u10_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u10_l04_w1",
+          "german": "Quelle",
+          "translation": {
+            "de": "Quelle",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "b2_u10_l04_w2",
+          "german": "Beleg",
+          "translation": {
+            "de": "Beleg",
+            "ar": "الدليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "b2_u10_l04_w3",
+          "german": "Urheber",
+          "translation": {
+            "de": "Urheber",
+            "ar": "المؤلف/الناشر",
+            "en": "author/source owner"
+          }
+        },
+        {
+          "id": "b2_u10_l04_w4",
+          "german": "Behauptung",
+          "translation": {
+            "de": "Behauptung",
+            "ar": "الادعاء",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "b2_u10_l04_w5",
+          "german": "widerlegen",
+          "translation": {
+            "de": "widerlegen",
+            "ar": "يدحض",
+            "en": "disprove"
+          }
+        },
+        {
+          "id": "b2_u10_l04_w6",
+          "german": "nahelegen",
+          "translation": {
+            "de": "nahelegen",
+            "ar": "يرجح/يشير",
+            "en": "suggest"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u10_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wer ist der {answer} des Beitrags?",
+        "ar": "Wer ist der {answer} des Beitrags?",
+        "en": "Wer ist der {answer} des Beitrags?"
+      },
+      "acceptedAnswers": [
+        "Urheber"
+      ]
+    },
+    {
+      "id": "b2_u10_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Welche {answer} wird genannt?",
+        "ar": "Welche {answer} wird genannt?",
+        "en": "Welche {answer} wird genannt?"
+      },
+      "acceptedAnswers": [
+        "Quelle"
+      ]
+    },
+    {
+      "id": "b2_u10_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gibt es einen {answer} für die Aussage?",
+        "ar": "Gibt es einen {answer} für die Aussage?",
+        "en": "Gibt es einen {answer} für die Aussage?"
+      },
+      "acceptedAnswers": [
+        "Beleg"
+      ]
+    },
+    {
+      "id": "b2_u10_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Beitrag enthält eine unbelegte {answer}.",
+        "ar": "Der Beitrag enthält eine unbelegte {answer}.",
+        "en": "Der Beitrag enthält eine unbelegte {answer}."
+      },
+      "acceptedAnswers": [
+        "Behauptung"
+      ]
+    },
+    {
+      "id": "b2_u10_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Neue Daten könnten die Aussage {answer}.",
+        "ar": "Neue Daten könnten die Aussage {answer}.",
+        "en": "Neue Daten könnten die Aussage {answer}."
+      },
+      "acceptedAnswers": [
+        "widerlegen"
+      ]
+    },
+    {
+      "id": "b2_u10_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Ergebnisse {answer} einen Zusammenhang nahe.",
+        "ar": "Die Ergebnisse {answer} einen Zusammenhang nahe.",
+        "en": "Die Ergebnisse {answer} einen Zusammenhang nahe."
+      },
+      "acceptedAnswers": [
+        "legen"
+      ]
+    },
+    {
+      "id": "b2_u10_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Quelle",
+        "ar": "Quelle",
+        "en": "Quelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Quelle",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Beleg",
+            "ar": "الدليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Urheber",
+            "ar": "المؤلف/الناشر",
+            "en": "author/source owner"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u10_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Beleg",
+        "ar": "Beleg",
+        "en": "Beleg"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Beleg",
+            "ar": "الدليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Urheber",
+            "ar": "المؤلف/الناشر",
+            "en": "author/source owner"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Behauptung",
+            "ar": "الادعاء",
+            "en": "claim"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u10_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Urheber",
+        "ar": "Urheber",
+        "en": "Urheber"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Urheber",
+            "ar": "المؤلف/الناشر",
+            "en": "author/source owner"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Behauptung",
+            "ar": "الادعاء",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "widerlegen",
+            "ar": "يدحض",
+            "en": "disprove"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u10_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Behauptung",
+        "ar": "Behauptung",
+        "en": "Behauptung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Behauptung",
+            "ar": "الادعاء",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "widerlegen",
+            "ar": "يدحض",
+            "en": "disprove"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يرجح/يشير",
+            "en": "suggest"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u10_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ professionelles Design = verlässliche Quelle\n• ❌ viele Shares = Beleg\n• ❌ Studie erwähnt = Studie unterstützt Behauptung\n• ❌ Unsicherheit aus Zusammenfassung entfernen.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ professionelles Design = verlässliche Quelle\n• ❌ viele Shares = Beleg\n• ❌ Studie erwähnt = Studie unterstützt Behauptung\n• ❌ Unsicherheit aus Zusammenfassung entfernen.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ professionelles Design = verlässliche Quelle\n• ❌ viele Shares = Beleg\n• ❌ Studie erwähnt = Studie unterstützt Behauptung\n• ❌ Unsicherheit aus Zusammenfassung entfernen.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u10_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Quellenzuverlässigkeit, Evidenzqualität und Plausibilität getrennt prüfen\n• Originalquelle vor Sekundärbericht bevorzugen\n• nahelegen schwächer als belegen/beweisen\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Quellenzuverlässigkeit, Evidenzqualität und Plausibilität getrennt prüfen\n• Originalquelle vor Sekundärbericht bevorzugen\n• nahelegen schwächer als belegen/beweisen\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Quellenzuverlässigkeit, Evidenzqualität und Plausibilität getrennt prüfen\n• Originalquelle vor Sekundärbericht bevorzugen\n• nahelegen schwächer als belegen/beweisen\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u10_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Prüfe drei fiktive Posts mit Checkliste: Urheber, Datum, Originalquelle, Beleg, Interessenkonflikt, Gegendarstellung, Unsicherheit.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Prüfe drei fiktive Posts mit Checkliste: Urheber, Datum, Originalquelle, Beleg, Interessenkonflikt, Gegendarstellung, Unsicherheit.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Prüfe drei fiktive Posts mit Checkliste: Urheber, Datum, Originalquelle, Beleg, Interessenkonflikt, Gegendarstellung, Unsicherheit.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u10_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U10_CASEBOOK"
+      ]
+    }
+  ]
+}

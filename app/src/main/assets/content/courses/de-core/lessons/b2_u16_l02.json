@@ -1,0 +1,203 @@
+{
+  "id": "b2_u16_l02",
+  "unitId": "de-core-b2-u16",
+  "title": {
+    "de": "Prüfungstraining: Schreiben & Sprechen",
+    "ar": "تدريب امتحان: الكتابة والكلام",
+    "en": "Exam training: Writing & Speaking"
+  },
+  "canDo": [
+    "B2_EXAM_WRITING_SPEAKING"
+  ],
+  "activities": [
+    {
+      "id": "b2_u16_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben & Sprechen — produktive Prüfung",
+        "ar": "الكتابة والكلام — اختبار إنتاجي",
+        "en": "Writing & Speaking — productive exam"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "b2_u16_l02_act02",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie 160–200 Wörter als professionelles Memo: Ausgangslage, zwei Befunde, Einschränkung, Handlungsoptionen und begründete Empfehlung.",
+        "ar": "اكتب 160–200 كلمة كمذكرة مهنية: الوضع، نتيجتان، قيد، خيارات عمل وتوصية معللة.",
+        "en": "Write 160–200 words as a professional memo: context, two findings, limitation, options and a reasoned recommendation."
+      },
+      "minWords": 160,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "b2_u16_l02_act03",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie eine differenzierte Stellungnahme zu einer städtischen oder digitalen Maßnahme: Nutzen, Kosten, betroffene Gruppen, Gegenargument und Unsicherheit.",
+        "ar": "اكتب موقفًا متوازنًا من إجراء حضري أو رقمي: الفائدة، التكلفة، الفئات المتأثرة، حجة مضادة وعدم اليقين.",
+        "en": "Write a nuanced position on an urban or digital measure: benefit, cost, affected groups, counterargument and uncertainty."
+      },
+      "minWords": 160,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "b2_u16_l02_act04",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Präsentieren Sie 90 Sekunden lang eine Datentendenz: Beobachtung, Vergleich, vorsichtige Interpretation und Limitation.",
+        "ar": "اعرض لمدة 90 ثانية اتجاهًا في بيانات: ملاحظة، مقارنة، تفسير حذر وقيد.",
+        "en": "Present a data trend for 90 seconds: observation, comparison, cautious interpretation and limitation."
+      },
+      "minSeconds": 90,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "b2_u16_l02_act05",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Verhandeln Sie einen Projekttermin: Interessen, Bedingung, Zugeständnis, Alternative und verbindlicher Abschluss.",
+        "ar": "تفاوض حول موعد مشروع: المصالح، شرط، تنازل، بديل واتفاق ملزم.",
+        "en": "Negotiate a project date: interests, condition, concession, alternative and binding close."
+      },
+      "minSeconds": 90,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "b2_u16_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} alle Unterlagen vorliegen, kann entschieden werden.",
+        "ar": "{answer} alle Unterlagen vorliegen, kann entschieden werden.",
+        "en": "{answer} alle Unterlagen vorliegen, kann entschieden werden."
+      },
+      "acceptedAnswers": [
+        "Sofern"
+      ]
+    },
+    {
+      "id": "b2_u16_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar.",
+        "ar": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar.",
+        "en": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar."
+      },
+      "acceptedAnswers": [
+        "dennoch"
+      ]
+    },
+    {
+      "id": "b2_u16_l02_act08",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Die Empfehlung sollte sowohl die Evidenz als auch die verbleibenden Unsicherheiten berücksichtigen.",
+        "ar": "Die Empfehlung sollte sowohl die Evidenz als auch die verbleibenden Unsicherheiten berücksichtigen.",
+        "en": "Die Empfehlung sollte sowohl die Evidenz als auch die verbleibenden Unsicherheiten berücksichtigen."
+      },
+      "acceptedAnswers": [
+        "Die Empfehlung sollte sowohl die Evidenz als auch die verbleibenden Unsicherheiten berücksichtigen."
+      ]
+    },
+    {
+      "id": "b2_u16_l02_act09",
+      "type": "text_intro",
+      "title": {
+        "de": "Selbstkorrektur",
+        "ar": "التصحيح الذاتي",
+        "en": "Self-correction"
+      },
+      "body": {
+        "de": "Schreiben: zuerst Inhalt, dann Struktur, dann Sprache prüfen. Sprechen: nach einer Aufnahme genau einen Schwerpunkt verbessern und erneut aufnehmen.",
+        "ar": "في الكتابة: راجع المحتوى ثم البنية ثم اللغة. في الكلام: بعد التسجيل اختر جانبًا واحدًا لتحسينه ثم سجّل من جديد.",
+        "en": "Writing: check content first, then structure, then language. Speaking: after one take, improve exactly one focus and record again."
+      }
+    },
+    {
+      "id": "b2_u16_l02_act10",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Schreiben/Sprechen abgeschlossen",
+        "ar": "اكتمل قسم الكتابة/الكلام",
+        "en": "Writing/speaking complete"
+      },
+      "canDo": [
+        "B2_EXAM_WRITING_SPEAKING"
+      ]
+    }
+  ]
+}

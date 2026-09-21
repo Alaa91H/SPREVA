@@ -46,6 +46,8 @@ data class UnitDto(
 @Serializable
 data class LessonRefDto(
     @SerialName("id") val id: String,
+    @SerialName("title") val title: LocalizedTextDto? = null,
+    @SerialName("activityCount") val activityCount: Int = 0,
 )
 
 @Serializable
@@ -77,8 +79,14 @@ data class ActivityDto(
     @SerialName("audio") val audio: String? = null,
     @SerialName("options") val options: List<ChoiceOptionDto> = emptyList(),
     @SerialName("correctOptionId") val correctOptionId: String? = null,
-    /** speaking_repeat: phrase to repeat. */
+    /** speaking_repeat/dictation/listening TTS fallback: hidden German target text. */
     @SerialName("text") val text: LocalizedTextDto? = null,
+    /** free_write: minimum required word count. */
+    @SerialName("minWords") val minWords: Int? = null,
+    /** speaking_prompt: minimum recording duration. */
+    @SerialName("minSeconds") val minSeconds: Int? = null,
+    /** free_write/speaking_prompt: learner self-review points. */
+    @SerialName("checklist") val checklist: List<LocalizedTextDto> = emptyList(),
     @SerialName("sentenceTemplate") val sentenceTemplate: LocalizedTextDto? = null,
     @SerialName("answerPlaceholder") val answerPlaceholder: String? = null,
     @SerialName("acceptedAnswers") val acceptedAnswers: List<String> = emptyList(),

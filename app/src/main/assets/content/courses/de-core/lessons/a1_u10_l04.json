@@ -1,0 +1,378 @@
+{
+  "id": "a1_u10_l04",
+  "unitId": "de-core-a1-u10",
+  "title": {
+    "de": "Falltraining: Verkehr & Tickets",
+    "ar": "تدريب الحالات: المواصلات والتذاكر",
+    "en": "Casebook: Transport & tickets"
+  },
+  "canDo": [
+    "A1_U10_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u10_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Casebook — ähnliche Fälle sicher unterscheiden",
+        "ar": "دفتر الحالات — التمييز الآمن بين الحالات المتشابهة",
+        "en": "Casebook — distinguish similar cases"
+      },
+      "body": {
+        "de": "Thema: Verkehr & Tickets\n\nZiel: Nicht nur einen Mustersatz kennen, sondern ähnliche Formen gegeneinander abgrenzen. Arbeite jeden Fall dreifach: korrekt ergänzen → Regel laut erklären → neue Variante bilden.\n\nKontrastpunkte:\n• abfahren/ankommen trennbar\n• umsteigen als Verb; der Umstieg als Nomen\n• Fahrkarte/Ticket je nach Kontext; beide gebräuchlich",
+        "ar": "الموضوع: المواصلات والتذاكر\n\nالهدف: عدم الاكتفاء بجملة نموذجية واحدة، بل التمييز بين الصيغ المتشابهة. اعمل على كل حالة بثلاث خطوات: أكملها بشكل صحيح ← اشرح القاعدة ← أنشئ مثالًا جديدًا.\n\nنقاط المقارنة:\n• abfahren/ankommen trennbar\n• umsteigen als Verb; der Umstieg als Nomen\n• Fahrkarte/Ticket je nach Kontext; beide gebräuchlich",
+        "en": "Topic: Transport & tickets\n\nGoal: go beyond one model sentence and discriminate similar forms. Work each case in three steps: complete correctly → explain the rule aloud → create a new variant.\n\nContrast points:\n• abfahren/ankommen trennbar\n• umsteigen als Verb; der Umstieg als Nomen\n• Fahrkarte/Ticket je nach Kontext; beide gebräuchlich"
+      }
+    },
+    {
+      "id": "a1_u10_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u10_l04_w1",
+          "german": "die Fahrkarte",
+          "translation": {
+            "de": "die Fahrkarte",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "a1_u10_l04_w2",
+          "german": "umsteigen",
+          "translation": {
+            "de": "umsteigen",
+            "ar": "يبدّل وسيلة النقل",
+            "en": "change trains"
+          }
+        },
+        {
+          "id": "a1_u10_l04_w3",
+          "german": "die Haltestelle",
+          "translation": {
+            "de": "die Haltestelle",
+            "ar": "المحطة",
+            "en": "stop"
+          }
+        },
+        {
+          "id": "a1_u10_l04_w4",
+          "german": "abfahren",
+          "translation": {
+            "de": "abfahren",
+            "ar": "ينطلق",
+            "en": "depart"
+          }
+        },
+        {
+          "id": "a1_u10_l04_w5",
+          "german": "ankommen",
+          "translation": {
+            "de": "ankommen",
+            "ar": "يصل",
+            "en": "arrive"
+          }
+        },
+        {
+          "id": "a1_u10_l04_w6",
+          "german": "Verspätung",
+          "translation": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u10_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wo kann ich eine {answer} kaufen?",
+        "ar": "Wo kann ich eine {answer} kaufen?",
+        "en": "Wo kann ich eine {answer} kaufen?"
+      },
+      "acceptedAnswers": [
+        "Fahrkarte"
+      ]
+    },
+    {
+      "id": "a1_u10_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich muss einmal {answer}.",
+        "ar": "Ich muss einmal {answer}.",
+        "en": "Ich muss einmal {answer}."
+      },
+      "acceptedAnswers": [
+        "umsteigen"
+      ]
+    },
+    {
+      "id": "a1_u10_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Zug {answer} um 8:15 Uhr ab.",
+        "ar": "Der Zug {answer} um 8:15 Uhr ab.",
+        "en": "Der Zug {answer} um 8:15 Uhr ab."
+      },
+      "acceptedAnswers": [
+        "fährt"
+      ]
+    },
+    {
+      "id": "a1_u10_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir {answer} um 10 Uhr an.",
+        "ar": "Wir {answer} um 10 Uhr an.",
+        "en": "Wir {answer} um 10 Uhr an."
+      },
+      "acceptedAnswers": [
+        "kommen"
+      ]
+    },
+    {
+      "id": "a1_u10_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Welche {answer} ist die nächste?",
+        "ar": "Welche {answer} ist die nächste?",
+        "en": "Welche {answer} ist die nächste?"
+      },
+      "acceptedAnswers": [
+        "Haltestelle"
+      ]
+    },
+    {
+      "id": "a1_u10_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Zug hat zehn Minuten {answer}.",
+        "ar": "Der Zug hat zehn Minuten {answer}.",
+        "en": "Der Zug hat zehn Minuten {answer}."
+      },
+      "acceptedAnswers": [
+        "Verspätung"
+      ]
+    },
+    {
+      "id": "a1_u10_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "die Fahrkarte",
+        "ar": "die Fahrkarte",
+        "en": "die Fahrkarte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ticket",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "change trains",
+            "ar": "يبدّل وسيلة النقل",
+            "en": "change trains"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "stop",
+            "ar": "المحطة",
+            "en": "stop"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u10_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "umsteigen",
+        "ar": "umsteigen",
+        "en": "umsteigen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "change trains",
+            "ar": "يبدّل وسيلة النقل",
+            "en": "change trains"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "stop",
+            "ar": "المحطة",
+            "en": "stop"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "depart",
+            "ar": "ينطلق",
+            "en": "depart"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u10_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "die Haltestelle",
+        "ar": "die Haltestelle",
+        "en": "die Haltestelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "stop",
+            "ar": "المحطة",
+            "en": "stop"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "depart",
+            "ar": "ينطلق",
+            "en": "depart"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "arrive",
+            "ar": "يصل",
+            "en": "arrive"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u10_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "abfahren",
+        "ar": "abfahren",
+        "en": "abfahren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "depart",
+            "ar": "ينطلق",
+            "en": "depart"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "arrive",
+            "ar": "يصل",
+            "en": "arrive"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "delay",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u10_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlergalerie — falsch → warum → richtig",
+        "ar": "معرض الأخطاء — خطأ ← لماذا ← صحيح",
+        "en": "Error gallery — wrong → why → right"
+      },
+      "body": {
+        "de": "Analysiere jeden Fehler, bevor du die Korrektur liest:\n• ❌ Ich muss einen Umstieg. → ✅ Ich muss umsteigen.\n• ❌ Der Zug fährt ab um acht. → neutraler ✅ Der Zug fährt um acht ab.\n• ❌ ankommen um zehn wir → ✅ Wir kommen um zehn an.\n• ❌ zehn Minuten spätung → ✅ zehn Minuten Verspätung\n\nDanach: verdecke die Korrektur, korrigiere aus dem Gedächtnis und bilde mit derselben Regel einen neuen Satz.",
+        "ar": "حلّل سبب كل خطأ قبل قراءة التصحيح:\n• ❌ Ich muss einen Umstieg. → ✅ Ich muss umsteigen.\n• ❌ Der Zug fährt ab um acht. → neutraler ✅ Der Zug fährt um acht ab.\n• ❌ ankommen um zehn wir → ✅ Wir kommen um zehn an.\n• ❌ zehn Minuten spätung → ✅ zehn Minuten Verspätung\n\nبعد ذلك أخفِ التصحيح، صحح من الذاكرة وأنشئ جملة جديدة بنفس القاعدة.",
+        "en": "Analyze why each error is wrong before reading the correction:\n• ❌ Ich muss einen Umstieg. → ✅ Ich muss umsteigen.\n• ❌ Der Zug fährt ab um acht. → neutraler ✅ Der Zug fährt um acht ab.\n• ❌ ankommen um zehn wir → ✅ Wir kommen um zehn an.\n• ❌ zehn Minuten spätung → ✅ zehn Minuten Verspätung\n\nThen hide the correction, fix it from memory and create a new sentence with the same rule."
+      }
+    },
+    {
+      "id": "a1_u10_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdrill — eine Bedeutung, mehrere Formen",
+        "ar": "تدريب المقارنة — معنى واحد وصيغ متعددة",
+        "en": "Contrast drill — one meaning, multiple forms"
+      },
+      "body": {
+        "de": "Arbeite die Unterschiede aktiv heraus:\n• abfahren/ankommen trennbar\n• umsteigen als Verb; der Umstieg als Nomen\n• Fahrkarte/Ticket je nach Kontext; beide gebräuchlich\n\nFür jeden Punkt: bilde ein Minimalpaar, ändere genau ein Element und erkläre, warum sich Form oder Bedeutung ändert.",
+        "ar": "استخرج الفروق بنشاط:\n• abfahren/ankommen trennbar\n• umsteigen als Verb; der Umstieg als Nomen\n• Fahrkarte/Ticket je nach Kontext; beide gebräuchlich\n\nلكل نقطة أنشئ زوجًا متقاربًا، غيّر عنصرًا واحدًا فقط، واشرح لماذا تغير الشكل أو المعنى.",
+        "en": "Actively work out the contrasts:\n• abfahren/ankommen trennbar\n• umsteigen als Verb; der Umstieg als Nomen\n• Fahrkarte/Ticket je nach Kontext; beide gebräuchlich\n\nFor each point create a minimal pair, change exactly one element and explain why form or meaning changes."
+      }
+    },
+    {
+      "id": "a1_u10_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Circuit — vier Wiederholungen",
+        "ar": "دائرة الحياة الواقعية — أربع جولات",
+        "en": "Real-life circuit — four repetitions"
+      },
+      "body": {
+        "de": "Plane eine Fahrt mit einem Umstieg. Frage nach Gleis/Haltestelle, Abfahrt, Ankunft und reagiere auf eine Verspätung.\n\nWiederholung 1: mit Vorlage. Wiederholung 2: ohne Vorlage. Wiederholung 3: Rollen tauschen oder Daten ändern. Wiederholung 4: nach einer Pause erneut durchführen und alle Selbstkorrekturen markieren.",
+        "ar": "Plane eine Fahrt mit einem Umstieg. Frage nach Gleis/Haltestelle, Abfahrt, Ankunft und reagiere auf eine Verspätung.\n\nالجولة 1: مع النموذج. الجولة 2: دون نموذج. الجولة 3: بدّل الأدوار أو البيانات. الجولة 4: بعد فاصل زمني أعد المهمة وحدد كل تصحيح ذاتي.",
+        "en": "Plane eine Fahrt mit einem Umstieg. Frage nach Gleis/Haltestelle, Abfahrt, Ankunft und reagiere auf eine Verspätung.\n\nRound 1: with the model. Round 2: without it. Round 3: swap roles or details. Round 4: repeat after a delay and mark every self-correction."
+      }
+    },
+    {
+      "id": "a1_u10_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A1",
+        "en": "A1 casebook complete"
+      },
+      "canDo": [
+        "A1_U10_CASEBOOK"
+      ]
+    }
+  ]
+}

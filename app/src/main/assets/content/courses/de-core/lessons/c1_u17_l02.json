@@ -1,0 +1,203 @@
+{
+  "id": "c1_u17_l02",
+  "unitId": "de-core-c1-u17",
+  "title": {
+    "de": "Prüfungstraining: Schreiben & Sprechen",
+    "ar": "تدريب امتحان: الكتابة والكلام",
+    "en": "Exam training: Writing & Speaking"
+  },
+  "canDo": [
+    "C1_EXAM_WRITING_SPEAKING"
+  ],
+  "activities": [
+    {
+      "id": "c1_u17_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben & Sprechen — produktive Prüfung",
+        "ar": "الكتابة والكلام — اختبار إنتاجي",
+        "en": "Writing & Speaking — productive exam"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "c1_u17_l02_act02",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie 220–280 Wörter als analytische Synthese aus drei hypothetischen Quellen: gemeinsame Befunde, Konflikte, Evidenzstärke, Limitationen und klar getrennte eigene Bewertung.",
+        "ar": "اكتب 220–280 كلمة كتركيب تحليلي لثلاثة مصادر افتراضية: النتائج المشتركة، التعارضات، قوة الدليل، القيود وتقييمك المنفصل بوضوح.",
+        "en": "Write 220–280 words as an analytical synthesis of three hypothetical sources: shared findings, conflicts, evidence strength, limitations and clearly separated own assessment."
+      },
+      "minWords": 220,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "c1_u17_l02_act03",
+      "type": "free_write",
+      "prompt": {
+        "de": "Verfassen Sie eine Executive Summary: entscheidungsrelevante Befunde, Risiken, Optionen, Empfehlung und nächster Schritt; vermeiden Sie unnötige Details.",
+        "ar": "اكتب ملخصًا تنفيذيًا: النتائج المرتبطة بالقرار، المخاطر، الخيارات، التوصية والخطوة التالية، مع تجنب التفاصيل غير الضرورية.",
+        "en": "Write an executive summary: decision-relevant findings, risks, options, recommendation and next step; avoid unnecessary detail."
+      },
+      "minWords": 220,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "c1_u17_l02_act04",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Synthetisieren Sie zwei widersprüchliche Positionen in zwei Minuten: Quellen klar zuordnen, Gemeinsamkeiten und Konflikte benennen, dann vorsichtig bewerten.",
+        "ar": "ركّب موقفين متعارضين في دقيقتين: انسب كل قول لمصدره، اذكر نقاط الاتفاق والخلاف ثم قيّم بحذر.",
+        "en": "Synthesize two conflicting positions in two minutes: attribute sources clearly, identify agreements and conflicts, then evaluate cautiously."
+      },
+      "minSeconds": 120,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "c1_u17_l02_act05",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Moderieren Sie eine komplexe Entscheidung: Positionen paraphrasieren, Interessen reframen, Kriterien klären, Optionen vergleichen und verbindlich schließen.",
+        "ar": "أدر قرارًا معقدًا: أعد صياغة المواقف، أعد تأطير المصالح، وضّح المعايير، قارن الخيارات وأغلق باتفاق ملزم.",
+        "en": "Facilitate a complex decision: paraphrase positions, reframe interests, clarify criteria, compare options and close with a binding agreement."
+      },
+      "minSeconds": 120,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "c1_u17_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "ar": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "en": "Was die Finanzierung {answer}, bestehen offene Fragen."
+      },
+      "acceptedAnswers": [
+        "betrifft"
+      ]
+    },
+    {
+      "id": "c1_u17_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Ansatz ist {answer} überzeugend, als er mehrere Ziele verbindet.",
+        "ar": "Der Ansatz ist {answer} überzeugend, als er mehrere Ziele verbindet.",
+        "en": "Der Ansatz ist {answer} überzeugend, als er mehrere Ziele verbindet."
+      },
+      "acceptedAnswers": [
+        "insofern"
+      ]
+    },
+    {
+      "id": "c1_u17_l02_act08",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Eine methodische Einschränkung ist nur dann informativ, wenn ihre Konsequenz für die Interpretation erklärt wird.",
+        "ar": "Eine methodische Einschränkung ist nur dann informativ, wenn ihre Konsequenz für die Interpretation erklärt wird.",
+        "en": "Eine methodische Einschränkung ist nur dann informativ, wenn ihre Konsequenz für die Interpretation erklärt wird."
+      },
+      "acceptedAnswers": [
+        "Eine methodische Einschränkung ist nur dann informativ, wenn ihre Konsequenz für die Interpretation erklärt wird."
+      ]
+    },
+    {
+      "id": "c1_u17_l02_act09",
+      "type": "text_intro",
+      "title": {
+        "de": "Selbstkorrektur",
+        "ar": "التصحيح الذاتي",
+        "en": "Self-correction"
+      },
+      "body": {
+        "de": "Schreiben: zuerst Inhalt, dann Struktur, dann Sprache prüfen. Sprechen: nach einer Aufnahme genau einen Schwerpunkt verbessern und erneut aufnehmen.",
+        "ar": "في الكتابة: راجع المحتوى ثم البنية ثم اللغة. في الكلام: بعد التسجيل اختر جانبًا واحدًا لتحسينه ثم سجّل من جديد.",
+        "en": "Writing: check content first, then structure, then language. Speaking: after one take, improve exactly one focus and record again."
+      }
+    },
+    {
+      "id": "c1_u17_l02_act10",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Schreiben/Sprechen abgeschlossen",
+        "ar": "اكتمل قسم الكتابة/الكلام",
+        "en": "Writing/speaking complete"
+      },
+      "canDo": [
+        "C1_EXAM_WRITING_SPEAKING"
+      ]
+    }
+  ]
+}

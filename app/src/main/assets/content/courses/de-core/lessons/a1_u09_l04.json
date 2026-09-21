@@ -1,0 +1,378 @@
+{
+  "id": "a1_u09_l04",
+  "unitId": "de-core-a1-u09",
+  "title": {
+    "de": "Falltraining: Stadt & Wegbeschreibung",
+    "ar": "تدريب الحالات: المدينة ووصف الطريق",
+    "en": "Casebook: City & directions"
+  },
+  "canDo": [
+    "A1_U09_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u09_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Casebook — ähnliche Fälle sicher unterscheiden",
+        "ar": "دفتر الحالات — التمييز الآمن بين الحالات المتشابهة",
+        "en": "Casebook — distinguish similar cases"
+      },
+      "body": {
+        "de": "Thema: Stadt & Wegbeschreibung\n\nZiel: Nicht nur einen Mustersatz kennen, sondern ähnliche Formen gegeneinander abgrenzen. Arbeite jeden Fall dreifach: korrekt ergänzen → Regel laut erklären → neue Variante bilden.\n\nKontrastpunkte:\n• Richtung: nach links/rechts, geradeaus\n• Ort: gegenüber + Dativ; neben + Dativ bei Wo?\n• bis zu + Dativ: bis zur Ampel / bis zum Bahnhof",
+        "ar": "الموضوع: المدينة ووصف الطريق\n\nالهدف: عدم الاكتفاء بجملة نموذجية واحدة، بل التمييز بين الصيغ المتشابهة. اعمل على كل حالة بثلاث خطوات: أكملها بشكل صحيح ← اشرح القاعدة ← أنشئ مثالًا جديدًا.\n\nنقاط المقارنة:\n• Richtung: nach links/rechts, geradeaus\n• Ort: gegenüber + Dativ; neben + Dativ bei Wo?\n• bis zu + Dativ: bis zur Ampel / bis zum Bahnhof",
+        "en": "Topic: City & directions\n\nGoal: go beyond one model sentence and discriminate similar forms. Work each case in three steps: complete correctly → explain the rule aloud → create a new variant.\n\nContrast points:\n• Richtung: nach links/rechts, geradeaus\n• Ort: gegenüber + Dativ; neben + Dativ bei Wo?\n• bis zu + Dativ: bis zur Ampel / bis zum Bahnhof"
+      }
+    },
+    {
+      "id": "a1_u09_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u09_l04_w1",
+          "german": "geradeaus",
+          "translation": {
+            "de": "geradeaus",
+            "ar": "مباشرة",
+            "en": "straight ahead"
+          }
+        },
+        {
+          "id": "a1_u09_l04_w2",
+          "german": "links",
+          "translation": {
+            "de": "links",
+            "ar": "يسار",
+            "en": "left"
+          }
+        },
+        {
+          "id": "a1_u09_l04_w3",
+          "german": "rechts",
+          "translation": {
+            "de": "rechts",
+            "ar": "يمين",
+            "en": "right"
+          }
+        },
+        {
+          "id": "a1_u09_l04_w4",
+          "german": "abbiegen",
+          "translation": {
+            "de": "abbiegen",
+            "ar": "ينعطف",
+            "en": "turn"
+          }
+        },
+        {
+          "id": "a1_u09_l04_w5",
+          "german": "die Kreuzung",
+          "translation": {
+            "de": "die Kreuzung",
+            "ar": "التقاطع",
+            "en": "intersection"
+          }
+        },
+        {
+          "id": "a1_u09_l04_w6",
+          "german": "gegenüber",
+          "translation": {
+            "de": "gegenüber",
+            "ar": "مقابل",
+            "en": "opposite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u09_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gehen Sie {answer}.",
+        "ar": "Gehen Sie {answer}.",
+        "en": "Gehen Sie {answer}."
+      },
+      "acceptedAnswers": [
+        "geradeaus"
+      ]
+    },
+    {
+      "id": "a1_u09_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dann biegen Sie {answer} ab.",
+        "ar": "Dann biegen Sie {answer} ab.",
+        "en": "Dann biegen Sie {answer} ab."
+      },
+      "acceptedAnswers": [
+        "links"
+      ]
+    },
+    {
+      "id": "a1_u09_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Bank ist {answer} der Apotheke.",
+        "ar": "Die Bank ist {answer} der Apotheke.",
+        "en": "Die Bank ist {answer} der Apotheke."
+      },
+      "acceptedAnswers": [
+        "gegenüber"
+      ]
+    },
+    {
+      "id": "a1_u09_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "An der {answer} rechts.",
+        "ar": "An der {answer} rechts.",
+        "en": "An der {answer} rechts."
+      },
+      "acceptedAnswers": [
+        "Kreuzung"
+      ]
+    },
+    {
+      "id": "a1_u09_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gehen Sie bis {answer} Ampel.",
+        "ar": "Gehen Sie bis {answer} Ampel.",
+        "en": "Gehen Sie bis {answer} Ampel."
+      },
+      "acceptedAnswers": [
+        "zur"
+      ]
+    },
+    {
+      "id": "a1_u09_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Bahnhof ist {answer} dem Hotel.",
+        "ar": "Der Bahnhof ist {answer} dem Hotel.",
+        "en": "Der Bahnhof ist {answer} dem Hotel."
+      },
+      "acceptedAnswers": [
+        "neben"
+      ]
+    },
+    {
+      "id": "a1_u09_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "geradeaus",
+        "ar": "geradeaus",
+        "en": "geradeaus"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "straight ahead",
+            "ar": "مباشرة",
+            "en": "straight ahead"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "left",
+            "ar": "يسار",
+            "en": "left"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "right",
+            "ar": "يمين",
+            "en": "right"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u09_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "links",
+        "ar": "links",
+        "en": "links"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "left",
+            "ar": "يسار",
+            "en": "left"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "right",
+            "ar": "يمين",
+            "en": "right"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "turn",
+            "ar": "ينعطف",
+            "en": "turn"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u09_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "rechts",
+        "ar": "rechts",
+        "en": "rechts"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "right",
+            "ar": "يمين",
+            "en": "right"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "turn",
+            "ar": "ينعطف",
+            "en": "turn"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "intersection",
+            "ar": "التقاطع",
+            "en": "intersection"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u09_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "abbiegen",
+        "ar": "abbiegen",
+        "en": "abbiegen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "turn",
+            "ar": "ينعطف",
+            "en": "turn"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "intersection",
+            "ar": "التقاطع",
+            "en": "intersection"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "opposite",
+            "ar": "مقابل",
+            "en": "opposite"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u09_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlergalerie — falsch → warum → richtig",
+        "ar": "معرض الأخطاء — خطأ ← لماذا ← صحيح",
+        "en": "Error gallery — wrong → why → right"
+      },
+      "body": {
+        "de": "Analysiere jeden Fehler, bevor du die Korrektur liest:\n• ❌ Gehen Sie gerade aus. → ✅ geradeaus (als Richtungsangabe)\n• ❌ biegen links Sie ab → ✅ biegen Sie links ab\n• ❌ gegenüber die Apotheke → ✅ gegenüber der Apotheke\n• ❌ bis die Ampel → ✅ bis zur Ampel\n\nDanach: verdecke die Korrektur, korrigiere aus dem Gedächtnis und bilde mit derselben Regel einen neuen Satz.",
+        "ar": "حلّل سبب كل خطأ قبل قراءة التصحيح:\n• ❌ Gehen Sie gerade aus. → ✅ geradeaus (als Richtungsangabe)\n• ❌ biegen links Sie ab → ✅ biegen Sie links ab\n• ❌ gegenüber die Apotheke → ✅ gegenüber der Apotheke\n• ❌ bis die Ampel → ✅ bis zur Ampel\n\nبعد ذلك أخفِ التصحيح، صحح من الذاكرة وأنشئ جملة جديدة بنفس القاعدة.",
+        "en": "Analyze why each error is wrong before reading the correction:\n• ❌ Gehen Sie gerade aus. → ✅ geradeaus (als Richtungsangabe)\n• ❌ biegen links Sie ab → ✅ biegen Sie links ab\n• ❌ gegenüber die Apotheke → ✅ gegenüber der Apotheke\n• ❌ bis die Ampel → ✅ bis zur Ampel\n\nThen hide the correction, fix it from memory and create a new sentence with the same rule."
+      }
+    },
+    {
+      "id": "a1_u09_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdrill — eine Bedeutung, mehrere Formen",
+        "ar": "تدريب المقارنة — معنى واحد وصيغ متعددة",
+        "en": "Contrast drill — one meaning, multiple forms"
+      },
+      "body": {
+        "de": "Arbeite die Unterschiede aktiv heraus:\n• Richtung: nach links/rechts, geradeaus\n• Ort: gegenüber + Dativ; neben + Dativ bei Wo?\n• bis zu + Dativ: bis zur Ampel / bis zum Bahnhof\n\nFür jeden Punkt: bilde ein Minimalpaar, ändere genau ein Element und erkläre, warum sich Form oder Bedeutung ändert.",
+        "ar": "استخرج الفروق بنشاط:\n• Richtung: nach links/rechts, geradeaus\n• Ort: gegenüber + Dativ; neben + Dativ bei Wo?\n• bis zu + Dativ: bis zur Ampel / bis zum Bahnhof\n\nلكل نقطة أنشئ زوجًا متقاربًا، غيّر عنصرًا واحدًا فقط، واشرح لماذا تغير الشكل أو المعنى.",
+        "en": "Actively work out the contrasts:\n• Richtung: nach links/rechts, geradeaus\n• Ort: gegenüber + Dativ; neben + Dativ bei Wo?\n• bis zu + Dativ: bis zur Ampel / bis zum Bahnhof\n\nFor each point create a minimal pair, change exactly one element and explain why form or meaning changes."
+      }
+    },
+    {
+      "id": "a1_u09_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Circuit — vier Wiederholungen",
+        "ar": "دائرة الحياة الواقعية — أربع جولات",
+        "en": "Real-life circuit — four repetitions"
+      },
+      "body": {
+        "de": "Erkläre zwei Wege: vom Bahnhof zur Apotheke und vom Wohnhaus zum Bürgeramt. Baue eine Rückfrage ein: „Meinen Sie …?“\n\nWiederholung 1: mit Vorlage. Wiederholung 2: ohne Vorlage. Wiederholung 3: Rollen tauschen oder Daten ändern. Wiederholung 4: nach einer Pause erneut durchführen und alle Selbstkorrekturen markieren.",
+        "ar": "Erkläre zwei Wege: vom Bahnhof zur Apotheke und vom Wohnhaus zum Bürgeramt. Baue eine Rückfrage ein: „Meinen Sie …?“\n\nالجولة 1: مع النموذج. الجولة 2: دون نموذج. الجولة 3: بدّل الأدوار أو البيانات. الجولة 4: بعد فاصل زمني أعد المهمة وحدد كل تصحيح ذاتي.",
+        "en": "Erkläre zwei Wege: vom Bahnhof zur Apotheke und vom Wohnhaus zum Bürgeramt. Baue eine Rückfrage ein: „Meinen Sie …?“\n\nRound 1: with the model. Round 2: without it. Round 3: swap roles or details. Round 4: repeat after a delay and mark every self-correction."
+      }
+    },
+    {
+      "id": "a1_u09_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A1",
+        "en": "A1 casebook complete"
+      },
+      "canDo": [
+        "A1_U09_CASEBOOK"
+      ]
+    }
+  ]
+}

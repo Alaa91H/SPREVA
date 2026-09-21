@@ -1,0 +1,361 @@
+{
+  "id": "b2_u16_l03",
+  "unitId": "de-core-b2-u16",
+  "title": {
+    "de": "Prüfungs-Mastery: gemischte Aufgaben",
+    "ar": "إتقان الامتحان: مهام مختلطة",
+    "en": "Exam mastery: mixed tasks"
+  },
+  "canDo": [
+    "B2_EXAM_MIXED_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u16_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mixed Mastery — ohne Themenhinweis",
+        "ar": "إتقان مختلط — دون تلميح بالموضوع",
+        "en": "Mixed mastery — no topic cue"
+      },
+      "body": {
+        "de": "Lösen Sie die Aufgaben gemischt. Entscheiden Sie selbst, welche Grammatik-, Hör- oder Kommunikationsstrategie gebraucht wird.",
+        "ar": "حل المهام مختلطة وحدد بنفسك قاعدة النحو أو استراتيجية الاستماع أو التواصل المطلوبة.",
+        "en": "Solve the mixed tasks and decide which grammar, listening or communication strategy is needed."
+      }
+    },
+    {
+      "id": "b2_u16_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} alle Unterlagen vorliegen, kann entschieden werden.",
+        "ar": "{answer} alle Unterlagen vorliegen, kann entschieden werden.",
+        "en": "{answer} alle Unterlagen vorliegen, kann entschieden werden."
+      },
+      "acceptedAnswers": [
+        "Sofern"
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar.",
+        "ar": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar.",
+        "en": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar."
+      },
+      "acceptedAnswers": [
+        "dennoch"
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Problem lässt sich leicht {answer}.",
+        "ar": "Das Problem lässt sich leicht {answer}.",
+        "en": "Das Problem lässt sich leicht {answer}."
+      },
+      "acceptedAnswers": [
+        "lösen"
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Regeln sind unbedingt {answer}.",
+        "ar": "Die Regeln sind unbedingt {answer}.",
+        "en": "Die Regeln sind unbedingt {answer}."
+      },
+      "acceptedAnswers": [
+        "einzuhalten"
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die gestern {answer} Daten werden ausgewertet.",
+        "ar": "Die gestern {answer} Daten werden ausgewertet.",
+        "en": "Die gestern {answer} Daten werden ausgewertet."
+      },
+      "acceptedAnswers": [
+        "erhobenen"
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Sprecher erklärte, die Lage {answer} stabil.",
+        "ar": "Der Sprecher erklärte, die Lage {answer} stabil.",
+        "en": "Der Sprecher erklärte, die Lage {answer} stabil."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?",
+        "ar": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?",
+        "en": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen.",
+            "ar": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen.",
+            "en": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Es gab keine Teilnehmenden.",
+            "ar": "Es gab keine Teilnehmenden.",
+            "en": "Es gab keine Teilnehmenden."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zufriedenheit wurde nicht erwähnt.",
+            "ar": "Zufriedenheit wurde nicht erwähnt.",
+            "en": "Zufriedenheit wurde nicht erwähnt."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?",
+        "ar": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?",
+        "en": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Gesamtkosten und Kündigungsfrist",
+            "ar": "Gesamtkosten und Kündigungsfrist",
+            "en": "Gesamtkosten und Kündigungsfrist"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nur auf den Einstiegspreis",
+            "ar": "nur auf den Einstiegspreis",
+            "en": "nur auf den Einstiegspreis"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nur auf das Logo",
+            "ar": "nur auf das Logo",
+            "en": "nur auf das Logo"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Sofern die Finanzierung gesichert ist, kann das Projekt im Januar beginnen; andernfalls müsste der Zeitplan angepasst werden.",
+        "ar": "Sofern die Finanzierung gesichert ist, kann das Projekt im Januar beginnen; andernfalls müsste der Zeitplan angepasst werden.",
+        "en": "Sofern die Finanzierung gesichert ist, kann das Projekt im Januar beginnen; andernfalls müsste der Zeitplan angepasst werden."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Start hängt von Finanzierung ab",
+            "ar": "Start hängt von Finanzierung ab",
+            "en": "Start hängt von Finanzierung ab"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Start ist sicher",
+            "ar": "Start ist sicher",
+            "en": "Start ist sicher"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Projekt wurde beendet",
+            "ar": "Projekt wurde beendet",
+            "en": "Projekt wurde beendet"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Daten legen einen Zusammenhang nahe, belegen aber keine direkte Ursache.",
+        "ar": "Die Daten legen einen Zusammenhang nahe, belegen aber keine direkte Ursache.",
+        "en": "Die Daten legen einen Zusammenhang nahe, belegen aber keine direkte Ursache."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Zusammenhang ohne sicheren Kausalnachweis",
+            "ar": "Zusammenhang ohne sicheren Kausalnachweis",
+            "en": "Zusammenhang ohne sicheren Kausalnachweis"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Ursache bewiesen",
+            "ar": "Ursache bewiesen",
+            "en": "Ursache bewiesen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Daten",
+            "ar": "keine Daten",
+            "en": "keine Daten"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Die Ergebnisse legen einen Zusammenhang nahe, belegen jedoch keine eindeutige Kausalität.",
+        "ar": "Die Ergebnisse legen einen Zusammenhang nahe, belegen jedoch keine eindeutige Kausalität.",
+        "en": "Die Ergebnisse legen einen Zusammenhang nahe, belegen jedoch keine eindeutige Kausalität."
+      },
+      "acceptedAnswers": [
+        "Die Ergebnisse legen einen Zusammenhang nahe, belegen jedoch keine eindeutige Kausalität."
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act13",
+      "type": "free_write",
+      "prompt": {
+        "de": "Fassen Sie zwei gegensätzliche Quellen neutral zusammen und markieren Sie anschließend Ihre eigene Bewertung getrennt.",
+        "ar": "لخّص مصدرين متعارضين بحياد ثم افصل تقييمك الشخصي بوضوح.",
+        "en": "Summarize two opposing sources neutrally, then clearly separate your own assessment."
+      },
+      "minWords": 160,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Bewerten Sie eine Quelle mündlich: Urheber, Evidenz, mögliche Interessen, fehlende Informationen und vorläufiges Urteil.",
+        "ar": "قيّم مصدرًا شفهيًا: المؤلف، الدليل، المصالح المحتملة، المعلومات الناقصة وحكم أولي.",
+        "en": "Evaluate a source orally: author, evidence, possible interests, missing information and provisional judgement."
+      },
+      "minSeconds": 90,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "b2_u16_l03_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerjournal",
+        "ar": "سجل الأخطاء",
+        "en": "Error journal"
+      },
+      "body": {
+        "de": "Notieren Sie nur Fehler, die wiederkehren: Form, Ursache, Korrekturregel und ein neues eigenes Beispiel. Wiederholen Sie diese Aufgaben später erneut.",
+        "ar": "دوّن فقط الأخطاء المتكررة: الصيغة والسبب وقاعدة التصحيح ومثال جديد. أعد هذه المهام لاحقًا.",
+        "en": "Record only recurring errors: form, cause, repair rule and a new example. Repeat these tasks later."
+      }
+    },
+    {
+      "id": "b2_u16_l03_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mixed Mastery abgeschlossen",
+        "ar": "اكتمل الإتقان المختلط",
+        "en": "Mixed mastery complete"
+      },
+      "canDo": [
+        "B2_EXAM_MIXED_MASTERY"
+      ]
+    }
+  ]
+}

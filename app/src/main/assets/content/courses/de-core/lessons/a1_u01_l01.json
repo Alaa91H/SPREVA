@@ -1,17 +1,27 @@
 {
   "id": "a1_u01_l01",
   "unitId": "de-core-a1-u01",
-  "title": { "de": "Hallo!", "ar": "مرحبًا!", "en": "Hello!" },
-  "canDo": ["GREET_SIMPLE", "INTRODUCE_YOURSELF"],
+  "title": {
+    "de": "Personalpronomen, sein und W-Fragen",
+    "ar": "الضمائر الشخصية وفعل sein وأسئلة W",
+    "en": "Personal pronouns, sein and W-questions"
+  },
+  "canDo": [
+    "A1_U01_FOUNDATION"
+  ],
   "activities": [
     {
       "id": "a1_u01_l01_act01",
       "type": "text_intro",
-      "title": { "de": "Willkommen!", "ar": "مرحبًا بك!", "en": "Welcome!" },
+      "title": {
+        "de": "Personalpronomen, sein und W-Fragen",
+        "ar": "الضمائر الشخصية وفعل sein وأسئلة W",
+        "en": "Personal pronouns, sein and W-questions"
+      },
       "body": {
-        "de": "In dieser Lektion lernst du, dich auf Deutsch zu begrüßen und dich vorzustellen.",
-        "ar": "في هذا الدرس ستتعلم كيفية التحية بالألمانية وتقديم نفسك.",
-        "en": "In this lesson you will learn to greet people in German and introduce yourself."
+        "de": "Lernziel: Personalpronomen, sein und W-Fragen\n\nKernregel:\nIm deutschen Hauptsatz steht das konjugierte Verb normalerweise an Position 2. Mit sein: ich bin, du bist, er/sie ist, wir sind, ihr seid, Sie/sie sind. Fragen wie „Wie heißen Sie?“ beginnen mit einem Fragewort und danach folgt das Verb.\n\nMusterbeispiele:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin.\n\nPraxisbezug:\nErste Begegnung in einem Kurs, Amt, Wohnheim oder am Arbeitsplatz: begrüßen, Namen nennen, Herkunft und Wohnort erfragen.\n\nTypische Stolperfalle:\nNicht „Ich sein …“ sagen. Das Verb muss zur Person passen. Außerdem unterscheiden sich du und Sie: du ist informell, Sie höflich/formell.",
+        "ar": "هدف الدرس: الضمائر الشخصية وفعل sein وأسئلة W\n\nالقاعدة الأساسية:\nفي الجملة الألمانية الرئيسية يأتي الفعل المصرف غالبًا في الموقع الثاني. مع sein: ich bin، du bist، er/sie ist… وفي أسئلة مثل Wie heißen Sie? تبدأ الجملة بأداة السؤال ثم يأتي الفعل.\n\nأمثلة ألمانية:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin.\n\nالاستخدام في الحياة:\nلقاء أول في دورة أو دائرة رسمية أو سكن أو عمل: التحية، ذكر الاسم، والسؤال عن الأصل ومكان السكن.\n\nخطأ شائع يجب تجنبه:\nلا تقل Ich sein… بل يجب تصريف الفعل بحسب الضمير. كذلك فرّق بين du غير الرسمي وSie الرسمي/المهذب.",
+        "en": "Lesson goal: Personal pronouns, sein and W-questions\n\nCore rule:\nIn a German main clause the conjugated verb normally occupies position 2. With sein: ich bin, du bist, er/sie ist, wir sind, ihr seid, Sie/sie sind. W-questions begin with a question word followed by the verb.\n\nGerman examples:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin.\n\nReal-life use:\nA first meeting in a class, public office, residence or workplace: greet, state your name, ask about origin and residence.\n\nCommon pitfall:\nDo not say “Ich sein …”; the verb must agree with the person. Also distinguish informal du from polite/formal Sie."
       }
     },
     {
@@ -19,77 +29,127 @@
       "type": "vocab_intro",
       "words": [
         {
-          "id": "w-hallo",
-          "german": "Hallo",
-          "translation": { "de": "—", "ar": "مرحبًا", "en": "Hello" },
-          "audio": "audio/cc-by-sa/de-hallo.ogg"
+          "id": "a1_u01_l01_w1",
+          "german": "Guten Tag",
+          "translation": {
+            "de": "Good day",
+            "ar": "مرحبًا / نهارك سعيد",
+            "en": "Good day"
+          }
         },
         {
-          "id": "w-guten-morgen",
-          "german": "Guten Morgen",
-          "translation": { "de": "—", "ar": "صباح الخير", "en": "Good morning" },
-          "audio": "audio/cc-by-sa/de-guten-morgen.ogg"
-        },
-        {
-          "id": "w-ich-heisse",
-          "german": "Ich heiße …",
-          "translation": { "de": "—", "ar": "اسمي …", "en": "My name is …" },
-          "audio": "audio/cc-by-sa/de-ich-heisse.ogg"
-        },
-        {
-          "id": "w-wie-heissen-sie",
+          "id": "a1_u01_l01_w2",
           "german": "Wie heißen Sie?",
-          "translation": { "de": "—", "ar": "ما اسمك؟ (رسمي)", "en": "What is your name? (formal)" }
+          "translation": {
+            "de": "What is your name? (formal)",
+            "ar": "ما اسم حضرتك؟",
+            "en": "What is your name? (formal)"
+          }
         },
         {
-          "id": "w-wie-heisst-du",
-          "german": "Wie heißt du?",
-          "translation": { "de": "—", "ar": "ما اسمك؟ (غير رسمي)", "en": "What is your name? (informal)" },
-          "audio": "audio/cc-by-sa/de-wie-heisst-du.ogg"
-        },
-        {
-          "id": "w-tschuess",
-          "german": "Tschüss",
-          "translation": { "de": "—", "ar": "إلى اللقاء", "en": "Bye" },
-          "audio": "audio/cc-by-sa/de-tschues.ogg"
+          "id": "a1_u01_l01_w3",
+          "german": "Ich heiße …",
+          "translation": {
+            "de": "My name is …",
+            "ar": "اسمي …",
+            "en": "My name is …"
+          },
+          "audio": "audio/cc-by-sa/de-ich-heisse.ogg"
         }
       ]
     },
     {
       "id": "a1_u01_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Im deutschen Hauptsatz steht das konjugierte Verb normalerweise an Position 2. Mit sein: ich bin, du bist, er/sie ist, wir sind, ihr seid, Sie/sie sind. Fragen wie „Wie heißen Sie?“ beginnen mit einem Fragewort und danach folgt das Verb.\n\nBeispiele:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin.",
+        "ar": "قاعدة مختصرة: في الجملة الألمانية الرئيسية يأتي الفعل المصرف غالبًا في الموقع الثاني. مع sein: ich bin، du bist، er/sie ist… وفي أسئلة مثل Wie heißen Sie? تبدأ الجملة بأداة السؤال ثم يأتي الفعل.\n\nالأمثلة:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin.",
+        "en": "Key rule: In a German main clause the conjugated verb normally occupies position 2. With sein: ich bin, du bist, er/sie ist, wir sind, ihr seid, Sie/sie sind. W-questions begin with a question word followed by the verb.\n\nExamples:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin."
+      }
+    },
+    {
+      "id": "a1_u01_l01_act04",
       "type": "multiple_choice",
-      "prompt": { "de": "Was sagt man morgens?", "ar": "ماذا تقول في الصباح؟", "en": "What do you say in the morning?" },
-      "question": { "de": "Es ist 8:00 Uhr. Was sagst du?", "ar": "الساعة 8:00 صباحًا. ماذا تقول؟", "en": "It is 8:00 AM. What do you say?" },
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "Guten Tag",
+        "ar": "Guten Tag",
+        "en": "Guten Tag"
+      },
       "options": [
-        { "id": "opt1", "text": { "de": "Guten Morgen!", "ar": "Guten Morgen!", "en": "Guten Morgen!" } },
-        { "id": "opt2", "text": { "de": "Gute Nacht!", "ar": "Gute Nacht!", "en": "Gute Nacht!" } },
-        { "id": "opt3", "text": { "de": "Tschüss!", "ar": "Tschüss!", "en": "Tschüss!" } }
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Good day",
+            "ar": "مرحبًا / نهارك سعيد",
+            "en": "Good day"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "What is your name? (formal)",
+            "ar": "ما اسم حضرتك؟",
+            "en": "What is your name? (formal)"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "My name is …",
+            "ar": "اسمي …",
+            "en": "My name is …"
+          }
+        }
       ],
       "correctOptionId": "opt1"
     },
     {
       "id": "a1_u01_l01_act05",
-      "type": "listening_choice",
-      "audio": "audio/cc-by-sa/de-wie-heisst-du.ogg",
-      "prompt": { "de": "Was hast du gehört?", "ar": "ماذا سمعت؟", "en": "What did you hear?" },
-      "options": [
-        { "id": "opt1", "text": { "de": "Wie geht es dir?", "ar": "Wie geht es dir?", "en": "Wie geht es dir?" } },
-        { "id": "opt2", "text": { "de": "Wie heißt du?", "ar": "Wie heißt du?", "en": "Wie heißt du?" } },
-        { "id": "opt3", "text": { "de": "Woher kommst du?", "ar": "Woher kommst du?", "en": "Woher kommst du?" } }
-      ],
-      "correctOptionId": "opt2"
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} neu hier.",
+        "ar": "Ich {answer} neu hier.",
+        "en": "Ich {answer} neu hier."
+      },
+      "acceptedAnswers": [
+        "bin"
+      ]
     },
     {
       "id": "a1_u01_l01_act06",
-      "type": "cloze",
-      "sentenceTemplate": { "de": "Ich {answer} Anna.", "ar": "Ich {answer} Anna.", "en": "Ich {answer} Anna." },
-      "acceptedAnswers": ["heiße", "heisse"]
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Begrüßung & Vorstellung“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «التحية والتعارف». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Greetings & introductions”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
     },
     {
       "id": "a1_u01_l01_act07",
       "type": "lesson_summary",
-      "title": { "de": "Gut gemacht!", "ar": "أحسنت!", "en": "Well done!" },
-      "canDo": ["GREET_SIMPLE", "INTRODUCE_YOURSELF"]
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U01_FOUNDATION"
+      ]
     }
   ]
 }

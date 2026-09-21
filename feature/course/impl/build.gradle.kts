@@ -9,6 +9,7 @@ android {
 dependencies {
     implementation(project(":feature:course:api"))
     implementation(project(":core:common"))
+    implementation(project(":core:datastore"))
     implementation(project(":domain:curriculum"))
     implementation(project(":domain:learning"))
 }

@@ -1,0 +1,154 @@
+{
+  "id": "a1_u07_l02",
+  "unitId": "de-core-a1-u07",
+  "title": {
+    "de": "Im Supermarkt und Geschäft einkaufen",
+    "ar": "التسوق في السوبرماركت والمتجر",
+    "en": "Shopping in supermarkets and stores"
+  },
+  "canDo": [
+    "A1_U07_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u07_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Im Supermarkt und Geschäft einkaufen",
+        "ar": "التسوق في السوبرماركت والمتجر",
+        "en": "Shopping in supermarkets and stores"
+      },
+      "body": {
+        "de": "Realsituation:\nSupermarkt, Kleidungsladen oder Markt: Preis erfragen, Menge nennen, nach Größe/Farbe fragen und an der Kasse bezahlen.\n\nModelldialog:\nA: Entschuldigung, was kostet ein Kilo Äpfel?\nB: Zwei Euro neunzig.\nA: Dann nehme ich ein Kilo.\nB: Gern. Möchten Sie noch etwas?\n\nSprachfokus:\nPreise werden mit Euro und Cent angegeben: 2,49 € = zwei Euro neunundvierzig. Mengen stehen oft vor dem Nomen: ein Kilo Äpfel, eine Flasche Wasser. „brauchen“ nimmt ein Akkusativobjekt: Ich brauche einen Beutel.\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nالسوبرماركت أو متجر الملابس أو السوق: السؤال عن السعر والكمية والمقاس واللون والدفع عند الصندوق.\n\nحوار نموذجي:\nA: Entschuldigung, was kostet ein Kilo Äpfel?\nB: Zwei Euro neunzig.\nA: Dann nehme ich ein Kilo.\nB: Gern. Möchten Sie noch etwas?\n\nالتركيز اللغوي:\nتُذكر الأسعار باليورو والسنت. تأتي الكمية غالبًا قبل الاسم: ein Kilo Äpfel. فعل brauchen يأخذ مفعول Akkusativ: Ich brauche einen Beutel.\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nSupermarket, clothing store or market: ask price and quantity, request size/color and pay at checkout.\n\nModel dialogue:\nA: Entschuldigung, was kostet ein Kilo Äpfel?\nB: Zwei Euro neunzig.\nA: Dann nehme ich ein Kilo.\nB: Gern. Möchten Sie noch etwas?\n\nLanguage focus:\nPrices are given in euros and cents. Quantity expressions come before nouns: ein Kilo Äpfel. brauchen takes an accusative object: Ich brauche einen Beutel.\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u07_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u07_l02_w1",
+          "german": "die Kasse",
+          "translation": {
+            "de": "checkout",
+            "ar": "صندوق الدفع",
+            "en": "checkout"
+          }
+        },
+        {
+          "id": "a1_u07_l02_w2",
+          "german": "bar bezahlen",
+          "translation": {
+            "de": "pay cash",
+            "ar": "يدفع نقدًا",
+            "en": "pay cash"
+          }
+        },
+        {
+          "id": "a1_u07_l02_w3",
+          "german": "mit Karte bezahlen",
+          "translation": {
+            "de": "pay by card",
+            "ar": "يدفع بالبطاقة",
+            "en": "pay by card"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u07_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Preise werden mit Euro und Cent angegeben: 2,49 € = zwei Euro neunundvierzig. Mengen stehen oft vor dem Nomen: ein Kilo Äpfel, eine Flasche Wasser. „brauchen“ nimmt ein Akkusativobjekt: Ich brauche einen Beutel.\n\nBeispiele:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?",
+        "ar": "قاعدة مختصرة: تُذكر الأسعار باليورو والسنت. تأتي الكمية غالبًا قبل الاسم: ein Kilo Äpfel. فعل brauchen يأخذ مفعول Akkusativ: Ich brauche einen Beutel.\n\nالأمثلة:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?",
+        "en": "Key rule: Prices are given in euros and cents. Quantity expressions come before nouns: ein Kilo Äpfel. brauchen takes an accusative object: Ich brauche einen Beutel.\n\nExamples:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?"
+      }
+    },
+    {
+      "id": "a1_u07_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "die Kasse",
+        "ar": "die Kasse",
+        "en": "die Kasse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "checkout",
+            "ar": "صندوق الدفع",
+            "en": "checkout"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "pay cash",
+            "ar": "يدفع نقدًا",
+            "en": "pay cash"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "pay by card",
+            "ar": "يدفع بالبطاقة",
+            "en": "pay by card"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u07_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kann ich {answer} Karte bezahlen?",
+        "ar": "Kann ich {answer} Karte bezahlen?",
+        "en": "Kann ich {answer} Karte bezahlen?"
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "a1_u07_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Im Supermarkt und Geschäft einkaufen“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «التسوق في السوبرماركت والمتجر». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Shopping in supermarkets and stores”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u07_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U07_REAL_LIFE"
+      ]
+    }
+  ]
+}

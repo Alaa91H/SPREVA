@@ -1,0 +1,155 @@
+{
+  "id": "b2_u02_l01",
+  "unitId": "de-core-b2-u02",
+  "title": {
+    "de": "sich lassen, sein + zu, bekommen-Passiv und unpersönliche Formen",
+    "ar": "sich lassen وsein + zu وbekommen-Passiv والصيغ غير الشخصية",
+    "en": "sich lassen, sein + zu, bekommen-passive and impersonal forms"
+  },
+  "canDo": [
+    "B2_U02_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u02_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "sich lassen, sein + zu, bekommen-Passiv und unpersönliche Formen",
+        "ar": "sich lassen وsein + zu وbekommen-Passiv والصيغ غير الشخصية",
+        "en": "sich lassen, sein + zu, bekommen-passive and impersonal forms"
+      },
+      "body": {
+        "de": "Kompetenzziel: sich lassen, sein + zu, bekommen-Passiv und unpersönliche Formen\n\nSprachsystem:\nNeben werden-Passiv gibt es funktionale Alternativen: Das Problem lässt sich lösen = kann gelöst werden. Die Frist ist einzuhalten = muss eingehalten werden. Beim bekommen-Passiv rückt der Empfänger in den Fokus: Er bekommt die Unterlagen zugeschickt. Unpersönliche Formen mit man eignen sich für allgemein handelnde Personen.\n\nReferenzbeispiele:\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt.\n\nAnwendungsdomäne:\nTechnische Anleitung, Verwaltung, Beruf oder Bericht: Prozesse beschreiben, ohne ständig dieselbe Passivform zu verwenden.\n\nQualitätskontrolle:\nPassiversatzformen tragen unterschiedliche Modalität. „ist zu erledigen“ klingt verpflichtend, „lässt sich erledigen“ beschreibt Möglichkeit. Nicht semantisch gleichsetzen.",
+        "ar": "هدف الكفاءة: sich lassen وsein + zu وbekommen-Passiv والصيغ غير الشخصية\n\nالنظام اللغوي:\nإلى جانب werden-Passiv توجد بدائل: Das Problem lässt sich lösen = يمكن حله؛ Die Frist ist einzuhalten = يجب الالتزام بالمهلة؛ bekommen-Passiv يركز على المتلقي.\n\nأمثلة مرجعية:\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt.\n\nمجال التطبيق:\nتعليمات تقنية أو إدارة أو مهنة أو تقرير: وصف العمليات دون تكرار نفس المبني للمجهول.\n\nمراجعة الجودة:\nبدائل المبني للمجهول تحمل معاني مختلفة: ist zu erledigen إلزام، lässt sich erledigen إمكانية. لا تعتبرها مترادفة تمامًا.",
+        "en": "Competence goal: sich lassen, sein + zu, bekommen-passive and impersonal forms\n\nLanguage system:\nBesides the werden-passive, German has functional alternatives: Das Problem lässt sich lösen = can be solved; Die Frist ist einzuhalten = must be observed. The bekommen-passive focuses on the recipient. man is useful for general human agents.\n\nReference examples:\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt.\n\nApplication domain:\nTechnical instructions, administration, work or reports: describe processes without repeating the same passive form.\n\nQuality control:\nPassive alternatives carry different modality. ist zu erledigen signals obligation; lässt sich erledigen signals possibility. They are not semantically identical."
+      }
+    },
+    {
+      "id": "b2_u02_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u02_l01_w1",
+          "german": "sich lassen",
+          "translation": {
+            "de": "can be done",
+            "ar": "يمكن فعله",
+            "en": "can be done"
+          }
+        },
+        {
+          "id": "b2_u02_l01_w2",
+          "german": "einhalten",
+          "translation": {
+            "de": "comply with",
+            "ar": "يلتزم",
+            "en": "comply with"
+          }
+        },
+        {
+          "id": "b2_u02_l01_w3",
+          "german": "beheben",
+          "translation": {
+            "de": "remedy",
+            "ar": "يعالج/يصلح",
+            "en": "remedy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u02_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nNeben werden-Passiv gibt es funktionale Alternativen: Das Problem lässt sich lösen = kann gelöst werden. Die Frist ist einzuhalten = muss eingehalten werden. Beim bekommen-Passiv rückt der Empfänger in den Fokus: Er bekommt die Unterlagen zugeschickt. Unpersönliche Formen mit man eignen sich für allgemein handelnde Personen.\n\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt.",
+        "ar": "المبدأ الأساسي:\nإلى جانب werden-Passiv توجد بدائل: Das Problem lässt sich lösen = يمكن حله؛ Die Frist ist einzuhalten = يجب الالتزام بالمهلة؛ bekommen-Passiv يركز على المتلقي.\n\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt.",
+        "en": "Core principle:\nBesides the werden-passive, German has functional alternatives: Das Problem lässt sich lösen = can be solved; Die Frist ist einzuhalten = must be observed. The bekommen-passive focuses on the recipient. man is useful for general human agents.\n\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt."
+      }
+    },
+    {
+      "id": "b2_u02_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "sich lassen",
+        "ar": "sich lassen",
+        "en": "sich lassen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "can be done",
+            "ar": "يمكن فعله",
+            "en": "can be done"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "comply with",
+            "ar": "يلتزم",
+            "en": "comply with"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "remedy",
+            "ar": "يعالج/يصلح",
+            "en": "remedy"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u02_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Problem lässt sich leicht {answer}.",
+        "ar": "Das Problem lässt sich leicht {answer}.",
+        "en": "Das Problem lässt sich leicht {answer}."
+      },
+      "acceptedAnswers": [
+        "lösen",
+        "loesen"
+      ]
+    },
+    {
+      "id": "b2_u02_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Passiversatz & Handlungsfokus“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «بدائل المبني للمجهول وتركيز الفعل». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Passive alternatives & action focus”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u02_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U02_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "b1_u13_l02",
+  "unitId": "de-core-b1-u13",
+  "title": {
+    "de": "Ein B1-Thema präsentieren und diskutieren",
+    "ar": "عرض موضوع B1 ومناقشته",
+    "en": "Presenting and discussing a B1 topic"
+  },
+  "canDo": [
+    "B1_U13_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u13_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Ein B1-Thema präsentieren und diskutieren",
+        "ar": "عرض موضوع B1 ومناقشته",
+        "en": "Presenting and discussing a B1 topic"
+      },
+      "body": {
+        "de": "Authentische Situation:\nSprachprüfung, Weiterbildung, Team oder Verein: über Mobilität, Recycling, Integration, Wohnen oder digitale Themen drei bis fünf Minuten strukturiert sprechen.\n\nModelldialog:\nA: Möchtest du noch etwas ergänzen?\nB: Ja. Ein weiterer Punkt ist die Bezahlbarkeit.\nA: Stimmst du dem Vorschlag zu?\nB: Teilweise. Ich sehe Vorteile, aber die Umsetzung wäre schwierig.\n\nSprachliche Entscheidung:\nEine klare Präsentation braucht Einleitung, Gliederung, Beispiele, eigene Position und Schluss. Signale: Zuerst möchte ich …; Ein wichtiger Punkt ist …; Zum Beispiel …; Zusammenfassend … In Diskussionen: Ich stimme teilweise zu, aber … / Dazu möchte ich ergänzen …\n\nTransfer: Führe denselben Austausch mit neuen Daten. Ergänze eine Begründung, eine Rückfrage und eine angemessene Reaktion.",
+        "ar": "موقف واقعي:\nامتحان لغة أو تدريب أو فريق أو جمعية: الحديث 3–5 دقائق بشكل منظم عن النقل أو التدوير أو الاندماج أو السكن أو الرقمنة.\n\nحوار نموذجي:\nA: Möchtest du noch etwas ergänzen?\nB: Ja. Ein weiterer Punkt ist die Bezahlbarkeit.\nA: Stimmst du dem Vorschlag zu?\nB: Teilweise. Ich sehe Vorteile, aber die Umsetzung wäre schwierig.\n\nالقرار اللغوي:\nالعرض الواضح يحتاج مقدمة وخطة وأمثلة ورأي وخاتمة. استخدم إشارات تنظيمية مثل Zuerst… وEin wichtiger Punkt… وZusammenfassend…\n\nتطبيق: أعد الحوار ببيانات جديدة، وأضف تعليلًا وسؤال متابعة وردًا مناسبًا.",
+        "en": "Authentic situation:\nLanguage exam, training, team or association: speak for 3–5 minutes in a structured way about mobility, recycling, integration, housing or digital topics.\n\nModel dialogue:\nA: Möchtest du noch etwas ergänzen?\nB: Ja. Ein weiterer Punkt ist die Bezahlbarkeit.\nA: Stimmst du dem Vorschlag zu?\nB: Teilweise. Ich sehe Vorteile, aber die Umsetzung wäre schwierig.\n\nLanguage choice:\nA clear presentation needs introduction, structure, examples, your position and conclusion. Use signposting such as Zuerst möchte ich …, Ein wichtiger Punkt ist …, Zusammenfassend …. In discussion, respond explicitly and politely.\n\nTransfer: Repeat the exchange with new details, adding a reason, follow-up question and appropriate response."
+      }
+    },
+    {
+      "id": "b1_u13_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u13_l02_w1",
+          "german": "die Umsetzung",
+          "translation": {
+            "de": "implementation",
+            "ar": "التنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "b1_u13_l02_w2",
+          "german": "zusammenfassend",
+          "translation": {
+            "de": "in summary",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "b1_u13_l02_w3",
+          "german": "ergänzen",
+          "translation": {
+            "de": "add",
+            "ar": "يضيف",
+            "en": "add"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u13_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nEine klare Präsentation braucht Einleitung, Gliederung, Beispiele, eigene Position und Schluss. Signale: Zuerst möchte ich …; Ein wichtiger Punkt ist …; Zum Beispiel …; Zusammenfassend … In Diskussionen: Ich stimme teilweise zu, aber … / Dazu möchte ich ergänzen …\n\nKontrastive Beispiele:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.",
+        "ar": "القاعدة:\nالعرض الواضح يحتاج مقدمة وخطة وأمثلة ورأي وخاتمة. استخدم إشارات تنظيمية مثل Zuerst… وEin wichtiger Punkt… وZusammenfassend…\n\nأمثلة:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.",
+        "en": "Rule:\nA clear presentation needs introduction, structure, examples, your position and conclusion. Use signposting such as Zuerst möchte ich …, Ein wichtiger Punkt ist …, Zusammenfassend …. In discussion, respond explicitly and politely.\n\nExamples:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll."
+      }
+    },
+    {
+      "id": "b1_u13_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "die Umsetzung",
+        "ar": "die Umsetzung",
+        "en": "die Umsetzung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "implementation",
+            "ar": "التنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "in summary",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "add",
+            "ar": "يضيف",
+            "en": "add"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u13_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zusammenfassend {answer} ich die Maßnahme für sinnvoll.",
+        "ar": "Zusammenfassend {answer} ich die Maßnahme für sinnvoll.",
+        "en": "Zusammenfassend {answer} ich die Maßnahme für sinnvoll."
+      },
+      "acceptedAnswers": [
+        "halte"
+      ]
+    },
+    {
+      "id": "b1_u13_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Umwelt, Gesellschaft & Präsentation“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «البيئة والمجتمع والعرض». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Environment, society & presentation”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u13_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U13_REAL_LIFE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "a2_u13_l02",
+  "unitId": "de-core-a2-u13",
+  "title": {
+    "de": "Probleme höflich lösen",
+    "ar": "حل المشكلات بأدب",
+    "en": "Solving problems politely"
+  },
+  "canDo": [
+    "A2_U13_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a2_u13_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Probleme höflich lösen",
+        "ar": "حل المشكلات بأدب",
+        "en": "Solving problems politely"
+      },
+      "body": {
+        "de": "Realsituation:\nHotel, Bahn, Bank, Post oder Kundenservice: Problem beschreiben, nach Lösung fragen, Umtausch/Erstattung/Information höflich verlangen.\n\nModelldialog:\nA: Entschuldigung, mein Zimmer ist sehr laut.\nB: Das tut mir leid.\nA: Könnten Sie prüfen, ob ein anderes Zimmer frei ist?\nB: Ja, ich schaue sofort nach.\n\nSprachfokus:\nHöfliche Fragen verwenden oft könnte/würde: Könnten Sie mir helfen? Ich würde gern das Zimmer wechseln. Indirekte W-Fragen behalten das Fragewort, aber das Verb steht am Ende: Wissen Sie, wann der Zug fährt? Ja/Nein-Fragen werden indirekt mit ob eingeleitet.\n\nTransfer: Passe den Dialog an deine Situation an, stelle eine Rückfrage und formuliere eine höfliche Alternative.",
+        "ar": "الموقف الواقعي:\nالفندق أو القطار أو البنك أو البريد أو خدمة العملاء: وصف المشكلة وطلب حل أو استبدال أو استرداد أو معلومات بأدب.\n\nحوار نموذجي:\nA: Entschuldigung, mein Zimmer ist sehr laut.\nB: Das tut mir leid.\nA: Könnten Sie prüfen, ob ein anderes Zimmer frei ist?\nB: Ja, ich schaue sofort nach.\n\nالتركيز اللغوي:\nالأسئلة المهذبة تستخدم كثيرًا könnte/würde. في السؤال غير المباشر يأتي الفعل في النهاية: Wissen Sie, wann der Zug fährt? وأسئلة نعم/لا تبدأ بـ ob.\n\nتطبيق: عدّل الحوار ليلائم وضعك، أضف سؤال متابعة وصياغة بديلة مهذبة.",
+        "en": "Real-life situation:\nHotel, rail, bank, post office or customer service: describe a problem and politely request a solution, exchange, refund or information.\n\nModel dialogue:\nA: Entschuldigung, mein Zimmer ist sehr laut.\nB: Das tut mir leid.\nA: Könnten Sie prüfen, ob ein anderes Zimmer frei ist?\nB: Ja, ich schaue sofort nach.\n\nLanguage focus:\nPolite questions often use könnte/würde. In indirect W-questions the verb goes to the end: Wissen Sie, wann der Zug fährt? Indirect yes/no questions use ob.\n\nTransfer: Adapt the dialogue to your situation, add a follow-up question and a polite alternative."
+      }
+    },
+    {
+      "id": "a2_u13_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u13_l02_w1",
+          "german": "der Kundenservice",
+          "translation": {
+            "de": "customer service",
+            "ar": "خدمة العملاء",
+            "en": "customer service"
+          }
+        },
+        {
+          "id": "a2_u13_l02_w2",
+          "german": "prüfen",
+          "translation": {
+            "de": "check",
+            "ar": "يتحقق",
+            "en": "check"
+          }
+        },
+        {
+          "id": "a2_u13_l02_w3",
+          "german": "die Lösung",
+          "translation": {
+            "de": "solution",
+            "ar": "الحل",
+            "en": "solution"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u13_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Regelnetz & Beispiele",
+        "ar": "شبكة القاعدة والأمثلة",
+        "en": "Rule network & examples"
+      },
+      "body": {
+        "de": "Merksatz:\nHöfliche Fragen verwenden oft könnte/würde: Könnten Sie mir helfen? Ich würde gern das Zimmer wechseln. Indirekte W-Fragen behalten das Fragewort, aber das Verb steht am Ende: Wissen Sie, wann der Zug fährt? Ja/Nein-Fragen werden indirekt mit ob eingeleitet.\n\n• Könnten Sie mir bitte helfen?\n• Wissen Sie, wann der nächste Zug fährt?\n• Ich würde gern dieses Zimmer wechseln.",
+        "ar": "قاعدة مختصرة:\nالأسئلة المهذبة تستخدم كثيرًا könnte/würde. في السؤال غير المباشر يأتي الفعل في النهاية: Wissen Sie, wann der Zug fährt? وأسئلة نعم/لا تبدأ بـ ob.\n\n• Könnten Sie mir bitte helfen?\n• Wissen Sie, wann der nächste Zug fährt?\n• Ich würde gern dieses Zimmer wechseln.",
+        "en": "Key rule:\nPolite questions often use könnte/würde. In indirect W-questions the verb goes to the end: Wissen Sie, wann der Zug fährt? Indirect yes/no questions use ob.\n\n• Könnten Sie mir bitte helfen?\n• Wissen Sie, wann der nächste Zug fährt?\n• Ich würde gern dieses Zimmer wechseln."
+      }
+    },
+    {
+      "id": "a2_u13_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "اختر المعنى المناسب",
+        "en": "Choose the matching meaning"
+      },
+      "question": {
+        "de": "der Kundenservice",
+        "ar": "der Kundenservice",
+        "en": "der Kundenservice"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "customer service",
+            "ar": "خدمة العملاء",
+            "en": "customer service"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "check",
+            "ar": "يتحقق",
+            "en": "check"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "solution",
+            "ar": "الحل",
+            "en": "solution"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u13_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wissen Sie, wann der Zug {answer}?",
+        "ar": "Wissen Sie, wann der Zug {answer}?",
+        "en": "Wissen Sie, wann der Zug {answer}?"
+      },
+      "acceptedAnswers": [
+        "fährt",
+        "faehrt"
+      ]
+    },
+    {
+      "id": "a2_u13_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Produktion & Selbstkontrolle",
+        "ar": "الإنتاج والمراجعة الذاتية",
+        "en": "Production & self-check"
+      },
+      "body": {
+        "de": "Transferaufgabe: Schreibe sechs zusammenhängende Sätze zu „Reisen, Service & Beschwerden“. Verwende die Zielstruktur mindestens zweimal und markiere danach Verbposition, Kasus oder Endung.",
+        "ar": "مهمة تطبيقية: اكتب ست جمل مترابطة حول «السفر والخدمات والشكاوى». استخدم البنية المستهدفة مرتين على الأقل ثم راجع موقع الفعل والحالة الإعرابية أو النهايات.",
+        "en": "Transfer task: Write six connected sentences about “Travel, service & complaints”. Use the target structure at least twice, then check verb position, case or endings."
+      }
+    },
+    {
+      "id": "a2_u13_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Kompetenz gesichert",
+        "ar": "تم تثبيت مهارة A2",
+        "en": "A2 skill secured"
+      },
+      "canDo": [
+        "A2_U13_REAL_LIFE"
+      ]
+    }
+  ]
+}

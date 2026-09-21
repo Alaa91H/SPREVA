@@ -1,0 +1,296 @@
+{
+  "id": "b1_u05_l03",
+  "unitId": "de-core-b1-u05",
+  "title": {
+    "de": "Intensivtraining: Ziele & Infinitivkonstruktionen",
+    "ar": "تدريب مكثف: الأهداف وتراكيب المصدر",
+    "en": "Mastery lab: Goals & infinitive constructions"
+  },
+  "canDo": [
+    "B1_U05_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u05_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Ziele & Infinitivkonstruktionen“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz in eine zweite Struktur umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «الأهداف وتراكيب المصدر». بعد كل حل: اشرح القرار النحوي، حوّل الجملة إلى بنية ثانية، ثم عبّر عن المعنى نفسه في موقف واقعي جديد.",
+        "en": "Deepen “Goals & infinitive constructions”. After each solution explain the grammatical choice, transform the sentence into a second structure and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u05_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u05_l03_w1",
+          "german": "das Ziel",
+          "translation": {
+            "de": "goal",
+            "ar": "الهدف",
+            "en": "goal"
+          }
+        },
+        {
+          "id": "b1_u05_l03_w2",
+          "german": "versuchen",
+          "translation": {
+            "de": "try",
+            "ar": "يحاول",
+            "en": "try"
+          }
+        },
+        {
+          "id": "b1_u05_l03_w3",
+          "german": "vermeiden",
+          "translation": {
+            "de": "avoid",
+            "ar": "يتجنب",
+            "en": "avoid"
+          }
+        },
+        {
+          "id": "b1_u05_l03_w4",
+          "german": "statt",
+          "translation": {
+            "de": "instead of",
+            "ar": "بدلًا من",
+            "en": "instead of"
+          }
+        },
+        {
+          "id": "b1_u05_l03_w5",
+          "german": "ohne",
+          "translation": {
+            "de": "without",
+            "ar": "دون",
+            "en": "without"
+          }
+        },
+        {
+          "id": "b1_u05_l03_w6",
+          "german": "verbessern",
+          "translation": {
+            "de": "improve",
+            "ar": "يحسن",
+            "en": "improve"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u05_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich lerne, um die Prüfung zu {answer}.",
+        "ar": "Ich lerne, um die Prüfung zu {answer}.",
+        "en": "Ich lerne, um die Prüfung zu {answer}."
+      },
+      "acceptedAnswers": [
+        "bestehen"
+      ]
+    },
+    {
+      "id": "b1_u05_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er ging, ohne sich zu {answer}.",
+        "ar": "Er ging, ohne sich zu {answer}.",
+        "en": "Er ging, ohne sich zu {answer}."
+      },
+      "acceptedAnswers": [
+        "verabschieden"
+      ]
+    },
+    {
+      "id": "b1_u05_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich lerne jeden Tag, um {answer} Prüfung zu bestehen.",
+        "ar": "Ich lerne jeden Tag, um {answer} Prüfung zu bestehen.",
+        "en": "Ich lerne jeden Tag, um {answer} Prüfung zu bestehen."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b1_u05_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er ging, ohne sich {answer} verabschieden.",
+        "ar": "Er ging, ohne sich {answer} verabschieden.",
+        "en": "Er ging, ohne sich {answer} verabschieden."
+      },
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "b1_u05_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Statt anzurufen, schrieb sie eine {answer}-Mail.",
+        "ar": "Statt anzurufen, schrieb sie eine {answer}-Mail.",
+        "en": "Statt anzurufen, schrieb sie eine {answer}-Mail."
+      },
+      "acceptedAnswers": [
+        "E"
+      ]
+    },
+    {
+      "id": "b1_u05_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Arbeit, Lernen, Gesundheit {answer} Organisation: Ziele formulieren, Schritte erklären und bessere Alternativen beschreiben.",
+        "ar": "Arbeit, Lernen, Gesundheit {answer} Organisation: Ziele formulieren, Schritte erklären und bessere Alternativen beschreiben.",
+        "en": "Arbeit, Lernen, Gesundheit {answer} Organisation: Ziele formulieren, Schritte erklären und bessere Alternativen beschreiben."
+      },
+      "acceptedAnswers": [
+        "und"
+      ]
+    },
+    {
+      "id": "b1_u05_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "das Ziel",
+        "ar": "das Ziel",
+        "en": "das Ziel"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "goal",
+            "ar": "الهدف",
+            "en": "goal"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "try",
+            "ar": "يحاول",
+            "en": "try"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "avoid",
+            "ar": "يتجنب",
+            "en": "avoid"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u05_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "statt",
+        "ar": "statt",
+        "en": "statt"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "instead of",
+            "ar": "بدلًا من",
+            "en": "instead of"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "without",
+            "ar": "دون",
+            "en": "without"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "improve",
+            "ar": "يحسن",
+            "en": "improve"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u05_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Ich lerne jeden Tag, um die Prüfung zu bestehen.\n2. Er ging, ohne sich zu verabschieden.\n3. Statt anzurufen, schrieb sie eine E-Mail.\n4. Arbeit, Lernen, Gesundheit und Organisation: Ziele formulieren, Schritte erklären und bessere Alternativen beschreiben.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp (Kasus, Tempus, Verbposition, Konnektor, Relativpronomen, Passiv/Modalität), korrigiere und bilde danach eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Ich lerne jeden Tag, um die Prüfung zu bestehen.\n2. Er ging, ohne sich zu verabschieden.\n3. Statt anzurufen, schrieb sie eine E-Mail.\n4. Arbeit, Lernen, Gesundheit und Organisation: Ziele formulieren, Schritte erklären und bessere Alternativen beschreiben.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة. سمِّ نوع الخطأ (الحالة، الزمن، موقع الفعل، الرابط، ضمير الوصل، المبني للمجهول/الدلالة)، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Ich lerne jeden Tag, um die Prüfung zu bestehen.\n2. Er ging, ohne sich zu verabschieden.\n3. Statt anzurufen, schrieb sie eine E-Mail.\n4. Arbeit, Lernen, Gesundheit und Organisation: Ziele formulieren, Schritte erklären und bessere Alternativen beschreiben.\n\nCreate one plausible wrong form for each pattern. Name the error type (case, tense, word order, connector, relative pronoun, passive/modality), correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u05_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Transformiere die Kernaussagen: Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "حوّل الأفكار: معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ جملة رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان قصيرتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Transform key statements: active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; two short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u05_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische die Zielstruktur mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten: mindestens drei Zielstrukturen, zwei Konnektoren, eine Rückfrage und eine Selbstkorrektur. Wiederhole dieselbe Aufgabe später mit neuem Kontext.",
+        "ar": "امزج البنية المستهدفة مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين: ثلاث بنيات مستهدفة، رابطان، سؤال متابعة وتصحيح ذاتي. أعد المهمة لاحقًا بسياق جديد.",
+        "en": "Interleave the target with two earlier B1 topics. Write 80–120 words or speak for two minutes using at least three target structures, two connectors, one follow-up question and one self-correction. Repeat later in a new context."
+      }
+    },
+    {
+      "id": "b1_u05_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U05_MASTERY"
+      ]
+    }
+  ]
+}

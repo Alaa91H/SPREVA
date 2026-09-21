@@ -59,3 +59,15 @@ class GradeReview @javax.inject.Inject constructor(
         return graded
     }
 }
+
+
+/** Preview-only scheduling options; does not mutate the card or database. */
+class PreviewReview @javax.inject.Inject constructor(
+    private val scheduler: com.spreva.core.memory.ReviewScheduler,
+) {
+    operator fun invoke(
+        card: ReviewCard,
+        nowEpochMs: Long,
+    ): Map<ReviewRating, java.time.Instant> =
+        scheduler.preview(card, java.time.Instant.ofEpochMilli(nowEpochMs))
+}

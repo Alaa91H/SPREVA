@@ -1,0 +1,378 @@
+{
+  "id": "c1_u16_l04",
+  "unitId": "de-core-c1-u16",
+  "title": {
+    "de": "Integrations-Casebook",
+    "ar": "دفتر حالات التكامل",
+    "en": "Integration casebook"
+  },
+  "canDo": [
+    "C1_U16_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u16_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Casebook",
+        "ar": "دفتر حالات التكامل",
+        "en": "Integration casebook"
+      },
+      "body": {
+        "de": "Casebook-Ziel: Redigiere einen 250-Wörter-Text in mehreren Durchgängen und dokumentiere Änderungen an Fokus, Quelle, Evidenzgrad, Kollokation, Register und Kürze. Trenne Fehler in Grammatik, Bedeutung, Register und Informationsstruktur; korrigiere anschließend minimal und vollständig.",
+        "ar": "هدف دفتر الحالات: Redigiere einen 250-Wörter-Text in mehreren Durchgängen und dokumentiere Änderungen an Fokus, Quelle, Evidenzgrad, Kollokation, Register und Kürze. صنّف الأخطاء إلى نحو ومعنى وسجل وبنية معلومات، ثم صحح بأقل تغيير وبصياغة كاملة.",
+        "en": "Casebook goal: Redigiere einen 250-Wörter-Text in mehreren Durchgängen und dokumentiere Änderungen an Fokus, Quelle, Evidenzgrad, Kollokation, Register und Kürze. Classify errors into grammar, meaning, register and information structure, then repair minimally and fully."
+      }
+    },
+    {
+      "id": "c1_u16_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u16_l04_w1",
+          "german": "quellentreu",
+          "translation": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        },
+        {
+          "id": "c1_u16_l04_w2",
+          "german": "Operationalisierung",
+          "translation": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        },
+        {
+          "id": "c1_u16_l04_w3",
+          "german": "Präsupposition",
+          "translation": {
+            "de": "Präsupposition",
+            "ar": "افتراض مسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "c1_u16_l04_w4",
+          "german": "Kohärenz",
+          "translation": {
+            "de": "Kohärenz",
+            "ar": "تماسك",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "c1_u16_l04_w5",
+          "german": "reframen",
+          "translation": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "c1_u16_l04_w6",
+          "german": "Evidenzgrad",
+          "translation": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u16_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das System kann plausible, aber falsche Ausgaben {answer}.",
+        "ar": "Das System kann plausible, aber falsche Ausgaben {answer}.",
+        "en": "Das System kann plausible, aber falsche Ausgaben {answer}."
+      },
+      "acceptedAnswers": [
+        "erzeugen"
+      ]
+    },
+    {
+      "id": "c1_u16_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Zuverlässigkeit hängt vom {answer} ab.",
+        "ar": "Die Zuverlässigkeit hängt vom {answer} ab.",
+        "en": "Die Zuverlässigkeit hängt vom {answer} ab."
+      },
+      "acceptedAnswers": [
+        "Einsatzkontext"
+      ]
+    },
+    {
+      "id": "c1_u16_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Pronomenbezug muss {answer} werden.",
+        "ar": "Der Pronomenbezug muss {answer} werden.",
+        "en": "Der Pronomenbezug muss {answer} werden."
+      },
+      "acceptedAnswers": [
+        "präzisiert"
+      ]
+    },
+    {
+      "id": "c1_u16_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Text sollte sprachlich {answer} werden.",
+        "ar": "Der Text sollte sprachlich {answer} werden.",
+        "en": "Der Text sollte sprachlich {answer} werden."
+      },
+      "acceptedAnswers": [
+        "gestrafft"
+      ]
+    },
+    {
+      "id": "c1_u16_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Quellen müssen {answer} wiedergegeben werden.",
+        "ar": "Die Quellen müssen {answer} wiedergegeben werden.",
+        "en": "Die Quellen müssen {answer} wiedergegeben werden."
+      },
+      "acceptedAnswers": [
+        "quellentreu"
+      ]
+    },
+    {
+      "id": "c1_u16_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der {answer} der Formulierung muss zur Datenlage passen.",
+        "ar": "Der {answer} der Formulierung muss zur Datenlage passen.",
+        "en": "Der {answer} der Formulierung muss zur Datenlage passen."
+      },
+      "acceptedAnswers": [
+        "Evidenzgrad"
+      ]
+    },
+    {
+      "id": "c1_u16_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Kohärenz",
+        "ar": "Kohärenz",
+        "en": "Kohärenz"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kohärenz",
+            "ar": "تماسك",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "reframen",
+        "ar": "reframen",
+        "en": "reframen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Evidenzgrad",
+        "ar": "Evidenzgrad",
+        "en": "Evidenzgrad"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "quellentreu",
+        "ar": "quellentreu",
+        "en": "quellentreu"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Präsupposition",
+            "ar": "افتراض مسبق",
+            "en": "presupposition"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdiagnose",
+        "ar": "تشخيص الفروق",
+        "en": "Contrast diagnosis"
+      },
+      "body": {
+        "de": "Nimm jede Lösung und formuliere eine sehr ähnliche, aber falsche oder unpassende Variante. Erkläre exakt, welcher Faktor den Unterschied macht.",
+        "ar": "لكل حل أنشئ صيغة شديدة الشبه لكنها خاطئة أو غير مناسبة، واشرح العامل الذي أحدث الفرق بدقة.",
+        "en": "For each solution create a very similar but wrong or inappropriate variant and explain exactly which factor creates the difference."
+      }
+    },
+    {
+      "id": "c1_u16_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Prüfungssimulation",
+        "ar": "محاكاة اختبار",
+        "en": "Exam simulation"
+      },
+      "body": {
+        "de": "Bearbeite alle Fälle ohne Zurückspringen. Danach zweite Runde nur mit den unsicheren Aufgaben und begründe jede Änderung.",
+        "ar": "حل جميع الحالات دون الرجوع للخلف. ثم جولة ثانية فقط للمهام غير المؤكدة مع تعليل كل تغيير.",
+        "en": "Complete all cases without going back. Then do a second pass only on uncertain items and justify every change."
+      }
+    },
+    {
+      "id": "c1_u16_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Abschlussleistung",
+        "ar": "المهمة الختامية",
+        "en": "Final performance"
+      },
+      "body": {
+        "de": "Redigiere einen 250-Wörter-Text in mehreren Durchgängen und dokumentiere Änderungen an Fokus, Quelle, Evidenzgrad, Kollokation, Register und Kürze.",
+        "ar": "Redigiere einen 250-Wörter-Text in mehreren Durchgängen und dokumentiere Änderungen an Fokus, Quelle, Evidenzgrad, Kollokation, Register und Kürze.",
+        "en": "Redigiere einen 250-Wörter-Text in mehreren Durchgängen und dokumentiere Änderungen an Fokus, Quelle, Evidenzgrad, Kollokation, Register und Kürze."
+      }
+    },
+    {
+      "id": "c1_u16_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Integrations-Casebook",
+        "ar": "دفتر تكامل C1",
+        "en": "C1 integration casebook"
+      },
+      "canDo": [
+        "C1_U16_CASEBOOK"
+      ]
+    }
+  ]
+}

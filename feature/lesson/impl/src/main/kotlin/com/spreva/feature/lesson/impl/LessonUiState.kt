@@ -3,6 +3,8 @@ package com.spreva.feature.lesson.impl
 import com.spreva.core.audio.TtsStatus
 import com.spreva.core.model.ActivityId
 import com.spreva.core.model.Lesson
+import com.spreva.core.model.ProductionRubric
+import com.spreva.core.model.RubricRating
 
 /** Grading result of the current activity attempt. */
 data class AnswerState(
@@ -50,7 +52,25 @@ data class LessonUiState(
     val similarityScore: Float? = null,
     /** Audit §11: non-null when MediaRecorder failed to start (no crash). */
     val recordingError: String? = null,
+    /** Duration of the latest free-speaking/shadowing take. */
+    val recordingDurationMs: Long? = null,
+    /** Objective exam-style items attempted/correct in the current lesson session. */
+    val objectiveAttempted: Int = 0,
+    val objectiveCorrect: Int = 0,
+    /** Productive tasks are tracked for completion only, never linguistic-quality scoring. */
+    val productiveAttempted: Int = 0,
+    val productiveCompleted: Int = 0,
+    /** Criterion-referenced learner self-review for productive tasks. */
+    val productionRubric: ProductionRubric? = null,
+    val rubricRatings: Map<String, RubricRating> = emptyMap(),
+    val rubricSubmitted: Boolean = false,
+    val rubricSaving: Boolean = false,
+    val rubricScorePercent: Int? = null,
+    val rubricSaveError: String? = null,
 ) {
+    val canSubmitRubric: Boolean
+        get() = productionRubric?.criteria?.all { rubricRatings.containsKey(it.id) } == true
+
     /** Whether the Check button should be enabled for the current activity. */
     val canCheck: Boolean
         get() {
@@ -59,6 +79,10 @@ data class LessonUiState(
                 is com.spreva.core.model.LearningActivity.MultipleChoice -> selectedOptionId != null
                 is com.spreva.core.model.LearningActivity.ListeningChoice -> selectedOptionId != null
                 is com.spreva.core.model.LearningActivity.Cloze -> typedAnswer.isNotBlank()
+                is com.spreva.core.model.LearningActivity.Dictation -> typedAnswer.isNotBlank()
+                is com.spreva.core.model.LearningActivity.FreeWrite ->
+                    typedAnswer.trim().split(Regex("\\s+")).count { it.isNotBlank() } >= activity.minWords
+                is com.spreva.core.model.LearningActivity.SpeakingPrompt -> hasRecording
                 else -> true
             }
         }

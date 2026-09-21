@@ -1,0 +1,297 @@
+{
+  "id": "a1_u13_l03",
+  "unitId": "de-core-a1-u13",
+  "title": {
+    "de": "Intensivtraining: Freizeit, Wetter & Einladungen",
+    "ar": "تدريب مكثف: وقت الفراغ والطقس والدعوات",
+    "en": "Mastery lab: Leisure, weather & invitations"
+  },
+  "canDo": [
+    "A1_U13_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u13_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Freizeit, Wetter & Einladungen“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.",
+        "ar": "تدريب مكثف على «وقت الفراغ والطقس والدعوات». بعد كل إجابة اذكر القاعدة وأنشئ مثالًا ثانيًا واشرح خطأً شائعًا.",
+        "en": "Intensive practice for “Leisure, weather & invitations”. After every answer state the rule, create a second example and explain one typical error."
+      }
+    },
+    {
+      "id": "a1_u13_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u13_l03_w1",
+          "german": "die Freizeit",
+          "translation": {
+            "de": "free time",
+            "ar": "وقت الفراغ",
+            "en": "free time"
+          }
+        },
+        {
+          "id": "a1_u13_l03_w2",
+          "german": "spazieren gehen",
+          "translation": {
+            "de": "go for a walk",
+            "ar": "يتمشى",
+            "en": "go for a walk"
+          }
+        },
+        {
+          "id": "a1_u13_l03_w3",
+          "german": "das Wetter",
+          "translation": {
+            "de": "weather",
+            "ar": "الطقس",
+            "en": "weather"
+          }
+        },
+        {
+          "id": "a1_u13_l03_w4",
+          "german": "sonnig",
+          "translation": {
+            "de": "sunny",
+            "ar": "مشمس",
+            "en": "sunny"
+          }
+        },
+        {
+          "id": "a1_u13_l03_w5",
+          "german": "einladen",
+          "translation": {
+            "de": "invite",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "a1_u13_l03_w6",
+          "german": "leider",
+          "translation": {
+            "de": "unfortunately",
+            "ar": "للأسف",
+            "en": "unfortunately"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u13_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich gehe {answer} schwimmen.",
+        "ar": "Ich gehe {answer} schwimmen.",
+        "en": "Ich gehe {answer} schwimmen."
+      },
+      "acceptedAnswers": [
+        "gern"
+      ]
+    },
+    {
+      "id": "a1_u13_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} du am Samstag mitkommen?",
+        "ar": "{answer} du am Samstag mitkommen?",
+        "en": "{answer} du am Samstag mitkommen?"
+      },
+      "acceptedAnswers": [
+        "Möchtest",
+        "Moechtest"
+      ]
+    },
+    {
+      "id": "a1_u13_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Vorlieben: Ich mag Musik / Ich spiele gern Fußball. {answer} Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.",
+        "ar": "Vorlieben: Ich mag Musik / Ich spiele gern Fußball. {answer} Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.",
+        "en": "Vorlieben: Ich mag Musik / Ich spiele gern Fußball. {answer} Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“."
+      },
+      "acceptedAnswers": [
+        "Ein"
+      ]
+    },
+    {
+      "id": "a1_u13_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} gehe gern spazieren.",
+        "ar": "{answer} gehe gern spazieren.",
+        "en": "{answer} gehe gern spazieren."
+      },
+      "acceptedAnswers": [
+        "Ich"
+      ]
+    },
+    {
+      "id": "a1_u13_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Möchtest du {answer} Samstag mitkommen?",
+        "ar": "Möchtest du {answer} Samstag mitkommen?",
+        "en": "Möchtest du {answer} Samstag mitkommen?"
+      },
+      "acceptedAnswers": [
+        "am"
+      ]
+    },
+    {
+      "id": "a1_u13_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Leider kann ich nicht, aber {answer} Sonntag habe ich Zeit.",
+        "ar": "Leider kann ich nicht, aber {answer} Sonntag habe ich Zeit.",
+        "en": "Leider kann ich nicht, aber {answer} Sonntag habe ich Zeit."
+      },
+      "acceptedAnswers": [
+        "am"
+      ]
+    },
+    {
+      "id": "a1_u13_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Freizeit",
+        "ar": "die Freizeit",
+        "en": "die Freizeit"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "free time",
+            "ar": "وقت الفراغ",
+            "en": "free time"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "go for a walk",
+            "ar": "يتمشى",
+            "en": "go for a walk"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weather",
+            "ar": "الطقس",
+            "en": "weather"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u13_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "sonnig",
+        "ar": "sonnig",
+        "en": "sonnig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sunny",
+            "ar": "مشمس",
+            "en": "sunny"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "invite",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "unfortunately",
+            "ar": "للأسف",
+            "en": "unfortunately"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u13_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Vorlieben: Ich mag Musik / Ich spiele gern Fußball. Ein Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.\n2. Ich gehe gern spazieren.\n3. Möchtest du am Samstag mitkommen?\n4. Leider kann ich nicht, aber am Sonntag habe ich Zeit.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre und korrigiere.",
+        "ar": "نماذج صحيحة:\n1. Vorlieben: Ich mag Musik / Ich spiele gern Fußball. Ein Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.\n2. Ich gehe gern spazieren.\n3. Möchtest du am Samstag mitkommen?\n4. Leider kann ich nicht, aber am Sonntag habe ich Zeit.\n\nحدّد الصيغة الحاسمة وأنشئ خطأً شائعًا ثم اشرح وصحح.",
+        "en": "Correct patterns:\n1. Vorlieben: Ich mag Musik / Ich spiele gern Fußball. Ein Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.\n2. Ich gehe gern spazieren.\n3. Möchtest du am Samstag mitkommen?\n4. Leider kann ich nicht, aber am Sonntag habe ich Zeit.\n\nMark the decisive form, create a typical wrong version, explain and correct it."
+      }
+    },
+    {
+      "id": "a1_u13_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة خمس مرات ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model five ways, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u13_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "Sofort mündlich wiederholen, später sechs neue Sätze bilden, die Regel erklären, im Dialog anwenden und mit älteren Themen mischen.",
+        "ar": "كرر شفهيًا الآن، ثم كوّن ست جمل جديدة لاحقًا واشرح القاعدة واستخدمها في حوار وامزجها مع موضوعات سابقة.",
+        "en": "Repeat orally now, later create six new sentences, explain the rule, use it in dialogue and interleave with older topics."
+      }
+    },
+    {
+      "id": "a1_u13_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U13_MASTERY"
+      ]
+    }
+  ]
+}

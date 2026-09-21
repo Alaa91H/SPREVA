@@ -1,0 +1,154 @@
+{
+  "id": "b1_u04_l02",
+  "unitId": "de-core-b1-u04",
+  "title": {
+    "de": "Personen, Dokumente und Situationen präzise definieren",
+    "ar": "تحديد الأشخاص والمستندات والمواقف بدقة",
+    "en": "Defining people, documents and situations precisely"
+  },
+  "canDo": [
+    "B1_U04_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u04_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Personen, Dokumente und Situationen präzise definieren",
+        "ar": "تحديد الأشخاص والمستندات والمواقف بدقة",
+        "en": "Defining people, documents and situations precisely"
+      },
+      "body": {
+        "de": "Authentische Situation:\nArbeitsplatz, Behörde, Wohnungssuche oder Berichte: genau erklären, welche Person, Stelle, Sache oder Bedingung gemeint ist.\n\nModelldialog:\nA: Kennst du die Frau, mit der Herr Koch spricht?\nB: Ja, das ist die Beraterin, bei der ich letzte Woche war.\nA: Ist sie für den Antrag zuständig?\nB: Genau, das ist die Stelle, an die du dich wenden musst.\n\nSprachliche Entscheidung:\nDas Relativpronomen stimmt in Genus/Numerus mit dem Bezugswort überein, der Kasus kommt aus dem Relativsatz: der Mann, dem ich helfe; die Firma, bei der ich arbeite. Präpositionen stehen vor dem Relativpronomen. Das Verb bleibt am Ende.\n\nTransfer: Führe denselben Austausch mit neuen Daten. Ergänze eine Begründung, eine Rückfrage und eine angemessene Reaktion.",
+        "ar": "موقف واقعي:\nفي العمل أو الدائرة أو البحث عن سكن أو التقارير: تحديد الشخص أو الجهة أو الشيء أو الشرط المقصود بدقة.\n\nحوار نموذجي:\nA: Kennst du die Frau, mit der Herr Koch spricht?\nB: Ja, das ist die Beraterin, bei der ich letzte Woche war.\nA: Ist sie für den Antrag zuständig?\nB: Genau, das ist die Stelle, an die du dich wenden musst.\n\nالقرار اللغوي:\nضمير الوصل يطابق الاسم في الجنس والعدد، لكن حالته تأتي من وظيفته في الجملة: der Mann, dem ich helfe؛ die Firma, bei der ich arbeite. حرف الجر يسبق الضمير.\n\nتطبيق: أعد الحوار ببيانات جديدة، وأضف تعليلًا وسؤال متابعة وردًا مناسبًا.",
+        "en": "Authentic situation:\nWorkplace, public office, housing search or reports: explain exactly which person, office, object or condition is meant.\n\nModel dialogue:\nA: Kennst du die Frau, mit der Herr Koch spricht?\nB: Ja, das ist die Beraterin, bei der ich letzte Woche war.\nA: Ist sie für den Antrag zuständig?\nB: Genau, das ist die Stelle, an die du dich wenden musst.\n\nLanguage choice:\nThe relative pronoun matches the antecedent in gender/number, while its case comes from its function in the clause: der Mann, dem ich helfe; die Firma, bei der ich arbeite. Prepositions come before the relative pronoun.\n\nTransfer: Repeat the exchange with new details, adding a reason, follow-up question and appropriate response."
+      }
+    },
+    {
+      "id": "b1_u04_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u04_l02_w1",
+          "german": "bei der",
+          "translation": {
+            "de": "at which",
+            "ar": "التي لدى/في",
+            "en": "at which"
+          }
+        },
+        {
+          "id": "b1_u04_l02_w2",
+          "german": "mit dem",
+          "translation": {
+            "de": "with whom/which",
+            "ar": "الذي معه",
+            "en": "with whom/which"
+          }
+        },
+        {
+          "id": "b1_u04_l02_w3",
+          "german": "auf das",
+          "translation": {
+            "de": "for which",
+            "ar": "الذي ينتظره/عليه",
+            "en": "for which"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u04_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nDas Relativpronomen stimmt in Genus/Numerus mit dem Bezugswort überein, der Kasus kommt aus dem Relativsatz: der Mann, dem ich helfe; die Firma, bei der ich arbeite. Präpositionen stehen vor dem Relativpronomen. Das Verb bleibt am Ende.\n\nKontrastive Beispiele:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da.",
+        "ar": "القاعدة:\nضمير الوصل يطابق الاسم في الجنس والعدد، لكن حالته تأتي من وظيفته في الجملة: der Mann, dem ich helfe؛ die Firma, bei der ich arbeite. حرف الجر يسبق الضمير.\n\nأمثلة:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da.",
+        "en": "Rule:\nThe relative pronoun matches the antecedent in gender/number, while its case comes from its function in the clause: der Mann, dem ich helfe; die Firma, bei der ich arbeite. Prepositions come before the relative pronoun.\n\nExamples:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da."
+      }
+    },
+    {
+      "id": "b1_u04_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "bei der",
+        "ar": "bei der",
+        "en": "bei der"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "at which",
+            "ar": "التي لدى/في",
+            "en": "at which"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "with whom/which",
+            "ar": "الذي معه",
+            "en": "with whom/which"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "for which",
+            "ar": "الذي ينتظره/عليه",
+            "en": "for which"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u04_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Firma, bei {answer} ich arbeite, ist groß.",
+        "ar": "Die Firma, bei {answer} ich arbeite, ist groß.",
+        "en": "Die Firma, bei {answer} ich arbeite, ist groß."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b1_u04_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Relativsätze in allen wichtigen Fällen“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الجمل الموصولة في الحالات الأساسية كلها». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Relative clauses in key cases”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u04_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U04_REAL_LIFE"
+      ]
+    }
+  ]
+}

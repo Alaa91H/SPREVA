@@ -1,0 +1,155 @@
+{
+  "id": "b2_u11_l02",
+  "unitId": "de-core-b2-u11",
+  "title": {
+    "de": "Verträge, Preise und finanzielle Entscheidungen verstehen",
+    "ar": "فهم العقود والأسعار والقرارات المالية",
+    "en": "Understanding contracts, prices and financial decisions"
+  },
+  "canDo": [
+    "B2_U11_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u11_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Verträge, Preise und finanzielle Entscheidungen verstehen",
+        "ar": "فهم العقود والأسعار والقرارات المالية",
+        "en": "Understanding contracts, prices and financial decisions"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nBank, Versicherung, Mobilfunk, Energievertrag oder größere Anschaffung: Konditionen vergleichen, Gebühren erkennen, Widerruf/Kündigung sprachlich verstehen.\n\nModelldialog:\nA: Der Tarif wirkt günstig. Gibt es zusätzliche Gebühren?\nB: Ja, nach zwölf Monaten steigt der monatliche Preis.\nA: Kann ich vorher kündigen?\nB: Das hängt von der vereinbarten Mindestlaufzeit ab.\n\nSprachliche Strategie:\nFinanzielle Texte arbeiten mit präzisen Bedingungen: unter der Voraussetzung, vorbehaltlich, sofern, innerhalb einer Frist. Für Entwicklungen: Inflation steigt/sinkt, Kosten erhöhen sich, Einkommen bleibt konstant. Zahlen immer mit Bezugsgröße interpretieren: Prozent vs. Prozentpunkte, brutto vs. netto.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nالبنك أو التأمين أو الهاتف أو عقد الطاقة أو شراء كبير: مقارنة الشروط وفهم الرسوم والإلغاء/الانسحاب لغويًا.\n\nحوار نموذجي:\nA: Der Tarif wirkt günstig. Gibt es zusätzliche Gebühren?\nB: Ja, nach zwölf Monaten steigt der monatliche Preis.\nA: Kann ich vorher kündigen?\nB: Das hängt von der vereinbarten Mindestlaufzeit ab.\n\nالاستراتيجية اللغوية:\nالنصوص المالية تستخدم شروطًا دقيقة مثل sofern وinnerhalb einer Frist. يجب تفسير الأرقام وفق مرجعها: النسبة المئوية مقابل النقاط المئوية، brutto مقابل netto.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nBanking, insurance, phone/energy contracts or major purchases: compare conditions, identify fees and understand cancellation/withdrawal language.\n\nModel dialogue:\nA: Der Tarif wirkt günstig. Gibt es zusätzliche Gebühren?\nB: Ja, nach zwölf Monaten steigt der monatliche Preis.\nA: Kann ich vorher kündigen?\nB: Das hängt von der vereinbarten Mindestlaufzeit ab.\n\nLanguage strategy:\nFinancial texts use precise conditions: unter der Voraussetzung, vorbehaltlich, sofern, innerhalb einer Frist. For trends: Inflation rises/falls, costs increase, income remains constant. Interpret numbers with their reference: percent vs percentage points, gross vs net.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u11_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u11_l02_w1",
+          "german": "brutto",
+          "translation": {
+            "de": "gross",
+            "ar": "إجمالي قبل الخصم",
+            "en": "gross"
+          }
+        },
+        {
+          "id": "b2_u11_l02_w2",
+          "german": "netto",
+          "translation": {
+            "de": "net",
+            "ar": "صافي",
+            "en": "net"
+          }
+        },
+        {
+          "id": "b2_u11_l02_w3",
+          "german": "die Kündigungsfrist",
+          "translation": {
+            "de": "notice period",
+            "ar": "مهلة الإلغاء",
+            "en": "notice period"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u11_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFinanzielle Texte arbeiten mit präzisen Bedingungen: unter der Voraussetzung, vorbehaltlich, sofern, innerhalb einer Frist. Für Entwicklungen: Inflation steigt/sinkt, Kosten erhöhen sich, Einkommen bleibt konstant. Zahlen immer mit Bezugsgröße interpretieren: Prozent vs. Prozentpunkte, brutto vs. netto.\n\n• Der effektive Jahreszins liegt bei 6,2 Prozent.\n• Die Gebühr fällt nur an, sofern die Zahlung verspätet eingeht.\n• Bitte prüfen Sie die Kündigungsfrist und die Gesamtkosten.",
+        "ar": "المبدأ الأساسي:\nالنصوص المالية تستخدم شروطًا دقيقة مثل sofern وinnerhalb einer Frist. يجب تفسير الأرقام وفق مرجعها: النسبة المئوية مقابل النقاط المئوية، brutto مقابل netto.\n\n• Der effektive Jahreszins liegt bei 6,2 Prozent.\n• Die Gebühr fällt nur an, sofern die Zahlung verspätet eingeht.\n• Bitte prüfen Sie die Kündigungsfrist und die Gesamtkosten.",
+        "en": "Core principle:\nFinancial texts use precise conditions: unter der Voraussetzung, vorbehaltlich, sofern, innerhalb einer Frist. For trends: Inflation rises/falls, costs increase, income remains constant. Interpret numbers with their reference: percent vs percentage points, gross vs net.\n\n• Der effektive Jahreszins liegt bei 6,2 Prozent.\n• Die Gebühr fällt nur an, sofern die Zahlung verspätet eingeht.\n• Bitte prüfen Sie die Kündigungsfrist und die Gesamtkosten."
+      }
+    },
+    {
+      "id": "b2_u11_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "brutto",
+        "ar": "brutto",
+        "en": "brutto"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "gross",
+            "ar": "إجمالي قبل الخصم",
+            "en": "gross"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "net",
+            "ar": "صافي",
+            "en": "net"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "notice period",
+            "ar": "مهلة الإلغاء",
+            "en": "notice period"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u11_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die monatlichen Kosten {answer} sich nach zwölf Monaten.",
+        "ar": "Die monatlichen Kosten {answer} sich nach zwölf Monaten.",
+        "en": "Die monatlichen Kosten {answer} sich nach zwölf Monaten."
+      },
+      "acceptedAnswers": [
+        "erhöhen",
+        "erhoehen"
+      ]
+    },
+    {
+      "id": "b2_u11_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Wirtschaft, Konsum & Finanzen“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الاقتصاد والاستهلاك والمال». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Economics, consumption & finance”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u11_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U11_REAL_LIFE"
+      ]
+    }
+  ]
+}

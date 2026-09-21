@@ -1,0 +1,296 @@
+{
+  "id": "b2_u06_l03",
+  "unitId": "de-core-b2-u06",
+  "title": {
+    "de": "Intensivtraining: Register, Modalpartikeln & Pragmatik",
+    "ar": "تدريب مكثف: السجل اللغوي والجسيمات المقامية",
+    "en": "Mastery lab: Register, modal particles & pragmatics"
+  },
+  "canDo": [
+    "B2_U06_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u06_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Register, Modalpartikeln & Pragmatik“. Nach jeder Lösung: semantische Funktion erklären, mindestens zwei stilistische Alternativen bilden und sagen, welche Variante in Alltag, Beruf oder Fachtext am passendsten ist.",
+        "ar": "عمّق «السجل اللغوي والجسيمات المقامية». بعد كل حل اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين، وحدد الأنسب في اليومي أو العمل أو النص المتخصص.",
+        "en": "Deepen “Register, modal particles & pragmatics”. After each solution explain the semantic function, create at least two stylistic alternatives and decide which best fits everyday, professional or specialist contexts."
+      }
+    },
+    {
+      "id": "b2_u06_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u06_l03_w1",
+          "german": "wohl",
+          "translation": {
+            "de": "probably",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "b2_u06_l03_w2",
+          "german": "doch",
+          "translation": {
+            "de": "modal particle doch",
+            "ar": "أداة مقامية: بالفعل/لمَ لا",
+            "en": "modal particle doch"
+          }
+        },
+        {
+          "id": "b2_u06_l03_w3",
+          "german": "eben",
+          "translation": {
+            "de": "simply/just",
+            "ar": "هكذا ببساطة",
+            "en": "simply/just"
+          }
+        },
+        {
+          "id": "b2_u06_l03_w4",
+          "german": "ja",
+          "translation": {
+            "de": "as you know",
+            "ar": "كما نعرف/بالفعل",
+            "en": "as you know"
+          }
+        },
+        {
+          "id": "b2_u06_l03_w5",
+          "german": "mal",
+          "translation": {
+            "de": "once/softener",
+            "ar": "مرة/تلطيف الطلب",
+            "en": "once/softener"
+          }
+        },
+        {
+          "id": "b2_u06_l03_w6",
+          "german": "der Tonfall",
+          "translation": {
+            "de": "tone",
+            "ar": "نبرة الكلام",
+            "en": "tone"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u06_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er hat {answer} den Termin vergessen.",
+        "ar": "Er hat {answer} den Termin vergessen.",
+        "en": "Er hat {answer} den Termin vergessen."
+      },
+      "acceptedAnswers": [
+        "wohl"
+      ]
+    },
+    {
+      "id": "b2_u06_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Komm {answer} kurz vorbei.",
+        "ar": "Komm {answer} kurz vorbei.",
+        "en": "Komm {answer} kurz vorbei."
+      },
+      "acceptedAnswers": [
+        "doch"
+      ]
+    },
+    {
+      "id": "b2_u06_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Modalpartikeln verändern weniger den Sachinhalt {answer} Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.",
+        "ar": "Modalpartikeln verändern weniger den Sachinhalt {answer} Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.",
+        "en": "Modalpartikeln verändern weniger den Sachinhalt {answer} Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "b2_u06_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} weißt du ja schon.",
+        "ar": "{answer} weißt du ja schon.",
+        "en": "{answer} weißt du ja schon."
+      },
+      "acceptedAnswers": [
+        "Das"
+      ]
+    },
+    {
+      "id": "b2_u06_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} doch kurz vorbei.",
+        "ar": "{answer} doch kurz vorbei.",
+        "en": "{answer} doch kurz vorbei."
+      },
+      "acceptedAnswers": [
+        "Komm"
+      ]
+    },
+    {
+      "id": "b2_u06_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er hat wohl {answer} Termin vergessen.",
+        "ar": "Er hat wohl {answer} Termin vergessen.",
+        "en": "Er hat wohl {answer} Termin vergessen."
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "b2_u06_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "wohl",
+        "ar": "wohl",
+        "en": "wohl"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "probably",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "modal particle doch",
+            "ar": "أداة مقامية: بالفعل/لمَ لا",
+            "en": "modal particle doch"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "simply/just",
+            "ar": "هكذا ببساطة",
+            "en": "simply/just"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u06_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "ja",
+        "ar": "ja",
+        "en": "ja"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "as you know",
+            "ar": "كما نعرف/بالفعل",
+            "en": "as you know"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "once/softener",
+            "ar": "مرة/تلطيف الطلب",
+            "en": "once/softener"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "tone",
+            "ar": "نبرة الكلام",
+            "en": "tone"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u06_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Modalpartikeln verändern weniger den Sachinhalt als Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.\n2. Das weißt du ja schon.\n3. Komm doch kurz vorbei.\n4. Er hat wohl den Termin vergessen.\n\nFormuliere je eine nahe Alternative und erkläre, was sich ändert: Logik, Modalität, Fokus, Register oder Informationsdichte. Markiere Varianten, die grammatisch möglich, aber im Kontext unidiomatisch sind.",
+        "ar": "نماذج البداية:\n1. Modalpartikeln verändern weniger den Sachinhalt als Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.\n2. Das weißt du ja schon.\n3. Komm doch kurz vorbei.\n4. Er hat wohl den Termin vergessen.\n\nأنشئ بديلًا قريبًا لكل نموذج واشرح ما يتغير: المنطق أو درجة اليقين أو البؤرة أو السجل أو كثافة المعلومات.",
+        "en": "Base patterns:\n1. Modalpartikeln verändern weniger den Sachinhalt als Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.\n2. Das weißt du ja schon.\n3. Komm doch kurz vorbei.\n4. Er hat wohl den Termin vergessen.\n\nCreate a close alternative for each and explain what changes: logic, modality, focus, register or information density."
+      }
+    },
+    {
+      "id": "b2_u06_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Zu jeder Kernaussage fünf Fassungen: verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ formeller Fachstil. Danach Bedeutungsnuancen und Kollokationen vergleichen.",
+        "ar": "لكل فكرة خمس صيغ: فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ رسمي متخصص. ثم قارن الفروق والمتلازمات.",
+        "en": "Create five versions: verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ cautiously hedged; everyday ↔ formal specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u06_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "Schreibe 140–180 Wörter oder sprich drei Minuten. Trenne Beobachtung, Interpretation und Bewertung; integriere drei Zielstrukturen, ein Gegenargument, eine Einschränkung und eine begründete Schlussfolgerung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "اكتب 140–180 كلمة أو تحدث ثلاث دقائق. افصل بين الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات وحجة مضادة وقيدًا وخلاصة معللة ثم راجع السجل والترابط والدقة.",
+        "en": "Write 140–180 words or speak for three minutes. Separate observation, interpretation and evaluation; include three target structures, a counterargument, a limitation and a reasoned conclusion. Revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u06_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U06_MASTERY"
+      ]
+    }
+  ]
+}

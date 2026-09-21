@@ -1,0 +1,378 @@
+{
+  "id": "a2_u02_l04",
+  "unitId": "de-core-a2-u02",
+  "title": {
+    "de": "Falltraining: Präteritum im Alltag",
+    "ar": "تدريب الحالات: Präteritum في الحياة اليومية",
+    "en": "Casebook: Everyday Präteritum"
+  },
+  "canDo": [
+    "A2_U02_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u02_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Präteritum im Alltag\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• sein/haben/Modalverben im Alltag oft im Präteritum\n• Perfekt bleibt bei vielen Vollverben normal\n• Vorfeld: Damals wohnte ich … / Gestern musste ich …",
+        "ar": "الموضوع: Präteritum في الحياة اليومية\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• sein/haben/Modalverben im Alltag oft im Präteritum\n• Perfekt bleibt bei vielen Vollverben normal\n• Vorfeld: Damals wohnte ich … / Gestern musste ich …",
+        "en": "Topic: Everyday Präteritum\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• sein/haben/Modalverben im Alltag oft im Präteritum\n• Perfekt bleibt bei vielen Vollverben normal\n• Vorfeld: Damals wohnte ich … / Gestern musste ich …"
+      }
+    },
+    {
+      "id": "a2_u02_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u02_l04_w1",
+          "german": "war",
+          "translation": {
+            "de": "war",
+            "ar": "كان",
+            "en": "was"
+          }
+        },
+        {
+          "id": "a2_u02_l04_w2",
+          "german": "hatte",
+          "translation": {
+            "de": "hatte",
+            "ar": "كان لديه",
+            "en": "had"
+          }
+        },
+        {
+          "id": "a2_u02_l04_w3",
+          "german": "konnte",
+          "translation": {
+            "de": "konnte",
+            "ar": "كان يستطيع",
+            "en": "could"
+          }
+        },
+        {
+          "id": "a2_u02_l04_w4",
+          "german": "musste",
+          "translation": {
+            "de": "musste",
+            "ar": "كان عليه",
+            "en": "had to"
+          }
+        },
+        {
+          "id": "a2_u02_l04_w5",
+          "german": "wollte",
+          "translation": {
+            "de": "wollte",
+            "ar": "أراد",
+            "en": "wanted"
+          }
+        },
+        {
+          "id": "a2_u02_l04_w6",
+          "german": "damals",
+          "translation": {
+            "de": "damals",
+            "ar": "آنذاك",
+            "en": "back then"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u02_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gestern {answer} ich krank.",
+        "ar": "Gestern {answer} ich krank.",
+        "en": "Gestern {answer} ich krank."
+      },
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "a2_u02_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} keine Zeit.",
+        "ar": "Ich {answer} keine Zeit.",
+        "en": "Ich {answer} keine Zeit."
+      },
+      "acceptedAnswers": [
+        "hatte"
+      ]
+    },
+    {
+      "id": "a2_u02_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Früher {answer} ich viel arbeiten.",
+        "ar": "Früher {answer} ich viel arbeiten.",
+        "en": "Früher {answer} ich viel arbeiten."
+      },
+      "acceptedAnswers": [
+        "musste"
+      ]
+    },
+    {
+      "id": "a2_u02_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Als Kind {answer} ich gut schwimmen.",
+        "ar": "Als Kind {answer} ich gut schwimmen.",
+        "en": "Als Kind {answer} ich gut schwimmen."
+      },
+      "acceptedAnswers": [
+        "konnte"
+      ]
+    },
+    {
+      "id": "a2_u02_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} eigentlich kommen.",
+        "ar": "Ich {answer} eigentlich kommen.",
+        "en": "Ich {answer} eigentlich kommen."
+      },
+      "acceptedAnswers": [
+        "wollte"
+      ]
+    },
+    {
+      "id": "a2_u02_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} wohnte ich in Bonn.",
+        "ar": "{answer} wohnte ich in Bonn.",
+        "en": "{answer} wohnte ich in Bonn."
+      },
+      "acceptedAnswers": [
+        "Damals"
+      ]
+    },
+    {
+      "id": "a2_u02_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "war",
+        "ar": "war",
+        "en": "war"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "war",
+            "ar": "كان",
+            "en": "was"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "hatte",
+            "ar": "كان لديه",
+            "en": "had"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "konnte",
+            "ar": "كان يستطيع",
+            "en": "could"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u02_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "hatte",
+        "ar": "hatte",
+        "en": "hatte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "hatte",
+            "ar": "كان لديه",
+            "en": "had"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "konnte",
+            "ar": "كان يستطيع",
+            "en": "could"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "musste",
+            "ar": "كان عليه",
+            "en": "had to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u02_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "konnte",
+        "ar": "konnte",
+        "en": "konnte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "konnte",
+            "ar": "كان يستطيع",
+            "en": "could"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "musste",
+            "ar": "كان عليه",
+            "en": "had to"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "wollte",
+            "ar": "أراد",
+            "en": "wanted"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u02_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "musste",
+        "ar": "musste",
+        "en": "musste"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "musste",
+            "ar": "كان عليه",
+            "en": "had to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "wollte",
+            "ar": "أراد",
+            "en": "wanted"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "damals",
+            "ar": "آنذاك",
+            "en": "back then"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u02_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ Ich bin krank gewesen gestern (möglich, aber Alltag oft) → ✅ Gestern war ich krank.\n• ❌ Ich hatte müssen arbeiten. → ✅ Ich musste arbeiten.\n• ❌ Früher ich konnte … → ✅ Früher konnte ich …\n• ❌ ich wollt → ✅ ich wollte\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ Ich bin krank gewesen gestern (möglich, aber Alltag oft) → ✅ Gestern war ich krank.\n• ❌ Ich hatte müssen arbeiten. → ✅ Ich musste arbeiten.\n• ❌ Früher ich konnte … → ✅ Früher konnte ich …\n• ❌ ich wollt → ✅ ich wollte\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ Ich bin krank gewesen gestern (möglich, aber Alltag oft) → ✅ Gestern war ich krank.\n• ❌ Ich hatte müssen arbeiten. → ✅ Ich musste arbeiten.\n• ❌ Früher ich konnte … → ✅ Früher konnte ich …\n• ❌ ich wollt → ✅ ich wollte\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u02_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• sein/haben/Modalverben im Alltag oft im Präteritum\n• Perfekt bleibt bei vielen Vollverben normal\n• Vorfeld: Damals wohnte ich … / Gestern musste ich …\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• sein/haben/Modalverben im Alltag oft im Präteritum\n• Perfekt bleibt bei vielen Vollverben normal\n• Vorfeld: Damals wohnte ich … / Gestern musste ich …\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• sein/haben/Modalverben im Alltag oft im Präteritum\n• Perfekt bleibt bei vielen Vollverben normal\n• Vorfeld: Damals wohnte ich … / Gestern musste ich …\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u02_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Vergleiche früher und heute: Wohnort, Arbeit, Fähigkeiten, Pflichten und Wünsche. Nutze mindestens fünf Präteritumformen.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Vergleiche früher und heute: Wohnort, Arbeit, Fähigkeiten, Pflichten und Wünsche. Nutze mindestens fünf Präteritumformen.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Vergleiche früher und heute: Wohnort, Arbeit, Fähigkeiten, Pflichten und Wünsche. Nutze mindestens fünf Präteritumformen.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u02_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U02_CASEBOOK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "a1_u12_l01",
+  "unitId": "de-core-a1-u12",
+  "title": {
+    "de": "Berufe, können und einfache Tätigkeitsbeschreibungen",
+    "ar": "المهن وkönnen ووصف المهام البسيطة",
+    "en": "Jobs, können and simple task descriptions"
+  },
+  "canDo": [
+    "A1_U12_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u12_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Berufe, können und einfache Tätigkeitsbeschreibungen",
+        "ar": "المهن وkönnen ووصف المهام البسيطة",
+        "en": "Jobs, können and simple task descriptions"
+      },
+      "body": {
+        "de": "Lernziel: Berufe, können und einfache Tätigkeitsbeschreibungen\n\nKernregel:\nMit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. Der zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.\n\nMusterbeispiele:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr.\n\nPraxisbezug:\nSprachkurs, Arbeitsplatz oder Kennenlernen: Beruf nennen, Aufgaben beschreiben, Arbeitszeiten und einfache Fähigkeiten ausdrücken.\n\nTypische Stolperfalle:\nNach „können“ steht der Infinitiv am Ende. Bei Berufsbezeichnungen nach „sein“ ist ein Artikel meist unnötig, wenn nur der Beruf genannt wird.",
+        "ar": "هدف الدرس: المهن وkönnen ووصف المهام البسيطة\n\nالقاعدة الأساسية:\nنستخدم können للقدرات: Ich kann gut kochen، ويأتي المصدر في النهاية. المهنة بعد sein غالبًا بلا أداة: Ich bin Elektriker. والمؤنث كثيرًا ما ينتهي بـ -in.\n\nأمثلة ألمانية:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr.\n\nالاستخدام في الحياة:\nدورة اللغة أو مكان العمل: ذكر المهنة والمهام وساعات العمل والقدرات الأساسية.\n\nخطأ شائع يجب تجنبه:\nبعد können يأتي المصدر في النهاية. وعند ذكر المهنة بعد sein لا نحتاج غالبًا إلى أداة تعريف.",
+        "en": "Lesson goal: Jobs, können and simple task descriptions\n\nCore rule:\nUse können for abilities: Ich kann gut kochen; the infinitive goes to the end. Professions after sein often appear without an article: Ich bin Elektriker. Female forms often use -in.\n\nGerman examples:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr.\n\nReal-life use:\nLanguage class or workplace: state your profession, describe tasks, working hours and basic abilities.\n\nCommon pitfall:\nAfter können the infinitive goes at the end. Profession names after sein usually do not need an article when simply stating the job."
+      }
+    },
+    {
+      "id": "a1_u12_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u12_l01_w1",
+          "german": "der Beruf",
+          "translation": {
+            "de": "profession",
+            "ar": "المهنة",
+            "en": "profession"
+          }
+        },
+        {
+          "id": "a1_u12_l01_w2",
+          "german": "arbeiten",
+          "translation": {
+            "de": "work",
+            "ar": "يعمل",
+            "en": "work"
+          }
+        },
+        {
+          "id": "a1_u12_l01_w3",
+          "german": "lernen",
+          "translation": {
+            "de": "learn",
+            "ar": "يتعلم",
+            "en": "learn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u12_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Mit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. Der zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.\n\nBeispiele:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr.",
+        "ar": "قاعدة مختصرة: نستخدم können للقدرات: Ich kann gut kochen، ويأتي المصدر في النهاية. المهنة بعد sein غالبًا بلا أداة: Ich bin Elektriker. والمؤنث كثيرًا ما ينتهي بـ -in.\n\nالأمثلة:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr.",
+        "en": "Key rule: Use können for abilities: Ich kann gut kochen; the infinitive goes to the end. Professions after sein often appear without an article: Ich bin Elektriker. Female forms often use -in.\n\nExamples:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr."
+      }
+    },
+    {
+      "id": "a1_u12_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "der Beruf",
+        "ar": "der Beruf",
+        "en": "der Beruf"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "profession",
+            "ar": "المهنة",
+            "en": "profession"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "work",
+            "ar": "يعمل",
+            "en": "work"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "learn",
+            "ar": "يتعلم",
+            "en": "learn"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u12_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} gut mit Kunden sprechen.",
+        "ar": "Ich {answer} gut mit Kunden sprechen.",
+        "en": "Ich {answer} gut mit Kunden sprechen."
+      },
+      "acceptedAnswers": [
+        "kann"
+      ]
+    },
+    {
+      "id": "a1_u12_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Arbeit, Lernen & Fähigkeiten“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «العمل والتعلم والقدرات». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Work, study & abilities”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u12_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U12_FOUNDATION"
+      ]
+    }
+  ]
+}

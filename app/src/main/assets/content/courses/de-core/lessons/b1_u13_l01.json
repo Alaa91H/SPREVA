@@ -1,0 +1,154 @@
+{
+  "id": "b1_u13_l01",
+  "unitId": "de-core-b1-u13",
+  "title": {
+    "de": "Präsentationssprache, Nominalgruppen und strukturierte Schlussfolgerungen",
+    "ar": "لغة العرض والمجموعات الاسمية والخلاصات المنظمة",
+    "en": "Presentation language, noun groups and structured conclusions"
+  },
+  "canDo": [
+    "B1_U13_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u13_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Präsentationssprache, Nominalgruppen und strukturierte Schlussfolgerungen",
+        "ar": "لغة العرض والمجموعات الاسمية والخلاصات المنظمة",
+        "en": "Presentation language, noun groups and structured conclusions"
+      },
+      "body": {
+        "de": "Kompetenzziel: Präsentationssprache, Nominalgruppen und strukturierte Schlussfolgerungen\n\nSystematik:\nEine klare Präsentation braucht Einleitung, Gliederung, Beispiele, eigene Position und Schluss. Signale: Zuerst möchte ich …; Ein wichtiger Punkt ist …; Zum Beispiel …; Zusammenfassend … In Diskussionen: Ich stimme teilweise zu, aber … / Dazu möchte ich ergänzen …\n\nBeispielnetz:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.\n\nPraxisdomäne:\nSprachprüfung, Weiterbildung, Team oder Verein: über Mobilität, Recycling, Integration, Wohnen oder digitale Themen drei bis fünf Minuten strukturiert sprechen.\n\nFehlerdiagnose:\nEine Präsentation ist keine Liste einzelner Sätze. Nutze Übergänge, Beispiele und Rückbezüge, damit Zuhörende den roten Faden erkennen.",
+        "ar": "هدف الكفاءة: لغة العرض والمجموعات الاسمية والخلاصات المنظمة\n\nالشرح المنهجي:\nالعرض الواضح يحتاج مقدمة وخطة وأمثلة ورأي وخاتمة. استخدم إشارات تنظيمية مثل Zuerst… وEin wichtiger Punkt… وZusammenfassend…\n\nأمثلة مترابطة:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.\n\nالمجال العملي:\nامتحان لغة أو تدريب أو فريق أو جمعية: الحديث 3–5 دقائق بشكل منظم عن النقل أو التدوير أو الاندماج أو السكن أو الرقمنة.\n\nتشخيص الأخطاء:\nالعرض ليس قائمة جمل منفصلة؛ استخدم انتقالات وأمثلة وروابط داخلية ليبقى التسلسل واضحًا.",
+        "en": "Competence goal: Presentation language, noun groups and structured conclusions\n\nSystem:\nA clear presentation needs introduction, structure, examples, your position and conclusion. Use signposting such as Zuerst möchte ich …, Ein wichtiger Punkt ist …, Zusammenfassend …. In discussion, respond explicitly and politely.\n\nExample network:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.\n\nPractice domain:\nLanguage exam, training, team or association: speak for 3–5 minutes in a structured way about mobility, recycling, integration, housing or digital topics.\n\nError diagnosis:\nA presentation is not a list of isolated sentences. Use transitions, examples and references so listeners can follow the thread."
+      }
+    },
+    {
+      "id": "b1_u13_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u13_l01_w1",
+          "german": "die Umwelt",
+          "translation": {
+            "de": "environment",
+            "ar": "البيئة",
+            "en": "environment"
+          }
+        },
+        {
+          "id": "b1_u13_l01_w2",
+          "german": "die Maßnahme",
+          "translation": {
+            "de": "measure",
+            "ar": "الإجراء",
+            "en": "measure"
+          }
+        },
+        {
+          "id": "b1_u13_l01_w3",
+          "german": "nachhaltig",
+          "translation": {
+            "de": "sustainable",
+            "ar": "مستدام",
+            "en": "sustainable"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u13_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nEine klare Präsentation braucht Einleitung, Gliederung, Beispiele, eigene Position und Schluss. Signale: Zuerst möchte ich …; Ein wichtiger Punkt ist …; Zum Beispiel …; Zusammenfassend … In Diskussionen: Ich stimme teilweise zu, aber … / Dazu möchte ich ergänzen …\n\nKontrastive Beispiele:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.",
+        "ar": "القاعدة:\nالعرض الواضح يحتاج مقدمة وخطة وأمثلة ورأي وخاتمة. استخدم إشارات تنظيمية مثل Zuerst… وEin wichtiger Punkt… وZusammenfassend…\n\nأمثلة:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.",
+        "en": "Rule:\nA clear presentation needs introduction, structure, examples, your position and conclusion. Use signposting such as Zuerst möchte ich …, Ein wichtiger Punkt ist …, Zusammenfassend …. In discussion, respond explicitly and politely.\n\nExamples:\n• Zuerst möchte ich die aktuelle Situation beschreiben.\n• Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n• Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll."
+      }
+    },
+    {
+      "id": "b1_u13_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "die Umwelt",
+        "ar": "die Umwelt",
+        "en": "die Umwelt"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "environment",
+            "ar": "البيئة",
+            "en": "environment"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "measure",
+            "ar": "الإجراء",
+            "en": "measure"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sustainable",
+            "ar": "مستدام",
+            "en": "sustainable"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u13_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} möchte ich die Situation beschreiben.",
+        "ar": "{answer} möchte ich die Situation beschreiben.",
+        "en": "{answer} möchte ich die Situation beschreiben."
+      },
+      "acceptedAnswers": [
+        "Zuerst"
+      ]
+    },
+    {
+      "id": "b1_u13_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Umwelt, Gesellschaft & Präsentation“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «البيئة والمجتمع والعرض». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Environment, society & presentation”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u13_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U13_FOUNDATION"
+      ]
+    }
+  ]
+}

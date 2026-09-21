@@ -1,0 +1,378 @@
+{
+  "id": "b1_u04_l04",
+  "unitId": "de-core-b1-u04",
+  "title": {
+    "de": "Falltraining: Relativsätze in allen wichtigen Fällen",
+    "ar": "تدريب الحالات: الجمل الموصولة في الحالات الأساسية كلها",
+    "en": "Casebook: Relative clauses in key cases"
+  },
+  "canDo": [
+    "B1_U04_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u04_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Relativsätze in allen wichtigen Fällen\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• Genus/Numerus vom Bezugswort; Kasus aus Relativsatz\n• Nominativ der/die/das; Akk den/die/das; Dat dem/der/dem\n• Präposition steht vor Relativpronomen",
+        "ar": "الموضوع: الجمل الموصولة في الحالات الأساسية كلها\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• Genus/Numerus vom Bezugswort; Kasus aus Relativsatz\n• Nominativ der/die/das; Akk den/die/das; Dat dem/der/dem\n• Präposition steht vor Relativpronomen",
+        "en": "Topic: Relative clauses in key cases\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• Genus/Numerus vom Bezugswort; Kasus aus Relativsatz\n• Nominativ der/die/das; Akk den/die/das; Dat dem/der/dem\n• Präposition steht vor Relativpronomen"
+      }
+    },
+    {
+      "id": "b1_u04_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u04_l04_w1",
+          "german": "der",
+          "translation": {
+            "de": "der",
+            "ar": "الذي",
+            "en": "who/which"
+          }
+        },
+        {
+          "id": "b1_u04_l04_w2",
+          "german": "den",
+          "translation": {
+            "de": "den",
+            "ar": "الذي مفعول",
+            "en": "whom/which acc."
+          }
+        },
+        {
+          "id": "b1_u04_l04_w3",
+          "german": "dem",
+          "translation": {
+            "de": "dem",
+            "ar": "الذي داتيف",
+            "en": "whom/which dat."
+          }
+        },
+        {
+          "id": "b1_u04_l04_w4",
+          "german": "dessen",
+          "translation": {
+            "de": "dessen",
+            "ar": "الذي له/ملكيته",
+            "en": "whose masc./neut."
+          }
+        },
+        {
+          "id": "b1_u04_l04_w5",
+          "german": "deren",
+          "translation": {
+            "de": "deren",
+            "ar": "التي لها/ملكيتها",
+            "en": "whose fem./pl."
+          }
+        },
+        {
+          "id": "b1_u04_l04_w6",
+          "german": "mit dem",
+          "translation": {
+            "de": "mit dem",
+            "ar": "الذي معه",
+            "en": "with whom/which"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u04_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Mann, {answer} hier arbeitet, ist neu.",
+        "ar": "Der Mann, {answer} hier arbeitet, ist neu.",
+        "en": "Der Mann, {answer} hier arbeitet, ist neu."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b1_u04_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Mann, {answer} ich sehe, ist neu.",
+        "ar": "Der Mann, {answer} ich sehe, ist neu.",
+        "en": "Der Mann, {answer} ich sehe, ist neu."
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "b1_u04_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Mann, {answer} ich helfe, ist neu.",
+        "ar": "Der Mann, {answer} ich helfe, ist neu.",
+        "en": "Der Mann, {answer} ich helfe, ist neu."
+      },
+      "acceptedAnswers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "b1_u04_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Mann, {answer} Auto dort steht, wartet.",
+        "ar": "Der Mann, {answer} Auto dort steht, wartet.",
+        "en": "Der Mann, {answer} Auto dort steht, wartet."
+      },
+      "acceptedAnswers": [
+        "dessen"
+      ]
+    },
+    {
+      "id": "b1_u04_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frau, {answer} Tasche fehlt, sucht sie.",
+        "ar": "Die Frau, {answer} Tasche fehlt, sucht sie.",
+        "en": "Die Frau, {answer} Tasche fehlt, sucht sie."
+      },
+      "acceptedAnswers": [
+        "deren"
+      ]
+    },
+    {
+      "id": "b1_u04_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist der Kollege, mit {answer} ich spreche.",
+        "ar": "Das ist der Kollege, mit {answer} ich spreche.",
+        "en": "Das ist der Kollege, mit {answer} ich spreche."
+      },
+      "acceptedAnswers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "b1_u04_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "der",
+        "ar": "der",
+        "en": "der"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der",
+            "ar": "الذي",
+            "en": "who/which"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "den",
+            "ar": "الذي مفعول",
+            "en": "whom/which acc."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "dem",
+            "ar": "الذي داتيف",
+            "en": "whom/which dat."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u04_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "den",
+        "ar": "den",
+        "en": "den"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "den",
+            "ar": "الذي مفعول",
+            "en": "whom/which acc."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "dem",
+            "ar": "الذي داتيف",
+            "en": "whom/which dat."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "dessen",
+            "ar": "الذي له/ملكيته",
+            "en": "whose masc./neut."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u04_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "dem",
+        "ar": "dem",
+        "en": "dem"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "dem",
+            "ar": "الذي داتيف",
+            "en": "whom/which dat."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "dessen",
+            "ar": "الذي له/ملكيته",
+            "en": "whose masc./neut."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "deren",
+            "ar": "التي لها/ملكيتها",
+            "en": "whose fem./pl."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u04_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "dessen",
+        "ar": "dessen",
+        "en": "dessen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "dessen",
+            "ar": "الذي له/ملكيته",
+            "en": "whose masc./neut."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deren",
+            "ar": "التي لها/ملكيتها",
+            "en": "whose fem./pl."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "mit dem",
+            "ar": "الذي معه",
+            "en": "with whom/which"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u04_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ Mann, der ich sehe → ✅ den ich sehe\n• ❌ Frau, dem ich helfe → ✅ der ich helfe\n• ❌ Präposition am Satzende → ✅ mit dem ich spreche\n• ❌ Relativkasus nach Bezugswort raten → Funktion im Relativsatz bestimmen.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ Mann, der ich sehe → ✅ den ich sehe\n• ❌ Frau, dem ich helfe → ✅ der ich helfe\n• ❌ Präposition am Satzende → ✅ mit dem ich spreche\n• ❌ Relativkasus nach Bezugswort raten → Funktion im Relativsatz bestimmen.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ Mann, der ich sehe → ✅ den ich sehe\n• ❌ Frau, dem ich helfe → ✅ der ich helfe\n• ❌ Präposition am Satzende → ✅ mit dem ich spreche\n• ❌ Relativkasus nach Bezugswort raten → Funktion im Relativsatz bestimmen.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u04_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• Genus/Numerus vom Bezugswort; Kasus aus Relativsatz\n• Nominativ der/die/das; Akk den/die/das; Dat dem/der/dem\n• Präposition steht vor Relativpronomen\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• Genus/Numerus vom Bezugswort; Kasus aus Relativsatz\n• Nominativ der/die/das; Akk den/die/das; Dat dem/der/dem\n• Präposition steht vor Relativpronomen\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• Genus/Numerus vom Bezugswort; Kasus aus Relativsatz\n• Nominativ der/die/das; Akk den/die/das; Dat dem/der/dem\n• Präposition steht vor Relativpronomen\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u04_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Schreibe zwölf Relativsätze: je drei mit Nom/Akk/Dat und drei mit Präposition oder dessen/deren.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Schreibe zwölf Relativsätze: je drei mit Nom/Akk/Dat und drei mit Präposition oder dessen/deren.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Schreibe zwölf Relativsätze: je drei mit Nom/Akk/Dat und drei mit Präposition oder dessen/deren.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u04_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U04_CASEBOOK"
+      ]
+    }
+  ]
+}

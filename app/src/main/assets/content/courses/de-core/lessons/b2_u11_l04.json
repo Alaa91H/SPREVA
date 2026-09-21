@@ -1,0 +1,378 @@
+{
+  "id": "b2_u11_l04",
+  "unitId": "de-core-b2-u11",
+  "title": {
+    "de": "Falltraining: Wirtschaft, Konsum & Finanzen",
+    "ar": "تدريب الحالات: الاقتصاد والاستهلاك والمال",
+    "en": "Casebook: Economics, consumption & finance"
+  },
+  "canDo": [
+    "B2_U11_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u11_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Wirtschaft, Konsum & Finanzen\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Preis ≠ Gebühr ≠ Gesamtkosten\n• brutto vor, netto nach Abzügen\n• Vertragslaufzeit, Verlängerung und Kündigungsfrist zusammen lesen",
+        "ar": "الموضوع: الاقتصاد والاستهلاك والمال\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Preis ≠ Gebühr ≠ Gesamtkosten\n• brutto vor, netto nach Abzügen\n• Vertragslaufzeit, Verlängerung und Kündigungsfrist zusammen lesen",
+        "en": "Topic: Economics, consumption & finance\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Preis ≠ Gebühr ≠ Gesamtkosten\n• brutto vor, netto nach Abzügen\n• Vertragslaufzeit, Verlängerung und Kündigungsfrist zusammen lesen"
+      }
+    },
+    {
+      "id": "b2_u11_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u11_l04_w1",
+          "german": "Gebühr",
+          "translation": {
+            "de": "Gebühr",
+            "ar": "رسوم",
+            "en": "fee"
+          }
+        },
+        {
+          "id": "b2_u11_l04_w2",
+          "german": "Laufzeit",
+          "translation": {
+            "de": "Laufzeit",
+            "ar": "مدة",
+            "en": "term"
+          }
+        },
+        {
+          "id": "b2_u11_l04_w3",
+          "german": "Zinssatz",
+          "translation": {
+            "de": "Zinssatz",
+            "ar": "فائدة",
+            "en": "interest rate"
+          }
+        },
+        {
+          "id": "b2_u11_l04_w4",
+          "german": "Kündigungsfrist",
+          "translation": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "b2_u11_l04_w5",
+          "german": "brutto",
+          "translation": {
+            "de": "brutto",
+            "ar": "إجمالي",
+            "en": "gross"
+          }
+        },
+        {
+          "id": "b2_u11_l04_w6",
+          "german": "netto",
+          "translation": {
+            "de": "netto",
+            "ar": "صافي",
+            "en": "net"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u11_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die monatliche {answer} beträgt 9 Euro.",
+        "ar": "Die monatliche {answer} beträgt 9 Euro.",
+        "en": "Die monatliche {answer} beträgt 9 Euro."
+      },
+      "acceptedAnswers": [
+        "Gebühr"
+      ]
+    },
+    {
+      "id": "b2_u11_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} beträgt 24 Monate.",
+        "ar": "Die {answer} beträgt 24 Monate.",
+        "en": "Die {answer} beträgt 24 Monate."
+      },
+      "acceptedAnswers": [
+        "Laufzeit"
+      ]
+    },
+    {
+      "id": "b2_u11_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der {answer} liegt bei 5 Prozent.",
+        "ar": "Der {answer} liegt bei 5 Prozent.",
+        "en": "Der {answer} liegt bei 5 Prozent."
+      },
+      "acceptedAnswers": [
+        "Zinssatz"
+      ]
+    },
+    {
+      "id": "b2_u11_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beachten Sie die {answer}.",
+        "ar": "Beachten Sie die {answer}.",
+        "en": "Beachten Sie die {answer}."
+      },
+      "acceptedAnswers": [
+        "Kündigungsfrist"
+      ]
+    },
+    {
+      "id": "b2_u11_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Gehalt ist {answer} vor Abzügen.",
+        "ar": "Das Gehalt ist {answer} vor Abzügen.",
+        "en": "Das Gehalt ist {answer} vor Abzügen."
+      },
+      "acceptedAnswers": [
+        "brutto"
+      ]
+    },
+    {
+      "id": "b2_u11_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach Abzügen bleibt das {answer}.",
+        "ar": "Nach Abzügen bleibt das {answer}.",
+        "en": "Nach Abzügen bleibt das {answer}."
+      },
+      "acceptedAnswers": [
+        "netto"
+      ]
+    },
+    {
+      "id": "b2_u11_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Gebühr",
+        "ar": "Gebühr",
+        "en": "Gebühr"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Gebühr",
+            "ar": "رسوم",
+            "en": "fee"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Laufzeit",
+            "ar": "مدة",
+            "en": "term"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zinssatz",
+            "ar": "فائدة",
+            "en": "interest rate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u11_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Laufzeit",
+        "ar": "Laufzeit",
+        "en": "Laufzeit"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Laufzeit",
+            "ar": "مدة",
+            "en": "term"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Zinssatz",
+            "ar": "فائدة",
+            "en": "interest rate"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u11_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Zinssatz",
+        "ar": "Zinssatz",
+        "en": "Zinssatz"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Zinssatz",
+            "ar": "فائدة",
+            "en": "interest rate"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "brutto",
+            "ar": "إجمالي",
+            "en": "gross"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u11_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Kündigungsfrist",
+        "ar": "Kündigungsfrist",
+        "en": "Kündigungsfrist"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "brutto",
+            "ar": "إجمالي",
+            "en": "gross"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "netto",
+            "ar": "صافي",
+            "en": "net"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u11_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ Einstiegspreis = Gesamtkosten\n• ❌ brutto/netto verwechseln\n• ❌ Zinssatz ohne Laufzeit/Bezugsgröße vergleichen\n• ❌ Kündigung und Widerruf gleichsetzen.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ Einstiegspreis = Gesamtkosten\n• ❌ brutto/netto verwechseln\n• ❌ Zinssatz ohne Laufzeit/Bezugsgröße vergleichen\n• ❌ Kündigung und Widerruf gleichsetzen.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ Einstiegspreis = Gesamtkosten\n• ❌ brutto/netto verwechseln\n• ❌ Zinssatz ohne Laufzeit/Bezugsgröße vergleichen\n• ❌ Kündigung und Widerruf gleichsetzen.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u11_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Preis ≠ Gebühr ≠ Gesamtkosten\n• brutto vor, netto nach Abzügen\n• Vertragslaufzeit, Verlängerung und Kündigungsfrist zusammen lesen\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Preis ≠ Gebühr ≠ Gesamtkosten\n• brutto vor, netto nach Abzügen\n• Vertragslaufzeit, Verlängerung und Kündigungsfrist zusammen lesen\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Preis ≠ Gebühr ≠ Gesamtkosten\n• brutto vor, netto nach Abzügen\n• Vertragslaufzeit, Verlängerung und Kündigungsfrist zusammen lesen\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u11_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Vergleiche drei fiktive Verträge mit Monatskosten, Startpreis, Laufzeit, Zusatzgebühren und Kündigungsregel. Begründe Entscheidung transparent.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Vergleiche drei fiktive Verträge mit Monatskosten, Startpreis, Laufzeit, Zusatzgebühren und Kündigungsregel. Begründe Entscheidung transparent.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Vergleiche drei fiktive Verträge mit Monatskosten, Startpreis, Laufzeit, Zusatzgebühren und Kündigungsregel. Begründe Entscheidung transparent.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u11_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U11_CASEBOOK"
+      ]
+    }
+  ]
+}

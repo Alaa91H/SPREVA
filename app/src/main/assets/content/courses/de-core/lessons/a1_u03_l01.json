@@ -1,0 +1,154 @@
+{
+  "id": "a1_u03_l01",
+  "unitId": "de-core-a1-u03",
+  "title": {
+    "de": "Zahlen, um/am und Zeitangaben",
+    "ar": "الأرقام واستخدام um/am وتعبيرات الزمن",
+    "en": "Numbers, um/am and time expressions"
+  },
+  "canDo": [
+    "A1_U03_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u03_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Zahlen, um/am und Zeitangaben",
+        "ar": "الأرقام واستخدام um/am وتعبيرات الزمن",
+        "en": "Numbers, um/am and time expressions"
+      },
+      "body": {
+        "de": "Lernziel: Zahlen, um/am und Zeitangaben\n\nKernregel:\nFür Uhrzeiten verwendet man meist „um“: um 9 Uhr. Für Wochentage und Tagesabschnitte: am Montag, am Vormittag. Das Verb bleibt im Hauptsatz an Position 2: „Am Montag habe ich Zeit.“\n\nMusterbeispiele:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs.\n\nPraxisbezug:\nArzt, Bürgerbüro, Kurs oder Werkstatt: nach freiem Termin fragen, Datum und Uhrzeit bestätigen, Verspätung mitteilen.\n\nTypische Stolperfalle:\n„um“ und „am“ nicht verwechseln: um + Uhrzeit, am + Tag. Bei 13:30 sagt man formell „dreizehn Uhr dreißig“, umgangssprachlich auch „halb zwei“.",
+        "ar": "هدف الدرس: الأرقام واستخدام um/am وتعبيرات الزمن\n\nالقاعدة الأساسية:\nللوقت نستخدم غالبًا um مثل um 9 Uhr، ولأيام الأسبوع وأجزاء اليوم نستخدم am مثل am Montag. يبقى الفعل في الجملة الرئيسية بالموقع الثاني: Am Montag habe ich Zeit.\n\nأمثلة ألمانية:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs.\n\nالاستخدام في الحياة:\nالطبيب أو البلدية أو الدورة أو الورشة: السؤال عن موعد متاح، تأكيد التاريخ والوقت، وإبلاغ التأخير.\n\nخطأ شائع يجب تجنبه:\nلا تخلط بين um وam: um مع الساعة وam مع اليوم. 13:30 يمكن قولها رسميًا dreizehn Uhr dreißig أو محادثيًا halb zwei.",
+        "en": "Lesson goal: Numbers, um/am and time expressions\n\nCore rule:\nUse um for clock time: um 9 Uhr. Use am for weekdays and parts of the day: am Montag, am Vormittag. The conjugated verb stays in position 2: “Am Montag habe ich Zeit.”\n\nGerman examples:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs.\n\nReal-life use:\nDoctor, public office, course or workshop: ask for an available appointment, confirm date and time, report a delay.\n\nCommon pitfall:\nDo not confuse um and am: um + clock time, am + day. 13:30 can be said formally as dreizehn Uhr dreißig and colloquially as halb zwei."
+      }
+    },
+    {
+      "id": "a1_u03_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u03_l01_w1",
+          "german": "der Termin",
+          "translation": {
+            "de": "appointment",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "a1_u03_l01_w2",
+          "german": "die Uhrzeit",
+          "translation": {
+            "de": "time",
+            "ar": "الوقت/الساعة",
+            "en": "time"
+          }
+        },
+        {
+          "id": "a1_u03_l01_w3",
+          "german": "heute",
+          "translation": {
+            "de": "today",
+            "ar": "اليوم",
+            "en": "today"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u03_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Für Uhrzeiten verwendet man meist „um“: um 9 Uhr. Für Wochentage und Tagesabschnitte: am Montag, am Vormittag. Das Verb bleibt im Hauptsatz an Position 2: „Am Montag habe ich Zeit.“\n\nBeispiele:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs.",
+        "ar": "قاعدة مختصرة: للوقت نستخدم غالبًا um مثل um 9 Uhr، ولأيام الأسبوع وأجزاء اليوم نستخدم am مثل am Montag. يبقى الفعل في الجملة الرئيسية بالموقع الثاني: Am Montag habe ich Zeit.\n\nالأمثلة:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs.",
+        "en": "Key rule: Use um for clock time: um 9 Uhr. Use am for weekdays and parts of the day: am Montag, am Vormittag. The conjugated verb stays in position 2: “Am Montag habe ich Zeit.”\n\nExamples:\n• Der Termin ist am Dienstag um 10:30 Uhr.\n• Haben Sie am Freitag Zeit?\n• Um acht Uhr beginnt der Kurs."
+      }
+    },
+    {
+      "id": "a1_u03_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "der Termin",
+        "ar": "der Termin",
+        "en": "der Termin"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "appointment",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "time",
+            "ar": "الوقت/الساعة",
+            "en": "time"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "today",
+            "ar": "اليوم",
+            "en": "today"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u03_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Termin ist {answer} 15 Uhr.",
+        "ar": "Der Termin ist {answer} 15 Uhr.",
+        "en": "Der Termin ist {answer} 15 Uhr."
+      },
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "a1_u03_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Zahlen, Uhrzeit & Termine“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «الأرقام والوقت والمواعيد». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Numbers, time & appointments”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u03_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U03_FOUNDATION"
+      ]
+    }
+  ]
+}

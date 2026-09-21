@@ -1,0 +1,378 @@
+{
+  "id": "a2_u09_l04",
+  "unitId": "de-core-a2-u09",
+  "title": {
+    "de": "Falltraining: Adjektive im Alltag",
+    "ar": "تدريب الحالات: الصفات في الحياة اليومية",
+    "en": "Casebook: Adjectives in everyday German"
+  },
+  "canDo": [
+    "A2_U09_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u09_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Adjektive im Alltag\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• Endung hängt von Artikel + Genus + Kasus ab\n• nach bestimmtem Artikel meist -e/-en\n• nach ein-Wörtern trägt Adjektiv fehlende Kasus-/Genusinformation",
+        "ar": "الموضوع: الصفات في الحياة اليومية\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• Endung hängt von Artikel + Genus + Kasus ab\n• nach bestimmtem Artikel meist -e/-en\n• nach ein-Wörtern trägt Adjektiv fehlende Kasus-/Genusinformation",
+        "en": "Topic: Adjectives in everyday German\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• Endung hängt von Artikel + Genus + Kasus ab\n• nach bestimmtem Artikel meist -e/-en\n• nach ein-Wörtern trägt Adjektiv fehlende Kasus-/Genusinformation"
+      }
+    },
+    {
+      "id": "a2_u09_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u09_l04_w1",
+          "german": "roter",
+          "translation": {
+            "de": "roter",
+            "ar": "أحمر بصيغة صفة",
+            "en": "red inflected"
+          }
+        },
+        {
+          "id": "a2_u09_l04_w2",
+          "german": "kleine",
+          "translation": {
+            "de": "kleine",
+            "ar": "صغيرة",
+            "en": "small inflected"
+          }
+        },
+        {
+          "id": "a2_u09_l04_w3",
+          "german": "neuen",
+          "translation": {
+            "de": "neuen",
+            "ar": "جديد بصيغة صفة",
+            "en": "new inflected"
+          }
+        },
+        {
+          "id": "a2_u09_l04_w4",
+          "german": "schön",
+          "translation": {
+            "de": "schön",
+            "ar": "جميل",
+            "en": "beautiful"
+          }
+        },
+        {
+          "id": "a2_u09_l04_w5",
+          "german": "praktisch",
+          "translation": {
+            "de": "praktisch",
+            "ar": "عملي",
+            "en": "practical"
+          }
+        },
+        {
+          "id": "a2_u09_l04_w6",
+          "german": "bequem",
+          "translation": {
+            "de": "bequem",
+            "ar": "مريح",
+            "en": "comfortable"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u09_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich kaufe einen {answer} Pullover.",
+        "ar": "Ich kaufe einen {answer} Pullover.",
+        "en": "Ich kaufe einen {answer} Pullover."
+      },
+      "acceptedAnswers": [
+        "roten"
+      ]
+    },
+    {
+      "id": "a2_u09_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist eine {answer} Tasche.",
+        "ar": "Das ist eine {answer} Tasche.",
+        "en": "Das ist eine {answer} Tasche."
+      },
+      "acceptedAnswers": [
+        "kleine"
+      ]
+    },
+    {
+      "id": "a2_u09_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir wohnen in einer {answer} Wohnung.",
+        "ar": "Wir wohnen in einer {answer} Wohnung.",
+        "en": "Wir wohnen in einer {answer} Wohnung."
+      },
+      "acceptedAnswers": [
+        "neuen"
+      ]
+    },
+    {
+      "id": "a2_u09_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der {answer} Tisch ist teuer.",
+        "ar": "Der {answer} Tisch ist teuer.",
+        "en": "Der {answer} Tisch ist teuer."
+      },
+      "acceptedAnswers": [
+        "schöne"
+      ]
+    },
+    {
+      "id": "a2_u09_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich brauche ein {answer} Auto.",
+        "ar": "Ich brauche ein {answer} Auto.",
+        "en": "Ich brauche ein {answer} Auto."
+      },
+      "acceptedAnswers": [
+        "praktisches"
+      ]
+    },
+    {
+      "id": "a2_u09_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mit einem {answer} Stuhl lerne ich besser.",
+        "ar": "Mit einem {answer} Stuhl lerne ich besser.",
+        "en": "Mit einem {answer} Stuhl lerne ich besser."
+      },
+      "acceptedAnswers": [
+        "bequemen"
+      ]
+    },
+    {
+      "id": "a2_u09_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "roter",
+        "ar": "roter",
+        "en": "roter"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "roter",
+            "ar": "أحمر بصيغة صفة",
+            "en": "red inflected"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "kleine",
+            "ar": "صغيرة",
+            "en": "small inflected"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "neuen",
+            "ar": "جديد بصيغة صفة",
+            "en": "new inflected"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u09_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "kleine",
+        "ar": "kleine",
+        "en": "kleine"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "kleine",
+            "ar": "صغيرة",
+            "en": "small inflected"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "neuen",
+            "ar": "جديد بصيغة صفة",
+            "en": "new inflected"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schön",
+            "ar": "جميل",
+            "en": "beautiful"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u09_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "neuen",
+        "ar": "neuen",
+        "en": "neuen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "neuen",
+            "ar": "جديد بصيغة صفة",
+            "en": "new inflected"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "schön",
+            "ar": "جميل",
+            "en": "beautiful"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "praktisch",
+            "ar": "عملي",
+            "en": "practical"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u09_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "schön",
+        "ar": "schön",
+        "en": "schön"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "schön",
+            "ar": "جميل",
+            "en": "beautiful"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "praktisch",
+            "ar": "عملي",
+            "en": "practical"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "bequem",
+            "ar": "مريح",
+            "en": "comfortable"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u09_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ einen rot Pullover → ✅ einen roten Pullover\n• ❌ eine kleines Tasche → ✅ eine kleine Tasche\n• ❌ in einer neu Wohnung → ✅ in einer neuen Wohnung\n• ❌ ein praktischer Auto → ✅ ein praktisches Auto\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ einen rot Pullover → ✅ einen roten Pullover\n• ❌ eine kleines Tasche → ✅ eine kleine Tasche\n• ❌ in einer neu Wohnung → ✅ in einer neuen Wohnung\n• ❌ ein praktischer Auto → ✅ ein praktisches Auto\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ einen rot Pullover → ✅ einen roten Pullover\n• ❌ eine kleines Tasche → ✅ eine kleine Tasche\n• ❌ in einer neu Wohnung → ✅ in einer neuen Wohnung\n• ❌ ein praktischer Auto → ✅ ein praktisches Auto\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u09_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• Endung hängt von Artikel + Genus + Kasus ab\n• nach bestimmtem Artikel meist -e/-en\n• nach ein-Wörtern trägt Adjektiv fehlende Kasus-/Genusinformation\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• Endung hängt von Artikel + Genus + Kasus ab\n• nach bestimmtem Artikel meist -e/-en\n• nach ein-Wörtern trägt Adjektiv fehlende Kasus-/Genusinformation\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• Endung hängt von Artikel + Genus + Kasus ab\n• nach bestimmtem Artikel meist -e/-en\n• nach ein-Wörtern trägt Adjektiv fehlende Kasus-/Genusinformation\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u09_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Beschreibe zehn Gegenstände mit wechselnden Artikeln und Fällen; markiere Artikel, Kasus und Adjektivendung.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Beschreibe zehn Gegenstände mit wechselnden Artikeln und Fällen; markiere Artikel, Kasus und Adjektivendung.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Beschreibe zehn Gegenstände mit wechselnden Artikeln und Fällen; markiere Artikel, Kasus und Adjektivendung.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u09_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U09_CASEBOOK"
+      ]
+    }
+  ]
+}

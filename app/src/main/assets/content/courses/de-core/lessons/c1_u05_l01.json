@@ -1,0 +1,154 @@
+{
+  "id": "c1_u05_l01",
+  "unitId": "de-core-c1-u05",
+  "title": {
+    "de": "Komplexe Nominalketten analysieren und stilistisch umformen",
+    "ar": "تحليل السلاسل الاسمية المعقدة وإعادة صياغتها",
+    "en": "Analyzing complex noun chains and stylistic transformation"
+  },
+  "canDo": [
+    "C1_U05_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u05_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe Nominalketten analysieren und stilistisch umformen",
+        "ar": "تحليل السلاسل الاسمية المعقدة وإعادة صياغتها",
+        "en": "Analyzing complex noun chains and stylistic transformation"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Komplexe Nominalketten analysieren und stilistisch umformen\n\nSystematische Erklärung:\nC1 verlangt bidirektionale Kontrolle: nominale Verdichtung verstehen und bei Bedarf wieder in klare Verbstrukturen auflösen. „Nach erfolgter Prüfung der eingereichten Unterlagen“ kann zu „Nachdem die eingereichten Unterlagen geprüft worden sind“ werden. Gute Redaktion wägt Dichte gegen Lesbarkeit ab und vermeidet unnötige Funktionsverbketten.\n\nReferenzbeispiele:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen.\n\nAuthentische Einsatzfelder:\nBehördentext, Bericht, wissenschaftlicher Absatz oder Unternehmenskommunikation: schwer lesbare Passagen vereinfachen, ohne Präzision zu verlieren.\n\nDiagnostischer Hinweis:\nNicht jeden Nominalstil pauschal vereinfachen. In juristischen, wissenschaftlichen oder administrativen Kontexten kann Verdichtung Terminologie und Präzision sichern; entscheidend ist die Funktion.",
+        "ar": "هدف C1: تحليل السلاسل الاسمية المعقدة وإعادة صياغتها\n\nشرح منهجي عميق:\nيتطلب C1 القدرة في الاتجاهين: فهم التكثيف الاسمي وتحويله عند الحاجة إلى تراكيب فعلية واضحة. يمكن تحويل Nach erfolgter Prüfung… إلى Nachdem… geprüft worden sind. التحرير الجيد يوازن الكثافة مع سهولة القراءة.\n\nأمثلة مرجعية:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen.\n\nمجالات استخدام واقعية:\nفي نص إداري أو تقرير أو فقرة علمية أو تواصل مؤسسي: تبسيط المقاطع الثقيلة دون فقدان الدقة.\n\nملاحظة تشخيصية:\nلا تُبسّط كل أسلوب اسمي تلقائيًا. في القانون والعلم والإدارة قد يحافظ التكثيف على المصطلح والدقة؛ المهم الوظيفة.",
+        "en": "C1 competence goal: Analyzing complex noun chains and stylistic transformation\n\nSystematic explanation:\nC1 requires bidirectional control: understand nominal compression and expand it into clear verbal structures when useful. “Nach erfolgter Prüfung…” can become “Nachdem … geprüft worden sind”. Good editing balances density against readability and avoids unnecessary function-verb chains.\n\nReference examples:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen.\n\nAuthentic domains:\nAdministrative text, report, academic paragraph or corporate communication: simplify difficult passages without losing precision.\n\nDiagnostic note:\nDo not simplify all nominal style indiscriminately. In legal, scientific or administrative contexts, compression can preserve terminology and precision; function is decisive."
+      }
+    },
+    {
+      "id": "c1_u05_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u05_l01_w1",
+          "german": "die Verdichtung",
+          "translation": {
+            "de": "compression",
+            "ar": "التكثيف",
+            "en": "compression"
+          }
+        },
+        {
+          "id": "c1_u05_l01_w2",
+          "german": "auflösen",
+          "translation": {
+            "de": "expand/unpack",
+            "ar": "يفك/يحلل",
+            "en": "expand/unpack"
+          }
+        },
+        {
+          "id": "c1_u05_l01_w3",
+          "german": "die Lesbarkeit",
+          "translation": {
+            "de": "readability",
+            "ar": "سهولة القراءة",
+            "en": "readability"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u05_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nC1 verlangt bidirektionale Kontrolle: nominale Verdichtung verstehen und bei Bedarf wieder in klare Verbstrukturen auflösen. „Nach erfolgter Prüfung der eingereichten Unterlagen“ kann zu „Nachdem die eingereichten Unterlagen geprüft worden sind“ werden. Gute Redaktion wägt Dichte gegen Lesbarkeit ab und vermeidet unnötige Funktionsverbketten.\n\nBeispiele:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen.",
+        "ar": "المبدأ الأساسي:\nيتطلب C1 القدرة في الاتجاهين: فهم التكثيف الاسمي وتحويله عند الحاجة إلى تراكيب فعلية واضحة. يمكن تحويل Nach erfolgter Prüfung… إلى Nachdem… geprüft worden sind. التحرير الجيد يوازن الكثافة مع سهولة القراءة.\n\nالأمثلة:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen.",
+        "en": "Core principle:\nC1 requires bidirectional control: understand nominal compression and expand it into clear verbal structures when useful. “Nach erfolgter Prüfung…” can become “Nachdem … geprüft worden sind”. Good editing balances density against readability and avoids unnecessary function-verb chains.\n\nExamples:\n• Nach Abschluss der umfassenden Prüfung erfolgt die Freigabe.\n• Nachdem die Unterlagen umfassend geprüft worden sind, wird der Vorgang freigegeben.\n• Die Durchführung einer Überprüfung kann häufig schlicht „prüfen“ heißen."
+      }
+    },
+    {
+      "id": "c1_u05_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "die Verdichtung",
+        "ar": "die Verdichtung",
+        "en": "die Verdichtung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "compression",
+            "ar": "التكثيف",
+            "en": "compression"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "expand/unpack",
+            "ar": "يفك/يحلل",
+            "en": "expand/unpack"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "readability",
+            "ar": "سهولة القراءة",
+            "en": "readability"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u05_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach {answer} der Prüfung erfolgt die Freigabe.",
+        "ar": "Nach {answer} der Prüfung erfolgt die Freigabe.",
+        "en": "Nach {answer} der Prüfung erfolgt die Freigabe."
+      },
+      "acceptedAnswers": [
+        "Abschluss"
+      ]
+    },
+    {
+      "id": "c1_u05_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Nominalstil, Verdichtung & Rückübersetzung“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «الأسلوب الاسمي والتكثيف وإعادة الصياغة الفعلية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Nominal style, compression & verbal expansion”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u05_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U05_FOUNDATION"
+      ]
+    }
+  ]
+}

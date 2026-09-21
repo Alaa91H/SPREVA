@@ -1,0 +1,378 @@
+{
+  "id": "b1_u05_l04",
+  "unitId": "de-core-b1-u05",
+  "title": {
+    "de": "Falltraining: Ziele & Infinitivkonstruktionen",
+    "ar": "تدريب الحالات: الأهداف وتراكيب المصدر",
+    "en": "Casebook: Goals & infinitive constructions"
+  },
+  "canDo": [
+    "B1_U05_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u05_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Ziele & Infinitivkonstruktionen\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• zu-Infinitiv bei gleichem implizitem Subjekt häufig\n• um…zu = Zweck; ohne…zu = fehlende Begleithandlung; statt…zu = Alternative\n• bei anderem Subjekt oft damit/ohne dass/statt dass",
+        "ar": "الموضوع: الأهداف وتراكيب المصدر\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• zu-Infinitiv bei gleichem implizitem Subjekt häufig\n• um…zu = Zweck; ohne…zu = fehlende Begleithandlung; statt…zu = Alternative\n• bei anderem Subjekt oft damit/ohne dass/statt dass",
+        "en": "Topic: Goals & infinitive constructions\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• zu-Infinitiv bei gleichem implizitem Subjekt häufig\n• um…zu = Zweck; ohne…zu = fehlende Begleithandlung; statt…zu = Alternative\n• bei anderem Subjekt oft damit/ohne dass/statt dass"
+      }
+    },
+    {
+      "id": "b1_u05_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u05_l04_w1",
+          "german": "um … zu",
+          "translation": {
+            "de": "um … zu",
+            "ar": "لكي",
+            "en": "in order to"
+          }
+        },
+        {
+          "id": "b1_u05_l04_w2",
+          "german": "ohne … zu",
+          "translation": {
+            "de": "ohne … zu",
+            "ar": "دون أن",
+            "en": "without"
+          }
+        },
+        {
+          "id": "b1_u05_l04_w3",
+          "german": "statt … zu",
+          "translation": {
+            "de": "statt … zu",
+            "ar": "بدل أن",
+            "en": "instead of"
+          }
+        },
+        {
+          "id": "b1_u05_l04_w4",
+          "german": "versuchen",
+          "translation": {
+            "de": "versuchen",
+            "ar": "يحاول",
+            "en": "try"
+          }
+        },
+        {
+          "id": "b1_u05_l04_w5",
+          "german": "planen",
+          "translation": {
+            "de": "planen",
+            "ar": "يخطط",
+            "en": "plan"
+          }
+        },
+        {
+          "id": "b1_u05_l04_w6",
+          "german": "vergessen",
+          "translation": {
+            "de": "vergessen",
+            "ar": "ينسى",
+            "en": "forget"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u05_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich lerne, {answer} die Prüfung zu bestehen.",
+        "ar": "Ich lerne, {answer} die Prüfung zu bestehen.",
+        "en": "Ich lerne, {answer} die Prüfung zu bestehen."
+      },
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "b1_u05_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er ging, {answer} sich zu verabschieden.",
+        "ar": "Er ging, {answer} sich zu verabschieden.",
+        "en": "Er ging, {answer} sich zu verabschieden."
+      },
+      "acceptedAnswers": [
+        "ohne"
+      ]
+    },
+    {
+      "id": "b1_u05_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} anzurufen, schrieb sie.",
+        "ar": "{answer} anzurufen, schrieb sie.",
+        "en": "{answer} anzurufen, schrieb sie."
+      },
+      "acceptedAnswers": [
+        "Statt"
+      ]
+    },
+    {
+      "id": "b1_u05_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich versuche, früher {answer} kommen.",
+        "ar": "Ich versuche, früher {answer} kommen.",
+        "en": "Ich versuche, früher {answer} kommen."
+      },
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "b1_u05_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir planen, nächstes Jahr {answer}.",
+        "ar": "Wir planen, nächstes Jahr {answer}.",
+        "en": "Wir planen, nächstes Jahr {answer}."
+      },
+      "acceptedAnswers": [
+        "umzuziehen"
+      ]
+    },
+    {
+      "id": "b1_u05_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe vergessen, den Termin {answer} bestätigen.",
+        "ar": "Ich habe vergessen, den Termin {answer} bestätigen.",
+        "en": "Ich habe vergessen, den Termin {answer} bestätigen."
+      },
+      "acceptedAnswers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "b1_u05_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "um … zu",
+        "ar": "um … zu",
+        "en": "um … zu"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "um … zu",
+            "ar": "لكي",
+            "en": "in order to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ohne … zu",
+            "ar": "دون أن",
+            "en": "without"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "statt … zu",
+            "ar": "بدل أن",
+            "en": "instead of"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u05_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "ohne … zu",
+        "ar": "ohne … zu",
+        "en": "ohne … zu"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ohne … zu",
+            "ar": "دون أن",
+            "en": "without"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "statt … zu",
+            "ar": "بدل أن",
+            "en": "instead of"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "versuchen",
+            "ar": "يحاول",
+            "en": "try"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u05_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "statt … zu",
+        "ar": "statt … zu",
+        "en": "statt … zu"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "statt … zu",
+            "ar": "بدل أن",
+            "en": "instead of"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "versuchen",
+            "ar": "يحاول",
+            "en": "try"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "planen",
+            "ar": "يخطط",
+            "en": "plan"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u05_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "versuchen",
+        "ar": "versuchen",
+        "en": "versuchen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "versuchen",
+            "ar": "يحاول",
+            "en": "try"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "planen",
+            "ar": "يخطط",
+            "en": "plan"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "vergessen",
+            "ar": "ينسى",
+            "en": "forget"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u05_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ um ich bestehe → ✅ um … zu + gleicher Handelnder\n• ❌ ohne zu er spricht → ✅ ohne zu sprechen / ohne dass er spricht\n• ❌ ich muss zu gehen → ✅ ich muss gehen (Modalverb ohne zu)\n• ❌ trennbar: zu anfangen → ✅ anzufangen\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ um ich bestehe → ✅ um … zu + gleicher Handelnder\n• ❌ ohne zu er spricht → ✅ ohne zu sprechen / ohne dass er spricht\n• ❌ ich muss zu gehen → ✅ ich muss gehen (Modalverb ohne zu)\n• ❌ trennbar: zu anfangen → ✅ anzufangen\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ um ich bestehe → ✅ um … zu + gleicher Handelnder\n• ❌ ohne zu er spricht → ✅ ohne zu sprechen / ohne dass er spricht\n• ❌ ich muss zu gehen → ✅ ich muss gehen (Modalverb ohne zu)\n• ❌ trennbar: zu anfangen → ✅ anzufangen\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u05_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• zu-Infinitiv bei gleichem implizitem Subjekt häufig\n• um…zu = Zweck; ohne…zu = fehlende Begleithandlung; statt…zu = Alternative\n• bei anderem Subjekt oft damit/ohne dass/statt dass\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• zu-Infinitiv bei gleichem implizitem Subjekt häufig\n• um…zu = Zweck; ohne…zu = fehlende Begleithandlung; statt…zu = Alternative\n• bei anderem Subjekt oft damit/ohne dass/statt dass\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• zu-Infinitiv bei gleichem implizitem Subjekt häufig\n• um…zu = Zweck; ohne…zu = fehlende Begleithandlung; statt…zu = Alternative\n• bei anderem Subjekt oft damit/ohne dass/statt dass\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u05_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Formuliere zehn Ziele und Alternativen: Arbeit, Gesundheit, Lernen, Reise. Verwende alle drei Konstruktionen und zwei damit-Sätze zum Vergleich.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Formuliere zehn Ziele und Alternativen: Arbeit, Gesundheit, Lernen, Reise. Verwende alle drei Konstruktionen und zwei damit-Sätze zum Vergleich.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Formuliere zehn Ziele und Alternativen: Arbeit, Gesundheit, Lernen, Reise. Verwende alle drei Konstruktionen und zwei damit-Sätze zum Vergleich.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u05_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U05_CASEBOOK"
+      ]
+    }
+  ]
+}

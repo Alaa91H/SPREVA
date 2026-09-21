@@ -1,0 +1,378 @@
+{
+  "id": "a2_u06_l04",
+  "unitId": "de-core-a2-u06",
+  "title": {
+    "de": "Falltraining: Wechselpräpositionen & Wohnung",
+    "ar": "تدريب الحالات: حروف الجر الثنائية والسكن",
+    "en": "Casebook: Two-way prepositions & housing"
+  },
+  "canDo": [
+    "A2_U06_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u06_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Wechselpräpositionen & Wohnung\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• Wo? → Dativ; Wohin? → Akkusativ\n• stellen/legen/hängen (Bewegung) vs stehen/liegen/hängen (Zustand)\n• in das = ins; in dem = im; an das = ans",
+        "ar": "الموضوع: حروف الجر الثنائية والسكن\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• Wo? → Dativ; Wohin? → Akkusativ\n• stellen/legen/hängen (Bewegung) vs stehen/liegen/hängen (Zustand)\n• in das = ins; in dem = im; an das = ans",
+        "en": "Topic: Two-way prepositions & housing\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• Wo? → Dativ; Wohin? → Akkusativ\n• stellen/legen/hängen (Bewegung) vs stehen/liegen/hängen (Zustand)\n• in das = ins; in dem = im; an das = ans"
+      }
+    },
+    {
+      "id": "a2_u06_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u06_l04_w1",
+          "german": "in",
+          "translation": {
+            "de": "in",
+            "ar": "في/إلى",
+            "en": "in"
+          }
+        },
+        {
+          "id": "a2_u06_l04_w2",
+          "german": "auf",
+          "translation": {
+            "de": "auf",
+            "ar": "على/إلى سطح",
+            "en": "on"
+          }
+        },
+        {
+          "id": "a2_u06_l04_w3",
+          "german": "an",
+          "translation": {
+            "de": "an",
+            "ar": "عند/إلى",
+            "en": "at/on"
+          }
+        },
+        {
+          "id": "a2_u06_l04_w4",
+          "german": "stellen",
+          "translation": {
+            "de": "stellen",
+            "ar": "يضع واقفًا",
+            "en": "put upright"
+          }
+        },
+        {
+          "id": "a2_u06_l04_w5",
+          "german": "stehen",
+          "translation": {
+            "de": "stehen",
+            "ar": "يقف/يوجد",
+            "en": "stand"
+          }
+        },
+        {
+          "id": "a2_u06_l04_w6",
+          "german": "liegen",
+          "translation": {
+            "de": "liegen",
+            "ar": "يقع/يكون موضوعًا",
+            "en": "lie"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u06_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stelle die Lampe {answer} den Tisch.",
+        "ar": "Ich stelle die Lampe {answer} den Tisch.",
+        "en": "Ich stelle die Lampe {answer} den Tisch."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "a2_u06_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Lampe steht {answer} dem Tisch.",
+        "ar": "Die Lampe steht {answer} dem Tisch.",
+        "en": "Die Lampe steht {answer} dem Tisch."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "a2_u06_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich gehe {answer} die Küche.",
+        "ar": "Ich gehe {answer} die Küche.",
+        "en": "Ich gehe {answer} die Küche."
+      },
+      "acceptedAnswers": [
+        "in"
+      ]
+    },
+    {
+      "id": "a2_u06_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bin {answer} der Küche.",
+        "ar": "Ich bin {answer} der Küche.",
+        "en": "Ich bin {answer} der Küche."
+      },
+      "acceptedAnswers": [
+        "in"
+      ]
+    },
+    {
+      "id": "a2_u06_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Bild hängt {answer} der Wand.",
+        "ar": "Das Bild hängt {answer} der Wand.",
+        "en": "Das Bild hängt {answer} der Wand."
+      },
+      "acceptedAnswers": [
+        "an"
+      ]
+    },
+    {
+      "id": "a2_u06_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich hänge das Bild {answer} die Wand.",
+        "ar": "Ich hänge das Bild {answer} die Wand.",
+        "en": "Ich hänge das Bild {answer} die Wand."
+      },
+      "acceptedAnswers": [
+        "an"
+      ]
+    },
+    {
+      "id": "a2_u06_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "in",
+        "ar": "in",
+        "en": "in"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "in",
+            "ar": "في/إلى",
+            "en": "in"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "auf",
+            "ar": "على/إلى سطح",
+            "en": "on"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "an",
+            "ar": "عند/إلى",
+            "en": "at/on"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u06_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "auf",
+        "ar": "auf",
+        "en": "auf"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "auf",
+            "ar": "على/إلى سطح",
+            "en": "on"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "an",
+            "ar": "عند/إلى",
+            "en": "at/on"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "stellen",
+            "ar": "يضع واقفًا",
+            "en": "put upright"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u06_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "an",
+        "ar": "an",
+        "en": "an"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "an",
+            "ar": "عند/إلى",
+            "en": "at/on"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "stellen",
+            "ar": "يضع واقفًا",
+            "en": "put upright"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "stehen",
+            "ar": "يقف/يوجد",
+            "en": "stand"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u06_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "stellen",
+        "ar": "stellen",
+        "en": "stellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "stellen",
+            "ar": "يضع واقفًا",
+            "en": "put upright"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "stehen",
+            "ar": "يقف/يوجد",
+            "en": "stand"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "liegen",
+            "ar": "يقع/يكون موضوعًا",
+            "en": "lie"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u06_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ Ich bin in die Küche. → ✅ in der Küche (Wo?)\n• ❌ Ich gehe in der Küche. → ✅ in die Küche (Wohin?)\n• ❌ auf dem Tisch stellen → bei Bewegung ✅ auf den Tisch stellen\n• ❌ an die Wand hängt → Zustand ✅ an der Wand hängt\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ Ich bin in die Küche. → ✅ in der Küche (Wo?)\n• ❌ Ich gehe in der Küche. → ✅ in die Küche (Wohin?)\n• ❌ auf dem Tisch stellen → bei Bewegung ✅ auf den Tisch stellen\n• ❌ an die Wand hängt → Zustand ✅ an der Wand hängt\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ Ich bin in die Küche. → ✅ in der Küche (Wo?)\n• ❌ Ich gehe in der Küche. → ✅ in die Küche (Wohin?)\n• ❌ auf dem Tisch stellen → bei Bewegung ✅ auf den Tisch stellen\n• ❌ an die Wand hängt → Zustand ✅ an der Wand hängt\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u06_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• Wo? → Dativ; Wohin? → Akkusativ\n• stellen/legen/hängen (Bewegung) vs stehen/liegen/hängen (Zustand)\n• in das = ins; in dem = im; an das = ans\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• Wo? → Dativ; Wohin? → Akkusativ\n• stellen/legen/hängen (Bewegung) vs stehen/liegen/hängen (Zustand)\n• in das = ins; in dem = im; an das = ans\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• Wo? → Dativ; Wohin? → Akkusativ\n• stellen/legen/hängen (Bewegung) vs stehen/liegen/hängen (Zustand)\n• in das = ins; in dem = im; an das = ans\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u06_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Beschreibe ein Zimmer zuerst als Zustand (Wo?), dann räume es um (Wohin?). Verwende mindestens acht Wechselpräpositionen.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Beschreibe ein Zimmer zuerst als Zustand (Wo?), dann räume es um (Wohin?). Verwende mindestens acht Wechselpräpositionen.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Beschreibe ein Zimmer zuerst als Zustand (Wo?), dann räume es um (Wohin?). Verwende mindestens acht Wechselpräpositionen.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u06_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U06_CASEBOOK"
+      ]
+    }
+  ]
+}

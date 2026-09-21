@@ -43,6 +43,18 @@ interface ActivityAttemptDao {
     @Query("SELECT COUNT(*) FROM activity_attempts WHERE lessonId = :lessonId")
     suspend fun countForLesson(lessonId: String): Int
 
+    @Query("SELECT * FROM activity_attempts ORDER BY createdAtEpochMs ASC")
+    fun observeAll(): Flow<List<ActivityAttemptEntity>>
+
+    @Query("SELECT * FROM activity_attempts ORDER BY createdAtEpochMs ASC")
+    suspend fun getAll(): List<ActivityAttemptEntity>
+
+    @Query(
+        "SELECT COUNT(*) FROM activity_attempts " +
+            "WHERE lessonId = :lessonId AND activityId = :activityId AND correct = 0"
+    )
+    suspend fun countIncorrectForActivity(lessonId: String, activityId: String): Int
+
     @Query("DELETE FROM activity_attempts")
     suspend fun clear()
 }
@@ -93,6 +105,9 @@ interface ReviewLogDao {
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(log: ReviewLogEntity)
+
+    @Query("SELECT rating FROM review_logs ORDER BY reviewedAtEpochMs DESC LIMIT :limit")
+    suspend fun getRecentRatings(limit: Int): List<String>
 
     @Query("DELETE FROM review_logs")
     suspend fun clear()

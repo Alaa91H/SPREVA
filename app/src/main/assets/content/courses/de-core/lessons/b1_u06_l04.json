@@ -1,0 +1,378 @@
+{
+  "id": "b1_u06_l04",
+  "unitId": "de-core-b1-u06",
+  "title": {
+    "de": "Falltraining: Adjektivdeklination sicher anwenden",
+    "ar": "تدريب الحالات: إتقان تصريف الصفات",
+    "en": "Casebook: Mastering adjective declension"
+  },
+  "canDo": [
+    "B1_U06_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u06_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Adjektivdeklination sicher anwenden\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• bestimmter Artikel: überwiegend -e/-en\n• ein-Wörter: Adjektiv ergänzt fehlende Markierung\n• Nullartikel: Adjektiv trägt stärkere Kasus-/Genusmarkierung",
+        "ar": "الموضوع: إتقان تصريف الصفات\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• bestimmter Artikel: überwiegend -e/-en\n• ein-Wörter: Adjektiv ergänzt fehlende Markierung\n• Nullartikel: Adjektiv trägt stärkere Kasus-/Genusmarkierung",
+        "en": "Topic: Mastering adjective declension\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• bestimmter Artikel: überwiegend -e/-en\n• ein-Wörter: Adjektiv ergänzt fehlende Markierung\n• Nullartikel: Adjektiv trägt stärkere Kasus-/Genusmarkierung"
+      }
+    },
+    {
+      "id": "b1_u06_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u06_l04_w1",
+          "german": "guter",
+          "translation": {
+            "de": "guter",
+            "ar": "جيد مصروف",
+            "en": "good inflected"
+          }
+        },
+        {
+          "id": "b1_u06_l04_w2",
+          "german": "guten",
+          "translation": {
+            "de": "guten",
+            "ar": "جيد مصروف",
+            "en": "good inflected"
+          }
+        },
+        {
+          "id": "b1_u06_l04_w3",
+          "german": "gute",
+          "translation": {
+            "de": "gute",
+            "ar": "جيدة/جيد",
+            "en": "good inflected"
+          }
+        },
+        {
+          "id": "b1_u06_l04_w4",
+          "german": "öffentlich",
+          "translation": {
+            "de": "öffentlich",
+            "ar": "عام",
+            "en": "public"
+          }
+        },
+        {
+          "id": "b1_u06_l04_w5",
+          "german": "zuverlässig",
+          "translation": {
+            "de": "zuverlässig",
+            "ar": "موثوق",
+            "en": "reliable"
+          }
+        },
+        {
+          "id": "b1_u06_l04_w6",
+          "german": "erfahren",
+          "translation": {
+            "de": "erfahren",
+            "ar": "ذو خبرة",
+            "en": "experienced"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u06_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein {answer} Mitarbeiter ist wichtig.",
+        "ar": "Ein {answer} Mitarbeiter ist wichtig.",
+        "en": "Ein {answer} Mitarbeiter ist wichtig."
+      },
+      "acceptedAnswers": [
+        "guter"
+      ]
+    },
+    {
+      "id": "b1_u06_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir suchen einen {answer} Mitarbeiter.",
+        "ar": "Wir suchen einen {answer} Mitarbeiter.",
+        "en": "Wir suchen einen {answer} Mitarbeiter."
+      },
+      "acceptedAnswers": [
+        "guten"
+      ]
+    },
+    {
+      "id": "b1_u06_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mit einem {answer} Mitarbeiter klappt es besser.",
+        "ar": "Mit einem {answer} Mitarbeiter klappt es besser.",
+        "en": "Mit einem {answer} Mitarbeiter klappt es besser."
+      },
+      "acceptedAnswers": [
+        "guten"
+      ]
+    },
+    {
+      "id": "b1_u06_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} Lösung ist teuer.",
+        "ar": "Die {answer} Lösung ist teuer.",
+        "en": "Die {answer} Lösung ist teuer."
+      },
+      "acceptedAnswers": [
+        "gute"
+      ]
+    },
+    {
+      "id": "b1_u06_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mit {answer} Verkehrsmitteln fahre ich günstig.",
+        "ar": "Mit {answer} Verkehrsmitteln fahre ich günstig.",
+        "en": "Mit {answer} Verkehrsmitteln fahre ich günstig."
+      },
+      "acceptedAnswers": [
+        "öffentlichen"
+      ]
+    },
+    {
+      "id": "b1_u06_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie ist eine {answer} Fachkraft.",
+        "ar": "Sie ist eine {answer} Fachkraft.",
+        "en": "Sie ist eine {answer} Fachkraft."
+      },
+      "acceptedAnswers": [
+        "erfahrene"
+      ]
+    },
+    {
+      "id": "b1_u06_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "guter",
+        "ar": "guter",
+        "en": "guter"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "guter",
+            "ar": "جيد مصروف",
+            "en": "good inflected"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "guten",
+            "ar": "جيد مصروف",
+            "en": "good inflected"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "gute",
+            "ar": "جيدة/جيد",
+            "en": "good inflected"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u06_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "guten",
+        "ar": "guten",
+        "en": "guten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "guten",
+            "ar": "جيد مصروف",
+            "en": "good inflected"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "gute",
+            "ar": "جيدة/جيد",
+            "en": "good inflected"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "öffentlich",
+            "ar": "عام",
+            "en": "public"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u06_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "gute",
+        "ar": "gute",
+        "en": "gute"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "gute",
+            "ar": "جيدة/جيد",
+            "en": "good inflected"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "öffentlich",
+            "ar": "عام",
+            "en": "public"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zuverlässig",
+            "ar": "موثوق",
+            "en": "reliable"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u06_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "öffentlich",
+        "ar": "öffentlich",
+        "en": "öffentlich"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "öffentlich",
+            "ar": "عام",
+            "en": "public"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zuverlässig",
+            "ar": "موثوق",
+            "en": "reliable"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "erfahren",
+            "ar": "ذو خبرة",
+            "en": "experienced"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u06_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ einen guter Mitarbeiter → ✅ einen guten Mitarbeiter\n• ❌ mit ein guten → ✅ mit einem guten\n• ❌ gute öffentlichen Verkehrsmitteln → ✅ mit guten öffentlichen Verkehrsmitteln\n• ❌ Adjektivendung isoliert lernen → immer Artikel+Kasus+Genus prüfen.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ einen guter Mitarbeiter → ✅ einen guten Mitarbeiter\n• ❌ mit ein guten → ✅ mit einem guten\n• ❌ gute öffentlichen Verkehrsmitteln → ✅ mit guten öffentlichen Verkehrsmitteln\n• ❌ Adjektivendung isoliert lernen → immer Artikel+Kasus+Genus prüfen.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ einen guter Mitarbeiter → ✅ einen guten Mitarbeiter\n• ❌ mit ein guten → ✅ mit einem guten\n• ❌ gute öffentlichen Verkehrsmitteln → ✅ mit guten öffentlichen Verkehrsmitteln\n• ❌ Adjektivendung isoliert lernen → immer Artikel+Kasus+Genus prüfen.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u06_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• bestimmter Artikel: überwiegend -e/-en\n• ein-Wörter: Adjektiv ergänzt fehlende Markierung\n• Nullartikel: Adjektiv trägt stärkere Kasus-/Genusmarkierung\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• bestimmter Artikel: überwiegend -e/-en\n• ein-Wörter: Adjektiv ergänzt fehlende Markierung\n• Nullartikel: Adjektiv trägt stärkere Kasus-/Genusmarkierung\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• bestimmter Artikel: überwiegend -e/-en\n• ein-Wörter: Adjektiv ergänzt fehlende Markierung\n• Nullartikel: Adjektiv trägt stärkere Kasus-/Genusmarkierung\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u06_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Erstelle eine Mini-Stellenanzeige, Wohnungsbeschreibung und Produktbewertung mit mindestens 15 Adjektiven in verschiedenen Fällen.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Erstelle eine Mini-Stellenanzeige, Wohnungsbeschreibung und Produktbewertung mit mindestens 15 Adjektiven in verschiedenen Fällen.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Erstelle eine Mini-Stellenanzeige, Wohnungsbeschreibung und Produktbewertung mit mindestens 15 Adjektiven in verschiedenen Fällen.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u06_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U06_CASEBOOK"
+      ]
+    }
+  ]
+}

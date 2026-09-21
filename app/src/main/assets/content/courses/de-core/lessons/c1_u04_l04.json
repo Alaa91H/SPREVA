@@ -1,0 +1,378 @@
+{
+  "id": "c1_u04_l04",
+  "unitId": "de-core-c1-u04",
+  "title": {
+    "de": "Falltraining: Indirekte Rede, Quellen & Stimmenvielfalt",
+    "ar": "تدريب الحالات: النقل غير المباشر وتعدد المصادر والأصوات",
+    "en": "Casebook: Reported speech, sources & multiple voices"
+  },
+  "canDo": [
+    "C1_U04_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u04_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Indirekte Rede, Quellen & Stimmenvielfalt\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Quellenrahmen + Modus sichern Zuschreibung\n• Konjunktiv I markiert Wiedergabe, nicht automatisch Bewertung\n• bei mehreren Stimmen jede Ebene eindeutig kennzeichnen",
+        "ar": "الموضوع: النقل غير المباشر وتعدد المصادر والأصوات\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Quellenrahmen + Modus sichern Zuschreibung\n• Konjunktiv I markiert Wiedergabe, nicht automatisch Bewertung\n• bei mehreren Stimmen jede Ebene eindeutig kennzeichnen",
+        "en": "Topic: Reported speech, sources & multiple voices\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Quellenrahmen + Modus sichern Zuschreibung\n• Konjunktiv I markiert Wiedergabe, nicht automatisch Bewertung\n• bei mehreren Stimmen jede Ebene eindeutig kennzeichnen"
+      }
+    },
+    {
+      "id": "c1_u04_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u04_l04_w1",
+          "german": "zufolge",
+          "translation": {
+            "de": "zufolge",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "c1_u04_l04_w2",
+          "german": "nach Angaben",
+          "translation": {
+            "de": "nach Angaben",
+            "ar": "بحسب إفادة",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "c1_u04_l04_w3",
+          "german": "sei",
+          "translation": {
+            "de": "sei",
+            "ar": "يكون في النقل",
+            "en": "be reported"
+          }
+        },
+        {
+          "id": "c1_u04_l04_w4",
+          "german": "habe",
+          "translation": {
+            "de": "habe",
+            "ar": "قد/لديه في النقل",
+            "en": "have reported"
+          }
+        },
+        {
+          "id": "c1_u04_l04_w5",
+          "german": "werde",
+          "translation": {
+            "de": "werde",
+            "ar": "سوف في النقل",
+            "en": "will reported"
+          }
+        },
+        {
+          "id": "c1_u04_l04_w6",
+          "german": "zuschreiben",
+          "translation": {
+            "de": "zuschreiben",
+            "ar": "ينسب",
+            "en": "attribute"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u04_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dem Bericht {answer} sei die Lage stabil.",
+        "ar": "Dem Bericht {answer} sei die Lage stabil.",
+        "en": "Dem Bericht {answer} sei die Lage stabil."
+      },
+      "acceptedAnswers": [
+        "zufolge"
+      ]
+    },
+    {
+      "id": "c1_u04_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} des Unternehmens gebe es keine Störung.",
+        "ar": "{answer} des Unternehmens gebe es keine Störung.",
+        "en": "{answer} des Unternehmens gebe es keine Störung."
+      },
+      "acceptedAnswers": [
+        "Nach Angaben"
+      ]
+    },
+    {
+      "id": "c1_u04_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Ursache {answer} noch unklar.",
+        "ar": "Die Ursache {answer} noch unklar.",
+        "en": "Die Ursache {answer} noch unklar."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "c1_u04_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Zeugin sagte, sie {answer} nichts gesehen.",
+        "ar": "Die Zeugin sagte, sie {answer} nichts gesehen.",
+        "en": "Die Zeugin sagte, sie {answer} nichts gesehen."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "c1_u04_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Man {answer} später reagieren, hieß es.",
+        "ar": "Man {answer} später reagieren, hieß es.",
+        "en": "Man {answer} später reagieren, hieß es."
+      },
+      "acceptedAnswers": [
+        "werde"
+      ]
+    },
+    {
+      "id": "c1_u04_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Diese Aussage lässt sich Quelle B {answer}.",
+        "ar": "Diese Aussage lässt sich Quelle B {answer}.",
+        "en": "Diese Aussage lässt sich Quelle B {answer}."
+      },
+      "acceptedAnswers": [
+        "zuschreiben"
+      ]
+    },
+    {
+      "id": "c1_u04_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "zufolge",
+        "ar": "zufolge",
+        "en": "zufolge"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zufolge",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nach Angaben",
+            "ar": "بحسب إفادة",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sei",
+            "ar": "يكون في النقل",
+            "en": "be reported"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u04_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "nach Angaben",
+        "ar": "nach Angaben",
+        "en": "nach Angaben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "nach Angaben",
+            "ar": "بحسب إفادة",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sei",
+            "ar": "يكون في النقل",
+            "en": "be reported"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "habe",
+            "ar": "قد/لديه في النقل",
+            "en": "have reported"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u04_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "sei",
+        "ar": "sei",
+        "en": "sei"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sei",
+            "ar": "يكون في النقل",
+            "en": "be reported"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "habe",
+            "ar": "قد/لديه في النقل",
+            "en": "have reported"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "werde",
+            "ar": "سوف في النقل",
+            "en": "will reported"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u04_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "habe",
+        "ar": "habe",
+        "en": "habe"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "habe",
+            "ar": "قد/لديه في النقل",
+            "en": "have reported"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "werde",
+            "ar": "سوف في النقل",
+            "en": "will reported"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zuschreiben",
+            "ar": "ينسب",
+            "en": "attribute"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u04_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ Aussage einer Quelle als eigene Tatsache formulieren\n• ❌ Sprecher bei mehrstufiger Wiedergabe wechseln lassen\n• ❌ Konjunktiv I automatisch als Zweifel interpretieren\n• ❌ nach Angaben + zufolge doppeln.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ Aussage einer Quelle als eigene Tatsache formulieren\n• ❌ Sprecher bei mehrstufiger Wiedergabe wechseln lassen\n• ❌ Konjunktiv I automatisch als Zweifel interpretieren\n• ❌ nach Angaben + zufolge doppeln.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ Aussage einer Quelle als eigene Tatsache formulieren\n• ❌ Sprecher bei mehrstufiger Wiedergabe wechseln lassen\n• ❌ Konjunktiv I automatisch als Zweifel interpretieren\n• ❌ nach Angaben + zufolge doppeln.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u04_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Quellenrahmen + Modus sichern Zuschreibung\n• Konjunktiv I markiert Wiedergabe, nicht automatisch Bewertung\n• bei mehreren Stimmen jede Ebene eindeutig kennzeichnen\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Quellenrahmen + Modus sichern Zuschreibung\n• Konjunktiv I markiert Wiedergabe, nicht automatisch Bewertung\n• bei mehreren Stimmen jede Ebene eindeutig kennzeichnen\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Quellenrahmen + Modus sichern Zuschreibung\n• Konjunktiv I markiert Wiedergabe, nicht automatisch Bewertung\n• bei mehreren Stimmen jede Ebene eindeutig kennzeichnen\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u04_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Schreibe Synthese aus drei widersprüchlichen Statements. Jede Aussage muss eindeutig zugeordnet sein; eigene Bewertung separat markieren.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Schreibe Synthese aus drei widersprüchlichen Statements. Jede Aussage muss eindeutig zugeordnet sein; eigene Bewertung separat markieren.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Schreibe Synthese aus drei widersprüchlichen Statements. Jede Aussage muss eindeutig zugeordnet sein; eigene Bewertung separat markieren.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u04_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U04_CASEBOOK"
+      ]
+    }
+  ]
+}

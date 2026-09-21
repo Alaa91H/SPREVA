@@ -1,0 +1,296 @@
+{
+  "id": "a1_u05_l03",
+  "unitId": "de-core-a1-u05",
+  "title": {
+    "de": "Intensivtraining: Wohnen & Zuhause",
+    "ar": "تدريب مكثف: السكن والمنزل",
+    "en": "Mastery lab: Home & housing"
+  },
+  "canDo": [
+    "A1_U05_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u05_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Wohnen & Zuhause“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «السكن والمنزل». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.\n\nالدورة: استرجاع ← تعرّف ← إكمال ← تحويل ← إنتاج حر ← تصحيح ← استرجاع لاحق.",
+        "en": "Intensive practice for “Home & housing”. After every answer, state the rule, create a second example and explain one typical error.\n\nCycle: recall → recognize → complete → transform → produce → correct → retrieve later."
+      }
+    },
+    {
+      "id": "a1_u05_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u05_l03_w1",
+          "german": "die Wohnung",
+          "translation": {
+            "de": "apartment",
+            "ar": "الشقة",
+            "en": "apartment"
+          }
+        },
+        {
+          "id": "a1_u05_l03_w2",
+          "german": "das Zimmer",
+          "translation": {
+            "de": "room",
+            "ar": "الغرفة",
+            "en": "room"
+          }
+        },
+        {
+          "id": "a1_u05_l03_w3",
+          "german": "die Küche",
+          "translation": {
+            "de": "kitchen",
+            "ar": "المطبخ",
+            "en": "kitchen"
+          }
+        },
+        {
+          "id": "a1_u05_l03_w4",
+          "german": "das Bad",
+          "translation": {
+            "de": "bathroom",
+            "ar": "الحمّام",
+            "en": "bathroom"
+          }
+        },
+        {
+          "id": "a1_u05_l03_w5",
+          "german": "der Balkon",
+          "translation": {
+            "de": "balcony",
+            "ar": "الشرفة",
+            "en": "balcony"
+          }
+        },
+        {
+          "id": "a1_u05_l03_w6",
+          "german": "die Miete",
+          "translation": {
+            "de": "rent",
+            "ar": "الإيجار",
+            "en": "rent"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u05_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Es gibt {answer} Balkon.",
+        "ar": "Es gibt {answer} Balkon.",
+        "en": "Es gibt {answer} Balkon."
+      },
+      "acceptedAnswers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "a1_u05_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Wohnung {answer} zwei Zimmer.",
+        "ar": "Die Wohnung {answer} zwei Zimmer.",
+        "en": "Die Wohnung {answer} zwei Zimmer."
+      },
+      "acceptedAnswers": [
+        "hat"
+      ]
+    },
+    {
+      "id": "a1_u05_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Jedes deutsche Nomen hat ein grammatisches Geschlecht: {answer} Tisch, die Lampe, das Bett. Nach „es gibt“ steht der Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad. Lerne neue Nomen möglichst mit Artikel und Plural.",
+        "ar": "Jedes deutsche Nomen hat ein grammatisches Geschlecht: {answer} Tisch, die Lampe, das Bett. Nach „es gibt“ steht der Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad. Lerne neue Nomen möglichst mit Artikel und Plural.",
+        "en": "Jedes deutsche Nomen hat ein grammatisches Geschlecht: {answer} Tisch, die Lampe, das Bett. Nach „es gibt“ steht der Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad. Lerne neue Nomen möglichst mit Artikel und Plural."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u05_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Wohnung hat zwei Zimmer.",
+        "ar": "{answer} Wohnung hat zwei Zimmer.",
+        "en": "{answer} Wohnung hat zwei Zimmer."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "a1_u05_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Bad ist klein, aber hell.",
+        "ar": "{answer} Bad ist klein, aber hell.",
+        "en": "{answer} Bad ist klein, aber hell."
+      },
+      "acceptedAnswers": [
+        "Das"
+      ]
+    },
+    {
+      "id": "a1_u05_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wohnungsbesichtigung, Gespräch {answer} Vermieter oder Besuch: Räume benennen, Ausstattung beschreiben und einfache Fragen stellen.",
+        "ar": "Wohnungsbesichtigung, Gespräch {answer} Vermieter oder Besuch: Räume benennen, Ausstattung beschreiben und einfache Fragen stellen.",
+        "en": "Wohnungsbesichtigung, Gespräch {answer} Vermieter oder Besuch: Räume benennen, Ausstattung beschreiben und einfache Fragen stellen."
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "a1_u05_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Wohnung",
+        "ar": "die Wohnung",
+        "en": "die Wohnung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "apartment",
+            "ar": "الشقة",
+            "en": "apartment"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "room",
+            "ar": "الغرفة",
+            "en": "room"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "kitchen",
+            "ar": "المطبخ",
+            "en": "kitchen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u05_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "das Bad",
+        "ar": "das Bad",
+        "en": "das Bad"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bathroom",
+            "ar": "الحمّام",
+            "en": "bathroom"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "balcony",
+            "ar": "الشرفة",
+            "en": "balcony"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "rent",
+            "ar": "الإيجار",
+            "en": "rent"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u05_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Jedes deutsche Nomen hat ein grammatisches Geschlecht: der Tisch, die Lampe, das Bett. Nach „es gibt“ steht der Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad. Lerne neue Nomen möglichst mit Artikel und Plural.\n2. Die Wohnung hat zwei Zimmer.\n3. Es gibt einen Balkon.\n4. Das Bad ist klein, aber hell.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. Jedes deutsche Nomen hat ein grammatisches Geschlecht: der Tisch, die Lampe, das Bett. Nach „es gibt“ steht der Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad. Lerne neue Nomen möglichst mit Artikel und Plural.\n2. Die Wohnung hat zwei Zimmer.\n3. Es gibt einen Balkon.\n4. Das Bad ist klein, aber hell.\n\nحدّد الصيغة الحاسمة، أنشئ خطأً شائعًا، اشرح سببه ثم صححه دون نموذج.",
+        "en": "Correct patterns:\n1. Jedes deutsche Nomen hat ein grammatisches Geschlecht: der Tisch, die Lampe, das Bett. Nach „es gibt“ steht der Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad. Lerne neue Nomen möglichst mit Artikel und Plural.\n2. Die Wohnung hat zwei Zimmer.\n3. Es gibt einen Balkon.\n4. Das Bad ist klein, aber hell.\n\nMark the decisive form, create a typical wrong version, explain it, then correct it without the model."
+      }
+    },
+    {
+      "id": "a1_u05_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة خمس مرات: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model five ways: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u05_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel einfach erklären. D in Nachricht/Dialog anwenden. E mit zwei älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: ستة فراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في رسالة/حوار. E امزجها مع موضوعين سابقين. الإتقان = إنتاج + تفسير + نقل.",
+        "en": "A now: six blanks orally. B later: six new sentences. C explain the rule. D use it in a message/dialogue. E interleave with two older topics. Mastery = produce + explain + transfer."
+      }
+    },
+    {
+      "id": "a1_u05_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U05_MASTERY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "id": "b1_u16_l04",
+  "unitId": "de-core-b1-u16",
+  "title": {
+    "de": "Aussprache-Casebook",
+    "ar": "دفتر حالات النطق",
+    "en": "Pronunciation casebook"
+  },
+  "canDo": [
+    "B1_PHONETICS_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u16_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Aussprache-Casebook",
+        "ar": "دفتر حالات النطق",
+        "en": "Pronunciation casebook"
+      },
+      "body": {
+        "de": "Diagnostizieren Sie, ob ein Problem aus Laut, Akzent, Rhythmus, Intonation oder Tempo entsteht. Ändern Sie pro Wiederholung nur einen Faktor.",
+        "ar": "شخّص هل المشكلة من الصوت أو النبر أو الإيقاع أو اللحن أو السرعة. غيّر عاملًا واحدًا فقط في كل تكرار.",
+        "en": "Diagnose whether a problem comes from sound, stress, rhythm, intonation or pace. Change only one factor per repetition."
+      }
+    },
+    {
+      "id": "b1_u16_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In „Kundenservice“ trägt der erste Bestandteil oft den Haupt{answer}.",
+        "ar": "In „Kundenservice“ trägt der erste Bestandteil oft den Haupt{answer}.",
+        "en": "In „Kundenservice“ trägt der erste Bestandteil oft den Haupt{answer}."
+      },
+      "acceptedAnswers": [
+        "akzent"
+      ]
+    },
+    {
+      "id": "b1_u16_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kontrast kann durch stärkeres {answer} eines Wortes entstehen.",
+        "ar": "Kontrast kann durch stärkeres {answer} eines Wortes entstehen.",
+        "en": "Kontrast kann durch stärkeres {answer} eines Wortes entstehen."
+      },
+      "acceptedAnswers": [
+        "Betonen"
+      ]
+    },
+    {
+      "id": "b1_u16_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nebensätze brauchen nicht automatisch eine Pause nach jedem {answer}.",
+        "ar": "Nebensätze brauchen nicht automatisch eine Pause nach jedem {answer}.",
+        "en": "Nebensätze brauchen nicht automatisch eine Pause nach jedem {answer}."
+      },
+      "acceptedAnswers": [
+        "Wort"
+      ]
+    },
+    {
+      "id": "b1_u16_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gute Sprechgruppen folgen eher dem {answer} als der Zeilenlänge.",
+        "ar": "Gute Sprechgruppen folgen eher dem {answer} als der Zeilenlänge.",
+        "en": "Gute Sprechgruppen folgen eher dem {answer} als der Zeilenlänge."
+      },
+      "acceptedAnswers": [
+        "Sinn"
+      ]
+    },
+    {
+      "id": "b1_u16_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Flüssigkeit bedeutet nicht möglichst {answer} zu sprechen.",
+        "ar": "Flüssigkeit bedeutet nicht möglichst {answer} zu sprechen.",
+        "en": "Flüssigkeit bedeutet nicht möglichst {answer} zu sprechen."
+      },
+      "acceptedAnswers": [
+        "schnell"
+      ]
+    },
+    {
+      "id": "b1_u16_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Selbstkorrektur kann mit einer kurzen Pause natürlich {answer}.",
+        "ar": "Selbstkorrektur kann mit einer kurzen Pause natürlich {answer}.",
+        "en": "Selbstkorrektur kann mit einer kurzen Pause natürlich {answer}."
+      },
+      "acceptedAnswers": [
+        "klingen"
+      ]
+    },
+    {
+      "id": "b1_u16_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was ist Connected Speech?",
+        "ar": "Was ist Connected Speech?",
+        "en": "Was ist Connected Speech?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "natürlich verbundenes Sprechen in Wortgruppen",
+            "ar": "natürlich verbundenes Sprechen in Wortgruppen",
+            "en": "natürlich verbundenes Sprechen in Wortgruppen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nur lautes Lesen",
+            "ar": "nur lautes Lesen",
+            "en": "nur lautes Lesen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einzelne Buchstaben",
+            "ar": "einzelne Buchstaben",
+            "en": "einzelne Buchstaben"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wozu dient Kontrastakzent?",
+        "ar": "Wozu dient Kontrastakzent?",
+        "en": "Wozu dient Kontrastakzent?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Gegensatz oder Korrektur hervorheben",
+            "ar": "Gegensatz oder Korrektur hervorheben",
+            "en": "Gegensatz oder Korrektur hervorheben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Artikel markieren",
+            "ar": "Artikel markieren",
+            "en": "Artikel markieren"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Plural bilden",
+            "ar": "Plural bilden",
+            "en": "Plural bilden"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was verbessert Sprechgruppenbildung?",
+        "ar": "Was verbessert Sprechgruppenbildung?",
+        "en": "Was verbessert Sprechgruppenbildung?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Verständlichkeit",
+            "ar": "Verständlichkeit",
+            "en": "Verständlichkeit"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nur Lautstärke",
+            "ar": "nur Lautstärke",
+            "en": "nur Lautstärke"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Rechtschreibung",
+            "ar": "Rechtschreibung",
+            "en": "Rechtschreibung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was ist kein Ziel von Fluency?",
+        "ar": "Was ist kein Ziel von Fluency?",
+        "en": "Was ist kein Ziel von Fluency?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "maximales Tempo",
+            "ar": "maximales Tempo",
+            "en": "maximales Tempo"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sinnvolle Pausen",
+            "ar": "sinnvolle Pausen",
+            "en": "sinnvolle Pausen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "stabiler Rhythmus",
+            "ar": "stabiler Rhythmus",
+            "en": "stabiler Rhythmus"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "ar": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis.",
+        "en": "Wenn ich Sie richtig verstanden habe, fehlt noch ein Nachweis."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ein Nachweis fehlt",
+            "ar": "ein Nachweis fehlt",
+            "en": "ein Nachweis fehlt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Antrag ist fertig",
+            "ar": "Antrag ist fertig",
+            "en": "Antrag ist fertig"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Frist ist vorbei",
+            "ar": "Frist ist vorbei",
+            "en": "Frist ist vorbei"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u16_l04_act13",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Zusammenfassend würde ich die zweite Lösung bevorzugen.",
+        "ar": "Zusammenfassend würde ich die zweite Lösung bevorzugen.",
+        "en": "Zusammenfassend würde ich die zweite Lösung bevorzugen."
+      },
+      "acceptedAnswers": [
+        "Zusammenfassend würde ich die zweite Lösung bevorzugen."
+      ]
+    },
+    {
+      "id": "b1_u16_l04_act14",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Obwohl die Quelle seriös wirkt, sollte man die Daten genauer prüfen.",
+        "ar": "Obwohl die Quelle seriös wirkt, sollte man die Daten genauer prüfen.",
+        "en": "Obwohl die Quelle seriös wirkt, sollte man die Daten genauer prüfen."
+      }
+    },
+    {
+      "id": "b1_u16_l04_act15",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Sprechen Sie 45–60 Sekunden über eine Entscheidung. Verwenden Sie mindestens einen Kontrastakzent und gliedern Sie lange Sätze in natürliche Sprechgruppen.",
+        "ar": "تحدث 45–60 ثانية عن قرار، واستخدم نبرًا مقارنًا وقسّم الجمل الطويلة إلى مجموعات كلام طبيعية.",
+        "en": "Speak for 45–60 seconds about a decision, using at least one contrastive stress and natural thought groups."
+      },
+      "minSeconds": 45,
+      "checklist": [
+        {
+          "de": "Fokus hörbar",
+          "ar": "البؤرة مسموعة",
+          "en": "Focus audible"
+        },
+        {
+          "de": "Pausen sinnvoll",
+          "ar": "الوقفات مناسبة",
+          "en": "Pauses meaningful"
+        }
+      ]
+    },
+    {
+      "id": "b1_u16_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Aussprache-Casebook abgeschlossen",
+        "ar": "اكتمل دفتر النطق",
+        "en": "Pronunciation casebook complete"
+      },
+      "canDo": [
+        "B1_PHONETICS_CASEBOOK"
+      ]
+    }
+  ]
+}

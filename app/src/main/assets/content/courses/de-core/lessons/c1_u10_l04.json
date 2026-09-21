@@ -1,0 +1,378 @@
+{
+  "id": "c1_u10_l04",
+  "unitId": "de-core-c1-u10",
+  "title": {
+    "de": "Falltraining: Rhetorik, Framing & Diskursanalyse",
+    "ar": "تدريب الحالات: البلاغة والتأطير وتحليل الخطاب",
+    "en": "Casebook: Rhetoric, framing & discourse analysis"
+  },
+  "canDo": [
+    "C1_U10_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u10_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Rhetorik, Framing & Diskursanalyse\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• sprachliche Wirkung und Faktenprüfung getrennt durchführen\n• Frames lenken Aufmerksamkeit, entscheiden aber nicht Wahrheit\n• Analyse: Wortwahl, Auslassung, Annahme, Beleg",
+        "ar": "الموضوع: البلاغة والتأطير وتحليل الخطاب\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• sprachliche Wirkung und Faktenprüfung getrennt durchführen\n• Frames lenken Aufmerksamkeit, entscheiden aber nicht Wahrheit\n• Analyse: Wortwahl, Auslassung, Annahme, Beleg",
+        "en": "Topic: Rhetoric, framing & discourse analysis\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• sprachliche Wirkung und Faktenprüfung getrennt durchführen\n• Frames lenken Aufmerksamkeit, entscheiden aber nicht Wahrheit\n• Analyse: Wortwahl, Auslassung, Annahme, Beleg"
+      }
+    },
+    {
+      "id": "c1_u10_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u10_l04_w1",
+          "german": "Framing",
+          "translation": {
+            "de": "Framing",
+            "ar": "تأطير",
+            "en": "framing"
+          }
+        },
+        {
+          "id": "c1_u10_l04_w2",
+          "german": "Präsupposition",
+          "translation": {
+            "de": "Präsupposition",
+            "ar": "افتراض مسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "c1_u10_l04_w3",
+          "german": "Euphemismus",
+          "translation": {
+            "de": "Euphemismus",
+            "ar": "تلطيف",
+            "en": "euphemism"
+          }
+        },
+        {
+          "id": "c1_u10_l04_w4",
+          "german": "Metapher",
+          "translation": {
+            "de": "Metapher",
+            "ar": "استعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "c1_u10_l04_w5",
+          "german": "rahmen",
+          "translation": {
+            "de": "rahmen",
+            "ar": "يؤطّر",
+            "en": "frame"
+          }
+        },
+        {
+          "id": "c1_u10_l04_w6",
+          "german": "voraussetzen",
+          "translation": {
+            "de": "voraussetzen",
+            "ar": "يفترض مسبقًا",
+            "en": "presuppose"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u10_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Wortwahl {answer} das Thema positiv.",
+        "ar": "Die Wortwahl {answer} das Thema positiv.",
+        "en": "Die Wortwahl {answer} das Thema positiv."
+      },
+      "acceptedAnswers": [
+        "rahmt"
+      ]
+    },
+    {
+      "id": "c1_u10_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frage {answer}, dass ein Problem besteht.",
+        "ar": "Die Frage {answer}, dass ein Problem besteht.",
+        "en": "Die Frage {answer}, dass ein Problem besteht."
+      },
+      "acceptedAnswers": [
+        "setzt voraus"
+      ]
+    },
+    {
+      "id": "c1_u10_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "„Entlastung“ ist eine mögliche Form des {answer}.",
+        "ar": "„Entlastung“ ist eine mögliche Form des {answer}.",
+        "en": "„Entlastung“ ist eine mögliche Form des {answer}."
+      },
+      "acceptedAnswers": [
+        "Framings"
+      ]
+    },
+    {
+      "id": "c1_u10_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine {answer} kann abstrakte Prozesse anschaulich machen.",
+        "ar": "Eine {answer} kann abstrakte Prozesse anschaulich machen.",
+        "en": "Eine {answer} kann abstrakte Prozesse anschaulich machen."
+      },
+      "acceptedAnswers": [
+        "Metapher"
+      ]
+    },
+    {
+      "id": "c1_u10_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein {answer} mildert eine negative Bezeichnung.",
+        "ar": "Ein {answer} mildert eine negative Bezeichnung.",
+        "en": "Ein {answer} mildert eine negative Bezeichnung."
+      },
+      "acceptedAnswers": [
+        "Euphemismus"
+      ]
+    },
+    {
+      "id": "c1_u10_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die unausgesprochene Annahme ist eine {answer}.",
+        "ar": "Die unausgesprochene Annahme ist eine {answer}.",
+        "en": "Die unausgesprochene Annahme ist eine {answer}."
+      },
+      "acceptedAnswers": [
+        "Präsupposition"
+      ]
+    },
+    {
+      "id": "c1_u10_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Framing",
+        "ar": "Framing",
+        "en": "Framing"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Framing",
+            "ar": "تأطير",
+            "en": "framing"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Präsupposition",
+            "ar": "افتراض مسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Euphemismus",
+            "ar": "تلطيف",
+            "en": "euphemism"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u10_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Präsupposition",
+        "ar": "Präsupposition",
+        "en": "Präsupposition"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Präsupposition",
+            "ar": "افتراض مسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Euphemismus",
+            "ar": "تلطيف",
+            "en": "euphemism"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Metapher",
+            "ar": "استعارة",
+            "en": "metaphor"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u10_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Euphemismus",
+        "ar": "Euphemismus",
+        "en": "Euphemismus"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Euphemismus",
+            "ar": "تلطيف",
+            "en": "euphemism"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Metapher",
+            "ar": "استعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "rahmen",
+            "ar": "يؤطّر",
+            "en": "frame"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u10_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Metapher",
+        "ar": "Metapher",
+        "en": "Metapher"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Metapher",
+            "ar": "استعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "rahmen",
+            "ar": "يؤطّر",
+            "en": "frame"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "voraussetzen",
+            "ar": "يفترض مسبقًا",
+            "en": "presuppose"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u10_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ Framinganalyse = automatisch Wahrheitsurteil\n• ❌ emotional = falsch\n• ❌ Metapher nur benennen, Wirkung nicht erklären\n• ❌ Präsupposition mit expliziter Behauptung verwechseln.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ Framinganalyse = automatisch Wahrheitsurteil\n• ❌ emotional = falsch\n• ❌ Metapher nur benennen, Wirkung nicht erklären\n• ❌ Präsupposition mit expliziter Behauptung verwechseln.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ Framinganalyse = automatisch Wahrheitsurteil\n• ❌ emotional = falsch\n• ❌ Metapher nur benennen, Wirkung nicht erklären\n• ❌ Präsupposition mit expliziter Behauptung verwechseln.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u10_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• sprachliche Wirkung und Faktenprüfung getrennt durchführen\n• Frames lenken Aufmerksamkeit, entscheiden aber nicht Wahrheit\n• Analyse: Wortwahl, Auslassung, Annahme, Beleg\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• sprachliche Wirkung und Faktenprüfung getrennt durchführen\n• Frames lenken Aufmerksamkeit, entscheiden aber nicht Wahrheit\n• Analyse: Wortwahl, Auslassung, Annahme, Beleg\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• sprachliche Wirkung und Faktenprüfung getrennt durchführen\n• Frames lenken Aufmerksamkeit, entscheiden aber nicht Wahrheit\n• Analyse: Wortwahl, Auslassung, Annahme, Beleg\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u10_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Analysiere drei Überschriften: Frame, Präsupposition, emotionale Ladung, alternative neutrale Formulierung, anschließend separate Faktenfragen.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Analysiere drei Überschriften: Frame, Präsupposition, emotionale Ladung, alternative neutrale Formulierung, anschließend separate Faktenfragen.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Analysiere drei Überschriften: Frame, Präsupposition, emotionale Ladung, alternative neutrale Formulierung, anschließend separate Faktenfragen.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u10_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U10_CASEBOOK"
+      ]
+    }
+  ]
+}

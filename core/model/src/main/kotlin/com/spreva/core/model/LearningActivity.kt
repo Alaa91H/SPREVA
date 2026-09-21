@@ -43,9 +43,11 @@ sealed interface LearningActivity {
      */
     data class ListeningChoice(
         override val id: ActivityId,
-        /** Bundled recording path, relative to content/. */
-        val audio: String,
-        /** Optional visible hint (e.g. Arabic task description). */
+        /** Bundled recording path, relative to content/. Null enables local TTS fallback. */
+        val audio: String? = null,
+        /** Hidden German source text used only when native audio is unavailable. */
+        val text: LocalizedText? = null,
+        /** Optional visible task instruction. */
         val prompt: LocalizedText? = null,
         val options: List<ChoiceOption>,
         val correctOptionId: String,
@@ -59,11 +61,37 @@ sealed interface LearningActivity {
      */
     data class SpeakingRepeat(
         override val id: ActivityId,
-        /** Bundled model recording, relative to content/. */
-        val audio: String,
+        /** Bundled model recording, relative to content/. Null uses local German TTS. */
+        val audio: String? = null,
         val prompt: LocalizedText? = null,
         /** The phrase the learner should repeat. */
         val text: LocalizedText,
+    ) : LearningActivity
+
+    /** Listen without visible target text and type exactly what was heard. */
+    data class Dictation(
+        override val id: ActivityId,
+        val audio: String? = null,
+        val prompt: LocalizedText? = null,
+        /** Hidden target; also serves as offline TTS fallback. */
+        val text: LocalizedText,
+        val acceptedAnswers: List<String>,
+    ) : LearningActivity
+
+    /** Free written production. Completion is based on task length, not linguistic correctness. */
+    data class FreeWrite(
+        override val id: ActivityId,
+        val prompt: LocalizedText,
+        val minWords: Int,
+        val checklist: List<LocalizedText> = emptyList(),
+    ) : LearningActivity
+
+    /** Free spoken production recorded locally; no model answer or fake pronunciation grade. */
+    data class SpeakingPrompt(
+        override val id: ActivityId,
+        val prompt: LocalizedText,
+        val minSeconds: Int,
+        val checklist: List<LocalizedText> = emptyList(),
     ) : LearningActivity
 
     data class LessonSummaryActivity(

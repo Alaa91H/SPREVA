@@ -1,0 +1,443 @@
+{
+  "id": "a1_u15_l04",
+  "unitId": "de-core-a1-u15",
+  "title": {
+    "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+    "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+    "en": "Full simulation: Reading · Listening · Writing · Speaking"
+  },
+  "canDo": [
+    "A1_EXAM_FULL_MOCK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u15_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Full Mock — vier Fertigkeiten",
+        "ar": "محاكاة كاملة — المهارات الأربع",
+        "en": "Full mock — four skills"
+      },
+      "body": {
+        "de": "Originale SPREVA-Simulation mit Lesen, Hören, Schreiben und Sprechen. Arbeiten Sie möglichst ohne Zurückspringen und notieren Sie Unsicherheiten erst nach dem ersten Durchgang.",
+        "ar": "محاكاة أصلية من SPREVA تشمل القراءة والاستماع والكتابة والكلام. حاول عدم الرجوع للخلف وسجّل نقاط الشك بعد الجولة الأولى.",
+        "en": "Original SPREVA simulation covering reading, listening, writing and speaking. Work without going back where possible and note uncertainty only after the first pass."
+      }
+    },
+    {
+      "id": "a1_u15_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte {answer} Tee.",
+        "ar": "Ich möchte {answer} Tee.",
+        "en": "Ich möchte {answer} Tee."
+      },
+      "acceptedAnswers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Bus {answer} um sieben Uhr ab.",
+        "ar": "Der Bus {answer} um sieben Uhr ab.",
+        "en": "Der Bus {answer} um sieben Uhr ab."
+      },
+      "acceptedAnswers": [
+        "fährt"
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Rücken {answer} weh.",
+        "ar": "Mein Rücken {answer} weh.",
+        "en": "Mein Rücken {answer} weh."
+      },
+      "acceptedAnswers": [
+        "tut"
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich zahle {answer} Karte.",
+        "ar": "Ich zahle {answer} Karte.",
+        "en": "Ich zahle {answer} Karte."
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Leider {answer} ich nicht kommen.",
+        "ar": "Leider {answer} ich nicht kommen.",
+        "en": "Leider {answer} ich nicht kommen."
+      },
+      "acceptedAnswers": [
+        "kann"
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist {answer} Wohnung.",
+        "ar": "Das ist {answer} Wohnung.",
+        "en": "Das ist {answer} Wohnung."
+      },
+      "acceptedAnswers": [
+        "meine"
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?",
+        "ar": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?",
+        "en": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "10–14 Uhr",
+            "ar": "10–14 Uhr",
+            "en": "10–14 Uhr"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "8–12 Uhr",
+            "ar": "8–12 Uhr",
+            "en": "8–12 Uhr"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Sonntag",
+            "ar": "Sonntag",
+            "en": "Sonntag"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?",
+        "ar": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?",
+        "en": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Sie ist krank.",
+            "ar": "Sie ist krank.",
+            "en": "Sie ist krank."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Sie arbeitet.",
+            "ar": "Sie arbeitet.",
+            "en": "Sie arbeitet."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Sie reist.",
+            "ar": "Sie reist.",
+            "en": "Sie reist."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Im Café kostet Tee 2,50 Euro, Kaffee 3 Euro und Wasser 2 Euro.\n\nWas ist am billigsten?",
+        "ar": "Im Café kostet Tee 2,50 Euro, Kaffee 3 Euro und Wasser 2 Euro.\n\nWas ist am billigsten?",
+        "en": "Im Café kostet Tee 2,50 Euro, Kaffee 3 Euro und Wasser 2 Euro.\n\nWas ist am billigsten?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Wasser",
+            "ar": "Wasser",
+            "en": "Wasser"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Tee",
+            "ar": "Tee",
+            "en": "Tee"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Kaffee",
+            "ar": "Kaffee",
+            "en": "Kaffee"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Bus 4 fährt heute nicht zum Bahnhof. Fahrgäste nehmen bitte Bus 7.\n\nWelchen Bus soll man zum Bahnhof nehmen?",
+        "ar": "Bus 4 fährt heute nicht zum Bahnhof. Fahrgäste nehmen bitte Bus 7.\n\nWelchen Bus soll man zum Bahnhof nehmen?",
+        "en": "Bus 4 fährt heute nicht zum Bahnhof. Fahrgäste nehmen bitte Bus 7.\n\nWelchen Bus soll man zum Bahnhof nehmen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Bus 7",
+            "ar": "Bus 7",
+            "en": "Bus 7"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Bus 4",
+            "ar": "Bus 4",
+            "en": "Bus 4"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Keinen Bus",
+            "ar": "Keinen Bus",
+            "en": "Keinen Bus"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Zug hat zehn Minuten Verspätung.",
+        "ar": "Der Zug hat zehn Minuten Verspätung.",
+        "en": "Der Zug hat zehn Minuten Verspätung."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "10 Minuten später",
+            "ar": "10 Minuten später",
+            "en": "10 Minuten später"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "10 Minuten früher",
+            "ar": "10 Minuten früher",
+            "en": "10 Minuten früher"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "pünktlich",
+            "ar": "pünktlich",
+            "en": "pünktlich"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l04_act13",
+      "type": "listening_choice",
+      "text": {
+        "de": "Heute ist es sonnig, aber morgen regnet es.",
+        "ar": "Heute ist es sonnig, aber morgen regnet es.",
+        "en": "Heute ist es sonnig, aber morgen regnet es."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "heute sonnig, morgen Regen",
+            "ar": "heute sonnig, morgen Regen",
+            "en": "heute sonnig, morgen Regen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "heute Regen, morgen Sonne",
+            "ar": "heute Regen, morgen Sonne",
+            "en": "heute Regen, morgen Sonne"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "beide Tage sonnig",
+            "ar": "beide Tage sonnig",
+            "en": "beide Tage sonnig"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l04_act14",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Ich wohne in einer kleinen Wohnung in Duisburg.",
+        "ar": "Ich wohne in einer kleinen Wohnung in Duisburg.",
+        "en": "Ich wohne in einer kleinen Wohnung in Duisburg."
+      },
+      "acceptedAnswers": [
+        "Ich wohne in einer kleinen Wohnung in Duisburg."
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act15",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie 30–50 Wörter an einen Freund: Sie können heute nicht kommen. Nennen Sie Grund, neuen Termin und Gruß.",
+        "ar": "اكتب 30–50 كلمة لصديق: لا تستطيع الحضور اليوم. اذكر السبب وموعدًا جديدًا والتحية.",
+        "en": "Write 30–50 words to a friend: you cannot come today. Give a reason, a new time and a closing."
+      },
+      "minWords": 30,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act16",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Stellen Sie sich vor: Name, Herkunft, Wohnort, Arbeit/Lernen und ein Hobby.",
+        "ar": "عرّف بنفسك: الاسم، الأصل، مكان السكن، العمل/الدراسة وهواية.",
+        "en": "Introduce yourself: name, origin, where you live, work/study and one hobby."
+      },
+      "minSeconds": 30,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "a1_u15_l04_act17",
+      "type": "text_intro",
+      "title": {
+        "de": "Auswertung nach dem Mock",
+        "ar": "التقييم بعد المحاكاة",
+        "en": "Post-mock review"
+      },
+      "body": {
+        "de": "Trennen Sie Fehler nach Fertigkeit: Verstehen, Grammatik, Wortschatz, Aufgabenbezug, Kohärenz oder Sprechfluss. Planen Sie für die zwei häufigsten Kategorien gezielte Wiederholung.",
+        "ar": "صنّف الأخطاء حسب المهارة: الفهم، النحو، المفردات، الالتزام بالمهمة، الترابط أو طلاقة الكلام. خطط لمراجعة مركزة للفئتين الأكثر تكرارًا.",
+        "en": "Classify errors by skill: comprehension, grammar, vocabulary, task fulfilment, coherence or speaking flow. Plan targeted review for the two most frequent categories."
+      }
+    },
+    {
+      "id": "a1_u15_l04_act18",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Full Mock abgeschlossen",
+        "ar": "اكتملت المحاكاة الكاملة",
+        "en": "Full mock complete"
+      },
+      "canDo": [
+        "A1_EXAM_FULL_MOCK"
+      ]
+    }
+  ]
+}

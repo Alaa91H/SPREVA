@@ -1,0 +1,378 @@
+{
+  "id": "b1_u13_l04",
+  "unitId": "de-core-b1-u13",
+  "title": {
+    "de": "Falltraining: Umwelt, Gesellschaft & Präsentation",
+    "ar": "تدريب الحالات: البيئة والمجتمع والعرض",
+    "en": "Casebook: Environment, society & presentation"
+  },
+  "canDo": [
+    "B1_U13_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u13_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Umwelt, Gesellschaft & Präsentation\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• Einleitung → Gliederung → Hauptpunkte → Beispiele → Position → Schluss\n• Übergänge zeigen roten Faden\n• Diskussion nach Vortrag: zustimmen, einschränken, ergänzen",
+        "ar": "الموضوع: البيئة والمجتمع والعرض\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• Einleitung → Gliederung → Hauptpunkte → Beispiele → Position → Schluss\n• Übergänge zeigen roten Faden\n• Diskussion nach Vortrag: zustimmen, einschränken, ergänzen",
+        "en": "Topic: Environment, society & presentation\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• Einleitung → Gliederung → Hauptpunkte → Beispiele → Position → Schluss\n• Übergänge zeigen roten Faden\n• Diskussion nach Vortrag: zustimmen, einschränken, ergänzen"
+      }
+    },
+    {
+      "id": "b1_u13_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u13_l04_w1",
+          "german": "zuerst",
+          "translation": {
+            "de": "zuerst",
+            "ar": "أولًا",
+            "en": "first"
+          }
+        },
+        {
+          "id": "b1_u13_l04_w2",
+          "german": "anschließend",
+          "translation": {
+            "de": "anschließend",
+            "ar": "بعد ذلك",
+            "en": "next"
+          }
+        },
+        {
+          "id": "b1_u13_l04_w3",
+          "german": "zum Beispiel",
+          "translation": {
+            "de": "zum Beispiel",
+            "ar": "مثلًا",
+            "en": "for example"
+          }
+        },
+        {
+          "id": "b1_u13_l04_w4",
+          "german": "zusammenfassend",
+          "translation": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "b1_u13_l04_w5",
+          "german": "Maßnahme",
+          "translation": {
+            "de": "Maßnahme",
+            "ar": "إجراء",
+            "en": "measure"
+          }
+        },
+        {
+          "id": "b1_u13_l04_w6",
+          "german": "Umsetzung",
+          "translation": {
+            "de": "Umsetzung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u13_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} möchte ich die Situation erklären.",
+        "ar": "{answer} möchte ich die Situation erklären.",
+        "en": "{answer} möchte ich die Situation erklären."
+      },
+      "acceptedAnswers": [
+        "Zuerst"
+      ]
+    },
+    {
+      "id": "b1_u13_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} nenne ich zwei Beispiele.",
+        "ar": "{answer} nenne ich zwei Beispiele.",
+        "en": "{answer} nenne ich zwei Beispiele."
+      },
+      "acceptedAnswers": [
+        "Anschließend"
+      ]
+    },
+    {
+      "id": "b1_u13_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} sind Busse oft günstiger.",
+        "ar": "{answer} sind Busse oft günstiger.",
+        "en": "{answer} sind Busse oft günstiger."
+      },
+      "acceptedAnswers": [
+        "Zum Beispiel"
+      ]
+    },
+    {
+      "id": "b1_u13_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} halte ich die Idee für sinnvoll.",
+        "ar": "{answer} halte ich die Idee für sinnvoll.",
+        "en": "{answer} halte ich die Idee für sinnvoll."
+      },
+      "acceptedAnswers": [
+        "Zusammenfassend"
+      ]
+    },
+    {
+      "id": "b1_u13_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Welche {answer} wäre realistisch?",
+        "ar": "Welche {answer} wäre realistisch?",
+        "en": "Welche {answer} wäre realistisch?"
+      },
+      "acceptedAnswers": [
+        "Maßnahme"
+      ]
+    },
+    {
+      "id": "b1_u13_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} braucht Zeit.",
+        "ar": "Die {answer} braucht Zeit.",
+        "en": "Die {answer} braucht Zeit."
+      },
+      "acceptedAnswers": [
+        "Umsetzung"
+      ]
+    },
+    {
+      "id": "b1_u13_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "zuerst",
+        "ar": "zuerst",
+        "en": "zuerst"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zuerst",
+            "ar": "أولًا",
+            "en": "first"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "anschließend",
+            "ar": "بعد ذلك",
+            "en": "next"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zum Beispiel",
+            "ar": "مثلًا",
+            "en": "for example"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u13_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "anschließend",
+        "ar": "anschließend",
+        "en": "anschließend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "anschließend",
+            "ar": "بعد ذلك",
+            "en": "next"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zum Beispiel",
+            "ar": "مثلًا",
+            "en": "for example"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u13_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "zum Beispiel",
+        "ar": "zum Beispiel",
+        "en": "zum Beispiel"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zum Beispiel",
+            "ar": "مثلًا",
+            "en": "for example"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Maßnahme",
+            "ar": "إجراء",
+            "en": "measure"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u13_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "zusammenfassend",
+        "ar": "zusammenfassend",
+        "en": "zusammenfassend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Maßnahme",
+            "ar": "إجراء",
+            "en": "measure"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Umsetzung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u13_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ Präsentation als Liste ohne Übergänge → Signposting einsetzen\n• ❌ Beispiel ohne Bezug zur These → erklären, was es zeigt\n• ❌ Schluss bringt völlig neues Argument → Schluss bündelt Kernpunkte\n• ❌ absolute Bewertung ohne Einschränkung → Kriterien nennen.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ Präsentation als Liste ohne Übergänge → Signposting einsetzen\n• ❌ Beispiel ohne Bezug zur These → erklären, was es zeigt\n• ❌ Schluss bringt völlig neues Argument → Schluss bündelt Kernpunkte\n• ❌ absolute Bewertung ohne Einschränkung → Kriterien nennen.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ Präsentation als Liste ohne Übergänge → Signposting einsetzen\n• ❌ Beispiel ohne Bezug zur These → erklären, was es zeigt\n• ❌ Schluss bringt völlig neues Argument → Schluss bündelt Kernpunkte\n• ❌ absolute Bewertung ohne Einschränkung → Kriterien nennen.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u13_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• Einleitung → Gliederung → Hauptpunkte → Beispiele → Position → Schluss\n• Übergänge zeigen roten Faden\n• Diskussion nach Vortrag: zustimmen, einschränken, ergänzen\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• Einleitung → Gliederung → Hauptpunkte → Beispiele → Position → Schluss\n• Übergänge zeigen roten Faden\n• Diskussion nach Vortrag: zustimmen, einschränken, ergänzen\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• Einleitung → Gliederung → Hauptpunkte → Beispiele → Position → Schluss\n• Übergänge zeigen roten Faden\n• Diskussion nach Vortrag: zustimmen, einschränken, ergänzen\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u13_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Halte 3–5 Minuten über Verkehr, Recycling oder Wohnen. Verwende klare Gliederung, zwei Beispiele, ein Gegenargument und Schluss.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Halte 3–5 Minuten über Verkehr, Recycling oder Wohnen. Verwende klare Gliederung, zwei Beispiele, ein Gegenargument und Schluss.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Halte 3–5 Minuten über Verkehr, Recycling oder Wohnen. Verwende klare Gliederung, zwei Beispiele, ein Gegenargument und Schluss.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u13_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U13_CASEBOOK"
+      ]
+    }
+  ]
+}

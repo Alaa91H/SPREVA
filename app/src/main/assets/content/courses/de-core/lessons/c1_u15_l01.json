@@ -1,0 +1,154 @@
+{
+  "id": "c1_u15_l01",
+  "unitId": "de-core-c1-u15",
+  "title": {
+    "de": "Kohäsion, Referenz, Parallelität, Register, Grammatik und Präzisionsrevision",
+    "ar": "الترابط والإحالة والتوازي والسجل والنحو ومراجعة الدقة",
+    "en": "Cohesion, reference, parallelism, register, grammar and precision revision"
+  },
+  "canDo": [
+    "C1_U15_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u15_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Kohäsion, Referenz, Parallelität, Register, Grammatik und Präzisionsrevision",
+        "ar": "الترابط والإحالة والتوازي والسجل والنحو ومراجعة الدقة",
+        "en": "Cohesion, reference, parallelism, register, grammar and precision revision"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Kohäsion, Referenz, Parallelität, Register, Grammatik und Präzisionsrevision\n\nSystematische Erklärung:\nProfessionelle Revision erfolgt in Durchgängen: 1) Inhalt/Logik, 2) Gliederung/Kohärenz, 3) Absatz- und Satzbezüge, 4) Register/Kollokationen, 5) Grammatik/Orthografie, 6) Kürzung. Typische C1-Probleme sind unklare Pronomenbezüge, überladene Sätze, Registermischung und unnötige Nominalketten. Korrektur ist stärker, wenn der Fehlertyp benannt und eine Regel abgeleitet wird.\n\nReferenzbeispiele:\n• Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n• Präziser: „Weil die Leitung mit dem Ergebnis unzufrieden war, sprach sie mit der Abteilung.“\n• Kürzer: „eine Überprüfung durchführen“ → je nach Kontext schlicht „prüfen“.\n\nAuthentische Einsatzfelder:\nE-Mail, Bericht, Bewerbung, Essay oder Prüfung: Entwurf nicht nur korrigieren, sondern gezielt verbessern und wiederkehrende persönliche Fehlermuster dokumentieren.\n\nDiagnostischer Hinweis:\nKorrektur nicht nur als Suche nach „falsch/richtig“ betrachten. Auf C1 sind viele Verbesserungen Entscheidungen zwischen korrekt, passend, präzise und elegant.",
+        "ar": "هدف C1: الترابط والإحالة والتوازي والسجل والنحو ومراجعة الدقة\n\nشرح منهجي عميق:\nالمراجعة المهنية تتم على مراحل: المحتوى والمنطق، البنية والترابط، الإحالات، السجل والمتلازمات، النحو والإملاء، ثم الاختصار. من أخطاء C1 الإحالات غير الواضحة والجمل المحمّلة وخلط السجل والسلاسل الاسمية غير الضرورية.\n\nأمثلة مرجعية:\n• Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n• Präziser: „Weil die Leitung mit dem Ergebnis unzufrieden war, sprach sie mit der Abteilung.“\n• Kürzer: „eine Überprüfung durchführen“ → je nach Kontext schlicht „prüfen“.\n\nمجالات استخدام واقعية:\nفي بريد أو تقرير أو طلب عمل أو مقال أو امتحان: ليس فقط تصحيح المسودة بل تحسينها وتوثيق أنماط الأخطاء الشخصية المتكررة.\n\nملاحظة تشخيصية:\nلا تنظر إلى المراجعة فقط كبحث عن خطأ/صواب. في C1 كثير من التحسينات هي اختيار بين الصحيح والمناسب والدقيق والأنيق.",
+        "en": "C1 competence goal: Cohesion, reference, parallelism, register, grammar and precision revision\n\nSystematic explanation:\nProfessional revision works in passes: 1) content/logic, 2) structure/coherence, 3) paragraph/sentence references, 4) register/collocations, 5) grammar/spelling, 6) compression. Typical C1 issues include unclear pronoun reference, overloaded sentences, register mixing and unnecessary nominal chains. Correction is stronger when the error type is named and a rule extracted.\n\nReference examples:\n• Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n• Präziser: „Weil die Leitung mit dem Ergebnis unzufrieden war, sprach sie mit der Abteilung.“\n• Kürzer: „eine Überprüfung durchführen“ → je nach Kontext schlicht „prüfen“.\n\nAuthentic domains:\nEmail, report, application, essay or exam: not merely correct a draft but deliberately improve it and document recurring personal error patterns.\n\nDiagnostic note:\nDo not treat revision only as a hunt for right/wrong. At C1, many improvements are choices among correct, appropriate, precise and elegant."
+      }
+    },
+    {
+      "id": "c1_u15_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u15_l01_w1",
+          "german": "redigieren",
+          "translation": {
+            "de": "edit",
+            "ar": "يحرر ويراجع",
+            "en": "edit"
+          }
+        },
+        {
+          "id": "c1_u15_l01_w2",
+          "german": "der Bezug",
+          "translation": {
+            "de": "reference",
+            "ar": "الإحالة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "c1_u15_l01_w3",
+          "german": "die Kohäsion",
+          "translation": {
+            "de": "cohesion",
+            "ar": "الترابط النصي",
+            "en": "cohesion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u15_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nProfessionelle Revision erfolgt in Durchgängen: 1) Inhalt/Logik, 2) Gliederung/Kohärenz, 3) Absatz- und Satzbezüge, 4) Register/Kollokationen, 5) Grammatik/Orthografie, 6) Kürzung. Typische C1-Probleme sind unklare Pronomenbezüge, überladene Sätze, Registermischung und unnötige Nominalketten. Korrektur ist stärker, wenn der Fehlertyp benannt und eine Regel abgeleitet wird.\n\nBeispiele:\n• Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n• Präziser: „Weil die Leitung mit dem Ergebnis unzufrieden war, sprach sie mit der Abteilung.“\n• Kürzer: „eine Überprüfung durchführen“ → je nach Kontext schlicht „prüfen“.",
+        "ar": "المبدأ الأساسي:\nالمراجعة المهنية تتم على مراحل: المحتوى والمنطق، البنية والترابط، الإحالات، السجل والمتلازمات، النحو والإملاء، ثم الاختصار. من أخطاء C1 الإحالات غير الواضحة والجمل المحمّلة وخلط السجل والسلاسل الاسمية غير الضرورية.\n\nالأمثلة:\n• Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n• Präziser: „Weil die Leitung mit dem Ergebnis unzufrieden war, sprach sie mit der Abteilung.“\n• Kürzer: „eine Überprüfung durchführen“ → je nach Kontext schlicht „prüfen“.",
+        "en": "Core principle:\nProfessional revision works in passes: 1) content/logic, 2) structure/coherence, 3) paragraph/sentence references, 4) register/collocations, 5) grammar/spelling, 6) compression. Typical C1 issues include unclear pronoun reference, overloaded sentences, register mixing and unnecessary nominal chains. Correction is stronger when the error type is named and a rule extracted.\n\nExamples:\n• Unklar: „Die Leitung sprach mit der Abteilung, weil sie unzufrieden war.“ – Wer war unzufrieden?\n• Präziser: „Weil die Leitung mit dem Ergebnis unzufrieden war, sprach sie mit der Abteilung.“\n• Kürzer: „eine Überprüfung durchführen“ → je nach Kontext schlicht „prüfen“."
+      }
+    },
+    {
+      "id": "c1_u15_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "redigieren",
+        "ar": "redigieren",
+        "en": "redigieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "edit",
+            "ar": "يحرر ويراجع",
+            "en": "edit"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "reference",
+            "ar": "الإحالة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "cohesion",
+            "ar": "الترابط النصي",
+            "en": "cohesion"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u15_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Pronomenbezug ist nicht eindeutig und muss {answer} werden.",
+        "ar": "Der Pronomenbezug ist nicht eindeutig und muss {answer} werden.",
+        "en": "Der Pronomenbezug ist nicht eindeutig und muss {answer} werden."
+      },
+      "acceptedAnswers": [
+        "präzisiert"
+      ]
+    },
+    {
+      "id": "c1_u15_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Editing, error diagnosis & stylistic self-correction”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u15_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U15_FOUNDATION"
+      ]
+    }
+  ]
+}

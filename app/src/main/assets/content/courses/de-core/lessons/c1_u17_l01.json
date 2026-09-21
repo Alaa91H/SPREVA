@@ -1,0 +1,375 @@
+{
+  "id": "c1_u17_l01",
+  "unitId": "de-core-c1-u17",
+  "title": {
+    "de": "Prüfungstraining: Lesen & Hören",
+    "ar": "تدريب امتحان: القراءة والاستماع",
+    "en": "Exam training: Reading & Listening"
+  },
+  "canDo": [
+    "C1_EXAM_READING_LISTENING"
+  ],
+  "activities": [
+    {
+      "id": "c1_u17_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Lesen & Hören — Prüfungsmodus",
+        "ar": "القراءة والاستماع — وضع الامتحان",
+        "en": "Reading & Listening — exam mode"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "c1_u17_l01_act02",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?",
+        "ar": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?",
+        "en": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann.",
+            "ar": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann.",
+            "en": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Der Effekt gilt sicher für jede Person.",
+            "ar": "Der Effekt gilt sicher für jede Person.",
+            "en": "Der Effekt gilt sicher für jede Person."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Die Studien widersprechen sich vollständig.",
+            "ar": "Die Studien widersprechen sich vollständig.",
+            "en": "Die Studien widersprechen sich vollständig."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l01_act03",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?",
+        "ar": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?",
+        "en": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden",
+            "ar": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden",
+            "en": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ob das Papier Wörter enthält",
+            "ar": "ob das Papier Wörter enthält",
+            "en": "ob das Papier Wörter enthält"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ob Computer Strom benötigen",
+            "ar": "ob Computer Strom benötigen",
+            "en": "ob Computer Strom benötigen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Zwei Berichte bewerten dieselbe Reform unterschiedlich. Bericht A priorisiert kurzfristige Kosten, Bericht B langfristige Verteilungseffekte. Beide verwenden weitgehend dieselben Ausgangsdaten.\n\nWas erklärt den Unterschied am ehesten?",
+        "ar": "Zwei Berichte bewerten dieselbe Reform unterschiedlich. Bericht A priorisiert kurzfristige Kosten, Bericht B langfristige Verteilungseffekte. Beide verwenden weitgehend dieselben Ausgangsdaten.\n\nWas erklärt den Unterschied am ehesten?",
+        "en": "Zwei Berichte bewerten dieselbe Reform unterschiedlich. Bericht A priorisiert kurzfristige Kosten, Bericht B langfristige Verteilungseffekte. Beide verwenden weitgehend dieselben Ausgangsdaten.\n\nWas erklärt den Unterschied am ehesten?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "unterschiedliche Kriterien und Zeithorizonte",
+            "ar": "unterschiedliche Kriterien und Zeithorizonte",
+            "en": "unterschiedliche Kriterien und Zeithorizonte"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "völlig verschiedene Daten",
+            "ar": "völlig verschiedene Daten",
+            "en": "völlig verschiedene Daten"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "fehlende Sprache",
+            "ar": "fehlende Sprache",
+            "en": "fehlende Sprache"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l01_act05",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Eine Rede bezeichnet Kürzungen als „Verschlankung“, während ein Gegenbeitrag von „Leistungsabbau“ spricht. Beide Formulierungen beziehen sich auf dieselbe Budgetmaßnahme.\n\nWas zeigt das Beispiel?",
+        "ar": "Eine Rede bezeichnet Kürzungen als „Verschlankung“, während ein Gegenbeitrag von „Leistungsabbau“ spricht. Beide Formulierungen beziehen sich auf dieselbe Budgetmaßnahme.\n\nWas zeigt das Beispiel?",
+        "en": "Eine Rede bezeichnet Kürzungen als „Verschlankung“, während ein Gegenbeitrag von „Leistungsabbau“ spricht. Beide Formulierungen beziehen sich auf dieselbe Budgetmaßnahme.\n\nWas zeigt das Beispiel?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "unterschiedliches Framing derselben Maßnahme",
+            "ar": "unterschiedliches Framing derselben Maßnahme",
+            "en": "unterschiedliches Framing derselben Maßnahme"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "eindeutige Faktenprüfung",
+            "ar": "eindeutige Faktenprüfung",
+            "en": "eindeutige Faktenprüfung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "identische Bewertung",
+            "ar": "identische Bewertung",
+            "en": "identische Bewertung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Befunde dürften auf einen Effekt hindeuten; angesichts der heterogenen Stichproben wäre eine weitreichende Verallgemeinerung jedoch verfrüht.",
+        "ar": "Die Befunde dürften auf einen Effekt hindeuten; angesichts der heterogenen Stichproben wäre eine weitreichende Verallgemeinerung jedoch verfrüht.",
+        "en": "Die Befunde dürften auf einen Effekt hindeuten; angesichts der heterogenen Stichproben wäre eine weitreichende Verallgemeinerung jedoch verfrüht."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorsichtige Schlussfolgerung mit Einschränkung",
+            "ar": "vorsichtige Schlussfolgerung mit Einschränkung",
+            "en": "vorsichtige Schlussfolgerung mit Einschränkung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sichere Allgemeingültigkeit",
+            "ar": "sichere Allgemeingültigkeit",
+            "en": "sichere Allgemeingültigkeit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Befunde",
+            "ar": "keine Befunde",
+            "en": "keine Befunde"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Bericht führt aus, die Maßnahme habe Kosten reduziert; unabhängige Daten zur langfristigen Wirkung lägen allerdings noch nicht vor.",
+        "ar": "Der Bericht führt aus, die Maßnahme habe Kosten reduziert; unabhängige Daten zur langfristigen Wirkung lägen allerdings noch nicht vor.",
+        "en": "Der Bericht führt aus, die Maßnahme habe Kosten reduziert; unabhängige Daten zur langfristigen Wirkung lägen allerdings noch nicht vor."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Quelle berichtet Nutzen, Langzeitdaten fehlen",
+            "ar": "Quelle berichtet Nutzen, Langzeitdaten fehlen",
+            "en": "Quelle berichtet Nutzen, Langzeitdaten fehlen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Langzeitwirkung bewiesen",
+            "ar": "Langzeitwirkung bewiesen",
+            "en": "Langzeitwirkung bewiesen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Kostenaussage",
+            "ar": "keine Kostenaussage",
+            "en": "keine Kostenaussage"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l01_act08",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um die fehlende Planungssicherheit.",
+        "ar": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um die fehlende Planungssicherheit.",
+        "en": "Wenn ich Sie richtig verstehe, geht es weniger um den Preis als um die fehlende Planungssicherheit."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Interesse wird reframed",
+            "ar": "Interesse wird reframed",
+            "en": "Interesse wird reframed"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Preis wird erhöht",
+            "ar": "Preis wird erhöht",
+            "en": "Preis wird erhöht"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Gespräch beendet",
+            "ar": "Gespräch beendet",
+            "en": "Gespräch beendet"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Die Befunde dürften auf einen Zusammenhang hindeuten, rechtfertigen jedoch keine uneingeschränkte Verallgemeinerung.",
+        "ar": "Die Befunde dürften auf einen Zusammenhang hindeuten, rechtfertigen jedoch keine uneingeschränkte Verallgemeinerung.",
+        "en": "Die Befunde dürften auf einen Zusammenhang hindeuten, rechtfertigen jedoch keine uneingeschränkte Verallgemeinerung."
+      },
+      "acceptedAnswers": [
+        "Die Befunde dürften auf einen Zusammenhang hindeuten, rechtfertigen jedoch keine uneingeschränkte Verallgemeinerung."
+      ]
+    },
+    {
+      "id": "c1_u17_l01_act10",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Die Quelle muss sichtbar bleiben, auch wenn die Aussage stilistisch verdichtet oder paraphrasiert wird.",
+        "ar": "Die Quelle muss sichtbar bleiben, auch wenn die Aussage stilistisch verdichtet oder paraphrasiert wird.",
+        "en": "Die Quelle muss sichtbar bleiben, auch wenn die Aussage stilistisch verdichtet oder paraphrasiert wird."
+      },
+      "acceptedAnswers": [
+        "Die Quelle muss sichtbar bleiben, auch wenn die Aussage stilistisch verdichtet oder paraphrasiert wird."
+      ]
+    },
+    {
+      "id": "c1_u17_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Hörstrategie",
+        "ar": "استراتيجية الاستماع",
+        "en": "Listening strategy"
+      },
+      "body": {
+        "de": "Erster Durchgang: Gesamtsinn. Zweiter Durchgang: Schlüsselwörter, Zahlen, Negation und Kontrast. Erst danach Antwort prüfen.",
+        "ar": "الجولة الأولى: المعنى العام. الثانية: الكلمات المفتاحية والأرقام والنفي والتعارض. ثم تحقق من الإجابة.",
+        "en": "First pass: overall meaning. Second pass: keywords, numbers, negation and contrast. Only then check the answer."
+      }
+    },
+    {
+      "id": "c1_u17_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Lesen/Hören abgeschlossen",
+        "ar": "اكتمل قسم القراءة/الاستماع",
+        "en": "Reading/listening complete"
+      },
+      "canDo": [
+        "C1_EXAM_READING_LISTENING"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "id": "a1_u12_l03",
+  "unitId": "de-core-a1-u12",
+  "title": {
+    "de": "Intensivtraining: Arbeit, Lernen & Fähigkeiten",
+    "ar": "تدريب مكثف: العمل والتعلم والقدرات",
+    "en": "Mastery lab: Work, study & abilities"
+  },
+  "canDo": [
+    "A1_U12_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u12_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Arbeit, Lernen & Fähigkeiten“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.",
+        "ar": "تدريب مكثف على «العمل والتعلم والقدرات». بعد كل إجابة اذكر القاعدة وأنشئ مثالًا ثانيًا واشرح خطأً شائعًا.",
+        "en": "Intensive practice for “Work, study & abilities”. After every answer state the rule, create a second example and explain one typical error."
+      }
+    },
+    {
+      "id": "a1_u12_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u12_l03_w1",
+          "german": "der Beruf",
+          "translation": {
+            "de": "profession",
+            "ar": "المهنة",
+            "en": "profession"
+          }
+        },
+        {
+          "id": "a1_u12_l03_w2",
+          "german": "arbeiten",
+          "translation": {
+            "de": "work",
+            "ar": "يعمل",
+            "en": "work"
+          }
+        },
+        {
+          "id": "a1_u12_l03_w3",
+          "german": "lernen",
+          "translation": {
+            "de": "learn",
+            "ar": "يتعلم",
+            "en": "learn"
+          }
+        },
+        {
+          "id": "a1_u12_l03_w4",
+          "german": "der Kurs",
+          "translation": {
+            "de": "course",
+            "ar": "الدورة",
+            "en": "course"
+          }
+        },
+        {
+          "id": "a1_u12_l03_w5",
+          "german": "die Aufgabe",
+          "translation": {
+            "de": "task",
+            "ar": "المهمة",
+            "en": "task"
+          }
+        },
+        {
+          "id": "a1_u12_l03_w6",
+          "german": "die Pause",
+          "translation": {
+            "de": "break",
+            "ar": "الاستراحة",
+            "en": "break"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u12_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} gut mit Kunden sprechen.",
+        "ar": "Ich {answer} gut mit Kunden sprechen.",
+        "en": "Ich {answer} gut mit Kunden sprechen."
+      },
+      "acceptedAnswers": [
+        "kann"
+      ]
+    },
+    {
+      "id": "a1_u12_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bin {answer} und arbeite in einem Restaurant.",
+        "ar": "Ich bin {answer} und arbeite in einem Restaurant.",
+        "en": "Ich bin {answer} und arbeite in einem Restaurant."
+      },
+      "acceptedAnswers": [
+        "Koch",
+        "Köchin",
+        "Koechin"
+      ]
+    },
+    {
+      "id": "a1_u12_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. {answer} zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.",
+        "ar": "Mit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. {answer} zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.",
+        "en": "Mit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. {answer} zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "a1_u12_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} Verkäufer.",
+        "ar": "Ich {answer} Verkäufer.",
+        "en": "Ich {answer} Verkäufer."
+      },
+      "acceptedAnswers": [
+        "bin"
+      ]
+    },
+    {
+      "id": "a1_u12_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich kann {answer} Computern arbeiten.",
+        "ar": "Ich kann {answer} Computern arbeiten.",
+        "en": "Ich kann {answer} Computern arbeiten."
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "a1_u12_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Deutschkurs beginnt um neun Uhr.",
+        "ar": "{answer} Deutschkurs beginnt um neun Uhr.",
+        "en": "{answer} Deutschkurs beginnt um neun Uhr."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "a1_u12_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Beruf",
+        "ar": "der Beruf",
+        "en": "der Beruf"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "profession",
+            "ar": "المهنة",
+            "en": "profession"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "work",
+            "ar": "يعمل",
+            "en": "work"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "learn",
+            "ar": "يتعلم",
+            "en": "learn"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u12_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Kurs",
+        "ar": "der Kurs",
+        "en": "der Kurs"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "course",
+            "ar": "الدورة",
+            "en": "course"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "task",
+            "ar": "المهمة",
+            "en": "task"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "break",
+            "ar": "الاستراحة",
+            "en": "break"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u12_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Mit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. Der zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.\n2. Ich bin Verkäufer.\n3. Ich kann mit Computern arbeiten.\n4. Der Deutschkurs beginnt um neun Uhr.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre und korrigiere.",
+        "ar": "نماذج صحيحة:\n1. Mit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. Der zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.\n2. Ich bin Verkäufer.\n3. Ich kann mit Computern arbeiten.\n4. Der Deutschkurs beginnt um neun Uhr.\n\nحدّد الصيغة الحاسمة وأنشئ خطأً شائعًا ثم اشرح وصحح.",
+        "en": "Correct patterns:\n1. Mit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. Der zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.\n2. Ich bin Verkäufer.\n3. Ich kann mit Computern arbeiten.\n4. Der Deutschkurs beginnt um neun Uhr.\n\nMark the decisive form, create a typical wrong version, explain and correct it."
+      }
+    },
+    {
+      "id": "a1_u12_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة خمس مرات ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model five ways, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u12_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "Sofort mündlich wiederholen, später sechs neue Sätze bilden, die Regel erklären, im Dialog anwenden und mit älteren Themen mischen.",
+        "ar": "كرر شفهيًا الآن، ثم كوّن ست جمل جديدة لاحقًا واشرح القاعدة واستخدمها في حوار وامزجها مع موضوعات سابقة.",
+        "en": "Repeat orally now, later create six new sentences, explain the rule, use it in dialogue and interleave with older topics."
+      }
+    },
+    {
+      "id": "a1_u12_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U12_MASTERY"
+      ]
+    }
+  ]
+}

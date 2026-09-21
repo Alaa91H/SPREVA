@@ -1,0 +1,154 @@
+{
+  "id": "c1_u09_l02",
+  "unitId": "de-core-c1-u09",
+  "title": {
+    "de": "Komplexe Gespräche lösungsorientiert steuern",
+    "ar": "إدارة الحوارات المعقدة باتجاه الحل",
+    "en": "Steering complex conversations toward solutions"
+  },
+  "canDo": [
+    "C1_U09_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u09_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe Gespräche lösungsorientiert steuern",
+        "ar": "إدارة الحوارات المعقدة باتجاه الحل",
+        "en": "Steering complex conversations toward solutions"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nTeamkonflikt, Lieferantengespräch, Projektkrise oder Dienstplan: Spannung reduzieren, Interessen klären, Optionen bündeln und verbindliche nächste Schritte festhalten.\n\nModelldialog:\nA: So kann das unmöglich weitergehen.\nB: Wenn ich Ihren Punkt richtig verstehe, fehlt Ihnen vor allem Verlässlichkeit bei den Terminen.\nA: Genau.\nB: Dann sollten wir konkret festlegen, wer Änderungen bis wann kommuniziert.\n\nStrategische Sprachentscheidung:\nC1-Gesprächsführung macht implizite Interessen explizit und trennt Person, Position und Problem. Reframing formuliert einen Angriff als lösbare Sachfrage. Moderationssignale: Wenn ich Sie richtig verstehe …; Worin besteht für Sie der zentrale Punkt?; Können wir festhalten, dass …? Vereinbarungen brauchen Verantwortliche, Termin und überprüfbares Ergebnis.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nخلاف فريق أو مورد أو أزمة مشروع أو جدول عمل: خفض التوتر وتوضيح المصالح وتجميع الخيارات وتثبيت الخطوات التالية.\n\nحوار نموذجي:\nA: So kann das unmöglich weitergehen.\nB: Wenn ich Ihren Punkt richtig verstehe, fehlt Ihnen vor allem Verlässlichkeit bei den Terminen.\nA: Genau.\nB: Dann sollten wir konkret festlegen, wer Änderungen bis wann kommuniziert.\n\nالقرار اللغوي الاستراتيجي:\nتوضح إدارة الحوار في C1 المصالح الضمنية وتفصل الشخص عن الموقف والمشكلة. إعادة التأطير تحول الهجوم إلى قضية قابلة للحل. الاتفاق الجيد يحدد المسؤول والموعد والنتيجة القابلة للتحقق.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nTeam conflict, supplier discussion, project crisis or rota planning: reduce tension, clarify interests, bundle options and agree binding next steps.\n\nModel dialogue:\nA: So kann das unmöglich weitergehen.\nB: Wenn ich Ihren Punkt richtig verstehe, fehlt Ihnen vor allem Verlässlichkeit bei den Terminen.\nA: Genau.\nB: Dann sollten wir konkret festlegen, wer Änderungen bis wann kommuniziert.\n\nStrategic language choice:\nC1 interaction makes implicit interests explicit and separates person, position and problem. Reframing turns an attack into a solvable issue. Facilitation signals include Wenn ich Sie richtig verstehe … and Können wir festhalten, dass …? Agreements need an owner, deadline and verifiable result.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u09_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u09_l02_w1",
+          "german": "sich verständigen auf",
+          "translation": {
+            "de": "agree on",
+            "ar": "يتفق على",
+            "en": "agree on"
+          }
+        },
+        {
+          "id": "c1_u09_l02_w2",
+          "german": "die Planungssicherheit",
+          "translation": {
+            "de": "planning certainty",
+            "ar": "وضوح التخطيط",
+            "en": "planning certainty"
+          }
+        },
+        {
+          "id": "c1_u09_l02_w3",
+          "german": "moderieren",
+          "translation": {
+            "de": "facilitate",
+            "ar": "يدير النقاش",
+            "en": "facilitate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u09_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nC1-Gesprächsführung macht implizite Interessen explizit und trennt Person, Position und Problem. Reframing formuliert einen Angriff als lösbare Sachfrage. Moderationssignale: Wenn ich Sie richtig verstehe …; Worin besteht für Sie der zentrale Punkt?; Können wir festhalten, dass …? Vereinbarungen brauchen Verantwortliche, Termin und überprüfbares Ergebnis.\n\nBeispiele:\n• Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.\n• Können wir uns darauf verständigen, dass beide Seiten bis Freitag zwei Optionen prüfen?\n• Ich möchte den Einwand aufgreifen und in eine konkrete Anforderung übersetzen.",
+        "ar": "المبدأ الأساسي:\nتوضح إدارة الحوار في C1 المصالح الضمنية وتفصل الشخص عن الموقف والمشكلة. إعادة التأطير تحول الهجوم إلى قضية قابلة للحل. الاتفاق الجيد يحدد المسؤول والموعد والنتيجة القابلة للتحقق.\n\nالأمثلة:\n• Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.\n• Können wir uns darauf verständigen, dass beide Seiten bis Freitag zwei Optionen prüfen?\n• Ich möchte den Einwand aufgreifen und in eine konkrete Anforderung übersetzen.",
+        "en": "Core principle:\nC1 interaction makes implicit interests explicit and separates person, position and problem. Reframing turns an attack into a solvable issue. Facilitation signals include Wenn ich Sie richtig verstehe … and Können wir festhalten, dass …? Agreements need an owner, deadline and verifiable result.\n\nExamples:\n• Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.\n• Können wir uns darauf verständigen, dass beide Seiten bis Freitag zwei Optionen prüfen?\n• Ich möchte den Einwand aufgreifen und in eine konkrete Anforderung übersetzen."
+      }
+    },
+    {
+      "id": "c1_u09_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "sich verständigen auf",
+        "ar": "sich verständigen auf",
+        "en": "sich verständigen auf"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "agree on",
+            "ar": "يتفق على",
+            "en": "agree on"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "planning certainty",
+            "ar": "وضوح التخطيط",
+            "en": "planning certainty"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "facilitate",
+            "ar": "يدير النقاش",
+            "en": "facilitate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u09_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit.",
+        "ar": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit.",
+        "en": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit."
+      },
+      "acceptedAnswers": [
+        "verstehe"
+      ]
+    },
+    {
+      "id": "c1_u09_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Verhandeln, Moderieren & Führungskommunikation“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «التفاوض وإدارة النقاش والتواصل القيادي». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Negotiation, facilitation & leadership communication”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u09_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U09_REAL_LIFE"
+      ]
+    }
+  ]
+}

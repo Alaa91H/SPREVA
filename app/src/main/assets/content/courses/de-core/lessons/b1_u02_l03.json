@@ -1,0 +1,296 @@
+{
+  "id": "b1_u02_l03",
+  "unitId": "de-core-b1-u02",
+  "title": {
+    "de": "Intensivtraining: Passiv in Alltag & Arbeit",
+    "ar": "تدريب مكثف: المبني للمجهول في الحياة والعمل",
+    "en": "Mastery lab: Passive voice in everyday and work contexts"
+  },
+  "canDo": [
+    "B1_U02_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u02_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Passiv in Alltag & Arbeit“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz in eine zweite Struktur umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «المبني للمجهول في الحياة والعمل». بعد كل حل: اشرح القرار النحوي، حوّل الجملة إلى بنية ثانية، ثم عبّر عن المعنى نفسه في موقف واقعي جديد.",
+        "en": "Deepen “Passive voice in everyday and work contexts”. After each solution explain the grammatical choice, transform the sentence into a second structure and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u02_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u02_l03_w1",
+          "german": "prüfen",
+          "translation": {
+            "de": "check",
+            "ar": "يفحص",
+            "en": "check"
+          }
+        },
+        {
+          "id": "b1_u02_l03_w2",
+          "german": "bearbeiten",
+          "translation": {
+            "de": "process",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b1_u02_l03_w3",
+          "german": "genehmigen",
+          "translation": {
+            "de": "approve",
+            "ar": "يوافق",
+            "en": "approve"
+          }
+        },
+        {
+          "id": "b1_u02_l03_w4",
+          "german": "sperren",
+          "translation": {
+            "de": "block/close",
+            "ar": "يغلق / يحظر",
+            "en": "block/close"
+          }
+        },
+        {
+          "id": "b1_u02_l03_w5",
+          "german": "reparieren",
+          "translation": {
+            "de": "repair",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "b1_u02_l03_w6",
+          "german": "bestätigen",
+          "translation": {
+            "de": "confirm",
+            "ar": "يؤكد",
+            "en": "confirm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u02_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag wird morgen {answer}.",
+        "ar": "Der Antrag wird morgen {answer}.",
+        "en": "Der Antrag wird morgen {answer}."
+      },
+      "acceptedAnswers": [
+        "bearbeitet"
+      ]
+    },
+    {
+      "id": "b1_u02_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Straße {answer} gestern gesperrt.",
+        "ar": "Die Straße {answer} gestern gesperrt.",
+        "en": "Die Straße {answer} gestern gesperrt."
+      },
+      "acceptedAnswers": [
+        "wurde"
+      ]
+    },
+    {
+      "id": "b1_u02_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Vorgangspassiv fokussiert die Handlung statt den Handelnden: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. {answer} Handelnde kann mit von + Dativ genannt werden, wenn er relevant ist.",
+        "ar": "Das Vorgangspassiv fokussiert die Handlung statt den Handelnden: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. {answer} Handelnde kann mit von + Dativ genannt werden, wenn er relevant ist.",
+        "en": "Das Vorgangspassiv fokussiert die Handlung statt den Handelnden: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. {answer} Handelnde kann mit von + Dativ genannt werden, wenn er relevant ist."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "b1_u02_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Antrag wird geprüft.",
+        "ar": "{answer} Antrag wird geprüft.",
+        "en": "{answer} Antrag wird geprüft."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "b1_u02_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Straße wurde gestern gesperrt.",
+        "ar": "{answer} Straße wurde gestern gesperrt.",
+        "en": "{answer} Straße wurde gestern gesperrt."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b1_u02_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Rechnung ist bereits bezahlt worden.",
+        "ar": "{answer} Rechnung ist bereits bezahlt worden.",
+        "en": "{answer} Rechnung ist bereits bezahlt worden."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b1_u02_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "prüfen",
+        "ar": "prüfen",
+        "en": "prüfen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "check",
+            "ar": "يفحص",
+            "en": "check"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "process",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "approve",
+            "ar": "يوافق",
+            "en": "approve"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u02_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "sperren",
+        "ar": "sperren",
+        "en": "sperren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "block/close",
+            "ar": "يغلق / يحظر",
+            "en": "block/close"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "repair",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "confirm",
+            "ar": "يؤكد",
+            "en": "confirm"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u02_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Das Vorgangspassiv fokussiert die Handlung statt den Handelnden: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. Der Handelnde kann mit von + Dativ genannt werden, wenn er relevant ist.\n2. Der Antrag wird geprüft.\n3. Die Straße wurde gestern gesperrt.\n4. Die Rechnung ist bereits bezahlt worden.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp (Kasus, Tempus, Verbposition, Konnektor, Relativpronomen, Passiv/Modalität), korrigiere und bilde danach eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Das Vorgangspassiv fokussiert die Handlung statt den Handelnden: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. Der Handelnde kann mit von + Dativ genannt werden, wenn er relevant ist.\n2. Der Antrag wird geprüft.\n3. Die Straße wurde gestern gesperrt.\n4. Die Rechnung ist bereits bezahlt worden.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة. سمِّ نوع الخطأ (الحالة، الزمن، موقع الفعل، الرابط، ضمير الوصل، المبني للمجهول/الدلالة)، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Das Vorgangspassiv fokussiert die Handlung statt den Handelnden: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. Der Handelnde kann mit von + Dativ genannt werden, wenn er relevant ist.\n2. Der Antrag wird geprüft.\n3. Die Straße wurde gestern gesperrt.\n4. Die Rechnung ist bereits bezahlt worden.\n\nCreate one plausible wrong form for each pattern. Name the error type (case, tense, word order, connector, relative pronoun, passive/modality), correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u02_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Transformiere die Kernaussagen: Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "حوّل الأفكار: معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ جملة رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان قصيرتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Transform key statements: active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; two short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u02_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische die Zielstruktur mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten: mindestens drei Zielstrukturen, zwei Konnektoren, eine Rückfrage und eine Selbstkorrektur. Wiederhole dieselbe Aufgabe später mit neuem Kontext.",
+        "ar": "امزج البنية المستهدفة مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين: ثلاث بنيات مستهدفة، رابطان، سؤال متابعة وتصحيح ذاتي. أعد المهمة لاحقًا بسياق جديد.",
+        "en": "Interleave the target with two earlier B1 topics. Write 80–120 words or speak for two minutes using at least three target structures, two connectors, one follow-up question and one self-correction. Repeat later in a new context."
+      }
+    },
+    {
+      "id": "b1_u02_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U02_MASTERY"
+      ]
+    }
+  ]
+}

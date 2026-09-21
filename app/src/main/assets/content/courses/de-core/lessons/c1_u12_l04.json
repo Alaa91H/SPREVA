@@ -1,0 +1,378 @@
+{
+  "id": "c1_u12_l04",
+  "unitId": "de-core-c1-u12",
+  "title": {
+    "de": "Falltraining: Gesellschaft, Ethik & differenzierte Debatte",
+    "ar": "تدريب الحالات: المجتمع والأخلاق والنقاش المتوازن",
+    "en": "Casebook: Society, ethics & nuanced debate"
+  },
+  "canDo": [
+    "C1_U12_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u12_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Gesellschaft, Ethik & differenzierte Debatte\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Ist-Frage ≠ Soll-Frage\n• Kriterien und betroffene Gruppen transparent machen\n• Gegenposition fair rekonstruieren, dann kritisieren",
+        "ar": "الموضوع: المجتمع والأخلاق والنقاش المتوازن\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Ist-Frage ≠ Soll-Frage\n• Kriterien und betroffene Gruppen transparent machen\n• Gegenposition fair rekonstruieren, dann kritisieren",
+        "en": "Topic: Society, ethics & nuanced debate\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Ist-Frage ≠ Soll-Frage\n• Kriterien und betroffene Gruppen transparent machen\n• Gegenposition fair rekonstruieren, dann kritisieren"
+      }
+    },
+    {
+      "id": "c1_u12_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u12_l04_w1",
+          "german": "normativ",
+          "translation": {
+            "de": "normativ",
+            "ar": "معياري",
+            "en": "normative"
+          }
+        },
+        {
+          "id": "c1_u12_l04_w2",
+          "german": "empirisch",
+          "translation": {
+            "de": "empirisch",
+            "ar": "تجريبي/بياني",
+            "en": "empirical"
+          }
+        },
+        {
+          "id": "c1_u12_l04_w3",
+          "german": "Zielkonflikt",
+          "translation": {
+            "de": "Zielkonflikt",
+            "ar": "تعارض أهداف",
+            "en": "trade-off"
+          }
+        },
+        {
+          "id": "c1_u12_l04_w4",
+          "german": "Kriterium",
+          "translation": {
+            "de": "Kriterium",
+            "ar": "معيار",
+            "en": "criterion"
+          }
+        },
+        {
+          "id": "c1_u12_l04_w5",
+          "german": "Perspektive",
+          "translation": {
+            "de": "Perspektive",
+            "ar": "منظور",
+            "en": "perspective"
+          }
+        },
+        {
+          "id": "c1_u12_l04_w6",
+          "german": "abwägen",
+          "translation": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u12_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frage nach Wirkung ist {answer}.",
+        "ar": "Die Frage nach Wirkung ist {answer}.",
+        "en": "Die Frage nach Wirkung ist {answer}."
+      },
+      "acceptedAnswers": [
+        "empirisch"
+      ]
+    },
+    {
+      "id": "c1_u12_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frage nach Gerechtigkeit ist {answer}.",
+        "ar": "Die Frage nach Gerechtigkeit ist {answer}.",
+        "en": "Die Frage nach Gerechtigkeit ist {answer}."
+      },
+      "acceptedAnswers": [
+        "normativ"
+      ]
+    },
+    {
+      "id": "c1_u12_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Hier besteht ein {answer}.",
+        "ar": "Hier besteht ein {answer}.",
+        "en": "Hier besteht ein {answer}."
+      },
+      "acceptedAnswers": [
+        "Zielkonflikt"
+      ]
+    },
+    {
+      "id": "c1_u12_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Welches {answer} ist entscheidend?",
+        "ar": "Welches {answer} ist entscheidend?",
+        "en": "Welches {answer} ist entscheidend?"
+      },
+      "acceptedAnswers": [
+        "Kriterium"
+      ]
+    },
+    {
+      "id": "c1_u12_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Man sollte mehrere {answer} berücksichtigen.",
+        "ar": "Man sollte mehrere {answer} berücksichtigen.",
+        "en": "Man sollte mehrere {answer} berücksichtigen."
+      },
+      "acceptedAnswers": [
+        "Perspektiven"
+      ]
+    },
+    {
+      "id": "c1_u12_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Vor einer Bewertung muss man Folgen {answer}.",
+        "ar": "Vor einer Bewertung muss man Folgen {answer}.",
+        "en": "Vor einer Bewertung muss man Folgen {answer}."
+      },
+      "acceptedAnswers": [
+        "abwägen"
+      ]
+    },
+    {
+      "id": "c1_u12_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "normativ",
+        "ar": "normativ",
+        "en": "normativ"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "normativ",
+            "ar": "معياري",
+            "en": "normative"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "empirisch",
+            "ar": "تجريبي/بياني",
+            "en": "empirical"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zielkonflikt",
+            "ar": "تعارض أهداف",
+            "en": "trade-off"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u12_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "empirisch",
+        "ar": "empirisch",
+        "en": "empirisch"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "empirisch",
+            "ar": "تجريبي/بياني",
+            "en": "empirical"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Zielkonflikt",
+            "ar": "تعارض أهداف",
+            "en": "trade-off"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Kriterium",
+            "ar": "معيار",
+            "en": "criterion"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u12_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Zielkonflikt",
+        "ar": "Zielkonflikt",
+        "en": "Zielkonflikt"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Zielkonflikt",
+            "ar": "تعارض أهداف",
+            "en": "trade-off"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kriterium",
+            "ar": "معيار",
+            "en": "criterion"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Perspektive",
+            "ar": "منظور",
+            "en": "perspective"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u12_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Kriterium",
+        "ar": "Kriterium",
+        "en": "Kriterium"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kriterium",
+            "ar": "معيار",
+            "en": "criterion"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Perspektive",
+            "ar": "منظور",
+            "en": "perspective"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u12_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ aus einem Fakt direkt ein Soll ableiten\n• ❌ Gegenposition karikieren\n• ❌ ein Kriterium verstecken, aber Urteil absolut formulieren\n• ❌ Komplexität als Grund nutzen, gar keine Schlussfolgerung zu ziehen.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ aus einem Fakt direkt ein Soll ableiten\n• ❌ Gegenposition karikieren\n• ❌ ein Kriterium verstecken, aber Urteil absolut formulieren\n• ❌ Komplexität als Grund nutzen, gar keine Schlussfolgerung zu ziehen.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ aus einem Fakt direkt ein Soll ableiten\n• ❌ Gegenposition karikieren\n• ❌ ein Kriterium verstecken, aber Urteil absolut formulieren\n• ❌ Komplexität als Grund nutzen, gar keine Schlussfolgerung zu ziehen.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u12_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Ist-Frage ≠ Soll-Frage\n• Kriterien und betroffene Gruppen transparent machen\n• Gegenposition fair rekonstruieren, dann kritisieren\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Ist-Frage ≠ Soll-Frage\n• Kriterien und betroffene Gruppen transparent machen\n• Gegenposition fair rekonstruieren, dann kritisieren\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Ist-Frage ≠ Soll-Frage\n• Kriterien und betroffene Gruppen transparent machen\n• Gegenposition fair rekonstruieren, dann kritisieren\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u12_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Diskutiere eine normative Frage mit expliziten Kriterien, empirischer Evidenz, zwei Perspektiven, Zielkonflikt und bedingter Schlussfolgerung.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Diskutiere eine normative Frage mit expliziten Kriterien, empirischer Evidenz, zwei Perspektiven, Zielkonflikt und bedingter Schlussfolgerung.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Diskutiere eine normative Frage mit expliziten Kriterien, empirischer Evidenz, zwei Perspektiven, Zielkonflikt und bedingter Schlussfolgerung.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u12_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U12_CASEBOOK"
+      ]
+    }
+  ]
+}

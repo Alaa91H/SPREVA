@@ -1,0 +1,296 @@
+{
+  "id": "b1_u12_l03",
+  "unitId": "de-core-b1-u12",
+  "title": {
+    "de": "Intensivtraining: Medien, Meinung & Argumentation",
+    "ar": "تدريب مكثف: الإعلام والرأي والحجاج",
+    "en": "Mastery lab: Media, opinion & argumentation"
+  },
+  "canDo": [
+    "B1_U12_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u12_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Medien, Meinung & Argumentation“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «الإعلام والرأي والحجاج». بعد كل حل اشرح القرار النحوي وحوّل الجملة ثم عبّر عن المعنى في موقف واقعي جديد.",
+        "en": "Deepen “Media, opinion & argumentation”. After each solution explain the grammatical choice, transform the sentence and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u12_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u12_l03_w1",
+          "german": "der Vorteil",
+          "translation": {
+            "de": "advantage",
+            "ar": "الميزة",
+            "en": "advantage"
+          }
+        },
+        {
+          "id": "b1_u12_l03_w2",
+          "german": "der Nachteil",
+          "translation": {
+            "de": "disadvantage",
+            "ar": "العيب",
+            "en": "disadvantage"
+          }
+        },
+        {
+          "id": "b1_u12_l03_w3",
+          "german": "die Quelle",
+          "translation": {
+            "de": "source",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "b1_u12_l03_w4",
+          "german": "behaupten",
+          "translation": {
+            "de": "claim",
+            "ar": "يدّعي",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "b1_u12_l03_w5",
+          "german": "begründen",
+          "translation": {
+            "de": "justify",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "b1_u12_l03_w6",
+          "german": "trotzdem",
+          "translation": {
+            "de": "nevertheless",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u12_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} es praktisch ist, gibt es Nachteile.",
+        "ar": "{answer} es praktisch ist, gibt es Nachteile.",
+        "en": "{answer} es praktisch ist, gibt es Nachteile."
+      },
+      "acceptedAnswers": [
+        "Obwohl"
+      ]
+    },
+    {
+      "id": "b1_u12_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Quelle ist unklar; {answer} prüfe ich sie.",
+        "ar": "Die Quelle ist unklar; {answer} prüfe ich sie.",
+        "en": "Die Quelle ist unklar; {answer} prüfe ich sie."
+      },
+      "acceptedAnswers": [
+        "deshalb"
+      ]
+    },
+    {
+      "id": "b1_u12_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} soziale Medien praktisch sind, können sie ablenken.",
+        "ar": "{answer} soziale Medien praktisch sind, können sie ablenken.",
+        "en": "{answer} soziale Medien praktisch sind, können sie ablenken."
+      },
+      "acceptedAnswers": [
+        "Obwohl"
+      ]
+    },
+    {
+      "id": "b1_u12_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Quelle ist unbekannt; deshalb prüfe ich die Information.",
+        "ar": "{answer} Quelle ist unbekannt; deshalb prüfe ich die Information.",
+        "en": "{answer} Quelle ist unbekannt; deshalb prüfe ich die Information."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b1_u12_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich verstehe den Punkt, trotzdem sehe ich {answer} anders.",
+        "ar": "Ich verstehe den Punkt, trotzdem sehe ich {answer} anders.",
+        "en": "Ich verstehe den Punkt, trotzdem sehe ich {answer} anders."
+      },
+      "acceptedAnswers": [
+        "das"
+      ]
+    },
+    {
+      "id": "b1_u12_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nachrichten, soziale Medien, Schule oder Arbeit: Meinung ausdrücken, Vor- und Nachteile abwägen und {answer} andere Positionen reagieren.",
+        "ar": "Nachrichten, soziale Medien, Schule oder Arbeit: Meinung ausdrücken, Vor- und Nachteile abwägen und {answer} andere Positionen reagieren.",
+        "en": "Nachrichten, soziale Medien, Schule oder Arbeit: Meinung ausdrücken, Vor- und Nachteile abwägen und {answer} andere Positionen reagieren."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "b1_u12_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "der Vorteil",
+        "ar": "der Vorteil",
+        "en": "der Vorteil"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "advantage",
+            "ar": "الميزة",
+            "en": "advantage"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "disadvantage",
+            "ar": "العيب",
+            "en": "disadvantage"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "source",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u12_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "behaupten",
+        "ar": "behaupten",
+        "en": "behaupten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "claim",
+            "ar": "يدّعي",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "justify",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nevertheless",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u12_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Obwohl soziale Medien praktisch sind, können sie ablenken.\n2. Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n3. Ich verstehe den Punkt, trotzdem sehe ich das anders.\n4. Nachrichten, soziale Medien, Schule oder Arbeit: Meinung ausdrücken, Vor- und Nachteile abwägen und auf andere Positionen reagieren.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp, korrigiere und bilde eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Obwohl soziale Medien praktisch sind, können sie ablenken.\n2. Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n3. Ich verstehe den Punkt, trotzdem sehe ich das anders.\n4. Nachrichten, soziale Medien, Schule oder Arbeit: Meinung ausdrücken, Vor- und Nachteile abwägen und auf andere Positionen reagieren.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة، سمِّ نوع الخطأ، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Obwohl soziale Medien praktisch sind, können sie ablenken.\n2. Die Quelle ist unbekannt; deshalb prüfe ich die Information.\n3. Ich verstehe den Punkt, trotzdem sehe ich das anders.\n4. Nachrichten, soziale Medien, Schule oder Arbeit: Meinung ausdrücken, Vor- und Nachteile abwägen und auf andere Positionen reagieren.\n\nCreate one plausible wrong form for each pattern, name the error type, correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u12_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u12_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten mit drei Zielstrukturen, zwei Konnektoren, einer Rückfrage und einer Selbstkorrektur.",
+        "ar": "امزجها مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين بثلاث بنيات مستهدفة ورابطين وسؤال متابعة وتصحيح ذاتي.",
+        "en": "Interleave with two earlier B1 topics. Write 80–120 words or speak for two minutes using three target structures, two connectors, one follow-up question and one self-correction."
+      }
+    },
+    {
+      "id": "b1_u12_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U12_MASTERY"
+      ]
+    }
+  ]
+}

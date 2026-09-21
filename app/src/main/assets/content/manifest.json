@@ -1,11 +1,31 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.09.demo.2",
+  "contentVersion": "2026.09.academic.6",
   "packages": [
     {
-      "id": "de-core-a1-demo",
+      "id": "de-core-a1-academic",
       "courseId": "de-core",
       "level": "A1"
+    },
+    {
+      "id": "de-core-a2-academic",
+      "courseId": "de-core",
+      "level": "A2"
+    },
+    {
+      "id": "de-core-b1-academic",
+      "courseId": "de-core",
+      "level": "B1"
+    },
+    {
+      "id": "de-core-b2-academic",
+      "courseId": "de-core",
+      "level": "B2"
+    },
+    {
+      "id": "de-core-c1-academic",
+      "courseId": "de-core",
+      "level": "C1"
     }
   ]
 }

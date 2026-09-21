@@ -1,0 +1,378 @@
+{
+  "id": "b1_u08_l04",
+  "unitId": "de-core-b1-u08",
+  "title": {
+    "de": "Falltraining: Genitiv & N-Deklination",
+    "ar": "تدريب الحالات: Genitiv وتصريف N",
+    "en": "Casebook: Genitive & N-declension"
+  },
+  "canDo": [
+    "B1_U08_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u08_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Genitiv & N-Deklination\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• Genitiv mask./neutr. oft -s/-es\n• N-Deklination außerhalb Nominativ Singular meist -n/-en\n• Zugehörigkeit kann umgangssprachlich auch mit von+Dativ ausgedrückt werden",
+        "ar": "الموضوع: Genitiv وتصريف N\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• Genitiv mask./neutr. oft -s/-es\n• N-Deklination außerhalb Nominativ Singular meist -n/-en\n• Zugehörigkeit kann umgangssprachlich auch mit von+Dativ ausgedrückt werden",
+        "en": "Topic: Genitive & N-declension\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• Genitiv mask./neutr. oft -s/-es\n• N-Deklination außerhalb Nominativ Singular meist -n/-en\n• Zugehörigkeit kann umgangssprachlich auch mit von+Dativ ausgedrückt werden"
+      }
+    },
+    {
+      "id": "b1_u08_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u08_l04_w1",
+          "german": "des Amtes",
+          "translation": {
+            "de": "des Amtes",
+            "ar": "للدائرة",
+            "en": "of the office"
+          }
+        },
+        {
+          "id": "b1_u08_l04_w2",
+          "german": "des Kunden",
+          "translation": {
+            "de": "des Kunden",
+            "ar": "للعميل",
+            "en": "of the customer"
+          }
+        },
+        {
+          "id": "b1_u08_l04_w3",
+          "german": "dem Kunden",
+          "translation": {
+            "de": "dem Kunden",
+            "ar": "للعميل داتيف",
+            "en": "to the customer"
+          }
+        },
+        {
+          "id": "b1_u08_l04_w4",
+          "german": "der Kollege",
+          "translation": {
+            "de": "der Kollege",
+            "ar": "الزميل",
+            "en": "colleague"
+          }
+        },
+        {
+          "id": "b1_u08_l04_w5",
+          "german": "der Mensch",
+          "translation": {
+            "de": "der Mensch",
+            "ar": "الإنسان",
+            "en": "person"
+          }
+        },
+        {
+          "id": "b1_u08_l04_w6",
+          "german": "die Entscheidung",
+          "translation": {
+            "de": "die Entscheidung",
+            "ar": "القرار",
+            "en": "decision"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u08_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist die Entscheidung {answer} Amtes.",
+        "ar": "Das ist die Entscheidung {answer} Amtes.",
+        "en": "Das ist die Entscheidung {answer} Amtes."
+      },
+      "acceptedAnswers": [
+        "des"
+      ]
+    },
+    {
+      "id": "b1_u08_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten {answer} Kunden fehlen.",
+        "ar": "Die Daten {answer} Kunden fehlen.",
+        "en": "Die Daten {answer} Kunden fehlen."
+      },
+      "acceptedAnswers": [
+        "des"
+      ]
+    },
+    {
+      "id": "b1_u08_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich helfe {answer} Kunden.",
+        "ar": "Ich helfe {answer} Kunden.",
+        "en": "Ich helfe {answer} Kunden."
+      },
+      "acceptedAnswers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "b1_u08_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich spreche mit dem {answer}.",
+        "ar": "Ich spreche mit dem {answer}.",
+        "en": "Ich spreche mit dem {answer}."
+      },
+      "acceptedAnswers": [
+        "Kollegen"
+      ]
+    },
+    {
+      "id": "b1_u08_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Verhalten des {answer} war ruhig.",
+        "ar": "Das Verhalten des {answer} war ruhig.",
+        "en": "Das Verhalten des {answer} war ruhig."
+      },
+      "acceptedAnswers": [
+        "Menschen"
+      ]
+    },
+    {
+      "id": "b1_u08_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Nummer {answer} Antrags steht oben.",
+        "ar": "Die Nummer {answer} Antrags steht oben.",
+        "en": "Die Nummer {answer} Antrags steht oben."
+      },
+      "acceptedAnswers": [
+        "des"
+      ]
+    },
+    {
+      "id": "b1_u08_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "des Amtes",
+        "ar": "des Amtes",
+        "en": "des Amtes"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "des Amtes",
+            "ar": "للدائرة",
+            "en": "of the office"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "des Kunden",
+            "ar": "للعميل",
+            "en": "of the customer"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "dem Kunden",
+            "ar": "للعميل داتيف",
+            "en": "to the customer"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u08_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "des Kunden",
+        "ar": "des Kunden",
+        "en": "des Kunden"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "des Kunden",
+            "ar": "للعميل",
+            "en": "of the customer"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "dem Kunden",
+            "ar": "للعميل داتيف",
+            "en": "to the customer"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "der Kollege",
+            "ar": "الزميل",
+            "en": "colleague"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u08_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "dem Kunden",
+        "ar": "dem Kunden",
+        "en": "dem Kunden"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "dem Kunden",
+            "ar": "للعميل داتيف",
+            "en": "to the customer"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "der Kollege",
+            "ar": "الزميل",
+            "en": "colleague"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "der Mensch",
+            "ar": "الإنسان",
+            "en": "person"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u08_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "der Kollege",
+        "ar": "der Kollege",
+        "en": "der Kollege"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der Kollege",
+            "ar": "الزميل",
+            "en": "colleague"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "der Mensch",
+            "ar": "الإنسان",
+            "en": "person"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "die Entscheidung",
+            "ar": "القرار",
+            "en": "decision"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u08_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ des Kunde → ✅ des Kunden\n• ❌ mit dem Kollege → ✅ mit dem Kollegen\n• ❌ des Amt → ✅ des Amtes\n• ❌ jedes maskuline Nomen als N-Deklination behandeln → nur bestimmte Gruppe.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ des Kunde → ✅ des Kunden\n• ❌ mit dem Kollege → ✅ mit dem Kollegen\n• ❌ des Amt → ✅ des Amtes\n• ❌ jedes maskuline Nomen als N-Deklination behandeln → nur bestimmte Gruppe.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ des Kunde → ✅ des Kunden\n• ❌ mit dem Kollege → ✅ mit dem Kollegen\n• ❌ des Amt → ✅ des Amtes\n• ❌ jedes maskuline Nomen als N-Deklination behandeln → nur bestimmte Gruppe.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u08_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• Genitiv mask./neutr. oft -s/-es\n• N-Deklination außerhalb Nominativ Singular meist -n/-en\n• Zugehörigkeit kann umgangssprachlich auch mit von+Dativ ausgedrückt werden\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• Genitiv mask./neutr. oft -s/-es\n• N-Deklination außerhalb Nominativ Singular meist -n/-en\n• Zugehörigkeit kann umgangssprachlich auch mit von+Dativ ausgedrückt werden\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• Genitiv mask./neutr. oft -s/-es\n• N-Deklination außerhalb Nominativ Singular meist -n/-en\n• Zugehörigkeit kann umgangssprachlich auch mit von+Dativ ausgedrückt werden\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u08_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Analysiere einen formellen Brief und bilde zehn Genitivgruppen; ersetze danach fünf davon durch von+Dativ und vergleiche Register.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Analysiere einen formellen Brief und bilde zehn Genitivgruppen; ersetze danach fünf davon durch von+Dativ und vergleiche Register.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Analysiere einen formellen Brief und bilde zehn Genitivgruppen; ersetze danach fünf davon durch von+Dativ und vergleiche Register.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u08_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U08_CASEBOOK"
+      ]
+    }
+  ]
+}

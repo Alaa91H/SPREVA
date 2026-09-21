@@ -1,0 +1,378 @@
+{
+  "id": "a2_u05_l04",
+  "unitId": "de-core-a2-u05",
+  "title": {
+    "de": "Falltraining: Dativ & persönliche Beziehungen",
+    "ar": "تدريب الحالات: الداتيف والعلاقات بين الأشخاص",
+    "en": "Casebook: Dative & personal relations"
+  },
+  "canDo": [
+    "A2_U05_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u05_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Dativ & persönliche Beziehungen\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• Dativpronomen: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen\n• geben/schicken oft Dativ Person + Akkusativ Sache\n• helfen/danken/gefallen/gehören verlangen Dativ",
+        "ar": "الموضوع: الداتيف والعلاقات بين الأشخاص\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• Dativpronomen: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen\n• geben/schicken oft Dativ Person + Akkusativ Sache\n• helfen/danken/gefallen/gehören verlangen Dativ",
+        "en": "Topic: Dative & personal relations\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• Dativpronomen: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen\n• geben/schicken oft Dativ Person + Akkusativ Sache\n• helfen/danken/gefallen/gehören verlangen Dativ"
+      }
+    },
+    {
+      "id": "a2_u05_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u05_l04_w1",
+          "german": "helfen",
+          "translation": {
+            "de": "helfen",
+            "ar": "يساعد",
+            "en": "help"
+          }
+        },
+        {
+          "id": "a2_u05_l04_w2",
+          "german": "danken",
+          "translation": {
+            "de": "danken",
+            "ar": "يشكر",
+            "en": "thank"
+          }
+        },
+        {
+          "id": "a2_u05_l04_w3",
+          "german": "gefallen",
+          "translation": {
+            "de": "gefallen",
+            "ar": "يعجب",
+            "en": "please/appeal"
+          }
+        },
+        {
+          "id": "a2_u05_l04_w4",
+          "german": "geben",
+          "translation": {
+            "de": "geben",
+            "ar": "يعطي",
+            "en": "give"
+          }
+        },
+        {
+          "id": "a2_u05_l04_w5",
+          "german": "schicken",
+          "translation": {
+            "de": "schicken",
+            "ar": "يرسل",
+            "en": "send"
+          }
+        },
+        {
+          "id": "a2_u05_l04_w6",
+          "german": "gehören",
+          "translation": {
+            "de": "gehören",
+            "ar": "يخص",
+            "en": "belong to"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u05_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kannst du {answer} helfen?",
+        "ar": "Kannst du {answer} helfen?",
+        "en": "Kannst du {answer} helfen?"
+      },
+      "acceptedAnswers": [
+        "mir"
+      ]
+    },
+    {
+      "id": "a2_u05_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich danke {answer}.",
+        "ar": "Ich danke {answer}.",
+        "en": "Ich danke {answer}."
+      },
+      "acceptedAnswers": [
+        "dir"
+      ]
+    },
+    {
+      "id": "a2_u05_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das gefällt {answer} gut.",
+        "ar": "Das gefällt {answer} gut.",
+        "en": "Das gefällt {answer} gut."
+      },
+      "acceptedAnswers": [
+        "ihm"
+      ]
+    },
+    {
+      "id": "a2_u05_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich gebe {answer} Kollegin die Datei.",
+        "ar": "Ich gebe {answer} Kollegin die Datei.",
+        "en": "Ich gebe {answer} Kollegin die Datei."
+      },
+      "acceptedAnswers": [
+        "meiner"
+      ]
+    },
+    {
+      "id": "a2_u05_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wem {answer} das Fahrrad?",
+        "ar": "Wem {answer} das Fahrrad?",
+        "en": "Wem {answer} das Fahrrad?"
+      },
+      "acceptedAnswers": [
+        "gehört"
+      ]
+    },
+    {
+      "id": "a2_u05_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie schickt {answer} eine Nachricht.",
+        "ar": "Sie schickt {answer} eine Nachricht.",
+        "en": "Sie schickt {answer} eine Nachricht."
+      },
+      "acceptedAnswers": [
+        "uns"
+      ]
+    },
+    {
+      "id": "a2_u05_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "helfen",
+        "ar": "helfen",
+        "en": "helfen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "helfen",
+            "ar": "يساعد",
+            "en": "help"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "danken",
+            "ar": "يشكر",
+            "en": "thank"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "gefallen",
+            "ar": "يعجب",
+            "en": "please/appeal"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u05_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "danken",
+        "ar": "danken",
+        "en": "danken"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "danken",
+            "ar": "يشكر",
+            "en": "thank"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "gefallen",
+            "ar": "يعجب",
+            "en": "please/appeal"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "geben",
+            "ar": "يعطي",
+            "en": "give"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u05_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "gefallen",
+        "ar": "gefallen",
+        "en": "gefallen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "gefallen",
+            "ar": "يعجب",
+            "en": "please/appeal"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "geben",
+            "ar": "يعطي",
+            "en": "give"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schicken",
+            "ar": "يرسل",
+            "en": "send"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u05_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "geben",
+        "ar": "geben",
+        "en": "geben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "geben",
+            "ar": "يعطي",
+            "en": "give"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "schicken",
+            "ar": "يرسل",
+            "en": "send"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "gehören",
+            "ar": "يخص",
+            "en": "belong to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u05_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ Ich helfe ihn. → ✅ Ich helfe ihm.\n• ❌ Ich danke dich. → ✅ Ich danke dir.\n• ❌ Das gefällt mich. → ✅ Das gefällt mir.\n• ❌ Ich gebe der Schlüssel dem Mann. → natürlicher ✅ Ich gebe dem Mann den Schlüssel.\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ Ich helfe ihn. → ✅ Ich helfe ihm.\n• ❌ Ich danke dich. → ✅ Ich danke dir.\n• ❌ Das gefällt mich. → ✅ Das gefällt mir.\n• ❌ Ich gebe der Schlüssel dem Mann. → natürlicher ✅ Ich gebe dem Mann den Schlüssel.\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ Ich helfe ihn. → ✅ Ich helfe ihm.\n• ❌ Ich danke dich. → ✅ Ich danke dir.\n• ❌ Das gefällt mich. → ✅ Das gefällt mir.\n• ❌ Ich gebe der Schlüssel dem Mann. → natürlicher ✅ Ich gebe dem Mann den Schlüssel.\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u05_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• Dativpronomen: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen\n• geben/schicken oft Dativ Person + Akkusativ Sache\n• helfen/danken/gefallen/gehören verlangen Dativ\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• Dativpronomen: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen\n• geben/schicken oft Dativ Person + Akkusativ Sache\n• helfen/danken/gefallen/gehören verlangen Dativ\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• Dativpronomen: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen\n• geben/schicken oft Dativ Person + Akkusativ Sache\n• helfen/danken/gefallen/gehören verlangen Dativ\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u05_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Baue zwölf Sätze mit sechs verschiedenen Dativpronomen und wechsle anschließend Nomen ↔ Pronomen.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Baue zwölf Sätze mit sechs verschiedenen Dativpronomen und wechsle anschließend Nomen ↔ Pronomen.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Baue zwölf Sätze mit sechs verschiedenen Dativpronomen und wechsle anschließend Nomen ↔ Pronomen.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u05_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U05_CASEBOOK"
+      ]
+    }
+  ]
+}

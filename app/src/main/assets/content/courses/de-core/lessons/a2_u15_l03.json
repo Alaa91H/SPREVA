@@ -1,0 +1,361 @@
+{
+  "id": "a2_u15_l03",
+  "unitId": "de-core-a2-u15",
+  "title": {
+    "de": "Prüfungs-Mastery: gemischte Aufgaben",
+    "ar": "إتقان الامتحان: مهام مختلطة",
+    "en": "Exam mastery: mixed tasks"
+  },
+  "canDo": [
+    "A2_EXAM_MIXED_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u15_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mixed Mastery — ohne Themenhinweis",
+        "ar": "إتقان مختلط — دون تلميح بالموضوع",
+        "en": "Mixed mastery — no topic cue"
+      },
+      "body": {
+        "de": "Lösen Sie die Aufgaben gemischt. Entscheiden Sie selbst, welche Grammatik-, Hör- oder Kommunikationsstrategie gebraucht wird.",
+        "ar": "حل المهام مختلطة وحدد بنفسك قاعدة النحو أو استراتيجية الاستماع أو التواصل المطلوبة.",
+        "en": "Solve the mixed tasks and decide which grammar, listening or communication strategy is needed."
+      }
+    },
+    {
+      "id": "a2_u15_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} gestern lange gearbeitet.",
+        "ar": "Ich {answer} gestern lange gearbeitet.",
+        "en": "Ich {answer} gestern lange gearbeitet."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Danach {answer} ich nach Hause gefahren.",
+        "ar": "Danach {answer} ich nach Hause gefahren.",
+        "en": "Danach {answer} ich nach Hause gefahren."
+      },
+      "acceptedAnswers": [
+        "bin"
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bleibe zu Hause, {answer} ich krank bin.",
+        "ar": "Ich bleibe zu Hause, {answer} ich krank bin.",
+        "en": "Ich bleibe zu Hause, {answer} ich krank bin."
+      },
+      "acceptedAnswers": [
+        "weil"
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Als ich klein {answer}, wohnte ich in Bonn.",
+        "ar": "Als ich klein {answer}, wohnte ich in Bonn.",
+        "en": "Als ich klein {answer}, wohnte ich in Bonn."
+      },
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kannst du {answer} helfen?",
+        "ar": "Kannst du {answer} helfen?",
+        "en": "Kannst du {answer} helfen?"
+      },
+      "acceptedAnswers": [
+        "mir"
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stelle die Lampe {answer} den Tisch.",
+        "ar": "Ich stelle die Lampe {answer} den Tisch.",
+        "en": "Ich stelle die Lampe {answer} den Tisch."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?",
+        "ar": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?",
+        "en": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Es gibt zeitweise kein warmes Wasser.",
+            "ar": "Es gibt zeitweise kein warmes Wasser.",
+            "en": "Es gibt zeitweise kein warmes Wasser."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Die Miete steigt.",
+            "ar": "Die Miete steigt.",
+            "en": "Die Miete steigt."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Das Haus ist geschlossen.",
+            "ar": "Das Haus ist geschlossen.",
+            "en": "Das Haus ist geschlossen."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?",
+        "ar": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?",
+        "en": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Früher kommen und Lebenslauf mitbringen.",
+            "ar": "Früher kommen und Lebenslauf mitbringen.",
+            "en": "Früher kommen und Lebenslauf mitbringen."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Später kommen.",
+            "ar": "Später kommen.",
+            "en": "Später kommen."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Nur anrufen.",
+            "ar": "Nur anrufen.",
+            "en": "Nur anrufen."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich habe gestern angerufen, weil die Heizung seit drei Tagen nicht funktioniert.",
+        "ar": "Ich habe gestern angerufen, weil die Heizung seit drei Tagen nicht funktioniert.",
+        "en": "Ich habe gestern angerufen, weil die Heizung seit drei Tagen nicht funktioniert."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Heizung seit drei Tagen kaputt",
+            "ar": "Heizung seit drei Tagen kaputt",
+            "en": "Heizung seit drei Tagen kaputt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Fenster seit gestern offen",
+            "ar": "Fenster seit gestern offen",
+            "en": "Fenster seit gestern offen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Miete seit drei Monaten hoch",
+            "ar": "Miete seit drei Monaten hoch",
+            "en": "Miete seit drei Monaten hoch"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wenn der Zug pünktlich ist, kommen wir gegen halb sechs an.",
+        "ar": "Wenn der Zug pünktlich ist, kommen wir gegen halb sechs an.",
+        "en": "Wenn der Zug pünktlich ist, kommen wir gegen halb sechs an."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Ankunft etwa 17:30",
+            "ar": "Ankunft etwa 17:30",
+            "en": "Ankunft etwa 17:30"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Abfahrt 17:30",
+            "ar": "Abfahrt 17:30",
+            "en": "Abfahrt 17:30"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Ankunft 18:30",
+            "ar": "Ankunft 18:30",
+            "en": "Ankunft 18:30"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Ich habe den Schaden bereits gestern gemeldet.",
+        "ar": "Ich habe den Schaden bereits gestern gemeldet.",
+        "en": "Ich habe den Schaden bereits gestern gemeldet."
+      },
+      "acceptedAnswers": [
+        "Ich habe den Schaden bereits gestern gemeldet."
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act13",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie eine Beschwerde über Reise oder Service: Was ist passiert, was haben Sie schon getan, welche Lösung wünschen Sie?",
+        "ar": "اكتب شكوى عن سفر أو خدمة: ماذا حدث، ماذا فعلت، وما الحل المطلوب؟",
+        "en": "Write a complaint about travel or service: what happened, what have you done, what solution do you want?"
+      },
+      "minWords": 60,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Simulieren Sie ein kurzes Bewerbungsgespräch: Erfahrung, Fähigkeiten, Arbeitszeit und eine Rückfrage.",
+        "ar": "حاكِ مقابلة عمل قصيرة: الخبرة والمهارات ووقت العمل وسؤال متابعة.",
+        "en": "Simulate a short job interview: experience, skills, working hours and one follow-up question."
+      },
+      "minSeconds": 45,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "a2_u15_l03_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerjournal",
+        "ar": "سجل الأخطاء",
+        "en": "Error journal"
+      },
+      "body": {
+        "de": "Notieren Sie nur Fehler, die wiederkehren: Form, Ursache, Korrekturregel und ein neues eigenes Beispiel. Wiederholen Sie diese Aufgaben später erneut.",
+        "ar": "دوّن فقط الأخطاء المتكررة: الصيغة والسبب وقاعدة التصحيح ومثال جديد. أعد هذه المهام لاحقًا.",
+        "en": "Record only recurring errors: form, cause, repair rule and a new example. Repeat these tasks later."
+      }
+    },
+    {
+      "id": "a2_u15_l03_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mixed Mastery abgeschlossen",
+        "ar": "اكتمل الإتقان المختلط",
+        "en": "Mixed mastery complete"
+      },
+      "canDo": [
+        "A2_EXAM_MIXED_MASTERY"
+      ]
+    }
+  ]
+}

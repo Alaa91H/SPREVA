@@ -2,6 +2,7 @@ package com.spreva.core.audio
 
 import android.content.Context
 import androidx.media3.common.MediaItem
+import androidx.media3.common.PlaybackParameters
 import androidx.media3.exoplayer.ExoPlayer
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -16,10 +17,15 @@ import javax.inject.Singleton
  */
 interface CourseAudioPlayer {
     /** Plays the bundled recording at [contentPath]; falls back to [TtsProvider] if missing. */
-    fun play(contentPath: String)
+    fun play(contentPath: String, speed: Float = 1f)
 
     /** Plays [contentPath] when bundled audio exists, otherwise speaks via TTS. */
-    fun playOrSpeak(contentPath: String?, fallbackText: String, article: String? = null)
+    fun playOrSpeak(
+        contentPath: String?,
+        fallbackText: String,
+        article: String? = null,
+        speed: Float = 1f,
+    )
 
     /** Plays an arbitrary local [file] (e.g. the learner's recording). */
     fun playFile(file: java.io.File)
@@ -63,22 +69,27 @@ class ExoPlayerCourseAudioPlayer @Inject constructor(
             player = created
         }
 
-    override fun play(contentPath: String) {
+    override fun play(contentPath: String, speed: Float) {
         val uri = locator.resolve(contentPath) ?: return
         val exo = obtain()
+        exo.playbackParameters = PlaybackParameters(speed.coerceIn(0.5f, 1.5f))
         exo.setMediaItem(MediaItem.fromUri(uri))
         exo.prepare()
         exo.playWhenReady = true
     }
 
-    override fun playOrSpeak(contentPath: String?, fallbackText: String, article: String?) {
+    override fun playOrSpeak(
+        contentPath: String?,
+        fallbackText: String,
+        article: String?,
+        speed: Float,
+    ) {
         val uri = locator.resolve(contentPath)
         if (uri != null) {
-            play(contentPath ?: return)
+            play(contentPath ?: return, speed)
         } else {
-            // Native recording missing → built-in TTS fallback (plan section 65:
-            // offline-first with graceful degradation).
-            ttsProvider.speakGerman(article = article, text = fallbackText)
+            // Native recording missing → built-in TTS fallback.
+            ttsProvider.speakGerman(article = article, text = fallbackText, rate = speed)
         }
     }
 

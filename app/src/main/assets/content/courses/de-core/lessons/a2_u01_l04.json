@@ -1,0 +1,378 @@
+{
+  "id": "a2_u01_l04",
+  "unitId": "de-core-a2-u01",
+  "title": {
+    "de": "Falltraining: Vergangenheit mit Perfekt",
+    "ar": "تدريب الحالات: الماضي بصيغة Perfekt",
+    "en": "Casebook: Past tense with Perfekt"
+  },
+  "canDo": [
+    "A2_U01_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u01_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Vergangenheit mit Perfekt\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• haben bei den meisten Verben; sein häufig bei Bewegung/Zustandswechsel\n• Partizip II bei trennbar: eingekauft; bei -ieren kein ge-: studiert\n• Satzklammer: habe … gearbeitet / bin … gefahren",
+        "ar": "الموضوع: الماضي بصيغة Perfekt\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• haben bei den meisten Verben; sein häufig bei Bewegung/Zustandswechsel\n• Partizip II bei trennbar: eingekauft; bei -ieren kein ge-: studiert\n• Satzklammer: habe … gearbeitet / bin … gefahren",
+        "en": "Topic: Past tense with Perfekt\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• haben bei den meisten Verben; sein häufig bei Bewegung/Zustandswechsel\n• Partizip II bei trennbar: eingekauft; bei -ieren kein ge-: studiert\n• Satzklammer: habe … gearbeitet / bin … gefahren"
+      }
+    },
+    {
+      "id": "a2_u01_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u01_l04_w1",
+          "german": "Perfekt",
+          "translation": {
+            "de": "Perfekt",
+            "ar": "صيغة الماضي Perfekt",
+            "en": "present perfect"
+          }
+        },
+        {
+          "id": "a2_u01_l04_w2",
+          "german": "haben",
+          "translation": {
+            "de": "haben",
+            "ar": "فعل مساعد haben",
+            "en": "auxiliary haben"
+          }
+        },
+        {
+          "id": "a2_u01_l04_w3",
+          "german": "sein",
+          "translation": {
+            "de": "sein",
+            "ar": "فعل مساعد sein",
+            "en": "auxiliary sein"
+          }
+        },
+        {
+          "id": "a2_u01_l04_w4",
+          "german": "Partizip II",
+          "translation": {
+            "de": "Partizip II",
+            "ar": "اسم المفعول",
+            "en": "past participle"
+          }
+        },
+        {
+          "id": "a2_u01_l04_w5",
+          "german": "gestern",
+          "translation": {
+            "de": "gestern",
+            "ar": "أمس",
+            "en": "yesterday"
+          }
+        },
+        {
+          "id": "a2_u01_l04_w6",
+          "german": "schon",
+          "translation": {
+            "de": "schon",
+            "ar": "بالفعل",
+            "en": "already"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u01_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} gestern gearbeitet.",
+        "ar": "Ich {answer} gestern gearbeitet.",
+        "en": "Ich {answer} gestern gearbeitet."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a2_u01_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir {answer} nach Berlin gefahren.",
+        "ar": "Wir {answer} nach Berlin gefahren.",
+        "en": "Wir {answer} nach Berlin gefahren."
+      },
+      "acceptedAnswers": [
+        "sind"
+      ]
+    },
+    {
+      "id": "a2_u01_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er hat die E-Mail {answer}.",
+        "ar": "Er hat die E-Mail {answer}.",
+        "en": "Er hat die E-Mail {answer}."
+      },
+      "acceptedAnswers": [
+        "geschrieben"
+      ]
+    },
+    {
+      "id": "a2_u01_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bist du schon {answer}?",
+        "ar": "Bist du schon {answer}?",
+        "en": "Bist du schon {answer}?"
+      },
+      "acceptedAnswers": [
+        "angekommen"
+      ]
+    },
+    {
+      "id": "a2_u01_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie hat lange {answer}.",
+        "ar": "Sie hat lange {answer}.",
+        "en": "Sie hat lange {answer}."
+      },
+      "acceptedAnswers": [
+        "gewartet"
+      ]
+    },
+    {
+      "id": "a2_u01_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe das noch nicht {answer}.",
+        "ar": "Ich habe das noch nicht {answer}.",
+        "en": "Ich habe das noch nicht {answer}."
+      },
+      "acceptedAnswers": [
+        "gemacht"
+      ]
+    },
+    {
+      "id": "a2_u01_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "Perfekt",
+        "ar": "Perfekt",
+        "en": "Perfekt"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Perfekt",
+            "ar": "صيغة الماضي Perfekt",
+            "en": "present perfect"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "haben",
+            "ar": "فعل مساعد haben",
+            "en": "auxiliary haben"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sein",
+            "ar": "فعل مساعد sein",
+            "en": "auxiliary sein"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u01_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "haben",
+        "ar": "haben",
+        "en": "haben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "haben",
+            "ar": "فعل مساعد haben",
+            "en": "auxiliary haben"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sein",
+            "ar": "فعل مساعد sein",
+            "en": "auxiliary sein"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Partizip II",
+            "ar": "اسم المفعول",
+            "en": "past participle"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u01_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "sein",
+        "ar": "sein",
+        "en": "sein"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sein",
+            "ar": "فعل مساعد sein",
+            "en": "auxiliary sein"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Partizip II",
+            "ar": "اسم المفعول",
+            "en": "past participle"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "gestern",
+            "ar": "أمس",
+            "en": "yesterday"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u01_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "Partizip II",
+        "ar": "Partizip II",
+        "en": "Partizip II"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Partizip II",
+            "ar": "اسم المفعول",
+            "en": "past participle"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "gestern",
+            "ar": "أمس",
+            "en": "yesterday"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schon",
+            "ar": "بالفعل",
+            "en": "already"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u01_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ Ich bin gearbeitet. → ✅ Ich habe gearbeitet.\n• ❌ Ich habe gefahren. → ✅ Ich bin gefahren.\n• ❌ Ich habe gegehen. → ✅ Ich bin gegangen.\n• ❌ Ich habe nicht gemacht das. → ✅ Ich habe das nicht gemacht.\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ Ich bin gearbeitet. → ✅ Ich habe gearbeitet.\n• ❌ Ich habe gefahren. → ✅ Ich bin gefahren.\n• ❌ Ich habe gegehen. → ✅ Ich bin gegangen.\n• ❌ Ich habe nicht gemacht das. → ✅ Ich habe das nicht gemacht.\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ Ich bin gearbeitet. → ✅ Ich habe gearbeitet.\n• ❌ Ich habe gefahren. → ✅ Ich bin gefahren.\n• ❌ Ich habe gegehen. → ✅ Ich bin gegangen.\n• ❌ Ich habe nicht gemacht das. → ✅ Ich habe das nicht gemacht.\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u01_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• haben bei den meisten Verben; sein häufig bei Bewegung/Zustandswechsel\n• Partizip II bei trennbar: eingekauft; bei -ieren kein ge-: studiert\n• Satzklammer: habe … gearbeitet / bin … gefahren\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• haben bei den meisten Verben; sein häufig bei Bewegung/Zustandswechsel\n• Partizip II bei trennbar: eingekauft; bei -ieren kein ge-: studiert\n• Satzklammer: habe … gearbeitet / bin … gefahren\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• haben bei den meisten Verben; sein häufig bei Bewegung/Zustandswechsel\n• Partizip II bei trennbar: eingekauft; bei -ieren kein ge-: studiert\n• Satzklammer: habe … gearbeitet / bin … gefahren\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u01_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Erzähle denselben gestrigen Tag dreimal: einmal kurz, einmal detailliert und einmal als Dialog mit Rückfragen. Verwende mindestens acht Perfektformen.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Erzähle denselben gestrigen Tag dreimal: einmal kurz, einmal detailliert und einmal als Dialog mit Rückfragen. Verwende mindestens acht Perfektformen.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Erzähle denselben gestrigen Tag dreimal: einmal kurz, einmal detailliert und einmal als Dialog mit Rückfragen. Verwende mindestens acht Perfektformen.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u01_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U01_CASEBOOK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "a1_u11_l01",
+  "unitId": "de-core-a1-u11",
+  "title": {
+    "de": "haben, brauchen und „weh tun“",
+    "ar": "استخدام haben وbrauchen وweh tun",
+    "en": "haben, brauchen and weh tun"
+  },
+  "canDo": [
+    "A1_U11_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u11_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "haben, brauchen und „weh tun“",
+        "ar": "استخدام haben وbrauchen وweh tun",
+        "en": "haben, brauchen and weh tun"
+      },
+      "body": {
+        "de": "Lernziel: haben, brauchen und „weh tun“\n\nKernregel:\nBeschwerden werden oft mit „haben“ oder „weh tun“ ausgedrückt: Ich habe Kopfschmerzen. Mein Rücken tut weh. Bei Körperteilen steht häufig der bestimmte Artikel. Für einen Bedarf: Ich brauche einen Termin / ein Medikament.\n\nMusterbeispiele:\n• Ich habe seit heute Kopfschmerzen.\n• Mein Hals tut weh.\n• Ich brauche einen Termin beim Arzt.\n\nPraxisbezug:\nApotheke, Hausarzt oder Notfallaufnahme: Beschwerden nennen, Dauer einfach angeben, um Hilfe oder Termin bitten.\n\nTypische Stolperfalle:\n„Ich bin Kopfschmerzen“ ist falsch. Man sagt „Ich habe Kopfschmerzen“. Bei starken oder akuten Beschwerden ersetzt Sprachtraining keine medizinische Hilfe.",
+        "ar": "هدف الدرس: استخدام haben وbrauchen وweh tun\n\nالقاعدة الأساسية:\nتُعبّر الأعراض غالبًا بـ haben أو weh tun: Ich habe Kopfschmerzen. Mein Rücken tut weh. وللحاجة: Ich brauche einen Termin.\n\nأمثلة ألمانية:\n• Ich habe seit heute Kopfschmerzen.\n• Mein Hals tut weh.\n• Ich brauche einen Termin beim Arzt.\n\nالاستخدام في الحياة:\nالصيدلية أو طبيب الأسرة أو الطوارئ: ذكر الأعراض والمدة بشكل بسيط وطلب المساعدة أو الموعد.\n\nخطأ شائع يجب تجنبه:\nIch bin Kopfschmerzen خطأ؛ الصحيح Ich habe Kopfschmerzen. وعند الأعراض الشديدة لا يغني تعلم اللغة عن الرعاية الطبية.",
+        "en": "Lesson goal: haben, brauchen and weh tun\n\nCore rule:\nHealth complaints are often expressed with haben or weh tun: Ich habe Kopfschmerzen. Mein Rücken tut weh. For needs use: Ich brauche einen Termin / ein Medikament.\n\nGerman examples:\n• Ich habe seit heute Kopfschmerzen.\n• Mein Hals tut weh.\n• Ich brauche einen Termin beim Arzt.\n\nReal-life use:\nPharmacy, family doctor or emergency service: name symptoms, state duration simply, ask for help or an appointment.\n\nCommon pitfall:\nIch bin Kopfschmerzen is incorrect; say Ich habe Kopfschmerzen. For severe or acute symptoms, language practice does not replace medical care."
+      }
+    },
+    {
+      "id": "a1_u11_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u11_l01_w1",
+          "german": "der Kopf",
+          "translation": {
+            "de": "head",
+            "ar": "الرأس",
+            "en": "head"
+          }
+        },
+        {
+          "id": "a1_u11_l01_w2",
+          "german": "der Hals",
+          "translation": {
+            "de": "throat/neck",
+            "ar": "الحلق / الرقبة",
+            "en": "throat/neck"
+          }
+        },
+        {
+          "id": "a1_u11_l01_w3",
+          "german": "der Schmerz",
+          "translation": {
+            "de": "pain",
+            "ar": "الألم",
+            "en": "pain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u11_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Beschwerden werden oft mit „haben“ oder „weh tun“ ausgedrückt: Ich habe Kopfschmerzen. Mein Rücken tut weh. Bei Körperteilen steht häufig der bestimmte Artikel. Für einen Bedarf: Ich brauche einen Termin / ein Medikament.\n\nBeispiele:\n• Ich habe seit heute Kopfschmerzen.\n• Mein Hals tut weh.\n• Ich brauche einen Termin beim Arzt.",
+        "ar": "قاعدة مختصرة: تُعبّر الأعراض غالبًا بـ haben أو weh tun: Ich habe Kopfschmerzen. Mein Rücken tut weh. وللحاجة: Ich brauche einen Termin.\n\nالأمثلة:\n• Ich habe seit heute Kopfschmerzen.\n• Mein Hals tut weh.\n• Ich brauche einen Termin beim Arzt.",
+        "en": "Key rule: Health complaints are often expressed with haben or weh tun: Ich habe Kopfschmerzen. Mein Rücken tut weh. For needs use: Ich brauche einen Termin / ein Medikament.\n\nExamples:\n• Ich habe seit heute Kopfschmerzen.\n• Mein Hals tut weh.\n• Ich brauche einen Termin beim Arzt."
+      }
+    },
+    {
+      "id": "a1_u11_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "der Kopf",
+        "ar": "der Kopf",
+        "en": "der Kopf"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "head",
+            "ar": "الرأس",
+            "en": "head"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "throat/neck",
+            "ar": "الحلق / الرقبة",
+            "en": "throat/neck"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "pain",
+            "ar": "الألم",
+            "en": "pain"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u11_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Rücken tut {answer}.",
+        "ar": "Mein Rücken tut {answer}.",
+        "en": "Mein Rücken tut {answer}."
+      },
+      "acceptedAnswers": [
+        "weh"
+      ]
+    },
+    {
+      "id": "a1_u11_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Gesundheit & Apotheke“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «الصحة والصيدلية». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Health & pharmacy”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u11_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U11_FOUNDATION"
+      ]
+    }
+  ]
+}

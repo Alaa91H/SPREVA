@@ -5,6 +5,7 @@ import com.spreva.core.model.LearningEventId
 import com.spreva.core.model.LessonId
 import com.spreva.core.model.LessonStatus
 import java.time.Instant
+import javax.inject.Inject
 
 /**
  * Marks a lesson complete. Card creation for the lesson's vocabulary is
@@ -12,7 +13,7 @@ import java.time.Instant
  * (plan sections 245-247) — the database layer wraps it in a transaction
  * via the repository implementation.
  */
-class CompleteLesson(
+class CompleteLesson @Inject constructor(
     private val learningRepository: LearningRepository,
     private val reviewRepository: ReviewCardProvisioner,
     private val eventLog: LearningEventLog,

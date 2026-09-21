@@ -1,0 +1,378 @@
+{
+  "id": "c1_u14_l04",
+  "unitId": "de-core-c1-u14",
+  "title": {
+    "de": "Falltraining: Technologie, KI & verantwortungsvolle Kommunikation",
+    "ar": "تدريب الحالات: التقنية والذكاء الاصطناعي والتواصل المسؤول",
+    "en": "Casebook: Technology, AI & responsible communication"
+  },
+  "canDo": [
+    "C1_U14_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u14_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Technologie, KI & verantwortungsvolle Kommunikation\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Funktion, Datenfluss, Annahmen, Grenzen und Fehlerquellen getrennt erklären\n• Risiko nach Kontext und Wahrscheinlichkeit kommunizieren\n• Nutzer sollen wissen, was geprüft werden muss",
+        "ar": "الموضوع: التقنية والذكاء الاصطناعي والتواصل المسؤول\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Funktion, Datenfluss, Annahmen, Grenzen und Fehlerquellen getrennt erklären\n• Risiko nach Kontext und Wahrscheinlichkeit kommunizieren\n• Nutzer sollen wissen, was geprüft werden muss",
+        "en": "Topic: Technology, AI & responsible communication\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Funktion, Datenfluss, Annahmen, Grenzen und Fehlerquellen getrennt erklären\n• Risiko nach Kontext und Wahrscheinlichkeit kommunizieren\n• Nutzer sollen wissen, was geprüft werden muss"
+      }
+    },
+    {
+      "id": "c1_u14_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u14_l04_w1",
+          "german": "Datenfluss",
+          "translation": {
+            "de": "Datenfluss",
+            "ar": "تدفق بيانات",
+            "en": "data flow"
+          }
+        },
+        {
+          "id": "c1_u14_l04_w2",
+          "german": "Fehlerquelle",
+          "translation": {
+            "de": "Fehlerquelle",
+            "ar": "مصدر خطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "c1_u14_l04_w3",
+          "german": "Zuverlässigkeit",
+          "translation": {
+            "de": "Zuverlässigkeit",
+            "ar": "موثوقية",
+            "en": "reliability"
+          }
+        },
+        {
+          "id": "c1_u14_l04_w4",
+          "german": "Einsatzkontext",
+          "translation": {
+            "de": "Einsatzkontext",
+            "ar": "سياق الاستخدام",
+            "en": "deployment context"
+          }
+        },
+        {
+          "id": "c1_u14_l04_w5",
+          "german": "Berechtigung",
+          "translation": {
+            "de": "Berechtigung",
+            "ar": "إذن",
+            "en": "permission"
+          }
+        },
+        {
+          "id": "c1_u14_l04_w6",
+          "german": "überprüfen",
+          "translation": {
+            "de": "überprüfen",
+            "ar": "يتحقق",
+            "en": "verify"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u14_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der {answer} muss transparent erklärt werden.",
+        "ar": "Der {answer} muss transparent erklärt werden.",
+        "en": "Der {answer} muss transparent erklärt werden."
+      },
+      "acceptedAnswers": [
+        "Datenfluss"
+      ]
+    },
+    {
+      "id": "c1_u14_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Jede bekannte {answer} sollte dokumentiert sein.",
+        "ar": "Jede bekannte {answer} sollte dokumentiert sein.",
+        "en": "Jede bekannte {answer} sollte dokumentiert sein."
+      },
+      "acceptedAnswers": [
+        "Fehlerquelle"
+      ]
+    },
+    {
+      "id": "c1_u14_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} hängt vom Kontext ab.",
+        "ar": "Die {answer} hängt vom Kontext ab.",
+        "en": "Die {answer} hängt vom Kontext ab."
+      },
+      "acceptedAnswers": [
+        "Zuverlässigkeit"
+      ]
+    },
+    {
+      "id": "c1_u14_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der konkrete {answer} verändert das Risiko.",
+        "ar": "Der konkrete {answer} verändert das Risiko.",
+        "en": "Der konkrete {answer} verändert das Risiko."
+      },
+      "acceptedAnswers": [
+        "Einsatzkontext"
+      ]
+    },
+    {
+      "id": "c1_u14_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Warum braucht die App diese {answer}?",
+        "ar": "Warum braucht die App diese {answer}?",
+        "en": "Warum braucht die App diese {answer}?"
+      },
+      "acceptedAnswers": [
+        "Berechtigung"
+      ]
+    },
+    {
+      "id": "c1_u14_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kritische Ergebnisse sollte man {answer}.",
+        "ar": "Kritische Ergebnisse sollte man {answer}.",
+        "en": "Kritische Ergebnisse sollte man {answer}."
+      },
+      "acceptedAnswers": [
+        "überprüfen"
+      ]
+    },
+    {
+      "id": "c1_u14_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Datenfluss",
+        "ar": "Datenfluss",
+        "en": "Datenfluss"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Datenfluss",
+            "ar": "تدفق بيانات",
+            "en": "data flow"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Fehlerquelle",
+            "ar": "مصدر خطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zuverlässigkeit",
+            "ar": "موثوقية",
+            "en": "reliability"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u14_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Fehlerquelle",
+        "ar": "Fehlerquelle",
+        "en": "Fehlerquelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Fehlerquelle",
+            "ar": "مصدر خطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Zuverlässigkeit",
+            "ar": "موثوقية",
+            "en": "reliability"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Einsatzkontext",
+            "ar": "سياق الاستخدام",
+            "en": "deployment context"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u14_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Zuverlässigkeit",
+        "ar": "Zuverlässigkeit",
+        "en": "Zuverlässigkeit"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Zuverlässigkeit",
+            "ar": "موثوقية",
+            "en": "reliability"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Einsatzkontext",
+            "ar": "سياق الاستخدام",
+            "en": "deployment context"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Berechtigung",
+            "ar": "إذن",
+            "en": "permission"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u14_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Einsatzkontext",
+        "ar": "Einsatzkontext",
+        "en": "Einsatzkontext"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Einsatzkontext",
+            "ar": "سياق الاستخدام",
+            "en": "deployment context"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Berechtigung",
+            "ar": "إذن",
+            "en": "permission"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "überprüfen",
+            "ar": "يتحقق",
+            "en": "verify"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u14_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ plausible Ausgabe = wahre Ausgabe\n• ❌ technische Komplexität als Autoritätsargument\n• ❌ Datenschutz nur abstrakt nennen, keine konkreten Daten/Schritte\n• ❌ Risiko entweder dramatisieren oder völlig verharmlosen.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ plausible Ausgabe = wahre Ausgabe\n• ❌ technische Komplexität als Autoritätsargument\n• ❌ Datenschutz nur abstrakt nennen, keine konkreten Daten/Schritte\n• ❌ Risiko entweder dramatisieren oder völlig verharmlosen.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ plausible Ausgabe = wahre Ausgabe\n• ❌ technische Komplexität als Autoritätsargument\n• ❌ Datenschutz nur abstrakt nennen, keine konkreten Daten/Schritte\n• ❌ Risiko entweder dramatisieren oder völlig verharmlosen.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u14_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Funktion, Datenfluss, Annahmen, Grenzen und Fehlerquellen getrennt erklären\n• Risiko nach Kontext und Wahrscheinlichkeit kommunizieren\n• Nutzer sollen wissen, was geprüft werden muss\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Funktion, Datenfluss, Annahmen, Grenzen und Fehlerquellen getrennt erklären\n• Risiko nach Kontext und Wahrscheinlichkeit kommunizieren\n• Nutzer sollen wissen, was geprüft werden muss\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Funktion, Datenfluss, Annahmen, Grenzen und Fehlerquellen getrennt erklären\n• Risiko nach Kontext und Wahrscheinlichkeit kommunizieren\n• Nutzer sollen wissen, was geprüft werden muss\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u14_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Erkläre ein KI-System für Laien: Aufgabe, Eingaben, Verarbeitung, Ausgabe, Fehlerarten, Datenschutzfragen, menschliche Kontrolle, Grenzen.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Erkläre ein KI-System für Laien: Aufgabe, Eingaben, Verarbeitung, Ausgabe, Fehlerarten, Datenschutzfragen, menschliche Kontrolle, Grenzen.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Erkläre ein KI-System für Laien: Aufgabe, Eingaben, Verarbeitung, Ausgabe, Fehlerarten, Datenschutzfragen, menschliche Kontrolle, Grenzen.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u14_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U14_CASEBOOK"
+      ]
+    }
+  ]
+}

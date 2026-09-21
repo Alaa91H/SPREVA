@@ -1,0 +1,296 @@
+{
+  "id": "b1_u13_l03",
+  "unitId": "de-core-b1-u13",
+  "title": {
+    "de": "Intensivtraining: Umwelt, Gesellschaft & Präsentation",
+    "ar": "تدريب مكثف: البيئة والمجتمع والعرض",
+    "en": "Mastery lab: Environment, society & presentation"
+  },
+  "canDo": [
+    "B1_U13_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u13_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Umwelt, Gesellschaft & Präsentation“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «البيئة والمجتمع والعرض». بعد كل حل اشرح القرار النحوي وحوّل الجملة ثم عبّر عن المعنى في موقف واقعي جديد.",
+        "en": "Deepen “Environment, society & presentation”. After each solution explain the grammatical choice, transform the sentence and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u13_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u13_l03_w1",
+          "german": "die Umwelt",
+          "translation": {
+            "de": "environment",
+            "ar": "البيئة",
+            "en": "environment"
+          }
+        },
+        {
+          "id": "b1_u13_l03_w2",
+          "german": "die Maßnahme",
+          "translation": {
+            "de": "measure",
+            "ar": "الإجراء",
+            "en": "measure"
+          }
+        },
+        {
+          "id": "b1_u13_l03_w3",
+          "german": "nachhaltig",
+          "translation": {
+            "de": "sustainable",
+            "ar": "مستدام",
+            "en": "sustainable"
+          }
+        },
+        {
+          "id": "b1_u13_l03_w4",
+          "german": "die Umsetzung",
+          "translation": {
+            "de": "implementation",
+            "ar": "التنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "b1_u13_l03_w5",
+          "german": "zusammenfassend",
+          "translation": {
+            "de": "in summary",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "b1_u13_l03_w6",
+          "german": "ergänzen",
+          "translation": {
+            "de": "add",
+            "ar": "يضيف",
+            "en": "add"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u13_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} möchte ich die Situation beschreiben.",
+        "ar": "{answer} möchte ich die Situation beschreiben.",
+        "en": "{answer} möchte ich die Situation beschreiben."
+      },
+      "acceptedAnswers": [
+        "Zuerst"
+      ]
+    },
+    {
+      "id": "b1_u13_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zusammenfassend {answer} ich die Maßnahme für sinnvoll.",
+        "ar": "Zusammenfassend {answer} ich die Maßnahme für sinnvoll.",
+        "en": "Zusammenfassend {answer} ich die Maßnahme für sinnvoll."
+      },
+      "acceptedAnswers": [
+        "halte"
+      ]
+    },
+    {
+      "id": "b1_u13_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zuerst möchte ich {answer} aktuelle Situation beschreiben.",
+        "ar": "Zuerst möchte ich {answer} aktuelle Situation beschreiben.",
+        "en": "Zuerst möchte ich {answer} aktuelle Situation beschreiben."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b1_u13_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein Vorteil öffentlicher Verkehrsmittel ist {answer} geringere Umweltbelastung.",
+        "ar": "Ein Vorteil öffentlicher Verkehrsmittel ist {answer} geringere Umweltbelastung.",
+        "en": "Ein Vorteil öffentlicher Verkehrsmittel ist {answer} geringere Umweltbelastung."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b1_u13_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen {answer} sinnvoll.",
+        "ar": "Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen {answer} sinnvoll.",
+        "en": "Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen {answer} sinnvoll."
+      },
+      "acceptedAnswers": [
+        "für"
+      ]
+    },
+    {
+      "id": "b1_u13_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sprachprüfung, Weiterbildung, Team oder Verein: über Mobilität, Recycling, Integration, Wohnen oder digitale Themen drei {answer} fünf Minuten strukturiert sprechen.",
+        "ar": "Sprachprüfung, Weiterbildung, Team oder Verein: über Mobilität, Recycling, Integration, Wohnen oder digitale Themen drei {answer} fünf Minuten strukturiert sprechen.",
+        "en": "Sprachprüfung, Weiterbildung, Team oder Verein: über Mobilität, Recycling, Integration, Wohnen oder digitale Themen drei {answer} fünf Minuten strukturiert sprechen."
+      },
+      "acceptedAnswers": [
+        "bis"
+      ]
+    },
+    {
+      "id": "b1_u13_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "die Umwelt",
+        "ar": "die Umwelt",
+        "en": "die Umwelt"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "environment",
+            "ar": "البيئة",
+            "en": "environment"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "measure",
+            "ar": "الإجراء",
+            "en": "measure"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sustainable",
+            "ar": "مستدام",
+            "en": "sustainable"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u13_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "die Umsetzung",
+        "ar": "die Umsetzung",
+        "en": "die Umsetzung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "implementation",
+            "ar": "التنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "in summary",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "add",
+            "ar": "يضيف",
+            "en": "add"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u13_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Zuerst möchte ich die aktuelle Situation beschreiben.\n2. Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n3. Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.\n4. Sprachprüfung, Weiterbildung, Team oder Verein: über Mobilität, Recycling, Integration, Wohnen oder digitale Themen drei bis fünf Minuten strukturiert sprechen.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp, korrigiere und bilde eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Zuerst möchte ich die aktuelle Situation beschreiben.\n2. Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n3. Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.\n4. Sprachprüfung, Weiterbildung, Team oder Verein: über Mobilität, Recycling, Integration, Wohnen oder digitale Themen drei bis fünf Minuten strukturiert sprechen.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة، سمِّ نوع الخطأ، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Zuerst möchte ich die aktuelle Situation beschreiben.\n2. Ein Vorteil öffentlicher Verkehrsmittel ist die geringere Umweltbelastung.\n3. Zusammenfassend halte ich eine Kombination mehrerer Maßnahmen für sinnvoll.\n4. Sprachprüfung, Weiterbildung, Team oder Verein: über Mobilität, Recycling, Integration, Wohnen oder digitale Themen drei bis fünf Minuten strukturiert sprechen.\n\nCreate one plausible wrong form for each pattern, name the error type, correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u13_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u13_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten mit drei Zielstrukturen, zwei Konnektoren, einer Rückfrage und einer Selbstkorrektur.",
+        "ar": "امزجها مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين بثلاث بنيات مستهدفة ورابطين وسؤال متابعة وتصحيح ذاتي.",
+        "en": "Interleave with two earlier B1 topics. Write 80–120 words or speak for two minutes using three target structures, two connectors, one follow-up question and one self-correction."
+      }
+    },
+    {
+      "id": "b1_u13_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U13_MASTERY"
+      ]
+    }
+  ]
+}

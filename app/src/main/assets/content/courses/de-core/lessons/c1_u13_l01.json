@@ -1,0 +1,154 @@
+{
+  "id": "c1_u13_l01",
+  "unitId": "de-core-c1-u13",
+  "title": {
+    "de": "Hypothesen, Operationalisierung, Korrelation, Kausalität und Limitationen",
+    "ar": "الفرضيات والتشغيل الإجرائي والارتباط والسببية والقيود",
+    "en": "Hypotheses, operationalization, correlation, causality and limitations"
+  },
+  "canDo": [
+    "C1_U13_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u13_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Hypothesen, Operationalisierung, Korrelation, Kausalität und Limitationen",
+        "ar": "الفرضيات والتشغيل الإجرائي والارتباط والسببية والقيود",
+        "en": "Hypotheses, operationalization, correlation, causality and limitations"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Hypothesen, Operationalisierung, Korrelation, Kausalität und Limitationen\n\nSystematische Erklärung:\nWissenschaftliche Sprache trennt Hypothese, Methode, Ergebnis und Interpretation. Korrelation belegt nicht automatisch Kausalität. Operationalisierung beschreibt, wie abstrakte Begriffe messbar gemacht werden. Limitationen können Stichprobe, Messung, Design oder Übertragbarkeit betreffen. Gute C1-Formulierungen übertreiben Befunde nicht: „steht in Zusammenhang mit“ statt unbegründet „verursacht“.\n\nReferenzbeispiele:\n• Die Studie zeigt einen statistischen Zusammenhang, erlaubt jedoch keinen eindeutigen Kausalschluss.\n• Die Übertragbarkeit ist aufgrund der kleinen, nicht repräsentativen Stichprobe begrenzt.\n• Die Variable wurde über einen standardisierten Fragebogen operationalisiert.\n\nAuthentische Einsatzfelder:\nStudie, Fachartikel, Medienbericht über Forschung oder interne Evaluation: Methode prüfen, Aussagekraft einschätzen und Befunde angemessen paraphrasieren.\n\nDiagnostischer Hinweis:\nMethodenkritik muss spezifisch sein. „Die Studie ist schlecht“ ist keine Analyse; benenne Design, Stichprobe, Messung oder Alternativerklärungen und erkläre deren Konsequenz.",
+        "ar": "هدف C1: الفرضيات والتشغيل الإجرائي والارتباط والسببية والقيود\n\nشرح منهجي عميق:\nتفصل اللغة العلمية بين الفرضية والمنهج والنتيجة والتفسير. الارتباط لا يثبت السببية. التشغيل الإجرائي يوضح كيف جُعل المفهوم قابلًا للقياس. قد تتعلق القيود بالعينة أو القياس أو التصميم أو قابلية التعميم.\n\nأمثلة مرجعية:\n• Die Studie zeigt einen statistischen Zusammenhang, erlaubt jedoch keinen eindeutigen Kausalschluss.\n• Die Übertragbarkeit ist aufgrund der kleinen, nicht repräsentativen Stichprobe begrenzt.\n• Die Variable wurde über einen standardisierten Fragebogen operationalisiert.\n\nمجالات استخدام واقعية:\nفي دراسة أو مقال علمي أو تقرير إعلامي عن بحث أو تقييم داخلي: فحص المنهج وتقدير قوة الاستنتاج وإعادة صياغة النتائج بدقة.\n\nملاحظة تشخيصية:\nيجب أن يكون نقد المنهج محددًا. قول «الدراسة سيئة» ليس تحليلًا؛ حدد التصميم أو العينة أو القياس أو التفسيرات البديلة واشرح أثرها.",
+        "en": "C1 competence goal: Hypotheses, operationalization, correlation, causality and limitations\n\nSystematic explanation:\nScientific language separates hypothesis, method, result and interpretation. Correlation does not automatically establish causality. Operationalization explains how abstract concepts are made measurable. Limitations may concern sample, measurement, design or generalizability. Strong C1 wording does not overstate findings.\n\nReference examples:\n• Die Studie zeigt einen statistischen Zusammenhang, erlaubt jedoch keinen eindeutigen Kausalschluss.\n• Die Übertragbarkeit ist aufgrund der kleinen, nicht repräsentativen Stichprobe begrenzt.\n• Die Variable wurde über einen standardisierten Fragebogen operationalisiert.\n\nAuthentic domains:\nStudy, research article, media report on science or internal evaluation: examine method, assess evidential strength and paraphrase findings appropriately.\n\nDiagnostic note:\nMethodological critique must be specific. “The study is bad” is not analysis; identify design, sample, measurement or alternative explanations and explain their consequences."
+      }
+    },
+    {
+      "id": "c1_u13_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u13_l01_w1",
+          "german": "die Hypothese",
+          "translation": {
+            "de": "hypothesis",
+            "ar": "الفرضية",
+            "en": "hypothesis"
+          }
+        },
+        {
+          "id": "c1_u13_l01_w2",
+          "german": "die Stichprobe",
+          "translation": {
+            "de": "sample",
+            "ar": "العينة",
+            "en": "sample"
+          }
+        },
+        {
+          "id": "c1_u13_l01_w3",
+          "german": "operationalisieren",
+          "translation": {
+            "de": "operationalize",
+            "ar": "يحوّل مفهومًا إلى قياس",
+            "en": "operationalize"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u13_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nWissenschaftliche Sprache trennt Hypothese, Methode, Ergebnis und Interpretation. Korrelation belegt nicht automatisch Kausalität. Operationalisierung beschreibt, wie abstrakte Begriffe messbar gemacht werden. Limitationen können Stichprobe, Messung, Design oder Übertragbarkeit betreffen. Gute C1-Formulierungen übertreiben Befunde nicht: „steht in Zusammenhang mit“ statt unbegründet „verursacht“.\n\nBeispiele:\n• Die Studie zeigt einen statistischen Zusammenhang, erlaubt jedoch keinen eindeutigen Kausalschluss.\n• Die Übertragbarkeit ist aufgrund der kleinen, nicht repräsentativen Stichprobe begrenzt.\n• Die Variable wurde über einen standardisierten Fragebogen operationalisiert.",
+        "ar": "المبدأ الأساسي:\nتفصل اللغة العلمية بين الفرضية والمنهج والنتيجة والتفسير. الارتباط لا يثبت السببية. التشغيل الإجرائي يوضح كيف جُعل المفهوم قابلًا للقياس. قد تتعلق القيود بالعينة أو القياس أو التصميم أو قابلية التعميم.\n\nالأمثلة:\n• Die Studie zeigt einen statistischen Zusammenhang, erlaubt jedoch keinen eindeutigen Kausalschluss.\n• Die Übertragbarkeit ist aufgrund der kleinen, nicht repräsentativen Stichprobe begrenzt.\n• Die Variable wurde über einen standardisierten Fragebogen operationalisiert.",
+        "en": "Core principle:\nScientific language separates hypothesis, method, result and interpretation. Correlation does not automatically establish causality. Operationalization explains how abstract concepts are made measurable. Limitations may concern sample, measurement, design or generalizability. Strong C1 wording does not overstate findings.\n\nExamples:\n• Die Studie zeigt einen statistischen Zusammenhang, erlaubt jedoch keinen eindeutigen Kausalschluss.\n• Die Übertragbarkeit ist aufgrund der kleinen, nicht repräsentativen Stichprobe begrenzt.\n• Die Variable wurde über einen standardisierten Fragebogen operationalisiert."
+      }
+    },
+    {
+      "id": "c1_u13_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "die Hypothese",
+        "ar": "die Hypothese",
+        "en": "die Hypothese"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "hypothesis",
+            "ar": "الفرضية",
+            "en": "hypothesis"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sample",
+            "ar": "العينة",
+            "en": "sample"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "operationalize",
+            "ar": "يحوّل مفهومًا إلى قياس",
+            "en": "operationalize"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u13_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Korrelation erlaubt keinen eindeutigen {answer}.",
+        "ar": "Korrelation erlaubt keinen eindeutigen {answer}.",
+        "en": "Korrelation erlaubt keinen eindeutigen {answer}."
+      },
+      "acceptedAnswers": [
+        "Kausalschluss"
+      ]
+    },
+    {
+      "id": "c1_u13_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Wissenschaft, Forschung & Methodenkritik“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «العلم والبحث ونقد المنهج». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Science, research & methodological critique”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u13_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U13_FOUNDATION"
+      ]
+    }
+  ]
+}

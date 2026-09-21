@@ -1,0 +1,378 @@
+{
+  "id": "c1_u09_l04",
+  "unitId": "de-core-c1-u09",
+  "title": {
+    "de": "Falltraining: Verhandeln, Moderieren & Führungskommunikation",
+    "ar": "تدريب الحالات: التفاوض وإدارة النقاش والتواصل القيادي",
+    "en": "Casebook: Negotiation, facilitation & leadership communication"
+  },
+  "canDo": [
+    "C1_U09_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u09_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Verhandeln, Moderieren & Führungskommunikation\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Person, Position, Interesse und Problem trennen\n• Reframing macht Problem bearbeitbar, darf Inhalt nicht verfälschen\n• verbindlicher Abschluss: wer + was + bis wann + Prüfkriterium",
+        "ar": "الموضوع: التفاوض وإدارة النقاش والتواصل القيادي\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Person, Position, Interesse und Problem trennen\n• Reframing macht Problem bearbeitbar, darf Inhalt nicht verfälschen\n• verbindlicher Abschluss: wer + was + bis wann + Prüfkriterium",
+        "en": "Topic: Negotiation, facilitation & leadership communication\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Person, Position, Interesse und Problem trennen\n• Reframing macht Problem bearbeitbar, darf Inhalt nicht verfälschen\n• verbindlicher Abschluss: wer + was + bis wann + Prüfkriterium"
+      }
+    },
+    {
+      "id": "c1_u09_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u09_l04_w1",
+          "german": "reframen",
+          "translation": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "c1_u09_l04_w2",
+          "german": "Interesse",
+          "translation": {
+            "de": "Interesse",
+            "ar": "مصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "c1_u09_l04_w3",
+          "german": "Position",
+          "translation": {
+            "de": "Position",
+            "ar": "موقف",
+            "en": "position"
+          }
+        },
+        {
+          "id": "c1_u09_l04_w4",
+          "german": "verbindlich",
+          "translation": {
+            "de": "verbindlich",
+            "ar": "ملزم",
+            "en": "binding"
+          }
+        },
+        {
+          "id": "c1_u09_l04_w5",
+          "german": "moderieren",
+          "translation": {
+            "de": "moderieren",
+            "ar": "يدير النقاش",
+            "en": "facilitate"
+          }
+        },
+        {
+          "id": "c1_u09_l04_w6",
+          "german": "festhalten",
+          "translation": {
+            "de": "festhalten",
+            "ar": "يثبت/يدون",
+            "en": "record"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u09_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Den Angriff kann man als Sachfrage {answer}.",
+        "ar": "Den Angriff kann man als Sachfrage {answer}.",
+        "en": "Den Angriff kann man als Sachfrage {answer}."
+      },
+      "acceptedAnswers": [
+        "reframen"
+      ]
+    },
+    {
+      "id": "c1_u09_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Welche {answer} steckt hinter der Forderung?",
+        "ar": "Welche {answer} steckt hinter der Forderung?",
+        "en": "Welche {answer} steckt hinter der Forderung?"
+      },
+      "acceptedAnswers": [
+        "Interesse"
+      ]
+    },
+    {
+      "id": "c1_u09_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die geäußerte {answer} ist nur die Oberfläche.",
+        "ar": "Die geäußerte {answer} ist nur die Oberfläche.",
+        "en": "Die geäußerte {answer} ist nur die Oberfläche."
+      },
+      "acceptedAnswers": [
+        "Position"
+      ]
+    },
+    {
+      "id": "c1_u09_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Vereinbarung muss {answer} sein.",
+        "ar": "Die Vereinbarung muss {answer} sein.",
+        "en": "Die Vereinbarung muss {answer} sein."
+      },
+      "acceptedAnswers": [
+        "verbindlich"
+      ]
+    },
+    {
+      "id": "c1_u09_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wer soll das Gespräch {answer}?",
+        "ar": "Wer soll das Gespräch {answer}?",
+        "en": "Wer soll das Gespräch {answer}?"
+      },
+      "acceptedAnswers": [
+        "moderieren"
+      ]
+    },
+    {
+      "id": "c1_u09_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Lassen Sie uns das Ergebnis schriftlich {answer}.",
+        "ar": "Lassen Sie uns das Ergebnis schriftlich {answer}.",
+        "en": "Lassen Sie uns das Ergebnis schriftlich {answer}."
+      },
+      "acceptedAnswers": [
+        "festhalten"
+      ]
+    },
+    {
+      "id": "c1_u09_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "reframen",
+        "ar": "reframen",
+        "en": "reframen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Interesse",
+            "ar": "مصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Position",
+            "ar": "موقف",
+            "en": "position"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u09_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Interesse",
+        "ar": "Interesse",
+        "en": "Interesse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Interesse",
+            "ar": "مصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Position",
+            "ar": "موقف",
+            "en": "position"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "verbindlich",
+            "ar": "ملزم",
+            "en": "binding"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u09_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Position",
+        "ar": "Position",
+        "en": "Position"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Position",
+            "ar": "موقف",
+            "en": "position"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "verbindlich",
+            "ar": "ملزم",
+            "en": "binding"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "moderieren",
+            "ar": "يدير النقاش",
+            "en": "facilitate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u09_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "verbindlich",
+        "ar": "verbindlich",
+        "en": "verbindlich"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "verbindlich",
+            "ar": "ملزم",
+            "en": "binding"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "moderieren",
+            "ar": "يدير النقاش",
+            "en": "facilitate"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "festhalten",
+            "ar": "يثبت/يدون",
+            "en": "record"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u09_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ Deeskalation = zustimmen\n• ❌ Reframing = Kritik entschärfen, bis Problem verschwindet\n• ❌ Vereinbarung ohne Owner/Termin/Ergebnis\n• ❌ Position einer Person mit ihrer Identität vermischen.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ Deeskalation = zustimmen\n• ❌ Reframing = Kritik entschärfen, bis Problem verschwindet\n• ❌ Vereinbarung ohne Owner/Termin/Ergebnis\n• ❌ Position einer Person mit ihrer Identität vermischen.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ Deeskalation = zustimmen\n• ❌ Reframing = Kritik entschärfen, bis Problem verschwindet\n• ❌ Vereinbarung ohne Owner/Termin/Ergebnis\n• ❌ Position einer Person mit ihrer Identität vermischen.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u09_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Person, Position, Interesse und Problem trennen\n• Reframing macht Problem bearbeitbar, darf Inhalt nicht verfälschen\n• verbindlicher Abschluss: wer + was + bis wann + Prüfkriterium\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Person, Position, Interesse und Problem trennen\n• Reframing macht Problem bearbeitbar, darf Inhalt nicht verfälschen\n• verbindlicher Abschluss: wer + was + bis wann + Prüfkriterium\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Person, Position, Interesse und Problem trennen\n• Reframing macht Problem bearbeitbar, darf Inhalt nicht verfälschen\n• verbindlicher Abschluss: wer + was + bis wann + Prüfkriterium\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u09_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Moderation einer Eskalation: paraphrasieren, Interessen klären, Optionen bündeln, Entscheidung testen, Vereinbarung protokollieren.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Moderation einer Eskalation: paraphrasieren, Interessen klären, Optionen bündeln, Entscheidung testen, Vereinbarung protokollieren.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Moderation einer Eskalation: paraphrasieren, Interessen klären, Optionen bündeln, Entscheidung testen, Vereinbarung protokollieren.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u09_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U09_CASEBOOK"
+      ]
+    }
+  ]
+}

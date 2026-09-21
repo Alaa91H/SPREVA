@@ -1,0 +1,296 @@
+{
+  "id": "b1_u14_l03",
+  "unitId": "de-core-b1-u14",
+  "title": {
+    "de": "Integrations-Mastery",
+    "ar": "إتقان التكامل",
+    "en": "Integration mastery"
+  },
+  "canDo": [
+    "B1_U14_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u14_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Mastery",
+        "ar": "إتقان التكامل",
+        "en": "Integration mastery"
+      },
+      "body": {
+        "de": "Mastery-Ziel: Simuliere einen komplexeren Arzt-/Versicherungsfall mit Dauer, Verlauf, Nachweis und höflichen Rückfragen. Löse zuerst ohne Hilfe, erkläre danach die Regel und bilde eine zweite korrekte Variante.",
+        "ar": "هدف الإتقان: Simuliere einen komplexeren Arzt-/Versicherungsfall mit Dauer, Verlauf, Nachweis und höflichen Rückfragen. حل أولًا دون مساعدة، ثم اشرح القاعدة وأنشئ صيغة صحيحة ثانية.",
+        "en": "Mastery goal: Simuliere einen komplexeren Arzt-/Versicherungsfall mit Dauer, Verlauf, Nachweis und höflichen Rückfragen. Solve unaided first, then explain the rule and create a second correct variant."
+      }
+    },
+    {
+      "id": "b1_u14_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u14_l03_w1",
+          "german": "Vorgang",
+          "translation": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b1_u14_l03_w2",
+          "german": "zuständig",
+          "translation": {
+            "de": "zuständig",
+            "ar": "مختص",
+            "en": "responsible"
+          }
+        },
+        {
+          "id": "b1_u14_l03_w3",
+          "german": "Vorschlag",
+          "translation": {
+            "de": "Vorschlag",
+            "ar": "اقتراح",
+            "en": "proposal"
+          }
+        },
+        {
+          "id": "b1_u14_l03_w4",
+          "german": "Überweisung",
+          "translation": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "b1_u14_l03_w5",
+          "german": "begründen",
+          "translation": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "b1_u14_l03_w6",
+          "german": "zusammenfassend",
+          "translation": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u14_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich schlage vor, {answer} wir den Termin verschieben.",
+        "ar": "Ich schlage vor, {answer} wir den Termin verschieben.",
+        "en": "Ich schlage vor, {answer} wir den Termin verschieben."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "b1_u14_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} dem Vorschlag zu.",
+        "ar": "Ich {answer} dem Vorschlag zu.",
+        "en": "Ich {answer} dem Vorschlag zu."
+      },
+      "acceptedAnswers": [
+        "stimme"
+      ]
+    },
+    {
+      "id": "b1_u14_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Antrag wurde am Montag {answer}.",
+        "ar": "Mein Antrag wurde am Montag {answer}.",
+        "en": "Mein Antrag wurde am Montag {answer}."
+      },
+      "acceptedAnswers": [
+        "eingereicht"
+      ]
+    },
+    {
+      "id": "b1_u14_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bitte teilen Sie mir {answer}, wann ich mit einer Antwort rechnen kann.",
+        "ar": "Bitte teilen Sie mir {answer}, wann ich mit einer Antwort rechnen kann.",
+        "en": "Bitte teilen Sie mir {answer}, wann ich mit einer Antwort rechnen kann."
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "b1_u14_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe {answer} drei Tagen Schmerzen.",
+        "ar": "Ich habe {answer} drei Tagen Schmerzen.",
+        "en": "Ich habe {answer} drei Tagen Schmerzen."
+      },
+      "acceptedAnswers": [
+        "seit"
+      ]
+    },
+    {
+      "id": "b1_u14_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich das Medikament nehme, bin ich müde.",
+        "ar": "{answer} ich das Medikament nehme, bin ich müde.",
+        "en": "{answer} ich das Medikament nehme, bin ich müde."
+      },
+      "acceptedAnswers": [
+        "Seitdem"
+      ]
+    },
+    {
+      "id": "b1_u14_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Überweisung",
+        "ar": "Überweisung",
+        "en": "Überweisung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "begründen",
+        "ar": "begründen",
+        "en": "begründen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerprotokoll",
+        "ar": "سجل الأخطاء",
+        "en": "Error log"
+      },
+      "body": {
+        "de": "Notiere für jede falsche Antwort: meine Form → korrekte Form → Regel → neues eigenes Beispiel. Wiederhole nur die Fehler nach einer Pause.",
+        "ar": "لكل إجابة خاطئة اكتب: صيغتي ← الصيغة الصحيحة ← القاعدة ← مثال جديد. أعد الأخطاء فقط بعد فاصل.",
+        "en": "For every wrong answer record: my form → correct form → rule → new example. Repeat only the errors after a delay."
+      }
+    },
+    {
+      "id": "b1_u14_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving",
+        "ar": "تداخل القواعد",
+        "en": "Interleaving"
+      },
+      "body": {
+        "de": "Mische die sechs Zielstrukturen neu und löse sie in zufälliger Reihenfolge. Nenne vor jeder Antwort die vermutete Regel.",
+        "ar": "امزج البنيات الست وأجب بترتيب عشوائي. قبل كل إجابة سمِّ القاعدة التي تعتقد أنها مطلوبة.",
+        "en": "Shuffle the six target structures and solve them in random order. Name the expected rule before answering."
+      }
+    },
+    {
+      "id": "b1_u14_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Freie Produktion",
+        "ar": "إنتاج حر",
+        "en": "Free production"
+      },
+      "body": {
+        "de": "Simuliere einen komplexeren Arzt-/Versicherungsfall mit Dauer, Verlauf, Nachweis und höflichen Rückfragen.",
+        "ar": "Simuliere einen komplexeren Arzt-/Versicherungsfall mit Dauer, Verlauf, Nachweis und höflichen Rückfragen.",
+        "en": "Simuliere einen komplexeren Arzt-/Versicherungsfall mit Dauer, Verlauf, Nachweis und höflichen Rückfragen."
+      }
+    },
+    {
+      "id": "b1_u14_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Integrations-Mastery",
+        "ar": "إتقان تكامل B1",
+        "en": "B1 integration mastery"
+      },
+      "canDo": [
+        "B1_U14_MASTERY"
+      ]
+    }
+  ]
+}

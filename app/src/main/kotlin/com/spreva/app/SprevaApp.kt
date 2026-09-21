@@ -28,6 +28,7 @@ import androidx.navigation3.ui.NavDisplay
 import com.spreva.app.navigation.CourseKey
 import com.spreva.app.navigation.LessonKey
 import com.spreva.app.navigation.ReviewSessionKey
+import com.spreva.app.navigation.PlacementKey
 import com.spreva.app.navigation.WelcomeKey
 import com.spreva.core.designsystem.theme.SprevaTheme
 import com.spreva.core.model.UserSettings
@@ -85,6 +86,7 @@ fun SprevaApp(
                         entryProvider = sprevaEntryProvider(
                             onOpenLearn = { backStack.add(LearnKey) },
                             onOpenReview = { backStack.add(ReviewSessionKey) },
+                            onOpenPlacement = { backStack.add(PlacementKey) },
                             onOpenCourse = { levelId -> backStack.add(CourseKey(levelId)) },
                             onOpenLesson = { lessonId -> backStack.add(LessonKey(lessonId)) },
                             onBack = { backStack.removeLastOrNull() },

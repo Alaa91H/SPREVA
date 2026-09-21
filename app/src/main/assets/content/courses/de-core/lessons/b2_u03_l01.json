@@ -1,0 +1,154 @@
+{
+  "id": "b2_u03_l01",
+  "unitId": "de-core-b2-u03",
+  "title": {
+    "de": "Nominalisierung von Verben/Adjektiven und Präpositionalgefüge",
+    "ar": "تحويل الأفعال/الصفات إلى أسماء والتراكيب الاسمية",
+    "en": "Nominalization of verbs/adjectives and prepositional structures"
+  },
+  "canDo": [
+    "B2_U03_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u03_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Nominalisierung von Verben/Adjektiven und Präpositionalgefüge",
+        "ar": "تحويل الأفعال/الصفات إلى أسماء والتراكيب الاسمية",
+        "en": "Nominalization of verbs/adjectives and prepositional structures"
+      },
+      "body": {
+        "de": "Kompetenzziel: Nominalisierung von Verben/Adjektiven und Präpositionalgefüge\n\nSprachsystem:\nFormelle Texte verdichten Handlungen oft als Nomen: weil die Kosten steigen → aufgrund des Kostenanstiegs; nachdem man geprüft hat → nach der Prüfung. Nominalstil spart Wiederholung und wirkt sachlich, kann aber schwer lesbar werden. Gute B2-Texte wechseln bewusst zwischen verbalem und nominalem Stil.\n\nReferenzbeispiele:\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen.\n\nAnwendungsdomäne:\nBescheid, Bericht, Protokoll, Bewerbung oder Fachtext: nominale Strukturen entschlüsseln und gezielt verwenden, ohne unnötig kompliziert zu schreiben.\n\nQualitätskontrolle:\nNominalstil ist kein Qualitätsmerkmal an sich. Zu viele lange Nominalketten machen Texte unklar. Nutze ihn dort, wo Sachlichkeit oder Verdichtung wirklich hilft.",
+        "ar": "هدف الكفاءة: تحويل الأفعال/الصفات إلى أسماء والتراكيب الاسمية\n\nالنظام اللغوي:\nتُحوّل النصوص الرسمية الأفعال إلى أسماء: weil die Kosten steigen → aufgrund des Kostenanstiegs؛ nachdem man geprüft hat → nach der Prüfung. الأسلوب الاسمي مكثف وموضوعي لكنه قد يصعب القراءة.\n\nأمثلة مرجعية:\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen.\n\nمجال التطبيق:\nقرار رسمي أو تقرير أو محضر أو طلب عمل أو نص متخصص: فك التراكيب الاسمية واستخدامها دون تعقيد زائد.\n\nمراجعة الجودة:\nالأسلوب الاسمي ليس أفضل دائمًا. كثرة السلاسل الاسمية الطويلة تجعل النص غامضًا؛ استخدمه حين يخدم التكثيف والموضوعية.",
+        "en": "Competence goal: Nominalization of verbs/adjectives and prepositional structures\n\nLanguage system:\nFormal texts often compress actions into nouns: weil die Kosten steigen → aufgrund des Kostenanstiegs; nachdem man geprüft hat → nach der Prüfung. Nominal style is dense and factual but can reduce readability. Strong B2 writing alternates deliberately between verbal and nominal style.\n\nReference examples:\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen.\n\nApplication domain:\nOfficial decision, report, minutes, application or specialist text: decode nominal structures and use them selectively without unnecessary complexity.\n\nQuality control:\nNominal style is not inherently superior. Too many long noun chains reduce clarity; use it where density or formality genuinely helps."
+      }
+    },
+    {
+      "id": "b2_u03_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u03_l01_w1",
+          "german": "aufgrund",
+          "translation": {
+            "de": "due to",
+            "ar": "بسبب",
+            "en": "due to"
+          }
+        },
+        {
+          "id": "b2_u03_l01_w2",
+          "german": "der Abschluss",
+          "translation": {
+            "de": "completion",
+            "ar": "الانتهاء",
+            "en": "completion"
+          }
+        },
+        {
+          "id": "b2_u03_l01_w3",
+          "german": "die Einführung",
+          "translation": {
+            "de": "introduction",
+            "ar": "الإدخال/التطبيق",
+            "en": "introduction"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u03_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFormelle Texte verdichten Handlungen oft als Nomen: weil die Kosten steigen → aufgrund des Kostenanstiegs; nachdem man geprüft hat → nach der Prüfung. Nominalstil spart Wiederholung und wirkt sachlich, kann aber schwer lesbar werden. Gute B2-Texte wechseln bewusst zwischen verbalem und nominalem Stil.\n\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen.",
+        "ar": "المبدأ الأساسي:\nتُحوّل النصوص الرسمية الأفعال إلى أسماء: weil die Kosten steigen → aufgrund des Kostenanstiegs؛ nachdem man geprüft hat → nach der Prüfung. الأسلوب الاسمي مكثف وموضوعي لكنه قد يصعب القراءة.\n\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen.",
+        "en": "Core principle:\nFormal texts often compress actions into nouns: weil die Kosten steigen → aufgrund des Kostenanstiegs; nachdem man geprüft hat → nach der Prüfung. Nominal style is dense and factual but can reduce readability. Strong B2 writing alternates deliberately between verbal and nominal style.\n\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen."
+      }
+    },
+    {
+      "id": "b2_u03_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "aufgrund",
+        "ar": "aufgrund",
+        "en": "aufgrund"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "due to",
+            "ar": "بسبب",
+            "en": "due to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "completion",
+            "ar": "الانتهاء",
+            "en": "completion"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "introduction",
+            "ar": "الإدخال/التطبيق",
+            "en": "introduction"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u03_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Aufgrund {answer} Verzögerung wurde der Termin verschoben.",
+        "ar": "Aufgrund {answer} Verzögerung wurde der Termin verschoben.",
+        "en": "Aufgrund {answer} Verzögerung wurde der Termin verschoben."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u03_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Nominalstil & formelle Texte“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الأسلوب الاسمي والنصوص الرسمية». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Nominal style & formal texts”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u03_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U03_FOUNDATION"
+      ]
+    }
+  ]
+}

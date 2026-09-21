@@ -1,0 +1,378 @@
+{
+  "id": "a1_u06_l04",
+  "unitId": "de-core-a1-u06",
+  "title": {
+    "de": "Falltraining: Essen, Trinken & Restaurant",
+    "ar": "تدريب الحالات: الطعام والشراب والمطعم",
+    "en": "Casebook: Food, drink & restaurants"
+  },
+  "canDo": [
+    "A1_U06_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a1_u06_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Casebook — ähnliche Fälle sicher unterscheiden",
+        "ar": "دفتر الحالات — التمييز الآمن بين الحالات المتشابهة",
+        "en": "Casebook — distinguish similar cases"
+      },
+      "body": {
+        "de": "Thema: Essen, Trinken & Restaurant\n\nZiel: Nicht nur einen Mustersatz kennen, sondern ähnliche Formen gegeneinander abgrenzen. Arbeite jeden Fall dreifach: korrekt ergänzen → Regel laut erklären → neue Variante bilden.\n\nKontrastpunkte:\n• möchte = höflicher Wunsch; nehme = Auswahl/Entscheidung\n• Akkusativ nach bestellen/nehmen/möchten\n• ohne + Akkusativ, oft ohne Artikel bei Stoffen/Zutaten",
+        "ar": "الموضوع: الطعام والشراب والمطعم\n\nالهدف: عدم الاكتفاء بجملة نموذجية واحدة، بل التمييز بين الصيغ المتشابهة. اعمل على كل حالة بثلاث خطوات: أكملها بشكل صحيح ← اشرح القاعدة ← أنشئ مثالًا جديدًا.\n\nنقاط المقارنة:\n• möchte = höflicher Wunsch; nehme = Auswahl/Entscheidung\n• Akkusativ nach bestellen/nehmen/möchten\n• ohne + Akkusativ, oft ohne Artikel bei Stoffen/Zutaten",
+        "en": "Topic: Food, drink & restaurants\n\nGoal: go beyond one model sentence and discriminate similar forms. Work each case in three steps: complete correctly → explain the rule aloud → create a new variant.\n\nContrast points:\n• möchte = höflicher Wunsch; nehme = Auswahl/Entscheidung\n• Akkusativ nach bestellen/nehmen/möchten\n• ohne + Akkusativ, oft ohne Artikel bei Stoffen/Zutaten"
+      }
+    },
+    {
+      "id": "a1_u06_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u06_l04_w1",
+          "german": "bestellen",
+          "translation": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "a1_u06_l04_w2",
+          "german": "möchten",
+          "translation": {
+            "de": "möchten",
+            "ar": "يرغب",
+            "en": "would like"
+          }
+        },
+        {
+          "id": "a1_u06_l04_w3",
+          "german": "nehmen",
+          "translation": {
+            "de": "nehmen",
+            "ar": "يأخذ/يختار",
+            "en": "take/choose"
+          }
+        },
+        {
+          "id": "a1_u06_l04_w4",
+          "german": "die Rechnung",
+          "translation": {
+            "de": "die Rechnung",
+            "ar": "الحساب",
+            "en": "bill"
+          }
+        },
+        {
+          "id": "a1_u06_l04_w5",
+          "german": "zahlen",
+          "translation": {
+            "de": "zahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "a1_u06_l04_w6",
+          "german": "ohne",
+          "translation": {
+            "de": "ohne",
+            "ar": "بدون",
+            "en": "without"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u06_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} einen Tee.",
+        "ar": "Ich {answer} einen Tee.",
+        "en": "Ich {answer} einen Tee."
+      },
+      "acceptedAnswers": [
+        "möchte"
+      ]
+    },
+    {
+      "id": "a1_u06_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} die Suppe.",
+        "ar": "Ich {answer} die Suppe.",
+        "en": "Ich {answer} die Suppe."
+      },
+      "acceptedAnswers": [
+        "nehme"
+      ]
+    },
+    {
+      "id": "a1_u06_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Pizza bitte {answer} Zwiebeln.",
+        "ar": "Die Pizza bitte {answer} Zwiebeln.",
+        "en": "Die Pizza bitte {answer} Zwiebeln."
+      },
+      "acceptedAnswers": [
+        "ohne"
+      ]
+    },
+    {
+      "id": "a1_u06_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können wir bitte {answer}?",
+        "ar": "Können wir bitte {answer}?",
+        "en": "Können wir bitte {answer}?"
+      },
+      "acceptedAnswers": [
+        "zahlen"
+      ]
+    },
+    {
+      "id": "a1_u06_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer}, bitte.",
+        "ar": "Die {answer}, bitte.",
+        "en": "Die {answer}, bitte."
+      },
+      "acceptedAnswers": [
+        "Rechnung"
+      ]
+    },
+    {
+      "id": "a1_u06_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was {answer} Sie trinken?",
+        "ar": "Was {answer} Sie trinken?",
+        "en": "Was {answer} Sie trinken?"
+      },
+      "acceptedAnswers": [
+        "möchten"
+      ]
+    },
+    {
+      "id": "a1_u06_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "bestellen",
+        "ar": "bestellen",
+        "en": "bestellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "order",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "would like",
+            "ar": "يرغب",
+            "en": "would like"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "take/choose",
+            "ar": "يأخذ/يختار",
+            "en": "take/choose"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u06_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "möchten",
+        "ar": "möchten",
+        "en": "möchten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "would like",
+            "ar": "يرغب",
+            "en": "would like"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "take/choose",
+            "ar": "يأخذ/يختار",
+            "en": "take/choose"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "bill",
+            "ar": "الحساب",
+            "en": "bill"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u06_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "nehmen",
+        "ar": "nehmen",
+        "en": "nehmen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "take/choose",
+            "ar": "يأخذ/يختار",
+            "en": "take/choose"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bill",
+            "ar": "الحساب",
+            "en": "bill"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "pay",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u06_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die passende Bedeutung im Kontext.",
+        "ar": "اختر المعنى الأنسب في السياق.",
+        "en": "Choose the meaning that fits the context."
+      },
+      "question": {
+        "de": "die Rechnung",
+        "ar": "die Rechnung",
+        "en": "die Rechnung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bill",
+            "ar": "الحساب",
+            "en": "bill"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "pay",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "without",
+            "ar": "بدون",
+            "en": "without"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u06_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlergalerie — falsch → warum → richtig",
+        "ar": "معرض الأخطاء — خطأ ← لماذا ← صحيح",
+        "en": "Error gallery — wrong → why → right"
+      },
+      "body": {
+        "de": "Analysiere jeden Fehler, bevor du die Korrektur liest:\n• ❌ Ich möchte ein Kaffee. → ✅ einen Kaffee\n• ❌ Ich nehme eine Wasser. → ✅ ein Wasser\n• ❌ Rechnung bitte zahlen wir? → ✅ Können wir bitte zahlen?\n• ❌ ohne die Zwiebeln (allgemein) → meist ✅ ohne Zwiebeln\n\nDanach: verdecke die Korrektur, korrigiere aus dem Gedächtnis und bilde mit derselben Regel einen neuen Satz.",
+        "ar": "حلّل سبب كل خطأ قبل قراءة التصحيح:\n• ❌ Ich möchte ein Kaffee. → ✅ einen Kaffee\n• ❌ Ich nehme eine Wasser. → ✅ ein Wasser\n• ❌ Rechnung bitte zahlen wir? → ✅ Können wir bitte zahlen?\n• ❌ ohne die Zwiebeln (allgemein) → meist ✅ ohne Zwiebeln\n\nبعد ذلك أخفِ التصحيح، صحح من الذاكرة وأنشئ جملة جديدة بنفس القاعدة.",
+        "en": "Analyze why each error is wrong before reading the correction:\n• ❌ Ich möchte ein Kaffee. → ✅ einen Kaffee\n• ❌ Ich nehme eine Wasser. → ✅ ein Wasser\n• ❌ Rechnung bitte zahlen wir? → ✅ Können wir bitte zahlen?\n• ❌ ohne die Zwiebeln (allgemein) → meist ✅ ohne Zwiebeln\n\nThen hide the correction, fix it from memory and create a new sentence with the same rule."
+      }
+    },
+    {
+      "id": "a1_u06_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdrill — eine Bedeutung, mehrere Formen",
+        "ar": "تدريب المقارنة — معنى واحد وصيغ متعددة",
+        "en": "Contrast drill — one meaning, multiple forms"
+      },
+      "body": {
+        "de": "Arbeite die Unterschiede aktiv heraus:\n• möchte = höflicher Wunsch; nehme = Auswahl/Entscheidung\n• Akkusativ nach bestellen/nehmen/möchten\n• ohne + Akkusativ, oft ohne Artikel bei Stoffen/Zutaten\n\nFür jeden Punkt: bilde ein Minimalpaar, ändere genau ein Element und erkläre, warum sich Form oder Bedeutung ändert.",
+        "ar": "استخرج الفروق بنشاط:\n• möchte = höflicher Wunsch; nehme = Auswahl/Entscheidung\n• Akkusativ nach bestellen/nehmen/möchten\n• ohne + Akkusativ, oft ohne Artikel bei Stoffen/Zutaten\n\nلكل نقطة أنشئ زوجًا متقاربًا، غيّر عنصرًا واحدًا فقط، واشرح لماذا تغير الشكل أو المعنى.",
+        "en": "Actively work out the contrasts:\n• möchte = höflicher Wunsch; nehme = Auswahl/Entscheidung\n• Akkusativ nach bestellen/nehmen/möchten\n• ohne + Akkusativ, oft ohne Artikel bei Stoffen/Zutaten\n\nFor each point create a minimal pair, change exactly one element and explain why form or meaning changes."
+      }
+    },
+    {
+      "id": "a1_u06_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Circuit — vier Wiederholungen",
+        "ar": "دائرة الحياة الواقعية — أربع جولات",
+        "en": "Real-life circuit — four repetitions"
+      },
+      "body": {
+        "de": "Spiele Gast und Servicekraft: Getränk + Hauptgericht + Sonderwunsch + Rückfrage + Rechnung + Zahlungsart.\n\nWiederholung 1: mit Vorlage. Wiederholung 2: ohne Vorlage. Wiederholung 3: Rollen tauschen oder Daten ändern. Wiederholung 4: nach einer Pause erneut durchführen und alle Selbstkorrekturen markieren.",
+        "ar": "Spiele Gast und Servicekraft: Getränk + Hauptgericht + Sonderwunsch + Rückfrage + Rechnung + Zahlungsart.\n\nالجولة 1: مع النموذج. الجولة 2: دون نموذج. الجولة 3: بدّل الأدوار أو البيانات. الجولة 4: بعد فاصل زمني أعد المهمة وحدد كل تصحيح ذاتي.",
+        "en": "Spiele Gast und Servicekraft: Getränk + Hauptgericht + Sonderwunsch + Rückfrage + Rechnung + Zahlungsart.\n\nRound 1: with the model. Round 2: without it. Round 3: swap roles or details. Round 4: repeat after a delay and mark every self-correction."
+      }
+    },
+    {
+      "id": "a1_u06_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A1",
+        "en": "A1 casebook complete"
+      },
+      "canDo": [
+        "A1_U06_CASEBOOK"
+      ]
+    }
+  ]
+}

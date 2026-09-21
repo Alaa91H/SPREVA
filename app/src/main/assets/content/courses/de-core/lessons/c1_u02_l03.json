@@ -1,0 +1,296 @@
+{
+  "id": "c1_u02_l03",
+  "unitId": "de-core-c1-u02",
+  "title": {
+    "de": "Intensivtraining: Komplexe Subordination & Bedeutungsnuancen",
+    "ar": "تدريب مكثف: الجمل التابعة المعقدة والفروق الدلالية",
+    "en": "Mastery lab: Complex subordination & semantic nuance"
+  },
+  "canDo": [
+    "C1_U02_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u02_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Komplexe Subordination & Bedeutungsnuancen“. Ziel ist kontrollierte Wahl: dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte umformen, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «الجمل التابعة المعقدة والفروق الدلالية». الهدف هو الاختيار المتحكم: أعد صياغة الفكرة نفسها بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Complex subordination & semantic nuance”. The goal is controlled choice: reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u02_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u02_l03_w1",
+          "german": "insofern",
+          "translation": {
+            "de": "insofar",
+            "ar": "من هذه الناحية/بقدر ما",
+            "en": "insofar"
+          }
+        },
+        {
+          "id": "c1_u02_l03_w2",
+          "german": "zumal",
+          "translation": {
+            "de": "especially since",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "c1_u02_l03_w3",
+          "german": "wohingegen",
+          "translation": {
+            "de": "whereas",
+            "ar": "في حين أن",
+            "en": "whereas"
+          }
+        },
+        {
+          "id": "c1_u02_l03_w4",
+          "german": "indem",
+          "translation": {
+            "de": "by doing",
+            "ar": "من خلال",
+            "en": "by doing"
+          }
+        },
+        {
+          "id": "c1_u02_l03_w5",
+          "german": "gewährleisten",
+          "translation": {
+            "de": "ensure",
+            "ar": "يضمن",
+            "en": "ensure"
+          }
+        },
+        {
+          "id": "c1_u02_l03_w6",
+          "german": "verdichten",
+          "translation": {
+            "de": "condense",
+            "ar": "يكثّف",
+            "en": "condense"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u02_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Qualität steigt, {answer} die Prüfung standardisiert wird.",
+        "ar": "Die Qualität steigt, {answer} die Prüfung standardisiert wird.",
+        "en": "Die Qualität steigt, {answer} die Prüfung standardisiert wird."
+      },
+      "acceptedAnswers": [
+        "indem"
+      ]
+    },
+    {
+      "id": "c1_u02_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten sind zu begrenzt, {answer} dass eine sichere Aussage möglich wäre.",
+        "ar": "Die Daten sind zu begrenzt, {answer} dass eine sichere Aussage möglich wäre.",
+        "en": "Die Daten sind zu begrenzt, {answer} dass eine sichere Aussage möglich wäre."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u02_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Fortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „{answer}“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.",
+        "ar": "Fortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „{answer}“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.",
+        "en": "Fortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „{answer}“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich."
+      },
+      "acceptedAnswers": [
+        "insofern"
+      ]
+    },
+    {
+      "id": "c1_u02_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Effizienz lässt sich steigern, {answer} Abläufe automatisiert werden.",
+        "ar": "Die Effizienz lässt sich steigern, {answer} Abläufe automatisiert werden.",
+        "en": "Die Effizienz lässt sich steigern, {answer} Abläufe automatisiert werden."
+      },
+      "acceptedAnswers": [
+        "indem"
+      ]
+    },
+    {
+      "id": "c1_u02_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Vorschlag ist {answer} überzeugend, als er beide Ziele berücksichtigt.",
+        "ar": "Der Vorschlag ist {answer} überzeugend, als er beide Ziele berücksichtigt.",
+        "en": "Der Vorschlag ist {answer} überzeugend, als er beide Ziele berücksichtigt."
+      },
+      "acceptedAnswers": [
+        "insofern"
+      ]
+    },
+    {
+      "id": "c1_u02_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Datenbasis ist zu schmal, {answer} dass sich daraus sichere Schlüsse ziehen ließen.",
+        "ar": "Die Datenbasis ist zu schmal, {answer} dass sich daraus sichere Schlüsse ziehen ließen.",
+        "en": "Die Datenbasis ist zu schmal, {answer} dass sich daraus sichere Schlüsse ziehen ließen."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u02_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "insofern",
+        "ar": "insofern",
+        "en": "insofern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "insofar",
+            "ar": "من هذه الناحية/بقدر ما",
+            "en": "insofar"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "especially since",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "whereas",
+            "ar": "في حين أن",
+            "en": "whereas"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u02_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "indem",
+        "ar": "indem",
+        "en": "indem"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "by doing",
+            "ar": "من خلال",
+            "en": "by doing"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ensure",
+            "ar": "يضمن",
+            "en": "ensure"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "condense",
+            "ar": "يكثّف",
+            "en": "condense"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u02_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Fortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „insofern“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.\n2. Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n3. Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n4. Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre anschließend, welche Bedeutung gleich blieb und welche pragmatische Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Fortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „insofern“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.\n2. Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n3. Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n4. Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.\n\nغيّر بُعدًا واحدًا فقط في كل جملة: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. ثم اشرح ما بقي من المعنى وما تغيّر في الأثر التداولي.",
+        "en": "Base patterns:\n1. Fortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „insofern“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.\n2. Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n3. Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n4. Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what meaning stayed constant and what pragmatic effect changed."
+      }
+    },
+    {
+      "id": "c1_u02_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle je eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Bei jeder Fassung prüfen: Ist der propositionale Kern identisch? Ist die Evidenzstärke korrekt? Bleibt die Quelle sichtbar?",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. في كل صيغة تحقق: هل المعنى الأساسي ثابت؟ هل قوة الدليل ممثلة بدقة؟ هل المصدر واضح؟",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. For each version check: same propositional core? evidence strength accurate? source still visible?"
+      }
+    },
+    {
+      "id": "c1_u02_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "Schreibe 200–260 Wörter oder sprich vier Minuten. Integriere vier Zielstrukturen, eine fair dargestellte Gegenposition, einen Quellen-/Evidenzhinweis und eine präzise Einschränkung. Danach in getrennten Durchgängen prüfen: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "اكتب 200–260 كلمة أو تحدث أربع دقائق. استخدم أربع بنيات مستهدفة، موقفًا مضادًا ممثلًا بإنصاف، إشارة إلى مصدر/دليل وقيدًا دقيقًا. راجع على مراحل: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "Write 200–260 words or speak for four minutes. Integrate four target structures, a fairly represented counterposition, a source/evidence marker and a precise limitation. Revise in passes: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u02_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U02_MASTERY"
+      ]
+    }
+  ]
+}

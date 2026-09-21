@@ -1,0 +1,154 @@
+{
+  "id": "b2_u06_l02",
+  "unitId": "de-core-b2-u06",
+  "title": {
+    "de": "Natürlich und situationsangemessen klingen",
+    "ar": "التحدث بطبيعية وبما يناسب المقام",
+    "en": "Sounding natural and context-appropriate"
+  },
+  "canDo": [
+    "B2_U06_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u06_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Natürlich und situationsangemessen klingen",
+        "ar": "التحدث بطبيعية وبما يناسب المقام",
+        "en": "Sounding natural and context-appropriate"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nKollegen, Freunde, Kunden oder Konfliktsituationen: Tonfall abstimmen, Direktheit reduzieren und implizite Haltung verstehen.\n\nModelldialog:\nA: Du hast die Datei noch nicht geschickt.\nB: Stimmt, ich war wohl zu sehr mit dem Bericht beschäftigt.\nA: Schick sie doch kurz jetzt.\nB: Ja, mache ich sofort.\n\nSprachliche Strategie:\nModalpartikeln verändern weniger den Sachinhalt als Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nالزملاء أو الأصدقاء أو العملاء أو الخلافات: ضبط النبرة وتقليل المباشرة وفهم الموقف الضمني.\n\nحوار نموذجي:\nA: Du hast die Datei noch nicht geschickt.\nB: Stimmt, ich war wohl zu sehr mit dem Bericht beschäftigt.\nA: Schick sie doch kurz jetzt.\nB: Ja, mache ich sofort.\n\nالاستراتيجية اللغوية:\nالجسيمات المقامية لا تغير المحتوى بقدر ما تغير الموقف والنبرة: ja للمعرفة المشتركة، doch للتشجيع/التصحيح، wohl للاحتمال. معناها يعتمد على السياق والنبرة.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nColleagues, friends, customers or conflicts: calibrate tone, reduce directness and understand implicit stance.\n\nModel dialogue:\nA: Du hast die Datei noch nicht geschickt.\nB: Stimmt, ich war wohl zu sehr mit dem Bericht beschäftigt.\nA: Schick sie doch kurz jetzt.\nB: Ja, mache ich sofort.\n\nLanguage strategy:\nModal particles affect stance and relationship more than factual content: ja can mark shared knowledge, doch encouragement/correction, eben acceptance, wohl assumption. Their effect depends on intonation, context and relationship; they are rarer in formal writing.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u06_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u06_l02_w1",
+          "german": "ja",
+          "translation": {
+            "de": "as you know",
+            "ar": "كما نعرف/بالفعل",
+            "en": "as you know"
+          }
+        },
+        {
+          "id": "b2_u06_l02_w2",
+          "german": "mal",
+          "translation": {
+            "de": "once/softener",
+            "ar": "مرة/تلطيف الطلب",
+            "en": "once/softener"
+          }
+        },
+        {
+          "id": "b2_u06_l02_w3",
+          "german": "der Tonfall",
+          "translation": {
+            "de": "tone",
+            "ar": "نبرة الكلام",
+            "en": "tone"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u06_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nModalpartikeln verändern weniger den Sachinhalt als Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.\n\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen.",
+        "ar": "المبدأ الأساسي:\nالجسيمات المقامية لا تغير المحتوى بقدر ما تغير الموقف والنبرة: ja للمعرفة المشتركة، doch للتشجيع/التصحيح، wohl للاحتمال. معناها يعتمد على السياق والنبرة.\n\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen.",
+        "en": "Core principle:\nModal particles affect stance and relationship more than factual content: ja can mark shared knowledge, doch encouragement/correction, eben acceptance, wohl assumption. Their effect depends on intonation, context and relationship; they are rarer in formal writing.\n\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen."
+      }
+    },
+    {
+      "id": "b2_u06_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "ja",
+        "ar": "ja",
+        "en": "ja"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "as you know",
+            "ar": "كما نعرف/بالفعل",
+            "en": "as you know"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "once/softener",
+            "ar": "مرة/تلطيف الطلب",
+            "en": "once/softener"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "tone",
+            "ar": "نبرة الكلام",
+            "en": "tone"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u06_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Komm {answer} kurz vorbei.",
+        "ar": "Komm {answer} kurz vorbei.",
+        "en": "Komm {answer} kurz vorbei."
+      },
+      "acceptedAnswers": [
+        "doch"
+      ]
+    },
+    {
+      "id": "b2_u06_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Register, Modalpartikeln & Pragmatik“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «السجل اللغوي والجسيمات المقامية». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Register, modal particles & pragmatics”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u06_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U06_REAL_LIFE"
+      ]
+    }
+  ]
+}

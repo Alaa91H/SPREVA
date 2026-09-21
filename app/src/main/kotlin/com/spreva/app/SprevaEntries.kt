@@ -6,6 +6,7 @@ import androidx.navigation3.runtime.entryProvider
 import com.spreva.app.navigation.CourseKey
 import com.spreva.app.navigation.LessonKey
 import com.spreva.app.navigation.ReviewSessionKey
+import com.spreva.app.navigation.PlacementKey
 import com.spreva.app.navigation.WelcomeKey
 import com.spreva.core.navigation.HomeKey
 import com.spreva.core.navigation.LearnKey
@@ -22,6 +23,7 @@ import com.spreva.core.navigation.SettingsKey
 internal fun sprevaEntryProvider(
     onOpenLearn: () -> Unit,
     onOpenReview: () -> Unit,
+    onOpenPlacement: () -> Unit,
     onOpenCourse: (String) -> Unit,
     onOpenLesson: (String) -> Unit,
     onBack: () -> Unit,
@@ -44,7 +46,11 @@ internal fun sprevaEntryProvider(
 
     entry<PracticeKey> {
         val holder = hiltViewModel<EntryHolderViewModel>()
-        holder.practiceEntry.content(onOpenReview)
+        holder.practiceEntry.content(
+            onOpenReview,
+            onOpenPlacement,
+            onOpenLesson,
+        )
     }
 
     entry<SettingsKey> {
@@ -65,5 +71,13 @@ internal fun sprevaEntryProvider(
     entry<ReviewSessionKey> {
         val holder = hiltViewModel<EntryHolderViewModel>()
         holder.reviewEntry.content(onBack)
+    }
+
+    entry<PlacementKey> {
+        val holder = hiltViewModel<EntryHolderViewModel>()
+        holder.placementEntry.content(
+            onOpenCourse,
+            onBack,
+        )
     }
 }

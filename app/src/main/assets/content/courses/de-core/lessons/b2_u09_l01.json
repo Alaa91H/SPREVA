@@ -1,0 +1,154 @@
+{
+  "id": "b2_u09_l01",
+  "unitId": "de-core-b2-u09",
+  "title": {
+    "de": "Interessen, Bedingungen, Zugeständnisse und Deeskalation",
+    "ar": "المصالح والشروط والتنازلات وتهدئة التصعيد",
+    "en": "Interests, conditions, concessions and de-escalation"
+  },
+  "canDo": [
+    "B2_U09_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u09_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Interessen, Bedingungen, Zugeständnisse und Deeskalation",
+        "ar": "المصالح والشروط والتنازلات وتهدئة التصعيد",
+        "en": "Interests, conditions, concessions and de-escalation"
+      },
+      "body": {
+        "de": "Kompetenzziel: Interessen, Bedingungen, Zugeständnisse und Deeskalation\n\nSprachsystem:\nProfessionelle Verhandlung trennt Positionen von Interessen: „Ich brauche den Termin am Montag“ ist Position; „weil ich danach nicht verfügbar bin“ zeigt Interesse/Bedarf. Sprachmittel: Unter der Bedingung, dass …; Damit könnte ich leben; Wäre es für Sie denkbar …?; Ich verstehe Ihren Punkt, zugleich …\n\nReferenzbeispiele:\n• Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n• Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n• Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten.\n\nAnwendungsdomäne:\nArbeitszeit, Mietproblem, Dienstleistung, Projekt oder Teamkonflikt: Interessen klären, Optionen anbieten und eine belastbare Vereinbarung formulieren.\n\nQualitätskontrolle:\nKonfliktlösung bedeutet nicht sofort nachzugeben. Erst Interessen und Sachpunkte klären, dann Optionen und klare Bedingungen formulieren.",
+        "ar": "هدف الكفاءة: المصالح والشروط والتنازلات وتهدئة التصعيد\n\nالنظام اللغوي:\nالتفاوض المهني يفرق بين الموقف والمصلحة. من التراكيب: Unter der Bedingung, dass… وWäre es für Sie denkbar… وIch verstehe Ihren Punkt, zugleich…\n\nأمثلة مرجعية:\n• Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n• Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n• Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten.\n\nمجال التطبيق:\nساعات العمل أو مشكلة إيجار أو خدمة أو مشروع أو خلاف فريق: توضيح المصالح وتقديم خيارات وصياغة اتفاق قابل للتنفيذ.\n\nمراجعة الجودة:\nحل النزاع لا يعني التنازل فورًا. وضّح المصالح والوقائع أولًا ثم الخيارات والشروط.",
+        "en": "Competence goal: Interests, conditions, concessions and de-escalation\n\nLanguage system:\nProfessional negotiation separates positions from interests. Useful language includes Unter der Bedingung, dass …; Damit könnte ich leben; Wäre es für Sie denkbar …?; Ich verstehe Ihren Punkt, zugleich …\n\nReference examples:\n• Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n• Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n• Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten.\n\nApplication domain:\nWorking hours, housing issue, service, project or team conflict: clarify interests, offer options and formulate a workable agreement.\n\nQuality control:\nConflict resolution does not mean immediately yielding. Clarify interests and facts first, then formulate options and conditions."
+      }
+    },
+    {
+      "id": "b2_u09_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u09_l01_w1",
+          "german": "das Interesse",
+          "translation": {
+            "de": "interest",
+            "ar": "المصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "b2_u09_l01_w2",
+          "german": "das Zugeständnis",
+          "translation": {
+            "de": "concession",
+            "ar": "التنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "b2_u09_l01_w3",
+          "german": "die Bedingung",
+          "translation": {
+            "de": "condition",
+            "ar": "الشرط",
+            "en": "condition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u09_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nProfessionelle Verhandlung trennt Positionen von Interessen: „Ich brauche den Termin am Montag“ ist Position; „weil ich danach nicht verfügbar bin“ zeigt Interesse/Bedarf. Sprachmittel: Unter der Bedingung, dass …; Damit könnte ich leben; Wäre es für Sie denkbar …?; Ich verstehe Ihren Punkt, zugleich …\n\n• Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n• Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n• Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten.",
+        "ar": "المبدأ الأساسي:\nالتفاوض المهني يفرق بين الموقف والمصلحة. من التراكيب: Unter der Bedingung, dass… وWäre es für Sie denkbar… وIch verstehe Ihren Punkt, zugleich…\n\n• Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n• Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n• Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten.",
+        "en": "Core principle:\nProfessional negotiation separates positions from interests. Useful language includes Unter der Bedingung, dass …; Damit könnte ich leben; Wäre es für Sie denkbar …?; Ich verstehe Ihren Punkt, zugleich …\n\n• Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n• Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n• Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten."
+      }
+    },
+    {
+      "id": "b2_u09_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "das Interesse",
+        "ar": "das Interesse",
+        "en": "das Interesse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "interest",
+            "ar": "المصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "concession",
+            "ar": "التنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "condition",
+            "ar": "الشرط",
+            "en": "condition"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u09_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unter der {answer}, dass Sie heute bestätigen, liefern wir Freitag.",
+        "ar": "Unter der {answer}, dass Sie heute bestätigen, liefern wir Freitag.",
+        "en": "Unter der {answer}, dass Sie heute bestätigen, liefern wir Freitag."
+      },
+      "acceptedAnswers": [
+        "Bedingung"
+      ]
+    },
+    {
+      "id": "b2_u09_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Verhandeln & Konflikte lösen“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «التفاوض وحل النزاعات». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Negotiation & conflict resolution”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u09_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U09_FOUNDATION"
+      ]
+    }
+  ]
+}

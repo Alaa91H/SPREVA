@@ -1,0 +1,370 @@
+{
+  "id": "a2_u16_l04",
+  "unitId": "de-core-a2-u16",
+  "title": {
+    "de": "Aussprache-Casebook",
+    "ar": "دفتر حالات النطق",
+    "en": "Pronunciation casebook"
+  },
+  "canDo": [
+    "A2_PHONETICS_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u16_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Aussprache-Casebook",
+        "ar": "دفتر حالات النطق",
+        "en": "Pronunciation casebook"
+      },
+      "body": {
+        "de": "Diagnostizieren Sie, ob ein Problem aus Laut, Akzent, Rhythmus, Intonation oder Tempo entsteht. Ändern Sie pro Wiederholung nur einen Faktor.",
+        "ar": "شخّص هل المشكلة من الصوت أو النبر أو الإيقاع أو اللحن أو السرعة. غيّر عاملًا واحدًا فقط في كل تكرار.",
+        "en": "Diagnose whether a problem comes from sound, stress, rhythm, intonation or pace. Change only one factor per repetition."
+      }
+    },
+    {
+      "id": "a2_u16_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In „aufstehen“ ist „auf“ meist stärker {answer}.",
+        "ar": "In „aufstehen“ ist „auf“ meist stärker {answer}.",
+        "en": "In „aufstehen“ ist „auf“ meist stärker {answer}."
+      },
+      "acceptedAnswers": [
+        "betont"
+      ]
+    },
+    {
+      "id": "a2_u16_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In „bekommen“ ist das Präfix be- meist {answer}.",
+        "ar": "In „bekommen“ ist das Präfix be- meist {answer}.",
+        "en": "In „bekommen“ ist das Präfix be- meist {answer}."
+      },
+      "acceptedAnswers": [
+        "unbetont"
+      ]
+    },
+    {
+      "id": "a2_u16_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Satzakzent markiert oft die wichtigste neue {answer}.",
+        "ar": "Satzakzent markiert oft die wichtigste neue {answer}.",
+        "en": "Satzakzent markiert oft die wichtigste neue {answer}."
+      },
+      "acceptedAnswers": [
+        "Information"
+      ]
+    },
+    {
+      "id": "a2_u16_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beim Shadowing folgt man auch Pausen und {answer}.",
+        "ar": "Beim Shadowing folgt man auch Pausen und {answer}.",
+        "en": "Beim Shadowing folgt man auch Pausen und {answer}."
+      },
+      "acceptedAnswers": [
+        "Rhythmus"
+      ]
+    },
+    {
+      "id": "a2_u16_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zu schnelles Sprechen kann Endungen {answer} machen.",
+        "ar": "Zu schnelles Sprechen kann Endungen {answer} machen.",
+        "en": "Zu schnelles Sprechen kann Endungen {answer} machen."
+      },
+      "acceptedAnswers": [
+        "undeutlich"
+      ]
+    },
+    {
+      "id": "a2_u16_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine Rückfrage braucht oft eine klar erkennbare {answer}.",
+        "ar": "Eine Rückfrage braucht oft eine klar erkennbare {answer}.",
+        "en": "Eine Rückfrage braucht oft eine klar erkennbare {answer}."
+      },
+      "acceptedAnswers": [
+        "Intonation"
+      ]
+    },
+    {
+      "id": "a2_u16_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Wo liegt typischerweise der Akzent bei „aufstehen“?",
+        "ar": "Wo liegt typischerweise der Akzent bei „aufstehen“?",
+        "en": "Wo liegt typischerweise der Akzent bei „aufstehen“?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "auf-",
+            "ar": "auf-",
+            "en": "auf-"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "-stehen gleich stark",
+            "ar": "-stehen gleich stark",
+            "en": "-stehen gleich stark"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nur auf -en",
+            "ar": "nur auf -en",
+            "en": "nur auf -en"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was ist Schwa?",
+        "ar": "Was ist Schwa?",
+        "en": "Was ist Schwa?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ein unbetonter Reduktionsvokal",
+            "ar": "ein unbetonter Reduktionsvokal",
+            "en": "ein unbetonter Reduktionsvokal"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ein Konsonant",
+            "ar": "ein Konsonant",
+            "en": "ein Konsonant"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ein Umlautzeichen",
+            "ar": "ein Umlautzeichen",
+            "en": "ein Umlautzeichen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was trägt Satzakzent?",
+        "ar": "Was trägt Satzakzent?",
+        "en": "Was trägt Satzakzent?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wichtige Information",
+            "ar": "wichtige Information",
+            "en": "wichtige Information"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "jedes Wort gleich",
+            "ar": "jedes Wort gleich",
+            "en": "jedes Wort gleich"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nur Artikel",
+            "ar": "nur Artikel",
+            "en": "nur Artikel"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "question": {
+        "de": "Was trainiert Shadowing zusätzlich zu Lauten?",
+        "ar": "Was trainiert Shadowing zusätzlich zu Lauten?",
+        "en": "Was trainiert Shadowing zusätzlich zu Lauten?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Rhythmus und Intonation",
+            "ar": "Rhythmus und Intonation",
+            "en": "Rhythmus und Intonation"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Rechtschreibung allein",
+            "ar": "Rechtschreibung allein",
+            "en": "Rechtschreibung allein"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Übersetzung",
+            "ar": "Übersetzung",
+            "en": "Übersetzung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wenn ich Zeit habe, rufe ich dich an.",
+        "ar": "Wenn ich Zeit habe, rufe ich dich an.",
+        "en": "Wenn ich Zeit habe, rufe ich dich an."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "rufe ich dich an",
+            "ar": "rufe ich dich an",
+            "en": "rufe ich dich an"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "komme ich vorbei",
+            "ar": "komme ich vorbei",
+            "en": "komme ich vorbei"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "schreibe ich dir",
+            "ar": "schreibe ich dir",
+            "en": "schreibe ich dir"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u16_l04_act13",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Die Heizung funktioniert seit drei Tagen nicht.",
+        "ar": "Die Heizung funktioniert seit drei Tagen nicht.",
+        "en": "Die Heizung funktioniert seit drei Tagen nicht."
+      },
+      "acceptedAnswers": [
+        "Die Heizung funktioniert seit drei Tagen nicht."
+      ]
+    },
+    {
+      "id": "a2_u16_l04_act14",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Wenn ich Zeit habe, komme ich am Samstag vorbei.",
+        "ar": "Wenn ich Zeit habe, komme ich am Samstag vorbei.",
+        "en": "Wenn ich Zeit habe, komme ich am Samstag vorbei."
+      }
+    },
+    {
+      "id": "a2_u16_l04_act15",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Erzählen Sie etwa 30 Sekunden von gestern. Markieren Sie mit Ihrer Stimme wichtige Zeitangaben und neue Informationen.",
+        "ar": "تحدث نحو 30 ثانية عن الأمس واجعل الزمن والمعلومات الجديدة بارزة بالنبر.",
+        "en": "Speak for about 30 seconds about yesterday, using stress to highlight time references and new information."
+      },
+      "minSeconds": 30,
+      "checklist": [
+        {
+          "de": "Fokus hörbar",
+          "ar": "البؤرة مسموعة",
+          "en": "Focus audible"
+        },
+        {
+          "de": "Pausen sinnvoll",
+          "ar": "الوقفات مناسبة",
+          "en": "Pauses meaningful"
+        }
+      ]
+    },
+    {
+      "id": "a2_u16_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Aussprache-Casebook abgeschlossen",
+        "ar": "اكتمل دفتر النطق",
+        "en": "Pronunciation casebook complete"
+      },
+      "canDo": [
+        "A2_PHONETICS_CASEBOOK"
+      ]
+    }
+  ]
+}

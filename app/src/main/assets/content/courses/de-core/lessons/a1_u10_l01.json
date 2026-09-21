@@ -1,0 +1,154 @@
+{
+  "id": "a1_u10_l01",
+  "unitId": "de-core-a1-u10",
+  "title": {
+    "de": "können/müssen und Satzklammer mit Modalverben",
+    "ar": "können/müssen وإطار الجملة مع الأفعال الناقصة",
+    "en": "können/müssen and the modal-verb sentence frame"
+  },
+  "canDo": [
+    "A1_U10_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u10_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "können/müssen und Satzklammer mit Modalverben",
+        "ar": "können/müssen وإطار الجملة مع الأفعال الناقصة",
+        "en": "können/müssen and the modal-verb sentence frame"
+      },
+      "body": {
+        "de": "Lernziel: können/müssen und Satzklammer mit Modalverben\n\nKernregel:\nBei Modalverben steht das Modalverb konjugiert auf Position 2 und der Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.\n\nMusterbeispiele:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später.\n\nPraxisbezug:\nFahrkartenautomat, Bahnhof oder Haltestelle: Ticket kaufen, Verbindung fragen, umsteigen, Verspätung und Gleis verstehen.\n\nTypische Stolperfalle:\nNach Modalverben kein „zu“ vor dem Infinitiv: „Ich muss umsteigen“, nicht „ich muss zu umsteigen“.",
+        "ar": "هدف الدرس: können/müssen وإطار الجملة مع الأفعال الناقصة\n\nالقاعدة الأساسية:\nمع الأفعال الناقصة يأتي الفعل الناقص المصرف في الموقع الثاني والمصدر في نهاية الجملة: Ich muss umsteigen. Können Sie mir helfen?\n\nأمثلة ألمانية:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später.\n\nالاستخدام في الحياة:\nآلة التذاكر أو المحطة: شراء تذكرة، السؤال عن الرحلة، التبديل، فهم التأخير ورقم الرصيف.\n\nخطأ شائع يجب تجنبه:\nبعد الأفعال الناقصة لا نضع zu قبل المصدر: Ich muss umsteigen وليس ich muss zu umsteigen.",
+        "en": "Lesson goal: können/müssen and the modal-verb sentence frame\n\nCore rule:\nWith modal verbs the conjugated modal is in position 2 and the full infinitive goes to the end: Ich muss umsteigen. Können Sie mir helfen?\n\nGerman examples:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später.\n\nReal-life use:\nTicket machine, station or stop: buy a ticket, ask for a connection, change trains, understand delays and platforms.\n\nCommon pitfall:\nDo not add zu before an infinitive after modal verbs: Ich muss umsteigen, not ich muss zu umsteigen."
+      }
+    },
+    {
+      "id": "a1_u10_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u10_l01_w1",
+          "german": "die Fahrkarte",
+          "translation": {
+            "de": "ticket",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "a1_u10_l01_w2",
+          "german": "umsteigen",
+          "translation": {
+            "de": "change trains",
+            "ar": "يبدّل وسيلة النقل",
+            "en": "change trains"
+          }
+        },
+        {
+          "id": "a1_u10_l01_w3",
+          "german": "das Gleis",
+          "translation": {
+            "de": "platform/track",
+            "ar": "رصيف القطار",
+            "en": "platform/track"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u10_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Bei Modalverben steht das Modalverb konjugiert auf Position 2 und der Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.\n\nBeispiele:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später.",
+        "ar": "قاعدة مختصرة: مع الأفعال الناقصة يأتي الفعل الناقص المصرف في الموقع الثاني والمصدر في نهاية الجملة: Ich muss umsteigen. Können Sie mir helfen?\n\nالأمثلة:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später.",
+        "en": "Key rule: With modal verbs the conjugated modal is in position 2 and the full infinitive goes to the end: Ich muss umsteigen. Können Sie mir helfen?\n\nExamples:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später."
+      }
+    },
+    {
+      "id": "a1_u10_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "die Fahrkarte",
+        "ar": "die Fahrkarte",
+        "en": "die Fahrkarte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ticket",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "change trains",
+            "ar": "يبدّل وسيلة النقل",
+            "en": "change trains"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "platform/track",
+            "ar": "رصيف القطار",
+            "en": "platform/track"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u10_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich muss in Düsseldorf {answer}.",
+        "ar": "Ich muss in Düsseldorf {answer}.",
+        "en": "Ich muss in Düsseldorf {answer}."
+      },
+      "acceptedAnswers": [
+        "umsteigen"
+      ]
+    },
+    {
+      "id": "a1_u10_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Verkehr & Tickets“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «المواصلات والتذاكر». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Transport & tickets”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u10_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U10_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "id": "c1_u11_l04",
+  "unitId": "de-core-c1-u11",
+  "title": {
+    "de": "Falltraining: Literarische Sprache & Stilmittel",
+    "ar": "تدريب الحالات: اللغة الأدبية والأساليب البلاغية",
+    "en": "Casebook: Literary language & stylistic devices"
+  },
+  "canDo": [
+    "C1_U11_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u11_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Literarische Sprache & Stilmittel\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Beobachtung → Stilmittel → Wirkung → Deutung\n• Textbeleg stützt Interpretation\n• mehrere Lesarten möglich, wenn textnah begründet",
+        "ar": "الموضوع: اللغة الأدبية والأساليب البلاغية\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Beobachtung → Stilmittel → Wirkung → Deutung\n• Textbeleg stützt Interpretation\n• mehrere Lesarten möglich, wenn textnah begründet",
+        "en": "Topic: Literary language & stylistic devices\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Beobachtung → Stilmittel → Wirkung → Deutung\n• Textbeleg stützt Interpretation\n• mehrere Lesarten möglich, wenn textnah begründet"
+      }
+    },
+    {
+      "id": "c1_u11_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u11_l04_w1",
+          "german": "Erzählperspektive",
+          "translation": {
+            "de": "Erzählperspektive",
+            "ar": "منظور السرد",
+            "en": "narrative perspective"
+          }
+        },
+        {
+          "id": "c1_u11_l04_w2",
+          "german": "Ellipse",
+          "translation": {
+            "de": "Ellipse",
+            "ar": "حذف",
+            "en": "ellipsis"
+          }
+        },
+        {
+          "id": "c1_u11_l04_w3",
+          "german": "Ironie",
+          "translation": {
+            "de": "Ironie",
+            "ar": "سخرية",
+            "en": "irony"
+          }
+        },
+        {
+          "id": "c1_u11_l04_w4",
+          "german": "Metapher",
+          "translation": {
+            "de": "Metapher",
+            "ar": "استعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "c1_u11_l04_w5",
+          "german": "Lesart",
+          "translation": {
+            "de": "Lesart",
+            "ar": "قراءة/تأويل",
+            "en": "reading"
+          }
+        },
+        {
+          "id": "c1_u11_l04_w6",
+          "german": "Diskrepanz",
+          "translation": {
+            "de": "Diskrepanz",
+            "ar": "تفاوت/تناقض",
+            "en": "discrepancy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u11_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} beeinflusst unseren Zugang zur Figur.",
+        "ar": "Die {answer} beeinflusst unseren Zugang zur Figur.",
+        "en": "Die {answer} beeinflusst unseren Zugang zur Figur."
+      },
+      "acceptedAnswers": [
+        "Erzählperspektive"
+      ]
+    },
+    {
+      "id": "c1_u11_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine {answer} lässt Satzteile aus.",
+        "ar": "Eine {answer} lässt Satzteile aus.",
+        "en": "Eine {answer} lässt Satzteile aus."
+      },
+      "acceptedAnswers": [
+        "Ellipse"
+      ]
+    },
+    {
+      "id": "c1_u11_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} entsteht oft durch Diskrepanz zwischen Wortlaut und Situation.",
+        "ar": "{answer} entsteht oft durch Diskrepanz zwischen Wortlaut und Situation.",
+        "en": "{answer} entsteht oft durch Diskrepanz zwischen Wortlaut und Situation."
+      },
+      "acceptedAnswers": [
+        "Ironie"
+      ]
+    },
+    {
+      "id": "c1_u11_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} eröffnet mehrere Deutungen.",
+        "ar": "Die {answer} eröffnet mehrere Deutungen.",
+        "en": "Die {answer} eröffnet mehrere Deutungen."
+      },
+      "acceptedAnswers": [
+        "Metapher"
+      ]
+    },
+    {
+      "id": "c1_u11_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine plausible {answer} muss am Text belegt sein.",
+        "ar": "Eine plausible {answer} muss am Text belegt sein.",
+        "en": "Eine plausible {answer} muss am Text belegt sein."
+      },
+      "acceptedAnswers": [
+        "Lesart"
+      ]
+    },
+    {
+      "id": "c1_u11_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} zwischen Aussage und Handlung ist auffällig.",
+        "ar": "Die {answer} zwischen Aussage und Handlung ist auffällig.",
+        "en": "Die {answer} zwischen Aussage und Handlung ist auffällig."
+      },
+      "acceptedAnswers": [
+        "Diskrepanz"
+      ]
+    },
+    {
+      "id": "c1_u11_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Erzählperspektive",
+        "ar": "Erzählperspektive",
+        "en": "Erzählperspektive"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Erzählperspektive",
+            "ar": "منظور السرد",
+            "en": "narrative perspective"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Ellipse",
+            "ar": "حذف",
+            "en": "ellipsis"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Ironie",
+            "ar": "سخرية",
+            "en": "irony"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u11_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Ellipse",
+        "ar": "Ellipse",
+        "en": "Ellipse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Ellipse",
+            "ar": "حذف",
+            "en": "ellipsis"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Ironie",
+            "ar": "سخرية",
+            "en": "irony"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Metapher",
+            "ar": "استعارة",
+            "en": "metaphor"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u11_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Ironie",
+        "ar": "Ironie",
+        "en": "Ironie"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Ironie",
+            "ar": "سخرية",
+            "en": "irony"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Metapher",
+            "ar": "استعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Lesart",
+            "ar": "قراءة/تأويل",
+            "en": "reading"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u11_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Metapher",
+        "ar": "Metapher",
+        "en": "Metapher"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Metapher",
+            "ar": "استعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Lesart",
+            "ar": "قراءة/تأويل",
+            "en": "reading"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Diskrepanz",
+            "ar": "تفاوت/تناقض",
+            "en": "discrepancy"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u11_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ Stilmittel nur benennen ohne Funktion\n• ❌ Ironie aus einem einzelnen Wort sicher ableiten\n• ❌ Interpretation als Tatsache darstellen\n• ❌ alternative Lesarten ignorieren, obwohl Text offen bleibt.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ Stilmittel nur benennen ohne Funktion\n• ❌ Ironie aus einem einzelnen Wort sicher ableiten\n• ❌ Interpretation als Tatsache darstellen\n• ❌ alternative Lesarten ignorieren, obwohl Text offen bleibt.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ Stilmittel nur benennen ohne Funktion\n• ❌ Ironie aus einem einzelnen Wort sicher ableiten\n• ❌ Interpretation als Tatsache darstellen\n• ❌ alternative Lesarten ignorieren, obwohl Text offen bleibt.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u11_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Beobachtung → Stilmittel → Wirkung → Deutung\n• Textbeleg stützt Interpretation\n• mehrere Lesarten möglich, wenn textnah begründet\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Beobachtung → Stilmittel → Wirkung → Deutung\n• Textbeleg stützt Interpretation\n• mehrere Lesarten möglich, wenn textnah begründet\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Beobachtung → Stilmittel → Wirkung → Deutung\n• Textbeleg stützt Interpretation\n• mehrere Lesarten möglich, wenn textnah begründet\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u11_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Analysiere einen kurzen fiktiven Absatz mit Perspektive, Metapher, Rhythmus und Ironie. Formuliere zwei konkurrierende Lesarten.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Analysiere einen kurzen fiktiven Absatz mit Perspektive, Metapher, Rhythmus und Ironie. Formuliere zwei konkurrierende Lesarten.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Analysiere einen kurzen fiktiven Absatz mit Perspektive, Metapher, Rhythmus und Ironie. Formuliere zwei konkurrierende Lesarten.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u11_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U11_CASEBOOK"
+      ]
+    }
+  ]
+}

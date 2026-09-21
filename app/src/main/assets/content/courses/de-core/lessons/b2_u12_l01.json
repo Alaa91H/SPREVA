@@ -1,0 +1,154 @@
+{
+  "id": "b2_u12_l01",
+  "unitId": "de-core-b2-u12",
+  "title": {
+    "de": "Rechts- und Verwaltungssprache entschlüsseln",
+    "ar": "فك لغة القانون والإدارة",
+    "en": "Decoding legal and administrative language"
+  },
+  "canDo": [
+    "B2_U12_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u12_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Rechts- und Verwaltungssprache entschlüsseln",
+        "ar": "فك لغة القانون والإدارة",
+        "en": "Decoding legal and administrative language"
+      },
+      "body": {
+        "de": "Kompetenzziel: Rechts- und Verwaltungssprache entschlüsseln\n\nSprachsystem:\nFormelle Regeltexte enthalten Modalität: ist verpflichtet = Pflicht; ist berechtigt = Recht; kann = Möglichkeit/Ermessen; darf nicht = Verbot; sofern = Bedingung; innerhalb von = Frist. Sprachlich unterscheiden zwischen Information und individueller Rechtsberatung. Für konkrete Fälle sind offizielle Stellen oder Fachberatung maßgeblich.\n\nReferenzbeispiele:\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.\n\nAnwendungsdomäne:\nArbeitsvertrag, Mietvertrag, Behördenschreiben oder Hausordnung: Pflichten, Rechte, Fristen und Bedingungen sprachlich identifizieren.\n\nQualitätskontrolle:\n„kann“ in Verwaltungssprache kann Ermessen oder Möglichkeit bedeuten und ist nicht automatisch ein Anspruch. Für konkrete Rechtsfolgen immer den vollständigen Kontext prüfen.",
+        "ar": "هدف الكفاءة: فك لغة القانون والإدارة\n\nالنظام اللغوي:\nالنصوص الرسمية تحمل دلالات إلزام وحق ومنع: ist verpflichtet واجب، ist berechtigt حق، darf nicht حظر، sofern شرط، innerhalb von مهلة. يجب التفريق بين فهم اللغة والاستشارة القانونية الفردية.\n\nأمثلة مرجعية:\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.\n\nمجال التطبيق:\nعقد عمل أو إيجار أو رسالة دائرة أو نظام مبنى: تحديد الواجبات والحقوق والمهل والشروط لغويًا.\n\nمراجعة الجودة:\nkann في اللغة الإدارية قد تعني إمكانية أو سلطة تقديرية وليست حقًا مضمونًا. لفهم الأثر القانوني يجب قراءة السياق كاملًا.",
+        "en": "Competence goal: Decoding legal and administrative language\n\nLanguage system:\nFormal rule texts encode modality: ist verpflichtet = duty; ist berechtigt = right; kann = possibility/discretion; darf nicht = prohibition; sofern = condition; innerhalb von = deadline. Distinguish language comprehension from individualized legal advice.\n\nReference examples:\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.\n\nApplication domain:\nEmployment contract, lease, official letter or house rules: identify duties, rights, deadlines and conditions linguistically.\n\nQuality control:\nkann in administrative language may express possibility or discretion, not automatically an entitlement. Check full context for legal consequences."
+      }
+    },
+    {
+      "id": "b2_u12_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u12_l01_w1",
+          "german": "verpflichtet",
+          "translation": {
+            "de": "obliged",
+            "ar": "ملزم",
+            "en": "obliged"
+          }
+        },
+        {
+          "id": "b2_u12_l01_w2",
+          "german": "berechtigt",
+          "translation": {
+            "de": "entitled",
+            "ar": "مخوّل/له حق",
+            "en": "entitled"
+          }
+        },
+        {
+          "id": "b2_u12_l01_w3",
+          "german": "zulässig",
+          "translation": {
+            "de": "permissible",
+            "ar": "مسموح قانونيًا",
+            "en": "permissible"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u12_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFormelle Regeltexte enthalten Modalität: ist verpflichtet = Pflicht; ist berechtigt = Recht; kann = Möglichkeit/Ermessen; darf nicht = Verbot; sofern = Bedingung; innerhalb von = Frist. Sprachlich unterscheiden zwischen Information und individueller Rechtsberatung. Für konkrete Fälle sind offizielle Stellen oder Fachberatung maßgeblich.\n\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.",
+        "ar": "المبدأ الأساسي:\nالنصوص الرسمية تحمل دلالات إلزام وحق ومنع: ist verpflichtet واجب، ist berechtigt حق، darf nicht حظر، sofern شرط، innerhalb von مهلة. يجب التفريق بين فهم اللغة والاستشارة القانونية الفردية.\n\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.",
+        "en": "Core principle:\nFormal rule texts encode modality: ist verpflichtet = duty; ist berechtigt = right; kann = possibility/discretion; darf nicht = prohibition; sofern = condition; innerhalb von = deadline. Distinguish language comprehension from individualized legal advice.\n\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig."
+      }
+    },
+    {
+      "id": "b2_u12_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "verpflichtet",
+        "ar": "verpflichtet",
+        "en": "verpflichtet"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "obliged",
+            "ar": "ملزم",
+            "en": "obliged"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "entitled",
+            "ar": "مخوّل/له حق",
+            "en": "entitled"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "permissible",
+            "ar": "مسموح قانونيًا",
+            "en": "permissible"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u12_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Beschäftigten sind {answer}, Änderungen mitzuteilen.",
+        "ar": "Die Beschäftigten sind {answer}, Änderungen mitzuteilen.",
+        "en": "Die Beschäftigten sind {answer}, Änderungen mitzuteilen."
+      },
+      "acceptedAnswers": [
+        "verpflichtet"
+      ]
+    },
+    {
+      "id": "b2_u12_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Recht, Verwaltung & Arbeitsleben“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «القانون والإدارة والحياة المهنية». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Law, administration & working life”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u12_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U12_FOUNDATION"
+      ]
+    }
+  ]
+}

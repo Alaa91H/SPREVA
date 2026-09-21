@@ -1,0 +1,154 @@
+{
+  "id": "b1_u02_l01",
+  "unitId": "de-core-b1-u02",
+  "title": {
+    "de": "Vorgangspassiv mit werden + Partizip II",
+    "ar": "المبني للمجهول بـ werden + Partizip II",
+    "en": "Event passive with werden + past participle"
+  },
+  "canDo": [
+    "B1_U02_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u02_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Vorgangspassiv mit werden + Partizip II",
+        "ar": "المبني للمجهول بـ werden + Partizip II",
+        "en": "Event passive with werden + past participle"
+      },
+      "body": {
+        "de": "Kompetenzziel: Vorgangspassiv mit werden + Partizip II\n\nSystematik:\nDas Vorgangspassiv fokussiert die Handlung statt den Handelnden: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. Der Handelnde kann mit von + Dativ genannt werden, wenn er relevant ist.\n\nBeispielnetz:\n• Der Antrag wird geprüft.\n• Die Straße wurde gestern gesperrt.\n• Die Rechnung ist bereits bezahlt worden.\n\nPraxisdomäne:\nArbeitsabläufe, Behörden, Hausverwaltung oder Produktionsprozesse: erklären, was gemacht wird, wurde oder noch gemacht werden muss.\n\nFehlerdiagnose:\nPassiv ist nicht einfach „werden + Infinitiv“. Es braucht das Partizip II. Achte außerdem auf Perfekt: „ist gemacht worden“, nicht „ist geworden gemacht“.",
+        "ar": "هدف الكفاءة: المبني للمجهول بـ werden + Partizip II\n\nالشرح المنهجي:\nالمبني للمجهول يركز على الحدث بدل الفاعل: Die Heizung wird repariert. الماضي wurde repariert، وPerfekt ist repariert worden. يمكن ذكر الفاعل بـ von + Dativ إذا كان مهمًا.\n\nأمثلة مترابطة:\n• Der Antrag wird geprüft.\n• Die Straße wurde gestern gesperrt.\n• Die Rechnung ist bereits bezahlt worden.\n\nالمجال العملي:\nإجراءات العمل أو الدوائر أو إدارة السكن أو الإنتاج: شرح ما يتم أو تم أو يجب إنجازه.\n\nتشخيص الأخطاء:\nالمبني للمجهول ليس werden + مصدر، بل يحتاج Partizip II. وفي Perfekt نقول ist gemacht worden.",
+        "en": "Competence goal: Event passive with werden + past participle\n\nSystem:\nThe event passive focuses on the action rather than the agent: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. The agent may be added with von + dative when relevant.\n\nExample network:\n• Der Antrag wird geprüft.\n• Die Straße wurde gestern gesperrt.\n• Die Rechnung ist bereits bezahlt worden.\n\nPractice domain:\nWorkflows, public offices, property management or production: explain what is being done, was done or still must be done.\n\nError diagnosis:\nThe passive is not simply werden + infinitive; it requires the past participle. In the perfect use ist gemacht worden."
+      }
+    },
+    {
+      "id": "b1_u02_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u02_l01_w1",
+          "german": "prüfen",
+          "translation": {
+            "de": "check",
+            "ar": "يفحص",
+            "en": "check"
+          }
+        },
+        {
+          "id": "b1_u02_l01_w2",
+          "german": "bearbeiten",
+          "translation": {
+            "de": "process",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b1_u02_l01_w3",
+          "german": "genehmigen",
+          "translation": {
+            "de": "approve",
+            "ar": "يوافق",
+            "en": "approve"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u02_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nDas Vorgangspassiv fokussiert die Handlung statt den Handelnden: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. Der Handelnde kann mit von + Dativ genannt werden, wenn er relevant ist.\n\nKontrastive Beispiele:\n• Der Antrag wird geprüft.\n• Die Straße wurde gestern gesperrt.\n• Die Rechnung ist bereits bezahlt worden.",
+        "ar": "القاعدة:\nالمبني للمجهول يركز على الحدث بدل الفاعل: Die Heizung wird repariert. الماضي wurde repariert، وPerfekt ist repariert worden. يمكن ذكر الفاعل بـ von + Dativ إذا كان مهمًا.\n\nأمثلة:\n• Der Antrag wird geprüft.\n• Die Straße wurde gestern gesperrt.\n• Die Rechnung ist bereits bezahlt worden.",
+        "en": "Rule:\nThe event passive focuses on the action rather than the agent: Die Heizung wird repariert. Präteritum: wurde repariert. Perfekt: ist repariert worden. The agent may be added with von + dative when relevant.\n\nExamples:\n• Der Antrag wird geprüft.\n• Die Straße wurde gestern gesperrt.\n• Die Rechnung ist bereits bezahlt worden."
+      }
+    },
+    {
+      "id": "b1_u02_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "prüfen",
+        "ar": "prüfen",
+        "en": "prüfen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "check",
+            "ar": "يفحص",
+            "en": "check"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "process",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "approve",
+            "ar": "يوافق",
+            "en": "approve"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u02_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag wird morgen {answer}.",
+        "ar": "Der Antrag wird morgen {answer}.",
+        "en": "Der Antrag wird morgen {answer}."
+      },
+      "acceptedAnswers": [
+        "bearbeitet"
+      ]
+    },
+    {
+      "id": "b1_u02_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Passiv in Alltag & Arbeit“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «المبني للمجهول في الحياة والعمل». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Passive voice in everyday and work contexts”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u02_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U02_FOUNDATION"
+      ]
+    }
+  ]
+}

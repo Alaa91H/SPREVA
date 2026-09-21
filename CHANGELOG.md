@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Learning intelligence
+- Replaced the production demo interval scheduler with a **FSRS-6** implementation using the public 21-parameter default model at 90% desired retention. Stability, difficulty and last-review state are serialized in the existing opaque `schedulerState`, so no Room schema migration is required; legacy `demo-v1` cards migrate lazily on their next grade.
+- Added FSRS interval previews to **Again / Hard / Good / Easy** before the learner commits a review rating.
+- Added confidence-weighted **skill mastery** for grammar, reading, listening and pronunciation, plus completion-only evidence for writing and speaking until a real rubric evaluator exists. A Beta-style prior and evidence confidence prevent one lucky answer from becoming “100% mastery.”
+- Added confidence-weighted **topic/lesson mastery**, repeated-error detection, repaired-error signals, rushed-guess detection, slow-recall detection and incomplete productive-task signals.
+- Practice is now a **personalized learning dashboard**: due reviews, saved placement recommendation, skill mastery, and clickable focus lessons ranked from actual local attempt history.
+- Repeated objective errors automatically create deterministic **FSRS remediation cards** after the second incorrect attempt. Vocabulary provisioning now correctly runs through the injected `CompleteLesson` use case; this also fixed an older lesson-player path that could bypass review-card provisioning and the completion event.
+- Added an **adaptive A1–C1 placement diagnostic** sourced from the course’s original Exam & Skills Labs instead of a duplicate question bank. It starts at B1, tests four questions per visited level, moves up/down from evidence, persists the latest recommended starting level in Preferences DataStore, and explicitly does not claim CEFR certification.
+- Learning Intelligence remains local-first: attempt history, mastery derivation, diagnostic state and review scheduling require no server-side learner profiling.
+
+### Academic curriculum
+- Added **Pronunciation & Prosody Labs** for A1–C1: 5 units / 20 lessons / 270 activities progressing from sound discrimination and basic stress to connected speech, pragmatic focus and C1 rhetorical prosody. `speaking_repeat` now supports local German TTS fallback when licensed native audio is absent, with multi-speed playback preserved.
+- Added **Exam & Skills Labs** for A1, A2, B1, B2 and C1: 5 new units / 20 lessons / 280 activities covering reading, listening, dictation, free writing, free speaking, mixed mastery and original four-skill full mocks. Added renderer-native `dictation`, `free_write` and `speaking_prompt` activities, TTS fallback for listening, and 0.75×/1.0×/1.15× shadowing playback.
+- Added **Integrated CEFR capstones** at A1, A2, B1, B2 and C1: 5 new units / 20 lessons / 270 activities that interleave grammar, vocabulary, real-life scenarios, error analysis and free production across multiple previously learned topics.
+- Expanded every unit to a four-layer learning architecture: **Foundation → Real Life → Mastery → Casebook**. The new Mastery and Casebook layers add repeated retrieval, contrastive case drills, error diagnosis, transformation matrices, spaced/interleaved review, scenario transfer and level-appropriate revision.
+- Replaced the two-lesson demo curriculum with a complete **A1 → C1 academic German path**: 83 units, 332 lessons and 3,817 rendered learning activities across everyday life, housing, health communication, work, public services, travel, finance, technology, media literacy, academic language, professional communication and advanced C1 discourse.
+- Every lesson now ships indexed localized titles (German/Arabic/English), a deep explanation/context activity, contextual vocabulary, rule/example analysis, retrieval practice, cloze production, an active transfer/revision task and a stable Can-Do summary.
+- Extended the content index schema with optional lesson titles and `activityCount`, and removed the repository's first-level-only lesson-summary assumption so all CEFR levels are first-class content.
+- Added `scripts/validate_curriculum.py` and a CI curriculum-integrity gate covering level/package coverage, JSON/reference integrity, duplicate IDs, localized index fields, activity counts, MCQ/cloze validity, vocabulary blocks and Can-Do summaries.
+- Added the full curriculum map and authoring/quality standard in `docs/CURRICULUM_A1_C1.md`.
+- Content package version bumped from `2026.09.demo.2` to `2026.09.academic.6`.
+
+
 ### Added
 - **Phase 4 stabilization — product-correctness pass (repository audit P0)**
   - **Onboarding bootstrap state**: the app shell now waits for the first real DataStore settings value (`AppBootstrapState.Loading/Ready`) and builds its start destination from persisted `onboardingComplete` — returning users land on Home, fresh installs on Welcome; the previous default-settings race sent everyone to onboarding.

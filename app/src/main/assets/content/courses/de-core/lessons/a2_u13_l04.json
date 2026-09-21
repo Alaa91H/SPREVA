@@ -1,0 +1,378 @@
+{
+  "id": "a2_u13_l04",
+  "unitId": "de-core-a2-u13",
+  "title": {
+    "de": "Falltraining: Reisen, Service & Beschwerden",
+    "ar": "تدريب الحالات: السفر والخدمات والشكاوى",
+    "en": "Casebook: Travel, service & complaints"
+  },
+  "canDo": [
+    "A2_U13_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u13_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Reisen, Service & Beschwerden\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• sich beschweren über + Akkusativ / bei + Stelle\n• stornieren = Buchung rückgängig; absagen = Termin/Teilnahme nicht wahrnehmen\n• erstatten = Geld zurückzahlen; Ersatz = alternative Leistung/Sache",
+        "ar": "الموضوع: السفر والخدمات والشكاوى\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• sich beschweren über + Akkusativ / bei + Stelle\n• stornieren = Buchung rückgängig; absagen = Termin/Teilnahme nicht wahrnehmen\n• erstatten = Geld zurückzahlen; Ersatz = alternative Leistung/Sache",
+        "en": "Topic: Travel, service & complaints\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• sich beschweren über + Akkusativ / bei + Stelle\n• stornieren = Buchung rückgängig; absagen = Termin/Teilnahme nicht wahrnehmen\n• erstatten = Geld zurückzahlen; Ersatz = alternative Leistung/Sache"
+      }
+    },
+    {
+      "id": "a2_u13_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u13_l04_w1",
+          "german": "die Reservierung",
+          "translation": {
+            "de": "die Reservierung",
+            "ar": "الحجز",
+            "en": "reservation"
+          }
+        },
+        {
+          "id": "a2_u13_l04_w2",
+          "german": "stornieren",
+          "translation": {
+            "de": "stornieren",
+            "ar": "يلغي",
+            "en": "cancel"
+          }
+        },
+        {
+          "id": "a2_u13_l04_w3",
+          "german": "verspätet",
+          "translation": {
+            "de": "verspätet",
+            "ar": "متأخر",
+            "en": "delayed"
+          }
+        },
+        {
+          "id": "a2_u13_l04_w4",
+          "german": "beschweren",
+          "translation": {
+            "de": "beschweren",
+            "ar": "يشتكي",
+            "en": "complain"
+          }
+        },
+        {
+          "id": "a2_u13_l04_w5",
+          "german": "erstatten",
+          "translation": {
+            "de": "erstatten",
+            "ar": "يرد المال",
+            "en": "refund"
+          }
+        },
+        {
+          "id": "a2_u13_l04_w6",
+          "german": "Ersatz",
+          "translation": {
+            "de": "Ersatz",
+            "ar": "بديل",
+            "en": "replacement"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u13_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte meine Reservierung {answer}.",
+        "ar": "Ich möchte meine Reservierung {answer}.",
+        "en": "Ich möchte meine Reservierung {answer}."
+      },
+      "acceptedAnswers": [
+        "stornieren"
+      ]
+    },
+    {
+      "id": "a2_u13_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Zug ist stark {answer}.",
+        "ar": "Der Zug ist stark {answer}.",
+        "en": "Der Zug ist stark {answer}."
+      },
+      "acceptedAnswers": [
+        "verspätet"
+      ]
+    },
+    {
+      "id": "a2_u13_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte mich über den Service {answer}.",
+        "ar": "Ich möchte mich über den Service {answer}.",
+        "en": "Ich möchte mich über den Service {answer}."
+      },
+      "acceptedAnswers": [
+        "beschweren"
+      ]
+    },
+    {
+      "id": "a2_u13_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können Sie den Betrag {answer}?",
+        "ar": "Können Sie den Betrag {answer}?",
+        "en": "Können Sie den Betrag {answer}?"
+      },
+      "acceptedAnswers": [
+        "erstatten"
+      ]
+    },
+    {
+      "id": "a2_u13_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gibt es einen {answer}?",
+        "ar": "Gibt es einen {answer}?",
+        "en": "Gibt es einen {answer}?"
+      },
+      "acceptedAnswers": [
+        "Ersatz"
+      ]
+    },
+    {
+      "id": "a2_u13_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} ist auf meinen Namen.",
+        "ar": "Die {answer} ist auf meinen Namen.",
+        "en": "Die {answer} ist auf meinen Namen."
+      },
+      "acceptedAnswers": [
+        "Reservierung"
+      ]
+    },
+    {
+      "id": "a2_u13_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "die Reservierung",
+        "ar": "die Reservierung",
+        "en": "die Reservierung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "die Reservierung",
+            "ar": "الحجز",
+            "en": "reservation"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "stornieren",
+            "ar": "يلغي",
+            "en": "cancel"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "verspätet",
+            "ar": "متأخر",
+            "en": "delayed"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u13_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "stornieren",
+        "ar": "stornieren",
+        "en": "stornieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "stornieren",
+            "ar": "يلغي",
+            "en": "cancel"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "verspätet",
+            "ar": "متأخر",
+            "en": "delayed"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "beschweren",
+            "ar": "يشتكي",
+            "en": "complain"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u13_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "verspätet",
+        "ar": "verspätet",
+        "en": "verspätet"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "verspätet",
+            "ar": "متأخر",
+            "en": "delayed"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "beschweren",
+            "ar": "يشتكي",
+            "en": "complain"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "erstatten",
+            "ar": "يرد المال",
+            "en": "refund"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u13_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "beschweren",
+        "ar": "beschweren",
+        "en": "beschweren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "beschweren",
+            "ar": "يشتكي",
+            "en": "complain"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "erstatten",
+            "ar": "يرد المال",
+            "en": "refund"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Ersatz",
+            "ar": "بديل",
+            "en": "replacement"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u13_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ Ich beschwere den Service. → ✅ Ich beschwere mich über den Service.\n• ❌ Geld zurück geben Sie? → ✅ Können Sie den Betrag erstatten?\n• ❌ meine Reservierung absagen im Hotel → möglich, präziser ✅ stornieren\n• ❌ Zug hat spät → ✅ Zug hat Verspätung / ist verspätet\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ Ich beschwere den Service. → ✅ Ich beschwere mich über den Service.\n• ❌ Geld zurück geben Sie? → ✅ Können Sie den Betrag erstatten?\n• ❌ meine Reservierung absagen im Hotel → möglich, präziser ✅ stornieren\n• ❌ Zug hat spät → ✅ Zug hat Verspätung / ist verspätet\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ Ich beschwere den Service. → ✅ Ich beschwere mich über den Service.\n• ❌ Geld zurück geben Sie? → ✅ Können Sie den Betrag erstatten?\n• ❌ meine Reservierung absagen im Hotel → möglich, präziser ✅ stornieren\n• ❌ Zug hat spät → ✅ Zug hat Verspätung / ist verspätet\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u13_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• sich beschweren über + Akkusativ / bei + Stelle\n• stornieren = Buchung rückgängig; absagen = Termin/Teilnahme nicht wahrnehmen\n• erstatten = Geld zurückzahlen; Ersatz = alternative Leistung/Sache\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• sich beschweren über + Akkusativ / bei + Stelle\n• stornieren = Buchung rückgängig; absagen = Termin/Teilnahme nicht wahrnehmen\n• erstatten = Geld zurückzahlen; Ersatz = alternative Leistung/Sache\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• sich beschweren über + Akkusativ / bei + Stelle\n• stornieren = Buchung rückgängig; absagen = Termin/Teilnahme nicht wahrnehmen\n• erstatten = Geld zurückzahlen; Ersatz = alternative Leistung/Sache\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u13_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Bearbeite vier Serviceprobleme: Hotel, Zug, Restaurant, Onlinekauf. Formuliere Problem, Beleg, Wunsch und höfliche Eskalation.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Bearbeite vier Serviceprobleme: Hotel, Zug, Restaurant, Onlinekauf. Formuliere Problem, Beleg, Wunsch und höfliche Eskalation.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Bearbeite vier Serviceprobleme: Hotel, Zug, Restaurant, Onlinekauf. Formuliere Problem, Beleg, Wunsch und höfliche Eskalation.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u13_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U13_CASEBOOK"
+      ]
+    }
+  ]
+}

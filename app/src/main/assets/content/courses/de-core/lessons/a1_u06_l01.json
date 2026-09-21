@@ -1,0 +1,155 @@
+{
+  "id": "a1_u06_l01",
+  "unitId": "de-core-a1-u06",
+  "title": {
+    "de": "möchten, gern und Akkusativ beim Bestellen",
+    "ar": "möchten وgern وAkkusativ عند الطلب",
+    "en": "möchten, gern and the accusative when ordering"
+  },
+  "canDo": [
+    "A1_U06_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u06_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "möchten, gern und Akkusativ beim Bestellen",
+        "ar": "möchten وgern وAkkusativ عند الطلب",
+        "en": "möchten, gern and the accusative when ordering"
+      },
+      "body": {
+        "de": "Lernziel: möchten, gern und Akkusativ beim Bestellen\n\nKernregel:\n„möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht das direkte Objekt im Akkusativ.\n\nMusterbeispiele:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte.\n\nPraxisbezug:\nCafé, Restaurant, Kantine oder Imbiss: Speisekarte verstehen, bestellen, nach Zutaten fragen und die Rechnung verlangen.\n\nTypische Stolperfalle:\n„Ich will …“ klingt beim Bestellen oft direkt. Höflicher: „Ich möchte …“ oder „Ich nehme …“. Artikel im Akkusativ beachten: einen Kaffee.",
+        "ar": "هدف الدرس: möchten وgern وAkkusativ عند الطلب\n\nالقاعدة الأساسية:\nmöchten صيغة مهذبة للرغبة: Ich möchte einen Kaffee. وgern للتفضيل: Ich trinke gern Tee. بعد أفعال مثل möchten/nehmen/brauchen يأتي المفعول به في Akkusativ.\n\nأمثلة ألمانية:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte.\n\nالاستخدام في الحياة:\nمقهى أو مطعم أو كانتين: فهم القائمة، الطلب، السؤال عن المكونات وطلب الحساب.\n\nخطأ شائع يجب تجنبه:\nIch will قد تبدو مباشرة في المطعم. الأفضل Ich möchte أو Ich nehme. انتبه إلى einen Kaffee في Akkusativ.",
+        "en": "Lesson goal: möchten, gern and the accusative when ordering\n\nCore rule:\nmöchten is a polite way to express wishes: Ich möchte einen Kaffee. gern expresses preferences: Ich trinke gern Tee. Direct objects after verbs such as möchten/nehmen/brauchen are accusative.\n\nGerman examples:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte.\n\nReal-life use:\nCafe, restaurant, canteen or snack bar: understand a menu, order, ask about ingredients and request the bill.\n\nCommon pitfall:\nIch will can sound blunt when ordering. Prefer Ich möchte or Ich nehme. Watch the accusative article: einen Kaffee."
+      }
+    },
+    {
+      "id": "a1_u06_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u06_l01_w1",
+          "german": "die Speisekarte",
+          "translation": {
+            "de": "menu",
+            "ar": "قائمة الطعام",
+            "en": "menu"
+          }
+        },
+        {
+          "id": "a1_u06_l01_w2",
+          "german": "bestellen",
+          "translation": {
+            "de": "to order",
+            "ar": "يطلب",
+            "en": "to order"
+          }
+        },
+        {
+          "id": "a1_u06_l01_w3",
+          "german": "das Wasser",
+          "translation": {
+            "de": "water",
+            "ar": "الماء",
+            "en": "water"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u06_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: „möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht das direkte Objekt im Akkusativ.\n\nBeispiele:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte.",
+        "ar": "قاعدة مختصرة: möchten صيغة مهذبة للرغبة: Ich möchte einen Kaffee. وgern للتفضيل: Ich trinke gern Tee. بعد أفعال مثل möchten/nehmen/brauchen يأتي المفعول به في Akkusativ.\n\nالأمثلة:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte.",
+        "en": "Key rule: möchten is a polite way to express wishes: Ich möchte einen Kaffee. gern expresses preferences: Ich trinke gern Tee. Direct objects after verbs such as möchten/nehmen/brauchen are accusative.\n\nExamples:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte."
+      }
+    },
+    {
+      "id": "a1_u06_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "die Speisekarte",
+        "ar": "die Speisekarte",
+        "en": "die Speisekarte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "menu",
+            "ar": "قائمة الطعام",
+            "en": "menu"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "to order",
+            "ar": "يطلب",
+            "en": "to order"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "water",
+            "ar": "الماء",
+            "en": "water"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u06_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} einen Kaffee, bitte.",
+        "ar": "Ich {answer} einen Kaffee, bitte.",
+        "en": "Ich {answer} einen Kaffee, bitte."
+      },
+      "acceptedAnswers": [
+        "möchte",
+        "moechte"
+      ]
+    },
+    {
+      "id": "a1_u06_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Essen, Trinken & Restaurant“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «الطعام والشراب والمطعم». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Food, drink & restaurants”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u06_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U06_FOUNDATION"
+      ]
+    }
+  ]
+}

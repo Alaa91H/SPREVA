@@ -1,0 +1,296 @@
+{
+  "id": "c1_u08_l03",
+  "unitId": "de-core-c1-u08",
+  "title": {
+    "de": "Intensivtraining: Berichte, Memos & Executive Summary",
+    "ar": "تدريب مكثف: التقارير والمذكرات والملخص التنفيذي",
+    "en": "Mastery lab: Reports, memos & executive summaries"
+  },
+  "canDo": [
+    "C1_U08_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u08_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Berichte, Memos & Executive Summary“. Forme dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte um, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «التقارير والمذكرات والملخص التنفيذي». أعد صياغة الفكرة بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Reports, memos & executive summaries”. Reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u08_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u08_l03_w1",
+          "german": "entscheidungsrelevant",
+          "translation": {
+            "de": "decision-relevant",
+            "ar": "مرتبط بالقرار",
+            "en": "decision-relevant"
+          }
+        },
+        {
+          "id": "c1_u08_l03_w2",
+          "german": "der Befund",
+          "translation": {
+            "de": "finding",
+            "ar": "النتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "c1_u08_l03_w3",
+          "german": "die Empfehlung",
+          "translation": {
+            "de": "recommendation",
+            "ar": "التوصية",
+            "en": "recommendation"
+          }
+        },
+        {
+          "id": "c1_u08_l03_w4",
+          "german": "das Risiko",
+          "translation": {
+            "de": "risk",
+            "ar": "المخاطرة",
+            "en": "risk"
+          }
+        },
+        {
+          "id": "c1_u08_l03_w5",
+          "german": "der nächste Schritt",
+          "translation": {
+            "de": "next step",
+            "ar": "الخطوة التالية",
+            "en": "next step"
+          }
+        },
+        {
+          "id": "c1_u08_l03_w6",
+          "german": "prägnant",
+          "translation": {
+            "de": "concise",
+            "ar": "موجز ودقيق",
+            "en": "concise"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u08_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Für die Entscheidung besonders {answer} ist der Kostenanstieg.",
+        "ar": "Für die Entscheidung besonders {answer} ist der Kostenanstieg.",
+        "en": "Für die Entscheidung besonders {answer} ist der Kostenanstieg."
+      },
+      "acceptedAnswers": [
+        "relevant"
+      ]
+    },
+    {
+      "id": "c1_u08_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Empfohlen {answer} ein begrenzter Pilotversuch.",
+        "ar": "Empfohlen {answer} ein begrenzter Pilotversuch.",
+        "en": "Empfohlen {answer} ein begrenzter Pilotversuch."
+      },
+      "acceptedAnswers": [
+        "wird"
+      ]
+    },
+    {
+      "id": "c1_u08_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht {answer} sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.",
+        "ar": "Ein professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht {answer} sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.",
+        "en": "Ein professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht {answer} sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen."
+      },
+      "acceptedAnswers": [
+        "für"
+      ]
+    },
+    {
+      "id": "c1_u08_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Auswertung zeigt drei zentrale Probleme.",
+        "ar": "{answer} Auswertung zeigt drei zentrale Probleme.",
+        "en": "{answer} Auswertung zeigt drei zentrale Probleme."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "c1_u08_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Für die Entscheidung besonders relevant ist {answer} Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.",
+        "ar": "Für die Entscheidung besonders relevant ist {answer} Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.",
+        "en": "Für die Entscheidung besonders relevant ist {answer} Anstieg der Bearbeitungszeit um 18 Prozent seit Januar."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "c1_u08_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Empfohlen wird {answer} Pilotversuch unter klar definierten Erfolgskriterien.",
+        "ar": "Empfohlen wird {answer} Pilotversuch unter klar definierten Erfolgskriterien.",
+        "en": "Empfohlen wird {answer} Pilotversuch unter klar definierten Erfolgskriterien."
+      },
+      "acceptedAnswers": [
+        "ein"
+      ]
+    },
+    {
+      "id": "c1_u08_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "entscheidungsrelevant",
+        "ar": "entscheidungsrelevant",
+        "en": "entscheidungsrelevant"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "decision-relevant",
+            "ar": "مرتبط بالقرار",
+            "en": "decision-relevant"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "finding",
+            "ar": "النتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "recommendation",
+            "ar": "التوصية",
+            "en": "recommendation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u08_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "das Risiko",
+        "ar": "das Risiko",
+        "en": "das Risiko"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "risk",
+            "ar": "المخاطرة",
+            "en": "risk"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "next step",
+            "ar": "الخطوة التالية",
+            "en": "next step"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "concise",
+            "ar": "موجز ودقيق",
+            "en": "concise"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u08_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Ein professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht für sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.\n2. Die Auswertung zeigt drei zentrale Probleme.\n3. Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n4. Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre, welche Bedeutung gleich blieb und welche Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Ein professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht für sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.\n2. Die Auswertung zeigt drei zentrale Probleme.\n3. Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n4. Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.\n\nغيّر بُعدًا واحدًا فقط: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. اشرح ما بقي من المعنى وما تغير في الأثر.",
+        "en": "Base patterns:\n1. Ein professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht für sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.\n2. Die Auswertung zeigt drei zentrale Probleme.\n3. Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n4. Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what stayed constant and what effect changed."
+      }
+    },
+    {
+      "id": "c1_u08_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Prüfe propositionalen Kern, Evidenzstärke und Quellenklarheit.",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. تحقق من ثبات المعنى وقوة الدليل ووضوح المصدر.",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. Check propositional core, evidence strength and source clarity."
+      }
+    },
+    {
+      "id": "c1_u08_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "200–260 Wörter oder vier Minuten: vier Zielstrukturen, fair dargestellte Gegenposition, Quellen-/Evidenzhinweis und präzise Einschränkung. Revision: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "200–260 كلمة أو أربع دقائق: أربع بنيات مستهدفة، موقف مضاد ممثل بإنصاف، إشارة لمصدر/دليل وقيد دقيق. المراجعة: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "200–260 words or four minutes: four target structures, fairly represented counterposition, source/evidence marker and precise limitation. Revise: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u08_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U08_MASTERY"
+      ]
+    }
+  ]
+}

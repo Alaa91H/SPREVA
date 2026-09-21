@@ -1,0 +1,362 @@
+{
+  "id": "a1_u16_l01",
+  "unitId": "de-core-a1-u16",
+  "title": {
+    "de": "Phonetik: hören & unterscheiden",
+    "ar": "الصوتيات: الاستماع والتمييز",
+    "en": "Phonetics: listen & discriminate"
+  },
+  "canDo": [
+    "A1_PHONETICS_DISCRIMINATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u16_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Hören & unterscheiden",
+        "ar": "الاستماع والتمييز",
+        "en": "Listen & discriminate"
+      },
+      "body": {
+        "de": "Umlaute, ich-/ach-Laut, sch/ch, lange und kurze Vokale, Wortakzent und einfache Satzmelodie.",
+        "ar": "حروف العلة المعدلة، صوتا ich/ach، sch/ch، الحركات الطويلة والقصيرة، نبر الكلمة ولحن الجملة البسيط.",
+        "en": "Umlauts, ich/ach sounds, sch/ch, long/short vowels, word stress and basic sentence melody."
+      }
+    },
+    {
+      "id": "a1_u16_l01_act02",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich möchte fünf grüne Bücher.",
+        "ar": "Ich möchte fünf grüne Bücher.",
+        "en": "Ich möchte fünf grüne Bücher."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "fünf grüne Bücher",
+            "ar": "fünf grüne Bücher",
+            "en": "fünf grüne Bücher"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "fünf rote Bücher",
+            "ar": "fünf rote Bücher",
+            "en": "fünf rote Bücher"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "vier grüne Bücher",
+            "ar": "vier grüne Bücher",
+            "en": "vier grüne Bücher"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l01_act03",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Küche ist nicht groß.",
+        "ar": "Die Küche ist nicht groß.",
+        "en": "Die Küche ist nicht groß."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Küche nicht groß",
+            "ar": "Küche nicht groß",
+            "en": "Küche nicht groß"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kirche sehr groß",
+            "ar": "Kirche sehr groß",
+            "en": "Kirche sehr groß"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Küche sehr schön",
+            "ar": "Küche sehr schön",
+            "en": "Küche sehr schön"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l01_act04",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich wohne in München.",
+        "ar": "Ich wohne in München.",
+        "en": "Ich wohne in München."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "München",
+            "ar": "München",
+            "en": "München"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Münster",
+            "ar": "Münster",
+            "en": "Münster"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Mainz",
+            "ar": "Mainz",
+            "en": "Mainz"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l01_act05",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Fisch ist frisch.",
+        "ar": "Der Fisch ist frisch.",
+        "en": "Der Fisch ist frisch."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Fisch ist frisch",
+            "ar": "Fisch ist frisch",
+            "en": "Fisch ist frisch"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Tisch ist frisch",
+            "ar": "Tisch ist frisch",
+            "en": "Tisch ist frisch"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Fisch ist heiß",
+            "ar": "Fisch ist heiß",
+            "en": "Fisch ist heiß"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich suche ein günstiges Zimmer.",
+        "ar": "Ich suche ein günstiges Zimmer.",
+        "en": "Ich suche ein günstiges Zimmer."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "günstiges Zimmer",
+            "ar": "günstiges Zimmer",
+            "en": "günstiges Zimmer"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "großes Zimmer",
+            "ar": "großes Zimmer",
+            "en": "großes Zimmer"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ruhiges Zimmer",
+            "ar": "ruhiges Zimmer",
+            "en": "ruhiges Zimmer"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Heute frage ich nach dem Weg.",
+        "ar": "Heute frage ich nach dem Weg.",
+        "en": "Heute frage ich nach dem Weg."
+      },
+      "prompt": {
+        "de": "Hören Sie auf Lautung, Akzent und Rhythmus – nicht nur auf die Bedeutung.",
+        "ar": "استمع إلى النطق والنبر والإيقاع، لا إلى المعنى فقط.",
+        "en": "Listen for sounds, stress and rhythm, not only meaning."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "frage nach dem Weg",
+            "ar": "frage nach dem Weg",
+            "en": "frage nach dem Weg"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "fahre nach Berlin",
+            "ar": "fahre nach Berlin",
+            "en": "fahre nach Berlin"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "warte am Weg",
+            "ar": "warte am Weg",
+            "en": "warte am Weg"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u16_l01_act08",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Ich möchte einen grünen Tee, bitte.",
+        "ar": "Ich möchte einen grünen Tee, bitte.",
+        "en": "Ich möchte einen grünen Tee, bitte."
+      },
+      "acceptedAnswers": [
+        "Ich möchte einen grünen Tee, bitte."
+      ]
+    },
+    {
+      "id": "a1_u16_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Hören Sie den Satz und schreiben Sie ihn vollständig. Achten Sie auf Endungen und Funktionswörter.",
+        "ar": "استمع واكتب الجملة كاملة مع الانتباه للنهايات والكلمات الوظيفية.",
+        "en": "Listen and write the full sentence, paying attention to endings and function words."
+      },
+      "text": {
+        "de": "Die Küche ist heute geschlossen.",
+        "ar": "Die Küche ist heute geschlossen.",
+        "en": "Die Küche ist heute geschlossen."
+      },
+      "acceptedAnswers": [
+        "Die Küche ist heute geschlossen."
+      ]
+    },
+    {
+      "id": "a1_u16_l01_act10",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Ich heiße Amir und wohne in München.",
+        "ar": "Ich heiße Amir und wohne in München.",
+        "en": "Ich heiße Amir und wohne in München."
+      }
+    },
+    {
+      "id": "a1_u16_l01_act11",
+      "type": "speaking_repeat",
+      "prompt": {
+        "de": "Shadowing: erst 0,75×, dann 1,0×, dann 1,15×. Nehmen Sie sich anschließend selbst auf.",
+        "ar": "تدريب الترديد: ابدأ 0.75× ثم 1.0× ثم 1.15×، وبعدها سجّل نفسك.",
+        "en": "Shadowing: first 0.75×, then 1.0×, then 1.15×. Record yourself afterwards."
+      },
+      "text": {
+        "de": "Ich möchte fünf Brötchen, bitte.",
+        "ar": "Ich möchte fünf Brötchen, bitte.",
+        "en": "Ich möchte fünf Brötchen, bitte."
+      }
+    },
+    {
+      "id": "a1_u16_l01_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Mikro-Hörschleife",
+        "ar": "حلقة استماع قصيرة",
+        "en": "Micro-listening loop"
+      },
+      "body": {
+        "de": "Hören → Schlüsselstelle identifizieren → nachsprechen → erneut hören → eigene Aufnahme vergleichen. Maximal ein Ausspracheziel pro Runde.",
+        "ar": "استمع ← حدد الموضع المهم ← ردد ← استمع ثانية ← قارن تسجيلك. هدف نطق واحد فقط في كل جولة.",
+        "en": "Listen → identify the key spot → repeat → listen again → compare your recording. Use only one pronunciation target per round."
+      }
+    },
+    {
+      "id": "a1_u16_l01_act13",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Hörgenauigkeit trainiert",
+        "ar": "تم تدريب دقة الاستماع",
+        "en": "Listening precision trained"
+      },
+      "canDo": [
+        "A1_PHONETICS_DISCRIMINATION"
+      ]
+    }
+  ]
+}

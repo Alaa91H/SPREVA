@@ -1,0 +1,154 @@
+{
+  "id": "b2_u06_l01",
+  "unitId": "de-core-b2-u06",
+  "title": {
+    "de": "doch, ja, eben, wohl, mal und situationsgerechter Ton",
+    "ar": "doch وja وeben وwohl وmal والنبرة المناسبة",
+    "en": "doch, ja, eben, wohl, mal and context-appropriate tone"
+  },
+  "canDo": [
+    "B2_U06_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u06_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "doch, ja, eben, wohl, mal und situationsgerechter Ton",
+        "ar": "doch وja وeben وwohl وmal والنبرة المناسبة",
+        "en": "doch, ja, eben, wohl, mal and context-appropriate tone"
+      },
+      "body": {
+        "de": "Kompetenzziel: doch, ja, eben, wohl, mal und situationsgerechter Ton\n\nSprachsystem:\nModalpartikeln verändern weniger den Sachinhalt als Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.\n\nReferenzbeispiele:\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen.\n\nAnwendungsdomäne:\nKollegen, Freunde, Kunden oder Konfliktsituationen: Tonfall abstimmen, Direktheit reduzieren und implizite Haltung verstehen.\n\nQualitätskontrolle:\nModalpartikeln nicht mechanisch übersetzen. Beobachte Funktion, Intonation und Beziehung. In sensiblen Situationen ist eine neutrale Formulierung oft sicherer.",
+        "ar": "هدف الكفاءة: doch وja وeben وwohl وmal والنبرة المناسبة\n\nالنظام اللغوي:\nالجسيمات المقامية لا تغير المحتوى بقدر ما تغير الموقف والنبرة: ja للمعرفة المشتركة، doch للتشجيع/التصحيح، wohl للاحتمال. معناها يعتمد على السياق والنبرة.\n\nأمثلة مرجعية:\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen.\n\nمجال التطبيق:\nالزملاء أو الأصدقاء أو العملاء أو الخلافات: ضبط النبرة وتقليل المباشرة وفهم الموقف الضمني.\n\nمراجعة الجودة:\nلا تترجم الجسيمات المقامية حرفيًا؛ راقب الوظيفة والنبرة والعلاقة. في المواقف الحساسة قد تكون الصياغة المحايدة أكثر أمانًا.",
+        "en": "Competence goal: doch, ja, eben, wohl, mal and context-appropriate tone\n\nLanguage system:\nModal particles affect stance and relationship more than factual content: ja can mark shared knowledge, doch encouragement/correction, eben acceptance, wohl assumption. Their effect depends on intonation, context and relationship; they are rarer in formal writing.\n\nReference examples:\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen.\n\nApplication domain:\nColleagues, friends, customers or conflicts: calibrate tone, reduce directness and understand implicit stance.\n\nQuality control:\nDo not translate modal particles mechanically. Observe function, intonation and relationship. In sensitive contexts, neutral wording is often safer."
+      }
+    },
+    {
+      "id": "b2_u06_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u06_l01_w1",
+          "german": "wohl",
+          "translation": {
+            "de": "probably",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "b2_u06_l01_w2",
+          "german": "doch",
+          "translation": {
+            "de": "modal particle doch",
+            "ar": "أداة مقامية: بالفعل/لمَ لا",
+            "en": "modal particle doch"
+          }
+        },
+        {
+          "id": "b2_u06_l01_w3",
+          "german": "eben",
+          "translation": {
+            "de": "simply/just",
+            "ar": "هكذا ببساطة",
+            "en": "simply/just"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u06_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nModalpartikeln verändern weniger den Sachinhalt als Haltung und Beziehung: Das ist ja bekannt (gemeinsames Wissen), Komm doch mit (ermutigend), Das ist eben so (Akzeptanz), Er ist wohl krank (Vermutung). Ihre Wirkung hängt stark von Intonation, Kontext und Beziehung ab; in formellen Texten sind sie seltener.\n\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen.",
+        "ar": "المبدأ الأساسي:\nالجسيمات المقامية لا تغير المحتوى بقدر ما تغير الموقف والنبرة: ja للمعرفة المشتركة، doch للتشجيع/التصحيح، wohl للاحتمال. معناها يعتمد على السياق والنبرة.\n\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen.",
+        "en": "Core principle:\nModal particles affect stance and relationship more than factual content: ja can mark shared knowledge, doch encouragement/correction, eben acceptance, wohl assumption. Their effect depends on intonation, context and relationship; they are rarer in formal writing.\n\n• Das weißt du ja schon.\n• Komm doch kurz vorbei.\n• Er hat wohl den Termin vergessen."
+      }
+    },
+    {
+      "id": "b2_u06_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "wohl",
+        "ar": "wohl",
+        "en": "wohl"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "probably",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "modal particle doch",
+            "ar": "أداة مقامية: بالفعل/لمَ لا",
+            "en": "modal particle doch"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "simply/just",
+            "ar": "هكذا ببساطة",
+            "en": "simply/just"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u06_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er hat {answer} den Termin vergessen.",
+        "ar": "Er hat {answer} den Termin vergessen.",
+        "en": "Er hat {answer} den Termin vergessen."
+      },
+      "acceptedAnswers": [
+        "wohl"
+      ]
+    },
+    {
+      "id": "b2_u06_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Register, Modalpartikeln & Pragmatik“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «السجل اللغوي والجسيمات المقامية». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Register, modal particles & pragmatics”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u06_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U06_FOUNDATION"
+      ]
+    }
+  ]
+}

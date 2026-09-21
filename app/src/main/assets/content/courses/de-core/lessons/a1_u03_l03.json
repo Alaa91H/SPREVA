@@ -1,0 +1,466 @@
+{
+  "id": "a1_u03_l03",
+  "unitId": "de-core-a1-u03",
+  "title": {
+    "de": "Intensivtraining: Zahlen, Uhrzeit & Termine",
+    "ar": "تدريب مكثف: الأرقام والوقت والمواعيد",
+    "en": "Mastery lab: Numbers, time & appointments"
+  },
+  "canDo": [
+    "A1_U03_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u03_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Zahlen, Uhrzeit & Termine“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «الأرقام والوقت والمواعيد». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.\n\nالدورة: استرجاع ← تعرّف ← إكمال ← تحويل ← إنتاج حر ← تصحيح ← استرجاع لاحق.",
+        "en": "Intensive practice for “Numbers, time & appointments”. After every answer, state the rule, create a second example and explain one typical error.\n\nCycle: recall → recognize → complete → transform → produce → correct → retrieve later."
+      }
+    },
+    {
+      "id": "a1_u03_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u03_l03_w1",
+          "german": "der Termin",
+          "translation": {
+            "de": "appointment",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "a1_u03_l03_w2",
+          "german": "die Uhrzeit",
+          "translation": {
+            "de": "time",
+            "ar": "الوقت/الساعة",
+            "en": "time"
+          }
+        },
+        {
+          "id": "a1_u03_l03_w3",
+          "german": "heute",
+          "translation": {
+            "de": "today",
+            "ar": "اليوم",
+            "en": "today"
+          }
+        },
+        {
+          "id": "a1_u03_l03_w4",
+          "german": "morgen",
+          "translation": {
+            "de": "tomorrow",
+            "ar": "غدًا",
+            "en": "tomorrow"
+          }
+        },
+        {
+          "id": "a1_u03_l03_w5",
+          "german": "pünktlich",
+          "translation": {
+            "de": "punctual",
+            "ar": "في الموعد",
+            "en": "punctual"
+          }
+        },
+        {
+          "id": "a1_u03_l03_w6",
+          "german": "später",
+          "translation": {
+            "de": "later",
+            "ar": "لاحقًا / متأخرًا",
+            "en": "later"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Termin ist {answer} 15 Uhr.",
+        "ar": "Der Termin ist {answer} 15 Uhr.",
+        "en": "Der Termin ist {answer} 15 Uhr."
+      },
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir treffen uns {answer} Montag.",
+        "ar": "Wir treffen uns {answer} Montag.",
+        "en": "Wir treffen uns {answer} Montag."
+      },
+      "acceptedAnswers": [
+        "am"
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Termin ist am Dienstag um 10:30 Uhr.",
+        "ar": "{answer} Termin ist am Dienstag um 10:30 Uhr.",
+        "en": "{answer} Termin ist am Dienstag um 10:30 Uhr."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Haben Sie {answer} Freitag Zeit?",
+        "ar": "Haben Sie {answer} Freitag Zeit?",
+        "en": "Haben Sie {answer} Freitag Zeit?"
+      },
+      "acceptedAnswers": [
+        "am"
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Um acht Uhr beginnt {answer} Kurs.",
+        "ar": "Um acht Uhr beginnt {answer} Kurs.",
+        "en": "Um acht Uhr beginnt {answer} Kurs."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Arzt, Bürgerbüro, Kurs oder Werkstatt: {answer} freiem Termin fragen, Datum und Uhrzeit bestätigen, Verspätung mitteilen.",
+        "ar": "Arzt, Bürgerbüro, Kurs oder Werkstatt: {answer} freiem Termin fragen, Datum und Uhrzeit bestätigen, Verspätung mitteilen.",
+        "en": "Arzt, Bürgerbüro, Kurs oder Werkstatt: {answer} freiem Termin fragen, Datum und Uhrzeit bestätigen, Verspätung mitteilen."
+      },
+      "acceptedAnswers": [
+        "nach"
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Termin",
+        "ar": "der Termin",
+        "en": "der Termin"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "appointment",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "time",
+            "ar": "الوقت/الساعة",
+            "en": "time"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "today",
+            "ar": "اليوم",
+            "en": "today"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u03_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "morgen",
+        "ar": "morgen",
+        "en": "morgen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "tomorrow",
+            "ar": "غدًا",
+            "en": "tomorrow"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "punctual",
+            "ar": "في الموعد",
+            "en": "punctual"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "later",
+            "ar": "لاحقًا / متأخرًا",
+            "en": "later"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u03_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Der Termin ist am Dienstag um 10:30 Uhr.\n2. Haben Sie am Freitag Zeit?\n3. Um acht Uhr beginnt der Kurs.\n4. Arzt, Bürgerbüro, Kurs oder Werkstatt: nach freiem Termin fragen, Datum und Uhrzeit bestätigen, Verspätung mitteilen.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. Der Termin ist am Dienstag um 10:30 Uhr.\n2. Haben Sie am Freitag Zeit?\n3. Um acht Uhr beginnt der Kurs.\n4. Arzt, Bürgerbüro, Kurs oder Werkstatt: nach freiem Termin fragen, Datum und Uhrzeit bestätigen, Verspätung mitteilen.\n\nحدّد الصيغة الحاسمة، أنشئ خطأً شائعًا، اشرح سببه ثم صححه دون نموذج.",
+        "en": "Correct patterns:\n1. Der Termin ist am Dienstag um 10:30 Uhr.\n2. Haben Sie am Freitag Zeit?\n3. Um acht Uhr beginnt der Kurs.\n4. Arzt, Bürgerbüro, Kurs oder Werkstatt: nach freiem Termin fragen, Datum und Uhrzeit bestätigen, Verspätung mitteilen.\n\nMark the decisive form, create a typical wrong version, explain it, then correct it without the model."
+      }
+    },
+    {
+      "id": "a1_u03_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة خمس مرات: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model five ways: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u03_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel einfach erklären. D in Nachricht/Dialog anwenden. E mit zwei älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: ستة فراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في رسالة/حوار. E امزجها مع موضوعين سابقين. الإتقان = إنتاج + تفسير + نقل.",
+        "en": "A now: six blanks orally. B later: six new sentences. C explain the rule. D use it in a message/dialogue. E interleave with two older topics. Mastery = produce + explain + transfer."
+      }
+    },
+    {
+      "id": "a1_u03_l03_act15",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u03_l03_audio_w1",
+          "german": "eins",
+          "translation": {
+            "de": "—",
+            "ar": "واحد",
+            "en": "one"
+          },
+          "audio": "audio/cc-by-sa/de-eins.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w2",
+          "german": "zwei",
+          "translation": {
+            "de": "—",
+            "ar": "اثنان",
+            "en": "two"
+          },
+          "audio": "audio/cc-by-sa/de-zwei.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w3",
+          "german": "drei",
+          "translation": {
+            "de": "—",
+            "ar": "ثلاثة",
+            "en": "three"
+          },
+          "audio": "audio/cc-by-sa/de-drei.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w4",
+          "german": "vier",
+          "translation": {
+            "de": "—",
+            "ar": "أربعة",
+            "en": "four"
+          },
+          "audio": "audio/cc-by-sa/de-vier.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w5",
+          "german": "fünf",
+          "translation": {
+            "de": "—",
+            "ar": "خمسة",
+            "en": "five"
+          },
+          "audio": "audio/cc-by-sa/de-fuenf.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w6",
+          "german": "sechs",
+          "translation": {
+            "de": "—",
+            "ar": "ستة",
+            "en": "six"
+          },
+          "audio": "audio/cc-by-sa/de-sechs.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w7",
+          "german": "sieben",
+          "translation": {
+            "de": "—",
+            "ar": "سبعة",
+            "en": "seven"
+          },
+          "audio": "audio/cc-by-sa/de-sieben.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w8",
+          "german": "acht",
+          "translation": {
+            "de": "—",
+            "ar": "ثمانية",
+            "en": "eight"
+          },
+          "audio": "audio/cc-by-sa/de-acht.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w9",
+          "german": "neun",
+          "translation": {
+            "de": "—",
+            "ar": "تسعة",
+            "en": "nine"
+          },
+          "audio": "audio/cc-by-sa/de-neun.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w10",
+          "german": "zehn",
+          "translation": {
+            "de": "—",
+            "ar": "عشرة",
+            "en": "ten"
+          },
+          "audio": "audio/cc-by-sa/de-zehn.ogg"
+        },
+        {
+          "id": "a1_u03_l03_audio_w11",
+          "german": "die Uhr",
+          "article": "die",
+          "plural": "die Uhren",
+          "translation": {
+            "de": "—",
+            "ar": "الساعة",
+            "en": "the clock / o'clock"
+          },
+          "audio": "audio/cc-by-sa/de-uhr.ogg"
+        }
+      ]
+    },
+    {
+      "id": "a1_u03_l03_act16",
+      "type": "listening_choice",
+      "audio": "audio/cc-by-sa/de-acht.ogg",
+      "prompt": {
+        "de": "Zahl auditiv erkennen",
+        "ar": "تعرّف على الرقم من الصوت",
+        "en": "Recognize the number by sound"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vier",
+            "ar": "vier",
+            "en": "vier"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "acht",
+            "ar": "acht",
+            "en": "acht"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sechs",
+            "ar": "sechs",
+            "en": "sechs"
+          }
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "a1_u03_l03_act17",
+      "type": "speaking_repeat",
+      "audio": "audio/cc-by-sa/de-uhr.ogg",
+      "prompt": {
+        "de": "Sprich Rhythmus und Vokal klar nach.",
+        "ar": "كرر الإيقاع والصوت بوضوح.",
+        "en": "Repeat the rhythm and vowel clearly."
+      },
+      "text": {
+        "de": "die Uhr",
+        "ar": "die Uhr",
+        "en": "die Uhr"
+      }
+    },
+    {
+      "id": "a1_u03_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U03_MASTERY"
+      ]
+    }
+  ]
+}

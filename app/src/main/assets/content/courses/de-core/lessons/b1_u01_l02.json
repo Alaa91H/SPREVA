@@ -1,0 +1,154 @@
+{
+  "id": "b1_u01_l02",
+  "unitId": "de-core-b1-u01",
+  "title": {
+    "de": "Erlebnisse strukturiert erzählen",
+    "ar": "سرد التجارب بشكل منظم",
+    "en": "Narrating experiences coherently"
+  },
+  "canDo": [
+    "B1_U01_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u01_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Erlebnisse strukturiert erzählen",
+        "ar": "سرد التجارب بشكل منظم",
+        "en": "Narrating experiences coherently"
+      },
+      "body": {
+        "de": "Authentische Situation:\nUnfall, Reise, Arbeitstag oder wichtige Erfahrung: Ereignisse chronologisch ordnen, Ursache und Folge verständlich machen.\n\nModelldialog:\nA: Was ist gestern passiert?\nB: Nachdem ich aus dem Bus ausgestiegen war, merkte ich, dass mein Portemonnaie fehlte.\nA: Was hast du dann gemacht?\nB: Ich rief sofort beim Fundbüro an, bevor ich nach Hause fuhr.\n\nSprachliche Entscheidung:\nFür zusammenhängende Erzählungen werden Zeitbeziehungen markiert: nachdem = ein Ereignis ist vorher abgeschlossen; bevor = ein Ereignis folgt später; während = Gleichzeitigkeit. Im Nebensatz steht das finite Verb am Ende. In geschriebenen Erzählungen nimmt das Präteritum zu, in Gesprächen bleibt Perfekt häufig.\n\nTransfer: Führe denselben Austausch mit neuen Daten. Ergänze eine Begründung, eine Rückfrage und eine angemessene Reaktion.",
+        "ar": "موقف واقعي:\nحادث أو رحلة أو يوم عمل أو تجربة مهمة: ترتيب الأحداث زمنيًا وتوضيح السبب والنتيجة.\n\nحوار نموذجي:\nA: Was ist gestern passiert?\nB: Nachdem ich aus dem Bus ausgestiegen war, merkte ich, dass mein Portemonnaie fehlte.\nA: Was hast du dann gemacht?\nB: Ich rief sofort beim Fundbüro an, bevor ich nach Hause fuhr.\n\nالقرار اللغوي:\nلسرد مترابط نوضح العلاقة الزمنية: nachdem لحدث انتهى قبل آخر، bevor لما سيحدث بعده، während للتزامن. الفعل المصرف في نهاية الجملة التابعة.\n\nتطبيق: أعد الحوار ببيانات جديدة، وأضف تعليلًا وسؤال متابعة وردًا مناسبًا.",
+        "en": "Authentic situation:\nAccident, trip, workday or important experience: sequence events chronologically and make cause/effect understandable.\n\nModel dialogue:\nA: Was ist gestern passiert?\nB: Nachdem ich aus dem Bus ausgestiegen war, merkte ich, dass mein Portemonnaie fehlte.\nA: Was hast du dann gemacht?\nB: Ich rief sofort beim Fundbüro an, bevor ich nach Hause fuhr.\n\nLanguage choice:\nCoherent narration marks time relations: nachdem for a completed earlier event, bevor for a later event, während for simultaneity. The finite verb goes to the end of the subordinate clause. Written narration uses more Präteritum; conversation often keeps Perfekt.\n\nTransfer: Repeat the exchange with new details, adding a reason, follow-up question and appropriate response."
+      }
+    },
+    {
+      "id": "b1_u01_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u01_l02_w1",
+          "german": "während",
+          "translation": {
+            "de": "while",
+            "ar": "أثناء",
+            "en": "while"
+          }
+        },
+        {
+          "id": "b1_u01_l02_w2",
+          "german": "bevor",
+          "translation": {
+            "de": "before",
+            "ar": "قبل أن",
+            "en": "before"
+          }
+        },
+        {
+          "id": "b1_u01_l02_w3",
+          "german": "nachdem",
+          "translation": {
+            "de": "after",
+            "ar": "بعد أن",
+            "en": "after"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u01_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nFür zusammenhängende Erzählungen werden Zeitbeziehungen markiert: nachdem = ein Ereignis ist vorher abgeschlossen; bevor = ein Ereignis folgt später; während = Gleichzeitigkeit. Im Nebensatz steht das finite Verb am Ende. In geschriebenen Erzählungen nimmt das Präteritum zu, in Gesprächen bleibt Perfekt häufig.\n\nKontrastive Beispiele:\n• Nachdem ich angekommen war, rief ich meine Familie an.\n• Bevor der Termin begann, füllte ich das Formular aus.\n• Während ich wartete, las ich die Unterlagen.",
+        "ar": "القاعدة:\nلسرد مترابط نوضح العلاقة الزمنية: nachdem لحدث انتهى قبل آخر، bevor لما سيحدث بعده، während للتزامن. الفعل المصرف في نهاية الجملة التابعة.\n\nأمثلة:\n• Nachdem ich angekommen war, rief ich meine Familie an.\n• Bevor der Termin begann, füllte ich das Formular aus.\n• Während ich wartete, las ich die Unterlagen.",
+        "en": "Rule:\nCoherent narration marks time relations: nachdem for a completed earlier event, bevor for a later event, während for simultaneity. The finite verb goes to the end of the subordinate clause. Written narration uses more Präteritum; conversation often keeps Perfekt.\n\nExamples:\n• Nachdem ich angekommen war, rief ich meine Familie an.\n• Bevor der Termin begann, füllte ich das Formular aus.\n• Während ich wartete, las ich die Unterlagen."
+      }
+    },
+    {
+      "id": "b1_u01_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "während",
+        "ar": "während",
+        "en": "während"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "while",
+            "ar": "أثناء",
+            "en": "while"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "before",
+            "ar": "قبل أن",
+            "en": "before"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "after",
+            "ar": "بعد أن",
+            "en": "after"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u01_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich wartete, las ich die E-Mail.",
+        "ar": "{answer} ich wartete, las ich die E-Mail.",
+        "en": "{answer} ich wartete, las ich die E-Mail."
+      },
+      "acceptedAnswers": [
+        "Während"
+      ]
+    },
+    {
+      "id": "b1_u01_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Erzählen & zeitliche Zusammenhänge“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «السرد والعلاقات الزمنية». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Narration & time relationships”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u01_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U01_REAL_LIFE"
+      ]
+    }
+  ]
+}

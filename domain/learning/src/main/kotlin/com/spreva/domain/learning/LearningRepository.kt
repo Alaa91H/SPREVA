@@ -12,6 +12,7 @@ import kotlinx.coroutines.flow.Flow
 interface LearningRepository {
     fun observeLessonProgress(lessonId: LessonId): Flow<LessonProgress?>
     fun observeAllProgress(): Flow<List<LessonProgress>>
+    fun observeAttempts(): Flow<List<ActivityAttempt>>
     suspend fun recordAttempt(attempt: ActivityAttempt)
     suspend fun completeLesson(lessonId: LessonId, totalActivities: Int)
     suspend fun ensureStarted(lessonId: LessonId, totalActivities: Int)

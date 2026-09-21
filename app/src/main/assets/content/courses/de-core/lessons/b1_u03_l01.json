@@ -1,0 +1,155 @@
+{
+  "id": "b1_u03_l01",
+  "unitId": "de-core-b1-u03",
+  "title": {
+    "de": "Konjunktiv II mit wäre, hätte, könnte, würde",
+    "ar": "Konjunktiv II مع wäre وhätte وkönnte وwürde",
+    "en": "Konjunktiv II with wäre, hätte, könnte and würde"
+  },
+  "canDo": [
+    "B1_U03_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u03_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Konjunktiv II mit wäre, hätte, könnte, würde",
+        "ar": "Konjunktiv II مع wäre وhätte وkönnte وwürde",
+        "en": "Konjunktiv II with wäre, hätte, könnte and würde"
+      },
+      "body": {
+        "de": "Kompetenzziel: Konjunktiv II mit wäre, hätte, könnte, würde\n\nSystematik:\nKonjunktiv II drückt Irrealität, Wünsche, Ratschläge oder besondere Höflichkeit aus: Wenn ich mehr Zeit hätte, würde ich einen Kurs machen. An Ihrer Stelle würde ich … Häufige Formen: wäre, hätte, könnte, müsste, dürfte; sonst oft würde + Infinitiv.\n\nBeispielnetz:\n• Wenn ich mehr Geld hätte, würde ich umziehen.\n• Könnten Sie mir bitte eine Kopie schicken?\n• An deiner Stelle würde ich früher anrufen.\n\nPraxisdomäne:\nBeratung, Konflikt, Wohnung, Arbeit oder Zukunftsplanung: Alternativen abwägen, höflich bitten und über hypothetische Folgen sprechen.\n\nFehlerdiagnose:\nNicht jeden Konjunktiv II mit würde bilden: Standardformen wie wäre, hätte, könnte sind sehr häufig und stilistisch besser als „würde sein/haben/können“.",
+        "ar": "هدف الكفاءة: Konjunktiv II مع wäre وhätte وkönnte وwürde\n\nالشرح المنهجي:\nيعبر Konjunktiv II عن الافتراض والرغبة والنصيحة والتهذيب: Wenn ich mehr Zeit hätte, würde ich… ومن الأشكال الشائعة wäre, hätte, könnte, müsste.\n\nأمثلة مترابطة:\n• Wenn ich mehr Geld hätte, würde ich umziehen.\n• Könnten Sie mir bitte eine Kopie schicken?\n• An deiner Stelle würde ich früher anrufen.\n\nالمجال العملي:\nالاستشارة أو الخلاف أو السكن أو العمل أو التخطيط: مقارنة البدائل والطلب بأدب والتحدث عن نتائج افتراضية.\n\nتشخيص الأخطاء:\nلا تستخدم würde مع كل شيء؛ الأشكال wäre وhätte وkönnte شائعة وأفضل أسلوبيًا من würde sein/haben/können.",
+        "en": "Competence goal: Konjunktiv II with wäre, hätte, könnte and würde\n\nSystem:\nKonjunktiv II expresses unreality, wishes, advice or extra politeness: Wenn ich mehr Zeit hätte, würde ich… Common forms include wäre, hätte, könnte, müsste; otherwise würde + infinitive is frequent.\n\nExample network:\n• Wenn ich mehr Geld hätte, würde ich umziehen.\n• Könnten Sie mir bitte eine Kopie schicken?\n• An deiner Stelle würde ich früher anrufen.\n\nPractice domain:\nAdvice, conflict, housing, work or future planning: weigh alternatives, ask politely and discuss hypothetical consequences.\n\nError diagnosis:\nDo not form every Konjunktiv II with würde. Forms such as wäre, hätte and könnte are common and stylistically preferable."
+      }
+    },
+    {
+      "id": "b1_u03_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u03_l01_w1",
+          "german": "der Wunsch",
+          "translation": {
+            "de": "wish",
+            "ar": "الرغبة",
+            "en": "wish"
+          }
+        },
+        {
+          "id": "b1_u03_l01_w2",
+          "german": "die Möglichkeit",
+          "translation": {
+            "de": "possibility",
+            "ar": "الإمكانية",
+            "en": "possibility"
+          }
+        },
+        {
+          "id": "b1_u03_l01_w3",
+          "german": "an deiner Stelle",
+          "translation": {
+            "de": "in your place",
+            "ar": "لو كنت مكانك",
+            "en": "in your place"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u03_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nKonjunktiv II drückt Irrealität, Wünsche, Ratschläge oder besondere Höflichkeit aus: Wenn ich mehr Zeit hätte, würde ich einen Kurs machen. An Ihrer Stelle würde ich … Häufige Formen: wäre, hätte, könnte, müsste, dürfte; sonst oft würde + Infinitiv.\n\nKontrastive Beispiele:\n• Wenn ich mehr Geld hätte, würde ich umziehen.\n• Könnten Sie mir bitte eine Kopie schicken?\n• An deiner Stelle würde ich früher anrufen.",
+        "ar": "القاعدة:\nيعبر Konjunktiv II عن الافتراض والرغبة والنصيحة والتهذيب: Wenn ich mehr Zeit hätte, würde ich… ومن الأشكال الشائعة wäre, hätte, könnte, müsste.\n\nأمثلة:\n• Wenn ich mehr Geld hätte, würde ich umziehen.\n• Könnten Sie mir bitte eine Kopie schicken?\n• An deiner Stelle würde ich früher anrufen.",
+        "en": "Rule:\nKonjunktiv II expresses unreality, wishes, advice or extra politeness: Wenn ich mehr Zeit hätte, würde ich… Common forms include wäre, hätte, könnte, müsste; otherwise würde + infinitive is frequent.\n\nExamples:\n• Wenn ich mehr Geld hätte, würde ich umziehen.\n• Könnten Sie mir bitte eine Kopie schicken?\n• An deiner Stelle würde ich früher anrufen."
+      }
+    },
+    {
+      "id": "b1_u03_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "der Wunsch",
+        "ar": "der Wunsch",
+        "en": "der Wunsch"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wish",
+            "ar": "الرغبة",
+            "en": "wish"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "possibility",
+            "ar": "الإمكانية",
+            "en": "possibility"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "in your place",
+            "ar": "لو كنت مكانك",
+            "en": "in your place"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u03_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich mehr Zeit {answer}, würde ich lernen.",
+        "ar": "Wenn ich mehr Zeit {answer}, würde ich lernen.",
+        "en": "Wenn ich mehr Zeit {answer}, würde ich lernen."
+      },
+      "acceptedAnswers": [
+        "hätte",
+        "haette"
+      ]
+    },
+    {
+      "id": "b1_u03_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Wünsche, Höflichkeit & Hypothesen“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الرغبات والتهذيب والافتراض». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Wishes, politeness & hypotheses”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u03_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U03_FOUNDATION"
+      ]
+    }
+  ]
+}

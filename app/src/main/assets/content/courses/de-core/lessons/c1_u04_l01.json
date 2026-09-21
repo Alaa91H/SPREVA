@@ -1,0 +1,154 @@
+{
+  "id": "c1_u04_l01",
+  "unitId": "de-core-c1-u04",
+  "title": {
+    "de": "Konjunktiv I/II, Quellenrahmen und mehrstufige Wiedergabe",
+    "ar": "Konjunktiv I/II وإطار المصدر والنقل متعدد المراحل",
+    "en": "Konjunktiv I/II, source framing and multi-layer reporting"
+  },
+  "canDo": [
+    "C1_U04_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u04_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Konjunktiv I/II, Quellenrahmen und mehrstufige Wiedergabe",
+        "ar": "Konjunktiv I/II وإطار المصدر والنقل متعدد المراحل",
+        "en": "Konjunktiv I/II, source framing and multi-layer reporting"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Konjunktiv I/II, Quellenrahmen und mehrstufige Wiedergabe\n\nSystematische Erklärung:\nIn anspruchsvollen Texten muss erkennbar sein, wer was behauptet. Konjunktiv I markiert Wiedergabe; Konjunktiv II kann als Ersatz dienen oder zusätzliche Distanz/Irrealität tragen. Quellenrahmen wie „nach Angaben von“, „dem Bericht zufolge“, „X zufolge“ vermeiden falsche Zuschreibung. Bei mehrstufiger Wiedergabe muss die Quelle jeder Ebene klar bleiben.\n\nReferenzbeispiele:\n• Dem Bericht zufolge habe die Behörde bereits reagiert.\n• Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n• Kritiker hielten dagegen, die Maßnahme greife zu kurz.\n\nAuthentische Einsatzfelder:\nPresse, Protokoll, Forschung, Konfliktklärung oder Management: Aussagen verschiedener Beteiligter neutral dokumentieren und anschließend getrennt bewerten.\n\nDiagnostischer Hinweis:\nIndirekte Rede darf eine Behauptung nicht in eine Tatsache verwandeln. Die sprachliche Distanz bleibt wichtig, besonders bei strittigen oder nicht verifizierten Aussagen.",
+        "ar": "هدف C1: Konjunktiv I/II وإطار المصدر والنقل متعدد المراحل\n\nشرح منهجي عميق:\nفي النصوص المتقدمة يجب أن يكون واضحًا من قال ماذا. Konjunktiv I للنقل، وKonjunktiv II قد يكون بديلًا أو يحمل مسافة إضافية. تعابير مثل nach Angaben von وdem Bericht zufolge تمنع نسبة القول خطأً.\n\nأمثلة مرجعية:\n• Dem Bericht zufolge habe die Behörde bereits reagiert.\n• Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n• Kritiker hielten dagegen, die Maßnahme greife zu kurz.\n\nمجالات استخدام واقعية:\nفي الصحافة أو المحاضر أو البحث أو حل الخلافات أو الإدارة: توثيق أقوال الأطراف بحياد ثم تقييمها بشكل منفصل.\n\nملاحظة تشخيصية:\nلا ينبغي للنقل غير المباشر أن يحول الادعاء إلى حقيقة. حافظ على المسافة اللغوية خصوصًا مع الأقوال المختلف عليها أو غير المتحققة.",
+        "en": "C1 competence goal: Konjunktiv I/II, source framing and multi-layer reporting\n\nSystematic explanation:\nIn advanced texts, it must be clear who claims what. Konjunktiv I marks report; Konjunktiv II can substitute or add distance/irreality. Source frames such as nach Angaben von and dem Bericht zufolge prevent false attribution. In multi-layer reporting, each source level must remain clear.\n\nReference examples:\n• Dem Bericht zufolge habe die Behörde bereits reagiert.\n• Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n• Kritiker hielten dagegen, die Maßnahme greife zu kurz.\n\nAuthentic domains:\nPress, minutes, research, conflict resolution or management: neutrally document statements from different parties and evaluate them separately.\n\nDiagnostic note:\nReported speech must not turn a claim into a fact. Maintain linguistic distance, especially for disputed or unverified statements."
+      }
+    },
+    {
+      "id": "c1_u04_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u04_l01_w1",
+          "german": "zufolge",
+          "translation": {
+            "de": "according to",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "c1_u04_l01_w2",
+          "german": "nach Angaben von",
+          "translation": {
+            "de": "according to statements by",
+            "ar": "بحسب إفادة",
+            "en": "according to statements by"
+          }
+        },
+        {
+          "id": "c1_u04_l01_w3",
+          "german": "wiedergeben",
+          "translation": {
+            "de": "report/reproduce",
+            "ar": "ينقل",
+            "en": "report/reproduce"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u04_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nIn anspruchsvollen Texten muss erkennbar sein, wer was behauptet. Konjunktiv I markiert Wiedergabe; Konjunktiv II kann als Ersatz dienen oder zusätzliche Distanz/Irrealität tragen. Quellenrahmen wie „nach Angaben von“, „dem Bericht zufolge“, „X zufolge“ vermeiden falsche Zuschreibung. Bei mehrstufiger Wiedergabe muss die Quelle jeder Ebene klar bleiben.\n\nBeispiele:\n• Dem Bericht zufolge habe die Behörde bereits reagiert.\n• Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n• Kritiker hielten dagegen, die Maßnahme greife zu kurz.",
+        "ar": "المبدأ الأساسي:\nفي النصوص المتقدمة يجب أن يكون واضحًا من قال ماذا. Konjunktiv I للنقل، وKonjunktiv II قد يكون بديلًا أو يحمل مسافة إضافية. تعابير مثل nach Angaben von وdem Bericht zufolge تمنع نسبة القول خطأً.\n\nالأمثلة:\n• Dem Bericht zufolge habe die Behörde bereits reagiert.\n• Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n• Kritiker hielten dagegen, die Maßnahme greife zu kurz.",
+        "en": "Core principle:\nIn advanced texts, it must be clear who claims what. Konjunktiv I marks report; Konjunktiv II can substitute or add distance/irreality. Source frames such as nach Angaben von and dem Bericht zufolge prevent false attribution. In multi-layer reporting, each source level must remain clear.\n\nExamples:\n• Dem Bericht zufolge habe die Behörde bereits reagiert.\n• Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n• Kritiker hielten dagegen, die Maßnahme greife zu kurz."
+      }
+    },
+    {
+      "id": "c1_u04_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "zufolge",
+        "ar": "zufolge",
+        "en": "zufolge"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "according to",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "according to statements by",
+            "ar": "بحسب إفادة",
+            "en": "according to statements by"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "report/reproduce",
+            "ar": "ينقل",
+            "en": "report/reproduce"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u04_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dem Bericht zufolge {answer} die Ursache unklar.",
+        "ar": "Dem Bericht zufolge {answer} die Ursache unklar.",
+        "en": "Dem Bericht zufolge {answer} die Ursache unklar."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "c1_u04_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Indirekte Rede, Quellen & Stimmenvielfalt“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «النقل غير المباشر وتعدد المصادر والأصوات». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Reported speech, sources & multiple voices”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u04_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U04_FOUNDATION"
+      ]
+    }
+  ]
+}

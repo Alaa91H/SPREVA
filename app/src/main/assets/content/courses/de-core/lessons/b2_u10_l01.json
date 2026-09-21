@@ -1,0 +1,154 @@
+{
+  "id": "b2_u10_l01",
+  "unitId": "de-core-b2-u10",
+  "title": {
+    "de": "Quellen markieren, Unsicherheit graduieren und Behauptungen prüfen",
+    "ar": "تحديد المصادر وتدرج عدم اليقين وفحص الادعاءات",
+    "en": "Marking sources, grading uncertainty and checking claims"
+  },
+  "canDo": [
+    "B2_U10_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u10_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Quellen markieren, Unsicherheit graduieren und Behauptungen prüfen",
+        "ar": "تحديد المصادر وتدرج عدم اليقين وفحص الادعاءات",
+        "en": "Marking sources, grading uncertainty and checking claims"
+      },
+      "body": {
+        "de": "Kompetenzziel: Quellen markieren, Unsicherheit graduieren und Behauptungen prüfen\n\nSprachsystem:\nB2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n\nReferenzbeispiele:\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt.\n\nAnwendungsdomäne:\nNachrichten, soziale Medien, Werbung oder Fachartikel: Urheber, Datum, Belege, Interessen und Gegendarstellungen prüfen und neutral zusammenfassen.\n\nQualitätskontrolle:\n„Im Internet gelesen“ ist keine Quellenangabe. Trenne Verlässlichkeit der Quelle, Qualität des Belegs und Plausibilität der Aussage voneinander.",
+        "ar": "هدف الكفاءة: تحديد المصادر وتدرج عدم اليقين وفحص الادعاءات\n\nالنظام اللغوي:\nلغة B2 تفرق بين المصدر والادعاء والتقييم: Laut Bericht…؛ Der Autor behauptet…؛ Die Daten legen nahe…؛ وتستخدم درجات اليقين مثل vermutlich وmöglicherweise.\n\nأمثلة مرجعية:\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt.\n\nمجال التطبيق:\nالأخبار ووسائل التواصل والإعلانات أو المقالات المتخصصة: فحص المصدر والتاريخ والأدلة والمصالح والردود ثم التلخيص بحياد.\n\nمراجعة الجودة:\n«قرأت على الإنترنت» ليس توثيقًا. افصل بين موثوقية المصدر وجودة الدليل ومعقولية الادعاء.",
+        "en": "Competence goal: Marking sources, grading uncertainty and checking claims\n\nLanguage system:\nB2 language distinguishes source, claim and evaluation: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …. Uncertainty can be graded with offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n\nReference examples:\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt.\n\nApplication domain:\nNews, social media, advertising or specialist articles: check author, date, evidence, interests and counterstatements, then summarize neutrally.\n\nQuality control:\n“Read online” is not a source citation. Separate source reliability, evidence quality and claim plausibility."
+      }
+    },
+    {
+      "id": "b2_u10_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u10_l01_w1",
+          "german": "die Quelle",
+          "translation": {
+            "de": "source",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "b2_u10_l01_w2",
+          "german": "der Beleg",
+          "translation": {
+            "de": "evidence",
+            "ar": "الدليل/المرجع",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "b2_u10_l01_w3",
+          "german": "die Behauptung",
+          "translation": {
+            "de": "claim",
+            "ar": "الادعاء",
+            "en": "claim"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u10_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nB2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt.",
+        "ar": "المبدأ الأساسي:\nلغة B2 تفرق بين المصدر والادعاء والتقييم: Laut Bericht…؛ Der Autor behauptet…؛ Die Daten legen nahe…؛ وتستخدم درجات اليقين مثل vermutlich وmöglicherweise.\n\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt.",
+        "en": "Core principle:\nB2 language distinguishes source, claim and evaluation: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …. Uncertainty can be graded with offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n\n• Laut dem Bericht ist die Zahl gestiegen.\n• Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n• Die Behauptung wird im Artikel nicht durch eine Quelle belegt."
+      }
+    },
+    {
+      "id": "b2_u10_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "die Quelle",
+        "ar": "die Quelle",
+        "en": "die Quelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "source",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "evidence",
+            "ar": "الدليل/المرجع",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "claim",
+            "ar": "الادعاء",
+            "en": "claim"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u10_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Studie legt einen Zusammenhang {answer}.",
+        "ar": "Die Studie legt einen Zusammenhang {answer}.",
+        "en": "Die Studie legt einen Zusammenhang {answer}."
+      },
+      "acceptedAnswers": [
+        "nahe"
+      ]
+    },
+    {
+      "id": "b2_u10_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Medienkompetenz & Quellenkritik“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الكفاءة الإعلامية ونقد المصادر». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Media literacy & source evaluation”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u10_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U10_FOUNDATION"
+      ]
+    }
+  ]
+}
