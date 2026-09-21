@@ -100,8 +100,22 @@ class LessonViewModel @Inject constructor(
                 ttsProvider.speakGerman(article = null, text = activity.question.de)
 
             is com.spreva.core.model.LearningActivity.ListeningChoice ->
-                // The task IS the audio — the header speaker button replays it.
-                courseAudioPlayer.play(activity.audio)
+                courseAudioPlayer.playOrSpeak(
+                    contentPath = activity.audio,
+                    fallbackText = activity.text?.de.orEmpty(),
+                )
+
+            is com.spreva.core.model.LearningActivity.Dictation ->
+                courseAudioPlayer.playOrSpeak(
+                    contentPath = activity.audio,
+                    fallbackText = activity.text.de,
+                )
+
+            is com.spreva.core.model.LearningActivity.FreeWrite ->
+                ttsProvider.speakGerman(article = null, text = activity.prompt.de)
+
+            is com.spreva.core.model.LearningActivity.SpeakingPrompt ->
+                ttsProvider.speakGerman(article = null, text = activity.prompt.de)
 
             is com.spreva.core.model.LearningActivity.Cloze ->
                 ttsProvider.speakGerman(
@@ -133,7 +147,23 @@ class LessonViewModel @Inject constructor(
         val lesson = state.lesson ?: return
         val activity = lesson.activities.getOrNull(state.currentIndex)
         if (activity is com.spreva.core.model.LearningActivity.ListeningChoice) {
-            courseAudioPlayer.play(activity.audio)
+            courseAudioPlayer.playOrSpeak(
+                contentPath = activity.audio,
+                fallbackText = activity.text?.de.orEmpty(),
+            )
+        }
+    }
+
+    /** Replays a dictation source without revealing its target text. */
+    fun playDictationAudio() {
+        val state = _uiState.value
+        val lesson = state.lesson ?: return
+        val activity = lesson.activities.getOrNull(state.currentIndex)
+        if (activity is com.spreva.core.model.LearningActivity.Dictation) {
+            courseAudioPlayer.playOrSpeak(
+                contentPath = activity.audio,
+                fallbackText = activity.text.de,
+            )
         }
     }
 
@@ -157,7 +187,9 @@ class LessonViewModel @Inject constructor(
         _uiState.value = _uiState.value.copy(
             isRecording = false,
             hasRecording = recording != null,
+            recordingDurationMs = recording?.durationMs,
         )
+        lastRecording?.takeIf { it != recording?.file }?.delete()
         lastRecording = recording?.file
         computeSimilarity()
     }
@@ -197,12 +229,12 @@ class LessonViewModel @Inject constructor(
     }
 
     /** Plays the model recording for the current speaking activity. */
-    fun playModelAudio() {
+    fun playModelAudio(speed: Float = 1f) {
         val state = _uiState.value
         val lesson = state.lesson ?: return
         val activity = lesson.activities.getOrNull(state.currentIndex)
         if (activity is com.spreva.core.model.LearningActivity.SpeakingRepeat) {
-            courseAudioPlayer.play(activity.audio)
+            courseAudioPlayer.play(activity.audio, speed)
         }
     }
 
@@ -271,6 +303,31 @@ class LessonViewModel @Inject constructor(
                 )
             }
 
+            is com.spreva.core.model.LearningActivity.Dictation -> {
+                val normalized = normalize(state.typedAnswer)
+                AnswerState(
+                    correct = activity.acceptedAnswers.any { normalize(it) == normalized },
+                    solution = activity.acceptedAnswers.firstOrNull(),
+                )
+            }
+
+            is com.spreva.core.model.LearningActivity.FreeWrite -> {
+                val count = wordCount(state.typedAnswer)
+                AnswerState(
+                    correct = count >= activity.minWords,
+                    solution = if (count >= activity.minWords) null else "Minimum ${activity.minWords} words",
+                )
+            }
+
+            is com.spreva.core.model.LearningActivity.SpeakingPrompt -> {
+                val duration = state.recordingDurationMs ?: 0L
+                val correct = state.hasRecording && duration >= activity.minSeconds * 1_000L
+                AnswerState(
+                    correct = correct,
+                    solution = if (correct) null else "Record at least ${activity.minSeconds} seconds",
+                )
+            }
+
             else -> AnswerState(correct = true)
         }
 
@@ -292,11 +349,19 @@ class LessonViewModel @Inject constructor(
         val lesson = state.lesson ?: return
         val nextIndex = (state.currentIndex + 1).coerceAtMost(lesson.activities.lastIndex)
         currentActivityShownAtMs = clock.now().toEpochMilli()
+        voiceRecorder.cancel()
+        lastRecording?.delete()
+        lastRecording = null
         _uiState.value = state.copy(
             currentIndex = nextIndex,
             selectedOptionId = null,
             typedAnswer = "",
             answerState = null,
+            isRecording = false,
+            hasRecording = false,
+            similarityScore = null,
+            recordingError = null,
+            recordingDurationMs = null,
         )
     }
 
@@ -340,8 +405,12 @@ class LessonViewModel @Inject constructor(
         }
     }
 
+    private fun wordCount(text: String): Int =
+        text.trim().split(Regex("\\s+")).count { it.isNotBlank() }
+
     private fun normalize(answer: String): String = answer
         .trim()
         .lowercase()
+        .replace(Regex("\\s+"), " ")
         .trimEnd('.', '!', '?', ',')
 }
