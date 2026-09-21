@@ -17,9 +17,14 @@ import com.spreva.core.datastore.SettingsDataSource
 import com.spreva.core.model.ActivityAttempt
 import com.spreva.core.model.Lesson
 import com.spreva.core.model.LessonId
+import com.spreva.core.model.ProductionSelfAssessment
+import com.spreva.core.model.RubricRating
 import com.spreva.domain.curriculum.GetLesson
 import com.spreva.domain.learning.CompleteLesson
 import com.spreva.domain.learning.LearningRepository
+import com.spreva.domain.learning.ProductionRubricFactory
+import com.spreva.domain.learning.ProductionRubricScorer
+import com.spreva.domain.learning.RecordProductionSelfAssessment
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -46,6 +51,9 @@ class LessonViewModel @Inject constructor(
     private val getLesson: GetLesson,
     private val learningRepository: LearningRepository,
     private val completeLesson: CompleteLesson,
+    private val rubricFactory: ProductionRubricFactory,
+    private val rubricScorer: ProductionRubricScorer,
+    private val recordProductionSelfAssessment: RecordProductionSelfAssessment,
     private val clock: AppClock,
     private val ttsProvider: TtsProvider,
     private val courseAudioPlayer: CourseAudioPlayer,
@@ -350,6 +358,11 @@ class LessonViewModel @Inject constructor(
             activity is com.spreva.core.model.LearningActivity.Dictation
         val productive = activity is com.spreva.core.model.LearningActivity.FreeWrite ||
             activity is com.spreva.core.model.LearningActivity.SpeakingPrompt
+        val rubric = if (productive && answerState.correct) {
+            rubricFactory.forActivity(lesson.id, activity)
+        } else {
+            null
+        }
 
         _uiState.value = state.copy(
             answerState = answerState,
@@ -358,7 +371,68 @@ class LessonViewModel @Inject constructor(
             objectiveCorrect = state.objectiveCorrect + if (objective && answerState.correct) 1 else 0,
             productiveAttempted = state.productiveAttempted + if (productive) 1 else 0,
             productiveCompleted = state.productiveCompleted + if (productive && answerState.correct) 1 else 0,
+            productionRubric = rubric,
+            rubricRatings = emptyMap(),
+            rubricSubmitted = false,
+            rubricScorePercent = null,
+            rubricSaveError = null,
         )
+    }
+
+    fun onRubricRatingChanged(criterionId: String, rating: RubricRating) {
+        val state = _uiState.value
+        if (state.rubricSubmitted || state.productionRubric == null) return
+        _uiState.value = state.copy(
+            rubricRatings = state.rubricRatings + (criterionId to rating),
+            rubricSaveError = null,
+        )
+    }
+
+    fun submitProductionRubric() {
+        val state = _uiState.value
+        val lesson = state.lesson ?: return
+        val rubric = state.productionRubric ?: return
+        if (!state.canSubmitRubric || state.rubricSubmitted) return
+        val activity = lesson.activities.getOrNull(state.currentIndex) ?: return
+        val score = runCatching { rubricScorer.score(rubric, state.rubricRatings) }
+            .getOrElse {
+                _uiState.value = state.copy(rubricSaveError = it.message ?: "Rubric incomplete")
+                return
+            }
+
+        val assessment = ProductionSelfAssessment(
+            lessonId = lesson.id,
+            activityId = activity.id,
+            level = rubric.level,
+            mode = rubric.mode,
+            ratings = state.rubricRatings,
+            selfScorePercent = score,
+            wordCount = (activity as? com.spreva.core.model.LearningActivity.FreeWrite)
+                ?.let { wordCount(state.typedAnswer) },
+            durationMs = (activity as? com.spreva.core.model.LearningActivity.SpeakingPrompt)
+                ?.let { state.recordingDurationMs },
+        )
+
+        viewModelScope.launch {
+            runCatching {
+                recordProductionSelfAssessment(assessment, clock.now())
+            }.onSuccess {
+                val latest = _uiState.value
+                if (latest.lesson?.id == lesson.id &&
+                    latest.lesson.activities.getOrNull(latest.currentIndex)?.id == activity.id
+                ) {
+                    _uiState.value = latest.copy(
+                        rubricSubmitted = true,
+                        rubricScorePercent = score,
+                        rubricSaveError = null,
+                    )
+                }
+            }.onFailure {
+                _uiState.value = _uiState.value.copy(
+                    rubricSaveError = it.message ?: "Could not save self-review",
+                )
+            }
+        }
     }
 
     /** Moves to the next activity (or stays on the summary). */
@@ -380,6 +454,11 @@ class LessonViewModel @Inject constructor(
             similarityScore = null,
             recordingError = null,
             recordingDurationMs = null,
+            productionRubric = null,
+            rubricRatings = emptyMap(),
+            rubricSubmitted = false,
+            rubricScorePercent = null,
+            rubricSaveError = null,
         )
     }
 
