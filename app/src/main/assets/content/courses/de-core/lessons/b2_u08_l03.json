@@ -1,0 +1,296 @@
+{
+  "id": "b2_u08_l03",
+  "unitId": "de-core-b2-u08",
+  "title": {
+    "de": "Intensivtraining: Präsentieren & Daten beschreiben",
+    "ar": "تدريب مكثف: العرض ووصف البيانات",
+    "en": "Mastery lab: Presentations & describing data"
+  },
+  "canDo": [
+    "B2_U08_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u08_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Präsentieren & Daten beschreiben“. Nach jeder Lösung: semantische Funktion erklären, mindestens zwei stilistische Alternativen bilden und sagen, welche Variante in Alltag, Beruf oder Fachtext am passendsten ist.",
+        "ar": "عمّق «العرض ووصف البيانات». بعد كل حل اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين، وحدد الأنسب في اليومي أو العمل أو النص المتخصص.",
+        "en": "Deepen “Presentations & describing data”. After each solution explain the semantic function, create at least two stylistic alternatives and decide which best fits everyday, professional or specialist contexts."
+      }
+    },
+    {
+      "id": "b2_u08_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u08_l03_w1",
+          "german": "steigen",
+          "translation": {
+            "de": "rise",
+            "ar": "يرتفع",
+            "en": "rise"
+          }
+        },
+        {
+          "id": "b2_u08_l03_w2",
+          "german": "sinken",
+          "translation": {
+            "de": "fall",
+            "ar": "ينخفض",
+            "en": "fall"
+          }
+        },
+        {
+          "id": "b2_u08_l03_w3",
+          "german": "schwanken",
+          "translation": {
+            "de": "fluctuate",
+            "ar": "يتذبذب",
+            "en": "fluctuate"
+          }
+        },
+        {
+          "id": "b2_u08_l03_w4",
+          "german": "der Anteil",
+          "translation": {
+            "de": "share/proportion",
+            "ar": "النسبة",
+            "en": "share/proportion"
+          }
+        },
+        {
+          "id": "b2_u08_l03_w5",
+          "german": "der Zusammenhang",
+          "translation": {
+            "de": "association",
+            "ar": "الارتباط",
+            "en": "association"
+          }
+        },
+        {
+          "id": "b2_u08_l03_w6",
+          "german": "darauf hindeuten",
+          "translation": {
+            "de": "indicate",
+            "ar": "يشير إلى",
+            "en": "indicate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u08_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Anteil ist deutlich {answer}.",
+        "ar": "Der Anteil ist deutlich {answer}.",
+        "en": "Der Anteil ist deutlich {answer}."
+      },
+      "acceptedAnswers": [
+        "gestiegen"
+      ]
+    },
+    {
+      "id": "b2_u08_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten könnten darauf {answer}, dass sich etwas verändert.",
+        "ar": "Die Daten könnten darauf {answer}, dass sich etwas verändert.",
+        "en": "Die Daten könnten darauf {answer}, dass sich etwas verändert."
+      },
+      "acceptedAnswers": [
+        "hindeuten"
+      ]
+    },
+    {
+      "id": "b2_u08_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zwischen 2024 und 2026 ist {answer} Anteil deutlich gestiegen.",
+        "ar": "Zwischen 2024 und 2026 ist {answer} Anteil deutlich gestiegen.",
+        "en": "Zwischen 2024 und 2026 ist {answer} Anteil deutlich gestiegen."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u08_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Im Vergleich zur ersten Gruppe liegt {answer} Wert etwa zehn Prozentpunkte höher.",
+        "ar": "Im Vergleich zur ersten Gruppe liegt {answer} Wert etwa zehn Prozentpunkte höher.",
+        "en": "Im Vergleich zur ersten Gruppe liegt {answer} Wert etwa zehn Prozentpunkte höher."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u08_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten könnten darauf hindeuten, {answer} sich das Verhalten verändert.",
+        "ar": "Die Daten könnten darauf hindeuten, {answer} sich das Verhalten verändert.",
+        "en": "Die Daten könnten darauf hindeuten, {answer} sich das Verhalten verändert."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "b2_u08_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beruf, Studium, Weiterbildung oder Prüfung: Diagramm erläutern, wichtigste Trends auswählen und Grenzen {answer} Daten benennen.",
+        "ar": "Beruf, Studium, Weiterbildung oder Prüfung: Diagramm erläutern, wichtigste Trends auswählen und Grenzen {answer} Daten benennen.",
+        "en": "Beruf, Studium, Weiterbildung oder Prüfung: Diagramm erläutern, wichtigste Trends auswählen und Grenzen {answer} Daten benennen."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u08_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "steigen",
+        "ar": "steigen",
+        "en": "steigen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "rise",
+            "ar": "يرتفع",
+            "en": "rise"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "fall",
+            "ar": "ينخفض",
+            "en": "fall"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "fluctuate",
+            "ar": "يتذبذب",
+            "en": "fluctuate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u08_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "der Anteil",
+        "ar": "der Anteil",
+        "en": "der Anteil"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "share/proportion",
+            "ar": "النسبة",
+            "en": "share/proportion"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "association",
+            "ar": "الارتباط",
+            "en": "association"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "indicate",
+            "ar": "يشير إلى",
+            "en": "indicate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u08_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n2. Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n3. Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert.\n4. Beruf, Studium, Weiterbildung oder Prüfung: Diagramm erläutern, wichtigste Trends auswählen und Grenzen der Daten benennen.\n\nFormuliere je eine nahe Alternative und erkläre, was sich ändert: Logik, Modalität, Fokus, Register oder Informationsdichte. Markiere Varianten, die grammatisch möglich, aber im Kontext unidiomatisch sind.",
+        "ar": "نماذج البداية:\n1. Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n2. Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n3. Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert.\n4. Beruf, Studium, Weiterbildung oder Prüfung: Diagramm erläutern, wichtigste Trends auswählen und Grenzen der Daten benennen.\n\nأنشئ بديلًا قريبًا لكل نموذج واشرح ما يتغير: المنطق أو درجة اليقين أو البؤرة أو السجل أو كثافة المعلومات.",
+        "en": "Base patterns:\n1. Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n2. Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n3. Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert.\n4. Beruf, Studium, Weiterbildung oder Prüfung: Diagramm erläutern, wichtigste Trends auswählen und Grenzen der Daten benennen.\n\nCreate a close alternative for each and explain what changes: logic, modality, focus, register or information density."
+      }
+    },
+    {
+      "id": "b2_u08_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Zu jeder Kernaussage fünf Fassungen: verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ formeller Fachstil. Danach Bedeutungsnuancen und Kollokationen vergleichen.",
+        "ar": "لكل فكرة خمس صيغ: فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ رسمي متخصص. ثم قارن الفروق والمتلازمات.",
+        "en": "Create five versions: verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ cautiously hedged; everyday ↔ formal specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u08_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "Schreibe 140–180 Wörter oder sprich drei Minuten. Trenne Beobachtung, Interpretation und Bewertung; integriere drei Zielstrukturen, ein Gegenargument, eine Einschränkung und eine begründete Schlussfolgerung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "اكتب 140–180 كلمة أو تحدث ثلاث دقائق. افصل بين الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات وحجة مضادة وقيدًا وخلاصة معللة ثم راجع السجل والترابط والدقة.",
+        "en": "Write 140–180 words or speak for three minutes. Separate observation, interpretation and evaluation; include three target structures, a counterargument, a limitation and a reasoned conclusion. Revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u08_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U08_MASTERY"
+      ]
+    }
+  ]
+}

@@ -1701,6 +1701,15 @@
                 "en": "Sounding natural and context-appropriate"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u06_l03",
+              "title": {
+                "de": "Intensivtraining: Register, Modalpartikeln & Pragmatik",
+                "ar": "تدريب مكثف: السجل اللغوي والجسيمات المقامية",
+                "en": "Mastery lab: Register, modal particles & pragmatics"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1729,6 +1738,15 @@
                 "en": "Defending a position persuasively and fairly"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u07_l03",
+              "title": {
+                "de": "Intensivtraining: Argumentieren & Debattieren",
+                "ar": "تدريب مكثف: الحجاج والمناظرة",
+                "en": "Mastery lab: Argumentation & debate"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1757,6 +1775,15 @@
                 "en": "Presenting charts and results orally"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u08_l03",
+              "title": {
+                "de": "Intensivtraining: Präsentieren & Daten beschreiben",
+                "ar": "تدريب مكثف: العرض ووصف البيانات",
+                "en": "Mastery lab: Presentations & describing data"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1785,6 +1812,15 @@
                 "en": "Negotiating toward solutions"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u09_l03",
+              "title": {
+                "de": "Intensivtraining: Verhandeln & Konflikte lösen",
+                "ar": "تدريب مكثف: التفاوض وحل النزاعات",
+                "en": "Mastery lab: Negotiation & conflict resolution"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1813,6 +1849,15 @@
                 "en": "Critically summarizing information"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u10_l03",
+              "title": {
+                "de": "Intensivtraining: Medienkompetenz & Quellenkritik",
+                "ar": "تدريب مكثف: الكفاءة الإعلامية ونقد المصادر",
+                "en": "Mastery lab: Media literacy & source evaluation"
+              },
+              "activityCount": 14
             }
           ]
         },

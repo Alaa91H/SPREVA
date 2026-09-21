@@ -1,0 +1,296 @@
+{
+  "id": "b2_u09_l03",
+  "unitId": "de-core-b2-u09",
+  "title": {
+    "de": "Intensivtraining: Verhandeln & Konflikte lösen",
+    "ar": "تدريب مكثف: التفاوض وحل النزاعات",
+    "en": "Mastery lab: Negotiation & conflict resolution"
+  },
+  "canDo": [
+    "B2_U09_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u09_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Verhandeln & Konflikte lösen“. Nach jeder Lösung: semantische Funktion erklären, mindestens zwei stilistische Alternativen bilden und sagen, welche Variante in Alltag, Beruf oder Fachtext am passendsten ist.",
+        "ar": "عمّق «التفاوض وحل النزاعات». بعد كل حل اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين، وحدد الأنسب في اليومي أو العمل أو النص المتخصص.",
+        "en": "Deepen “Negotiation & conflict resolution”. After each solution explain the semantic function, create at least two stylistic alternatives and decide which best fits everyday, professional or specialist contexts."
+      }
+    },
+    {
+      "id": "b2_u09_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u09_l03_w1",
+          "german": "das Interesse",
+          "translation": {
+            "de": "interest",
+            "ar": "المصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "b2_u09_l03_w2",
+          "german": "das Zugeständnis",
+          "translation": {
+            "de": "concession",
+            "ar": "التنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "b2_u09_l03_w3",
+          "german": "die Bedingung",
+          "translation": {
+            "de": "condition",
+            "ar": "الشرط",
+            "en": "condition"
+          }
+        },
+        {
+          "id": "b2_u09_l03_w4",
+          "german": "deeskalieren",
+          "translation": {
+            "de": "de-escalate",
+            "ar": "يخفف التصعيد",
+            "en": "de-escalate"
+          }
+        },
+        {
+          "id": "b2_u09_l03_w5",
+          "german": "vereinbaren",
+          "translation": {
+            "de": "agree",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "b2_u09_l03_w6",
+          "german": "entgegenkommen",
+          "translation": {
+            "de": "accommodate",
+            "ar": "يتنازل/يبدي مرونة",
+            "en": "accommodate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u09_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unter der {answer}, dass Sie heute bestätigen, liefern wir Freitag.",
+        "ar": "Unter der {answer}, dass Sie heute bestätigen, liefern wir Freitag.",
+        "en": "Unter der {answer}, dass Sie heute bestätigen, liefern wir Freitag."
+      },
+      "acceptedAnswers": [
+        "Bedingung"
+      ]
+    },
+    {
+      "id": "b2_u09_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wäre es für Sie {answer}, den Termin zu verschieben?",
+        "ar": "Wäre es für Sie {answer}, den Termin zu verschieben?",
+        "en": "Wäre es für Sie {answer}, den Termin zu verschieben?"
+      },
+      "acceptedAnswers": [
+        "denkbar"
+      ]
+    },
+    {
+      "id": "b2_u09_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wäre es für Sie denkbar, {answer} Termin um einen Tag zu verschieben?",
+        "ar": "Wäre es für Sie denkbar, {answer} Termin um einen Tag zu verschieben?",
+        "en": "Wäre es für Sie denkbar, {answer} Termin um einen Tag zu verschieben?"
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "b2_u09_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unter der Bedingung, {answer} die Lieferung bis Freitag erfolgt, können wir zustimmen.",
+        "ar": "Unter der Bedingung, {answer} die Lieferung bis Freitag erfolgt, können wir zustimmen.",
+        "en": "Unter der Bedingung, {answer} die Lieferung bis Freitag erfolgt, können wir zustimmen."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "b2_u09_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich verstehe Ihren Punkt, zugleich müssen wir {answer} Frist einhalten.",
+        "ar": "Ich verstehe Ihren Punkt, zugleich müssen wir {answer} Frist einhalten.",
+        "en": "Ich verstehe Ihren Punkt, zugleich müssen wir {answer} Frist einhalten."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b2_u09_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Arbeitszeit, Mietproblem, Dienstleistung, Projekt oder Teamkonflikt: Interessen klären, Optionen anbieten {answer} eine belastbare Vereinbarung formulieren.",
+        "ar": "Arbeitszeit, Mietproblem, Dienstleistung, Projekt oder Teamkonflikt: Interessen klären, Optionen anbieten {answer} eine belastbare Vereinbarung formulieren.",
+        "en": "Arbeitszeit, Mietproblem, Dienstleistung, Projekt oder Teamkonflikt: Interessen klären, Optionen anbieten {answer} eine belastbare Vereinbarung formulieren."
+      },
+      "acceptedAnswers": [
+        "und"
+      ]
+    },
+    {
+      "id": "b2_u09_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "das Interesse",
+        "ar": "das Interesse",
+        "en": "das Interesse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "interest",
+            "ar": "المصلحة",
+            "en": "interest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "concession",
+            "ar": "التنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "condition",
+            "ar": "الشرط",
+            "en": "condition"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u09_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "deeskalieren",
+        "ar": "deeskalieren",
+        "en": "deeskalieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "de-escalate",
+            "ar": "يخفف التصعيد",
+            "en": "de-escalate"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "agree",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "accommodate",
+            "ar": "يتنازل/يبدي مرونة",
+            "en": "accommodate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u09_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n2. Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n3. Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten.\n4. Arbeitszeit, Mietproblem, Dienstleistung, Projekt oder Teamkonflikt: Interessen klären, Optionen anbieten und eine belastbare Vereinbarung formulieren.\n\nFormuliere je eine nahe Alternative und erkläre, was sich ändert: Logik, Modalität, Fokus, Register oder Informationsdichte. Markiere Varianten, die grammatisch möglich, aber im Kontext unidiomatisch sind.",
+        "ar": "نماذج البداية:\n1. Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n2. Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n3. Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten.\n4. Arbeitszeit, Mietproblem, Dienstleistung, Projekt oder Teamkonflikt: Interessen klären, Optionen anbieten und eine belastbare Vereinbarung formulieren.\n\nأنشئ بديلًا قريبًا لكل نموذج واشرح ما يتغير: المنطق أو درجة اليقين أو البؤرة أو السجل أو كثافة المعلومات.",
+        "en": "Base patterns:\n1. Wäre es für Sie denkbar, den Termin um einen Tag zu verschieben?\n2. Unter der Bedingung, dass die Lieferung bis Freitag erfolgt, können wir zustimmen.\n3. Ich verstehe Ihren Punkt, zugleich müssen wir die Frist einhalten.\n4. Arbeitszeit, Mietproblem, Dienstleistung, Projekt oder Teamkonflikt: Interessen klären, Optionen anbieten und eine belastbare Vereinbarung formulieren.\n\nCreate a close alternative for each and explain what changes: logic, modality, focus, register or information density."
+      }
+    },
+    {
+      "id": "b2_u09_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Zu jeder Kernaussage fünf Fassungen: verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ formeller Fachstil. Danach Bedeutungsnuancen und Kollokationen vergleichen.",
+        "ar": "لكل فكرة خمس صيغ: فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ رسمي متخصص. ثم قارن الفروق والمتلازمات.",
+        "en": "Create five versions: verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ cautiously hedged; everyday ↔ formal specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u09_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "Schreibe 140–180 Wörter oder sprich drei Minuten. Trenne Beobachtung, Interpretation und Bewertung; integriere drei Zielstrukturen, ein Gegenargument, eine Einschränkung und eine begründete Schlussfolgerung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "اكتب 140–180 كلمة أو تحدث ثلاث دقائق. افصل بين الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات وحجة مضادة وقيدًا وخلاصة معللة ثم راجع السجل والترابط والدقة.",
+        "en": "Write 140–180 words or speak for three minutes. Separate observation, interpretation and evaluation; include three target structures, a counterargument, a limitation and a reasoned conclusion. Revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u09_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U09_MASTERY"
+      ]
+    }
+  ]
+}

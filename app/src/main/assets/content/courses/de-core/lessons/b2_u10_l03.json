@@ -1,0 +1,296 @@
+{
+  "id": "b2_u10_l03",
+  "unitId": "de-core-b2-u10",
+  "title": {
+    "de": "Intensivtraining: Medienkompetenz & Quellenkritik",
+    "ar": "تدريب مكثف: الكفاءة الإعلامية ونقد المصادر",
+    "en": "Mastery lab: Media literacy & source evaluation"
+  },
+  "canDo": [
+    "B2_U10_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u10_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Medienkompetenz & Quellenkritik“. Nach jeder Lösung: semantische Funktion erklären, mindestens zwei stilistische Alternativen bilden und sagen, welche Variante in Alltag, Beruf oder Fachtext am passendsten ist.",
+        "ar": "عمّق «الكفاءة الإعلامية ونقد المصادر». بعد كل حل اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين، وحدد الأنسب في اليومي أو العمل أو النص المتخصص.",
+        "en": "Deepen “Media literacy & source evaluation”. After each solution explain the semantic function, create at least two stylistic alternatives and decide which best fits everyday, professional or specialist contexts."
+      }
+    },
+    {
+      "id": "b2_u10_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u10_l03_w1",
+          "german": "die Quelle",
+          "translation": {
+            "de": "source",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "b2_u10_l03_w2",
+          "german": "der Beleg",
+          "translation": {
+            "de": "evidence",
+            "ar": "الدليل/المرجع",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "b2_u10_l03_w3",
+          "german": "die Behauptung",
+          "translation": {
+            "de": "claim",
+            "ar": "الادعاء",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "b2_u10_l03_w4",
+          "german": "nachvollziehbar",
+          "translation": {
+            "de": "traceable",
+            "ar": "قابل للتتبع/الفهم",
+            "en": "traceable"
+          }
+        },
+        {
+          "id": "b2_u10_l03_w5",
+          "german": "widerlegen",
+          "translation": {
+            "de": "disprove",
+            "ar": "يدحض",
+            "en": "disprove"
+          }
+        },
+        {
+          "id": "b2_u10_l03_w6",
+          "german": "nahelegen",
+          "translation": {
+            "de": "suggest",
+            "ar": "يرجح/يشير",
+            "en": "suggest"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u10_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Studie legt einen Zusammenhang {answer}.",
+        "ar": "Die Studie legt einen Zusammenhang {answer}.",
+        "en": "Die Studie legt einen Zusammenhang {answer}."
+      },
+      "acceptedAnswers": [
+        "nahe"
+      ]
+    },
+    {
+      "id": "b2_u10_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Behauptung wird nicht durch Daten {answer}.",
+        "ar": "Die Behauptung wird nicht durch Daten {answer}.",
+        "en": "Die Behauptung wird nicht durch Daten {answer}."
+      },
+      "acceptedAnswers": [
+        "belegt"
+      ]
+    },
+    {
+      "id": "b2_u10_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "B2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; {answer} Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.",
+        "ar": "B2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; {answer} Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.",
+        "en": "B2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; {answer} Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "b2_u10_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Laut dem Bericht ist {answer} Zahl gestiegen.",
+        "ar": "Laut dem Bericht ist {answer} Zahl gestiegen.",
+        "en": "Laut dem Bericht ist {answer} Zahl gestiegen."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b2_u10_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.",
+        "ar": "{answer} Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.",
+        "en": "{answer} Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u10_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Behauptung wird im Artikel nicht durch eine Quelle belegt.",
+        "ar": "{answer} Behauptung wird im Artikel nicht durch eine Quelle belegt.",
+        "en": "{answer} Behauptung wird im Artikel nicht durch eine Quelle belegt."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u10_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "die Quelle",
+        "ar": "die Quelle",
+        "en": "die Quelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "source",
+            "ar": "المصدر",
+            "en": "source"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "evidence",
+            "ar": "الدليل/المرجع",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "claim",
+            "ar": "الادعاء",
+            "en": "claim"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u10_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "nachvollziehbar",
+        "ar": "nachvollziehbar",
+        "en": "nachvollziehbar"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "traceable",
+            "ar": "قابل للتتبع/الفهم",
+            "en": "traceable"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "disprove",
+            "ar": "يدحض",
+            "en": "disprove"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "suggest",
+            "ar": "يرجح/يشير",
+            "en": "suggest"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u10_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. B2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n2. Laut dem Bericht ist die Zahl gestiegen.\n3. Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n4. Die Behauptung wird im Artikel nicht durch eine Quelle belegt.\n\nFormuliere je eine nahe Alternative und erkläre, was sich ändert: Logik, Modalität, Fokus, Register oder Informationsdichte. Markiere Varianten, die grammatisch möglich, aber im Kontext unidiomatisch sind.",
+        "ar": "نماذج البداية:\n1. B2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n2. Laut dem Bericht ist die Zahl gestiegen.\n3. Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n4. Die Behauptung wird im Artikel nicht durch eine Quelle belegt.\n\nأنشئ بديلًا قريبًا لكل نموذج واشرح ما يتغير: المنطق أو درجة اليقين أو البؤرة أو السجل أو كثافة المعلومات.",
+        "en": "Base patterns:\n1. B2-Sprache unterscheidet Quelle, Behauptung und Bewertung: Laut Bericht …; Der Autor behauptet …; Die Daten belegen/legen nahe …; Diese Schlussfolgerung ist nur teilweise gestützt. Unsicherheitsmarker: offenbar, vermutlich, möglicherweise, nach bisherigen Erkenntnissen.\n2. Laut dem Bericht ist die Zahl gestiegen.\n3. Die Studie legt einen Zusammenhang nahe, beweist jedoch keine Ursache.\n4. Die Behauptung wird im Artikel nicht durch eine Quelle belegt.\n\nCreate a close alternative for each and explain what changes: logic, modality, focus, register or information density."
+      }
+    },
+    {
+      "id": "b2_u10_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Zu jeder Kernaussage fünf Fassungen: verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ formeller Fachstil. Danach Bedeutungsnuancen und Kollokationen vergleichen.",
+        "ar": "لكل فكرة خمس صيغ: فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ رسمي متخصص. ثم قارن الفروق والمتلازمات.",
+        "en": "Create five versions: verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ cautiously hedged; everyday ↔ formal specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u10_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "Schreibe 140–180 Wörter oder sprich drei Minuten. Trenne Beobachtung, Interpretation und Bewertung; integriere drei Zielstrukturen, ein Gegenargument, eine Einschränkung und eine begründete Schlussfolgerung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "اكتب 140–180 كلمة أو تحدث ثلاث دقائق. افصل بين الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات وحجة مضادة وقيدًا وخلاصة معللة ثم راجع السجل والترابط والدقة.",
+        "en": "Write 140–180 words or speak for three minutes. Separate observation, interpretation and evaluation; include three target structures, a counterargument, a limitation and a reasoned conclusion. Revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u10_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U10_MASTERY"
+      ]
+    }
+  ]
+}
