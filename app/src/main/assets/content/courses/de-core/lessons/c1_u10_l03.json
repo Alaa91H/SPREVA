@@ -1,0 +1,296 @@
+{
+  "id": "c1_u10_l03",
+  "unitId": "de-core-c1-u10",
+  "title": {
+    "de": "Intensivtraining: Rhetorik, Framing & Diskursanalyse",
+    "ar": "تدريب مكثف: البلاغة والتأطير وتحليل الخطاب",
+    "en": "Mastery lab: Rhetoric, framing & discourse analysis"
+  },
+  "canDo": [
+    "C1_U10_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u10_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Rhetorik, Framing & Diskursanalyse“. Forme dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte um, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «البلاغة والتأطير وتحليل الخطاب». أعد صياغة الفكرة بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Rhetoric, framing & discourse analysis”. Reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u10_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u10_l03_w1",
+          "german": "das Framing",
+          "translation": {
+            "de": "framing",
+            "ar": "التأطير",
+            "en": "framing"
+          }
+        },
+        {
+          "id": "c1_u10_l03_w2",
+          "german": "die Präsupposition",
+          "translation": {
+            "de": "presupposition",
+            "ar": "الافتراض المسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "c1_u10_l03_w3",
+          "german": "der Euphemismus",
+          "translation": {
+            "de": "euphemism",
+            "ar": "التعبير الملطف",
+            "en": "euphemism"
+          }
+        },
+        {
+          "id": "c1_u10_l03_w4",
+          "german": "die Metapher",
+          "translation": {
+            "de": "metaphor",
+            "ar": "الاستعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "c1_u10_l03_w5",
+          "german": "voraussetzen",
+          "translation": {
+            "de": "presuppose",
+            "ar": "يفترض مسبقًا",
+            "en": "presuppose"
+          }
+        },
+        {
+          "id": "c1_u10_l03_w6",
+          "german": "rahmen",
+          "translation": {
+            "de": "frame",
+            "ar": "يؤطّر",
+            "en": "frame"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u10_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frage {answer} voraus, dass das Problem besteht.",
+        "ar": "Die Frage {answer} voraus, dass das Problem besteht.",
+        "en": "Die Frage {answer} voraus, dass das Problem besteht."
+      },
+      "acceptedAnswers": [
+        "setzt"
+      ]
+    },
+    {
+      "id": "c1_u10_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Wortwahl {answer} die Maßnahme positiv.",
+        "ar": "Die Wortwahl {answer} die Maßnahme positiv.",
+        "en": "Die Wortwahl {answer} die Maßnahme positiv."
+      },
+      "acceptedAnswers": [
+        "rahmt"
+      ]
+    },
+    {
+      "id": "c1_u10_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Framing lenkt Aufmerksamkeit durch Auswahl und Benennung, ohne allein die Wahrheit einer Aussage zu bestimmen. Präsuppositionen setzen Informationen {answer} gegeben voraus; Euphemismen mildern, Dysphemismen verschärfen; Metaphern übertragen Deutungsmuster. C1-Analyse fragt: Welche Begriffe werden gewählt? Welche Alternativen fehlen? Welche Annahmen werden vorausgesetzt? Welche Belege stützen den Inhalt?",
+        "ar": "Framing lenkt Aufmerksamkeit durch Auswahl und Benennung, ohne allein die Wahrheit einer Aussage zu bestimmen. Präsuppositionen setzen Informationen {answer} gegeben voraus; Euphemismen mildern, Dysphemismen verschärfen; Metaphern übertragen Deutungsmuster. C1-Analyse fragt: Welche Begriffe werden gewählt? Welche Alternativen fehlen? Welche Annahmen werden vorausgesetzt? Welche Belege stützen den Inhalt?",
+        "en": "Framing lenkt Aufmerksamkeit durch Auswahl und Benennung, ohne allein die Wahrheit einer Aussage zu bestimmen. Präsuppositionen setzen Informationen {answer} gegeben voraus; Euphemismen mildern, Dysphemismen verschärfen; Metaphern übertragen Deutungsmuster. C1-Analyse fragt: Welche Begriffe werden gewählt? Welche Alternativen fehlen? Welche Annahmen werden vorausgesetzt? Welche Belege stützen den Inhalt?"
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u10_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv.",
+        "ar": "{answer} Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv.",
+        "en": "{answer} Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "c1_u10_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frage setzt voraus, {answer} ein Problem tatsächlich besteht.",
+        "ar": "Die Frage setzt voraus, {answer} ein Problem tatsächlich besteht.",
+        "en": "Die Frage setzt voraus, {answer} ein Problem tatsächlich besteht."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "c1_u10_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus.",
+        "ar": "{answer} Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus.",
+        "en": "{answer} Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "c1_u10_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "das Framing",
+        "ar": "das Framing",
+        "en": "das Framing"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "framing",
+            "ar": "التأطير",
+            "en": "framing"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "presupposition",
+            "ar": "الافتراض المسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "euphemism",
+            "ar": "التعبير الملطف",
+            "en": "euphemism"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u10_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "die Metapher",
+        "ar": "die Metapher",
+        "en": "die Metapher"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "metaphor",
+            "ar": "الاستعارة",
+            "en": "metaphor"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "presuppose",
+            "ar": "يفترض مسبقًا",
+            "en": "presuppose"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "frame",
+            "ar": "يؤطّر",
+            "en": "frame"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u10_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Framing lenkt Aufmerksamkeit durch Auswahl und Benennung, ohne allein die Wahrheit einer Aussage zu bestimmen. Präsuppositionen setzen Informationen als gegeben voraus; Euphemismen mildern, Dysphemismen verschärfen; Metaphern übertragen Deutungsmuster. C1-Analyse fragt: Welche Begriffe werden gewählt? Welche Alternativen fehlen? Welche Annahmen werden vorausgesetzt? Welche Belege stützen den Inhalt?\n2. Die Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv.\n3. Die Frage setzt voraus, dass ein Problem tatsächlich besteht.\n4. Die Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre, welche Bedeutung gleich blieb und welche Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Framing lenkt Aufmerksamkeit durch Auswahl und Benennung, ohne allein die Wahrheit einer Aussage zu bestimmen. Präsuppositionen setzen Informationen als gegeben voraus; Euphemismen mildern, Dysphemismen verschärfen; Metaphern übertragen Deutungsmuster. C1-Analyse fragt: Welche Begriffe werden gewählt? Welche Alternativen fehlen? Welche Annahmen werden vorausgesetzt? Welche Belege stützen den Inhalt?\n2. Die Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv.\n3. Die Frage setzt voraus, dass ein Problem tatsächlich besteht.\n4. Die Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus.\n\nغيّر بُعدًا واحدًا فقط: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. اشرح ما بقي من المعنى وما تغير في الأثر.",
+        "en": "Base patterns:\n1. Framing lenkt Aufmerksamkeit durch Auswahl und Benennung, ohne allein die Wahrheit einer Aussage zu bestimmen. Präsuppositionen setzen Informationen als gegeben voraus; Euphemismen mildern, Dysphemismen verschärfen; Metaphern übertragen Deutungsmuster. C1-Analyse fragt: Welche Begriffe werden gewählt? Welche Alternativen fehlen? Welche Annahmen werden vorausgesetzt? Welche Belege stützen den Inhalt?\n2. Die Formulierung „Entlastungspaket“ rahmt die Maßnahme bereits positiv.\n3. Die Frage setzt voraus, dass ein Problem tatsächlich besteht.\n4. Die Metapher vom „Datenstrom“ macht einen abstrakten Prozess anschaulich, blendet aber andere Aspekte aus.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what stayed constant and what effect changed."
+      }
+    },
+    {
+      "id": "c1_u10_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Prüfe propositionalen Kern, Evidenzstärke und Quellenklarheit.",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. تحقق من ثبات المعنى وقوة الدليل ووضوح المصدر.",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. Check propositional core, evidence strength and source clarity."
+      }
+    },
+    {
+      "id": "c1_u10_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "200–260 Wörter oder vier Minuten: vier Zielstrukturen, fair dargestellte Gegenposition, Quellen-/Evidenzhinweis und präzise Einschränkung. Revision: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "200–260 كلمة أو أربع دقائق: أربع بنيات مستهدفة، موقف مضاد ممثل بإنصاف، إشارة لمصدر/دليل وقيد دقيق. المراجعة: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "200–260 words or four minutes: four target structures, fairly represented counterposition, source/evidence marker and precise limitation. Revise: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u10_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U10_MASTERY"
+      ]
+    }
+  ]
+}

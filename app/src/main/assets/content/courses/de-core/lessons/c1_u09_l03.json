@@ -1,0 +1,297 @@
+{
+  "id": "c1_u09_l03",
+  "unitId": "de-core-c1-u09",
+  "title": {
+    "de": "Intensivtraining: Verhandeln, Moderieren & Führungskommunikation",
+    "ar": "تدريب مكثف: التفاوض وإدارة النقاش والتواصل القيادي",
+    "en": "Mastery lab: Negotiation, facilitation & leadership communication"
+  },
+  "canDo": [
+    "C1_U09_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u09_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Verhandeln, Moderieren & Führungskommunikation“. Forme dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte um, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «التفاوض وإدارة النقاش والتواصل القيادي». أعد صياغة الفكرة بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Negotiation, facilitation & leadership communication”. Reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u09_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u09_l03_w1",
+          "german": "reframen",
+          "translation": {
+            "de": "reframe",
+            "ar": "يعيد تأطير المشكلة",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "c1_u09_l03_w2",
+          "german": "verbindlich",
+          "translation": {
+            "de": "binding",
+            "ar": "ملزم/واضح الالتزام",
+            "en": "binding"
+          }
+        },
+        {
+          "id": "c1_u09_l03_w3",
+          "german": "aufgreifen",
+          "translation": {
+            "de": "take up",
+            "ar": "يلتقط/يتناول",
+            "en": "take up"
+          }
+        },
+        {
+          "id": "c1_u09_l03_w4",
+          "german": "sich verständigen auf",
+          "translation": {
+            "de": "agree on",
+            "ar": "يتفق على",
+            "en": "agree on"
+          }
+        },
+        {
+          "id": "c1_u09_l03_w5",
+          "german": "die Planungssicherheit",
+          "translation": {
+            "de": "planning certainty",
+            "ar": "وضوح التخطيط",
+            "en": "planning certainty"
+          }
+        },
+        {
+          "id": "c1_u09_l03_w6",
+          "german": "moderieren",
+          "translation": {
+            "de": "facilitate",
+            "ar": "يدير النقاش",
+            "en": "facilitate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u09_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können wir uns darauf {answer}, dass beide Seiten prüfen?",
+        "ar": "Können wir uns darauf {answer}, dass beide Seiten prüfen?",
+        "en": "Können wir uns darauf {answer}, dass beide Seiten prüfen?"
+      },
+      "acceptedAnswers": [
+        "verständigen",
+        "verstaendigen"
+      ]
+    },
+    {
+      "id": "c1_u09_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit.",
+        "ar": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit.",
+        "en": "Wenn ich Sie richtig {answer}, geht es um Planungssicherheit."
+      },
+      "acceptedAnswers": [
+        "verstehe"
+      ]
+    },
+    {
+      "id": "c1_u09_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "C1-Gesprächsführung macht implizite Interessen explizit und trennt Person, Position und Problem. Reframing formuliert einen Angriff {answer} lösbare Sachfrage. Moderationssignale: Wenn ich Sie richtig verstehe …; Worin besteht für Sie der zentrale Punkt?; Können wir festhalten, dass …? Vereinbarungen brauchen Verantwortliche, Termin und überprüfbares Ergebnis.",
+        "ar": "C1-Gesprächsführung macht implizite Interessen explizit und trennt Person, Position und Problem. Reframing formuliert einen Angriff {answer} lösbare Sachfrage. Moderationssignale: Wenn ich Sie richtig verstehe …; Worin besteht für Sie der zentrale Punkt?; Können wir festhalten, dass …? Vereinbarungen brauchen Verantwortliche, Termin und überprüfbares Ergebnis.",
+        "en": "C1-Gesprächsführung macht implizite Interessen explizit und trennt Person, Position und Problem. Reframing formuliert einen Angriff {answer} lösbare Sachfrage. Moderationssignale: Wenn ich Sie richtig verstehe …; Worin besteht für Sie der zentrale Punkt?; Können wir festhalten, dass …? Vereinbarungen brauchen Verantwortliche, Termin und überprüfbares Ergebnis."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u09_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich Sie richtig verstehe, geht {answer} Ihnen vor allem um Planungssicherheit.",
+        "ar": "Wenn ich Sie richtig verstehe, geht {answer} Ihnen vor allem um Planungssicherheit.",
+        "en": "Wenn ich Sie richtig verstehe, geht {answer} Ihnen vor allem um Planungssicherheit."
+      },
+      "acceptedAnswers": [
+        "es"
+      ]
+    },
+    {
+      "id": "c1_u09_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Können wir uns darauf verständigen, {answer} beide Seiten bis Freitag zwei Optionen prüfen?",
+        "ar": "Können wir uns darauf verständigen, {answer} beide Seiten bis Freitag zwei Optionen prüfen?",
+        "en": "Können wir uns darauf verständigen, {answer} beide Seiten bis Freitag zwei Optionen prüfen?"
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "c1_u09_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte {answer} Einwand aufgreifen und in eine konkrete Anforderung übersetzen.",
+        "ar": "Ich möchte {answer} Einwand aufgreifen und in eine konkrete Anforderung übersetzen.",
+        "en": "Ich möchte {answer} Einwand aufgreifen und in eine konkrete Anforderung übersetzen."
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "c1_u09_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "reframen",
+        "ar": "reframen",
+        "en": "reframen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reframe",
+            "ar": "يعيد تأطير المشكلة",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "binding",
+            "ar": "ملزم/واضح الالتزام",
+            "en": "binding"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "take up",
+            "ar": "يلتقط/يتناول",
+            "en": "take up"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u09_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "sich verständigen auf",
+        "ar": "sich verständigen auf",
+        "en": "sich verständigen auf"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "agree on",
+            "ar": "يتفق على",
+            "en": "agree on"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "planning certainty",
+            "ar": "وضوح التخطيط",
+            "en": "planning certainty"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "facilitate",
+            "ar": "يدير النقاش",
+            "en": "facilitate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u09_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. C1-Gesprächsführung macht implizite Interessen explizit und trennt Person, Position und Problem. Reframing formuliert einen Angriff als lösbare Sachfrage. Moderationssignale: Wenn ich Sie richtig verstehe …; Worin besteht für Sie der zentrale Punkt?; Können wir festhalten, dass …? Vereinbarungen brauchen Verantwortliche, Termin und überprüfbares Ergebnis.\n2. Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.\n3. Können wir uns darauf verständigen, dass beide Seiten bis Freitag zwei Optionen prüfen?\n4. Ich möchte den Einwand aufgreifen und in eine konkrete Anforderung übersetzen.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre, welche Bedeutung gleich blieb und welche Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. C1-Gesprächsführung macht implizite Interessen explizit und trennt Person, Position und Problem. Reframing formuliert einen Angriff als lösbare Sachfrage. Moderationssignale: Wenn ich Sie richtig verstehe …; Worin besteht für Sie der zentrale Punkt?; Können wir festhalten, dass …? Vereinbarungen brauchen Verantwortliche, Termin und überprüfbares Ergebnis.\n2. Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.\n3. Können wir uns darauf verständigen, dass beide Seiten bis Freitag zwei Optionen prüfen?\n4. Ich möchte den Einwand aufgreifen und in eine konkrete Anforderung übersetzen.\n\nغيّر بُعدًا واحدًا فقط: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. اشرح ما بقي من المعنى وما تغير في الأثر.",
+        "en": "Base patterns:\n1. C1-Gesprächsführung macht implizite Interessen explizit und trennt Person, Position und Problem. Reframing formuliert einen Angriff als lösbare Sachfrage. Moderationssignale: Wenn ich Sie richtig verstehe …; Worin besteht für Sie der zentrale Punkt?; Können wir festhalten, dass …? Vereinbarungen brauchen Verantwortliche, Termin und überprüfbares Ergebnis.\n2. Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.\n3. Können wir uns darauf verständigen, dass beide Seiten bis Freitag zwei Optionen prüfen?\n4. Ich möchte den Einwand aufgreifen und in eine konkrete Anforderung übersetzen.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what stayed constant and what effect changed."
+      }
+    },
+    {
+      "id": "c1_u09_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Prüfe propositionalen Kern, Evidenzstärke und Quellenklarheit.",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. تحقق من ثبات المعنى وقوة الدليل ووضوح المصدر.",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. Check propositional core, evidence strength and source clarity."
+      }
+    },
+    {
+      "id": "c1_u09_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "200–260 Wörter oder vier Minuten: vier Zielstrukturen, fair dargestellte Gegenposition, Quellen-/Evidenzhinweis und präzise Einschränkung. Revision: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "200–260 كلمة أو أربع دقائق: أربع بنيات مستهدفة، موقف مضاد ممثل بإنصاف، إشارة لمصدر/دليل وقيد دقيق. المراجعة: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "200–260 words or four minutes: four target structures, fairly represented counterposition, source/evidence marker and precise limitation. Revise: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u09_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U09_MASTERY"
+      ]
+    }
+  ]
+}

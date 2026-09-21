@@ -1,0 +1,296 @@
+{
+  "id": "c1_u07_l03",
+  "unitId": "de-core-c1-u07",
+  "title": {
+    "de": "Intensivtraining: Akademisch zusammenfassen & synthetisieren",
+    "ar": "تدريب مكثف: التلخيص والتركيب الأكاديمي",
+    "en": "Mastery lab: Academic summarizing & synthesis"
+  },
+  "canDo": [
+    "C1_U07_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u07_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Akademisch zusammenfassen & synthetisieren“. Forme dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte um, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «التلخيص والتركيب الأكاديمي». أعد صياغة الفكرة بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Academic summarizing & synthesis”. Reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u07_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u07_l03_w1",
+          "german": "synthetisieren",
+          "translation": {
+            "de": "synthesize",
+            "ar": "يركّب بين مصادر",
+            "en": "synthesize"
+          }
+        },
+        {
+          "id": "c1_u07_l03_w2",
+          "german": "paraphrasieren",
+          "translation": {
+            "de": "paraphrase",
+            "ar": "يعيد الصياغة",
+            "en": "paraphrase"
+          }
+        },
+        {
+          "id": "c1_u07_l03_w3",
+          "german": "übereinstimmen",
+          "translation": {
+            "de": "agree",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "c1_u07_l03_w4",
+          "german": "abweichen",
+          "translation": {
+            "de": "differ",
+            "ar": "يختلف",
+            "en": "differ"
+          }
+        },
+        {
+          "id": "c1_u07_l03_w5",
+          "german": "der Befund",
+          "translation": {
+            "de": "finding",
+            "ar": "النتيجة/الملاحظة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "c1_u07_l03_w6",
+          "german": "quellentreu",
+          "translation": {
+            "de": "source-faithful",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u07_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beide Quellen stimmen darin {answer}, dass die Kosten steigen.",
+        "ar": "Beide Quellen stimmen darin {answer}, dass die Kosten steigen.",
+        "en": "Beide Quellen stimmen darin {answer}, dass die Kosten steigen."
+      },
+      "acceptedAnswers": [
+        "überein"
+      ]
+    },
+    {
+      "id": "c1_u07_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zusammengenommen {answer} die Befunde einen Zusammenhang nahe.",
+        "ar": "Zusammengenommen {answer} die Befunde einen Zusammenhang nahe.",
+        "en": "Zusammengenommen {answer} die Befunde einen Zusammenhang nahe."
+      },
+      "acceptedAnswers": [
+        "legen"
+      ]
+    },
+    {
+      "id": "c1_u07_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine Synthese ist mehr {answer} mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.",
+        "ar": "Eine Synthese ist mehr {answer} mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.",
+        "en": "Eine Synthese ist mehr {answer} mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u07_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beide Quellen stimmen darin überein, {answer} die Maßnahme kurzfristig Kosten verursacht.",
+        "ar": "Beide Quellen stimmen darin überein, {answer} die Maßnahme kurzfristig Kosten verursacht.",
+        "en": "Beide Quellen stimmen darin überein, {answer} die Maßnahme kurzfristig Kosten verursacht."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "c1_u07_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Während Quelle A {answer} Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.",
+        "ar": "Während Quelle A {answer} Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.",
+        "en": "Während Quelle A {answer} Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "c1_u07_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zusammengenommen legen die Befunde nahe, {answer} der Effekt vom Kontext abhängt.",
+        "ar": "Zusammengenommen legen die Befunde nahe, {answer} der Effekt vom Kontext abhängt.",
+        "en": "Zusammengenommen legen die Befunde nahe, {answer} der Effekt vom Kontext abhängt."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "c1_u07_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "synthetisieren",
+        "ar": "synthetisieren",
+        "en": "synthetisieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "synthesize",
+            "ar": "يركّب بين مصادر",
+            "en": "synthesize"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "paraphrase",
+            "ar": "يعيد الصياغة",
+            "en": "paraphrase"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "agree",
+            "ar": "يتفق",
+            "en": "agree"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u07_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "abweichen",
+        "ar": "abweichen",
+        "en": "abweichen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "differ",
+            "ar": "يختلف",
+            "en": "differ"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "finding",
+            "ar": "النتيجة/الملاحظة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "source-faithful",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u07_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Eine Synthese ist mehr als mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.\n2. Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n3. Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n4. Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre, welche Bedeutung gleich blieb und welche Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Eine Synthese ist mehr als mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.\n2. Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n3. Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n4. Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.\n\nغيّر بُعدًا واحدًا فقط: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. اشرح ما بقي من المعنى وما تغير في الأثر.",
+        "en": "Base patterns:\n1. Eine Synthese ist mehr als mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.\n2. Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n3. Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n4. Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what stayed constant and what effect changed."
+      }
+    },
+    {
+      "id": "c1_u07_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Prüfe propositionalen Kern, Evidenzstärke und Quellenklarheit.",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. تحقق من ثبات المعنى وقوة الدليل ووضوح المصدر.",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. Check propositional core, evidence strength and source clarity."
+      }
+    },
+    {
+      "id": "c1_u07_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "200–260 Wörter oder vier Minuten: vier Zielstrukturen, fair dargestellte Gegenposition, Quellen-/Evidenzhinweis und präzise Einschränkung. Revision: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "200–260 كلمة أو أربع دقائق: أربع بنيات مستهدفة، موقف مضاد ممثل بإنصاف، إشارة لمصدر/دليل وقيد دقيق. المراجعة: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "200–260 words or four minutes: four target structures, fairly represented counterposition, source/evidence marker and precise limitation. Revise: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u07_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U07_MASTERY"
+      ]
+    }
+  ]
+}
