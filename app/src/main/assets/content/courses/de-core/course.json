@@ -2415,6 +2415,15 @@
                 "en": "Interpreting advanced literary and essayistic texts"
               },
               "activityCount": 7
+            },
+            {
+              "id": "c1_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Literarische Sprache & Stilmittel",
+                "ar": "تدريب مكثف: اللغة الأدبية والأساليب البلاغية",
+                "en": "Mastery lab: Literary language & stylistic devices"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -2443,6 +2452,15 @@
                 "en": "Discussing complex normative issues fairly and precisely"
               },
               "activityCount": 7
+            },
+            {
+              "id": "c1_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Gesellschaft, Ethik & differenzierte Debatte",
+                "ar": "تدريب مكثف: المجتمع والأخلاق والنقاش المتوازن",
+                "en": "Mastery lab: Society, ethics & nuanced debate"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -2471,6 +2489,15 @@
                 "en": "Interpreting research findings precisely"
               },
               "activityCount": 7
+            },
+            {
+              "id": "c1_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Wissenschaft, Forschung & Methodenkritik",
+                "ar": "تدريب مكثف: العلم والبحث ونقد المنهج",
+                "en": "Mastery lab: Science, research & methodological critique"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -2499,6 +2526,15 @@
                 "en": "Explaining technical systems clearly and responsibly"
               },
               "activityCount": 7
+            },
+            {
+              "id": "c1_u14_l03",
+              "title": {
+                "de": "Intensivtraining: Technologie, KI & verantwortungsvolle Kommunikation",
+                "ar": "تدريب مكثف: التقنية والذكاء الاصطناعي والتواصل المسؤول",
+                "en": "Mastery lab: Technology, AI & responsible communication"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -2527,6 +2563,15 @@
                 "en": "Systematically revising your own writing at C1"
               },
               "activityCount": 7
+            },
+            {
+              "id": "c1_u15_l03",
+              "title": {
+                "de": "Intensivtraining: Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur",
+                "ar": "تدريب مكثف: التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي",
+                "en": "Mastery lab: Editing, error diagnosis & stylistic self-correction"
+              },
+              "activityCount": 14
             }
           ]
         }

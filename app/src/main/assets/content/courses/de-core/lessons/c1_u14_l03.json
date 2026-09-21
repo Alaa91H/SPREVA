@@ -1,0 +1,296 @@
+{
+  "id": "c1_u14_l03",
+  "unitId": "de-core-c1-u14",
+  "title": {
+    "de": "Intensivtraining: Technologie, KI & verantwortungsvolle Kommunikation",
+    "ar": "تدريب مكثف: التقنية والذكاء الاصطناعي والتواصل المسؤول",
+    "en": "Mastery lab: Technology, AI & responsible communication"
+  },
+  "canDo": [
+    "C1_U14_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u14_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Technologie, KI & verantwortungsvolle Kommunikation“. Forme dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte um, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «التقنية والذكاء الاصطناعي والتواصل المسؤول». أعد صياغة الفكرة بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Technology, AI & responsible communication”. Reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u14_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u14_l03_w1",
+          "german": "der Datenfluss",
+          "translation": {
+            "de": "data flow",
+            "ar": "تدفق البيانات",
+            "en": "data flow"
+          }
+        },
+        {
+          "id": "c1_u14_l03_w2",
+          "german": "die Fehlerquelle",
+          "translation": {
+            "de": "failure source",
+            "ar": "مصدر الخطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "c1_u14_l03_w3",
+          "german": "die Zuverlässigkeit",
+          "translation": {
+            "de": "reliability",
+            "ar": "الموثوقية",
+            "en": "reliability"
+          }
+        },
+        {
+          "id": "c1_u14_l03_w4",
+          "german": "automatisiert",
+          "translation": {
+            "de": "automated",
+            "ar": "مؤتمت",
+            "en": "automated"
+          }
+        },
+        {
+          "id": "c1_u14_l03_w5",
+          "german": "der Einsatzkontext",
+          "translation": {
+            "de": "deployment context",
+            "ar": "سياق الاستخدام",
+            "en": "deployment context"
+          }
+        },
+        {
+          "id": "c1_u14_l03_w6",
+          "german": "überprüfen",
+          "translation": {
+            "de": "verify",
+            "ar": "يتحقق",
+            "en": "verify"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u14_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das System kann plausible, aber sachlich falsche Ausgaben {answer}.",
+        "ar": "Das System kann plausible, aber sachlich falsche Ausgaben {answer}.",
+        "en": "Das System kann plausible, aber sachlich falsche Ausgaben {answer}."
+      },
+      "acceptedAnswers": [
+        "erzeugen"
+      ]
+    },
+    {
+      "id": "c1_u14_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Zuverlässigkeit hängt davon ab, unter welchen Bedingungen es {answer} wurde.",
+        "ar": "Die Zuverlässigkeit hängt davon ab, unter welchen Bedingungen es {answer} wurde.",
+        "en": "Die Zuverlässigkeit hängt davon ab, unter welchen Bedingungen es {answer} wurde."
+      },
+      "acceptedAnswers": [
+        "getestet"
+      ]
+    },
+    {
+      "id": "c1_u14_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus {answer} auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.",
+        "ar": "Bei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus {answer} auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.",
+        "en": "Bei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus {answer} auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u14_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach aktuellem Stand werden die Daten lokal verarbeitet, {answer} die Synchronisierung deaktiviert ist.",
+        "ar": "Nach aktuellem Stand werden die Daten lokal verarbeitet, {answer} die Synchronisierung deaktiviert ist.",
+        "en": "Nach aktuellem Stand werden die Daten lokal verarbeitet, {answer} die Synchronisierung deaktiviert ist."
+      },
+      "acceptedAnswers": [
+        "sofern"
+      ]
+    },
+    {
+      "id": "c1_u14_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.",
+        "ar": "{answer} Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.",
+        "en": "{answer} Modell kann plausible, aber sachlich falsche Ausgaben erzeugen."
+      },
+      "acceptedAnswers": [
+        "Das"
+      ]
+    },
+    {
+      "id": "c1_u14_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und {answer} geltenden Regeln ab.",
+        "ar": "Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und {answer} geltenden Regeln ab.",
+        "en": "Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und {answer} geltenden Regeln ab."
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "c1_u14_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "der Datenfluss",
+        "ar": "der Datenfluss",
+        "en": "der Datenfluss"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "data flow",
+            "ar": "تدفق البيانات",
+            "en": "data flow"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "failure source",
+            "ar": "مصدر الخطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "reliability",
+            "ar": "الموثوقية",
+            "en": "reliability"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u14_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "automatisiert",
+        "ar": "automatisiert",
+        "en": "automatisiert"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "automated",
+            "ar": "مؤتمت",
+            "en": "automated"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deployment context",
+            "ar": "سياق الاستخدام",
+            "en": "deployment context"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "verify",
+            "ar": "يتحقق",
+            "en": "verify"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u14_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Bei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus als auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.\n2. Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n3. Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n4. Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre, welche Bedeutung gleich blieb und welche Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Bei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus als auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.\n2. Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n3. Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n4. Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.\n\nغيّر بُعدًا واحدًا فقط: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. اشرح ما بقي من المعنى وما تغير في الأثر.",
+        "en": "Base patterns:\n1. Bei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus als auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.\n2. Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n3. Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n4. Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what stayed constant and what effect changed."
+      }
+    },
+    {
+      "id": "c1_u14_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Prüfe propositionalen Kern, Evidenzstärke und Quellenklarheit.",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. تحقق من ثبات المعنى وقوة الدليل ووضوح المصدر.",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. Check propositional core, evidence strength and source clarity."
+      }
+    },
+    {
+      "id": "c1_u14_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "200–260 Wörter oder vier Minuten: vier Zielstrukturen, fair dargestellte Gegenposition, Quellen-/Evidenzhinweis und präzise Einschränkung. Revision: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "200–260 كلمة أو أربع دقائق: أربع بنيات مستهدفة، موقف مضاد ممثل بإنصاف، إشارة لمصدر/دليل وقيد دقيق. المراجعة: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "200–260 words or four minutes: four target structures, fairly represented counterposition, source/evidence marker and precise limitation. Revise: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u14_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U14_MASTERY"
+      ]
+    }
+  ]
+}

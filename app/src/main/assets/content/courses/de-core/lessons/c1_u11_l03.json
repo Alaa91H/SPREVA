@@ -1,0 +1,297 @@
+{
+  "id": "c1_u11_l03",
+  "unitId": "de-core-c1-u11",
+  "title": {
+    "de": "Intensivtraining: Literarische Sprache & Stilmittel",
+    "ar": "تدريب مكثف: اللغة الأدبية والأساليب البلاغية",
+    "en": "Mastery lab: Literary language & stylistic devices"
+  },
+  "canDo": [
+    "C1_U11_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u11_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Literarische Sprache & Stilmittel“. Forme dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte um, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «اللغة الأدبية والأساليب البلاغية». أعد صياغة الفكرة بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Literary language & stylistic devices”. Reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u11_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u11_l03_w1",
+          "german": "die Erzählperspektive",
+          "translation": {
+            "de": "narrative perspective",
+            "ar": "منظور السرد",
+            "en": "narrative perspective"
+          }
+        },
+        {
+          "id": "c1_u11_l03_w2",
+          "german": "die Ellipse",
+          "translation": {
+            "de": "ellipsis",
+            "ar": "الحذف",
+            "en": "ellipsis"
+          }
+        },
+        {
+          "id": "c1_u11_l03_w3",
+          "german": "die Ironie",
+          "translation": {
+            "de": "irony",
+            "ar": "السخرية",
+            "en": "irony"
+          }
+        },
+        {
+          "id": "c1_u11_l03_w4",
+          "german": "die Lesart",
+          "translation": {
+            "de": "reading",
+            "ar": "القراءة/التأويل",
+            "en": "reading"
+          }
+        },
+        {
+          "id": "c1_u11_l03_w5",
+          "german": "die Diskrepanz",
+          "translation": {
+            "de": "discrepancy",
+            "ar": "التفاوت/التناقض",
+            "en": "discrepancy"
+          }
+        },
+        {
+          "id": "c1_u11_l03_w6",
+          "german": "nachvollziehbar",
+          "translation": {
+            "de": "well-supported/traceable",
+            "ar": "قابل للتبرير والفهم",
+            "en": "well-supported/traceable"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u11_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Metapher eröffnet eine neue {answer}.",
+        "ar": "Die Metapher eröffnet eine neue {answer}.",
+        "en": "Die Metapher eröffnet eine neue {answer}."
+      },
+      "acceptedAnswers": [
+        "Lesart"
+      ]
+    },
+    {
+      "id": "c1_u11_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Wirkung muss am Text nachvollziehbar {answer} werden.",
+        "ar": "Die Wirkung muss am Text nachvollziehbar {answer} werden.",
+        "en": "Die Wirkung muss am Text nachvollziehbar {answer} werden."
+      },
+      "acceptedAnswers": [
+        "begründet",
+        "begruendet"
+      ]
+    },
+    {
+      "id": "c1_u11_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Literarische Interpretation verbindet Textbeobachtung und begründete Deutung. Stilmittel werden nicht nur benannt, sondern funktional erklärt: Was bewirken Perspektivwechsel, Ellipsen, Wiederholungen oder Metaphern {answer} diesem Kontext? Ironie lässt sich selten an einem einzelnen Wort festmachen; Kontext, Diskrepanz und Ton sind entscheidend.",
+        "ar": "Literarische Interpretation verbindet Textbeobachtung und begründete Deutung. Stilmittel werden nicht nur benannt, sondern funktional erklärt: Was bewirken Perspektivwechsel, Ellipsen, Wiederholungen oder Metaphern {answer} diesem Kontext? Ironie lässt sich selten an einem einzelnen Wort festmachen; Kontext, Diskrepanz und Ton sind entscheidend.",
+        "en": "Literarische Interpretation verbindet Textbeobachtung und begründete Deutung. Stilmittel werden nicht nur benannt, sondern funktional erklärt: Was bewirken Perspektivwechsel, Ellipsen, Wiederholungen oder Metaphern {answer} diesem Kontext? Ironie lässt sich selten an einem einzelnen Wort festmachen; Kontext, Diskrepanz und Ton sind entscheidend."
+      },
+      "acceptedAnswers": [
+        "in"
+      ]
+    },
+    {
+      "id": "c1_u11_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe {answer} Figur.",
+        "ar": "Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe {answer} Figur.",
+        "en": "Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe {answer} Figur."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "c1_u11_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Metapher eröffnet eine Lesart, in der die Stadt {answer} lebendiger Organismus erscheint.",
+        "ar": "Die Metapher eröffnet eine Lesart, in der die Stadt {answer} lebendiger Organismus erscheint.",
+        "en": "Die Metapher eröffnet eine Lesart, in der die Stadt {answer} lebendiger Organismus erscheint."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u11_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Ironie entsteht aus {answer} Diskrepanz zwischen wörtlicher Aussage und Situation.",
+        "ar": "Die Ironie entsteht aus {answer} Diskrepanz zwischen wörtlicher Aussage und Situation.",
+        "en": "Die Ironie entsteht aus {answer} Diskrepanz zwischen wörtlicher Aussage und Situation."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "c1_u11_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "die Erzählperspektive",
+        "ar": "die Erzählperspektive",
+        "en": "die Erzählperspektive"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "narrative perspective",
+            "ar": "منظور السرد",
+            "en": "narrative perspective"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ellipsis",
+            "ar": "الحذف",
+            "en": "ellipsis"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "irony",
+            "ar": "السخرية",
+            "en": "irony"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u11_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "die Lesart",
+        "ar": "die Lesart",
+        "en": "die Lesart"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reading",
+            "ar": "القراءة/التأويل",
+            "en": "reading"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "discrepancy",
+            "ar": "التفاوت/التناقض",
+            "en": "discrepancy"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "well-supported/traceable",
+            "ar": "قابل للتبرير والفهم",
+            "en": "well-supported/traceable"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u11_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Literarische Interpretation verbindet Textbeobachtung und begründete Deutung. Stilmittel werden nicht nur benannt, sondern funktional erklärt: Was bewirken Perspektivwechsel, Ellipsen, Wiederholungen oder Metaphern in diesem Kontext? Ironie lässt sich selten an einem einzelnen Wort festmachen; Kontext, Diskrepanz und Ton sind entscheidend.\n2. Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n3. Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n4. Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre, welche Bedeutung gleich blieb und welche Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Literarische Interpretation verbindet Textbeobachtung und begründete Deutung. Stilmittel werden nicht nur benannt, sondern funktional erklärt: Was bewirken Perspektivwechsel, Ellipsen, Wiederholungen oder Metaphern in diesem Kontext? Ironie lässt sich selten an einem einzelnen Wort festmachen; Kontext, Diskrepanz und Ton sind entscheidend.\n2. Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n3. Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n4. Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation.\n\nغيّر بُعدًا واحدًا فقط: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. اشرح ما بقي من المعنى وما تغير في الأثر.",
+        "en": "Base patterns:\n1. Literarische Interpretation verbindet Textbeobachtung und begründete Deutung. Stilmittel werden nicht nur benannt, sondern funktional erklärt: Was bewirken Perspektivwechsel, Ellipsen, Wiederholungen oder Metaphern in diesem Kontext? Ironie lässt sich selten an einem einzelnen Wort festmachen; Kontext, Diskrepanz und Ton sind entscheidend.\n2. Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n3. Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n4. Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what stayed constant and what effect changed."
+      }
+    },
+    {
+      "id": "c1_u11_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Prüfe propositionalen Kern, Evidenzstärke und Quellenklarheit.",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. تحقق من ثبات المعنى وقوة الدليل ووضوح المصدر.",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. Check propositional core, evidence strength and source clarity."
+      }
+    },
+    {
+      "id": "c1_u11_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "200–260 Wörter oder vier Minuten: vier Zielstrukturen, fair dargestellte Gegenposition, Quellen-/Evidenzhinweis und präzise Einschränkung. Revision: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "200–260 كلمة أو أربع دقائق: أربع بنيات مستهدفة، موقف مضاد ممثل بإنصاف، إشارة لمصدر/دليل وقيد دقيق. المراجعة: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "200–260 words or four minutes: four target structures, fairly represented counterposition, source/evidence marker and precise limitation. Revise: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u11_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U11_MASTERY"
+      ]
+    }
+  ]
+}
