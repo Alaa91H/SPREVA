@@ -97,18 +97,62 @@ class ContentParserTest {
         assertTrue(listening.options.any { it.id == listening.correctOptionId })
     }
 
-    @Test(expected = ContentValidationException::class)
-    fun `listening choice without audio is rejected`() {
+    @Test
+    fun `listening choice can use hidden text as local TTS fallback`() {
         val json = """
-            {"id": "l1", "unitId": "u1", "title": {"de": "t"}, "activities": [
-              {"id": "a1", "type": "listening_choice", "options": [
-                {"id": "o1", "text": {"de": "a"}},
-                {"id": "o2", "text": {"de": "b"}},
-                {"id": "o3", "text": {"de": "c"}}
+            {"id": "l1", "unitId": "u1", "title": {"de": "t"}, "canDo": ["X"], "activities": [
+              {"id": "a1", "type": "listening_choice",
+               "text": {"de": "Der Termin ist um neun Uhr.", "ar": "x", "en": "x"},
+               "options": [
+                {"id": "o1", "text": {"de": "acht", "ar": "acht", "en": "acht"}},
+                {"id": "o2", "text": {"de": "neun", "ar": "neun", "en": "neun"}}
               ], "correctOptionId": "o2"}
             ]}
         """
-        parser.parseLesson(json.trimIndent()).let(parser::toLesson)
+        val lesson = parser.parseLesson(json.trimIndent()).let(parser::toLesson)
+        val listening = lesson.activities.single() as com.spreva.core.model.LearningActivity.ListeningChoice
+        assertEquals(null, listening.audio)
+        assertEquals("Der Termin ist um neun Uhr.", listening.text?.de)
+        assertEquals(emptyList<String>(), ContentValidator.validateLesson(lesson))
+    }
+
+    @Test
+    fun `listening choice without audio or fallback text is structurally rejected`() {
+        val json = """
+            {"id": "l1", "unitId": "u1", "title": {"de": "t"}, "canDo": ["X"], "activities": [
+              {"id": "a1", "type": "listening_choice", "options": [
+                {"id": "o1", "text": {"de": "a", "ar": "a", "en": "a"}},
+                {"id": "o2", "text": {"de": "b", "ar": "b", "en": "b"}}
+              ], "correctOptionId": "o2"}
+            ]}
+        """
+        val lesson = parser.parseLesson(json.trimIndent()).let(parser::toLesson)
+        assertTrue(ContentValidator.validateLesson(lesson).any { it.contains("needs audio or fallback text") })
+    }
+
+    @Test
+    fun `production activity types parse and validate`() {
+        val json = """
+            {"id": "l1", "unitId": "u1", "title": {"de": "t"}, "canDo": ["X"], "activities": [
+              {"id": "d1", "type": "dictation",
+               "prompt": {"de": "Hören", "ar": "استمع", "en": "Listen"},
+               "text": {"de": "Ich komme morgen.", "ar": "x", "en": "x"},
+               "acceptedAnswers": ["Ich komme morgen."]},
+              {"id": "w1", "type": "free_write",
+               "prompt": {"de": "Schreiben", "ar": "اكتب", "en": "Write"},
+               "minWords": 30,
+               "checklist": [{"de": "Aufgabe", "ar": "المهمة", "en": "Task"}]},
+              {"id": "s1", "type": "speaking_prompt",
+               "prompt": {"de": "Sprechen", "ar": "تحدث", "en": "Speak"},
+               "minSeconds": 30,
+               "checklist": [{"de": "Struktur", "ar": "البنية", "en": "Structure"}]}
+            ]}
+        """
+        val lesson = parser.parseLesson(json.trimIndent()).let(parser::toLesson)
+        assertTrue(lesson.activities.any { it is com.spreva.core.model.LearningActivity.Dictation })
+        assertTrue(lesson.activities.any { it is com.spreva.core.model.LearningActivity.FreeWrite })
+        assertTrue(lesson.activities.any { it is com.spreva.core.model.LearningActivity.SpeakingPrompt })
+        assertEquals(emptyList<String>(), ContentValidator.validateLesson(lesson))
     }
 
     @Test
