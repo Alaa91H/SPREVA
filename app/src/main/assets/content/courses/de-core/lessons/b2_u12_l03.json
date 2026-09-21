@@ -1,0 +1,296 @@
+{
+  "id": "b2_u12_l03",
+  "unitId": "de-core-b2-u12",
+  "title": {
+    "de": "Intensivtraining: Recht, Verwaltung & Arbeitsleben",
+    "ar": "تدريب مكثف: القانون والإدارة والحياة المهنية",
+    "en": "Mastery lab: Law, administration & working life"
+  },
+  "canDo": [
+    "B2_U12_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u12_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Recht, Verwaltung & Arbeitsleben“. Nach jeder Lösung: semantische Funktion erklären, zwei stilistische Alternativen bilden und die kontextuell passendste Variante begründen.",
+        "ar": "عمّق «القانون والإدارة والحياة المهنية». بعد كل حل اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين وبرر الصيغة الأنسب للسياق.",
+        "en": "Deepen “Law, administration & working life”. After each solution explain the semantic function, create two stylistic alternatives and justify the best contextual choice."
+      }
+    },
+    {
+      "id": "b2_u12_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u12_l03_w1",
+          "german": "verpflichtet",
+          "translation": {
+            "de": "obliged",
+            "ar": "ملزم",
+            "en": "obliged"
+          }
+        },
+        {
+          "id": "b2_u12_l03_w2",
+          "german": "berechtigt",
+          "translation": {
+            "de": "entitled",
+            "ar": "مخوّل/له حق",
+            "en": "entitled"
+          }
+        },
+        {
+          "id": "b2_u12_l03_w3",
+          "german": "zulässig",
+          "translation": {
+            "de": "permissible",
+            "ar": "مسموح قانونيًا",
+            "en": "permissible"
+          }
+        },
+        {
+          "id": "b2_u12_l03_w4",
+          "german": "unverzüglich",
+          "translation": {
+            "de": "without undue delay",
+            "ar": "دون تأخير",
+            "en": "without undue delay"
+          }
+        },
+        {
+          "id": "b2_u12_l03_w5",
+          "german": "die Frist",
+          "translation": {
+            "de": "deadline",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "b2_u12_l03_w6",
+          "german": "die Voraussetzung",
+          "translation": {
+            "de": "requirement",
+            "ar": "الشرط/المتطلب",
+            "en": "requirement"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u12_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Beschäftigten sind {answer}, Änderungen mitzuteilen.",
+        "ar": "Die Beschäftigten sind {answer}, Änderungen mitzuteilen.",
+        "en": "Die Beschäftigten sind {answer}, Änderungen mitzuteilen."
+      },
+      "acceptedAnswers": [
+        "verpflichtet"
+      ]
+    },
+    {
+      "id": "b2_u12_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag kann innerhalb eines Monats {answer} werden.",
+        "ar": "Der Antrag kann innerhalb eines Monats {answer} werden.",
+        "en": "Der Antrag kann innerhalb eines Monats {answer} werden."
+      },
+      "acceptedAnswers": [
+        "gestellt"
+      ]
+    },
+    {
+      "id": "b2_u12_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.",
+        "ar": "{answer} Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.",
+        "en": "{answer} Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u12_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Antrag kann innerhalb eines Monats gestellt werden.",
+        "ar": "{answer} Antrag kann innerhalb eines Monats gestellt werden.",
+        "en": "{answer} Antrag kann innerhalb eines Monats gestellt werden."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "b2_u12_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Nutzung ist nur unter bestimmten Voraussetzungen zulässig.",
+        "ar": "{answer} Nutzung ist nur unter bestimmten Voraussetzungen zulässig.",
+        "en": "{answer} Nutzung ist nur unter bestimmten Voraussetzungen zulässig."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u12_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Arbeitsvertrag, Mietvertrag, Behördenschreiben oder Hausordnung: Pflichten, Rechte, Fristen {answer} Bedingungen sprachlich identifizieren.",
+        "ar": "Arbeitsvertrag, Mietvertrag, Behördenschreiben oder Hausordnung: Pflichten, Rechte, Fristen {answer} Bedingungen sprachlich identifizieren.",
+        "en": "Arbeitsvertrag, Mietvertrag, Behördenschreiben oder Hausordnung: Pflichten, Rechte, Fristen {answer} Bedingungen sprachlich identifizieren."
+      },
+      "acceptedAnswers": [
+        "und"
+      ]
+    },
+    {
+      "id": "b2_u12_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "verpflichtet",
+        "ar": "verpflichtet",
+        "en": "verpflichtet"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "obliged",
+            "ar": "ملزم",
+            "en": "obliged"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "entitled",
+            "ar": "مخوّل/له حق",
+            "en": "entitled"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "permissible",
+            "ar": "مسموح قانونيًا",
+            "en": "permissible"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u12_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "unverzüglich",
+        "ar": "unverzüglich",
+        "en": "unverzüglich"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "without undue delay",
+            "ar": "دون تأخير",
+            "en": "without undue delay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deadline",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "requirement",
+            "ar": "الشرط/المتطلب",
+            "en": "requirement"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u12_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n2. Der Antrag kann innerhalb eines Monats gestellt werden.\n3. Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.\n4. Arbeitsvertrag, Mietvertrag, Behördenschreiben oder Hausordnung: Pflichten, Rechte, Fristen und Bedingungen sprachlich identifizieren.\n\nFormuliere eine nahe Alternative und erkläre Veränderungen in Logik, Modalität, Fokus, Register oder Informationsdichte.",
+        "ar": "نماذج البداية:\n1. Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n2. Der Antrag kann innerhalb eines Monats gestellt werden.\n3. Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.\n4. Arbeitsvertrag, Mietvertrag, Behördenschreiben oder Hausordnung: Pflichten, Rechte, Fristen und Bedingungen sprachlich identifizieren.\n\nأنشئ بديلًا قريبًا واشرح التغير في المنطق أو اليقين أو البؤرة أو السجل أو كثافة المعلومات.",
+        "en": "Base patterns:\n1. Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n2. Der Antrag kann innerhalb eines Monats gestellt werden.\n3. Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.\n4. Arbeitsvertrag, Mietvertrag, Behördenschreiben oder Hausordnung: Pflichten, Rechte, Fristen und Bedingungen sprachlich identifizieren.\n\nCreate a close alternative and explain changes in logic, modality, focus, register or information density."
+      }
+    },
+    {
+      "id": "b2_u12_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ Fachstil. Nuancen und Kollokationen vergleichen.",
+        "ar": "فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ متخصص. قارن الفروق والمتلازمات.",
+        "en": "Verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ hedged; everyday ↔ specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u12_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "140–180 Wörter oder drei Minuten: Beobachtung, Interpretation und Bewertung trennen; drei Zielstrukturen, Gegenargument, Einschränkung und begründete Schlussfolgerung integrieren; Register, Kohäsion und Präzision überarbeiten.",
+        "ar": "140–180 كلمة أو ثلاث دقائق: افصل الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات وحجة مضادة وقيدًا وخلاصة معللة؛ راجع السجل والترابط والدقة.",
+        "en": "140–180 words or three minutes: separate observation, interpretation and evaluation; include three target structures, a counterargument, limitation and reasoned conclusion; revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u12_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U12_MASTERY"
+      ]
+    }
+  ]
+}

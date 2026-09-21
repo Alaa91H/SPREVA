@@ -1,0 +1,296 @@
+{
+  "id": "b2_u13_l03",
+  "unitId": "de-core-b2-u13",
+  "title": {
+    "de": "Intensivtraining: Wissenschaft, Technik & Digitalisierung",
+    "ar": "تدريب مكثف: العلم والتقنية والرقمنة",
+    "en": "Mastery lab: Science, technology & digitalization"
+  },
+  "canDo": [
+    "B2_U13_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u13_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Wissenschaft, Technik & Digitalisierung“. Nach jeder Lösung: semantische Funktion erklären, zwei stilistische Alternativen bilden und die kontextuell passendste Variante begründen.",
+        "ar": "عمّق «العلم والتقنية والرقمنة». بعد كل حل اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين وبرر الصيغة الأنسب للسياق.",
+        "en": "Deepen “Science, technology & digitalization”. After each solution explain the semantic function, create two stylistic alternatives and justify the best contextual choice."
+      }
+    },
+    {
+      "id": "b2_u13_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u13_l03_w1",
+          "german": "verschlüsseln",
+          "translation": {
+            "de": "encrypt",
+            "ar": "يشفّر",
+            "en": "encrypt"
+          }
+        },
+        {
+          "id": "b2_u13_l03_w2",
+          "german": "verarbeiten",
+          "translation": {
+            "de": "process",
+            "ar": "يعالج البيانات",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b2_u13_l03_w3",
+          "german": "die Berechtigung",
+          "translation": {
+            "de": "permission",
+            "ar": "الإذن",
+            "en": "permission"
+          }
+        },
+        {
+          "id": "b2_u13_l03_w4",
+          "german": "die Wahrscheinlichkeit",
+          "translation": {
+            "de": "probability",
+            "ar": "الاحتمال",
+            "en": "probability"
+          }
+        },
+        {
+          "id": "b2_u13_l03_w5",
+          "german": "die Ursache",
+          "translation": {
+            "de": "cause",
+            "ar": "السبب",
+            "en": "cause"
+          }
+        },
+        {
+          "id": "b2_u13_l03_w6",
+          "german": "die Einschränkung",
+          "translation": {
+            "de": "limitation",
+            "ar": "القيد",
+            "en": "limitation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u13_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten werden lokal {answer}.",
+        "ar": "Die Daten werden lokal {answer}.",
+        "en": "Die Daten werden lokal {answer}."
+      },
+      "acceptedAnswers": [
+        "verarbeitet"
+      ]
+    },
+    {
+      "id": "b2_u13_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf.",
+        "ar": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf.",
+        "en": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf."
+      },
+      "acceptedAnswers": [
+        "vermutlich"
+      ]
+    },
+    {
+      "id": "b2_u13_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Technische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft {answer}: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.",
+        "ar": "Technische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft {answer}: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.",
+        "en": "Technische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft {answer}: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit."
+      },
+      "acceptedAnswers": [
+        "werden"
+      ]
+    },
+    {
+      "id": "b2_u13_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.",
+        "ar": "{answer} Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.",
+        "en": "{answer} Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u13_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.",
+        "ar": "{answer} Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.",
+        "en": "{answer} Fehler tritt vermutlich nur unter bestimmten Bedingungen auf."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "b2_u13_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.",
+        "ar": "{answer} Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.",
+        "en": "{answer} Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten."
+      },
+      "acceptedAnswers": [
+        "Ein"
+      ]
+    },
+    {
+      "id": "b2_u13_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "verschlüsseln",
+        "ar": "verschlüsseln",
+        "en": "verschlüsseln"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "encrypt",
+            "ar": "يشفّر",
+            "en": "encrypt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "process",
+            "ar": "يعالج البيانات",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "permission",
+            "ar": "الإذن",
+            "en": "permission"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u13_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "die Wahrscheinlichkeit",
+        "ar": "die Wahrscheinlichkeit",
+        "en": "die Wahrscheinlichkeit"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "probability",
+            "ar": "الاحتمال",
+            "en": "probability"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "cause",
+            "ar": "السبب",
+            "en": "cause"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "limitation",
+            "ar": "القيد",
+            "en": "limitation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u13_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Technische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft werden: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.\n2. Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n3. Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n4. Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.\n\nFormuliere eine nahe Alternative und erkläre Veränderungen in Logik, Modalität, Fokus, Register oder Informationsdichte.",
+        "ar": "نماذج البداية:\n1. Technische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft werden: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.\n2. Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n3. Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n4. Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.\n\nأنشئ بديلًا قريبًا واشرح التغير في المنطق أو اليقين أو البؤرة أو السجل أو كثافة المعلومات.",
+        "en": "Base patterns:\n1. Technische Erklärungen funktionieren über klare Begriffe, Ursache-Folge und Einschränkungen. Wahrscheinlichkeit kann abgestuft werden: mit hoher Wahrscheinlichkeit, vermutlich, möglicherweise, nicht auszuschließen. Prozesse werden oft passiv oder nominal beschrieben; Beispiele und Analogien verbessern Verständlichkeit.\n2. Die Daten werden zunächst lokal verarbeitet und anschließend verschlüsselt übertragen.\n3. Der Fehler tritt vermutlich nur unter bestimmten Bedingungen auf.\n4. Ein Zusammenhang ist möglich, eine direkte Ursache lässt sich daraus jedoch nicht ableiten.\n\nCreate a close alternative and explain changes in logic, modality, focus, register or information density."
+      }
+    },
+    {
+      "id": "b2_u13_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ Fachstil. Nuancen und Kollokationen vergleichen.",
+        "ar": "فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ متخصص. قارن الفروق والمتلازمات.",
+        "en": "Verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ hedged; everyday ↔ specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u13_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "140–180 Wörter oder drei Minuten: Beobachtung, Interpretation und Bewertung trennen; drei Zielstrukturen, Gegenargument, Einschränkung und begründete Schlussfolgerung integrieren; Register, Kohäsion und Präzision überarbeiten.",
+        "ar": "140–180 كلمة أو ثلاث دقائق: افصل الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات وحجة مضادة وقيدًا وخلاصة معللة؛ راجع السجل والترابط والدقة.",
+        "en": "140–180 words or three minutes: separate observation, interpretation and evaluation; include three target structures, a counterargument, limitation and reasoned conclusion; revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u13_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U13_MASTERY"
+      ]
+    }
+  ]
+}

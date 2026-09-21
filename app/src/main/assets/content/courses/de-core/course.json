@@ -1886,6 +1886,15 @@
                 "en": "Understanding contracts, prices and financial decisions"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Wirtschaft, Konsum & Finanzen",
+                "ar": "تدريب مكثف: الاقتصاد والاستهلاك والمال",
+                "en": "Mastery lab: Economics, consumption & finance"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1914,6 +1923,15 @@
                 "en": "Reading formal rules and administrative texts safely"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Recht, Verwaltung & Arbeitsleben",
+                "ar": "تدريب مكثف: القانون والإدارة والحياة المهنية",
+                "en": "Mastery lab: Law, administration & working life"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1942,6 +1960,15 @@
                 "en": "Explaining complex technical topics"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Wissenschaft, Technik & Digitalisierung",
+                "ar": "تدريب مكثف: العلم والتقنية والرقمنة",
+                "en": "Mastery lab: Science, technology & digitalization"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1970,6 +1997,15 @@
                 "en": "Evaluating complex measures objectively"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b2_u14_l03",
+              "title": {
+                "de": "Intensivtraining: Umwelt, Klima & Stadtentwicklung",
+                "ar": "تدريب مكثف: البيئة والمناخ وتطوير المدن",
+                "en": "Mastery lab: Environment, climate & urban development"
+              },
+              "activityCount": 14
             }
           ]
         }

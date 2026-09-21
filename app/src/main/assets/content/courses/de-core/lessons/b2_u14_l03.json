@@ -1,0 +1,296 @@
+{
+  "id": "b2_u14_l03",
+  "unitId": "de-core-b2-u14",
+  "title": {
+    "de": "Intensivtraining: Umwelt, Klima & Stadtentwicklung",
+    "ar": "تدريب مكثف: البيئة والمناخ وتطوير المدن",
+    "en": "Mastery lab: Environment, climate & urban development"
+  },
+  "canDo": [
+    "B2_U14_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u14_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Mastery — Präzision & Register",
+        "ar": "إتقان B2 — الدقة والسجل",
+        "en": "B2 Mastery — precision & register"
+      },
+      "body": {
+        "de": "Vertiefe „Umwelt, Klima & Stadtentwicklung“. Nach jeder Lösung: semantische Funktion erklären, zwei stilistische Alternativen bilden und die kontextuell passendste Variante begründen.",
+        "ar": "عمّق «البيئة والمناخ وتطوير المدن». بعد كل حل اشرح الوظيفة الدلالية، أنشئ بديلين أسلوبيين وبرر الصيغة الأنسب للسياق.",
+        "en": "Deepen “Environment, climate & urban development”. After each solution explain the semantic function, create two stylistic alternatives and justify the best contextual choice."
+      }
+    },
+    {
+      "id": "b2_u14_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u14_l03_w1",
+          "german": "die Emission",
+          "translation": {
+            "de": "emission",
+            "ar": "الانبعاث",
+            "en": "emission"
+          }
+        },
+        {
+          "id": "b2_u14_l03_w2",
+          "german": "die Belastung",
+          "translation": {
+            "de": "burden",
+            "ar": "العبء",
+            "en": "burden"
+          }
+        },
+        {
+          "id": "b2_u14_l03_w3",
+          "german": "der Ausbau",
+          "translation": {
+            "de": "expansion",
+            "ar": "التوسعة",
+            "en": "expansion"
+          }
+        },
+        {
+          "id": "b2_u14_l03_w4",
+          "german": "die Nebenwirkung",
+          "translation": {
+            "de": "side effect",
+            "ar": "الأثر الجانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "b2_u14_l03_w5",
+          "german": "langfristig",
+          "translation": {
+            "de": "long-term",
+            "ar": "على المدى الطويل",
+            "en": "long-term"
+          }
+        },
+        {
+          "id": "b2_u14_l03_w6",
+          "german": "abwägen",
+          "translation": {
+            "de": "weigh up",
+            "ar": "يوازن",
+            "en": "weigh up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u14_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Maßnahme könnte zur Reduktion {answer}.",
+        "ar": "Die Maßnahme könnte zur Reduktion {answer}.",
+        "en": "Die Maßnahme könnte zur Reduktion {answer}."
+      },
+      "acceptedAnswers": [
+        "beitragen"
+      ]
+    },
+    {
+      "id": "b2_u14_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} entstehen Kosten, langfristig Vorteile.",
+        "ar": "{answer} entstehen Kosten, langfristig Vorteile.",
+        "en": "{answer} entstehen Kosten, langfristig Vorteile."
+      },
+      "acceptedAnswers": [
+        "Kurzfristig"
+      ]
+    },
+    {
+      "id": "b2_u14_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kurzfristig entstehen zusätzliche {answer}, langfristig könnten jedoch Einsparungen folgen.",
+        "ar": "Kurzfristig entstehen zusätzliche {answer}, langfristig könnten jedoch Einsparungen folgen.",
+        "en": "Kurzfristig entstehen zusätzliche {answer}, langfristig könnten jedoch Einsparungen folgen."
+      },
+      "acceptedAnswers": [
+        "Kosten"
+      ]
+    },
+    {
+      "id": "b2_u14_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.",
+        "ar": "{answer} Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.",
+        "en": "{answer} Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b2_u14_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unter {answer} Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.",
+        "ar": "Unter {answer} Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.",
+        "en": "Unter {answer} Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u14_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Verkehr, Energie, Wohnen, Recycling oder Stadtplanung: mehrere Perspektiven darstellen {answer} eine begründete, nicht absolute Bewertung formulieren.",
+        "ar": "Verkehr, Energie, Wohnen, Recycling oder Stadtplanung: mehrere Perspektiven darstellen {answer} eine begründete, nicht absolute Bewertung formulieren.",
+        "en": "Verkehr, Energie, Wohnen, Recycling oder Stadtplanung: mehrere Perspektiven darstellen {answer} eine begründete, nicht absolute Bewertung formulieren."
+      },
+      "acceptedAnswers": [
+        "und"
+      ]
+    },
+    {
+      "id": "b2_u14_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "die Emission",
+        "ar": "die Emission",
+        "en": "die Emission"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "emission",
+            "ar": "الانبعاث",
+            "en": "emission"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "burden",
+            "ar": "العبء",
+            "en": "burden"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "expansion",
+            "ar": "التوسعة",
+            "en": "expansion"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u14_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Präzise Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق",
+        "en": "Retrieve precise meaning"
+      },
+      "question": {
+        "de": "die Nebenwirkung",
+        "ar": "die Nebenwirkung",
+        "en": "die Nebenwirkung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "side effect",
+            "ar": "الأثر الجانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "long-term",
+            "ar": "على المدى الطويل",
+            "en": "long-term"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weigh up",
+            "ar": "يوازن",
+            "en": "weigh up"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u14_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Minimalpaare für Stil & Bedeutung",
+        "ar": "أزواج دقيقة للأسلوب والمعنى",
+        "en": "Minimal contrasts in style & meaning"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n2. Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n3. Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.\n4. Verkehr, Energie, Wohnen, Recycling oder Stadtplanung: mehrere Perspektiven darstellen und eine begründete, nicht absolute Bewertung formulieren.\n\nFormuliere eine nahe Alternative und erkläre Veränderungen in Logik, Modalität, Fokus, Register oder Informationsdichte.",
+        "ar": "نماذج البداية:\n1. Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n2. Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n3. Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.\n4. Verkehr, Energie, Wohnen, Recycling oder Stadtplanung: mehrere Perspektiven darstellen und eine begründete, nicht absolute Bewertung formulieren.\n\nأنشئ بديلًا قريبًا واشرح التغير في المنطق أو اليقين أو البؤرة أو السجل أو كثافة المعلومات.",
+        "en": "Base patterns:\n1. Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n2. Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n3. Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.\n4. Verkehr, Energie, Wohnen, Recycling oder Stadtplanung: mehrere Perspektiven darstellen und eine begründete, nicht absolute Bewertung formulieren.\n\nCreate a close alternative and explain changes in logic, modality, focus, register or information density."
+      }
+    },
+    {
+      "id": "b2_u14_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Stiltransformation",
+        "ar": "تحويلات أسلوب B2",
+        "en": "B2 style transformation"
+      },
+      "body": {
+        "de": "Verbal ↔ nominal; Aktiv ↔ Passiv/Passiversatz; direkte Aussage ↔ indirekte Rede; sicher ↔ vorsichtig abgestuft; Alltagssprache ↔ Fachstil. Nuancen und Kollokationen vergleichen.",
+        "ar": "فعلي ↔ اسمي؛ معلوم ↔ مجهول/بديله؛ مباشر ↔ غير مباشر؛ يقين ↔ تحفظ متدرج؛ يومي ↔ متخصص. قارن الفروق والمتلازمات.",
+        "en": "Verbal ↔ nominal; active ↔ passive/passive alternative; direct ↔ reported speech; certain ↔ hedged; everyday ↔ specialist style. Compare nuance and collocations."
+      }
+    },
+    {
+      "id": "b2_u14_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Leistungsaufgabe",
+        "ar": "مهمة أداء B2",
+        "en": "B2 performance task"
+      },
+      "body": {
+        "de": "140–180 Wörter oder drei Minuten: Beobachtung, Interpretation und Bewertung trennen; drei Zielstrukturen, Gegenargument, Einschränkung und begründete Schlussfolgerung integrieren; Register, Kohäsion und Präzision überarbeiten.",
+        "ar": "140–180 كلمة أو ثلاث دقائق: افصل الملاحظة والتفسير والتقييم؛ استخدم ثلاث بنيات وحجة مضادة وقيدًا وخلاصة معللة؛ راجع السجل والترابط والدقة.",
+        "en": "140–180 words or three minutes: separate observation, interpretation and evaluation; include three target structures, a counterargument, limitation and reasoned conclusion; revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u14_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Mastery nachgewiesen",
+        "ar": "تم إثبات إتقان B2",
+        "en": "B2 mastery demonstrated"
+      },
+      "canDo": [
+        "B2_U14_MASTERY"
+      ]
+    }
+  ]
+}
