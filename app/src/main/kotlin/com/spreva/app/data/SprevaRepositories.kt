@@ -14,6 +14,7 @@ import com.spreva.core.database.entity.ReviewLogEntity
 import com.spreva.core.database.mapper.toEntity
 import com.spreva.core.database.mapper.toModel
 import com.spreva.core.database.SprevaDatabase
+import com.spreva.core.datastore.SettingsDataSource
 import com.spreva.core.model.ActivityAttempt
 import com.spreva.core.model.LessonId
 import com.spreva.core.model.LessonProgress
@@ -446,6 +447,8 @@ class DefaultReviewCardProvisioner @Inject constructor(
 @Singleton
 class RoomReviewRepository @Inject constructor(
     private val database: SprevaDatabase,
+    private val settingsDataSource: SettingsDataSource,
+    private val retentionCalibrator: com.spreva.domain.review.ReviewRetentionCalibrator,
 ) : ReviewRepository {
 
     private val cardDao: ReviewCardDao = database.reviewCardDao()
@@ -478,6 +481,12 @@ class RoomReviewRepository @Inject constructor(
                     schedulerVersion = card.schedulerVersion,
                 ),
             )
+        }
+
+        val ratings = logDao.getRecentRatings(com.spreva.domain.review.ReviewRetentionCalibrator.MAX_HISTORY)
+            .mapNotNull { runCatching { ReviewRating.valueOf(it) }.getOrNull() }
+        retentionCalibrator.recommend(ratings)?.let { recommendation ->
+            settingsDataSource.setReviewRetentionTarget(recommendation.target)
         }
     }
 

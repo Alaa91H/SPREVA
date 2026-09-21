@@ -21,12 +21,8 @@ import kotlinx.serialization.json.Json
  */
 class Fsrs6ReviewScheduler(
     private val json: Json = Json,
-    private val desiredRetention: Double = 0.90,
+    private val desiredRetentionProvider: () -> Double = { 0.90 },
 ) : ReviewScheduler {
-
-    init {
-        require(desiredRetention in 0.70..0.99)
-    }
 
     override val version: String = ReviewCard.SCHEDULER_VERSION_FSRS6
 
@@ -173,6 +169,7 @@ class Fsrs6ReviewScheduler(
     internal fun intervalDays(stabilityDays: Double): Double {
         val decay = W[20]
         val factor = 0.9.pow(-1.0 / decay) - 1.0
+        val desiredRetention = desiredRetentionProvider().coerceIn(0.70, 0.99)
         val raw = stabilityDays / factor *
             (desiredRetention.pow(-1.0 / decay) - 1.0)
         return raw.coerceIn(MIN_INTERVAL_DAYS, MAX_INTERVAL_DAYS)

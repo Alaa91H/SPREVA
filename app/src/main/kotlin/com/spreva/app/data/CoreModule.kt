@@ -57,7 +57,13 @@ object CoreModule {
 
     @Provides
     @Singleton
-    fun provideScheduler(json: Json): ReviewScheduler = Fsrs6ReviewScheduler(json)
+    fun provideScheduler(
+        json: Json,
+        settingsDataSource: SettingsDataSource,
+    ): ReviewScheduler = Fsrs6ReviewScheduler(
+        json = json,
+        desiredRetentionProvider = settingsDataSource::currentReviewRetentionTarget,
+    )
 
     @Provides
     @Singleton

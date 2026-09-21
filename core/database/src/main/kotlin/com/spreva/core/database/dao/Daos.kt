@@ -106,6 +106,9 @@ interface ReviewLogDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(log: ReviewLogEntity)
 
+    @Query("SELECT rating FROM review_logs ORDER BY reviewedAtEpochMs DESC LIMIT :limit")
+    suspend fun getRecentRatings(limit: Int): List<String>
+
     @Query("DELETE FROM review_logs")
     suspend fun clear()
 }

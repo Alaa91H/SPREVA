@@ -23,4 +23,6 @@ data class UserSettings(
     val learningGoal: LearningGoal? = null,
     /** Latest adaptive diagnostic recommendation; not a CEFR certificate. */
     val recommendedLevel: CefrLevel? = null,
+    /** Personalized FSRS desired-retention target (not model weights). */
+    val reviewRetentionTarget: Double = 0.90,
 )
