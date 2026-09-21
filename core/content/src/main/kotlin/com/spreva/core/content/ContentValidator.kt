@@ -28,6 +28,31 @@ object ContentValidator {
                     }
                 }
 
+                is com.spreva.core.model.LearningActivity.ListeningChoice -> {
+                    if (activity.audio.isNullOrBlank() && activity.text?.de.isNullOrBlank()) {
+                        add("Listening ${activity.id.value} needs audio or fallback text")
+                    }
+                    if (activity.options.size < 2) add("Listening ${activity.id.value} needs at least 2 options")
+                    if (activity.options.none { it.id == activity.correctOptionId }) {
+                        add("Listening ${activity.id.value} correctOptionId '${activity.correctOptionId}' not in options")
+                    }
+                }
+
+                is com.spreva.core.model.LearningActivity.Dictation -> {
+                    if (activity.text.de.isBlank()) add("Dictation ${activity.id.value} has blank target text")
+                    if (activity.acceptedAnswers.isEmpty() || activity.acceptedAnswers.any { it.isBlank() }) {
+                        add("Dictation ${activity.id.value} needs non-blank accepted answers")
+                    }
+                }
+
+                is com.spreva.core.model.LearningActivity.FreeWrite -> {
+                    if (activity.minWords <= 0) add("FreeWrite ${activity.id.value} minWords must be > 0")
+                }
+
+                is com.spreva.core.model.LearningActivity.SpeakingPrompt -> {
+                    if (activity.minSeconds <= 0) add("SpeakingPrompt ${activity.id.value} minSeconds must be > 0")
+                }
+
                 is com.spreva.core.model.LearningActivity.Cloze -> {
                     if (activity.acceptedAnswers.isEmpty()) add("Cloze ${activity.id.value} has no accepted answers")
                     if (activity.acceptedAnswers.any { it.isBlank() }) {

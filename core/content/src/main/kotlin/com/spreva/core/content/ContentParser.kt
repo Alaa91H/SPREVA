@@ -133,8 +133,8 @@ private fun ActivityDto.toModel(): LearningActivity = when (type) {
 
     "listening_choice" -> LearningActivity.ListeningChoice(
         id = ActivityId(id),
-        audio = audio
-            ?: throw ContentValidationException("listening_choice $id missing audio"),
+        audio = audio,
+        text = text?.toModel(),
         prompt = prompt?.toModel(),
         options = options.map { ChoiceOption(it.id, it.text.toModel()) },
         correctOptionId = correctOptionId
@@ -148,6 +148,33 @@ private fun ActivityDto.toModel(): LearningActivity = when (type) {
         prompt = prompt?.toModel(),
         text = text?.toModel()
             ?: throw ContentValidationException("speaking_repeat $id missing text"),
+    )
+
+    "dictation" -> LearningActivity.Dictation(
+        id = ActivityId(id),
+        audio = audio,
+        prompt = prompt?.toModel(),
+        text = text?.toModel()
+            ?: throw ContentValidationException("dictation $id missing text"),
+        acceptedAnswers = acceptedAnswers,
+    )
+
+    "free_write" -> LearningActivity.FreeWrite(
+        id = ActivityId(id),
+        prompt = prompt?.toModel()
+            ?: throw ContentValidationException("free_write $id missing prompt"),
+        minWords = minWords
+            ?: throw ContentValidationException("free_write $id missing minWords"),
+        checklist = checklist.map { it.toModel() },
+    )
+
+    "speaking_prompt" -> LearningActivity.SpeakingPrompt(
+        id = ActivityId(id),
+        prompt = prompt?.toModel()
+            ?: throw ContentValidationException("speaking_prompt $id missing prompt"),
+        minSeconds = minSeconds
+            ?: throw ContentValidationException("speaking_prompt $id missing minSeconds"),
+        checklist = checklist.map { it.toModel() },
     )
 
     "cloze" -> LearningActivity.Cloze(

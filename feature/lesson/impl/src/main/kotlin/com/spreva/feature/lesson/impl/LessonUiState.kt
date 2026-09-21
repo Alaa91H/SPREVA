@@ -50,6 +50,8 @@ data class LessonUiState(
     val similarityScore: Float? = null,
     /** Audit §11: non-null when MediaRecorder failed to start (no crash). */
     val recordingError: String? = null,
+    /** Duration of the latest free-speaking/shadowing take. */
+    val recordingDurationMs: Long? = null,
 ) {
     /** Whether the Check button should be enabled for the current activity. */
     val canCheck: Boolean
@@ -59,6 +61,10 @@ data class LessonUiState(
                 is com.spreva.core.model.LearningActivity.MultipleChoice -> selectedOptionId != null
                 is com.spreva.core.model.LearningActivity.ListeningChoice -> selectedOptionId != null
                 is com.spreva.core.model.LearningActivity.Cloze -> typedAnswer.isNotBlank()
+                is com.spreva.core.model.LearningActivity.Dictation -> typedAnswer.isNotBlank()
+                is com.spreva.core.model.LearningActivity.FreeWrite ->
+                    typedAnswer.trim().split(Regex("\\s+")).count { it.isNotBlank() } >= activity.minWords
+                is com.spreva.core.model.LearningActivity.SpeakingPrompt -> hasRecording
                 else -> true
             }
         }
