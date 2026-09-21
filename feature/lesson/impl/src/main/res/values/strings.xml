@@ -31,4 +31,14 @@
     <string name="spreva_lesson_objective_score">Objective tasks: %1$d / %2$d correct (%3$d%%)</string>
     <string name="spreva_lesson_productive_completion">Productive tasks completed: %1$d / %2$d</string>
     <string name="spreva_lesson_productive_disclaimer">Writing and speaking are counted as task completion only. Word count or recording duration is not a linguistic-quality score.</string>
+    <string name="spreva_lesson_self_review_rubric">Criterion-based self-review</string>
+    <string name="spreva_lesson_self_review_disclaimer">Rate your own performance against the level-specific descriptors. This is reflection evidence, not an official CEFR or automated language-quality score.</string>
+    <string name="spreva_lesson_save_self_review">Save self-review</string>
+    <string name="spreva_lesson_saving_self_review">Saving self-review…</string>
+    <string name="spreva_lesson_self_review_score">Self-review result: %1$d%%</string>
+    <string name="spreva_lesson_self_review_save_error">The self-review could not be saved. Try again.</string>
+    <string name="spreva_rubric_needs_revision">Needs revision</string>
+    <string name="spreva_rubric_emerging">Emerging</string>
+    <string name="spreva_rubric_mostly_effective">Mostly effective</string>
+    <string name="spreva_rubric_consistent">Consistent</string>
 </resources>

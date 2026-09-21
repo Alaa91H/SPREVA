@@ -38,6 +38,7 @@ import com.spreva.core.audio.TtsStatus
 import com.spreva.core.designsystem.theme.sprevaArticleColor
 import com.spreva.core.model.LearningActivity
 import com.spreva.core.model.Lesson
+import com.spreva.core.model.RubricRating
 
 /**
  * Lesson player: one primary task per screen (plan section 49). The
@@ -75,6 +76,8 @@ fun LessonRoute(
         onAnswerChanged = viewModel::onAnswerChanged,
         onOptionSelected = viewModel::onOptionSelected,
         onCheck = viewModel::check,
+        onRubricRatingChanged = viewModel::onRubricRatingChanged,
+        onSubmitRubric = viewModel::submitProductionRubric,
         onNext = viewModel::next,
         onRetry = { viewModel.load(lessonId) },
         onSpeakCurrent = viewModel::speakCurrent,
@@ -103,6 +106,8 @@ internal fun LessonScreen(
     onAnswerChanged: (String) -> Unit,
     onOptionSelected: (String) -> Unit,
     onCheck: () -> Unit,
+    onRubricRatingChanged: (String, RubricRating) -> Unit,
+    onSubmitRubric: () -> Unit,
     onNext: () -> Unit,
     onRetry: () -> Unit,
     onSpeakCurrent: () -> Unit,
@@ -141,6 +146,8 @@ internal fun LessonScreen(
             onAnswerChanged = onAnswerChanged,
             onOptionSelected = onOptionSelected,
             onCheck = onCheck,
+            onRubricRatingChanged = onRubricRatingChanged,
+            onSubmitRubric = onSubmitRubric,
             onNext = onNext,
             onSpeakCurrent = onSpeakCurrent,
             onSpeakWord = onSpeakWord,
@@ -163,6 +170,8 @@ private fun LessonContent(
     onAnswerChanged: (String) -> Unit,
     onOptionSelected: (String) -> Unit,
     onCheck: () -> Unit,
+    onRubricRatingChanged: (String, RubricRating) -> Unit,
+    onSubmitRubric: () -> Unit,
     onNext: () -> Unit,
     onSpeakCurrent: () -> Unit,
     onSpeakWord: (String?, String, String?) -> Unit,
@@ -319,23 +328,48 @@ private fun LessonContent(
             Spacer(Modifier.height(8.dp))
         }
 
+        val needsRubric = state.productionRubric != null &&
+            state.answerState?.correct == true &&
+            !state.rubricSubmitted
+
+        if (state.productionRubric != null && state.answerState?.correct == true) {
+            ProductionRubricPanel(
+                state = state,
+                onRatingChanged = onRubricRatingChanged,
+                uiLanguage = uiLanguage,
+            )
+            Spacer(Modifier.height(12.dp))
+        }
+
         val isSummary = activity is LearningActivity.LessonSummaryActivity
         val checkLabel = stringResource(R.string.spreva_lesson_check)
         val nextLabel = stringResource(R.string.spreva_lesson_next)
         val finishLabel = stringResource(R.string.spreva_lesson_finish)
+        val rubricLabel = stringResource(R.string.spreva_lesson_save_self_review)
 
         Button(
-            onClick = if (isSummary) onFinished else if (state.answerState == null) onCheck else onNext,
-            enabled = if (isSummary) {
-                true
-            } else {
-                state.answerState != null || state.canCheck
+            onClick = when {
+                isSummary -> onFinished
+                state.answerState == null -> onCheck
+                needsRubric -> onSubmitRubric
+                else -> onNext
+            },
+            enabled = when {
+                isSummary -> true
+                state.answerState == null -> state.canCheck
+                needsRubric -> state.canSubmitRubric && !state.rubricSaving
+                else -> true
             },
             modifier = Modifier.fillMaxWidth(),
         ) {
             Text(
                 when {
                     isSummary -> finishLabel
+                    needsRubric -> if (state.rubricSaving) {
+                        stringResource(R.string.spreva_lesson_saving_self_review)
+                    } else {
+                        rubricLabel
+                    }
                     state.answerState != null -> nextLabel
                     else -> checkLabel
                 },
@@ -343,6 +377,91 @@ private fun LessonContent(
         }
     }
 }
+
+@Composable
+private fun ProductionRubricPanel(
+    state: LessonUiState,
+    onRatingChanged: (String, RubricRating) -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
+) {
+    val rubric = state.productionRubric ?: return
+    Card(Modifier.fillMaxWidth()) {
+        Column(
+            Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(14.dp),
+        ) {
+            Text(
+                stringResource(R.string.spreva_lesson_self_review_rubric),
+                style = MaterialTheme.typography.titleLarge,
+            )
+            Text(
+                stringResource(R.string.spreva_lesson_self_review_disclaimer),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            rubric.criteria.forEach { criterion ->
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(
+                        criterion.title.resolveFor(uiLanguage),
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                    Text(
+                        criterion.guidance.resolveFor(uiLanguage),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    RubricRating.entries.forEach { rating ->
+                        val selected = state.rubricRatings[criterion.id] == rating
+                        Card(
+                            onClick = {
+                                if (!state.rubricSubmitted && !state.rubricSaving) {
+                                    onRatingChanged(criterion.id, rating)
+                                }
+                            },
+                            modifier = Modifier.fillMaxWidth(),
+                        ) {
+                            Row(
+                                Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
+                                verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
+                            ) {
+                                RadioButton(selected = selected, onClick = null)
+                                Text(rubricRatingLabel(rating))
+                            }
+                        }
+                    }
+                }
+            }
+
+            state.rubricScorePercent?.let { score ->
+                Text(
+                    stringResource(R.string.spreva_lesson_self_review_score, score),
+                    style = MaterialTheme.typography.titleMedium,
+                )
+                LinearProgressIndicator(
+                    progress = { score / 100f },
+                    modifier = Modifier.fillMaxWidth(),
+                )
+            }
+            state.rubricSaveError?.let {
+                Text(
+                    stringResource(R.string.spreva_lesson_self_review_save_error),
+                    color = MaterialTheme.colorScheme.error,
+                    style = MaterialTheme.typography.bodySmall,
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun rubricRatingLabel(rating: RubricRating): String = stringResource(
+    when (rating) {
+        RubricRating.NEEDS_REVISION -> R.string.spreva_rubric_needs_revision
+        RubricRating.EMERGING -> R.string.spreva_rubric_emerging
+        RubricRating.MOSTLY_EFFECTIVE -> R.string.spreva_rubric_mostly_effective
+        RubricRating.CONSISTENT -> R.string.spreva_rubric_consistent
+    },
+)
 
 @Composable
 private fun SpeakingRepeatRenderer(

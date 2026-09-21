@@ -64,6 +64,7 @@ data class LessonUiState(
     val productionRubric: ProductionRubric? = null,
     val rubricRatings: Map<String, RubricRating> = emptyMap(),
     val rubricSubmitted: Boolean = false,
+    val rubricSaving: Boolean = false,
     val rubricScorePercent: Int? = null,
     val rubricSaveError: String? = null,
 ) {

@@ -374,6 +374,7 @@ class LessonViewModel @Inject constructor(
             productionRubric = rubric,
             rubricRatings = emptyMap(),
             rubricSubmitted = false,
+            rubricSaving = false,
             rubricScorePercent = null,
             rubricSaveError = null,
         )
@@ -413,6 +414,7 @@ class LessonViewModel @Inject constructor(
                 ?.let { state.recordingDurationMs },
         )
 
+        _uiState.value = state.copy(rubricSaving = true, rubricSaveError = null)
         viewModelScope.launch {
             runCatching {
                 recordProductionSelfAssessment(assessment, clock.now())
@@ -423,12 +425,14 @@ class LessonViewModel @Inject constructor(
                 ) {
                     _uiState.value = latest.copy(
                         rubricSubmitted = true,
+                        rubricSaving = false,
                         rubricScorePercent = score,
                         rubricSaveError = null,
                     )
                 }
             }.onFailure {
                 _uiState.value = _uiState.value.copy(
+                    rubricSaving = false,
                     rubricSaveError = it.message ?: "Could not save self-review",
                 )
             }
