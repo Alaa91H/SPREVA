@@ -1,0 +1,378 @@
+{
+  "id": "c1_u01_l04",
+  "unitId": "de-core-c1-u01",
+  "title": {
+    "de": "Falltraining: Informationsstruktur, Fokus & Satzrhythmus",
+    "ar": "تدريب الحالات: بنية المعلومات والتركيز وإيقاع الجملة",
+    "en": "Casebook: Information structure, focus & sentence rhythm"
+  },
+  "canDo": [
+    "C1_U01_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u01_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Informationsstruktur, Fokus & Satzrhythmus\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• bekannte Information eher früh, neue/schwere eher später\n• Vorfeldvariation verändert Fokus, Verb bleibt Position 2\n• Nachfeld kann schwere Nebensätze entlasten, Referenz muss klar bleiben",
+        "ar": "الموضوع: بنية المعلومات والتركيز وإيقاع الجملة\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• bekannte Information eher früh, neue/schwere eher später\n• Vorfeldvariation verändert Fokus, Verb bleibt Position 2\n• Nachfeld kann schwere Nebensätze entlasten, Referenz muss klar bleiben",
+        "en": "Topic: Information structure, focus & sentence rhythm\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• bekannte Information eher früh, neue/schwere eher später\n• Vorfeldvariation verändert Fokus, Verb bleibt Position 2\n• Nachfeld kann schwere Nebensätze entlasten, Referenz muss klar bleiben"
+      }
+    },
+    {
+      "id": "c1_u01_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u01_l04_w1",
+          "german": "Vorfeld",
+          "translation": {
+            "de": "Vorfeld",
+            "ar": "مقدمة الجملة",
+            "en": "prefield"
+          }
+        },
+        {
+          "id": "c1_u01_l04_w2",
+          "german": "Fokus",
+          "translation": {
+            "de": "Fokus",
+            "ar": "بؤرة",
+            "en": "focus"
+          }
+        },
+        {
+          "id": "c1_u01_l04_w3",
+          "german": "Thema",
+          "translation": {
+            "de": "Thema",
+            "ar": "موضوع معلوم",
+            "en": "theme"
+          }
+        },
+        {
+          "id": "c1_u01_l04_w4",
+          "german": "Rhema",
+          "translation": {
+            "de": "Rhema",
+            "ar": "معلومة جديدة",
+            "en": "rheme"
+          }
+        },
+        {
+          "id": "c1_u01_l04_w5",
+          "german": "Nachfeld",
+          "translation": {
+            "de": "Nachfeld",
+            "ar": "نهاية موسعة",
+            "en": "postfield"
+          }
+        },
+        {
+          "id": "c1_u01_l04_w6",
+          "german": "hervorheben",
+          "translation": {
+            "de": "hervorheben",
+            "ar": "يبرز",
+            "en": "emphasize"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u01_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Besonders problematisch {answer} die Datenlage.",
+        "ar": "Besonders problematisch {answer} die Datenlage.",
+        "en": "Besonders problematisch {answer} die Datenlage."
+      },
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "c1_u01_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was die Kosten {answer}, bestehen Fragen.",
+        "ar": "Was die Kosten {answer}, bestehen Fragen.",
+        "en": "Was die Kosten {answer}, bestehen Fragen."
+      },
+      "acceptedAnswers": [
+        "betrifft"
+      ]
+    },
+    {
+      "id": "c1_u01_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Erst danach {answer} die eigentliche Analyse.",
+        "ar": "Erst danach {answer} die eigentliche Analyse.",
+        "en": "Erst danach {answer} die eigentliche Analyse."
+      },
+      "acceptedAnswers": [
+        "folgt"
+      ]
+    },
+    {
+      "id": "c1_u01_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zu berücksichtigen {answer} außerdem die Frist.",
+        "ar": "Zu berücksichtigen {answer} außerdem die Frist.",
+        "en": "Zu berücksichtigen {answer} außerdem die Frist."
+      },
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "c1_u01_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Es ist deutlich geworden, {answer} die Annahme falsch war.",
+        "ar": "Es ist deutlich geworden, {answer} die Annahme falsch war.",
+        "en": "Es ist deutlich geworden, {answer} die Annahme falsch war."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "c1_u01_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Hervorheben {answer} ich vor allem diesen Punkt.",
+        "ar": "Hervorheben {answer} ich vor allem diesen Punkt.",
+        "en": "Hervorheben {answer} ich vor allem diesen Punkt."
+      },
+      "acceptedAnswers": [
+        "möchte"
+      ]
+    },
+    {
+      "id": "c1_u01_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Vorfeld",
+        "ar": "Vorfeld",
+        "en": "Vorfeld"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Vorfeld",
+            "ar": "مقدمة الجملة",
+            "en": "prefield"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Fokus",
+            "ar": "بؤرة",
+            "en": "focus"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Thema",
+            "ar": "موضوع معلوم",
+            "en": "theme"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u01_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Fokus",
+        "ar": "Fokus",
+        "en": "Fokus"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Fokus",
+            "ar": "بؤرة",
+            "en": "focus"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Thema",
+            "ar": "موضوع معلوم",
+            "en": "theme"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Rhema",
+            "ar": "معلومة جديدة",
+            "en": "rheme"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u01_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Thema",
+        "ar": "Thema",
+        "en": "Thema"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Thema",
+            "ar": "موضوع معلوم",
+            "en": "theme"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Rhema",
+            "ar": "معلومة جديدة",
+            "en": "rheme"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Nachfeld",
+            "ar": "نهاية موسعة",
+            "en": "postfield"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u01_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Rhema",
+        "ar": "Rhema",
+        "en": "Rhema"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Rhema",
+            "ar": "معلومة جديدة",
+            "en": "rheme"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Nachfeld",
+            "ar": "نهاية موسعة",
+            "en": "postfield"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "hervorheben",
+            "ar": "يبرز",
+            "en": "emphasize"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u01_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ markierte Wortstellung ohne kommunikative Funktion\n• ❌ langes Vorfeld, dessen Bezug erst sehr spät klar wird\n• ❌ Fokus ändern und dabei Referenz unklar machen\n• ❌ Nachfeld so weit auslagern, dass Satzbezug verloren geht.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ markierte Wortstellung ohne kommunikative Funktion\n• ❌ langes Vorfeld, dessen Bezug erst sehr spät klar wird\n• ❌ Fokus ändern und dabei Referenz unklar machen\n• ❌ Nachfeld so weit auslagern, dass Satzbezug verloren geht.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ markierte Wortstellung ohne kommunikative Funktion\n• ❌ langes Vorfeld, dessen Bezug erst sehr spät klar wird\n• ❌ Fokus ändern und dabei Referenz unklar machen\n• ❌ Nachfeld so weit auslagern, dass Satzbezug verloren geht.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u01_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• bekannte Information eher früh, neue/schwere eher später\n• Vorfeldvariation verändert Fokus, Verb bleibt Position 2\n• Nachfeld kann schwere Nebensätze entlasten, Referenz muss klar bleiben\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• bekannte Information eher früh, neue/schwere eher später\n• Vorfeldvariation verändert Fokus, Verb bleibt Position 2\n• Nachfeld kann schwere Nebensätze entlasten, Referenz muss klar bleiben\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• bekannte Information eher früh, neue/schwere eher später\n• Vorfeldvariation verändert Fokus, Verb bleibt Position 2\n• Nachfeld kann schwere Nebensätze entlasten, Referenz muss klar bleiben\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u01_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Formuliere denselben Absatz in vier Fokusvarianten: Problemfokus, Ursachenfokus, Handlungsfokus, Ergebnisfokus. Erkläre die Wirkung.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Formuliere denselben Absatz in vier Fokusvarianten: Problemfokus, Ursachenfokus, Handlungsfokus, Ergebnisfokus. Erkläre die Wirkung.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Formuliere denselben Absatz in vier Fokusvarianten: Problemfokus, Ursachenfokus, Handlungsfokus, Ergebnisfokus. Erkläre die Wirkung.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u01_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U01_CASEBOOK"
+      ]
+    }
+  ]
+}

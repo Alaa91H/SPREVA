@@ -1,0 +1,378 @@
+{
+  "id": "c1_u13_l04",
+  "unitId": "de-core-c1-u13",
+  "title": {
+    "de": "Falltraining: Wissenschaft, Forschung & Methodenkritik",
+    "ar": "تدريب الحالات: العلم والبحث ونقد المنهج",
+    "en": "Casebook: Science, research & methodological critique"
+  },
+  "canDo": [
+    "C1_U13_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u13_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Wissenschaft, Forschung & Methodenkritik\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Hypothese → Design/Messung → Ergebnis → Interpretation\n• Kausalität braucht geeignetes Design und Alternativerklärungenkontrolle\n• Limitation spezifisch benennen und Konsequenz erklären",
+        "ar": "الموضوع: العلم والبحث ونقد المنهج\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Hypothese → Design/Messung → Ergebnis → Interpretation\n• Kausalität braucht geeignetes Design und Alternativerklärungenkontrolle\n• Limitation spezifisch benennen und Konsequenz erklären",
+        "en": "Topic: Science, research & methodological critique\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Hypothese → Design/Messung → Ergebnis → Interpretation\n• Kausalität braucht geeignetes Design und Alternativerklärungenkontrolle\n• Limitation spezifisch benennen und Konsequenz erklären"
+      }
+    },
+    {
+      "id": "c1_u13_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u13_l04_w1",
+          "german": "Hypothese",
+          "translation": {
+            "de": "Hypothese",
+            "ar": "فرضية",
+            "en": "hypothesis"
+          }
+        },
+        {
+          "id": "c1_u13_l04_w2",
+          "german": "Stichprobe",
+          "translation": {
+            "de": "Stichprobe",
+            "ar": "عينة",
+            "en": "sample"
+          }
+        },
+        {
+          "id": "c1_u13_l04_w3",
+          "german": "Operationalisierung",
+          "translation": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        },
+        {
+          "id": "c1_u13_l04_w4",
+          "german": "Kausalität",
+          "translation": {
+            "de": "Kausalität",
+            "ar": "سببية",
+            "en": "causality"
+          }
+        },
+        {
+          "id": "c1_u13_l04_w5",
+          "german": "Limitation",
+          "translation": {
+            "de": "Limitation",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        },
+        {
+          "id": "c1_u13_l04_w6",
+          "german": "Übertragbarkeit",
+          "translation": {
+            "de": "Übertragbarkeit",
+            "ar": "قابلية التعميم",
+            "en": "generalizability"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u13_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Studie prüft eine {answer}.",
+        "ar": "Die Studie prüft eine {answer}.",
+        "en": "Die Studie prüft eine {answer}."
+      },
+      "acceptedAnswers": [
+        "Hypothese"
+      ]
+    },
+    {
+      "id": "c1_u13_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} umfasst 120 Personen.",
+        "ar": "Die {answer} umfasst 120 Personen.",
+        "en": "Die {answer} umfasst 120 Personen."
+      },
+      "acceptedAnswers": [
+        "Stichprobe"
+      ]
+    },
+    {
+      "id": "c1_u13_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} macht das Konstrukt messbar.",
+        "ar": "Die {answer} macht das Konstrukt messbar.",
+        "en": "Die {answer} macht das Konstrukt messbar."
+      },
+      "acceptedAnswers": [
+        "Operationalisierung"
+      ]
+    },
+    {
+      "id": "c1_u13_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Korrelation beweist keine {answer}.",
+        "ar": "Korrelation beweist keine {answer}.",
+        "en": "Korrelation beweist keine {answer}."
+      },
+      "acceptedAnswers": [
+        "Kausalität"
+      ]
+    },
+    {
+      "id": "c1_u13_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine wichtige {answer} ist die kleine Stichprobe.",
+        "ar": "Eine wichtige {answer} ist die kleine Stichprobe.",
+        "en": "Eine wichtige {answer} ist die kleine Stichprobe."
+      },
+      "acceptedAnswers": [
+        "Limitation"
+      ]
+    },
+    {
+      "id": "c1_u13_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} auf andere Gruppen ist begrenzt.",
+        "ar": "Die {answer} auf andere Gruppen ist begrenzt.",
+        "en": "Die {answer} auf andere Gruppen ist begrenzt."
+      },
+      "acceptedAnswers": [
+        "Übertragbarkeit"
+      ]
+    },
+    {
+      "id": "c1_u13_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Hypothese",
+        "ar": "Hypothese",
+        "en": "Hypothese"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Hypothese",
+            "ar": "فرضية",
+            "en": "hypothesis"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Stichprobe",
+            "ar": "عينة",
+            "en": "sample"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u13_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Stichprobe",
+        "ar": "Stichprobe",
+        "en": "Stichprobe"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Stichprobe",
+            "ar": "عينة",
+            "en": "sample"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Kausalität",
+            "ar": "سببية",
+            "en": "causality"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u13_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Operationalisierung",
+        "ar": "Operationalisierung",
+        "en": "Operationalisierung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kausalität",
+            "ar": "سببية",
+            "en": "causality"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Limitation",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u13_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Kausalität",
+        "ar": "Kausalität",
+        "en": "Kausalität"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kausalität",
+            "ar": "سببية",
+            "en": "causality"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Limitation",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Übertragbarkeit",
+            "ar": "قابلية التعميم",
+            "en": "generalizability"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u13_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ Korrelation als Ursache formulieren\n• ❌ signifikant = groß/wichtig automatisch\n• ❌ kleine Stichprobe pauschal = Studie wertlos\n• ❌ Messinstrument nicht von theoretischem Konstrukt unterscheiden.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ Korrelation als Ursache formulieren\n• ❌ signifikant = groß/wichtig automatisch\n• ❌ kleine Stichprobe pauschal = Studie wertlos\n• ❌ Messinstrument nicht von theoretischem Konstrukt unterscheiden.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ Korrelation als Ursache formulieren\n• ❌ signifikant = groß/wichtig automatisch\n• ❌ kleine Stichprobe pauschal = Studie wertlos\n• ❌ Messinstrument nicht von theoretischem Konstrukt unterscheiden.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u13_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Hypothese → Design/Messung → Ergebnis → Interpretation\n• Kausalität braucht geeignetes Design und Alternativerklärungenkontrolle\n• Limitation spezifisch benennen und Konsequenz erklären\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Hypothese → Design/Messung → Ergebnis → Interpretation\n• Kausalität braucht geeignetes Design und Alternativerklärungenkontrolle\n• Limitation spezifisch benennen und Konsequenz erklären\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Hypothese → Design/Messung → Ergebnis → Interpretation\n• Kausalität braucht geeignetes Design und Alternativerklärungenkontrolle\n• Limitation spezifisch benennen und Konsequenz erklären\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u13_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Begutachte eine fiktive Studie: Forschungsfrage, Design, Stichprobe, Operationalisierung, Ergebnis, Alternativerklärung, Übertragbarkeit.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Begutachte eine fiktive Studie: Forschungsfrage, Design, Stichprobe, Operationalisierung, Ergebnis, Alternativerklärung, Übertragbarkeit.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Begutachte eine fiktive Studie: Forschungsfrage, Design, Stichprobe, Operationalisierung, Ergebnis, Alternativerklärung, Übertragbarkeit.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u13_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U13_CASEBOOK"
+      ]
+    }
+  ]
+}

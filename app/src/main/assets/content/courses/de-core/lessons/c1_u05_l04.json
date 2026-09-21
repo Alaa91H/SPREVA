@@ -1,0 +1,378 @@
+{
+  "id": "c1_u05_l04",
+  "unitId": "de-core-c1-u05",
+  "title": {
+    "de": "Falltraining: Nominalstil, Verdichtung & Rückübersetzung",
+    "ar": "تدريب الحالات: الأسلوب الاسمي والتكثيف وإعادة الصياغة الفعلية",
+    "en": "Casebook: Nominal style, compression & verbal expansion"
+  },
+  "canDo": [
+    "C1_U05_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u05_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Nominalstil, Verdichtung & Rückübersetzung\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Nominalstil verdichtet; Verbalstil zeigt Handlung/Akteur klarer\n• bidirektional transformieren ohne Bedeutungsverlust\n• Fachsprache braucht Terminologie, aber auch Lesbarkeit",
+        "ar": "الموضوع: الأسلوب الاسمي والتكثيف وإعادة الصياغة الفعلية\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Nominalstil verdichtet; Verbalstil zeigt Handlung/Akteur klarer\n• bidirektional transformieren ohne Bedeutungsverlust\n• Fachsprache braucht Terminologie, aber auch Lesbarkeit",
+        "en": "Topic: Nominal style, compression & verbal expansion\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Nominalstil verdichtet; Verbalstil zeigt Handlung/Akteur klarer\n• bidirektional transformieren ohne Bedeutungsverlust\n• Fachsprache braucht Terminologie, aber auch Lesbarkeit"
+      }
+    },
+    {
+      "id": "c1_u05_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u05_l04_w1",
+          "german": "Verdichtung",
+          "translation": {
+            "de": "Verdichtung",
+            "ar": "تكثيف",
+            "en": "compression"
+          }
+        },
+        {
+          "id": "c1_u05_l04_w2",
+          "german": "auflösen",
+          "translation": {
+            "de": "auflösen",
+            "ar": "يفك الصياغة",
+            "en": "expand"
+          }
+        },
+        {
+          "id": "c1_u05_l04_w3",
+          "german": "Funktionsverbgefüge",
+          "translation": {
+            "de": "Funktionsverbgefüge",
+            "ar": "تركيب فعل وظيفي",
+            "en": "light-verb construction"
+          }
+        },
+        {
+          "id": "c1_u05_l04_w4",
+          "german": "Durchführung",
+          "translation": {
+            "de": "Durchführung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "c1_u05_l04_w5",
+          "german": "Prüfung",
+          "translation": {
+            "de": "Prüfung",
+            "ar": "فحص",
+            "en": "review"
+          }
+        },
+        {
+          "id": "c1_u05_l04_w6",
+          "german": "Lesbarkeit",
+          "translation": {
+            "de": "Lesbarkeit",
+            "ar": "سهولة القراءة",
+            "en": "readability"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u05_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nominale {answer} kann Texte verkürzen.",
+        "ar": "Nominale {answer} kann Texte verkürzen.",
+        "en": "Nominale {answer} kann Texte verkürzen."
+      },
+      "acceptedAnswers": [
+        "Verdichtung"
+      ]
+    },
+    {
+      "id": "c1_u05_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Kette lässt sich verbal {answer}.",
+        "ar": "Die Kette lässt sich verbal {answer}.",
+        "en": "Die Kette lässt sich verbal {answer}."
+      },
+      "acceptedAnswers": [
+        "auflösen"
+      ]
+    },
+    {
+      "id": "c1_u05_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "„in Betracht ziehen“ ist ein {answer}.",
+        "ar": "„in Betracht ziehen“ ist ein {answer}.",
+        "en": "„in Betracht ziehen“ ist ein {answer}."
+      },
+      "acceptedAnswers": [
+        "Funktionsverbgefüge"
+      ]
+    },
+    {
+      "id": "c1_u05_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach {answer} der Prüfung folgt die Freigabe.",
+        "ar": "Nach {answer} der Prüfung folgt die Freigabe.",
+        "en": "Nach {answer} der Prüfung folgt die Freigabe."
+      },
+      "acceptedAnswers": [
+        "Abschluss"
+      ]
+    },
+    {
+      "id": "c1_u05_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} der Maßnahme beginnt Montag.",
+        "ar": "Die {answer} der Maßnahme beginnt Montag.",
+        "en": "Die {answer} der Maßnahme beginnt Montag."
+      },
+      "acceptedAnswers": [
+        "Durchführung"
+      ]
+    },
+    {
+      "id": "c1_u05_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zu viel Verdichtung schadet der {answer}.",
+        "ar": "Zu viel Verdichtung schadet der {answer}.",
+        "en": "Zu viel Verdichtung schadet der {answer}."
+      },
+      "acceptedAnswers": [
+        "Lesbarkeit"
+      ]
+    },
+    {
+      "id": "c1_u05_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Verdichtung",
+        "ar": "Verdichtung",
+        "en": "Verdichtung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Verdichtung",
+            "ar": "تكثيف",
+            "en": "compression"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "auflösen",
+            "ar": "يفك الصياغة",
+            "en": "expand"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Funktionsverbgefüge",
+            "ar": "تركيب فعل وظيفي",
+            "en": "light-verb construction"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u05_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "auflösen",
+        "ar": "auflösen",
+        "en": "auflösen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "auflösen",
+            "ar": "يفك الصياغة",
+            "en": "expand"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Funktionsverbgefüge",
+            "ar": "تركيب فعل وظيفي",
+            "en": "light-verb construction"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Durchführung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u05_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Funktionsverbgefüge",
+        "ar": "Funktionsverbgefüge",
+        "en": "Funktionsverbgefüge"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Funktionsverbgefüge",
+            "ar": "تركيب فعل وظيفي",
+            "en": "light-verb construction"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Durchführung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Prüfung",
+            "ar": "فحص",
+            "en": "review"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u05_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Durchführung",
+        "ar": "Durchführung",
+        "en": "Durchführung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Durchführung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Prüfung",
+            "ar": "فحص",
+            "en": "review"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Lesbarkeit",
+            "ar": "سهولة القراءة",
+            "en": "readability"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u05_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ jede Nominalisierung automatisch formeller/besser\n• ❌ Akteur beim Verdichten versehentlich löschen, obwohl relevant\n• ❌ Funktionsverbgefüge nutzen, wenn einfaches Verb präziser ist\n• ❌ Rückübersetzung verändert Modalität/Zeitbezug.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ jede Nominalisierung automatisch formeller/besser\n• ❌ Akteur beim Verdichten versehentlich löschen, obwohl relevant\n• ❌ Funktionsverbgefüge nutzen, wenn einfaches Verb präziser ist\n• ❌ Rückübersetzung verändert Modalität/Zeitbezug.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ jede Nominalisierung automatisch formeller/besser\n• ❌ Akteur beim Verdichten versehentlich löschen, obwohl relevant\n• ❌ Funktionsverbgefüge nutzen, wenn einfaches Verb präziser ist\n• ❌ Rückübersetzung verändert Modalität/Zeitbezug.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u05_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Nominalstil verdichtet; Verbalstil zeigt Handlung/Akteur klarer\n• bidirektional transformieren ohne Bedeutungsverlust\n• Fachsprache braucht Terminologie, aber auch Lesbarkeit\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Nominalstil verdichtet; Verbalstil zeigt Handlung/Akteur klarer\n• bidirektional transformieren ohne Bedeutungsverlust\n• Fachsprache braucht Terminologie, aber auch Lesbarkeit\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Nominalstil verdichtet; Verbalstil zeigt Handlung/Akteur klarer\n• bidirektional transformieren ohne Bedeutungsverlust\n• Fachsprache braucht Terminologie, aber auch Lesbarkeit\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u05_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Redigiere denselben Fachabsatz in drei Versionen: maximale Dichte, maximale Klarheit, ausgewogene Publikationsfassung.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Redigiere denselben Fachabsatz in drei Versionen: maximale Dichte, maximale Klarheit, ausgewogene Publikationsfassung.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Redigiere denselben Fachabsatz in drei Versionen: maximale Dichte, maximale Klarheit, ausgewogene Publikationsfassung.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u05_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U05_CASEBOOK"
+      ]
+    }
+  ]
+}

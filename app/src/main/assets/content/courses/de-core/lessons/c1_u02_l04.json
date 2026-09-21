@@ -1,0 +1,378 @@
+{
+  "id": "c1_u02_l04",
+  "unitId": "de-core-c1-u02",
+  "title": {
+    "de": "Falltraining: Komplexe Subordination & Bedeutungsnuancen",
+    "ar": "تدريب الحالات: الجمل التابعة المعقدة والفروق الدلالية",
+    "en": "Casebook: Complex subordination & semantic nuance"
+  },
+  "canDo": [
+    "C1_U02_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u02_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Komplexe Subordination & Bedeutungsnuancen\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• indem = Mittel/Art; sofern = Bedingung; insofern = Geltungsbereich\n• zumal verstärkt einen zusätzlichen Grund\n• wohingegen kontrastiert; zu…als dass markiert nicht realisierbare Konsequenz",
+        "ar": "الموضوع: الجمل التابعة المعقدة والفروق الدلالية\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• indem = Mittel/Art; sofern = Bedingung; insofern = Geltungsbereich\n• zumal verstärkt einen zusätzlichen Grund\n• wohingegen kontrastiert; zu…als dass markiert nicht realisierbare Konsequenz",
+        "en": "Topic: Complex subordination & semantic nuance\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• indem = Mittel/Art; sofern = Bedingung; insofern = Geltungsbereich\n• zumal verstärkt einen zusätzlichen Grund\n• wohingegen kontrastiert; zu…als dass markiert nicht realisierbare Konsequenz"
+      }
+    },
+    {
+      "id": "c1_u02_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u02_l04_w1",
+          "german": "insofern",
+          "translation": {
+            "de": "insofern",
+            "ar": "بقدر ما",
+            "en": "insofar"
+          }
+        },
+        {
+          "id": "c1_u02_l04_w2",
+          "german": "zumal",
+          "translation": {
+            "de": "zumal",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "c1_u02_l04_w3",
+          "german": "wohingegen",
+          "translation": {
+            "de": "wohingegen",
+            "ar": "في حين أن",
+            "en": "whereas"
+          }
+        },
+        {
+          "id": "c1_u02_l04_w4",
+          "german": "indem",
+          "translation": {
+            "de": "indem",
+            "ar": "من خلال",
+            "en": "by doing"
+          }
+        },
+        {
+          "id": "c1_u02_l04_w5",
+          "german": "als dass",
+          "translation": {
+            "de": "als dass",
+            "ar": "إلى حد لا يسمح",
+            "en": "too...to"
+          }
+        },
+        {
+          "id": "c1_u02_l04_w6",
+          "german": "ohne dass",
+          "translation": {
+            "de": "ohne dass",
+            "ar": "دون أن",
+            "en": "without"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u02_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Ansatz ist {answer} sinnvoll, als er beide Ziele verbindet.",
+        "ar": "Der Ansatz ist {answer} sinnvoll, als er beide Ziele verbindet.",
+        "en": "Der Ansatz ist {answer} sinnvoll, als er beide Ziele verbindet."
+      },
+      "acceptedAnswers": [
+        "insofern"
+      ]
+    },
+    {
+      "id": "c1_u02_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das lohnt sich, {answer} die Kosten gering sind.",
+        "ar": "Das lohnt sich, {answer} die Kosten gering sind.",
+        "en": "Das lohnt sich, {answer} die Kosten gering sind."
+      },
+      "acceptedAnswers": [
+        "zumal"
+      ]
+    },
+    {
+      "id": "c1_u02_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "A stieg, {answer} B sank.",
+        "ar": "A stieg, {answer} B sank.",
+        "en": "A stieg, {answer} B sank."
+      },
+      "acceptedAnswers": [
+        "wohingegen"
+      ]
+    },
+    {
+      "id": "c1_u02_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Qualität steigt, {answer} Prozesse geprüft werden.",
+        "ar": "Die Qualität steigt, {answer} Prozesse geprüft werden.",
+        "en": "Die Qualität steigt, {answer} Prozesse geprüft werden."
+      },
+      "acceptedAnswers": [
+        "indem"
+      ]
+    },
+    {
+      "id": "c1_u02_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten sind zu schwach, {answer} dass man sicher schließen könnte.",
+        "ar": "Die Daten sind zu schwach, {answer} dass man sicher schließen könnte.",
+        "en": "Die Daten sind zu schwach, {answer} dass man sicher schließen könnte."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u02_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er ging, {answer} jemand es bemerkte.",
+        "ar": "Er ging, {answer} jemand es bemerkte.",
+        "en": "Er ging, {answer} jemand es bemerkte."
+      },
+      "acceptedAnswers": [
+        "ohne dass"
+      ]
+    },
+    {
+      "id": "c1_u02_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "insofern",
+        "ar": "insofern",
+        "en": "insofern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "insofern",
+            "ar": "بقدر ما",
+            "en": "insofar"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zumal",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "wohingegen",
+            "ar": "في حين أن",
+            "en": "whereas"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u02_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "zumal",
+        "ar": "zumal",
+        "en": "zumal"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zumal",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "wohingegen",
+            "ar": "في حين أن",
+            "en": "whereas"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "indem",
+            "ar": "من خلال",
+            "en": "by doing"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u02_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "wohingegen",
+        "ar": "wohingegen",
+        "en": "wohingegen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wohingegen",
+            "ar": "في حين أن",
+            "en": "whereas"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "indem",
+            "ar": "من خلال",
+            "en": "by doing"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "als dass",
+            "ar": "إلى حد لا يسمح",
+            "en": "too...to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u02_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "indem",
+        "ar": "indem",
+        "en": "indem"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "indem",
+            "ar": "من خلال",
+            "en": "by doing"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "als dass",
+            "ar": "إلى حد لا يسمح",
+            "en": "too...to"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ohne dass",
+            "ar": "دون أن",
+            "en": "without"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u02_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ insofern nur als Synonym für deshalb\n• ❌ zumal ohne zusätzlichen/verstärkenden Grund\n• ❌ indem mit bloßer Ursache verwechseln\n• ❌ zu … als dass mit realer Folge statt Unmöglichkeit verwenden.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ insofern nur als Synonym für deshalb\n• ❌ zumal ohne zusätzlichen/verstärkenden Grund\n• ❌ indem mit bloßer Ursache verwechseln\n• ❌ zu … als dass mit realer Folge statt Unmöglichkeit verwenden.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ insofern nur als Synonym für deshalb\n• ❌ zumal ohne zusätzlichen/verstärkenden Grund\n• ❌ indem mit bloßer Ursache verwechseln\n• ❌ zu … als dass mit realer Folge statt Unmöglichkeit verwenden.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u02_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• indem = Mittel/Art; sofern = Bedingung; insofern = Geltungsbereich\n• zumal verstärkt einen zusätzlichen Grund\n• wohingegen kontrastiert; zu…als dass markiert nicht realisierbare Konsequenz\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• indem = Mittel/Art; sofern = Bedingung; insofern = Geltungsbereich\n• zumal verstärkt einen zusätzlichen Grund\n• wohingegen kontrastiert; zu…als dass markiert nicht realisierbare Konsequenz\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• indem = Mittel/Art; sofern = Bedingung; insofern = Geltungsbereich\n• zumal verstärkt einen zusätzlichen Grund\n• wohingegen kontrastiert; zu…als dass markiert nicht realisierbare Konsequenz\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u02_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Nimm sechs einfache weil/aber/wenn-Sätze und ersetze sie nur dort durch fortgeschrittene Konnektoren, wo die Logik exakt passt.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Nimm sechs einfache weil/aber/wenn-Sätze und ersetze sie nur dort durch fortgeschrittene Konnektoren, wo die Logik exakt passt.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Nimm sechs einfache weil/aber/wenn-Sätze und ersetze sie nur dort durch fortgeschrittene Konnektoren, wo die Logik exakt passt.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u02_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U02_CASEBOOK"
+      ]
+    }
+  ]
+}

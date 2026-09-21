@@ -1,0 +1,378 @@
+{
+  "id": "c1_u08_l04",
+  "unitId": "de-core-c1-u08",
+  "title": {
+    "de": "Falltraining: Berichte, Memos & Executive Summary",
+    "ar": "تدريب الحالات: التقارير والمذكرات والملخص التنفيذي",
+    "en": "Casebook: Reports, memos & executive summaries"
+  },
+  "canDo": [
+    "C1_U08_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u08_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Berichte, Memos & Executive Summary\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Fakt/Befund → Bedeutung/Bewertung → Empfehlung\n• Summary muss allein verständlich sein\n• Priorität nach Entscheidungsrelevanz, nicht Chronologie",
+        "ar": "الموضوع: التقارير والمذكرات والملخص التنفيذي\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Fakt/Befund → Bedeutung/Bewertung → Empfehlung\n• Summary muss allein verständlich sein\n• Priorität nach Entscheidungsrelevanz, nicht Chronologie",
+        "en": "Topic: Reports, memos & executive summaries\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Fakt/Befund → Bedeutung/Bewertung → Empfehlung\n• Summary muss allein verständlich sein\n• Priorität nach Entscheidungsrelevanz, nicht Chronologie"
+      }
+    },
+    {
+      "id": "c1_u08_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u08_l04_w1",
+          "german": "Befund",
+          "translation": {
+            "de": "Befund",
+            "ar": "نتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "c1_u08_l04_w2",
+          "german": "Bewertung",
+          "translation": {
+            "de": "Bewertung",
+            "ar": "تقييم",
+            "en": "assessment"
+          }
+        },
+        {
+          "id": "c1_u08_l04_w3",
+          "german": "Empfehlung",
+          "translation": {
+            "de": "Empfehlung",
+            "ar": "توصية",
+            "en": "recommendation"
+          }
+        },
+        {
+          "id": "c1_u08_l04_w4",
+          "german": "Risiko",
+          "translation": {
+            "de": "Risiko",
+            "ar": "مخاطرة",
+            "en": "risk"
+          }
+        },
+        {
+          "id": "c1_u08_l04_w5",
+          "german": "entscheidungsrelevant",
+          "translation": {
+            "de": "entscheidungsrelevant",
+            "ar": "مرتبط بالقرار",
+            "en": "decision-relevant"
+          }
+        },
+        {
+          "id": "c1_u08_l04_w6",
+          "german": "prägnant",
+          "translation": {
+            "de": "prägnant",
+            "ar": "موجز",
+            "en": "concise"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u08_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der wichtigste {answer} betrifft die Kosten.",
+        "ar": "Der wichtigste {answer} betrifft die Kosten.",
+        "en": "Der wichtigste {answer} betrifft die Kosten."
+      },
+      "acceptedAnswers": [
+        "Befund"
+      ]
+    },
+    {
+      "id": "c1_u08_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Darauf folgt die {answer} der Bedeutung.",
+        "ar": "Darauf folgt die {answer} der Bedeutung.",
+        "en": "Darauf folgt die {answer} der Bedeutung."
+      },
+      "acceptedAnswers": [
+        "Bewertung"
+      ]
+    },
+    {
+      "id": "c1_u08_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unsere {answer} lautet, den Pilot zu verlängern.",
+        "ar": "Unsere {answer} lautet, den Pilot zu verlängern.",
+        "en": "Unsere {answer} lautet, den Pilot zu verlängern."
+      },
+      "acceptedAnswers": [
+        "Empfehlung"
+      ]
+    },
+    {
+      "id": "c1_u08_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein zentrales {answer} ist die Datenlücke.",
+        "ar": "Ein zentrales {answer} ist die Datenlücke.",
+        "en": "Ein zentrales {answer} ist die Datenlücke."
+      },
+      "acceptedAnswers": [
+        "Risiko"
+      ]
+    },
+    {
+      "id": "c1_u08_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nur {answer} Details gehören in die Summary.",
+        "ar": "Nur {answer} Details gehören in die Summary.",
+        "en": "Nur {answer} Details gehören in die Summary."
+      },
+      "acceptedAnswers": [
+        "entscheidungsrelevante"
+      ]
+    },
+    {
+      "id": "c1_u08_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Formulierung sollte klar und {answer} sein.",
+        "ar": "Die Formulierung sollte klar und {answer} sein.",
+        "en": "Die Formulierung sollte klar und {answer} sein."
+      },
+      "acceptedAnswers": [
+        "prägnant"
+      ]
+    },
+    {
+      "id": "c1_u08_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Befund",
+        "ar": "Befund",
+        "en": "Befund"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Befund",
+            "ar": "نتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Bewertung",
+            "ar": "تقييم",
+            "en": "assessment"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Empfehlung",
+            "ar": "توصية",
+            "en": "recommendation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u08_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Bewertung",
+        "ar": "Bewertung",
+        "en": "Bewertung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Bewertung",
+            "ar": "تقييم",
+            "en": "assessment"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Empfehlung",
+            "ar": "توصية",
+            "en": "recommendation"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Risiko",
+            "ar": "مخاطرة",
+            "en": "risk"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u08_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Empfehlung",
+        "ar": "Empfehlung",
+        "en": "Empfehlung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Empfehlung",
+            "ar": "توصية",
+            "en": "recommendation"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Risiko",
+            "ar": "مخاطرة",
+            "en": "risk"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "entscheidungsrelevant",
+            "ar": "مرتبط بالقرار",
+            "en": "decision-relevant"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u08_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Risiko",
+        "ar": "Risiko",
+        "en": "Risiko"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Risiko",
+            "ar": "مخاطرة",
+            "en": "risk"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "entscheidungsrelevant",
+            "ar": "مرتبط بالقرار",
+            "en": "decision-relevant"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "prägnant",
+            "ar": "موجز",
+            "en": "concise"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u08_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ Executive Summary als Inhaltsverzeichnis\n• ❌ Empfehlung vor Befunden ohne Begründung\n• ❌ Risiken/Datenlücken aus Kürzegründen verschweigen\n• ❌ Zahlen ohne Zeitraum/Bezugsgröße.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ Executive Summary als Inhaltsverzeichnis\n• ❌ Empfehlung vor Befunden ohne Begründung\n• ❌ Risiken/Datenlücken aus Kürzegründen verschweigen\n• ❌ Zahlen ohne Zeitraum/Bezugsgröße.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ Executive Summary als Inhaltsverzeichnis\n• ❌ Empfehlung vor Befunden ohne Begründung\n• ❌ Risiken/Datenlücken aus Kürzegründen verschweigen\n• ❌ Zahlen ohne Zeitraum/Bezugsgröße.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u08_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Fakt/Befund → Bedeutung/Bewertung → Empfehlung\n• Summary muss allein verständlich sein\n• Priorität nach Entscheidungsrelevanz, nicht Chronologie\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Fakt/Befund → Bedeutung/Bewertung → Empfehlung\n• Summary muss allein verständlich sein\n• Priorität nach Entscheidungsrelevanz, nicht Chronologie\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Fakt/Befund → Bedeutung/Bewertung → Empfehlung\n• Summary muss allein verständlich sein\n• Priorität nach Entscheidungsrelevanz, nicht Chronologie\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u08_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Verdichte einen fiktiven 2-Seiten-Bericht zu 180 Wörtern Executive Summary mit Befund, Risiko, Empfehlung und nächstem Schritt.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Verdichte einen fiktiven 2-Seiten-Bericht zu 180 Wörtern Executive Summary mit Befund, Risiko, Empfehlung und nächstem Schritt.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Verdichte einen fiktiven 2-Seiten-Bericht zu 180 Wörtern Executive Summary mit Befund, Risiko, Empfehlung und nächstem Schritt.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u08_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U08_CASEBOOK"
+      ]
+    }
+  ]
+}

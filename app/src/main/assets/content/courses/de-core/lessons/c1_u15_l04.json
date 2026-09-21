@@ -1,0 +1,378 @@
+{
+  "id": "c1_u15_l04",
+  "unitId": "de-core-c1-u15",
+  "title": {
+    "de": "Falltraining: Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur",
+    "ar": "تدريب الحالات: التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي",
+    "en": "Casebook: Editing, error diagnosis & stylistic self-correction"
+  },
+  "canDo": [
+    "C1_U15_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u15_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Revision in Durchgängen statt alles gleichzeitig\n• Kohärenz betrifft Logik; Kohäsion sprachliche Verknüpfung\n• Fehlerjournal macht persönliche Muster sichtbar",
+        "ar": "الموضوع: التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Revision in Durchgängen statt alles gleichzeitig\n• Kohärenz betrifft Logik; Kohäsion sprachliche Verknüpfung\n• Fehlerjournal macht persönliche Muster sichtbar",
+        "en": "Topic: Editing, error diagnosis & stylistic self-correction\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Revision in Durchgängen statt alles gleichzeitig\n• Kohärenz betrifft Logik; Kohäsion sprachliche Verknüpfung\n• Fehlerjournal macht persönliche Muster sichtbar"
+      }
+    },
+    {
+      "id": "c1_u15_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u15_l04_w1",
+          "german": "Kohäsion",
+          "translation": {
+            "de": "Kohäsion",
+            "ar": "ترابط نصي",
+            "en": "cohesion"
+          }
+        },
+        {
+          "id": "c1_u15_l04_w2",
+          "german": "Kohärenz",
+          "translation": {
+            "de": "Kohärenz",
+            "ar": "تماسك منطقي",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "c1_u15_l04_w3",
+          "german": "Referenz",
+          "translation": {
+            "de": "Referenz",
+            "ar": "إحالة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "c1_u15_l04_w4",
+          "german": "Parallelität",
+          "translation": {
+            "de": "Parallelität",
+            "ar": "توازٍ بنيوي",
+            "en": "parallelism"
+          }
+        },
+        {
+          "id": "c1_u15_l04_w5",
+          "german": "straffen",
+          "translation": {
+            "de": "straffen",
+            "ar": "يختصر ويحكم",
+            "en": "tighten"
+          }
+        },
+        {
+          "id": "c1_u15_l04_w6",
+          "german": "Fehlermuster",
+          "translation": {
+            "de": "Fehlermuster",
+            "ar": "نمط خطأ",
+            "en": "error pattern"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u15_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Pronomen brauchen klare {answer}.",
+        "ar": "Pronomen brauchen klare {answer}.",
+        "en": "Pronomen brauchen klare {answer}."
+      },
+      "acceptedAnswers": [
+        "Referenz"
+      ]
+    },
+    {
+      "id": "c1_u15_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Übergangswörter stärken die {answer}.",
+        "ar": "Übergangswörter stärken die {answer}.",
+        "en": "Übergangswörter stärken die {answer}."
+      },
+      "acceptedAnswers": [
+        "Kohäsion"
+      ]
+    },
+    {
+      "id": "c1_u15_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Logische Gesamtstruktur schafft {answer}.",
+        "ar": "Logische Gesamtstruktur schafft {answer}.",
+        "en": "Logische Gesamtstruktur schafft {answer}."
+      },
+      "acceptedAnswers": [
+        "Kohärenz"
+      ]
+    },
+    {
+      "id": "c1_u15_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Listen sollten grammatische {answer} wahren.",
+        "ar": "Listen sollten grammatische {answer} wahren.",
+        "en": "Listen sollten grammatische {answer} wahren."
+      },
+      "acceptedAnswers": [
+        "Parallelität"
+      ]
+    },
+    {
+      "id": "c1_u15_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Den Absatz kann man sprachlich {answer}.",
+        "ar": "Den Absatz kann man sprachlich {answer}.",
+        "en": "Den Absatz kann man sprachlich {answer}."
+      },
+      "acceptedAnswers": [
+        "straffen"
+      ]
+    },
+    {
+      "id": "c1_u15_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wiederkehrende Fehler bilden ein {answer}.",
+        "ar": "Wiederkehrende Fehler bilden ein {answer}.",
+        "en": "Wiederkehrende Fehler bilden ein {answer}."
+      },
+      "acceptedAnswers": [
+        "Fehlermuster"
+      ]
+    },
+    {
+      "id": "c1_u15_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Kohäsion",
+        "ar": "Kohäsion",
+        "en": "Kohäsion"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kohäsion",
+            "ar": "ترابط نصي",
+            "en": "cohesion"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kohärenz",
+            "ar": "تماسك منطقي",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Referenz",
+            "ar": "إحالة",
+            "en": "reference"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u15_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Kohärenz",
+        "ar": "Kohärenz",
+        "en": "Kohärenz"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kohärenz",
+            "ar": "تماسك منطقي",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Referenz",
+            "ar": "إحالة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Parallelität",
+            "ar": "توازٍ بنيوي",
+            "en": "parallelism"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u15_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Referenz",
+        "ar": "Referenz",
+        "en": "Referenz"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Referenz",
+            "ar": "إحالة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Parallelität",
+            "ar": "توازٍ بنيوي",
+            "en": "parallelism"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "straffen",
+            "ar": "يختصر ويحكم",
+            "en": "tighten"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u15_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Parallelität",
+        "ar": "Parallelität",
+        "en": "Parallelität"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Parallelität",
+            "ar": "توازٍ بنيوي",
+            "en": "parallelism"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "straffen",
+            "ar": "يختصر ويحكم",
+            "en": "tighten"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Fehlermuster",
+            "ar": "نمط خطأ",
+            "en": "error pattern"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u15_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ Rechtschreibung zuerst, obwohl Logik unklar\n• ❌ Pronomenbezug nicht prüfen\n• ❌ jeden langen Satz pauschal kürzen\n• ❌ korrekt = automatisch passend/präzise/elegant.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ Rechtschreibung zuerst, obwohl Logik unklar\n• ❌ Pronomenbezug nicht prüfen\n• ❌ jeden langen Satz pauschal kürzen\n• ❌ korrekt = automatisch passend/präzise/elegant.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ Rechtschreibung zuerst, obwohl Logik unklar\n• ❌ Pronomenbezug nicht prüfen\n• ❌ jeden langen Satz pauschal kürzen\n• ❌ korrekt = automatisch passend/präzise/elegant.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u15_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Revision in Durchgängen statt alles gleichzeitig\n• Kohärenz betrifft Logik; Kohäsion sprachliche Verknüpfung\n• Fehlerjournal macht persönliche Muster sichtbar\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Revision in Durchgängen statt alles gleichzeitig\n• Kohärenz betrifft Logik; Kohäsion sprachliche Verknüpfung\n• Fehlerjournal macht persönliche Muster sichtbar\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Revision in Durchgängen statt alles gleichzeitig\n• Kohärenz betrifft Logik; Kohäsion sprachliche Verknüpfung\n• Fehlerjournal macht persönliche Muster sichtbar\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u15_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Redigiere 250 Wörter in sieben Durchgängen: Logik, Struktur, Referenzen, Register, Kollokationen, Grammatik, Kürze. Dokumentiere jede Änderung mit Grund.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Redigiere 250 Wörter in sieben Durchgängen: Logik, Struktur, Referenzen, Register, Kollokationen, Grammatik, Kürze. Dokumentiere jede Änderung mit Grund.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Redigiere 250 Wörter in sieben Durchgängen: Logik, Struktur, Referenzen, Register, Kollokationen, Grammatik, Kürze. Dokumentiere jede Änderung mit Grund.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u15_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U15_CASEBOOK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "id": "c1_u06_l04",
+  "unitId": "de-core-c1-u06",
+  "title": {
+    "de": "Falltraining: Kollokationen, Wortbildung & idiomatische Präzision",
+    "ar": "تدريب الحالات: المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية",
+    "en": "Casebook: Collocations, word formation & idiomatic precision"
+  },
+  "canDo": [
+    "C1_U06_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u06_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Casebook — kontrollierte sprachliche Entscheidung",
+        "ar": "دفتر حالات C1 — قرار لغوي متحكم",
+        "en": "C1 Casebook — controlled language choice"
+      },
+      "body": {
+        "de": "Thema: Kollokationen, Wortbildung & idiomatische Präzision\n\nC1-Ziel: Nicht „kompliziert“ schreiben, sondern Form, Evidenz, Quelle, Register und Informationsstruktur bewusst steuern. Jede Entscheidung muss begründbar sein.\n\nFeinkontraste:\n• Kollokation ist konventionelle Wortpartnerschaft\n• Wortbildungsaffixe helfen, garantieren aber keine vollständige Bedeutung\n• Register und Ergänzungsmuster gehören zum Wortwissen",
+        "ar": "الموضوع: المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية\n\nهدف C1: ليس الكتابة المعقدة، بل التحكم الواعي بالشكل والدليل والمصدر والسجل وبنية المعلومات. يجب أن يكون كل اختيار قابلًا للتعليل.\n\nالفروق الدقيقة:\n• Kollokation ist konventionelle Wortpartnerschaft\n• Wortbildungsaffixe helfen, garantieren aber keine vollständige Bedeutung\n• Register und Ergänzungsmuster gehören zum Wortwissen",
+        "en": "Topic: Collocations, word formation & idiomatic precision\n\nC1 goal: not to write “complicated” language, but to control form, evidence, source, register and information structure deliberately. Every choice should be justifiable.\n\nFine contrasts:\n• Kollokation ist konventionelle Wortpartnerschaft\n• Wortbildungsaffixe helfen, garantieren aber keine vollständige Bedeutung\n• Register und Ergänzungsmuster gehören zum Wortwissen"
+      }
+    },
+    {
+      "id": "c1_u06_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u06_l04_w1",
+          "german": "Maßnahmen ergreifen",
+          "translation": {
+            "de": "Maßnahmen ergreifen",
+            "ar": "يتخذ إجراءات",
+            "en": "take measures"
+          }
+        },
+        {
+          "id": "c1_u06_l04_w2",
+          "german": "Zweifel äußern",
+          "translation": {
+            "de": "Zweifel äußern",
+            "ar": "يبدي شكوكًا",
+            "en": "express doubts"
+          }
+        },
+        {
+          "id": "c1_u06_l04_w3",
+          "german": "Verantwortung übernehmen",
+          "translation": {
+            "de": "Verantwortung übernehmen",
+            "ar": "يتحمل المسؤولية",
+            "en": "take responsibility"
+          }
+        },
+        {
+          "id": "c1_u06_l04_w4",
+          "german": "in Betracht ziehen",
+          "translation": {
+            "de": "in Betracht ziehen",
+            "ar": "يأخذ في الاعتبار",
+            "en": "consider"
+          }
+        },
+        {
+          "id": "c1_u06_l04_w5",
+          "german": "zur Verfügung stehen",
+          "translation": {
+            "de": "zur Verfügung stehen",
+            "ar": "يكون متاحًا",
+            "en": "be available"
+          }
+        },
+        {
+          "id": "c1_u06_l04_w6",
+          "german": "nachvollziehbar",
+          "translation": {
+            "de": "nachvollziehbar",
+            "ar": "قابل للتتبع",
+            "en": "traceable"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u06_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Leitung muss Maßnahmen {answer}.",
+        "ar": "Die Leitung muss Maßnahmen {answer}.",
+        "en": "Die Leitung muss Maßnahmen {answer}."
+      },
+      "acceptedAnswers": [
+        "ergreifen"
+      ]
+    },
+    {
+      "id": "c1_u06_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mehrere Fachleute {answer} Zweifel.",
+        "ar": "Mehrere Fachleute {answer} Zweifel.",
+        "en": "Mehrere Fachleute {answer} Zweifel."
+      },
+      "acceptedAnswers": [
+        "äußerten"
+      ]
+    },
+    {
+      "id": "c1_u06_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wer {answer} Verantwortung?",
+        "ar": "Wer {answer} Verantwortung?",
+        "en": "Wer {answer} Verantwortung?"
+      },
+      "acceptedAnswers": [
+        "übernimmt"
+      ]
+    },
+    {
+      "id": "c1_u06_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir sollten die Option in Betracht {answer}.",
+        "ar": "Wir sollten die Option in Betracht {answer}.",
+        "en": "Wir sollten die Option in Betracht {answer}."
+      },
+      "acceptedAnswers": [
+        "ziehen"
+      ]
+    },
+    {
+      "id": "c1_u06_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten stehen nicht zur Verfügung {answer}.",
+        "ar": "Die Daten stehen nicht zur Verfügung {answer}.",
+        "en": "Die Daten stehen nicht zur Verfügung {answer}."
+      },
+      "acceptedAnswers": [
+        ""
+      ]
+    },
+    {
+      "id": "c1_u06_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Entscheidung muss {answer} begründet sein.",
+        "ar": "Die Entscheidung muss {answer} begründet sein.",
+        "en": "Die Entscheidung muss {answer} begründet sein."
+      },
+      "acceptedAnswers": [
+        "nachvollziehbar"
+      ]
+    },
+    {
+      "id": "c1_u06_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Maßnahmen ergreifen",
+        "ar": "Maßnahmen ergreifen",
+        "en": "Maßnahmen ergreifen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Maßnahmen ergreifen",
+            "ar": "يتخذ إجراءات",
+            "en": "take measures"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Zweifel äußern",
+            "ar": "يبدي شكوكًا",
+            "en": "express doubts"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Verantwortung übernehmen",
+            "ar": "يتحمل المسؤولية",
+            "en": "take responsibility"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u06_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Zweifel äußern",
+        "ar": "Zweifel äußern",
+        "en": "Zweifel äußern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Zweifel äußern",
+            "ar": "يبدي شكوكًا",
+            "en": "express doubts"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Verantwortung übernehmen",
+            "ar": "يتحمل المسؤولية",
+            "en": "take responsibility"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "in Betracht ziehen",
+            "ar": "يأخذ في الاعتبار",
+            "en": "consider"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u06_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "Verantwortung übernehmen",
+        "ar": "Verantwortung übernehmen",
+        "en": "Verantwortung übernehmen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Verantwortung übernehmen",
+            "ar": "يتحمل المسؤولية",
+            "en": "take responsibility"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "in Betracht ziehen",
+            "ar": "يأخذ في الاعتبار",
+            "en": "consider"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zur Verfügung stehen",
+            "ar": "يكون متاحًا",
+            "en": "be available"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u06_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion oder Nuance passt am präzisesten?",
+        "ar": "ما الوظيفة أو الدرجة الأدق؟",
+        "en": "Which function or nuance is most precise?"
+      },
+      "question": {
+        "de": "in Betracht ziehen",
+        "ar": "in Betracht ziehen",
+        "en": "in Betracht ziehen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "in Betracht ziehen",
+            "ar": "يأخذ في الاعتبار",
+            "en": "consider"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zur Verfügung stehen",
+            "ar": "يكون متاحًا",
+            "en": "be available"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nachvollziehbar",
+            "ar": "قابل للتتبع",
+            "en": "traceable"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u06_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Fehleranalyse: Bedeutungsverlust erkennen",
+        "ar": "تحليل أخطاء C1 — اكتشاف فقدان المعنى",
+        "en": "C1 error analysis — detect meaning loss"
+      },
+      "body": {
+        "de": "• ❌ eine Maßnahme machen → idiomatischer ergreifen/durchführen\n• ❌ Verantwortung machen → übernehmen/tragen\n• ❌ Synonyme blind austauschen, Kollokation bricht\n• ❌ Wortbildung als sichere Bedeutungsregel ohne Kontext behandeln.\n\nBewerte jeden Fall auf vier Ebenen: grammatische Korrektheit, semantische Treue, pragmatische Wirkung, Quellen-/Evidenztreue. Repariere anschließend minimal und maximal.",
+        "ar": "• ❌ eine Maßnahme machen → idiomatischer ergreifen/durchführen\n• ❌ Verantwortung machen → übernehmen/tragen\n• ❌ Synonyme blind austauschen, Kollokation bricht\n• ❌ Wortbildung als sichere Bedeutungsregel ohne Kontext behandeln.\n\nقيّم كل حالة على أربع طبقات: الصحة النحوية، أمانة المعنى، الأثر التداولي، أمانة المصدر/الدليل. ثم أصلحها بأقل تغيير وبإعادة صياغة كاملة.",
+        "en": "• ❌ eine Maßnahme machen → idiomatischer ergreifen/durchführen\n• ❌ Verantwortung machen → übernehmen/tragen\n• ❌ Synonyme blind austauschen, Kollokation bricht\n• ❌ Wortbildung als sichere Bedeutungsregel ohne Kontext behandeln.\n\nEvaluate each case on four levels: grammatical correctness, semantic fidelity, pragmatic effect, source/evidence fidelity. Then repair it minimally and maximally."
+      }
+    },
+    {
+      "id": "c1_u06_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancen- und Registerlabor",
+        "ar": "مختبر الفروق والسجل",
+        "en": "Nuance and register lab"
+      },
+      "body": {
+        "de": "• Kollokation ist konventionelle Wortpartnerschaft\n• Wortbildungsaffixe helfen, garantieren aber keine vollständige Bedeutung\n• Register und Ergänzungsmuster gehören zum Wortwissen\n\nErzeuge pro Punkt vier Fassungen: akademisch, professionell, neutral-allgemein, mündlich-natürlich. Prüfe, ob propositionale Bedeutung und Evidenzgrad erhalten bleiben.",
+        "ar": "• Kollokation ist konventionelle Wortpartnerschaft\n• Wortbildungsaffixe helfen, garantieren aber keine vollständige Bedeutung\n• Register und Ergänzungsmuster gehören zum Wortwissen\n\nأنشئ لكل نقطة أربع صيغ: أكاديمية، مهنية، عامة محايدة، ومحادثية طبيعية. تحقق من ثبات المعنى ودرجة الدليل.",
+        "en": "• Kollokation ist konventionelle Wortpartnerschaft\n• Wortbildungsaffixe helfen, garantieren aber keine vollständige Bedeutung\n• Register und Ergänzungsmuster gehören zum Wortwissen\n\nProduce four versions per point: academic, professional, neutral-general and natural spoken. Check that propositional meaning and evidence strength remain intact."
+      }
+    },
+    {
+      "id": "c1_u06_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Production & Audit",
+        "ar": "إنتاج وتدقيق C1",
+        "en": "C1 production & audit"
+      },
+      "body": {
+        "de": "Erstelle persönliches Kollokationsnetz mit 20 Fachverbindungen. Verwende jede in Satz und Gegenbeispiel mit unidiomatischer Variante.\n\nAudit danach: Quelle korrekt? Evidenzgrad passend? Referenzen eindeutig? Kollokationen idiomatisch? Register konsistent? Information gewichtet? Unnötige Dichte entfernt?",
+        "ar": "Erstelle persönliches Kollokationsnetz mit 20 Fachverbindungen. Verwende jede in Satz und Gegenbeispiel mit unidiomatischer Variante.\n\nثم دقّق: هل المصدر صحيح؟ درجة الدليل مناسبة؟ الإحالات واضحة؟ المتلازمات طبيعية؟ السجل متسق؟ المعلومات موزونة؟ أزيل التعقيد غير الضروري؟",
+        "en": "Erstelle persönliches Kollokationsnetz mit 20 Fachverbindungen. Verwende jede in Satz und Gegenbeispiel mit unidiomatischer Variante.\n\nThen audit: source correct? evidence strength appropriate? references clear? collocations idiomatic? register consistent? information weighted? unnecessary density removed?"
+      }
+    },
+    {
+      "id": "c1_u06_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات C1",
+        "en": "C1 casebook complete"
+      },
+      "canDo": [
+        "C1_U06_CASEBOOK"
+      ]
+    }
+  ]
+}
