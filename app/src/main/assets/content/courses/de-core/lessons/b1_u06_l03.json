@@ -1,0 +1,296 @@
+{
+  "id": "b1_u06_l03",
+  "unitId": "de-core-b1-u06",
+  "title": {
+    "de": "Intensivtraining: Adjektivdeklination sicher anwenden",
+    "ar": "تدريب مكثف: إتقان تصريف الصفات",
+    "en": "Mastery lab: Mastering adjective declension"
+  },
+  "canDo": [
+    "B1_U06_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u06_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Adjektivdeklination sicher anwenden“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz in eine zweite Struktur umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «إتقان تصريف الصفات». بعد كل حل اشرح القرار النحوي وحوّل الجملة إلى بنية ثانية ثم عبّر عن المعنى في موقف واقعي جديد.",
+        "en": "Deepen “Mastering adjective declension”. After each solution explain the grammatical choice, transform the sentence into a second structure and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u06_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u06_l03_w1",
+          "german": "zuverlässig",
+          "translation": {
+            "de": "reliable",
+            "ar": "موثوق",
+            "en": "reliable"
+          }
+        },
+        {
+          "id": "b1_u06_l03_w2",
+          "german": "erreichbar",
+          "translation": {
+            "de": "accessible",
+            "ar": "يسهل الوصول إليه",
+            "en": "accessible"
+          }
+        },
+        {
+          "id": "b1_u06_l03_w3",
+          "german": "zentral",
+          "translation": {
+            "de": "central",
+            "ar": "مركزي",
+            "en": "central"
+          }
+        },
+        {
+          "id": "b1_u06_l03_w4",
+          "german": "ruhig",
+          "translation": {
+            "de": "quiet",
+            "ar": "هادئ",
+            "en": "quiet"
+          }
+        },
+        {
+          "id": "b1_u06_l03_w5",
+          "german": "beruflich",
+          "translation": {
+            "de": "professional",
+            "ar": "مهني",
+            "en": "professional"
+          }
+        },
+        {
+          "id": "b1_u06_l03_w6",
+          "german": "kommunikativ",
+          "translation": {
+            "de": "communicative",
+            "ar": "تواصلي",
+            "en": "communicative"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u06_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir suchen einen zuverlässig{answer} Mitarbeiter.",
+        "ar": "Wir suchen einen zuverlässig{answer} Mitarbeiter.",
+        "en": "Wir suchen einen zuverlässig{answer} Mitarbeiter."
+      },
+      "acceptedAnswers": [
+        "en"
+      ]
+    },
+    {
+      "id": "b1_u06_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mit öffentlich{answer} Verkehrsmitteln ist es erreichbar.",
+        "ar": "Mit öffentlich{answer} Verkehrsmitteln ist es erreichbar.",
+        "en": "Mit öffentlich{answer} Verkehrsmitteln ist es erreichbar."
+      },
+      "acceptedAnswers": [
+        "en"
+      ]
+    },
+    {
+      "id": "b1_u06_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Adjektivendung zeigt grammatische Information, die {answer} Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.",
+        "ar": "Die Adjektivendung zeigt grammatische Information, die {answer} Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.",
+        "en": "Die Adjektivendung zeigt grammatische Information, die {answer} Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b1_u06_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} suchen einen zuverlässigen Mitarbeiter.",
+        "ar": "{answer} suchen einen zuverlässigen Mitarbeiter.",
+        "en": "{answer} suchen einen zuverlässigen Mitarbeiter."
+      },
+      "acceptedAnswers": [
+        "Wir"
+      ]
+    },
+    {
+      "id": "b1_u06_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mit öffentlichen Verkehrsmitteln ist {answer} neue Wohnung gut erreichbar.",
+        "ar": "Mit öffentlichen Verkehrsmitteln ist {answer} neue Wohnung gut erreichbar.",
+        "en": "Mit öffentlichen Verkehrsmitteln ist {answer} neue Wohnung gut erreichbar."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b1_u06_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} kommunikative Fähigkeiten sind wichtig.",
+        "ar": "{answer} kommunikative Fähigkeiten sind wichtig.",
+        "en": "{answer} kommunikative Fähigkeiten sind wichtig."
+      },
+      "acceptedAnswers": [
+        "Gute"
+      ]
+    },
+    {
+      "id": "b1_u06_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "zuverlässig",
+        "ar": "zuverlässig",
+        "en": "zuverlässig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reliable",
+            "ar": "موثوق",
+            "en": "reliable"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "accessible",
+            "ar": "يسهل الوصول إليه",
+            "en": "accessible"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "central",
+            "ar": "مركزي",
+            "en": "central"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u06_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "ruhig",
+        "ar": "ruhig",
+        "en": "ruhig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "quiet",
+            "ar": "هادئ",
+            "en": "quiet"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "professional",
+            "ar": "مهني",
+            "en": "professional"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "communicative",
+            "ar": "تواصلي",
+            "en": "communicative"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u06_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Die Adjektivendung zeigt grammatische Information, die der Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.\n2. Wir suchen einen zuverlässigen Mitarbeiter.\n3. Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n4. Gute kommunikative Fähigkeiten sind wichtig.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp, korrigiere und bilde danach eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Die Adjektivendung zeigt grammatische Information, die der Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.\n2. Wir suchen einen zuverlässigen Mitarbeiter.\n3. Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n4. Gute kommunikative Fähigkeiten sind wichtig.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة، سمِّ نوع الخطأ، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Die Adjektivendung zeigt grammatische Information, die der Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.\n2. Wir suchen einen zuverlässigen Mitarbeiter.\n3. Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n4. Gute kommunikative Fähigkeiten sind wichtig.\n\nCreate one plausible wrong form for each pattern, name the error type, correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u06_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان قصيرتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; two short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u06_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische die Zielstruktur mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten mit mindestens drei Zielstrukturen, zwei Konnektoren, einer Rückfrage und einer Selbstkorrektur.",
+        "ar": "امزج البنية مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين مستخدمًا ثلاث بنيات مستهدفة ورابطين وسؤال متابعة وتصحيحًا ذاتيًا.",
+        "en": "Interleave with two earlier B1 topics. Write 80–120 words or speak for two minutes using three target structures, two connectors, one follow-up question and one self-correction."
+      }
+    },
+    {
+      "id": "b1_u06_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U06_MASTERY"
+      ]
+    }
+  ]
+}

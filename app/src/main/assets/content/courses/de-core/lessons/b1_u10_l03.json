@@ -1,0 +1,297 @@
+{
+  "id": "b1_u10_l03",
+  "unitId": "de-core-b1-u10",
+  "title": {
+    "de": "Intensivtraining: Behörden, Anträge & formelle Beschwerden",
+    "ar": "تدريب مكثف: الدوائر والطلبات والشكاوى الرسمية",
+    "en": "Mastery lab: Public offices, applications & formal complaints"
+  },
+  "canDo": [
+    "B1_U10_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u10_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Behörden, Anträge & formelle Beschwerden“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz in eine zweite Struktur umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «الدوائر والطلبات والشكاوى الرسمية». بعد كل حل اشرح القرار النحوي وحوّل الجملة إلى بنية ثانية ثم عبّر عن المعنى في موقف واقعي جديد.",
+        "en": "Deepen “Public offices, applications & formal complaints”. After each solution explain the grammatical choice, transform the sentence into a second structure and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u10_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u10_l03_w1",
+          "german": "der Antrag",
+          "translation": {
+            "de": "application",
+            "ar": "الطلب الرسمي",
+            "en": "application"
+          }
+        },
+        {
+          "id": "b1_u10_l03_w2",
+          "german": "der Bescheid",
+          "translation": {
+            "de": "official decision",
+            "ar": "القرار/الإشعار الرسمي",
+            "en": "official decision"
+          }
+        },
+        {
+          "id": "b1_u10_l03_w3",
+          "german": "die Rückmeldung",
+          "translation": {
+            "de": "response",
+            "ar": "الرد",
+            "en": "response"
+          }
+        },
+        {
+          "id": "b1_u10_l03_w4",
+          "german": "der Nachweis",
+          "translation": {
+            "de": "proof",
+            "ar": "الإثبات",
+            "en": "proof"
+          }
+        },
+        {
+          "id": "b1_u10_l03_w5",
+          "german": "die Frist",
+          "translation": {
+            "de": "deadline",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "b1_u10_l03_w6",
+          "german": "der Vorgang",
+          "translation": {
+            "de": "case/process",
+            "ar": "المعاملة/الإجراء",
+            "en": "case/process"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u10_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Antrag wurde am 3. Mai {answer}.",
+        "ar": "Mein Antrag wurde am 3. Mai {answer}.",
+        "en": "Mein Antrag wurde am 3. Mai {answer}."
+      },
+      "acceptedAnswers": [
+        "eingereicht"
+      ]
+    },
+    {
+      "id": "b1_u10_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bitte Sie, den Vorgang zu {answer}.",
+        "ar": "Ich bitte Sie, den Vorgang zu {answer}.",
+        "en": "Ich bitte Sie, den Vorgang zu {answer}."
+      },
+      "acceptedAnswers": [
+        "prüfen",
+        "pruefen"
+      ]
+    },
+    {
+      "id": "b1_u10_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Antrag {answer} am 3. Mai eingereicht.",
+        "ar": "Mein Antrag {answer} am 3. Mai eingereicht.",
+        "en": "Mein Antrag {answer} am 3. Mai eingereicht."
+      },
+      "acceptedAnswers": [
+        "wurde"
+      ]
+    },
+    {
+      "id": "b1_u10_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} heute habe ich keine Rückmeldung erhalten.",
+        "ar": "{answer} heute habe ich keine Rückmeldung erhalten.",
+        "en": "{answer} heute habe ich keine Rückmeldung erhalten."
+      },
+      "acceptedAnswers": [
+        "Bis"
+      ]
+    },
+    {
+      "id": "b1_u10_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bitte Sie, {answer} Vorgang zu prüfen und mir schriftlich zu antworten.",
+        "ar": "Ich bitte Sie, {answer} Vorgang zu prüfen und mir schriftlich zu antworten.",
+        "en": "Ich bitte Sie, {answer} Vorgang zu prüfen und mir schriftlich zu antworten."
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "b1_u10_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Jobcenter, Bürgeramt, Versicherung, Schule {answer} Vermieter: fehlende Antwort, falsche Rechnung, Termin oder Dokument nachvollziehbar beanstanden.",
+        "ar": "Jobcenter, Bürgeramt, Versicherung, Schule {answer} Vermieter: fehlende Antwort, falsche Rechnung, Termin oder Dokument nachvollziehbar beanstanden.",
+        "en": "Jobcenter, Bürgeramt, Versicherung, Schule {answer} Vermieter: fehlende Antwort, falsche Rechnung, Termin oder Dokument nachvollziehbar beanstanden."
+      },
+      "acceptedAnswers": [
+        "oder"
+      ]
+    },
+    {
+      "id": "b1_u10_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "der Antrag",
+        "ar": "der Antrag",
+        "en": "der Antrag"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "application",
+            "ar": "الطلب الرسمي",
+            "en": "application"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "official decision",
+            "ar": "القرار/الإشعار الرسمي",
+            "en": "official decision"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "response",
+            "ar": "الرد",
+            "en": "response"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u10_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "der Nachweis",
+        "ar": "der Nachweis",
+        "en": "der Nachweis"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "proof",
+            "ar": "الإثبات",
+            "en": "proof"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deadline",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "case/process",
+            "ar": "المعاملة/الإجراء",
+            "en": "case/process"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u10_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Mein Antrag wurde am 3. Mai eingereicht.\n2. Bis heute habe ich keine Rückmeldung erhalten.\n3. Ich bitte Sie, den Vorgang zu prüfen und mir schriftlich zu antworten.\n4. Jobcenter, Bürgeramt, Versicherung, Schule oder Vermieter: fehlende Antwort, falsche Rechnung, Termin oder Dokument nachvollziehbar beanstanden.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp, korrigiere und bilde danach eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Mein Antrag wurde am 3. Mai eingereicht.\n2. Bis heute habe ich keine Rückmeldung erhalten.\n3. Ich bitte Sie, den Vorgang zu prüfen und mir schriftlich zu antworten.\n4. Jobcenter, Bürgeramt, Versicherung, Schule oder Vermieter: fehlende Antwort, falsche Rechnung, Termin oder Dokument nachvollziehbar beanstanden.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة، سمِّ نوع الخطأ، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Mein Antrag wurde am 3. Mai eingereicht.\n2. Bis heute habe ich keine Rückmeldung erhalten.\n3. Ich bitte Sie, den Vorgang zu prüfen und mir schriftlich zu antworten.\n4. Jobcenter, Bürgeramt, Versicherung, Schule oder Vermieter: fehlende Antwort, falsche Rechnung, Termin oder Dokument nachvollziehbar beanstanden.\n\nCreate one plausible wrong form for each pattern, name the error type, correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u10_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان قصيرتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; two short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u10_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische die Zielstruktur mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten mit mindestens drei Zielstrukturen, zwei Konnektoren, einer Rückfrage und einer Selbstkorrektur.",
+        "ar": "امزج البنية مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين مستخدمًا ثلاث بنيات مستهدفة ورابطين وسؤال متابعة وتصحيحًا ذاتيًا.",
+        "en": "Interleave with two earlier B1 topics. Write 80–120 words or speak for two minutes using three target structures, two connectors, one follow-up question and one self-correction."
+      }
+    },
+    {
+      "id": "b1_u10_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U10_MASTERY"
+      ]
+    }
+  ]
+}

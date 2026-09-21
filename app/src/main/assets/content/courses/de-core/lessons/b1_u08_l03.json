@@ -1,0 +1,296 @@
+{
+  "id": "b1_u08_l03",
+  "unitId": "de-core-b1-u08",
+  "title": {
+    "de": "Intensivtraining: Genitiv & N-Deklination",
+    "ar": "تدريب مكثف: Genitiv وتصريف N",
+    "en": "Mastery lab: Genitive & N-declension"
+  },
+  "canDo": [
+    "B1_U08_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u08_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Genitiv & N-Deklination“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz in eine zweite Struktur umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «Genitiv وتصريف N». بعد كل حل اشرح القرار النحوي وحوّل الجملة إلى بنية ثانية ثم عبّر عن المعنى في موقف واقعي جديد.",
+        "en": "Deepen “Genitive & N-declension”. After each solution explain the grammatical choice, transform the sentence into a second structure and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u08_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u08_l03_w1",
+          "german": "die Entscheidung",
+          "translation": {
+            "de": "decision",
+            "ar": "القرار",
+            "en": "decision"
+          }
+        },
+        {
+          "id": "b1_u08_l03_w2",
+          "german": "des Amtes",
+          "translation": {
+            "de": "of the office",
+            "ar": "للدائرة",
+            "en": "of the office"
+          }
+        },
+        {
+          "id": "b1_u08_l03_w3",
+          "german": "der Kunde",
+          "translation": {
+            "de": "customer",
+            "ar": "العميل",
+            "en": "customer"
+          }
+        },
+        {
+          "id": "b1_u08_l03_w4",
+          "german": "der Kollege",
+          "translation": {
+            "de": "colleague",
+            "ar": "الزميل",
+            "en": "colleague"
+          }
+        },
+        {
+          "id": "b1_u08_l03_w5",
+          "german": "der Mensch",
+          "translation": {
+            "de": "person/human",
+            "ar": "الإنسان",
+            "en": "person/human"
+          }
+        },
+        {
+          "id": "b1_u08_l03_w6",
+          "german": "die Zuständigkeit",
+          "translation": {
+            "de": "responsibility/jurisdiction",
+            "ar": "الاختصاص",
+            "en": "responsibility/jurisdiction"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u08_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist die Entscheidung {answer} Amtes.",
+        "ar": "Das ist die Entscheidung {answer} Amtes.",
+        "en": "Das ist die Entscheidung {answer} Amtes."
+      },
+      "acceptedAnswers": [
+        "des"
+      ]
+    },
+    {
+      "id": "b1_u08_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich spreche mit dem {answer}.",
+        "ar": "Ich spreche mit dem {answer}.",
+        "en": "Ich spreche mit dem {answer}."
+      },
+      "acceptedAnswers": [
+        "Kunden"
+      ]
+    },
+    {
+      "id": "b1_u08_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist {answer} Entscheidung des Amtes.",
+        "ar": "Das ist {answer} Entscheidung des Amtes.",
+        "en": "Das ist {answer} Entscheidung des Amtes."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b1_u08_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Daten des Kunden sind vollständig.",
+        "ar": "{answer} Daten des Kunden sind vollständig.",
+        "en": "{answer} Daten des Kunden sind vollständig."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "b1_u08_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich spreche {answer} einem Kollegen.",
+        "ar": "Ich spreche {answer} einem Kollegen.",
+        "en": "Ich spreche {answer} einem Kollegen."
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "b1_u08_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Briefe {answer} Behörden, Verträge, Arbeit und Kundenkontakt: Besitz, Zuständigkeit und formelle Nominalgruppen korrekt verstehen und bilden.",
+        "ar": "Briefe {answer} Behörden, Verträge, Arbeit und Kundenkontakt: Besitz, Zuständigkeit und formelle Nominalgruppen korrekt verstehen und bilden.",
+        "en": "Briefe {answer} Behörden, Verträge, Arbeit und Kundenkontakt: Besitz, Zuständigkeit und formelle Nominalgruppen korrekt verstehen und bilden."
+      },
+      "acceptedAnswers": [
+        "von"
+      ]
+    },
+    {
+      "id": "b1_u08_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "die Entscheidung",
+        "ar": "die Entscheidung",
+        "en": "die Entscheidung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "decision",
+            "ar": "القرار",
+            "en": "decision"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "of the office",
+            "ar": "للدائرة",
+            "en": "of the office"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "customer",
+            "ar": "العميل",
+            "en": "customer"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u08_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "der Kollege",
+        "ar": "der Kollege",
+        "en": "der Kollege"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "colleague",
+            "ar": "الزميل",
+            "en": "colleague"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "person/human",
+            "ar": "الإنسان",
+            "en": "person/human"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "responsibility/jurisdiction",
+            "ar": "الاختصاص",
+            "en": "responsibility/jurisdiction"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u08_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Das ist die Entscheidung des Amtes.\n2. Die Daten des Kunden sind vollständig.\n3. Ich spreche mit einem Kollegen.\n4. Briefe von Behörden, Verträge, Arbeit und Kundenkontakt: Besitz, Zuständigkeit und formelle Nominalgruppen korrekt verstehen und bilden.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp, korrigiere und bilde danach eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Das ist die Entscheidung des Amtes.\n2. Die Daten des Kunden sind vollständig.\n3. Ich spreche mit einem Kollegen.\n4. Briefe von Behörden, Verträge, Arbeit und Kundenkontakt: Besitz, Zuständigkeit und formelle Nominalgruppen korrekt verstehen und bilden.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة، سمِّ نوع الخطأ، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Das ist die Entscheidung des Amtes.\n2. Die Daten des Kunden sind vollständig.\n3. Ich spreche mit einem Kollegen.\n4. Briefe von Behörden, Verträge, Arbeit und Kundenkontakt: Besitz, Zuständigkeit und formelle Nominalgruppen korrekt verstehen und bilden.\n\nCreate one plausible wrong form for each pattern, name the error type, correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u08_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان قصيرتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; two short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u08_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische die Zielstruktur mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten mit mindestens drei Zielstrukturen, zwei Konnektoren, einer Rückfrage und einer Selbstkorrektur.",
+        "ar": "امزج البنية مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين مستخدمًا ثلاث بنيات مستهدفة ورابطين وسؤال متابعة وتصحيحًا ذاتيًا.",
+        "en": "Interleave with two earlier B1 topics. Write 80–120 words or speak for two minutes using three target structures, two connectors, one follow-up question and one self-correction."
+      }
+    },
+    {
+      "id": "b1_u08_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U08_MASTERY"
+      ]
+    }
+  ]
+}

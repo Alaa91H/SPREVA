@@ -1209,6 +1209,15 @@
                 "en": "Describing people, products and requirements precisely"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b1_u06_l03",
+              "title": {
+                "de": "Intensivtraining: Adjektivdeklination sicher anwenden",
+                "ar": "تدريب مكثف: إتقان تصريف الصفات",
+                "en": "Mastery lab: Mastering adjective declension"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1237,6 +1246,15 @@
                 "en": "Talking about interests, expectations and problems"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b1_u07_l03",
+              "title": {
+                "de": "Intensivtraining: Verben mit Präpositionen",
+                "ar": "تدريب مكثف: الأفعال مع حروف الجر الثابتة",
+                "en": "Mastery lab: Verbs with fixed prepositions"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1265,6 +1283,15 @@
                 "en": "Understanding formal texts and relationships"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b1_u08_l03",
+              "title": {
+                "de": "Intensivtraining: Genitiv & N-Deklination",
+                "ar": "تدريب مكثف: Genitiv وتصريف N",
+                "en": "Mastery lab: Genitive & N-declension"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1293,6 +1320,15 @@
                 "en": "Participating actively in meetings"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b1_u09_l03",
+              "title": {
+                "de": "Intensivtraining: Arbeitsplatz & Besprechungen",
+                "ar": "تدريب مكثف: مكان العمل والاجتماعات",
+                "en": "Mastery lab: Workplace & meetings"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -1321,6 +1357,15 @@
                 "en": "Resolving an official matter in writing"
               },
               "activityCount": 7
+            },
+            {
+              "id": "b1_u10_l03",
+              "title": {
+                "de": "Intensivtraining: Behörden, Anträge & formelle Beschwerden",
+                "ar": "تدريب مكثف: الدوائر والطلبات والشكاوى الرسمية",
+                "en": "Mastery lab: Public offices, applications & formal complaints"
+              },
+              "activityCount": 14
             }
           ]
         },
