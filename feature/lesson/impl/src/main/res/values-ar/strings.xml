@@ -21,4 +21,11 @@
     <string name="spreva_lesson_shadowing_hint">استمع، ثم ردّد بصوت عالٍ، ثم قارن بأذنيك. يبقى تسجيلك على الجهاز ويُحذف عند مغادرة الدرس.</string>
     <string name="spreva_lesson_similarity">تشابه شكل الموجة: %1$d%%</string>
     <string name="spreva_lesson_recording_error">تعذّر بدء التسجيل. قد يكون المايكروفون مستخدمًا — حاول مجددًا.</string>
+    <string name="spreva_lesson_shadowing_speed">سرعة النموذج</string>
+    <string name="spreva_lesson_dictation_hint">استمع بدقة واكتب ما تسمعه كما هو.</string>
+    <string name="spreva_lesson_word_count">%1$d / %2$d كلمة</string>
+    <string name="spreva_lesson_write_response">اكتب إجابتك</string>
+    <string name="spreva_lesson_self_review">قائمة المراجعة الذاتية</string>
+    <string name="spreva_lesson_speaking_target">الهدف: %1$d ثانية على الأقل</string>
+    <string name="spreva_lesson_recording_duration">مدة التسجيل: %1$d ثانية</string>
 </resources>

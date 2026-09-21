@@ -21,4 +21,11 @@
     <string name="spreva_lesson_shadowing_hint">Listen, repeat out loud, then compare by ear. Your recording stays on the device and is deleted when you leave the lesson.</string>
     <string name="spreva_lesson_similarity">Waveform similarity: %1$d%%</string>
     <string name="spreva_lesson_recording_error">Recording could not start. The microphone may be in use — please try again.</string>
+    <string name="spreva_lesson_shadowing_speed">Model speed</string>
+    <string name="spreva_lesson_dictation_hint">Listen carefully and type exactly what you hear.</string>
+    <string name="spreva_lesson_word_count">%1$d / %2$d words</string>
+    <string name="spreva_lesson_write_response">Write your response</string>
+    <string name="spreva_lesson_self_review">Self-review checklist</string>
+    <string name="spreva_lesson_speaking_target">Target: at least %1$d seconds</string>
+    <string name="spreva_lesson_recording_duration">Recorded: %1$d seconds</string>
 </resources>

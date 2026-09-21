@@ -80,6 +80,7 @@ fun LessonRoute(
         onSpeakCurrent = viewModel::speakCurrent,
         onSpeakWord = { article, german, audio -> viewModel.speakWord(article, german, audio) },
         onPlayListeningAudio = viewModel::playListeningAudio,
+        onPlayDictationAudio = viewModel::playDictationAudio,
         onPlayModelAudio = viewModel::playModelAudio,
         onStartRecording = viewModel::startRecording,
         onStopRecording = viewModel::stopRecording,
@@ -107,7 +108,8 @@ internal fun LessonScreen(
     onSpeakCurrent: () -> Unit,
     onSpeakWord: (String?, String, String?) -> Unit,
     onPlayListeningAudio: () -> Unit,
-    onPlayModelAudio: () -> Unit,
+    onPlayDictationAudio: () -> Unit,
+    onPlayModelAudio: (Float) -> Unit,
     onStartRecording: () -> Unit,
     onStopRecording: () -> Unit,
     onPlayOwnRecording: () -> Unit,
@@ -143,6 +145,7 @@ internal fun LessonScreen(
             onSpeakCurrent = onSpeakCurrent,
             onSpeakWord = onSpeakWord,
             onPlayListeningAudio = onPlayListeningAudio,
+            onPlayDictationAudio = onPlayDictationAudio,
             onPlayModelAudio = onPlayModelAudio,
             onStartRecording = onStartRecording,
             onStopRecording = onStopRecording,
@@ -164,7 +167,8 @@ private fun LessonContent(
     onSpeakCurrent: () -> Unit,
     onSpeakWord: (String?, String, String?) -> Unit,
     onPlayListeningAudio: () -> Unit,
-    onPlayModelAudio: () -> Unit,
+    onPlayDictationAudio: () -> Unit,
+    onPlayModelAudio: (Float) -> Unit,
     onStartRecording: () -> Unit,
     onStopRecording: () -> Unit,
     onPlayOwnRecording: () -> Unit,
@@ -242,6 +246,34 @@ private fun LessonContent(
                         answerState = state.answerState,
                         onPlay = onPlayListeningAudio,
                         onOptionSelected = onOptionSelected,
+                        uiLanguage = uiLanguage,
+                    )
+
+                    is LearningActivity.Dictation -> DictationRenderer(
+                        activity = current,
+                        typedAnswer = state.typedAnswer,
+                        answerState = state.answerState,
+                        onPlay = onPlayDictationAudio,
+                        onAnswerChanged = onAnswerChanged,
+                        uiLanguage = uiLanguage,
+                    )
+
+                    is LearningActivity.FreeWrite -> FreeWriteRenderer(
+                        activity = current,
+                        typedAnswer = state.typedAnswer,
+                        answerState = state.answerState,
+                        onAnswerChanged = onAnswerChanged,
+                        uiLanguage = uiLanguage,
+                    )
+
+                    is LearningActivity.SpeakingPrompt -> SpeakingPromptRenderer(
+                        activity = current,
+                        state = state,
+                        onStartRecording = onStartRecording,
+                        onStopRecording = onStopRecording,
+                        onPlayOwn = onPlayOwnRecording,
+                        onRequestPermission = onRequestRecordPermission,
+                        uiLanguage = uiLanguage,
                     )
 
                     is LearningActivity.SpeakingRepeat -> SpeakingRepeatRenderer(
@@ -316,7 +348,7 @@ private fun LessonContent(
 private fun SpeakingRepeatRenderer(
     activity: LearningActivity.SpeakingRepeat,
     state: LessonUiState,
-    onPlayModel: () -> Unit,
+    onPlayModel: (Float) -> Unit,
     onStartRecording: () -> Unit,
     onStopRecording: () -> Unit,
     onPlayOwn: () -> Unit,
@@ -329,9 +361,23 @@ private fun SpeakingRepeatRenderer(
         }
         Text(activity.text.de, style = MaterialTheme.typography.headlineSmall)
 
-        // 1) Listen to the native model.
-        OutlinedButton(onClick = onPlayModel, modifier = Modifier.fillMaxWidth()) {
-            Text(stringResource(R.string.spreva_lesson_play_model))
+        // 1) Listen to the native model at multiple speeds.
+        Text(
+            text = stringResource(R.string.spreva_lesson_shadowing_speed),
+            style = MaterialTheme.typography.labelLarge,
+        )
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            listOf(0.75f, 1.0f, 1.15f).forEach { speed ->
+                OutlinedButton(
+                    onClick = { onPlayModel(speed) },
+                    modifier = Modifier.weight(1f),
+                ) {
+                    Text("${speed}×")
+                }
+            }
         }
 
         // 2) Record yourself (with runtime permission).
@@ -495,10 +541,11 @@ private fun ListeningChoiceRenderer(
     answerState: AnswerState?,
     onPlay: () -> Unit,
     onOptionSelected: (String) -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
         activity.prompt?.let { prompt ->
-            Text(prompt.de, style = MaterialTheme.typography.titleMedium)
+            Text(prompt.resolveFor(uiLanguage), style = MaterialTheme.typography.titleMedium)
         }
         // The audio IS the task: big play button, no text of the phrase (§32).
         Card(
@@ -534,8 +581,132 @@ private fun ListeningChoiceRenderer(
                     verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
                 ) {
                     RadioButton(selected = selected, onClick = null)
-                    Text(option.text.de, style = MaterialTheme.typography.bodyLarge)
+                    Text(option.text.resolveFor(uiLanguage), style = MaterialTheme.typography.bodyLarge)
                 }
+            }
+        }
+    }
+}
+
+@Composable
+private fun DictationRenderer(
+    activity: LearningActivity.Dictation,
+    typedAnswer: String,
+    answerState: AnswerState?,
+    onPlay: () -> Unit,
+    onAnswerChanged: (String) -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        activity.prompt?.let {
+            Text(it.resolveFor(uiLanguage), style = MaterialTheme.typography.titleMedium)
+        }
+        Text(
+            text = stringResource(R.string.spreva_lesson_dictation_hint),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        OutlinedButton(onClick = onPlay, modifier = Modifier.fillMaxWidth()) {
+            Icon(
+                imageVector = Icons.Filled.VolumeUp,
+                contentDescription = stringResource(R.string.spreva_lesson_play_listening),
+            )
+            Spacer(Modifier.padding(4.dp))
+            Text(stringResource(R.string.spreva_lesson_play_listening))
+        }
+        OutlinedTextField(
+            value = typedAnswer,
+            onValueChange = onAnswerChanged,
+            enabled = answerState == null,
+            modifier = Modifier.fillMaxWidth(),
+            label = { Text(stringResource(R.string.spreva_lesson_type_answer)) },
+        )
+    }
+}
+
+@Composable
+private fun FreeWriteRenderer(
+    activity: LearningActivity.FreeWrite,
+    typedAnswer: String,
+    answerState: AnswerState?,
+    onAnswerChanged: (String) -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
+) {
+    val words = typedAnswer.trim().split(Regex("\\s+")).count { it.isNotBlank() }
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Text(activity.prompt.resolveFor(uiLanguage), style = MaterialTheme.typography.titleMedium)
+        Text(
+            text = stringResource(R.string.spreva_lesson_word_count, words, activity.minWords),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        OutlinedTextField(
+            value = typedAnswer,
+            onValueChange = onAnswerChanged,
+            enabled = answerState == null,
+            modifier = Modifier.fillMaxWidth(),
+            minLines = 6,
+            label = { Text(stringResource(R.string.spreva_lesson_write_response)) },
+        )
+        if (activity.checklist.isNotEmpty()) {
+            Text(stringResource(R.string.spreva_lesson_self_review), style = MaterialTheme.typography.titleSmall)
+            activity.checklist.forEach { item ->
+                Text("• ${item.resolveFor(uiLanguage)}", style = MaterialTheme.typography.bodyMedium)
+            }
+        }
+    }
+}
+
+@Composable
+private fun SpeakingPromptRenderer(
+    activity: LearningActivity.SpeakingPrompt,
+    state: LessonUiState,
+    onStartRecording: () -> Unit,
+    onStopRecording: () -> Unit,
+    onPlayOwn: () -> Unit,
+    onRequestPermission: () -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Text(activity.prompt.resolveFor(uiLanguage), style = MaterialTheme.typography.titleMedium)
+        Text(
+            text = stringResource(R.string.spreva_lesson_speaking_target, activity.minSeconds),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        if (activity.checklist.isNotEmpty()) {
+            Text(stringResource(R.string.spreva_lesson_self_review), style = MaterialTheme.typography.titleSmall)
+            activity.checklist.forEach { item ->
+                Text("• ${item.resolveFor(uiLanguage)}", style = MaterialTheme.typography.bodyMedium)
+            }
+        }
+        state.recordingError?.let {
+            Text(
+                text = stringResource(R.string.spreva_lesson_recording_error),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.error,
+            )
+        }
+        Button(
+            onClick = { if (state.isRecording) onStopRecording() else onRequestPermission() },
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Text(
+                stringResource(
+                    if (state.isRecording) R.string.spreva_lesson_stop_recording
+                    else R.string.spreva_lesson_start_recording,
+                ),
+            )
+        }
+        state.recordingDurationMs?.let { duration ->
+            Text(
+                text = stringResource(R.string.spreva_lesson_recording_duration, duration / 1000L),
+                style = MaterialTheme.typography.bodyMedium,
+            )
+        }
+        if (state.hasRecording) {
+            OutlinedButton(onClick = onPlayOwn, modifier = Modifier.fillMaxWidth()) {
+                Text(stringResource(R.string.spreva_lesson_play_own))
             }
         }
     }
