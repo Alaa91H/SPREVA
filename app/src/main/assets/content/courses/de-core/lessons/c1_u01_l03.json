@@ -1,0 +1,296 @@
+{
+  "id": "c1_u01_l03",
+  "unitId": "de-core-c1-u01",
+  "title": {
+    "de": "Intensivtraining: Informationsstruktur, Fokus & Satzrhythmus",
+    "ar": "تدريب مكثف: بنية المعلومات والتركيز وإيقاع الجملة",
+    "en": "Mastery lab: Information structure, focus & sentence rhythm"
+  },
+  "canDo": [
+    "C1_U01_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u01_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Informationsstruktur, Fokus & Satzrhythmus“. Ziel ist kontrollierte Wahl: dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte umformen, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «بنية المعلومات والتركيز وإيقاع الجملة». الهدف هو الاختيار المتحكم: أعد صياغة الفكرة نفسها بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Information structure, focus & sentence rhythm”. The goal is controlled choice: reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u01_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u01_l03_w1",
+          "german": "das Vorfeld",
+          "translation": {
+            "de": "prefield",
+            "ar": "الموقع الأول في الجملة",
+            "en": "prefield"
+          }
+        },
+        {
+          "id": "c1_u01_l03_w2",
+          "german": "hervorheben",
+          "translation": {
+            "de": "emphasize",
+            "ar": "يبرز",
+            "en": "emphasize"
+          }
+        },
+        {
+          "id": "c1_u01_l03_w3",
+          "german": "gewichten",
+          "translation": {
+            "de": "weight",
+            "ar": "يرجّح/يوزّع الأهمية",
+            "en": "weight"
+          }
+        },
+        {
+          "id": "c1_u01_l03_w4",
+          "german": "der Bezug",
+          "translation": {
+            "de": "reference",
+            "ar": "الإحالة/العلاقة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "c1_u01_l03_w5",
+          "german": "kohärent",
+          "translation": {
+            "de": "coherent",
+            "ar": "مترابط",
+            "en": "coherent"
+          }
+        },
+        {
+          "id": "c1_u01_l03_w6",
+          "german": "auslagern",
+          "translation": {
+            "de": "shift/relocate",
+            "ar": "ينقل إلى موضع آخر",
+            "en": "shift/relocate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u01_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Besonders problematisch {answer} die fehlende Datengrundlage.",
+        "ar": "Besonders problematisch {answer} die fehlende Datengrundlage.",
+        "en": "Besonders problematisch {answer} die fehlende Datengrundlage."
+      },
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "c1_u01_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "ar": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "en": "Was die Finanzierung {answer}, bestehen offene Fragen."
+      },
+      "acceptedAnswers": [
+        "betrifft"
+      ]
+    },
+    {
+      "id": "c1_u01_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Auf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, {answer} dadurch die Referenz klar bleibt.",
+        "ar": "Auf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, {answer} dadurch die Referenz klar bleibt.",
+        "en": "Auf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, {answer} dadurch die Referenz klar bleibt."
+      },
+      "acceptedAnswers": [
+        "sofern"
+      ]
+    },
+    {
+      "id": "c1_u01_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Besonders problematisch ist {answer} fehlende Datengrundlage.",
+        "ar": "Besonders problematisch ist {answer} fehlende Datengrundlage.",
+        "en": "Besonders problematisch ist {answer} fehlende Datengrundlage."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "c1_u01_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was {answer} Finanzierung betrifft, bestehen noch offene Fragen.",
+        "ar": "Was {answer} Finanzierung betrifft, bestehen noch offene Fragen.",
+        "en": "Was {answer} Finanzierung betrifft, bestehen noch offene Fragen."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "c1_u01_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir haben gestern erfahren, {answer} sich der Termin verschiebt.",
+        "ar": "Wir haben gestern erfahren, {answer} sich der Termin verschiebt.",
+        "en": "Wir haben gestern erfahren, {answer} sich der Termin verschiebt."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "c1_u01_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "das Vorfeld",
+        "ar": "das Vorfeld",
+        "en": "das Vorfeld"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "prefield",
+            "ar": "الموقع الأول في الجملة",
+            "en": "prefield"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "emphasize",
+            "ar": "يبرز",
+            "en": "emphasize"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weight",
+            "ar": "يرجّح/يوزّع الأهمية",
+            "en": "weight"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u01_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "der Bezug",
+        "ar": "der Bezug",
+        "en": "der Bezug"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reference",
+            "ar": "الإحالة/العلاقة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "coherent",
+            "ar": "مترابط",
+            "en": "coherent"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "shift/relocate",
+            "ar": "ينقل إلى موضع آخر",
+            "en": "shift/relocate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u01_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. Auf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, sofern dadurch die Referenz klar bleibt.\n2. Besonders problematisch ist die fehlende Datengrundlage.\n3. Was die Finanzierung betrifft, bestehen noch offene Fragen.\n4. Wir haben gestern erfahren, dass sich der Termin verschiebt.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre anschließend, welche Bedeutung gleich blieb und welche pragmatische Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. Auf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, sofern dadurch die Referenz klar bleibt.\n2. Besonders problematisch ist die fehlende Datengrundlage.\n3. Was die Finanzierung betrifft, bestehen noch offene Fragen.\n4. Wir haben gestern erfahren, dass sich der Termin verschiebt.\n\nغيّر بُعدًا واحدًا فقط في كل جملة: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. ثم اشرح ما بقي من المعنى وما تغيّر في الأثر التداولي.",
+        "en": "Base patterns:\n1. Auf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, sofern dadurch die Referenz klar bleibt.\n2. Besonders problematisch ist die fehlende Datengrundlage.\n3. Was die Finanzierung betrifft, bestehen noch offene Fragen.\n4. Wir haben gestern erfahren, dass sich der Termin verschiebt.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what meaning stayed constant and what pragmatic effect changed."
+      }
+    },
+    {
+      "id": "c1_u01_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle je eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Bei jeder Fassung prüfen: Ist der propositionale Kern identisch? Ist die Evidenzstärke korrekt? Bleibt die Quelle sichtbar?",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. في كل صيغة تحقق: هل المعنى الأساسي ثابت؟ هل قوة الدليل ممثلة بدقة؟ هل المصدر واضح؟",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. For each version check: same propositional core? evidence strength accurate? source still visible?"
+      }
+    },
+    {
+      "id": "c1_u01_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "Schreibe 200–260 Wörter oder sprich vier Minuten. Integriere vier Zielstrukturen, eine fair dargestellte Gegenposition, einen Quellen-/Evidenzhinweis und eine präzise Einschränkung. Danach in getrennten Durchgängen prüfen: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "اكتب 200–260 كلمة أو تحدث أربع دقائق. استخدم أربع بنيات مستهدفة، موقفًا مضادًا ممثلًا بإنصاف، إشارة إلى مصدر/دليل وقيدًا دقيقًا. راجع على مراحل: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "Write 200–260 words or speak for four minutes. Integrate four target structures, a fairly represented counterposition, a source/evidence marker and a precise limitation. Revise in passes: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u01_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U01_MASTERY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "id": "c1_u03_l03",
+  "unitId": "de-core-c1-u03",
+  "title": {
+    "de": "Intensivtraining: Modale Feinabstufung & epistemische Distanz",
+    "ar": "تدريب مكثف: تدرج الموقف واليقين والمسافة المعرفية",
+    "en": "Mastery lab: Modal nuance & epistemic distance"
+  },
+  "canDo": [
+    "C1_U03_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u03_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Modale Feinabstufung & epistemische Distanz“. Ziel ist kontrollierte Wahl: dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte umformen, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «تدرج الموقف واليقين والمسافة المعرفية». الهدف هو الاختيار المتحكم: أعد صياغة الفكرة نفسها بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Modal nuance & epistemic distance”. The goal is controlled choice: reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u03_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u03_l03_w1",
+          "german": "offenbar",
+          "translation": {
+            "de": "apparently/evidently",
+            "ar": "على ما يبدو بوضوح من القرائن",
+            "en": "apparently/evidently"
+          }
+        },
+        {
+          "id": "c1_u03_l03_w2",
+          "german": "anscheinend",
+          "translation": {
+            "de": "seemingly",
+            "ar": "ظاهريًا",
+            "en": "seemingly"
+          }
+        },
+        {
+          "id": "c1_u03_l03_w3",
+          "german": "keineswegs",
+          "translation": {
+            "de": "by no means",
+            "ar": "بأي حال من الأحوال",
+            "en": "by no means"
+          }
+        },
+        {
+          "id": "c1_u03_l03_w4",
+          "german": "kaum",
+          "translation": {
+            "de": "hardly",
+            "ar": "بالكاد/على الأرجح لا",
+            "en": "hardly"
+          }
+        },
+        {
+          "id": "c1_u03_l03_w5",
+          "german": "die Evidenz",
+          "translation": {
+            "de": "evidence",
+            "ar": "الدليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "c1_u03_l03_w6",
+          "german": "die Schlussfolgerung",
+          "translation": {
+            "de": "conclusion",
+            "ar": "الاستنتاج",
+            "en": "conclusion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u03_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Änderung {answer} erhebliche Folgen haben.",
+        "ar": "Die Änderung {answer} erhebliche Folgen haben.",
+        "en": "Die Änderung {answer} erhebliche Folgen haben."
+      },
+      "acceptedAnswers": [
+        "dürfte",
+        "duerfte"
+      ]
+    },
+    {
+      "id": "c1_u03_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Ergebnisse sind {answer} eindeutig.",
+        "ar": "Die Ergebnisse sind {answer} eindeutig.",
+        "en": "Die Ergebnisse sind {answer} eindeutig."
+      },
+      "acceptedAnswers": [
+        "keineswegs"
+      ]
+    },
+    {
+      "id": "c1_u03_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "C1-Sprache graduiert Aussagen. „{answer}“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.",
+        "ar": "C1-Sprache graduiert Aussagen. „{answer}“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.",
+        "en": "C1-Sprache graduiert Aussagen. „{answer}“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen."
+      },
+      "acceptedAnswers": [
+        "dürfte"
+      ]
+    },
+    {
+      "id": "c1_u03_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Änderung {answer} vor allem kleinere Betriebe betreffen.",
+        "ar": "Die Änderung {answer} vor allem kleinere Betriebe betreffen.",
+        "en": "Die Änderung {answer} vor allem kleinere Betriebe betreffen."
+      },
+      "acceptedAnswers": [
+        "dürfte"
+      ]
+    },
+    {
+      "id": "c1_u03_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Fehler {answer} nach dem Update behoben sein.",
+        "ar": "Der Fehler {answer} nach dem Update behoben sein.",
+        "en": "Der Fehler {answer} nach dem Update behoben sein."
+      },
+      "acceptedAnswers": [
+        "müsste"
+      ]
+    },
+    {
+      "id": "c1_u03_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Forschung, Bericht, Diagnosegespräch, Technik oder Strategie: Unsicherheit transparent machen, {answer} vage oder übertrieben sicher zu klingen.",
+        "ar": "Forschung, Bericht, Diagnosegespräch, Technik oder Strategie: Unsicherheit transparent machen, {answer} vage oder übertrieben sicher zu klingen.",
+        "en": "Forschung, Bericht, Diagnosegespräch, Technik oder Strategie: Unsicherheit transparent machen, {answer} vage oder übertrieben sicher zu klingen."
+      },
+      "acceptedAnswers": [
+        "ohne"
+      ]
+    },
+    {
+      "id": "c1_u03_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "offenbar",
+        "ar": "offenbar",
+        "en": "offenbar"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "apparently/evidently",
+            "ar": "على ما يبدو بوضوح من القرائن",
+            "en": "apparently/evidently"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "seemingly",
+            "ar": "ظاهريًا",
+            "en": "seemingly"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "by no means",
+            "ar": "بأي حال من الأحوال",
+            "en": "by no means"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u03_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "kaum",
+        "ar": "kaum",
+        "en": "kaum"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "hardly",
+            "ar": "بالكاد/على الأرجح لا",
+            "en": "hardly"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "evidence",
+            "ar": "الدليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "conclusion",
+            "ar": "الاستنتاج",
+            "en": "conclusion"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u03_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. C1-Sprache graduiert Aussagen. „dürfte“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.\n2. Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n3. Der Fehler müsste nach dem Update behoben sein.\n4. Die Ergebnisse sind keineswegs eindeutig.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre anschließend, welche Bedeutung gleich blieb und welche pragmatische Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. C1-Sprache graduiert Aussagen. „dürfte“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.\n2. Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n3. Der Fehler müsste nach dem Update behoben sein.\n4. Die Ergebnisse sind keineswegs eindeutig.\n\nغيّر بُعدًا واحدًا فقط في كل جملة: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. ثم اشرح ما بقي من المعنى وما تغيّر في الأثر التداولي.",
+        "en": "Base patterns:\n1. C1-Sprache graduiert Aussagen. „dürfte“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.\n2. Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n3. Der Fehler müsste nach dem Update behoben sein.\n4. Die Ergebnisse sind keineswegs eindeutig.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what meaning stayed constant and what pragmatic effect changed."
+      }
+    },
+    {
+      "id": "c1_u03_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle je eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Bei jeder Fassung prüfen: Ist der propositionale Kern identisch? Ist die Evidenzstärke korrekt? Bleibt die Quelle sichtbar?",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. في كل صيغة تحقق: هل المعنى الأساسي ثابت؟ هل قوة الدليل ممثلة بدقة؟ هل المصدر واضح؟",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. For each version check: same propositional core? evidence strength accurate? source still visible?"
+      }
+    },
+    {
+      "id": "c1_u03_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "Schreibe 200–260 Wörter oder sprich vier Minuten. Integriere vier Zielstrukturen, eine fair dargestellte Gegenposition, einen Quellen-/Evidenzhinweis und eine präzise Einschränkung. Danach in getrennten Durchgängen prüfen: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "اكتب 200–260 كلمة أو تحدث أربع دقائق. استخدم أربع بنيات مستهدفة، موقفًا مضادًا ممثلًا بإنصاف، إشارة إلى مصدر/دليل وقيدًا دقيقًا. راجع على مراحل: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "Write 200–260 words or speak for four minutes. Integrate four target structures, a fairly represented counterposition, a source/evidence marker and a precise limitation. Revise in passes: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u03_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U03_MASTERY"
+      ]
+    }
+  ]
+}

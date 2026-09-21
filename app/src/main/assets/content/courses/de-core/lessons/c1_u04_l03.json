@@ -1,0 +1,296 @@
+{
+  "id": "c1_u04_l03",
+  "unitId": "de-core-c1-u04",
+  "title": {
+    "de": "Intensivtraining: Indirekte Rede, Quellen & Stimmenvielfalt",
+    "ar": "تدريب مكثف: النقل غير المباشر وتعدد المصادر والأصوات",
+    "en": "Mastery lab: Reported speech, sources & multiple voices"
+  },
+  "canDo": [
+    "C1_U04_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u04_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "C1 Mastery — Kontrolle statt Wiedererkennen",
+        "ar": "إتقان C1 — تحكم لا مجرد تعرف",
+        "en": "C1 Mastery — control, not recognition"
+      },
+      "body": {
+        "de": "Vertiefe „Indirekte Rede, Quellen & Stimmenvielfalt“. Ziel ist kontrollierte Wahl: dieselbe Aussage je nach Adressat, Evidenzlage und Textsorte umformen, ohne Inhalt, Quellenbezug oder Modalität zu verfälschen.",
+        "ar": "عمّق «النقل غير المباشر وتعدد المصادر والأصوات». الهدف هو الاختيار المتحكم: أعد صياغة الفكرة نفسها بحسب المتلقي وقوة الدليل ونوع النص دون تحريف المعنى أو المصدر أو درجة اليقين.",
+        "en": "Deepen “Reported speech, sources & multiple voices”. The goal is controlled choice: reshape the same proposition for audience, evidence strength and genre without distorting content, attribution or modality."
+      }
+    },
+    {
+      "id": "c1_u04_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u04_l03_w1",
+          "german": "zufolge",
+          "translation": {
+            "de": "according to",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "c1_u04_l03_w2",
+          "german": "nach Angaben von",
+          "translation": {
+            "de": "according to statements by",
+            "ar": "بحسب إفادة",
+            "en": "according to statements by"
+          }
+        },
+        {
+          "id": "c1_u04_l03_w3",
+          "german": "wiedergeben",
+          "translation": {
+            "de": "report/reproduce",
+            "ar": "ينقل",
+            "en": "report/reproduce"
+          }
+        },
+        {
+          "id": "c1_u04_l03_w4",
+          "german": "zuschreiben",
+          "translation": {
+            "de": "attribute",
+            "ar": "ينسب",
+            "en": "attribute"
+          }
+        },
+        {
+          "id": "c1_u04_l03_w5",
+          "german": "die Darstellung",
+          "translation": {
+            "de": "account",
+            "ar": "الرواية/العرض",
+            "en": "account"
+          }
+        },
+        {
+          "id": "c1_u04_l03_w6",
+          "german": "die Stellungnahme",
+          "translation": {
+            "de": "statement",
+            "ar": "البيان/الموقف",
+            "en": "statement"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u04_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dem Bericht zufolge {answer} die Ursache unklar.",
+        "ar": "Dem Bericht zufolge {answer} die Ursache unklar.",
+        "en": "Dem Bericht zufolge {answer} die Ursache unklar."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "c1_u04_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Sprecherin erklärte, man {answer} die Daten veröffentlichen.",
+        "ar": "Die Sprecherin erklärte, man {answer} die Daten veröffentlichen.",
+        "en": "Die Sprecherin erklärte, man {answer} die Daten veröffentlichen."
+      },
+      "acceptedAnswers": [
+        "werde"
+      ]
+    },
+    {
+      "id": "c1_u04_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "In anspruchsvollen Texten muss erkennbar sein, wer was behauptet. Konjunktiv I markiert Wiedergabe; Konjunktiv II kann {answer} Ersatz dienen oder zusätzliche Distanz/Irrealität tragen. Quellenrahmen wie „nach Angaben von“, „dem Bericht zufolge“, „X zufolge“ vermeiden falsche Zuschreibung. Bei mehrstufiger Wiedergabe muss die Quelle jeder Ebene klar bleiben.",
+        "ar": "In anspruchsvollen Texten muss erkennbar sein, wer was behauptet. Konjunktiv I markiert Wiedergabe; Konjunktiv II kann {answer} Ersatz dienen oder zusätzliche Distanz/Irrealität tragen. Quellenrahmen wie „nach Angaben von“, „dem Bericht zufolge“, „X zufolge“ vermeiden falsche Zuschreibung. Bei mehrstufiger Wiedergabe muss die Quelle jeder Ebene klar bleiben.",
+        "en": "In anspruchsvollen Texten muss erkennbar sein, wer was behauptet. Konjunktiv I markiert Wiedergabe; Konjunktiv II kann {answer} Ersatz dienen oder zusätzliche Distanz/Irrealität tragen. Quellenrahmen wie „nach Angaben von“, „dem Bericht zufolge“, „X zufolge“ vermeiden falsche Zuschreibung. Bei mehrstufiger Wiedergabe muss die Quelle jeder Ebene klar bleiben."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u04_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dem Bericht zufolge {answer} die Behörde bereits reagiert.",
+        "ar": "Dem Bericht zufolge {answer} die Behörde bereits reagiert.",
+        "en": "Dem Bericht zufolge {answer} die Behörde bereits reagiert."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "c1_u04_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen {answer}.",
+        "ar": "Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen {answer}.",
+        "en": "Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen {answer}."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "c1_u04_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kritiker hielten dagegen, {answer} Maßnahme greife zu kurz.",
+        "ar": "Kritiker hielten dagegen, {answer} Maßnahme greife zu kurz.",
+        "en": "Kritiker hielten dagegen, {answer} Maßnahme greife zu kurz."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "c1_u04_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "zufolge",
+        "ar": "zufolge",
+        "en": "zufolge"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "according to",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "according to statements by",
+            "ar": "بحسب إفادة",
+            "en": "according to statements by"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "report/reproduce",
+            "ar": "ينقل",
+            "en": "report/reproduce"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u04_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Nuancierte Bedeutung abrufen",
+        "ar": "استرجع المعنى الدقيق المتدرج",
+        "en": "Retrieve nuanced meaning"
+      },
+      "question": {
+        "de": "zuschreiben",
+        "ar": "zuschreiben",
+        "en": "zuschreiben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "attribute",
+            "ar": "ينسب",
+            "en": "attribute"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "account",
+            "ar": "الرواية/العرض",
+            "en": "account"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "statement",
+            "ar": "البيان/الموقف",
+            "en": "statement"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u04_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Diagnose: Bedeutung unter Druck",
+        "ar": "تشخيص C1: المعنى تحت الضغط",
+        "en": "C1 diagnosis: meaning under pressure"
+      },
+      "body": {
+        "de": "Ausgangsmuster:\n1. In anspruchsvollen Texten muss erkennbar sein, wer was behauptet. Konjunktiv I markiert Wiedergabe; Konjunktiv II kann als Ersatz dienen oder zusätzliche Distanz/Irrealität tragen. Quellenrahmen wie „nach Angaben von“, „dem Bericht zufolge“, „X zufolge“ vermeiden falsche Zuschreibung. Bei mehrstufiger Wiedergabe muss die Quelle jeder Ebene klar bleiben.\n2. Dem Bericht zufolge habe die Behörde bereits reagiert.\n3. Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n4. Kritiker hielten dagegen, die Maßnahme greife zu kurz.\n\nVerändere pro Satz genau eine Dimension: Informationsfokus, Modalitätsgrad, Quelle, Register oder Satzdichte. Erkläre anschließend, welche Bedeutung gleich blieb und welche pragmatische Wirkung sich änderte.",
+        "ar": "نماذج البداية:\n1. In anspruchsvollen Texten muss erkennbar sein, wer was behauptet. Konjunktiv I markiert Wiedergabe; Konjunktiv II kann als Ersatz dienen oder zusätzliche Distanz/Irrealität tragen. Quellenrahmen wie „nach Angaben von“, „dem Bericht zufolge“, „X zufolge“ vermeiden falsche Zuschreibung. Bei mehrstufiger Wiedergabe muss die Quelle jeder Ebene klar bleiben.\n2. Dem Bericht zufolge habe die Behörde bereits reagiert.\n3. Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n4. Kritiker hielten dagegen, die Maßnahme greife zu kurz.\n\nغيّر بُعدًا واحدًا فقط في كل جملة: بؤرة المعلومات أو درجة اليقين أو المصدر أو السجل أو كثافة الجملة. ثم اشرح ما بقي من المعنى وما تغيّر في الأثر التداولي.",
+        "en": "Base patterns:\n1. In anspruchsvollen Texten muss erkennbar sein, wer was behauptet. Konjunktiv I markiert Wiedergabe; Konjunktiv II kann als Ersatz dienen oder zusätzliche Distanz/Irrealität tragen. Quellenrahmen wie „nach Angaben von“, „dem Bericht zufolge“, „X zufolge“ vermeiden falsche Zuschreibung. Bei mehrstufiger Wiedergabe muss die Quelle jeder Ebene klar bleiben.\n2. Dem Bericht zufolge habe die Behörde bereits reagiert.\n3. Die Sprecherin erklärte, man werde die Daten veröffentlichen, sobald die Prüfung abgeschlossen sei.\n4. Kritiker hielten dagegen, die Maßnahme greife zu kurz.\n\nChange exactly one dimension per sentence: information focus, modality, source, register or density. Explain what meaning stayed constant and what pragmatic effect changed."
+      }
+    },
+    {
+      "id": "c1_u04_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Reformulierungsnetz",
+        "ar": "شبكة إعادة الصياغة C1",
+        "en": "C1 reformulation network"
+      },
+      "body": {
+        "de": "Erstelle je eine akademische, professionelle, neutrale und mündlich-natürliche Fassung. Variiere Informationsstruktur, Modalitätsgrad, Quellenrahmen und nominale/verbale Dichte. Bei jeder Fassung prüfen: Ist der propositionale Kern identisch? Ist die Evidenzstärke korrekt? Bleibt die Quelle sichtbar?",
+        "ar": "أنشئ صيغة أكاديمية ومهنية ومحايدة ومحادثية طبيعية. غيّر بنية المعلومات ودرجة اليقين وإطار المصدر والكثافة الاسمية/الفعلية. في كل صيغة تحقق: هل المعنى الأساسي ثابت؟ هل قوة الدليل ممثلة بدقة؟ هل المصدر واضح؟",
+        "en": "Produce academic, professional, neutral and natural spoken versions. Vary information structure, modality, source framing and nominal/verbal density. For each version check: same propositional core? evidence strength accurate? source still visible?"
+      }
+    },
+    {
+      "id": "c1_u04_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Synthese & Revision",
+        "ar": "تركيب ومراجعة C1",
+        "en": "C1 synthesis & revision"
+      },
+      "body": {
+        "de": "Schreibe 200–260 Wörter oder sprich vier Minuten. Integriere vier Zielstrukturen, eine fair dargestellte Gegenposition, einen Quellen-/Evidenzhinweis und eine präzise Einschränkung. Danach in getrennten Durchgängen prüfen: Logik → Kohärenz → Referenzen → Kollokationen → Register → Grammatik → Kürze.",
+        "ar": "اكتب 200–260 كلمة أو تحدث أربع دقائق. استخدم أربع بنيات مستهدفة، موقفًا مضادًا ممثلًا بإنصاف، إشارة إلى مصدر/دليل وقيدًا دقيقًا. راجع على مراحل: المنطق ← الترابط ← الإحالات ← المتلازمات ← السجل ← النحو ← الاختصار.",
+        "en": "Write 200–260 words or speak for four minutes. Integrate four target structures, a fairly represented counterposition, a source/evidence marker and a precise limitation. Revise in passes: logic → coherence → references → collocations → register → grammar → concision."
+      }
+    },
+    {
+      "id": "c1_u04_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان C1",
+        "en": "C1 mastery consolidated"
+      },
+      "canDo": [
+        "C1_U04_MASTERY"
+      ]
+    }
+  ]
+}
