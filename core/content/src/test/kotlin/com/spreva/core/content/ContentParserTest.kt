@@ -38,6 +38,39 @@ class ContentParserTest {
     }
 
     @Test
+    fun `course lesson refs preserve localized title and activity count`() {
+        val json = """
+            {
+              "id": "de-core",
+              "title": {"de": "Deutsch", "ar": "الألمانية", "en": "German"},
+              "levels": [{
+                "id": "de-core-c1",
+                "cefr": "C1",
+                "title": {"de": "C1", "ar": "C1", "en": "C1"},
+                "units": [{
+                  "id": "de-core-c1-u01",
+                  "title": {"de": "Diskurs", "ar": "الخطاب", "en": "Discourse"},
+                  "lessons": [{
+                    "id": "c1_u01_l01",
+                    "title": {"de": "Informationsstruktur", "ar": "بنية المعلومات", "en": "Information structure"},
+                    "activityCount": 7
+                  }]
+                }]
+              }]
+            }
+        """.trimIndent()
+
+        val course = parser.toCourse(parser.parseCourse(json))
+        val summary = course.levels.single().units.single().lessons.single()
+
+        assertEquals("c1_u01_l01", summary.id.value)
+        assertEquals("Informationsstruktur", summary.title.de)
+        assertEquals("بنية المعلومات", summary.title.ar)
+        assertEquals("Information structure", summary.title.en)
+        assertEquals(7, summary.activityCount)
+    }
+
+    @Test
     fun `demo lesson parses with all activity types`() {
         val lesson = parser.parseLesson(resource("content/courses/de-core/lessons/a1_u01_l01.json"))
             .let(parser::toLesson)
