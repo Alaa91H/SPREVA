@@ -95,4 +95,12 @@ class Fsrs6ReviewSchedulerTest {
         val r = scheduler.retrievability(elapsedDays = stability, stabilityDays = stability)
         assertEquals(0.9, r, 1e-9)
     }
+    @Test
+    fun `higher desired retention shortens interval`() {
+        val low = Fsrs6ReviewScheduler(json, desiredRetentionProvider = { 0.87 })
+        val high = Fsrs6ReviewScheduler(json, desiredRetentionProvider = { 0.95 })
+        val stability = 20.0
+
+        assertTrue(high.intervalDays(stability) < low.intervalDays(stability))
+    }
 }
