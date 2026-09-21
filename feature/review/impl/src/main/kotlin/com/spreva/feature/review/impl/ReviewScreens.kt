@@ -8,10 +8,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.RadioButton
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
@@ -23,19 +27,29 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.spreva.core.model.CefrLevel
+import com.spreva.core.model.MistakePattern
 import com.spreva.core.model.ReviewRating
+import com.spreva.core.model.SkillArea
 
 /**
  * Practice tab: simple summary + CTA (plan section 56 keeps review UI
  * minimal: prompt → recall → reveal → grade).
  */
 @Composable
-fun PracticeRoute(onStartReview: () -> Unit, viewModel: PracticeViewModel = hiltViewModel()) {
+fun PracticeRoute(
+    onStartReview: () -> Unit,
+    onStartPlacement: () -> Unit,
+    onOpenLesson: (String) -> Unit,
+    viewModel: PracticeViewModel = hiltViewModel(),
+) {
     val dueCount by viewModel.dueCount.collectAsStateWithLifecycle()
+    val profile by viewModel.profile.collectAsStateWithLifecycle()
 
     Column(
         Modifier
             .fillMaxSize()
+            .verticalScroll(rememberScrollState())
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
@@ -43,16 +57,108 @@ fun PracticeRoute(onStartReview: () -> Unit, viewModel: PracticeViewModel = hilt
             text = stringResource(R.string.spreva_review_practice_title),
             style = MaterialTheme.typography.headlineSmall,
         )
-        if (dueCount > 0) {
-            Text(stringResource(R.string.spreva_review_due_count, dueCount))
-            Button(onClick = onStartReview, modifier = Modifier.fillMaxWidth()) {
-                Text(stringResource(R.string.spreva_review_start))
+
+        Card(Modifier.fillMaxWidth()) {
+            Column(
+                Modifier.padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(10.dp),
+            ) {
+                Text(
+                    stringResource(R.string.spreva_review_today_plan),
+                    style = MaterialTheme.typography.titleLarge,
+                )
+                if (dueCount > 0) {
+                    Text(stringResource(R.string.spreva_review_due_count, dueCount))
+                    Button(onClick = onStartReview, modifier = Modifier.fillMaxWidth()) {
+                        Text(stringResource(R.string.spreva_review_start))
+                    }
+                } else {
+                    Text(stringResource(R.string.spreva_review_none_due))
+                    TextButton(onClick = onStartReview) {
+                        Text(stringResource(R.string.spreva_review_check_anyway))
+                    }
+                }
+                OutlinedButton(onClick = onStartPlacement, modifier = Modifier.fillMaxWidth()) {
+                    Text(stringResource(R.string.spreva_review_start_placement))
+                }
             }
-        } else {
-            Text(stringResource(R.string.spreva_review_none_due))
-            TextButton(onClick = onStartReview) {
-                Text(stringResource(R.string.spreva_review_check_anyway))
+        }
+
+        if (profile.mastery.isNotEmpty()) {
+            Text(
+                stringResource(R.string.spreva_review_mastery_title),
+                style = MaterialTheme.typography.titleLarge,
+            )
+            profile.mastery.forEach { mastery ->
+                Card(Modifier.fillMaxWidth()) {
+                    Column(
+                        Modifier.padding(14.dp),
+                        verticalArrangement = Arrangement.spacedBy(6.dp),
+                    ) {
+                        Text(skillLabel(mastery.skill), style = MaterialTheme.typography.titleMedium)
+                        if (mastery.scorePercent != null) {
+                            Text(
+                                stringResource(
+                                    R.string.spreva_review_mastery_score,
+                                    mastery.scorePercent,
+                                    mastery.confidencePercent,
+                                ),
+                            )
+                            LinearProgressIndicator(
+                                progress = { mastery.scorePercent / 100f },
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                        } else {
+                            Text(
+                                stringResource(
+                                    R.string.spreva_review_productive_evidence,
+                                    mastery.productiveCompleted,
+                                    mastery.productiveAttempts,
+                                ),
+                            )
+                        }
+                    }
+                }
             }
+            Text(
+                stringResource(R.string.spreva_review_mastery_disclaimer),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+
+        if (profile.focus.isNotEmpty()) {
+            Text(
+                stringResource(R.string.spreva_review_focus_title),
+                style = MaterialTheme.typography.titleLarge,
+            )
+            profile.focus.forEach { focus ->
+                Card(
+                    onClick = { onOpenLesson(focus.lessonId.value) },
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Column(
+                        Modifier.padding(14.dp),
+                        verticalArrangement = Arrangement.spacedBy(4.dp),
+                    ) {
+                        Text(focus.lessonTitle.de, style = MaterialTheme.typography.titleMedium)
+                        Text(
+                            stringResource(
+                                R.string.spreva_review_focus_detail,
+                                skillLabel(focus.skill),
+                                focus.priorityPercent,
+                                mistakeLabel(focus.reason),
+                            ),
+                            style = MaterialTheme.typography.bodyMedium,
+                        )
+                    }
+                }
+            }
+        } else if (profile.totalAttempts > 0) {
+            Text(
+                stringResource(R.string.spreva_review_no_focus_needed),
+                style = MaterialTheme.typography.bodyMedium,
+            )
         }
     }
 }
@@ -192,3 +298,152 @@ private fun GradeButtons(viewModel: ReviewSessionViewModel) {
         ) { Text(stringResource(R.string.spreva_review_easy)) }
     }
 }
+
+@Composable
+fun PlacementRoute(
+    onOpenCourse: (String) -> Unit,
+    onFinished: () -> Unit,
+    viewModel: PlacementViewModel = hiltViewModel(),
+) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
+
+    Column(
+        Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        Text(
+            stringResource(R.string.spreva_placement_title),
+            style = MaterialTheme.typography.headlineSmall,
+        )
+        Text(
+            stringResource(R.string.spreva_placement_disclaimer),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+
+        when {
+            state.isLoading -> Text(stringResource(R.string.spreva_placement_loading))
+            state.error != null -> {
+                Text(state.error.orEmpty(), color = MaterialTheme.colorScheme.error)
+                OutlinedButton(onClick = onFinished, modifier = Modifier.fillMaxWidth()) {
+                    Text(stringResource(R.string.spreva_review_back_to_practice))
+                }
+            }
+            state.result?.finished == true -> {
+                val result = state.result
+                val level = result?.recommendedLevel ?: CefrLevel.B1
+                Card(Modifier.fillMaxWidth()) {
+                    Column(
+                        Modifier.padding(20.dp),
+                        verticalArrangement = Arrangement.spacedBy(10.dp),
+                    ) {
+                        Text(
+                            stringResource(R.string.spreva_placement_result, level.name),
+                            style = MaterialTheme.typography.headlineMedium,
+                        )
+                        Text(
+                            stringResource(
+                                R.string.spreva_placement_confidence,
+                                result?.confidencePercent ?: 0,
+                                result?.answeredCount ?: 0,
+                            ),
+                        )
+                        Text(
+                            stringResource(R.string.spreva_placement_result_note),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                }
+                Button(
+                    onClick = { onOpenCourse("de-core-${level.name.lowercase()}") },
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Text(stringResource(R.string.spreva_placement_open_level, level.name))
+                }
+                OutlinedButton(onClick = viewModel::restart, modifier = Modifier.fillMaxWidth()) {
+                    Text(stringResource(R.string.spreva_placement_restart))
+                }
+                TextButton(onClick = onFinished, modifier = Modifier.fillMaxWidth()) {
+                    Text(stringResource(R.string.spreva_review_back_to_practice))
+                }
+            }
+            else -> {
+                val question = state.currentQuestion
+                if (question != null) {
+                    val answered = state.history.size
+                    Text(
+                        stringResource(
+                            R.string.spreva_placement_progress,
+                            answered + 1,
+                            state.currentLevel.name,
+                        ),
+                        style = MaterialTheme.typography.labelLarge,
+                    )
+                    Card(Modifier.fillMaxWidth()) {
+                        Column(
+                            Modifier.padding(16.dp),
+                            verticalArrangement = Arrangement.spacedBy(10.dp),
+                        ) {
+                            Text(
+                                question.prompt.de,
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                            Text(question.question.de, style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+                    question.options.forEach { option ->
+                        val selected = state.selectedOptionId == option.id
+                        Card(
+                            onClick = { viewModel.selectOption(option.id) },
+                            modifier = Modifier.fillMaxWidth(),
+                        ) {
+                            Row(
+                                Modifier.padding(12.dp),
+                                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                                verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
+                            ) {
+                                RadioButton(selected = selected, onClick = null)
+                                Text(option.text.de)
+                            }
+                        }
+                    }
+                    Button(
+                        onClick = viewModel::submit,
+                        enabled = state.selectedOptionId != null,
+                        modifier = Modifier.fillMaxWidth(),
+                    ) {
+                        Text(stringResource(R.string.spreva_placement_next))
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun skillLabel(skill: SkillArea): String = stringResource(
+    when (skill) {
+        SkillArea.GRAMMAR -> R.string.spreva_skill_grammar
+        SkillArea.READING -> R.string.spreva_skill_reading
+        SkillArea.LISTENING -> R.string.spreva_skill_listening
+        SkillArea.WRITING -> R.string.spreva_skill_writing
+        SkillArea.SPEAKING -> R.string.spreva_skill_speaking
+        SkillArea.PRONUNCIATION -> R.string.spreva_skill_pronunciation
+    },
+)
+
+@Composable
+private fun mistakeLabel(pattern: MistakePattern): String = stringResource(
+    when (pattern) {
+        MistakePattern.REPEATED_ERROR -> R.string.spreva_mistake_repeated
+        MistakePattern.REPAIRED_AFTER_ERROR -> R.string.spreva_mistake_repaired
+        MistakePattern.RUSHED_GUESS -> R.string.spreva_mistake_rushed
+        MistakePattern.SLOW_RECALL -> R.string.spreva_mistake_slow
+        MistakePattern.PRODUCTIVE_INCOMPLETE -> R.string.spreva_mistake_productive
+    },
+)
