@@ -136,12 +136,12 @@
       "id": "b1_u05_l04_act07",
       "type": "cloze",
       "sentenceTemplate": {
-        "de": "Wir planen, nächstes Jahr {answer} ziehen.",
-        "ar": "Wir planen, nächstes Jahr {answer} ziehen.",
-        "en": "Wir planen, nächstes Jahr {answer} ziehen."
+        "de": "Wir planen, nächstes Jahr {answer}.",
+        "ar": "Wir planen, nächstes Jahr {answer}.",
+        "en": "Wir planen, nächstes Jahr {answer}."
       },
       "acceptedAnswers": [
-        "umzu"
+        "umzuziehen"
       ]
     },
     {

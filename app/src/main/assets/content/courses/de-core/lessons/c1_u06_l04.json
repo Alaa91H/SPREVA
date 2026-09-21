@@ -136,12 +136,12 @@
       "id": "c1_u06_l04_act07",
       "type": "cloze",
       "sentenceTemplate": {
-        "de": "Die Daten stehen nicht zur Verfügung {answer}.",
-        "ar": "Die Daten stehen nicht zur Verfügung {answer}.",
-        "en": "Die Daten stehen nicht zur Verfügung {answer}."
+        "de": "Die Daten {answer} nicht zur Verfügung.",
+        "ar": "Die Daten {answer} nicht zur Verfügung.",
+        "en": "Die Daten {answer} nicht zur Verfügung."
       },
       "acceptedAnswers": [
-        ""
+        "stehen"
       ]
     },
     {

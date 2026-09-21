@@ -1,6 +1,6 @@
 # SPREVA Academic German Curriculum — A1 to C1
 
-> Content version: `2026.09.academic.1`
+> Content version: `2026.09.academic.3`
 
 SPREVA's bundled German course is organized as an offline-first CEFR-oriented learning path from A1 through C1. The curriculum is designed around practical **Can-Do outcomes**, explicit language-system explanations, contextual vocabulary, controlled practice, production tasks, self-correction, and progressively more complex real-life, professional, academic, and civic communication.
 
@@ -10,11 +10,18 @@ SPREVA's bundled German course is organized as an offline-first CEFR-oriented le
 |---|---:|
 | CEFR levels | 5 |
 | Units | 68 |
-| Lessons | 136 |
-| Learning activities | 952 |
+| Lessons | 272 |
+| Learning activities | 2,997 |
 | Instruction languages | German + Arabic + English |
 
-Every lesson is a real JSON content object consumed by the app, not a placeholder title. Each indexed lesson currently contains seven activities: deep explanation/context, vocabulary, rule/example analysis, multiple choice, cloze, active production/revision, and a Can-Do summary.
+Every lesson is a real JSON content object consumed by the app, not a placeholder title. Every unit now follows a four-layer progression:
+
+1. **Foundation** — deep explanation, core forms, vocabulary and controlled retrieval.
+2. **Real Life** — authentic dialogue/scenario transfer and productive use.
+3. **Mastery** — repeated retrieval, six+ cloze drills, vocabulary recall, error diagnosis, transformation and spaced/interleaved practice.
+4. **Casebook** — six contrastive cases, four discrimination tasks, error gallery, nuance/contrast matrix and repeated real-world performance.
+
+This structure deliberately repeats the same knowledge under changed conditions instead of duplicating identical questions. The learner must recognize, produce, transform, explain, correct and later retrieve the target pattern.
 
 ## Pedagogical progression
 
@@ -47,7 +54,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### A1 — A1 — Everyday foundations
 
-**13 units · 26 lessons · 182 activities**
+**13 units · 52 lessons · 577 activities**
 
 1. **Begrüßung & Vorstellung** — التحية والتعارف
 2. **Alphabet, Aussprache & persönliche Daten** — الأبجدية والنطق والبيانات الشخصية
@@ -65,7 +72,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### A2 — A2 — More independent everyday communication
 
-**13 units · 26 lessons · 182 activities**
+**13 units · 52 lessons · 572 activities**
 
 1. **Vergangenheit mit Perfekt** — الماضي بصيغة Perfekt
 2. **Präteritum im Alltag** — Präteritum في الحياة اليومية
@@ -83,7 +90,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### B1 — B1 — Independent action & argumentation
 
-**13 units · 26 lessons · 182 activities**
+**13 units · 52 lessons · 572 activities**
 
 1. **Erzählen & zeitliche Zusammenhänge** — السرد والعلاقات الزمنية
 2. **Passiv in Alltag & Arbeit** — المبني للمجهول في الحياة والعمل
@@ -101,7 +108,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### B2 — B2 — Precision, professional language & complex topics
 
-**14 units · 28 lessons · 196 activities**
+**14 units · 56 lessons · 616 activities**
 
 1. **Komplexe Konnektoren & Argumentlogik** — الروابط المعقدة ومنطق الحجة
 2. **Passiversatz & Handlungsfokus** — بدائل المبني للمجهول وتركيز الفعل
@@ -120,7 +127,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### C1 — C1 — Academic, professional & stylistic mastery
 
-**15 units · 30 lessons · 210 activities**
+**15 units · 60 lessons · 660 activities**
 
 1. **Informationsstruktur, Fokus & Satzrhythmus** — بنية المعلومات والتركيز وإيقاع الجملة
 2. **Komplexe Subordination & Bedeutungsnuancen** — الجمل التابعة المعقدة والفروق الدلالية
@@ -150,6 +157,9 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 - required German/Arabic/English localized fields for indexed titles;
 - valid multiple-choice answers and minimum option counts;
 - valid cloze placeholders and accepted answers;
+- exact four-layer lesson coverage in every unit;
+- Mastery minimums (>=14 activities, >=6 cloze, >=2 multiple choice);
+- Casebook contract (16 activities, exactly 6 cloze + 4 multiple choice);
 - non-empty vocabulary blocks;
 - lesson-ending `lesson_summary` and matching Can-Do outcomes.
 

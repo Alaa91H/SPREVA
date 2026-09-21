@@ -65,8 +65,13 @@ def validate():
             require_localized(unit.get("title"), f"unit {unit_id} title", errors)
 
             lessons = unit.get("lessons", [])
-            if not lessons:
-                errors.append(f"unit {unit_id} has no lessons")
+            if len(lessons) != 4:
+                errors.append(f"unit {unit_id} must contain exactly 4 lessons (foundation, real-life, mastery, casebook), got {len(lessons)}")
+            expected_suffixes = ["_l01", "_l02", "_l03", "_l04"]
+            actual_ids = [ref.get("id", "") for ref in lessons]
+            for suffix in expected_suffixes:
+                if not any(lesson_id.endswith(suffix) for lesson_id in actual_ids):
+                    errors.append(f"unit {unit_id} missing required lesson layer {suffix}")
             for ref in lessons:
                 lesson_id = ref.get("id")
                 if not lesson_id or lesson_id in seen_lessons:
@@ -174,6 +179,22 @@ def validate():
 
         if activities[-1].get("type") != "lesson_summary":
             errors.append(f"{lesson_id}: final activity must be lesson_summary")
+
+        type_counts = {}
+        for activity in activities:
+            kind = activity.get("type")
+            type_counts[kind] = type_counts.get(kind, 0) + 1
+
+        if lesson_id.endswith("_l03"):
+            if len(activities) < 14:
+                errors.append(f"{lesson_id}: mastery layer must have at least 14 activities")
+            if type_counts.get("cloze", 0) < 6 or type_counts.get("multiple_choice", 0) < 2:
+                errors.append(f"{lesson_id}: mastery layer needs >=6 cloze and >=2 multiple-choice drills")
+        if lesson_id.endswith("_l04"):
+            if len(activities) != 16:
+                errors.append(f"{lesson_id}: casebook layer must have exactly 16 activities")
+            if type_counts.get("cloze", 0) != 6 or type_counts.get("multiple_choice", 0) != 4:
+                errors.append(f"{lesson_id}: casebook layer must have exactly 6 cloze and 4 multiple-choice drills")
 
     if errors:
         print(f"Curriculum validation FAILED with {len(errors)} error(s):", file=sys.stderr)
