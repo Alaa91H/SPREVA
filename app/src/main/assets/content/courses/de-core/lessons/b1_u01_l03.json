@@ -1,0 +1,296 @@
+{
+  "id": "b1_u01_l03",
+  "unitId": "de-core-b1-u01",
+  "title": {
+    "de": "Intensivtraining: Erzählen & zeitliche Zusammenhänge",
+    "ar": "تدريب مكثف: السرد والعلاقات الزمنية",
+    "en": "Mastery lab: Narration & time relationships"
+  },
+  "canDo": [
+    "B1_U01_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u01_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Mastery — Form, Funktion, Transfer",
+        "ar": "إتقان B1 — الشكل والوظيفة والتطبيق",
+        "en": "B1 Mastery — form, function, transfer"
+      },
+      "body": {
+        "de": "Vertiefe „Erzählen & zeitliche Zusammenhänge“. Nach jeder Lösung: grammatische Entscheidung erklären, den Satz in eine zweite Struktur umformen und dieselbe Bedeutung in einer realistischen Situation neu ausdrücken.",
+        "ar": "عمّق «السرد والعلاقات الزمنية». بعد كل حل: اشرح القرار النحوي، حوّل الجملة إلى بنية ثانية، ثم عبّر عن المعنى نفسه في موقف واقعي جديد.",
+        "en": "Deepen “Narration & time relationships”. After each solution explain the grammatical choice, transform the sentence into a second structure and express the same meaning in a new realistic situation."
+      }
+    },
+    {
+      "id": "b1_u01_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u01_l03_w1",
+          "german": "zuerst",
+          "translation": {
+            "de": "first",
+            "ar": "أولًا",
+            "en": "first"
+          }
+        },
+        {
+          "id": "b1_u01_l03_w2",
+          "german": "danach",
+          "translation": {
+            "de": "afterwards",
+            "ar": "بعد ذلك",
+            "en": "afterwards"
+          }
+        },
+        {
+          "id": "b1_u01_l03_w3",
+          "german": "anschließend",
+          "translation": {
+            "de": "subsequently",
+            "ar": "لاحقًا",
+            "en": "subsequently"
+          }
+        },
+        {
+          "id": "b1_u01_l03_w4",
+          "german": "während",
+          "translation": {
+            "de": "while",
+            "ar": "أثناء",
+            "en": "while"
+          }
+        },
+        {
+          "id": "b1_u01_l03_w5",
+          "german": "bevor",
+          "translation": {
+            "de": "before",
+            "ar": "قبل أن",
+            "en": "before"
+          }
+        },
+        {
+          "id": "b1_u01_l03_w6",
+          "german": "nachdem",
+          "translation": {
+            "de": "after",
+            "ar": "بعد أن",
+            "en": "after"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u01_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich angekommen war, rief ich an.",
+        "ar": "{answer} ich angekommen war, rief ich an.",
+        "en": "{answer} ich angekommen war, rief ich an."
+      },
+      "acceptedAnswers": [
+        "Nachdem"
+      ]
+    },
+    {
+      "id": "b1_u01_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich wartete, las ich die E-Mail.",
+        "ar": "{answer} ich wartete, las ich die E-Mail.",
+        "en": "{answer} ich wartete, las ich die E-Mail."
+      },
+      "acceptedAnswers": [
+        "Während"
+      ]
+    },
+    {
+      "id": "b1_u01_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich angekommen war, rief ich meine Familie an.",
+        "ar": "{answer} ich angekommen war, rief ich meine Familie an.",
+        "en": "{answer} ich angekommen war, rief ich meine Familie an."
+      },
+      "acceptedAnswers": [
+        "Nachdem"
+      ]
+    },
+    {
+      "id": "b1_u01_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bevor {answer} Termin begann, füllte ich das Formular aus.",
+        "ar": "Bevor {answer} Termin begann, füllte ich das Formular aus.",
+        "en": "Bevor {answer} Termin begann, füllte ich das Formular aus."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b1_u01_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Während ich wartete, las ich {answer} Unterlagen.",
+        "ar": "Während ich wartete, las ich {answer} Unterlagen.",
+        "en": "Während ich wartete, las ich {answer} Unterlagen."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "b1_u01_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unfall, Reise, Arbeitstag oder wichtige Erfahrung: Ereignisse chronologisch ordnen, Ursache {answer} Folge verständlich machen.",
+        "ar": "Unfall, Reise, Arbeitstag oder wichtige Erfahrung: Ereignisse chronologisch ordnen, Ursache {answer} Folge verständlich machen.",
+        "en": "Unfall, Reise, Arbeitstag oder wichtige Erfahrung: Ereignisse chronologisch ordnen, Ursache {answer} Folge verständlich machen."
+      },
+      "acceptedAnswers": [
+        "und"
+      ]
+    },
+    {
+      "id": "b1_u01_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "zuerst",
+        "ar": "zuerst",
+        "en": "zuerst"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "first",
+            "ar": "أولًا",
+            "en": "first"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "afterwards",
+            "ar": "بعد ذلك",
+            "en": "afterwards"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "subsequently",
+            "ar": "لاحقًا",
+            "en": "subsequently"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u01_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung im Kontext",
+        "ar": "المعنى في السياق",
+        "en": "Meaning in context"
+      },
+      "question": {
+        "de": "während",
+        "ar": "während",
+        "en": "während"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "while",
+            "ar": "أثناء",
+            "en": "while"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "before",
+            "ar": "قبل أن",
+            "en": "before"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "after",
+            "ar": "بعد أن",
+            "en": "after"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u01_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose & Gegenprobe",
+        "ar": "تشخيص الخطأ والاختبار العكسي",
+        "en": "Error diagnosis & counter-check"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Nachdem ich angekommen war, rief ich meine Familie an.\n2. Bevor der Termin begann, füllte ich das Formular aus.\n3. Während ich wartete, las ich die Unterlagen.\n4. Unfall, Reise, Arbeitstag oder wichtige Erfahrung: Ereignisse chronologisch ordnen, Ursache und Folge verständlich machen.\n\nErzeuge zu jedem Muster eine plausible falsche Form. Benenne den Fehlertyp (Kasus, Tempus, Verbposition, Konnektor, Relativpronomen, Passiv/Modalität), korrigiere und bilde danach eine zweite korrekte Variante.",
+        "ar": "نماذج صحيحة:\n1. Nachdem ich angekommen war, rief ich meine Familie an.\n2. Bevor der Termin begann, füllte ich das Formular aus.\n3. Während ich wartete, las ich die Unterlagen.\n4. Unfall, Reise, Arbeitstag oder wichtige Erfahrung: Ereignisse chronologisch ordnen, Ursache und Folge verständlich machen.\n\nأنشئ لكل نموذج صيغة خاطئة محتملة. سمِّ نوع الخطأ (الحالة، الزمن، موقع الفعل، الرابط، ضمير الوصل، المبني للمجهول/الدلالة)، صححه ثم أنشئ صيغة صحيحة ثانية.",
+        "en": "Correct patterns:\n1. Nachdem ich angekommen war, rief ich meine Familie an.\n2. Bevor der Termin begann, füllte ich das Formular aus.\n3. Während ich wartete, las ich die Unterlagen.\n4. Unfall, Reise, Arbeitstag oder wichtige Erfahrung: Ereignisse chronologisch ordnen, Ursache und Folge verständlich machen.\n\nCreate one plausible wrong form for each pattern. Name the error type (case, tense, word order, connector, relative pronoun, passive/modality), correct it, then create a second correct version."
+      }
+    },
+    {
+      "id": "b1_u01_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "B1-Transformationsmatrix",
+        "ar": "مصفوفة تحويلات B1",
+        "en": "B1 transformation matrix"
+      },
+      "body": {
+        "de": "Transformiere die Kernaussagen: Aktiv ↔ Passiv; direkt ↔ höflich; Hauptsatz ↔ Nebensatz; Präsens ↔ Vergangenheit; zwei kurze Sätze ↔ Relativ-/Infinitivkonstruktion; Behauptung ↔ begründete Aussage. Danach Kasus, Verbendstellung und Konnektorlogik prüfen.",
+        "ar": "حوّل الأفكار: معلوم ↔ مجهول؛ مباشر ↔ مهذب؛ جملة رئيسية ↔ تابعة؛ حاضر ↔ ماضٍ؛ جملتان قصيرتان ↔ موصولة/مصدرية؛ ادعاء ↔ قول معلل. ثم راجع الحالة وموقع الفعل ومنطق الروابط.",
+        "en": "Transform key statements: active ↔ passive; direct ↔ polite; main ↔ subordinate clause; present ↔ past; two short clauses ↔ relative/infinitive construction; claim ↔ reasoned statement. Then check case, verb-final order and connector logic."
+      }
+    },
+    {
+      "id": "b1_u01_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving & freie Produktion",
+        "ar": "التداخل والإنتاج الحر",
+        "en": "Interleaving & free production"
+      },
+      "body": {
+        "de": "Mische die Zielstruktur mit zwei früheren B1-Themen. Schreibe 80–120 Wörter oder sprich zwei Minuten: mindestens drei Zielstrukturen, zwei Konnektoren, eine Rückfrage und eine Selbstkorrektur. Wiederhole dieselbe Aufgabe später mit neuem Kontext.",
+        "ar": "امزج البنية المستهدفة مع موضوعين سابقين من B1. اكتب 80–120 كلمة أو تحدث دقيقتين: ثلاث بنيات مستهدفة، رابطان، سؤال متابعة وتصحيح ذاتي. أعد المهمة لاحقًا بسياق جديد.",
+        "en": "Interleave the target with two earlier B1 topics. Write 80–120 words or speak for two minutes using at least three target structures, two connectors, one follow-up question and one self-correction. Repeat later in a new context."
+      }
+    },
+    {
+      "id": "b1_u01_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Mastery konsolidiert",
+        "ar": "تم ترسيخ إتقان B1",
+        "en": "B1 mastery consolidated"
+      },
+      "canDo": [
+        "B1_U01_MASTERY"
+      ]
+    }
+  ]
+}
