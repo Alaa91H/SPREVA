@@ -43,6 +43,12 @@ interface ActivityAttemptDao {
     @Query("SELECT COUNT(*) FROM activity_attempts WHERE lessonId = :lessonId")
     suspend fun countForLesson(lessonId: String): Int
 
+    @Query("SELECT * FROM activity_attempts ORDER BY createdAtEpochMs ASC")
+    fun observeAll(): Flow<List<ActivityAttemptEntity>>
+
+    @Query("SELECT * FROM activity_attempts ORDER BY createdAtEpochMs ASC")
+    suspend fun getAll(): List<ActivityAttemptEntity>
+
     @Query("DELETE FROM activity_attempts")
     suspend fun clear()
 }

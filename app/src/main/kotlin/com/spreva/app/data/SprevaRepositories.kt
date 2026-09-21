@@ -106,6 +106,9 @@ class OfflineFirstLearningRepository @Inject constructor(
     override fun observeAllProgress(): Flow<List<LessonProgress>> =
         progressDao.observeAll().map { list -> list.map { it.toModel() } }
 
+    override fun observeAttempts(): Flow<List<ActivityAttempt>> =
+        attemptsDao.observeAll().map { list -> list.map { it.toModel() } }
+
     override suspend fun recordAttempt(attempt: ActivityAttempt) {
         attemptsDao.insert(
             ActivityAttemptEntity(

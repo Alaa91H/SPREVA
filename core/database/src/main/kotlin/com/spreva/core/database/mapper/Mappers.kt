@@ -1,7 +1,10 @@
 package com.spreva.core.database.mapper
 
+import com.spreva.core.database.entity.ActivityAttemptEntity
 import com.spreva.core.database.entity.LessonProgressEntity
 import com.spreva.core.database.entity.ReviewCardEntity
+import com.spreva.core.model.ActivityAttempt
+import com.spreva.core.model.ActivityId
 import com.spreva.core.model.LessonId
 import com.spreva.core.model.LessonProgress
 import com.spreva.core.model.LessonStatus
@@ -55,4 +58,16 @@ fun ReviewCard.toEntity() = ReviewCardEntity(
     schedulerVersion = schedulerVersion,
     schedulerState = schedulerState,
     audioPath = audioPath,
+)
+
+
+fun ActivityAttemptEntity.toModel() = ActivityAttempt(
+    id = id,
+    lessonId = LessonId(lessonId),
+    activityId = ActivityId(activityId),
+    attemptNumber = attemptNumber,
+    correct = correct,
+    usedHint = usedHint,
+    responseTimeMs = responseTimeMs,
+    createdAt = Instant.ofEpochMilli(createdAtEpochMs),
 )

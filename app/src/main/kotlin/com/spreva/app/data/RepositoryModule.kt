@@ -8,6 +8,7 @@ import com.spreva.app.data.DefaultReviewCardProvisioner
 import com.spreva.domain.curriculum.CurriculumRepository
 import com.spreva.domain.learning.LearningEventLog
 import com.spreva.domain.learning.LearningRepository
+import com.spreva.domain.learning.LearningIntelligenceRepository
 import com.spreva.domain.learning.ReviewCardProvisioner
 import com.spreva.domain.review.ReviewRepository
 import dagger.Binds
@@ -25,6 +26,11 @@ abstract class RepositoryModule {
 
     @Binds
     abstract fun bindLearningRepository(impl: OfflineFirstLearningRepository): LearningRepository
+
+    @Binds
+    abstract fun bindLearningIntelligenceRepository(
+        impl: OfflineFirstLearningIntelligenceRepository,
+    ): LearningIntelligenceRepository
 
     @Binds
     abstract fun bindLearningEventLog(impl: RoomLearningEventLog): LearningEventLog
