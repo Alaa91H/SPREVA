@@ -658,6 +658,52 @@
               "activityCount": 16
             }
           ]
+        },
+        {
+          "id": "de-core-a1-u15",
+          "title": {
+            "de": "A1 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات A1",
+            "en": "A1 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "a1_u15_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a1_u15_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "a1_u15_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "a1_u15_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
+            }
+          ]
         }
       ]
     },
@@ -1313,6 +1359,52 @@
               "activityCount": 16
             }
           ]
+        },
+        {
+          "id": "de-core-a2-u15",
+          "title": {
+            "de": "A2 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات A2",
+            "en": "A2 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "a2_u15_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a2_u15_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "a2_u15_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "a2_u15_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
+            }
+          ]
         }
       ]
     },
@@ -1966,6 +2058,52 @@
                 "en": "Integration casebook"
               },
               "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u15",
+          "title": {
+            "de": "B1 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات B1",
+            "en": "B1 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "b1_u15_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b1_u15_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "b1_u15_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "b1_u15_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
             }
           ]
         }
@@ -2667,6 +2805,52 @@
                 "en": "Integration casebook"
               },
               "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u16",
+          "title": {
+            "de": "B2 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات B2",
+            "en": "B2 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "b2_u16_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b2_u16_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "b2_u16_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "b2_u16_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
             }
           ]
         }
@@ -3414,6 +3598,52 @@
                 "en": "Integration casebook"
               },
               "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u17",
+          "title": {
+            "de": "C1 Prüfungs- & Kompetenzlabor",
+            "ar": "مختبر امتحان ومهارات C1",
+            "en": "C1 Exam & Skills Lab"
+          },
+          "lessons": [
+            {
+              "id": "c1_u17_l01",
+              "title": {
+                "de": "Prüfungstraining: Lesen & Hören",
+                "ar": "تدريب امتحان: القراءة والاستماع",
+                "en": "Exam training: Reading & Listening"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "c1_u17_l02",
+              "title": {
+                "de": "Prüfungstraining: Schreiben & Sprechen",
+                "ar": "تدريب امتحان: الكتابة والكلام",
+                "en": "Exam training: Writing & Speaking"
+              },
+              "activityCount": 10
+            },
+            {
+              "id": "c1_u17_l03",
+              "title": {
+                "de": "Prüfungs-Mastery: gemischte Aufgaben",
+                "ar": "إتقان الامتحان: مهام مختلطة",
+                "en": "Exam mastery: mixed tasks"
+              },
+              "activityCount": 16
+            },
+            {
+              "id": "c1_u17_l04",
+              "title": {
+                "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+                "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+                "en": "Full simulation: Reading · Listening · Writing · Speaking"
+              },
+              "activityCount": 18
             }
           ]
         }

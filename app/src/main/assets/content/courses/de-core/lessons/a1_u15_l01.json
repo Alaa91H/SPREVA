@@ -1,0 +1,375 @@
+{
+  "id": "a1_u15_l01",
+  "unitId": "de-core-a1-u15",
+  "title": {
+    "de": "Prüfungstraining: Lesen & Hören",
+    "ar": "تدريب امتحان: القراءة والاستماع",
+    "en": "Exam training: Reading & Listening"
+  },
+  "canDo": [
+    "A1_EXAM_READING_LISTENING"
+  ],
+  "activities": [
+    {
+      "id": "a1_u15_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Lesen & Hören — Prüfungsmodus",
+        "ar": "القراءة والاستماع — وضع الامتحان",
+        "en": "Reading & Listening — exam mode"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "a1_u15_l01_act02",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?",
+        "ar": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?",
+        "en": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "10–14 Uhr",
+            "ar": "10–14 Uhr",
+            "en": "10–14 Uhr"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "8–12 Uhr",
+            "ar": "8–12 Uhr",
+            "en": "8–12 Uhr"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Sonntag",
+            "ar": "Sonntag",
+            "en": "Sonntag"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l01_act03",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?",
+        "ar": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?",
+        "en": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Sie ist krank.",
+            "ar": "Sie ist krank.",
+            "en": "Sie ist krank."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Sie arbeitet.",
+            "ar": "Sie arbeitet.",
+            "en": "Sie arbeitet."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Sie reist.",
+            "ar": "Sie reist.",
+            "en": "Sie reist."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Im Café kostet Tee 2,50 Euro, Kaffee 3 Euro und Wasser 2 Euro.\n\nWas ist am billigsten?",
+        "ar": "Im Café kostet Tee 2,50 Euro, Kaffee 3 Euro und Wasser 2 Euro.\n\nWas ist am billigsten?",
+        "en": "Im Café kostet Tee 2,50 Euro, Kaffee 3 Euro und Wasser 2 Euro.\n\nWas ist am billigsten?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Wasser",
+            "ar": "Wasser",
+            "en": "Wasser"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Tee",
+            "ar": "Tee",
+            "en": "Tee"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Kaffee",
+            "ar": "Kaffee",
+            "en": "Kaffee"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l01_act05",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Bus 4 fährt heute nicht zum Bahnhof. Fahrgäste nehmen bitte Bus 7.\n\nWelchen Bus soll man zum Bahnhof nehmen?",
+        "ar": "Bus 4 fährt heute nicht zum Bahnhof. Fahrgäste nehmen bitte Bus 7.\n\nWelchen Bus soll man zum Bahnhof nehmen?",
+        "en": "Bus 4 fährt heute nicht zum Bahnhof. Fahrgäste nehmen bitte Bus 7.\n\nWelchen Bus soll man zum Bahnhof nehmen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Bus 7",
+            "ar": "Bus 7",
+            "en": "Bus 7"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Bus 4",
+            "ar": "Bus 4",
+            "en": "Bus 4"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Keinen Bus",
+            "ar": "Keinen Bus",
+            "en": "Keinen Bus"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Termin ist am Dienstag um halb neun.",
+        "ar": "Der Termin ist am Dienstag um halb neun.",
+        "en": "Der Termin ist am Dienstag um halb neun."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Dienstag 8:30",
+            "ar": "Dienstag 8:30",
+            "en": "Dienstag 8:30"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Dienstag 9:30",
+            "ar": "Dienstag 9:30",
+            "en": "Dienstag 9:30"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Mittwoch 8:30",
+            "ar": "Mittwoch 8:30",
+            "en": "Mittwoch 8:30"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Gehen Sie geradeaus und biegen Sie an der zweiten Kreuzung links ab.",
+        "ar": "Gehen Sie geradeaus und biegen Sie an der zweiten Kreuzung links ab.",
+        "en": "Gehen Sie geradeaus und biegen Sie an der zweiten Kreuzung links ab."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zweite Kreuzung links",
+            "ar": "zweite Kreuzung links",
+            "en": "zweite Kreuzung links"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "erste Kreuzung rechts",
+            "ar": "erste Kreuzung rechts",
+            "en": "erste Kreuzung rechts"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "am Bahnhof geradeaus",
+            "ar": "am Bahnhof geradeaus",
+            "en": "am Bahnhof geradeaus"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l01_act08",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich möchte einen Kaffee und ein Wasser, bitte.",
+        "ar": "Ich möchte einen Kaffee und ein Wasser, bitte.",
+        "en": "Ich möchte einen Kaffee und ein Wasser, bitte."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kaffee und Wasser",
+            "ar": "Kaffee und Wasser",
+            "en": "Kaffee und Wasser"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Tee und Saft",
+            "ar": "Tee und Saft",
+            "en": "Tee und Saft"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nur Wasser",
+            "ar": "nur Wasser",
+            "en": "nur Wasser"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Mein Termin ist am Donnerstag um neun Uhr.",
+        "ar": "Mein Termin ist am Donnerstag um neun Uhr.",
+        "en": "Mein Termin ist am Donnerstag um neun Uhr."
+      },
+      "acceptedAnswers": [
+        "Mein Termin ist am Donnerstag um neun Uhr."
+      ]
+    },
+    {
+      "id": "a1_u15_l01_act10",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Ich wohne in einer kleinen Wohnung in Duisburg.",
+        "ar": "Ich wohne in einer kleinen Wohnung in Duisburg.",
+        "en": "Ich wohne in einer kleinen Wohnung in Duisburg."
+      },
+      "acceptedAnswers": [
+        "Ich wohne in einer kleinen Wohnung in Duisburg."
+      ]
+    },
+    {
+      "id": "a1_u15_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Hörstrategie",
+        "ar": "استراتيجية الاستماع",
+        "en": "Listening strategy"
+      },
+      "body": {
+        "de": "Erster Durchgang: Gesamtsinn. Zweiter Durchgang: Schlüsselwörter, Zahlen, Negation und Kontrast. Erst danach Antwort prüfen.",
+        "ar": "الجولة الأولى: المعنى العام. الثانية: الكلمات المفتاحية والأرقام والنفي والتعارض. ثم تحقق من الإجابة.",
+        "en": "First pass: overall meaning. Second pass: keywords, numbers, negation and contrast. Only then check the answer."
+      }
+    },
+    {
+      "id": "a1_u15_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Lesen/Hören abgeschlossen",
+        "ar": "اكتمل قسم القراءة/الاستماع",
+        "en": "Reading/listening complete"
+      },
+      "canDo": [
+        "A1_EXAM_READING_LISTENING"
+      ]
+    }
+  ]
+}

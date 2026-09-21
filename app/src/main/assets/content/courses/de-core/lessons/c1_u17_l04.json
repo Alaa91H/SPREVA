@@ -1,0 +1,443 @@
+{
+  "id": "c1_u17_l04",
+  "unitId": "de-core-c1-u17",
+  "title": {
+    "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+    "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+    "en": "Full simulation: Reading · Listening · Writing · Speaking"
+  },
+  "canDo": [
+    "C1_EXAM_FULL_MOCK"
+  ],
+  "activities": [
+    {
+      "id": "c1_u17_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Full Mock — vier Fertigkeiten",
+        "ar": "محاكاة كاملة — المهارات الأربع",
+        "en": "Full mock — four skills"
+      },
+      "body": {
+        "de": "Originale SPREVA-Simulation mit Lesen, Hören, Schreiben und Sprechen. Arbeiten Sie möglichst ohne Zurückspringen und notieren Sie Unsicherheiten erst nach dem ersten Durchgang.",
+        "ar": "محاكاة أصلية من SPREVA تشمل القراءة والاستماع والكتابة والكلام. حاول عدم الرجوع للخلف وسجّل نقاط الشك بعد الجولة الأولى.",
+        "en": "Original SPREVA simulation covering reading, listening, writing and speaking. Work without going back where possible and note uncertainty only after the first pass."
+      }
+    },
+    {
+      "id": "c1_u17_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frage {answer} voraus, dass ein Problem besteht.",
+        "ar": "Die Frage {answer} voraus, dass ein Problem besteht.",
+        "en": "Die Frage {answer} voraus, dass ein Problem besteht."
+      },
+      "acceptedAnswers": [
+        "setzt"
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Korrelation erlaubt keinen eindeutigen {answer}.",
+        "ar": "Korrelation erlaubt keinen eindeutigen {answer}.",
+        "en": "Korrelation erlaubt keinen eindeutigen {answer}."
+      },
+      "acceptedAnswers": [
+        "Kausalschluss"
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} macht das Konstrukt messbar.",
+        "ar": "Die {answer} macht das Konstrukt messbar.",
+        "en": "Die {answer} macht das Konstrukt messbar."
+      },
+      "acceptedAnswers": [
+        "Operationalisierung"
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Übertragbarkeit ist aufgrund der Stichprobe {answer}.",
+        "ar": "Die Übertragbarkeit ist aufgrund der Stichprobe {answer}.",
+        "en": "Die Übertragbarkeit ist aufgrund der Stichprobe {answer}."
+      },
+      "acceptedAnswers": [
+        "begrenzt"
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Quellen müssen {answer} wiedergegeben werden.",
+        "ar": "Die Quellen müssen {answer} wiedergegeben werden.",
+        "en": "Die Quellen müssen {answer} wiedergegeben werden."
+      },
+      "acceptedAnswers": [
+        "quellentreu"
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der {answer} der Formulierung muss zur Datenlage passen.",
+        "ar": "Der {answer} der Formulierung muss zur Datenlage passen.",
+        "en": "Der {answer} der Formulierung muss zur Datenlage passen."
+      },
+      "acceptedAnswers": [
+        "Evidenzgrad"
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?",
+        "ar": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?",
+        "en": "In einer Metaanalyse zeigen die meisten untersuchten Studien einen kleinen positiven Effekt. Die Autorinnen betonen jedoch erhebliche Unterschiede zwischen den Studien und warnen davor, den Mittelwert ohne Kontext auf einzelne Zielgruppen zu übertragen.\n\nWelche Interpretation ist angemessen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann.",
+            "ar": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann.",
+            "en": "Es gibt einen durchschnittlichen Effekt, dessen Übertragbarkeit begrenzt sein kann."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Der Effekt gilt sicher für jede Person.",
+            "ar": "Der Effekt gilt sicher für jede Person.",
+            "en": "Der Effekt gilt sicher für jede Person."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Die Studien widersprechen sich vollständig.",
+            "ar": "Die Studien widersprechen sich vollständig.",
+            "en": "Die Studien widersprechen sich vollständig."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?",
+        "ar": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?",
+        "en": "Ein Positionspapier fordert eine schnellere Einführung automatisierter Entscheidungssysteme und verweist auf Effizienzgewinne. Angaben zu Fehlerraten in seltenen Fällen fehlen; zugleich wird betont, menschliche Kontrolle bleibe vorgesehen.\n\nWelche Frage bleibt besonders offen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden",
+            "ar": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden",
+            "en": "Wie Fehler und menschliche Kontrolle praktisch behandelt werden"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ob das Papier Wörter enthält",
+            "ar": "ob das Papier Wörter enthält",
+            "en": "ob das Papier Wörter enthält"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ob Computer Strom benötigen",
+            "ar": "ob Computer Strom benötigen",
+            "en": "ob Computer Strom benötigen"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Zwei Berichte bewerten dieselbe Reform unterschiedlich. Bericht A priorisiert kurzfristige Kosten, Bericht B langfristige Verteilungseffekte. Beide verwenden weitgehend dieselben Ausgangsdaten.\n\nWas erklärt den Unterschied am ehesten?",
+        "ar": "Zwei Berichte bewerten dieselbe Reform unterschiedlich. Bericht A priorisiert kurzfristige Kosten, Bericht B langfristige Verteilungseffekte. Beide verwenden weitgehend dieselben Ausgangsdaten.\n\nWas erklärt den Unterschied am ehesten?",
+        "en": "Zwei Berichte bewerten dieselbe Reform unterschiedlich. Bericht A priorisiert kurzfristige Kosten, Bericht B langfristige Verteilungseffekte. Beide verwenden weitgehend dieselben Ausgangsdaten.\n\nWas erklärt den Unterschied am ehesten?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "unterschiedliche Kriterien und Zeithorizonte",
+            "ar": "unterschiedliche Kriterien und Zeithorizonte",
+            "en": "unterschiedliche Kriterien und Zeithorizonte"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "völlig verschiedene Daten",
+            "ar": "völlig verschiedene Daten",
+            "en": "völlig verschiedene Daten"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "fehlende Sprache",
+            "ar": "fehlende Sprache",
+            "en": "fehlende Sprache"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Eine Rede bezeichnet Kürzungen als „Verschlankung“, während ein Gegenbeitrag von „Leistungsabbau“ spricht. Beide Formulierungen beziehen sich auf dieselbe Budgetmaßnahme.\n\nWas zeigt das Beispiel?",
+        "ar": "Eine Rede bezeichnet Kürzungen als „Verschlankung“, während ein Gegenbeitrag von „Leistungsabbau“ spricht. Beide Formulierungen beziehen sich auf dieselbe Budgetmaßnahme.\n\nWas zeigt das Beispiel?",
+        "en": "Eine Rede bezeichnet Kürzungen als „Verschlankung“, während ein Gegenbeitrag von „Leistungsabbau“ spricht. Beide Formulierungen beziehen sich auf dieselbe Budgetmaßnahme.\n\nWas zeigt das Beispiel?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "unterschiedliches Framing derselben Maßnahme",
+            "ar": "unterschiedliches Framing derselben Maßnahme",
+            "en": "unterschiedliches Framing derselben Maßnahme"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "eindeutige Faktenprüfung",
+            "ar": "eindeutige Faktenprüfung",
+            "en": "eindeutige Faktenprüfung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "identische Bewertung",
+            "ar": "identische Bewertung",
+            "en": "identische Bewertung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Korrelation bleibt auch nach Kontrolle mehrerer Variablen bestehen, erlaubt aber allein noch keinen eindeutigen Kausalschluss.",
+        "ar": "Die Korrelation bleibt auch nach Kontrolle mehrerer Variablen bestehen, erlaubt aber allein noch keinen eindeutigen Kausalschluss.",
+        "en": "Die Korrelation bleibt auch nach Kontrolle mehrerer Variablen bestehen, erlaubt aber allein noch keinen eindeutigen Kausalschluss."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "robuster Zusammenhang, keine sichere Kausalität",
+            "ar": "robuster Zusammenhang, keine sichere Kausalität",
+            "en": "robuster Zusammenhang, keine sichere Kausalität"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kausalität bewiesen",
+            "ar": "Kausalität bewiesen",
+            "en": "Kausalität bewiesen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zusammenhang verschwunden",
+            "ar": "Zusammenhang verschwunden",
+            "en": "Zusammenhang verschwunden"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l04_act13",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Formulierung ist grammatisch korrekt, wirkt im wissenschaftlichen Kontext jedoch zu kategorisch und sollte epistemisch abgeschwächt werden.",
+        "ar": "Die Formulierung ist grammatisch korrekt, wirkt im wissenschaftlichen Kontext jedoch zu kategorisch und sollte epistemisch abgeschwächt werden.",
+        "en": "Die Formulierung ist grammatisch korrekt, wirkt im wissenschaftlichen Kontext jedoch zu kategorisch und sollte epistemisch abgeschwächt werden."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Register/Evidenzgrad anpassen",
+            "ar": "Register/Evidenzgrad anpassen",
+            "en": "Register/Evidenzgrad anpassen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Grammatikfehler korrigieren",
+            "ar": "Grammatikfehler korrigieren",
+            "en": "Grammatikfehler korrigieren"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Aussage verstärken",
+            "ar": "Aussage verstärken",
+            "en": "Aussage verstärken"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u17_l04_act14",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Die Quelle muss sichtbar bleiben, auch wenn die Aussage stilistisch verdichtet oder paraphrasiert wird.",
+        "ar": "Die Quelle muss sichtbar bleiben, auch wenn die Aussage stilistisch verdichtet oder paraphrasiert wird.",
+        "en": "Die Quelle muss sichtbar bleiben, auch wenn die Aussage stilistisch verdichtet oder paraphrasiert wird."
+      },
+      "acceptedAnswers": [
+        "Die Quelle muss sichtbar bleiben, auch wenn die Aussage stilistisch verdichtet oder paraphrasiert wird."
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act15",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie 220–280 Wörter als analytische Synthese aus drei hypothetischen Quellen: gemeinsame Befunde, Konflikte, Evidenzstärke, Limitationen und klar getrennte eigene Bewertung.",
+        "ar": "اكتب 220–280 كلمة كتركيب تحليلي لثلاثة مصادر افتراضية: النتائج المشتركة، التعارضات، قوة الدليل، القيود وتقييمك المنفصل بوضوح.",
+        "en": "Write 220–280 words as an analytical synthesis of three hypothetical sources: shared findings, conflicts, evidence strength, limitations and clearly separated own assessment."
+      },
+      "minWords": 220,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act16",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Synthetisieren Sie zwei widersprüchliche Positionen in zwei Minuten: Quellen klar zuordnen, Gemeinsamkeiten und Konflikte benennen, dann vorsichtig bewerten.",
+        "ar": "ركّب موقفين متعارضين في دقيقتين: انسب كل قول لمصدره، اذكر نقاط الاتفاق والخلاف ثم قيّم بحذر.",
+        "en": "Synthesize two conflicting positions in two minutes: attribute sources clearly, identify agreements and conflicts, then evaluate cautiously."
+      },
+      "minSeconds": 120,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "c1_u17_l04_act17",
+      "type": "text_intro",
+      "title": {
+        "de": "Auswertung nach dem Mock",
+        "ar": "التقييم بعد المحاكاة",
+        "en": "Post-mock review"
+      },
+      "body": {
+        "de": "Trennen Sie Fehler nach Fertigkeit: Verstehen, Grammatik, Wortschatz, Aufgabenbezug, Kohärenz oder Sprechfluss. Planen Sie für die zwei häufigsten Kategorien gezielte Wiederholung.",
+        "ar": "صنّف الأخطاء حسب المهارة: الفهم، النحو، المفردات، الالتزام بالمهمة، الترابط أو طلاقة الكلام. خطط لمراجعة مركزة للفئتين الأكثر تكرارًا.",
+        "en": "Classify errors by skill: comprehension, grammar, vocabulary, task fulfilment, coherence or speaking flow. Plan targeted review for the two most frequent categories."
+      }
+    },
+    {
+      "id": "c1_u17_l04_act18",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Full Mock abgeschlossen",
+        "ar": "اكتملت المحاكاة الكاملة",
+        "en": "Full mock complete"
+      },
+      "canDo": [
+        "C1_EXAM_FULL_MOCK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "id": "b1_u15_l01",
+  "unitId": "de-core-b1-u15",
+  "title": {
+    "de": "Prüfungstraining: Lesen & Hören",
+    "ar": "تدريب امتحان: القراءة والاستماع",
+    "en": "Exam training: Reading & Listening"
+  },
+  "canDo": [
+    "B1_EXAM_READING_LISTENING"
+  ],
+  "activities": [
+    {
+      "id": "b1_u15_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Lesen & Hören — Prüfungsmodus",
+        "ar": "القراءة والاستماع — وضع الامتحان",
+        "en": "Reading & Listening — exam mode"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "b1_u15_l01_act02",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Die Stadtbibliothek verlängert ab Oktober ihre Öffnungszeiten. Gleichzeitig werden zwei kleinere Filialen wegen Renovierung für sechs Wochen geschlossen. Online-Ausleihe und Rückgabeautomaten bleiben verfügbar.\n\nWelche Aussage stimmt?",
+        "ar": "Die Stadtbibliothek verlängert ab Oktober ihre Öffnungszeiten. Gleichzeitig werden zwei kleinere Filialen wegen Renovierung für sechs Wochen geschlossen. Online-Ausleihe und Rückgabeautomaten bleiben verfügbar.\n\nWelche Aussage stimmt?",
+        "en": "Die Stadtbibliothek verlängert ab Oktober ihre Öffnungszeiten. Gleichzeitig werden zwei kleinere Filialen wegen Renovierung für sechs Wochen geschlossen. Online-Ausleihe und Rückgabeautomaten bleiben verfügbar.\n\nWelche Aussage stimmt?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Ein Teil des Angebots bleibt trotz Schließungen verfügbar.",
+            "ar": "Ein Teil des Angebots bleibt trotz Schließungen verfügbar.",
+            "en": "Ein Teil des Angebots bleibt trotz Schließungen verfügbar."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Alle Bibliotheken schließen dauerhaft.",
+            "ar": "Alle Bibliotheken schließen dauerhaft.",
+            "en": "Alle Bibliotheken schließen dauerhaft."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Die Online-Ausleihe endet.",
+            "ar": "Die Online-Ausleihe endet.",
+            "en": "Die Online-Ausleihe endet."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l01_act03",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Unternehmen führt zwei Homeoffice-Tage pro Woche ein. Die Regel gilt zunächst sechs Monate und wird danach ausgewertet. Teams dürfen gemeinsame Präsenztage festlegen.\n\nWas ist noch nicht endgültig?",
+        "ar": "Ein Unternehmen führt zwei Homeoffice-Tage pro Woche ein. Die Regel gilt zunächst sechs Monate und wird danach ausgewertet. Teams dürfen gemeinsame Präsenztage festlegen.\n\nWas ist noch nicht endgültig?",
+        "en": "Ein Unternehmen führt zwei Homeoffice-Tage pro Woche ein. Die Regel gilt zunächst sechs Monate und wird danach ausgewertet. Teams dürfen gemeinsame Präsenztage festlegen.\n\nWas ist noch nicht endgültig?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Ob die Regel nach sechs Monaten bleibt.",
+            "ar": "Ob die Regel nach sechs Monaten bleibt.",
+            "en": "Ob die Regel nach sechs Monaten bleibt."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Ob es Teams gibt.",
+            "ar": "Ob es Teams gibt.",
+            "en": "Ob es Teams gibt."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Ob Mitarbeiter arbeiten.",
+            "ar": "Ob Mitarbeiter arbeiten.",
+            "en": "Ob Mitarbeiter arbeiten."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Die Krankenkasse bittet um einen fehlenden Nachweis. Ohne diesen könne der Antrag nicht abschließend geprüft werden. Die Frist läuft bis zum 18. Oktober.\n\nWas muss zuerst passieren?",
+        "ar": "Die Krankenkasse bittet um einen fehlenden Nachweis. Ohne diesen könne der Antrag nicht abschließend geprüft werden. Die Frist läuft bis zum 18. Oktober.\n\nWas muss zuerst passieren?",
+        "en": "Die Krankenkasse bittet um einen fehlenden Nachweis. Ohne diesen könne der Antrag nicht abschließend geprüft werden. Die Frist läuft bis zum 18. Oktober.\n\nWas muss zuerst passieren?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Der Nachweis muss eingereicht werden.",
+            "ar": "Der Nachweis muss eingereicht werden.",
+            "en": "Der Nachweis muss eingereicht werden."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Der Antrag wird automatisch genehmigt.",
+            "ar": "Der Antrag wird automatisch genehmigt.",
+            "en": "Der Antrag wird automatisch genehmigt."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Die Frist entfällt.",
+            "ar": "Die Frist entfällt.",
+            "en": "Die Frist entfällt."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l01_act05",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Kommentar behauptet, eine neue Verkehrsregel habe Staus vollständig beseitigt. Der verlinkte Bericht zeigt jedoch nur Daten für zwei Wochen und nennt mehrere mögliche Einflussfaktoren.\n\nWas ist problematisch?",
+        "ar": "Ein Kommentar behauptet, eine neue Verkehrsregel habe Staus vollständig beseitigt. Der verlinkte Bericht zeigt jedoch nur Daten für zwei Wochen und nennt mehrere mögliche Einflussfaktoren.\n\nWas ist problematisch?",
+        "en": "Ein Kommentar behauptet, eine neue Verkehrsregel habe Staus vollständig beseitigt. Der verlinkte Bericht zeigt jedoch nur Daten für zwei Wochen und nennt mehrere mögliche Einflussfaktoren.\n\nWas ist problematisch?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Die Behauptung ist stärker als die Datenlage.",
+            "ar": "Die Behauptung ist stärker als die Datenlage.",
+            "en": "Die Behauptung ist stärker als die Datenlage."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Der Bericht enthält zu viele Seiten.",
+            "ar": "Der Bericht enthält zu viele Seiten.",
+            "en": "Der Bericht enthält zu viele Seiten."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Es gibt keine Daten.",
+            "ar": "Es gibt keine Daten.",
+            "en": "Es gibt keine Daten."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Nachdem wir die Unterlagen geprüft hatten, haben wir den Termin auf nächste Woche verschoben.",
+        "ar": "Nachdem wir die Unterlagen geprüft hatten, haben wir den Termin auf nächste Woche verschoben.",
+        "en": "Nachdem wir die Unterlagen geprüft hatten, haben wir den Termin auf nächste Woche verschoben."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Prüfung zuerst, Verschiebung danach",
+            "ar": "Prüfung zuerst, Verschiebung danach",
+            "en": "Prüfung zuerst, Verschiebung danach"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Verschiebung zuerst",
+            "ar": "Verschiebung zuerst",
+            "en": "Verschiebung zuerst"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Termin wurde abgesagt",
+            "ar": "Termin wurde abgesagt",
+            "en": "Termin wurde abgesagt"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Antrag wurde gestern bearbeitet, aber der Bescheid wird erst morgen verschickt.",
+        "ar": "Der Antrag wurde gestern bearbeitet, aber der Bescheid wird erst morgen verschickt.",
+        "en": "Der Antrag wurde gestern bearbeitet, aber der Bescheid wird erst morgen verschickt."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Bearbeitung gestern, Versand morgen",
+            "ar": "Bearbeitung gestern, Versand morgen",
+            "en": "Bearbeitung gestern, Versand morgen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "beides gestern",
+            "ar": "beides gestern",
+            "en": "beides gestern"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "noch keine Bearbeitung",
+            "ar": "noch keine Bearbeitung",
+            "en": "noch keine Bearbeitung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l01_act08",
+      "type": "listening_choice",
+      "text": {
+        "de": "An Ihrer Stelle würde ich zunächst schriftlich nachfragen und die Frist erwähnen.",
+        "ar": "An Ihrer Stelle würde ich zunächst schriftlich nachfragen und die Frist erwähnen.",
+        "en": "An Ihrer Stelle würde ich zunächst schriftlich nachfragen und die Frist erwähnen."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Rat: schriftlich nachfragen",
+            "ar": "Rat: schriftlich nachfragen",
+            "en": "Rat: schriftlich nachfragen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sofort kündigen",
+            "ar": "sofort kündigen",
+            "en": "sofort kündigen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nichts tun",
+            "ar": "nichts tun",
+            "en": "nichts tun"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Nachdem ich die Unterlagen eingereicht hatte, erhielt ich eine Bestätigung.",
+        "ar": "Nachdem ich die Unterlagen eingereicht hatte, erhielt ich eine Bestätigung.",
+        "en": "Nachdem ich die Unterlagen eingereicht hatte, erhielt ich eine Bestätigung."
+      },
+      "acceptedAnswers": [
+        "Nachdem ich die Unterlagen eingereicht hatte, erhielt ich eine Bestätigung."
+      ]
+    },
+    {
+      "id": "b1_u15_l01_act10",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Der Vorschlag, dem wir gestern zugestimmt haben, soll nächste Woche umgesetzt werden.",
+        "ar": "Der Vorschlag, dem wir gestern zugestimmt haben, soll nächste Woche umgesetzt werden.",
+        "en": "Der Vorschlag, dem wir gestern zugestimmt haben, soll nächste Woche umgesetzt werden."
+      },
+      "acceptedAnswers": [
+        "Der Vorschlag, dem wir gestern zugestimmt haben, soll nächste Woche umgesetzt werden."
+      ]
+    },
+    {
+      "id": "b1_u15_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Hörstrategie",
+        "ar": "استراتيجية الاستماع",
+        "en": "Listening strategy"
+      },
+      "body": {
+        "de": "Erster Durchgang: Gesamtsinn. Zweiter Durchgang: Schlüsselwörter, Zahlen, Negation und Kontrast. Erst danach Antwort prüfen.",
+        "ar": "الجولة الأولى: المعنى العام. الثانية: الكلمات المفتاحية والأرقام والنفي والتعارض. ثم تحقق من الإجابة.",
+        "en": "First pass: overall meaning. Second pass: keywords, numbers, negation and contrast. Only then check the answer."
+      }
+    },
+    {
+      "id": "b1_u15_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Lesen/Hören abgeschlossen",
+        "ar": "اكتمل قسم القراءة/الاستماع",
+        "en": "Reading/listening complete"
+      },
+      "canDo": [
+        "B1_EXAM_READING_LISTENING"
+      ]
+    }
+  ]
+}

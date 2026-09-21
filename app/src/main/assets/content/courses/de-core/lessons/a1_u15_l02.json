@@ -1,0 +1,203 @@
+{
+  "id": "a1_u15_l02",
+  "unitId": "de-core-a1-u15",
+  "title": {
+    "de": "Prüfungstraining: Schreiben & Sprechen",
+    "ar": "تدريب امتحان: الكتابة والكلام",
+    "en": "Exam training: Writing & Speaking"
+  },
+  "canDo": [
+    "A1_EXAM_WRITING_SPEAKING"
+  ],
+  "activities": [
+    {
+      "id": "a1_u15_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben & Sprechen — produktive Prüfung",
+        "ar": "الكتابة والكلام — اختبار إنتاجي",
+        "en": "Writing & Speaking — productive exam"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "a1_u15_l02_act02",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie 30–50 Wörter an einen Freund: Sie können heute nicht kommen. Nennen Sie Grund, neuen Termin und Gruß.",
+        "ar": "اكتب 30–50 كلمة لصديق: لا تستطيع الحضور اليوم. اذكر السبب وموعدًا جديدًا والتحية.",
+        "en": "Write 30–50 words to a friend: you cannot come today. Give a reason, a new time and a closing."
+      },
+      "minWords": 30,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "a1_u15_l02_act03",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie eine kurze Nachricht an die Apotheke oder Praxis: Was brauchen Sie und wann können Sie kommen?",
+        "ar": "اكتب رسالة قصيرة للصيدلية أو العيادة: ماذا تحتاج ومتى يمكنك الحضور؟",
+        "en": "Write a short message to a pharmacy or practice: what do you need and when can you come?"
+      },
+      "minWords": 30,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "a1_u15_l02_act04",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Stellen Sie sich vor: Name, Herkunft, Wohnort, Arbeit/Lernen und ein Hobby.",
+        "ar": "عرّف بنفسك: الاسم، الأصل، مكان السكن، العمل/الدراسة وهواية.",
+        "en": "Introduce yourself: name, origin, where you live, work/study and one hobby."
+      },
+      "minSeconds": 30,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "a1_u15_l02_act05",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Planen Sie mündlich einen Termin: Tag, Uhrzeit, Ort und Alternative, falls es nicht klappt.",
+        "ar": "خطط شفهيًا لموعد: اليوم والوقت والمكان وبديل إن لم يناسب.",
+        "en": "Plan an appointment aloud: day, time, place and an alternative if it does not work."
+      },
+      "minSeconds": 30,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "a1_u15_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} aus Syrien.",
+        "ar": "Ich {answer} aus Syrien.",
+        "en": "Ich {answer} aus Syrien."
+      },
+      "acceptedAnswers": [
+        "komme"
+      ]
+    },
+    {
+      "id": "a1_u15_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir treffen uns {answer} acht Uhr.",
+        "ar": "Wir treffen uns {answer} acht Uhr.",
+        "en": "Wir treffen uns {answer} acht Uhr."
+      },
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "a1_u15_l02_act08",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Bitte geben Sie mir die Rechnung.",
+        "ar": "Bitte geben Sie mir die Rechnung.",
+        "en": "Bitte geben Sie mir die Rechnung."
+      },
+      "acceptedAnswers": [
+        "Bitte geben Sie mir die Rechnung."
+      ]
+    },
+    {
+      "id": "a1_u15_l02_act09",
+      "type": "text_intro",
+      "title": {
+        "de": "Selbstkorrektur",
+        "ar": "التصحيح الذاتي",
+        "en": "Self-correction"
+      },
+      "body": {
+        "de": "Schreiben: zuerst Inhalt, dann Struktur, dann Sprache prüfen. Sprechen: nach einer Aufnahme genau einen Schwerpunkt verbessern und erneut aufnehmen.",
+        "ar": "في الكتابة: راجع المحتوى ثم البنية ثم اللغة. في الكلام: بعد التسجيل اختر جانبًا واحدًا لتحسينه ثم سجّل من جديد.",
+        "en": "Writing: check content first, then structure, then language. Speaking: after one take, improve exactly one focus and record again."
+      }
+    },
+    {
+      "id": "a1_u15_l02_act10",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Schreiben/Sprechen abgeschlossen",
+        "ar": "اكتمل قسم الكتابة/الكلام",
+        "en": "Writing/speaking complete"
+      },
+      "canDo": [
+        "A1_EXAM_WRITING_SPEAKING"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "id": "a2_u15_l04",
+  "unitId": "de-core-a2-u15",
+  "title": {
+    "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+    "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+    "en": "Full simulation: Reading · Listening · Writing · Speaking"
+  },
+  "canDo": [
+    "A2_EXAM_FULL_MOCK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u15_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Full Mock — vier Fertigkeiten",
+        "ar": "محاكاة كاملة — المهارات الأربع",
+        "en": "Full mock — four skills"
+      },
+      "body": {
+        "de": "Originale SPREVA-Simulation mit Lesen, Hören, Schreiben und Sprechen. Arbeiten Sie möglichst ohne Zurückspringen und notieren Sie Unsicherheiten erst nach dem ersten Durchgang.",
+        "ar": "محاكاة أصلية من SPREVA تشمل القراءة والاستماع والكتابة والكلام. حاول عدم الرجوع للخلف وسجّل نقاط الشك بعد الجولة الأولى.",
+        "en": "Original SPREVA simulation covering reading, listening, writing and speaking. Work without going back where possible and note uncertainty only after the first pass."
+      }
+    },
+    {
+      "id": "a2_u15_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Lampe steht {answer} dem Tisch.",
+        "ar": "Die Lampe steht {answer} dem Tisch.",
+        "en": "Die Lampe steht {answer} dem Tisch."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich interessiere mich {answer} Technik.",
+        "ar": "Ich interessiere mich {answer} Technik.",
+        "en": "Ich interessiere mich {answer} Technik."
+      },
+      "acceptedAnswers": [
+        "für"
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist die Frau, {answer} hier arbeitet.",
+        "ar": "Das ist die Frau, {answer} hier arbeitet.",
+        "en": "Das ist die Frau, {answer} hier arbeitet."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich suche einen {answer} Arbeitsplatz.",
+        "ar": "Ich suche einen {answer} Arbeitsplatz.",
+        "en": "Ich suche einen {answer} Arbeitsplatz."
+      },
+      "acceptedAnswers": [
+        "ruhigen"
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte mich über den Service {answer}.",
+        "ar": "Ich möchte mich über den Service {answer}.",
+        "en": "Ich möchte mich über den Service {answer}."
+      },
+      "acceptedAnswers": [
+        "beschweren"
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Zug hat zwanzig Minuten {answer}.",
+        "ar": "Der Zug hat zwanzig Minuten {answer}.",
+        "en": "Der Zug hat zwanzig Minuten {answer}."
+      },
+      "acceptedAnswers": [
+        "Verspätung"
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?",
+        "ar": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?",
+        "en": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Es gibt zeitweise kein warmes Wasser.",
+            "ar": "Es gibt zeitweise kein warmes Wasser.",
+            "en": "Es gibt zeitweise kein warmes Wasser."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Die Miete steigt.",
+            "ar": "Die Miete steigt.",
+            "en": "Die Miete steigt."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Das Haus ist geschlossen.",
+            "ar": "Das Haus ist geschlossen.",
+            "en": "Das Haus ist geschlossen."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?",
+        "ar": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?",
+        "en": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Früher kommen und Lebenslauf mitbringen.",
+            "ar": "Früher kommen und Lebenslauf mitbringen.",
+            "en": "Früher kommen und Lebenslauf mitbringen."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Später kommen.",
+            "ar": "Später kommen.",
+            "en": "Später kommen."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Nur anrufen.",
+            "ar": "Nur anrufen.",
+            "en": "Nur anrufen."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Der Regionalzug fällt aus. Reisende nach Köln können den Bus vor dem Bahnhof nehmen; Fahrkarten bleiben gültig.\n\nWas gilt für die Fahrkarte?",
+        "ar": "Der Regionalzug fällt aus. Reisende nach Köln können den Bus vor dem Bahnhof nehmen; Fahrkarten bleiben gültig.\n\nWas gilt für die Fahrkarte?",
+        "en": "Der Regionalzug fällt aus. Reisende nach Köln können den Bus vor dem Bahnhof nehmen; Fahrkarten bleiben gültig.\n\nWas gilt für die Fahrkarte?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Sie bleibt gültig.",
+            "ar": "Sie bleibt gültig.",
+            "en": "Sie bleibt gültig."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Man muss eine neue kaufen.",
+            "ar": "Man muss eine neue kaufen.",
+            "en": "Man muss eine neue kaufen."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Sie gilt nur morgen.",
+            "ar": "Sie gilt nur morgen.",
+            "en": "Sie gilt nur morgen."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Mira schreibt, dass sie die Wohnung gut findet, obwohl die Küche klein ist. Besonders gefällt ihr der ruhige Balkon.\n\nWas gefällt Mira besonders?",
+        "ar": "Mira schreibt, dass sie die Wohnung gut findet, obwohl die Küche klein ist. Besonders gefällt ihr der ruhige Balkon.\n\nWas gefällt Mira besonders?",
+        "en": "Mira schreibt, dass sie die Wohnung gut findet, obwohl die Küche klein ist. Besonders gefällt ihr der ruhige Balkon.\n\nWas gefällt Mira besonders?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der Balkon",
+            "ar": "der Balkon",
+            "en": "der Balkon"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "die große Küche",
+            "ar": "die große Küche",
+            "en": "die große Küche"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "die laute Straße",
+            "ar": "die laute Straße",
+            "en": "die laute Straße"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Als ich in Berlin wohnte, bin ich jeden Tag mit der U-Bahn gefahren.",
+        "ar": "Als ich in Berlin wohnte, bin ich jeden Tag mit der U-Bahn gefahren.",
+        "en": "Als ich in Berlin wohnte, bin ich jeden Tag mit der U-Bahn gefahren."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "früher täglich U-Bahn",
+            "ar": "früher täglich U-Bahn",
+            "en": "früher täglich U-Bahn"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "morgen Bus",
+            "ar": "morgen Bus",
+            "en": "morgen Bus"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nie öffentliche Verkehrsmittel",
+            "ar": "nie öffentliche Verkehrsmittel",
+            "en": "nie öffentliche Verkehrsmittel"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l04_act13",
+      "type": "listening_choice",
+      "text": {
+        "de": "Bitte stellen Sie die Kisten ins Schlafzimmer; die kleinen Kisten bleiben im Flur.",
+        "ar": "Bitte stellen Sie die Kisten ins Schlafzimmer; die kleinen Kisten bleiben im Flur.",
+        "en": "Bitte stellen Sie die Kisten ins Schlafzimmer; die kleinen Kisten bleiben im Flur."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "große/andere Kisten ins Schlafzimmer",
+            "ar": "große/andere Kisten ins Schlafzimmer",
+            "en": "große/andere Kisten ins Schlafzimmer"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "alle Kisten in den Flur",
+            "ar": "alle Kisten in den Flur",
+            "en": "alle Kisten in den Flur"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Kisten auf den Balkon",
+            "ar": "Kisten auf den Balkon",
+            "en": "Kisten auf den Balkon"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l04_act14",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an.",
+        "ar": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an.",
+        "en": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an."
+      },
+      "acceptedAnswers": [
+        "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an."
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act15",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie 60–80 Wörter an Ihre Hausverwaltung: Problem, seit wann, Auswirkung und gewünschter Reparaturtermin.",
+        "ar": "اكتب 60–80 كلمة لإدارة السكن: المشكلة، منذ متى، أثرها وموعد الإصلاح المطلوب.",
+        "en": "Write 60–80 words to your property management: problem, since when, effect and requested repair time."
+      },
+      "minWords": 60,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act16",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Erzählen Sie von einem Problem in Wohnung oder Reise und erklären Sie, was Sie danach gemacht haben.",
+        "ar": "تحدث عن مشكلة في السكن أو السفر واشرح ما فعلته بعدها.",
+        "en": "Talk about a housing or travel problem and explain what you did afterwards."
+      },
+      "minSeconds": 45,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "a2_u15_l04_act17",
+      "type": "text_intro",
+      "title": {
+        "de": "Auswertung nach dem Mock",
+        "ar": "التقييم بعد المحاكاة",
+        "en": "Post-mock review"
+      },
+      "body": {
+        "de": "Trennen Sie Fehler nach Fertigkeit: Verstehen, Grammatik, Wortschatz, Aufgabenbezug, Kohärenz oder Sprechfluss. Planen Sie für die zwei häufigsten Kategorien gezielte Wiederholung.",
+        "ar": "صنّف الأخطاء حسب المهارة: الفهم، النحو، المفردات، الالتزام بالمهمة، الترابط أو طلاقة الكلام. خطط لمراجعة مركزة للفئتين الأكثر تكرارًا.",
+        "en": "Classify errors by skill: comprehension, grammar, vocabulary, task fulfilment, coherence or speaking flow. Plan targeted review for the two most frequent categories."
+      }
+    },
+    {
+      "id": "a2_u15_l04_act18",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Full Mock abgeschlossen",
+        "ar": "اكتملت المحاكاة الكاملة",
+        "en": "Full mock complete"
+      },
+      "canDo": [
+        "A2_EXAM_FULL_MOCK"
+      ]
+    }
+  ]
+}

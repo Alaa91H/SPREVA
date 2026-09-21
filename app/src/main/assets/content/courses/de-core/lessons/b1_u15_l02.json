@@ -1,0 +1,203 @@
+{
+  "id": "b1_u15_l02",
+  "unitId": "de-core-b1-u15",
+  "title": {
+    "de": "Prüfungstraining: Schreiben & Sprechen",
+    "ar": "تدريب امتحان: الكتابة والكلام",
+    "en": "Exam training: Writing & Speaking"
+  },
+  "canDo": [
+    "B1_EXAM_WRITING_SPEAKING"
+  ],
+  "activities": [
+    {
+      "id": "b1_u15_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben & Sprechen — produktive Prüfung",
+        "ar": "الكتابة والكلام — اختبار إنتاجي",
+        "en": "Writing & Speaking — productive exam"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "b1_u15_l02_act02",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie 100–130 Wörter an eine Behörde oder Firma: Sachverhalt, Chronologie, Nachweis, konkrete Bitte und angemessene Frist.",
+        "ar": "اكتب 100–130 كلمة إلى جهة رسمية أو شركة: الوقائع، التسلسل الزمني، الإثبات، الطلب المحدد والمهلة المناسبة.",
+        "en": "Write 100–130 words to an authority or company: facts, chronology, evidence, specific request and reasonable deadline."
+      },
+      "minWords": 100,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "b1_u15_l02_act03",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie einen argumentativen Beitrag: These, zwei Gründe, Gegenargument, Beispiel und Schluss.",
+        "ar": "اكتب نصًا حجاجيًا: أطروحة، سببان، حجة مضادة، مثال وخلاصة.",
+        "en": "Write an argumentative post: claim, two reasons, counterargument, example and conclusion."
+      },
+      "minWords": 100,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "b1_u15_l02_act04",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Halten Sie etwa eine Minute Stellung zu Homeoffice, öffentlichem Verkehr oder sozialen Medien: Position, Gründe, Gegenargument, Schluss.",
+        "ar": "قدّم موقفًا لنحو دقيقة حول العمل من المنزل أو النقل العام أو وسائل التواصل: موقف، أسباب، حجة مضادة، خلاصة.",
+        "en": "Speak for about a minute on home office, public transport or social media: position, reasons, counterargument, conclusion."
+      },
+      "minSeconds": 60,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "b1_u15_l02_act05",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Simulieren Sie ein Gespräch mit einer Behörde: erklären Sie den Vorgang, nennen Sie Frist/Nachweis und stellen Sie zwei Rückfragen.",
+        "ar": "حاكِ محادثة مع دائرة رسمية: اشرح الإجراء، اذكر المهلة/الإثبات واطرح سؤالين.",
+        "en": "Simulate a conversation with an authority: explain the case, mention deadline/evidence and ask two questions."
+      },
+      "minSeconds": 60,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "b1_u15_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nachdem ich angekommen {answer}, begann das Gespräch.",
+        "ar": "Nachdem ich angekommen {answer}, begann das Gespräch.",
+        "en": "Nachdem ich angekommen {answer}, begann das Gespräch."
+      },
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "b1_u15_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag {answer} gestern geprüft.",
+        "ar": "Der Antrag {answer} gestern geprüft.",
+        "en": "Der Antrag {answer} gestern geprüft."
+      },
+      "acceptedAnswers": [
+        "wurde"
+      ]
+    },
+    {
+      "id": "b1_u15_l02_act08",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Obwohl die Quelle glaubwürdig wirkt, sollte man die Daten prüfen.",
+        "ar": "Obwohl die Quelle glaubwürdig wirkt, sollte man die Daten prüfen.",
+        "en": "Obwohl die Quelle glaubwürdig wirkt, sollte man die Daten prüfen."
+      },
+      "acceptedAnswers": [
+        "Obwohl die Quelle glaubwürdig wirkt, sollte man die Daten prüfen."
+      ]
+    },
+    {
+      "id": "b1_u15_l02_act09",
+      "type": "text_intro",
+      "title": {
+        "de": "Selbstkorrektur",
+        "ar": "التصحيح الذاتي",
+        "en": "Self-correction"
+      },
+      "body": {
+        "de": "Schreiben: zuerst Inhalt, dann Struktur, dann Sprache prüfen. Sprechen: nach einer Aufnahme genau einen Schwerpunkt verbessern und erneut aufnehmen.",
+        "ar": "في الكتابة: راجع المحتوى ثم البنية ثم اللغة. في الكلام: بعد التسجيل اختر جانبًا واحدًا لتحسينه ثم سجّل من جديد.",
+        "en": "Writing: check content first, then structure, then language. Speaking: after one take, improve exactly one focus and record again."
+      }
+    },
+    {
+      "id": "b1_u15_l02_act10",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Schreiben/Sprechen abgeschlossen",
+        "ar": "اكتمل قسم الكتابة/الكلام",
+        "en": "Writing/speaking complete"
+      },
+      "canDo": [
+        "B1_EXAM_WRITING_SPEAKING"
+      ]
+    }
+  ]
+}

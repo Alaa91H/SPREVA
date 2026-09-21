@@ -1,0 +1,361 @@
+{
+  "id": "b1_u15_l03",
+  "unitId": "de-core-b1-u15",
+  "title": {
+    "de": "Prüfungs-Mastery: gemischte Aufgaben",
+    "ar": "إتقان الامتحان: مهام مختلطة",
+    "en": "Exam mastery: mixed tasks"
+  },
+  "canDo": [
+    "B1_EXAM_MIXED_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b1_u15_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mixed Mastery — ohne Themenhinweis",
+        "ar": "إتقان مختلط — دون تلميح بالموضوع",
+        "en": "Mixed mastery — no topic cue"
+      },
+      "body": {
+        "de": "Lösen Sie die Aufgaben gemischt. Entscheiden Sie selbst, welche Grammatik-, Hör- oder Kommunikationsstrategie gebraucht wird.",
+        "ar": "حل المهام مختلطة وحدد بنفسك قاعدة النحو أو استراتيجية الاستماع أو التواصل المطلوبة.",
+        "en": "Solve the mixed tasks and decide which grammar, listening or communication strategy is needed."
+      }
+    },
+    {
+      "id": "b1_u15_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nachdem ich angekommen {answer}, begann das Gespräch.",
+        "ar": "Nachdem ich angekommen {answer}, begann das Gespräch.",
+        "en": "Nachdem ich angekommen {answer}, begann das Gespräch."
+      },
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag {answer} gestern geprüft.",
+        "ar": "Der Antrag {answer} gestern geprüft.",
+        "en": "Der Antrag {answer} gestern geprüft."
+      },
+      "acceptedAnswers": [
+        "wurde"
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich mehr Zeit hätte, {answer} ich früher kommen.",
+        "ar": "Wenn ich mehr Zeit hätte, {answer} ich früher kommen.",
+        "en": "Wenn ich mehr Zeit hätte, {answer} ich früher kommen."
+      },
+      "acceptedAnswers": [
+        "würde"
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist der Kollege, mit {answer} ich spreche.",
+        "ar": "Das ist der Kollege, mit {answer} ich spreche.",
+        "en": "Das ist der Kollege, mit {answer} ich spreche."
+      },
+      "acceptedAnswers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich lerne, um die Prüfung zu {answer}.",
+        "ar": "Ich lerne, um die Prüfung zu {answer}.",
+        "en": "Ich lerne, um die Prüfung zu {answer}."
+      },
+      "acceptedAnswers": [
+        "bestehen"
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich warte {answer} eine Antwort.",
+        "ar": "Ich warte {answer} eine Antwort.",
+        "en": "Ich warte {answer} eine Antwort."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Die Stadtbibliothek verlängert ab Oktober ihre Öffnungszeiten. Gleichzeitig werden zwei kleinere Filialen wegen Renovierung für sechs Wochen geschlossen. Online-Ausleihe und Rückgabeautomaten bleiben verfügbar.\n\nWelche Aussage stimmt?",
+        "ar": "Die Stadtbibliothek verlängert ab Oktober ihre Öffnungszeiten. Gleichzeitig werden zwei kleinere Filialen wegen Renovierung für sechs Wochen geschlossen. Online-Ausleihe und Rückgabeautomaten bleiben verfügbar.\n\nWelche Aussage stimmt?",
+        "en": "Die Stadtbibliothek verlängert ab Oktober ihre Öffnungszeiten. Gleichzeitig werden zwei kleinere Filialen wegen Renovierung für sechs Wochen geschlossen. Online-Ausleihe und Rückgabeautomaten bleiben verfügbar.\n\nWelche Aussage stimmt?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Ein Teil des Angebots bleibt trotz Schließungen verfügbar.",
+            "ar": "Ein Teil des Angebots bleibt trotz Schließungen verfügbar.",
+            "en": "Ein Teil des Angebots bleibt trotz Schließungen verfügbar."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Alle Bibliotheken schließen dauerhaft.",
+            "ar": "Alle Bibliotheken schließen dauerhaft.",
+            "en": "Alle Bibliotheken schließen dauerhaft."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Die Online-Ausleihe endet.",
+            "ar": "Die Online-Ausleihe endet.",
+            "en": "Die Online-Ausleihe endet."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Unternehmen führt zwei Homeoffice-Tage pro Woche ein. Die Regel gilt zunächst sechs Monate und wird danach ausgewertet. Teams dürfen gemeinsame Präsenztage festlegen.\n\nWas ist noch nicht endgültig?",
+        "ar": "Ein Unternehmen führt zwei Homeoffice-Tage pro Woche ein. Die Regel gilt zunächst sechs Monate und wird danach ausgewertet. Teams dürfen gemeinsame Präsenztage festlegen.\n\nWas ist noch nicht endgültig?",
+        "en": "Ein Unternehmen führt zwei Homeoffice-Tage pro Woche ein. Die Regel gilt zunächst sechs Monate und wird danach ausgewertet. Teams dürfen gemeinsame Präsenztage festlegen.\n\nWas ist noch nicht endgültig?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Ob die Regel nach sechs Monaten bleibt.",
+            "ar": "Ob die Regel nach sechs Monaten bleibt.",
+            "en": "Ob die Regel nach sechs Monaten bleibt."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Ob es Teams gibt.",
+            "ar": "Ob es Teams gibt.",
+            "en": "Ob es Teams gibt."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Ob Mitarbeiter arbeiten.",
+            "ar": "Ob Mitarbeiter arbeiten.",
+            "en": "Ob Mitarbeiter arbeiten."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Nachdem wir die Unterlagen geprüft hatten, haben wir den Termin auf nächste Woche verschoben.",
+        "ar": "Nachdem wir die Unterlagen geprüft hatten, haben wir den Termin auf nächste Woche verschoben.",
+        "en": "Nachdem wir die Unterlagen geprüft hatten, haben wir den Termin auf nächste Woche verschoben."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Prüfung zuerst, Verschiebung danach",
+            "ar": "Prüfung zuerst, Verschiebung danach",
+            "en": "Prüfung zuerst, Verschiebung danach"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Verschiebung zuerst",
+            "ar": "Verschiebung zuerst",
+            "en": "Verschiebung zuerst"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Termin wurde abgesagt",
+            "ar": "Termin wurde abgesagt",
+            "en": "Termin wurde abgesagt"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Antrag wurde gestern bearbeitet, aber der Bescheid wird erst morgen verschickt.",
+        "ar": "Der Antrag wurde gestern bearbeitet, aber der Bescheid wird erst morgen verschickt.",
+        "en": "Der Antrag wurde gestern bearbeitet, aber der Bescheid wird erst morgen verschickt."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Bearbeitung gestern, Versand morgen",
+            "ar": "Bearbeitung gestern, Versand morgen",
+            "en": "Bearbeitung gestern, Versand morgen"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "beides gestern",
+            "ar": "beides gestern",
+            "en": "beides gestern"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "noch keine Bearbeitung",
+            "ar": "noch keine Bearbeitung",
+            "en": "noch keine Bearbeitung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u15_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Nachdem ich die Unterlagen eingereicht hatte, erhielt ich eine Bestätigung.",
+        "ar": "Nachdem ich die Unterlagen eingereicht hatte, erhielt ich eine Bestätigung.",
+        "en": "Nachdem ich die Unterlagen eingereicht hatte, erhielt ich eine Bestätigung."
+      },
+      "acceptedAnswers": [
+        "Nachdem ich die Unterlagen eingereicht hatte, erhielt ich eine Bestätigung."
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act13",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie eine kurze Zusammenfassung eines Problems am Arbeitsplatz und schlagen Sie zwei Lösungen vor.",
+        "ar": "اكتب ملخصًا قصيرًا لمشكلة في العمل واقترح حلين.",
+        "en": "Write a short summary of a workplace problem and propose two solutions."
+      },
+      "minWords": 100,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Moderieren Sie kurz ein Teamproblem: Problem paraphrasieren, Vorschlag, Einwand, Kompromiss und Aufgabe festhalten.",
+        "ar": "أدر باختصار مشكلة فريق: أعد صياغة المشكلة، اقترح، اعرض اعتراضًا، توصل لتسوية وثبّت المهمة.",
+        "en": "Briefly facilitate a team problem: paraphrase, propose, raise an objection, reach a compromise and record the task."
+      },
+      "minSeconds": 60,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "b1_u15_l03_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerjournal",
+        "ar": "سجل الأخطاء",
+        "en": "Error journal"
+      },
+      "body": {
+        "de": "Notieren Sie nur Fehler, die wiederkehren: Form, Ursache, Korrekturregel und ein neues eigenes Beispiel. Wiederholen Sie diese Aufgaben später erneut.",
+        "ar": "دوّن فقط الأخطاء المتكررة: الصيغة والسبب وقاعدة التصحيح ومثال جديد. أعد هذه المهام لاحقًا.",
+        "en": "Record only recurring errors: form, cause, repair rule and a new example. Repeat these tasks later."
+      }
+    },
+    {
+      "id": "b1_u15_l03_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mixed Mastery abgeschlossen",
+        "ar": "اكتمل الإتقان المختلط",
+        "en": "Mixed mastery complete"
+      },
+      "canDo": [
+        "B1_EXAM_MIXED_MASTERY"
+      ]
+    }
+  ]
+}

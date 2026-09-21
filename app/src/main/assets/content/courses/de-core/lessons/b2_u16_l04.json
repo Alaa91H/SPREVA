@@ -1,0 +1,443 @@
+{
+  "id": "b2_u16_l04",
+  "unitId": "de-core-b2-u16",
+  "title": {
+    "de": "Vollsimulation: Lesen · Hören · Schreiben · Sprechen",
+    "ar": "محاكاة كاملة: قراءة · استماع · كتابة · كلام",
+    "en": "Full simulation: Reading · Listening · Writing · Speaking"
+  },
+  "canDo": [
+    "B2_EXAM_FULL_MOCK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u16_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Full Mock — vier Fertigkeiten",
+        "ar": "محاكاة كاملة — المهارات الأربع",
+        "en": "Full mock — four skills"
+      },
+      "body": {
+        "de": "Originale SPREVA-Simulation mit Lesen, Hören, Schreiben und Sprechen. Arbeiten Sie möglichst ohne Zurückspringen und notieren Sie Unsicherheiten erst nach dem ersten Durchgang.",
+        "ar": "محاكاة أصلية من SPREVA تشمل القراءة والاستماع والكتابة والكلام. حاول عدم الرجوع للخلف وسجّل نقاط الشك بعد الجولة الأولى.",
+        "en": "Original SPREVA simulation covering reading, listening, writing and speaking. Work without going back where possible and note uncertainty only after the first pass."
+      }
+    },
+    {
+      "id": "b2_u16_l04_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Studie {answer} einen Zusammenhang nahe.",
+        "ar": "Die Studie {answer} einen Zusammenhang nahe.",
+        "en": "Die Studie {answer} einen Zusammenhang nahe."
+      },
+      "acceptedAnswers": [
+        "legt"
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Anteil ist um fünf Prozentpunkte {answer}.",
+        "ar": "Der Anteil ist um fünf Prozentpunkte {answer}.",
+        "en": "Der Anteil ist um fünf Prozentpunkte {answer}."
+      },
+      "acceptedAnswers": [
+        "gestiegen"
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unter der {answer}, dass …, könnten wir zustimmen.",
+        "ar": "Unter der {answer}, dass …, könnten wir zustimmen.",
+        "en": "Unter der {answer}, dass …, könnten wir zustimmen."
+      },
+      "acceptedAnswers": [
+        "Bedingung"
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Aussage wird nicht durch Daten {answer}.",
+        "ar": "Die Aussage wird nicht durch Daten {answer}.",
+        "en": "Die Aussage wird nicht durch Daten {answer}."
+      },
+      "acceptedAnswers": [
+        "belegt"
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beschäftigte sind {answer}, Änderungen mitzuteilen.",
+        "ar": "Beschäftigte sind {answer}, Änderungen mitzuteilen.",
+        "en": "Beschäftigte sind {answer}, Änderungen mitzuteilen."
+      },
+      "acceptedAnswers": [
+        "verpflichtet"
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Langfristig könnten Vorteile {answer}.",
+        "ar": "Langfristig könnten Vorteile {answer}.",
+        "en": "Langfristig könnten Vorteile {answer}."
+      },
+      "acceptedAnswers": [
+        "entstehen"
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?",
+        "ar": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?",
+        "en": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen.",
+            "ar": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen.",
+            "en": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Es gab keine Teilnehmenden.",
+            "ar": "Es gab keine Teilnehmenden.",
+            "en": "Es gab keine Teilnehmenden."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zufriedenheit wurde nicht erwähnt.",
+            "ar": "Zufriedenheit wurde nicht erwähnt.",
+            "en": "Zufriedenheit wurde nicht erwähnt."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?",
+        "ar": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?",
+        "en": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Gesamtkosten und Kündigungsfrist",
+            "ar": "Gesamtkosten und Kündigungsfrist",
+            "en": "Gesamtkosten und Kündigungsfrist"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nur auf den Einstiegspreis",
+            "ar": "nur auf den Einstiegspreis",
+            "en": "nur auf den Einstiegspreis"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nur auf das Logo",
+            "ar": "nur auf das Logo",
+            "en": "nur auf das Logo"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Bericht beschreibt einen Rückgang des Autoverkehrs nach Einführung neuer Buslinien. Gleichzeitig wurden Parkgebühren erhöht und mehrere Baustellen beendet.\n\nWarum ist eine eindeutige Ursache schwierig?",
+        "ar": "Ein Bericht beschreibt einen Rückgang des Autoverkehrs nach Einführung neuer Buslinien. Gleichzeitig wurden Parkgebühren erhöht und mehrere Baustellen beendet.\n\nWarum ist eine eindeutige Ursache schwierig?",
+        "en": "Ein Bericht beschreibt einen Rückgang des Autoverkehrs nach Einführung neuer Buslinien. Gleichzeitig wurden Parkgebühren erhöht und mehrere Baustellen beendet.\n\nWarum ist eine eindeutige Ursache schwierig?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Mehrere Faktoren änderten sich gleichzeitig.",
+            "ar": "Mehrere Faktoren änderten sich gleichzeitig.",
+            "en": "Mehrere Faktoren änderten sich gleichzeitig."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Es gibt gar keinen Rückgang.",
+            "ar": "Es gibt gar keinen Rückgang.",
+            "en": "Es gibt gar keinen Rückgang."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Buslinien haben nie Einfluss.",
+            "ar": "Buslinien haben nie Einfluss.",
+            "en": "Buslinien haben nie Einfluss."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Eine Plattform erklärt, ein Algorithmus reduziere Fehlinformationen deutlich. Die veröffentlichte Auswertung nennt jedoch keine Vergleichsgruppe und beschreibt die Auswahl der geprüften Beiträge nur teilweise.\n\nWelche Information fehlt für eine stärkere Bewertung?",
+        "ar": "Eine Plattform erklärt, ein Algorithmus reduziere Fehlinformationen deutlich. Die veröffentlichte Auswertung nennt jedoch keine Vergleichsgruppe und beschreibt die Auswahl der geprüften Beiträge nur teilweise.\n\nWelche Information fehlt für eine stärkere Bewertung?",
+        "en": "Eine Plattform erklärt, ein Algorithmus reduziere Fehlinformationen deutlich. Die veröffentlichte Auswertung nennt jedoch keine Vergleichsgruppe und beschreibt die Auswahl der geprüften Beiträge nur teilweise.\n\nWelche Information fehlt für eine stärkere Bewertung?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "transparentes Vergleichs- und Auswahlverfahren",
+            "ar": "transparentes Vergleichs- und Auswahlverfahren",
+            "en": "transparentes Vergleichs- und Auswahlverfahren"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "mehr Werbung",
+            "ar": "mehr Werbung",
+            "en": "mehr Werbung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "eine längere Überschrift",
+            "ar": "eine längere Überschrift",
+            "en": "eine längere Überschrift"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l04_act12",
+      "type": "listening_choice",
+      "text": {
+        "de": "Laut Bericht sei die Nachfrage gestiegen, während die Produktionskosten weitgehend stabil geblieben seien.",
+        "ar": "Laut Bericht sei die Nachfrage gestiegen, während die Produktionskosten weitgehend stabil geblieben seien.",
+        "en": "Laut Bericht sei die Nachfrage gestiegen, während die Produktionskosten weitgehend stabil geblieben seien."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Nachfrage höher, Kosten stabil",
+            "ar": "Nachfrage höher, Kosten stabil",
+            "en": "Nachfrage höher, Kosten stabil"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Kosten höher, Nachfrage stabil",
+            "ar": "Kosten höher, Nachfrage stabil",
+            "en": "Kosten höher, Nachfrage stabil"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "beides gesunken",
+            "ar": "beides gesunken",
+            "en": "beides gesunken"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l04_act13",
+      "type": "listening_choice",
+      "text": {
+        "de": "Kurzfristig entstehen zusätzliche Ausgaben; langfristig könnten sich jedoch Einsparungen ergeben.",
+        "ar": "Kurzfristig entstehen zusätzliche Ausgaben; langfristig könnten sich jedoch Einsparungen ergeben.",
+        "en": "Kurzfristig entstehen zusätzliche Ausgaben; langfristig könnten sich jedoch Einsparungen ergeben."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kosten jetzt, mögliche Einsparungen später",
+            "ar": "Kosten jetzt, mögliche Einsparungen später",
+            "en": "Kosten jetzt, mögliche Einsparungen später"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sofortige Einsparungen",
+            "ar": "sofortige Einsparungen",
+            "en": "sofortige Einsparungen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Kosten",
+            "ar": "keine Kosten",
+            "en": "keine Kosten"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l04_act14",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Sofern die Voraussetzungen erfüllt sind, kann der Antrag weiterbearbeitet werden.",
+        "ar": "Sofern die Voraussetzungen erfüllt sind, kann der Antrag weiterbearbeitet werden.",
+        "en": "Sofern die Voraussetzungen erfüllt sind, kann der Antrag weiterbearbeitet werden."
+      },
+      "acceptedAnswers": [
+        "Sofern die Voraussetzungen erfüllt sind, kann der Antrag weiterbearbeitet werden."
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act15",
+      "type": "free_write",
+      "prompt": {
+        "de": "Schreiben Sie 160–200 Wörter als professionelles Memo: Ausgangslage, zwei Befunde, Einschränkung, Handlungsoptionen und begründete Empfehlung.",
+        "ar": "اكتب 160–200 كلمة كمذكرة مهنية: الوضع، نتيجتان، قيد، خيارات عمل وتوصية معللة.",
+        "en": "Write 160–200 words as a professional memo: context, two findings, limitation, options and a reasoned recommendation."
+      },
+      "minWords": 160,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act16",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Präsentieren Sie 90 Sekunden lang eine Datentendenz: Beobachtung, Vergleich, vorsichtige Interpretation und Limitation.",
+        "ar": "اعرض لمدة 90 ثانية اتجاهًا في بيانات: ملاحظة، مقارنة، تفسير حذر وقيد.",
+        "en": "Present a data trend for 90 seconds: observation, comparison, cautious interpretation and limitation."
+      },
+      "minSeconds": 90,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "b2_u16_l04_act17",
+      "type": "text_intro",
+      "title": {
+        "de": "Auswertung nach dem Mock",
+        "ar": "التقييم بعد المحاكاة",
+        "en": "Post-mock review"
+      },
+      "body": {
+        "de": "Trennen Sie Fehler nach Fertigkeit: Verstehen, Grammatik, Wortschatz, Aufgabenbezug, Kohärenz oder Sprechfluss. Planen Sie für die zwei häufigsten Kategorien gezielte Wiederholung.",
+        "ar": "صنّف الأخطاء حسب المهارة: الفهم، النحو، المفردات، الالتزام بالمهمة، الترابط أو طلاقة الكلام. خطط لمراجعة مركزة للفئتين الأكثر تكرارًا.",
+        "en": "Classify errors by skill: comprehension, grammar, vocabulary, task fulfilment, coherence or speaking flow. Plan targeted review for the two most frequent categories."
+      }
+    },
+    {
+      "id": "b2_u16_l04_act18",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Full Mock abgeschlossen",
+        "ar": "اكتملت المحاكاة الكاملة",
+        "en": "Full mock complete"
+      },
+      "canDo": [
+        "B2_EXAM_FULL_MOCK"
+      ]
+    }
+  ]
+}

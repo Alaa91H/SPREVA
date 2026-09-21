@@ -1,0 +1,361 @@
+{
+  "id": "a1_u15_l03",
+  "unitId": "de-core-a1-u15",
+  "title": {
+    "de": "Prüfungs-Mastery: gemischte Aufgaben",
+    "ar": "إتقان الامتحان: مهام مختلطة",
+    "en": "Exam mastery: mixed tasks"
+  },
+  "canDo": [
+    "A1_EXAM_MIXED_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u15_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mixed Mastery — ohne Themenhinweis",
+        "ar": "إتقان مختلط — دون تلميح بالموضوع",
+        "en": "Mixed mastery — no topic cue"
+      },
+      "body": {
+        "de": "Lösen Sie die Aufgaben gemischt. Entscheiden Sie selbst, welche Grammatik-, Hör- oder Kommunikationsstrategie gebraucht wird.",
+        "ar": "حل المهام مختلطة وحدد بنفسك قاعدة النحو أو استراتيجية الاستماع أو التواصل المطلوبة.",
+        "en": "Solve the mixed tasks and decide which grammar, listening or communication strategy is needed."
+      }
+    },
+    {
+      "id": "a1_u15_l03_act02",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} aus Syrien.",
+        "ar": "Ich {answer} aus Syrien.",
+        "en": "Ich {answer} aus Syrien."
+      },
+      "acceptedAnswers": [
+        "komme"
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir treffen uns {answer} acht Uhr.",
+        "ar": "Wir treffen uns {answer} acht Uhr.",
+        "en": "Wir treffen uns {answer} acht Uhr."
+      },
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe {answer} Bruder.",
+        "ar": "Ich habe {answer} Bruder.",
+        "en": "Ich habe {answer} Bruder."
+      },
+      "acceptedAnswers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Apotheke ist {answer} der Bank.",
+        "ar": "Die Apotheke ist {answer} der Bank.",
+        "en": "Die Apotheke ist {answer} der Bank."
+      },
+      "acceptedAnswers": [
+        "neben"
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} heute arbeiten.",
+        "ar": "Ich {answer} heute arbeiten.",
+        "en": "Ich {answer} heute arbeiten."
+      },
+      "acceptedAnswers": [
+        "muss"
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Danach {answer} ich meine Mutter an.",
+        "ar": "Danach {answer} ich meine Mutter an.",
+        "en": "Danach {answer} ich meine Mutter an."
+      },
+      "acceptedAnswers": [
+        "rufe"
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act08",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?",
+        "ar": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?",
+        "en": "Am Samstag öffnet die Bibliothek um 10 Uhr und schließt um 14 Uhr. Am Sonntag ist sie geschlossen.\n\nWann kann man am Samstag in die Bibliothek gehen?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "10–14 Uhr",
+            "ar": "10–14 Uhr",
+            "en": "10–14 Uhr"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "8–12 Uhr",
+            "ar": "8–12 Uhr",
+            "en": "8–12 Uhr"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Sonntag",
+            "ar": "Sonntag",
+            "en": "Sonntag"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?",
+        "ar": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?",
+        "en": "Nina schreibt: „Ich komme heute nicht zum Kurs, weil ich Fieber habe. Morgen rufe ich an.“\n\nWarum kommt Nina nicht?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Sie ist krank.",
+            "ar": "Sie ist krank.",
+            "en": "Sie ist krank."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Sie arbeitet.",
+            "ar": "Sie arbeitet.",
+            "en": "Sie arbeitet."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Sie reist.",
+            "ar": "Sie reist.",
+            "en": "Sie reist."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l03_act10",
+      "type": "listening_choice",
+      "text": {
+        "de": "Der Termin ist am Dienstag um halb neun.",
+        "ar": "Der Termin ist am Dienstag um halb neun.",
+        "en": "Der Termin ist am Dienstag um halb neun."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Dienstag 8:30",
+            "ar": "Dienstag 8:30",
+            "en": "Dienstag 8:30"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Dienstag 9:30",
+            "ar": "Dienstag 9:30",
+            "en": "Dienstag 9:30"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Mittwoch 8:30",
+            "ar": "Mittwoch 8:30",
+            "en": "Mittwoch 8:30"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l03_act11",
+      "type": "listening_choice",
+      "text": {
+        "de": "Gehen Sie geradeaus und biegen Sie an der zweiten Kreuzung links ab.",
+        "ar": "Gehen Sie geradeaus und biegen Sie an der zweiten Kreuzung links ab.",
+        "en": "Gehen Sie geradeaus und biegen Sie an der zweiten Kreuzung links ab."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zweite Kreuzung links",
+            "ar": "zweite Kreuzung links",
+            "en": "zweite Kreuzung links"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "erste Kreuzung rechts",
+            "ar": "erste Kreuzung rechts",
+            "en": "erste Kreuzung rechts"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "am Bahnhof geradeaus",
+            "ar": "am Bahnhof geradeaus",
+            "en": "am Bahnhof geradeaus"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u15_l03_act12",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Mein Termin ist am Donnerstag um neun Uhr.",
+        "ar": "Mein Termin ist am Donnerstag um neun Uhr.",
+        "en": "Mein Termin ist am Donnerstag um neun Uhr."
+      },
+      "acceptedAnswers": [
+        "Mein Termin ist am Donnerstag um neun Uhr."
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act13",
+      "type": "free_write",
+      "prompt": {
+        "de": "Beschreiben Sie Ihren Alltag in mindestens 30 Wörtern: Morgen, Arbeit/Lernen, Essen und Abend.",
+        "ar": "صف يومك بما لا يقل عن 30 كلمة: الصباح، العمل/التعلم، الطعام والمساء.",
+        "en": "Describe your daily routine in at least 30 words: morning, work/study, food and evening."
+      },
+      "minWords": 30,
+      "checklist": [
+        {
+          "de": "Aufgabe vollständig beantwortet",
+          "ar": "تمت الإجابة عن جميع عناصر المهمة",
+          "en": "All task points answered"
+        },
+        {
+          "de": "klare Absätze und Verknüpfungen",
+          "ar": "فقرات وروابط واضحة",
+          "en": "Clear paragraphs and linking"
+        },
+        {
+          "de": "Verbposition, Kasus und Endungen geprüft",
+          "ar": "تمت مراجعة موقع الفعل والحالات والنهايات",
+          "en": "Word order, case and endings checked"
+        }
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act14",
+      "type": "speaking_prompt",
+      "prompt": {
+        "de": "Sprechen Sie über einen Einkauf: Was brauchen Sie, was kostet es und wie bezahlen Sie?",
+        "ar": "تحدث عن عملية شراء: ماذا تحتاج وكم السعر وكيف ستدفع؟",
+        "en": "Talk about a purchase: what do you need, what does it cost and how will you pay?"
+      },
+      "minSeconds": 30,
+      "checklist": [
+        {
+          "de": "Aufgabe strukturiert beantwortet",
+          "ar": "تمت الإجابة بشكل منظم",
+          "en": "Structured response"
+        },
+        {
+          "de": "Beispiele oder Begründungen verwendet",
+          "ar": "تم استخدام أمثلة أو تعليلات",
+          "en": "Examples or reasons used"
+        },
+        {
+          "de": "Selbstkorrektur ohne Abbruch möglich",
+          "ar": "تصحيح ذاتي دون توقف كامل",
+          "en": "Able to self-correct without stopping"
+        }
+      ]
+    },
+    {
+      "id": "a1_u15_l03_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerjournal",
+        "ar": "سجل الأخطاء",
+        "en": "Error journal"
+      },
+      "body": {
+        "de": "Notieren Sie nur Fehler, die wiederkehren: Form, Ursache, Korrekturregel und ein neues eigenes Beispiel. Wiederholen Sie diese Aufgaben später erneut.",
+        "ar": "دوّن فقط الأخطاء المتكررة: الصيغة والسبب وقاعدة التصحيح ومثال جديد. أعد هذه المهام لاحقًا.",
+        "en": "Record only recurring errors: form, cause, repair rule and a new example. Repeat these tasks later."
+      }
+    },
+    {
+      "id": "a1_u15_l03_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mixed Mastery abgeschlossen",
+        "ar": "اكتمل الإتقان المختلط",
+        "en": "Mixed mastery complete"
+      },
+      "canDo": [
+        "A1_EXAM_MIXED_MASTERY"
+      ]
+    }
+  ]
+}

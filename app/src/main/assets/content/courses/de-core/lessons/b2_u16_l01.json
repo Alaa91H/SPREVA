@@ -1,0 +1,375 @@
+{
+  "id": "b2_u16_l01",
+  "unitId": "de-core-b2-u16",
+  "title": {
+    "de": "Prüfungstraining: Lesen & Hören",
+    "ar": "تدريب امتحان: القراءة والاستماع",
+    "en": "Exam training: Reading & Listening"
+  },
+  "canDo": [
+    "B2_EXAM_READING_LISTENING"
+  ],
+  "activities": [
+    {
+      "id": "b2_u16_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Lesen & Hören — Prüfungsmodus",
+        "ar": "القراءة والاستماع — وضع الامتحان",
+        "en": "Reading & Listening — exam mode"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "b2_u16_l01_act02",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?",
+        "ar": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?",
+        "en": "Eine Studie berichtet, dass Beschäftigte mit flexiblen Arbeitszeiten im Durchschnitt zufriedener seien. Die Autoren weisen jedoch darauf hin, dass die Teilnehmenden nicht zufällig ausgewählt wurden und andere Faktoren die Ergebnisse beeinflusst haben könnten.\n\nWelche Einschränkung wird genannt?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen.",
+            "ar": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen.",
+            "en": "Die Stichprobe erlaubt nur begrenzte Schlussfolgerungen."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Es gab keine Teilnehmenden.",
+            "ar": "Es gab keine Teilnehmenden.",
+            "en": "Es gab keine Teilnehmenden."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zufriedenheit wurde nicht erwähnt.",
+            "ar": "Zufriedenheit wurde nicht erwähnt.",
+            "en": "Zufriedenheit wurde nicht erwähnt."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l01_act03",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?",
+        "ar": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?",
+        "en": "Ein Energieanbieter wirbt mit einem niedrigen Einstiegspreis. Im Vertrag steigen die Gebühren nach sechs Monaten, außerdem verlängert sich die Laufzeit automatisch, sofern nicht rechtzeitig gekündigt wird.\n\nWorauf sollte man besonders achten?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Gesamtkosten und Kündigungsfrist",
+            "ar": "Gesamtkosten und Kündigungsfrist",
+            "en": "Gesamtkosten und Kündigungsfrist"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nur auf den Einstiegspreis",
+            "ar": "nur auf den Einstiegspreis",
+            "en": "nur auf den Einstiegspreis"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "nur auf das Logo",
+            "ar": "nur auf das Logo",
+            "en": "nur auf das Logo"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Ein Bericht beschreibt einen Rückgang des Autoverkehrs nach Einführung neuer Buslinien. Gleichzeitig wurden Parkgebühren erhöht und mehrere Baustellen beendet.\n\nWarum ist eine eindeutige Ursache schwierig?",
+        "ar": "Ein Bericht beschreibt einen Rückgang des Autoverkehrs nach Einführung neuer Buslinien. Gleichzeitig wurden Parkgebühren erhöht und mehrere Baustellen beendet.\n\nWarum ist eine eindeutige Ursache schwierig?",
+        "en": "Ein Bericht beschreibt einen Rückgang des Autoverkehrs nach Einführung neuer Buslinien. Gleichzeitig wurden Parkgebühren erhöht und mehrere Baustellen beendet.\n\nWarum ist eine eindeutige Ursache schwierig?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Mehrere Faktoren änderten sich gleichzeitig.",
+            "ar": "Mehrere Faktoren änderten sich gleichzeitig.",
+            "en": "Mehrere Faktoren änderten sich gleichzeitig."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Es gibt gar keinen Rückgang.",
+            "ar": "Es gibt gar keinen Rückgang.",
+            "en": "Es gibt gar keinen Rückgang."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Buslinien haben nie Einfluss.",
+            "ar": "Buslinien haben nie Einfluss.",
+            "en": "Buslinien haben nie Einfluss."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l01_act05",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Eine Plattform erklärt, ein Algorithmus reduziere Fehlinformationen deutlich. Die veröffentlichte Auswertung nennt jedoch keine Vergleichsgruppe und beschreibt die Auswahl der geprüften Beiträge nur teilweise.\n\nWelche Information fehlt für eine stärkere Bewertung?",
+        "ar": "Eine Plattform erklärt, ein Algorithmus reduziere Fehlinformationen deutlich. Die veröffentlichte Auswertung nennt jedoch keine Vergleichsgruppe und beschreibt die Auswahl der geprüften Beiträge nur teilweise.\n\nWelche Information fehlt für eine stärkere Bewertung?",
+        "en": "Eine Plattform erklärt, ein Algorithmus reduziere Fehlinformationen deutlich. Die veröffentlichte Auswertung nennt jedoch keine Vergleichsgruppe und beschreibt die Auswahl der geprüften Beiträge nur teilweise.\n\nWelche Information fehlt für eine stärkere Bewertung?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "transparentes Vergleichs- und Auswahlverfahren",
+            "ar": "transparentes Vergleichs- und Auswahlverfahren",
+            "en": "transparentes Vergleichs- und Auswahlverfahren"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "mehr Werbung",
+            "ar": "mehr Werbung",
+            "en": "mehr Werbung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "eine längere Überschrift",
+            "ar": "eine längere Überschrift",
+            "en": "eine längere Überschrift"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Sofern die Finanzierung gesichert ist, kann das Projekt im Januar beginnen; andernfalls müsste der Zeitplan angepasst werden.",
+        "ar": "Sofern die Finanzierung gesichert ist, kann das Projekt im Januar beginnen; andernfalls müsste der Zeitplan angepasst werden.",
+        "en": "Sofern die Finanzierung gesichert ist, kann das Projekt im Januar beginnen; andernfalls müsste der Zeitplan angepasst werden."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Start hängt von Finanzierung ab",
+            "ar": "Start hängt von Finanzierung ab",
+            "en": "Start hängt von Finanzierung ab"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Start ist sicher",
+            "ar": "Start ist sicher",
+            "en": "Start ist sicher"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Projekt wurde beendet",
+            "ar": "Projekt wurde beendet",
+            "en": "Projekt wurde beendet"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Die Daten legen einen Zusammenhang nahe, belegen aber keine direkte Ursache.",
+        "ar": "Die Daten legen einen Zusammenhang nahe, belegen aber keine direkte Ursache.",
+        "en": "Die Daten legen einen Zusammenhang nahe, belegen aber keine direkte Ursache."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Zusammenhang ohne sicheren Kausalnachweis",
+            "ar": "Zusammenhang ohne sicheren Kausalnachweis",
+            "en": "Zusammenhang ohne sicheren Kausalnachweis"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Ursache bewiesen",
+            "ar": "Ursache bewiesen",
+            "en": "Ursache bewiesen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "keine Daten",
+            "ar": "keine Daten",
+            "en": "keine Daten"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l01_act08",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich könnte dem Vorschlag zustimmen, wenn die Laufzeit verkürzt und die Kündigungsfrist angepasst würde.",
+        "ar": "Ich könnte dem Vorschlag zustimmen, wenn die Laufzeit verkürzt und die Kündigungsfrist angepasst würde.",
+        "en": "Ich könnte dem Vorschlag zustimmen, wenn die Laufzeit verkürzt und die Kündigungsfrist angepasst würde."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bedingte Zustimmung",
+            "ar": "bedingte Zustimmung",
+            "en": "bedingte Zustimmung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bedingungslose Zustimmung",
+            "ar": "bedingungslose Zustimmung",
+            "en": "bedingungslose Zustimmung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "vollständige Ablehnung",
+            "ar": "vollständige Ablehnung",
+            "en": "vollständige Ablehnung"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u16_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Die Ergebnisse legen einen Zusammenhang nahe, belegen jedoch keine eindeutige Kausalität.",
+        "ar": "Die Ergebnisse legen einen Zusammenhang nahe, belegen jedoch keine eindeutige Kausalität.",
+        "en": "Die Ergebnisse legen einen Zusammenhang nahe, belegen jedoch keine eindeutige Kausalität."
+      },
+      "acceptedAnswers": [
+        "Die Ergebnisse legen einen Zusammenhang nahe, belegen jedoch keine eindeutige Kausalität."
+      ]
+    },
+    {
+      "id": "b2_u16_l01_act10",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Sofern die Voraussetzungen erfüllt sind, kann der Antrag weiterbearbeitet werden.",
+        "ar": "Sofern die Voraussetzungen erfüllt sind, kann der Antrag weiterbearbeitet werden.",
+        "en": "Sofern die Voraussetzungen erfüllt sind, kann der Antrag weiterbearbeitet werden."
+      },
+      "acceptedAnswers": [
+        "Sofern die Voraussetzungen erfüllt sind, kann der Antrag weiterbearbeitet werden."
+      ]
+    },
+    {
+      "id": "b2_u16_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Hörstrategie",
+        "ar": "استراتيجية الاستماع",
+        "en": "Listening strategy"
+      },
+      "body": {
+        "de": "Erster Durchgang: Gesamtsinn. Zweiter Durchgang: Schlüsselwörter, Zahlen, Negation und Kontrast. Erst danach Antwort prüfen.",
+        "ar": "الجولة الأولى: المعنى العام. الثانية: الكلمات المفتاحية والأرقام والنفي والتعارض. ثم تحقق من الإجابة.",
+        "en": "First pass: overall meaning. Second pass: keywords, numbers, negation and contrast. Only then check the answer."
+      }
+    },
+    {
+      "id": "b2_u16_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Lesen/Hören abgeschlossen",
+        "ar": "اكتمل قسم القراءة/الاستماع",
+        "en": "Reading/listening complete"
+      },
+      "canDo": [
+        "B2_EXAM_READING_LISTENING"
+      ]
+    }
+  ]
+}

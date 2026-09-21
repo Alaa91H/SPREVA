@@ -1,0 +1,375 @@
+{
+  "id": "a2_u15_l01",
+  "unitId": "de-core-a2-u15",
+  "title": {
+    "de": "Prüfungstraining: Lesen & Hören",
+    "ar": "تدريب امتحان: القراءة والاستماع",
+    "en": "Exam training: Reading & Listening"
+  },
+  "canDo": [
+    "A2_EXAM_READING_LISTENING"
+  ],
+  "activities": [
+    {
+      "id": "a2_u15_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Lesen & Hören — Prüfungsmodus",
+        "ar": "القراءة والاستماع — وضع الامتحان",
+        "en": "Reading & Listening — exam mode"
+      },
+      "body": {
+        "de": "SPREVA-Originaltraining. Dieses Material ist keine offizielle Prüfung und steht in keiner Verbindung zu Goethe-Institut oder telc.",
+        "ar": "تدريب أصلي من SPREVA. هذه المادة ليست امتحانًا رسميًا ولا تتبع Goethe-Institut أو telc.",
+        "en": "Original SPREVA practice. This is not an official exam and is not affiliated with Goethe-Institut or telc."
+      }
+    },
+    {
+      "id": "a2_u15_l01_act02",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?",
+        "ar": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?",
+        "en": "Hausverwaltung: Wegen Reparaturarbeiten gibt es am Mittwoch von 9 bis 13 Uhr kein warmes Wasser. Bei dringenden Fragen rufen Sie bitte die Nummer im Aushang an.\n\nWas passiert am Mittwoch?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Es gibt zeitweise kein warmes Wasser.",
+            "ar": "Es gibt zeitweise kein warmes Wasser.",
+            "en": "Es gibt zeitweise kein warmes Wasser."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Die Miete steigt.",
+            "ar": "Die Miete steigt.",
+            "en": "Die Miete steigt."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Das Haus ist geschlossen.",
+            "ar": "Das Haus ist geschlossen.",
+            "en": "Das Haus ist geschlossen."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l01_act03",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?",
+        "ar": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?",
+        "en": "Bewerbungsgespräch: Frau Keller bittet Herrn Amin, zehn Minuten früher zu kommen und seinen Lebenslauf mitzubringen.\n\nWas soll Herr Amin tun?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Früher kommen und Lebenslauf mitbringen.",
+            "ar": "Früher kommen und Lebenslauf mitbringen.",
+            "en": "Früher kommen und Lebenslauf mitbringen."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Später kommen.",
+            "ar": "Später kommen.",
+            "en": "Später kommen."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Nur anrufen.",
+            "ar": "Nur anrufen.",
+            "en": "Nur anrufen."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Der Regionalzug fällt aus. Reisende nach Köln können den Bus vor dem Bahnhof nehmen; Fahrkarten bleiben gültig.\n\nWas gilt für die Fahrkarte?",
+        "ar": "Der Regionalzug fällt aus. Reisende nach Köln können den Bus vor dem Bahnhof nehmen; Fahrkarten bleiben gültig.\n\nWas gilt für die Fahrkarte?",
+        "en": "Der Regionalzug fällt aus. Reisende nach Köln können den Bus vor dem Bahnhof nehmen; Fahrkarten bleiben gültig.\n\nWas gilt für die Fahrkarte?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Sie bleibt gültig.",
+            "ar": "Sie bleibt gültig.",
+            "en": "Sie bleibt gültig."
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Man muss eine neue kaufen.",
+            "ar": "Man muss eine neue kaufen.",
+            "en": "Man muss eine neue kaufen."
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Sie gilt nur morgen.",
+            "ar": "Sie gilt nur morgen.",
+            "en": "Sie gilt nur morgen."
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l01_act05",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Lesen Sie den Text und wählen Sie die passende Antwort.",
+        "ar": "اقرأ النص واختر الإجابة المناسبة.",
+        "en": "Read the text and choose the best answer."
+      },
+      "question": {
+        "de": "Mira schreibt, dass sie die Wohnung gut findet, obwohl die Küche klein ist. Besonders gefällt ihr der ruhige Balkon.\n\nWas gefällt Mira besonders?",
+        "ar": "Mira schreibt, dass sie die Wohnung gut findet, obwohl die Küche klein ist. Besonders gefällt ihr der ruhige Balkon.\n\nWas gefällt Mira besonders?",
+        "en": "Mira schreibt, dass sie die Wohnung gut findet, obwohl die Küche klein ist. Besonders gefällt ihr der ruhige Balkon.\n\nWas gefällt Mira besonders?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der Balkon",
+            "ar": "der Balkon",
+            "en": "der Balkon"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "die große Küche",
+            "ar": "die große Küche",
+            "en": "die große Küche"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "die laute Straße",
+            "ar": "die laute Straße",
+            "en": "die laute Straße"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l01_act06",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich habe gestern angerufen, weil die Heizung seit drei Tagen nicht funktioniert.",
+        "ar": "Ich habe gestern angerufen, weil die Heizung seit drei Tagen nicht funktioniert.",
+        "en": "Ich habe gestern angerufen, weil die Heizung seit drei Tagen nicht funktioniert."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Heizung seit drei Tagen kaputt",
+            "ar": "Heizung seit drei Tagen kaputt",
+            "en": "Heizung seit drei Tagen kaputt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Fenster seit gestern offen",
+            "ar": "Fenster seit gestern offen",
+            "en": "Fenster seit gestern offen"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Miete seit drei Monaten hoch",
+            "ar": "Miete seit drei Monaten hoch",
+            "en": "Miete seit drei Monaten hoch"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l01_act07",
+      "type": "listening_choice",
+      "text": {
+        "de": "Wenn der Zug pünktlich ist, kommen wir gegen halb sechs an.",
+        "ar": "Wenn der Zug pünktlich ist, kommen wir gegen halb sechs an.",
+        "en": "Wenn der Zug pünktlich ist, kommen wir gegen halb sechs an."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Ankunft etwa 17:30",
+            "ar": "Ankunft etwa 17:30",
+            "en": "Ankunft etwa 17:30"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Abfahrt 17:30",
+            "ar": "Abfahrt 17:30",
+            "en": "Abfahrt 17:30"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Ankunft 18:30",
+            "ar": "Ankunft 18:30",
+            "en": "Ankunft 18:30"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l01_act08",
+      "type": "listening_choice",
+      "text": {
+        "de": "Ich bewerbe mich um die Stelle, weil ich bereits zwei Jahre Erfahrung habe.",
+        "ar": "Ich bewerbe mich um die Stelle, weil ich bereits zwei Jahre Erfahrung habe.",
+        "en": "Ich bewerbe mich um die Stelle, weil ich bereits zwei Jahre Erfahrung habe."
+      },
+      "prompt": {
+        "de": "Hören Sie genau und wählen Sie die passende Aussage.",
+        "ar": "استمع بدقة واختر العبارة المناسبة.",
+        "en": "Listen carefully and choose the matching statement."
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Bewerbung mit zwei Jahren Erfahrung",
+            "ar": "Bewerbung mit zwei Jahren Erfahrung",
+            "en": "Bewerbung mit zwei Jahren Erfahrung"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "keine Erfahrung",
+            "ar": "keine Erfahrung",
+            "en": "keine Erfahrung"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Wohnungssuche",
+            "ar": "Wohnungssuche",
+            "en": "Wohnungssuche"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u15_l01_act09",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Ich habe den Schaden bereits gestern gemeldet.",
+        "ar": "Ich habe den Schaden bereits gestern gemeldet.",
+        "en": "Ich habe den Schaden bereits gestern gemeldet."
+      },
+      "acceptedAnswers": [
+        "Ich habe den Schaden bereits gestern gemeldet."
+      ]
+    },
+    {
+      "id": "a2_u15_l01_act10",
+      "type": "dictation",
+      "prompt": {
+        "de": "Diktat: hören Sie mehrmals und schreiben Sie den vollständigen Satz.",
+        "ar": "إملاء: استمع عدة مرات واكتب الجملة كاملة.",
+        "en": "Dictation: listen several times and write the full sentence."
+      },
+      "text": {
+        "de": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an.",
+        "ar": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an.",
+        "en": "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an."
+      },
+      "acceptedAnswers": [
+        "Wenn ich Zeit habe, rufe ich Sie am Nachmittag an."
+      ]
+    },
+    {
+      "id": "a2_u15_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Hörstrategie",
+        "ar": "استراتيجية الاستماع",
+        "en": "Listening strategy"
+      },
+      "body": {
+        "de": "Erster Durchgang: Gesamtsinn. Zweiter Durchgang: Schlüsselwörter, Zahlen, Negation und Kontrast. Erst danach Antwort prüfen.",
+        "ar": "الجولة الأولى: المعنى العام. الثانية: الكلمات المفتاحية والأرقام والنفي والتعارض. ثم تحقق من الإجابة.",
+        "en": "First pass: overall meaning. Second pass: keywords, numbers, negation and contrast. Only then check the answer."
+      }
+    },
+    {
+      "id": "a2_u15_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Lesen/Hören abgeschlossen",
+        "ar": "اكتمل قسم القراءة/الاستماع",
+        "en": "Reading/listening complete"
+      },
+      "canDo": [
+        "A2_EXAM_READING_LISTENING"
+      ]
+    }
+  ]
+}
