@@ -1533,6 +1533,437 @@
           ]
         }
       ]
+    },
+    {
+      "id": "de-core-c1",
+      "cefr": "C1",
+      "title": {
+        "de": "C1 — Akademische, professionelle & stilistische Meisterschaft",
+        "ar": "C1 — إتقان أكاديمي ومهني وأسلوبي",
+        "en": "C1 — Academic, professional & stylistic mastery"
+      },
+      "units": [
+        {
+          "id": "de-core-c1-u01",
+          "title": {
+            "de": "Informationsstruktur, Fokus & Satzrhythmus",
+            "ar": "بنية المعلومات والتركيز وإيقاع الجملة",
+            "en": "Information structure, focus & sentence rhythm"
+          },
+          "lessons": [
+            {
+              "id": "c1_u01_l01",
+              "title": {
+                "de": "Thema–Rhema, Vorfeldvariation, Nachfeld und gezielte Hervorhebung",
+                "ar": "الموضوع والمعلومة الجديدة وتغيير مقدمة الجملة والتوكيد",
+                "en": "Theme–rheme, prefield variation, postfield and deliberate emphasis"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u01_l02",
+              "title": {
+                "de": "Komplexe Aussagen adressatengerecht strukturieren",
+                "ar": "تنظيم الأفكار المعقدة بحسب المتلقي",
+                "en": "Structuring complex statements for the audience"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u02",
+          "title": {
+            "de": "Komplexe Subordination & Bedeutungsnuancen",
+            "ar": "الجمل التابعة المعقدة والفروق الدلالية",
+            "en": "Complex subordination & semantic nuance"
+          },
+          "lessons": [
+            {
+              "id": "c1_u02_l01",
+              "title": {
+                "de": "indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass",
+                "ar": "indem وinsofern وsofern وzumal وwohingegen وals dass وohne dass",
+                "en": "indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u02_l02",
+              "title": {
+                "de": "Logische Beziehungen präzise und ökonomisch ausdrücken",
+                "ar": "التعبير الدقيق والموجز عن العلاقات المنطقية",
+                "en": "Expressing logical relationships precisely and economically"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u03",
+          "title": {
+            "de": "Modale Feinabstufung & epistemische Distanz",
+            "ar": "تدرج الموقف واليقين والمسافة المعرفية",
+            "en": "Modal nuance & epistemic distance"
+          },
+          "lessons": [
+            {
+              "id": "c1_u03_l01",
+              "title": {
+                "de": "dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs",
+                "ar": "dürfte وmüsste وsollte وwohl وoffenbar وanscheinend وkaum وkeineswegs",
+                "en": "dürfte, müsste, sollte, wohl, offenbar, anscheinend, kaum, keineswegs"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u03_l02",
+              "title": {
+                "de": "Sicherheit, Vermutung und Zurückhaltung präzise markieren",
+                "ar": "تحديد درجات اليقين والاحتمال والتحفظ بدقة",
+                "en": "Marking certainty, inference and caution precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u04",
+          "title": {
+            "de": "Indirekte Rede, Quellen & Stimmenvielfalt",
+            "ar": "النقل غير المباشر وتعدد المصادر والأصوات",
+            "en": "Reported speech, sources & multiple voices"
+          },
+          "lessons": [
+            {
+              "id": "c1_u04_l01",
+              "title": {
+                "de": "Konjunktiv I/II, Quellenrahmen und mehrstufige Wiedergabe",
+                "ar": "Konjunktiv I/II وإطار المصدر والنقل متعدد المراحل",
+                "en": "Konjunktiv I/II, source framing and multi-layer reporting"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u04_l02",
+              "title": {
+                "de": "Mehrere Aussagen sauber voneinander und von der eigenen Position trennen",
+                "ar": "فصل أقوال متعددة عن بعضها وعن موقف الكاتب",
+                "en": "Separating multiple statements from one another and from your own stance"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u05",
+          "title": {
+            "de": "Nominalstil, Verdichtung & Rückübersetzung",
+            "ar": "الأسلوب الاسمي والتكثيف وإعادة الصياغة الفعلية",
+            "en": "Nominal style, compression & verbal expansion"
+          },
+          "lessons": [
+            {
+              "id": "c1_u05_l01",
+              "title": {
+                "de": "Komplexe Nominalketten analysieren und stilistisch umformen",
+                "ar": "تحليل السلاسل الاسمية المعقدة وإعادة صياغتها",
+                "en": "Analyzing complex noun chains and stylistic transformation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u05_l02",
+              "title": {
+                "de": "Akademische und administrative Texte präzise entschlüsseln und redigieren",
+                "ar": "فك وتحرير النصوص الأكاديمية والإدارية بدقة",
+                "en": "Decoding and editing academic/administrative texts precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u06",
+          "title": {
+            "de": "Kollokationen, Wortbildung & idiomatische Präzision",
+            "ar": "المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية",
+            "en": "Collocations, word formation & idiomatic precision"
+          },
+          "lessons": [
+            {
+              "id": "c1_u06_l01",
+              "title": {
+                "de": "Feste Wortverbindungen, Präfixe/Suffixe und Bedeutungsfelder",
+                "ar": "التراكيب الثابتة واللواحق/السوابق والحقول الدلالية",
+                "en": "Fixed combinations, affixes and semantic fields"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u06_l02",
+              "title": {
+                "de": "Wortschatz nicht nur breit, sondern treffsicher einsetzen",
+                "ar": "استخدام مفردات دقيقة لا واسعة فقط",
+                "en": "Using vocabulary precisely, not merely broadly"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u07",
+          "title": {
+            "de": "Akademisch zusammenfassen & synthetisieren",
+            "ar": "التلخيص والتركيب الأكاديمي",
+            "en": "Academic summarizing & synthesis"
+          },
+          "lessons": [
+            {
+              "id": "c1_u07_l01",
+              "title": {
+                "de": "Kernaussage, Paraphrase, Quellenintegration und Synthese",
+                "ar": "الفكرة المركزية وإعادة الصياغة ودمج المصادر والتركيب",
+                "en": "Main claim, paraphrase, source integration and synthesis"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u07_l02",
+              "title": {
+                "de": "Mehrere Texte zu einer eigenständigen, quellentreuen Darstellung verbinden",
+                "ar": "دمج عدة نصوص في عرض مستقل أمين للمصادر",
+                "en": "Combining multiple texts into an independent, source-faithful account"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u08",
+          "title": {
+            "de": "Berichte, Memos & Executive Summary",
+            "ar": "التقارير والمذكرات والملخص التنفيذي",
+            "en": "Reports, memos & executive summaries"
+          },
+          "lessons": [
+            {
+              "id": "c1_u08_l01",
+              "title": {
+                "de": "Adressatenorientierung, Befund–Bewertung–Empfehlung und prägnanter Stil",
+                "ar": "مراعاة المتلقي وبنية النتيجة–التقييم–التوصية والأسلوب الموجز",
+                "en": "Audience focus, finding–assessment–recommendation and concise style"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u08_l02",
+              "title": {
+                "de": "Komplexe Sachverhalte für Entscheider verdichten",
+                "ar": "تكثيف موضوعات معقدة لصناع القرار",
+                "en": "Condensing complex issues for decision-makers"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u09",
+          "title": {
+            "de": "Verhandeln, Moderieren & Führungskommunikation",
+            "ar": "التفاوض وإدارة النقاش والتواصل القيادي",
+            "en": "Negotiation, facilitation & leadership communication"
+          },
+          "lessons": [
+            {
+              "id": "c1_u09_l01",
+              "title": {
+                "de": "Reframing, Interessenklärung, Einwandbehandlung und verbindliche Vereinbarungen",
+                "ar": "إعادة التأطير وتوضيح المصالح ومعالجة الاعتراضات والاتفاقات الملزمة",
+                "en": "Reframing, interest clarification, handling objections and binding agreements"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u09_l02",
+              "title": {
+                "de": "Komplexe Gespräche lösungsorientiert steuern",
+                "ar": "إدارة الحوارات المعقدة باتجاه الحل",
+                "en": "Steering complex conversations toward solutions"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u10",
+          "title": {
+            "de": "Rhetorik, Framing & Diskursanalyse",
+            "ar": "البلاغة والتأطير وتحليل الخطاب",
+            "en": "Rhetoric, framing & discourse analysis"
+          },
+          "lessons": [
+            {
+              "id": "c1_u10_l01",
+              "title": {
+                "de": "Metaphern, Präsuppositionen, Euphemismen und argumentative Rahmung",
+                "ar": "الاستعارة والافتراضات المسبقة والتلطيف والتأطير الحجاجي",
+                "en": "Metaphors, presuppositions, euphemisms and argumentative framing"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u10_l02",
+              "title": {
+                "de": "Sprachliche Wirkung erkennen, ohne Inhalt und Wirkung zu verwechseln",
+                "ar": "تمييز أثر اللغة دون الخلط بين الأسلوب والحقائق",
+                "en": "Recognizing linguistic effects without confusing style and substance"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u11",
+          "title": {
+            "de": "Literarische Sprache & Stilmittel",
+            "ar": "اللغة الأدبية والأساليب البلاغية",
+            "en": "Literary language & stylistic devices"
+          },
+          "lessons": [
+            {
+              "id": "c1_u11_l01",
+              "title": {
+                "de": "Erzählperspektive, Metapher, Ironie, Ellipse und Registerwechsel",
+                "ar": "منظور السرد والاستعارة والسخرية والحذف وتغيير السجل",
+                "en": "Narrative perspective, metaphor, irony, ellipsis and register shift"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u11_l02",
+              "title": {
+                "de": "Anspruchsvolle literarische und essayistische Texte interpretieren",
+                "ar": "تفسير نصوص أدبية ومقالية متقدمة",
+                "en": "Interpreting advanced literary and essayistic texts"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u12",
+          "title": {
+            "de": "Gesellschaft, Ethik & differenzierte Debatte",
+            "ar": "المجتمع والأخلاق والنقاش المتوازن",
+            "en": "Society, ethics & nuanced debate"
+          },
+          "lessons": [
+            {
+              "id": "c1_u12_l01",
+              "title": {
+                "de": "Wertekonflikte, Perspektivübernahme und qualifizierte Bewertung",
+                "ar": "تعارض القيم وتبني المنظور والتقييم المشروط",
+                "en": "Value conflicts, perspective-taking and qualified evaluation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u12_l02",
+              "title": {
+                "de": "Komplexe normative Fragen fair und präzise diskutieren",
+                "ar": "مناقشة القضايا المعيارية المعقدة بعدل ودقة",
+                "en": "Discussing complex normative issues fairly and precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u13",
+          "title": {
+            "de": "Wissenschaft, Forschung & Methodenkritik",
+            "ar": "العلم والبحث ونقد المنهج",
+            "en": "Science, research & methodological critique"
+          },
+          "lessons": [
+            {
+              "id": "c1_u13_l01",
+              "title": {
+                "de": "Hypothesen, Operationalisierung, Korrelation, Kausalität und Limitationen",
+                "ar": "الفرضيات والتشغيل الإجرائي والارتباط والسببية والقيود",
+                "en": "Hypotheses, operationalization, correlation, causality and limitations"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u13_l02",
+              "title": {
+                "de": "Forschungsbefunde sprachlich präzise einordnen",
+                "ar": "تقييم نتائج البحث بدقة لغوية",
+                "en": "Interpreting research findings precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u14",
+          "title": {
+            "de": "Technologie, KI & verantwortungsvolle Kommunikation",
+            "ar": "التقنية والذكاء الاصطناعي والتواصل المسؤول",
+            "en": "Technology, AI & responsible communication"
+          },
+          "lessons": [
+            {
+              "id": "c1_u14_l01",
+              "title": {
+                "de": "Technische Erklärung, Unsicherheit, Datenschutz und Risikokommunikation",
+                "ar": "الشرح التقني وعدم اليقين وحماية البيانات والتواصل حول المخاطر",
+                "en": "Technical explanation, uncertainty, privacy and risk communication"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u14_l02",
+              "title": {
+                "de": "Technische Systeme verständlich und verantwortungsvoll erklären",
+                "ar": "شرح الأنظمة التقنية بمسؤولية ووضوح",
+                "en": "Explaining technical systems clearly and responsibly"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u15",
+          "title": {
+            "de": "Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur",
+            "ar": "التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي",
+            "en": "Editing, error diagnosis & stylistic self-correction"
+          },
+          "lessons": [
+            {
+              "id": "c1_u15_l01",
+              "title": {
+                "de": "Kohäsion, Referenz, Parallelität, Register, Grammatik und Präzisionsrevision",
+                "ar": "الترابط والإحالة والتوازي والسجل والنحو ومراجعة الدقة",
+                "en": "Cohesion, reference, parallelism, register, grammar and precision revision"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "c1_u15_l02",
+              "title": {
+                "de": "Eigene Texte systematisch auf C1-Niveau überarbeiten",
+                "ar": "مراجعة النصوص ذاتيًا بمنهجية على مستوى C1",
+                "en": "Systematically revising your own writing at C1"
+              },
+              "activityCount": 7
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,154 @@
+{
+  "id": "c1_u06_l01",
+  "unitId": "de-core-c1-u06",
+  "title": {
+    "de": "Feste Wortverbindungen, Präfixe/Suffixe und Bedeutungsfelder",
+    "ar": "التراكيب الثابتة واللواحق/السوابق والحقول الدلالية",
+    "en": "Fixed combinations, affixes and semantic fields"
+  },
+  "canDo": [
+    "C1_U06_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u06_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Feste Wortverbindungen, Präfixe/Suffixe und Bedeutungsfelder",
+        "ar": "التراكيب الثابتة واللواحق/السوابق والحقول الدلالية",
+        "en": "Fixed combinations, affixes and semantic fields"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Feste Wortverbindungen, Präfixe/Suffixe und Bedeutungsfelder\n\nSystematische Erklärung:\nFortgeschrittene Beherrschung zeigt sich in Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.\n\nReferenzbeispiele:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung.\n\nAuthentische Einsatzfelder:\nFachgespräch, Bericht, Bewerbung oder Prüfung: Wortwahl verfeinern, Wiederholungen vermeiden und typische Kombinationen statt wörtlicher Übersetzungen verwenden.\n\nDiagnostischer Hinweis:\nSynonyme sind selten vollständig austauschbar. Prüfe Kollokation, Register und typische Ergänzungen, bevor du ein vermeintlich „höheres“ Wort ersetzt.",
+        "ar": "هدف C1: التراكيب الثابتة واللواحق/السوابق والحقول الدلالية\n\nشرح منهجي عميق:\nيتجلى المستوى المتقدم في المتلازمات مثل eine Entscheidung treffen وMaßnahmen ergreifen. يساعد بناء الكلمات على الاستنتاج، لكن الاصطلاحات يجب تعلمها من أنماط حقيقية لأن ليس كل تركيب ممكن نحويًا شائعًا.\n\nأمثلة مرجعية:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung.\n\nمجالات استخدام واقعية:\nفي حوار متخصص أو تقرير أو تقديم وظيفة أو امتحان: تحسين اختيار الكلمات وتقليل التكرار واستخدام التراكيب الطبيعية بدل الترجمة الحرفية.\n\nملاحظة تشخيصية:\nالمترادفات نادرًا ما تكون قابلة للاستبدال بالكامل. افحص المتلازمة والسجل والمكملات المعتادة قبل استبدال كلمة بأخرى تبدو «أرقى».",
+        "en": "C1 competence goal: Fixed combinations, affixes and semantic fields\n\nSystematic explanation:\nAdvanced proficiency appears in collocations: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Word formation aids inference, but idiomaticity must be learned from real patterns; not every grammatically possible combination is conventional.\n\nReference examples:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung.\n\nAuthentic domains:\nProfessional discussion, report, application or exam: refine word choice, avoid repetition and use typical combinations instead of literal translations.\n\nDiagnostic note:\nSynonyms are rarely fully interchangeable. Check collocation, register and typical complements before replacing a word with a supposedly more advanced one."
+      }
+    },
+    {
+      "id": "c1_u06_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u06_l01_w1",
+          "german": "Maßnahmen ergreifen",
+          "translation": {
+            "de": "take measures",
+            "ar": "يتخذ إجراءات",
+            "en": "take measures"
+          }
+        },
+        {
+          "id": "c1_u06_l01_w2",
+          "german": "Zweifel äußern",
+          "translation": {
+            "de": "express doubts",
+            "ar": "يبدي شكوكًا",
+            "en": "express doubts"
+          }
+        },
+        {
+          "id": "c1_u06_l01_w3",
+          "german": "Verantwortung übernehmen",
+          "translation": {
+            "de": "take responsibility",
+            "ar": "يتحمل المسؤولية",
+            "en": "take responsibility"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u06_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFortgeschrittene Beherrschung zeigt sich in Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.\n\nBeispiele:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung.",
+        "ar": "المبدأ الأساسي:\nيتجلى المستوى المتقدم في المتلازمات مثل eine Entscheidung treffen وMaßnahmen ergreifen. يساعد بناء الكلمات على الاستنتاج، لكن الاصطلاحات يجب تعلمها من أنماط حقيقية لأن ليس كل تركيب ممكن نحويًا شائعًا.\n\nالأمثلة:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung.",
+        "en": "Core principle:\nAdvanced proficiency appears in collocations: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Word formation aids inference, but idiomaticity must be learned from real patterns; not every grammatically possible combination is conventional.\n\nExamples:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung."
+      }
+    },
+    {
+      "id": "c1_u06_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "Maßnahmen ergreifen",
+        "ar": "Maßnahmen ergreifen",
+        "en": "Maßnahmen ergreifen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "take measures",
+            "ar": "يتخذ إجراءات",
+            "en": "take measures"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "express doubts",
+            "ar": "يبدي شكوكًا",
+            "en": "express doubts"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "take responsibility",
+            "ar": "يتحمل المسؤولية",
+            "en": "take responsibility"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u06_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Leitung hat Maßnahmen {answer}.",
+        "ar": "Die Leitung hat Maßnahmen {answer}.",
+        "en": "Die Leitung hat Maßnahmen {answer}."
+      },
+      "acceptedAnswers": [
+        "ergriffen"
+      ]
+    },
+    {
+      "id": "c1_u06_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Kollokationen, Wortbildung & idiomatische Präzision“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Collocations, word formation & idiomatic precision”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u06_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U06_FOUNDATION"
+      ]
+    }
+  ]
+}

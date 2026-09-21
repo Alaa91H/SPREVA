@@ -1,0 +1,154 @@
+{
+  "id": "c1_u11_l01",
+  "unitId": "de-core-c1-u11",
+  "title": {
+    "de": "Erzählperspektive, Metapher, Ironie, Ellipse und Registerwechsel",
+    "ar": "منظور السرد والاستعارة والسخرية والحذف وتغيير السجل",
+    "en": "Narrative perspective, metaphor, irony, ellipsis and register shift"
+  },
+  "canDo": [
+    "C1_U11_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u11_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Erzählperspektive, Metapher, Ironie, Ellipse und Registerwechsel",
+        "ar": "منظور السرد والاستعارة والسخرية والحذف وتغيير السجل",
+        "en": "Narrative perspective, metaphor, irony, ellipsis and register shift"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Erzählperspektive, Metapher, Ironie, Ellipse und Registerwechsel\n\nSystematische Erklärung:\nLiterarische Interpretation verbindet Textbeobachtung und begründete Deutung. Stilmittel werden nicht nur benannt, sondern funktional erklärt: Was bewirken Perspektivwechsel, Ellipsen, Wiederholungen oder Metaphern in diesem Kontext? Ironie lässt sich selten an einem einzelnen Wort festmachen; Kontext, Diskrepanz und Ton sind entscheidend.\n\nReferenzbeispiele:\n• Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n• Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n• Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation.\n\nAuthentische Einsatzfelder:\nRoman, Kurzgeschichte, Essay, Feuilleton oder Rede: sprachliche Gestaltung beschreiben, Wirkung begründen und alternative Lesarten zulassen.\n\nDiagnostischer Hinweis:\nInterpretation nicht als unbelegte Behauptung formulieren. Textsignal + sprachliches Mittel + Wirkung + mögliche Deutung bilden eine belastbare Argumentationskette.",
+        "ar": "هدف C1: منظور السرد والاستعارة والسخرية والحذف وتغيير السجل\n\nشرح منهجي عميق:\nيربط التفسير الأدبي الملاحظة النصية بالتأويل المعلل. لا يكفي تسمية الأسلوب، بل يجب شرح وظيفته. السخرية لا تُستنتج من كلمة واحدة غالبًا؛ السياق والتناقض والنبرة حاسمة.\n\nأمثلة مرجعية:\n• Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n• Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n• Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation.\n\nمجالات استخدام واقعية:\nفي رواية أو قصة أو مقال أدبي أو خطاب: وصف الصياغة وتبرير أثرها وترك المجال لقراءات بديلة.\n\nملاحظة تشخيصية:\nلا تقدم التأويل كادعاء بلا دليل. ابنِ السلسلة: إشارة نصية + وسيلة لغوية + أثر + تأويل محتمل.",
+        "en": "C1 competence goal: Narrative perspective, metaphor, irony, ellipsis and register shift\n\nSystematic explanation:\nLiterary interpretation combines textual observation with reasoned interpretation. Devices should not merely be named but explained functionally: what do shifts of perspective, ellipses, repetition or metaphor achieve here? Irony rarely hinges on one word; context, discrepancy and tone matter.\n\nReference examples:\n• Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n• Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n• Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation.\n\nAuthentic domains:\nNovel, short story, essay, feuilleton or speech: describe linguistic design, justify effects and allow alternative readings.\n\nDiagnostic note:\nDo not present interpretation as an unsupported assertion. Build a chain: textual signal + device + effect + plausible interpretation."
+      }
+    },
+    {
+      "id": "c1_u11_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u11_l01_w1",
+          "german": "die Erzählperspektive",
+          "translation": {
+            "de": "narrative perspective",
+            "ar": "منظور السرد",
+            "en": "narrative perspective"
+          }
+        },
+        {
+          "id": "c1_u11_l01_w2",
+          "german": "die Ellipse",
+          "translation": {
+            "de": "ellipsis",
+            "ar": "الحذف",
+            "en": "ellipsis"
+          }
+        },
+        {
+          "id": "c1_u11_l01_w3",
+          "german": "die Ironie",
+          "translation": {
+            "de": "irony",
+            "ar": "السخرية",
+            "en": "irony"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u11_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nLiterarische Interpretation verbindet Textbeobachtung und begründete Deutung. Stilmittel werden nicht nur benannt, sondern funktional erklärt: Was bewirken Perspektivwechsel, Ellipsen, Wiederholungen oder Metaphern in diesem Kontext? Ironie lässt sich selten an einem einzelnen Wort festmachen; Kontext, Diskrepanz und Ton sind entscheidend.\n\nBeispiele:\n• Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n• Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n• Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation.",
+        "ar": "المبدأ الأساسي:\nيربط التفسير الأدبي الملاحظة النصية بالتأويل المعلل. لا يكفي تسمية الأسلوب، بل يجب شرح وظيفته. السخرية لا تُستنتج من كلمة واحدة غالبًا؛ السياق والتناقض والنبرة حاسمة.\n\nالأمثلة:\n• Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n• Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n• Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation.",
+        "en": "Core principle:\nLiterary interpretation combines textual observation with reasoned interpretation. Devices should not merely be named but explained functionally: what do shifts of perspective, ellipses, repetition or metaphor achieve here? Irony rarely hinges on one word; context, discrepancy and tone matter.\n\nExamples:\n• Die wiederholte Ellipse beschleunigt den Rhythmus und spiegelt die Unruhe der Figur.\n• Die Metapher eröffnet eine Lesart, in der die Stadt als lebendiger Organismus erscheint.\n• Die Ironie entsteht aus der Diskrepanz zwischen wörtlicher Aussage und Situation."
+      }
+    },
+    {
+      "id": "c1_u11_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "die Erzählperspektive",
+        "ar": "die Erzählperspektive",
+        "en": "die Erzählperspektive"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "narrative perspective",
+            "ar": "منظور السرد",
+            "en": "narrative perspective"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ellipsis",
+            "ar": "الحذف",
+            "en": "ellipsis"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "irony",
+            "ar": "السخرية",
+            "en": "irony"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u11_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Metapher eröffnet eine neue {answer}.",
+        "ar": "Die Metapher eröffnet eine neue {answer}.",
+        "en": "Die Metapher eröffnet eine neue {answer}."
+      },
+      "acceptedAnswers": [
+        "Lesart"
+      ]
+    },
+    {
+      "id": "c1_u11_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Literarische Sprache & Stilmittel“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «اللغة الأدبية والأساليب البلاغية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Literary language & stylistic devices”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u11_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U11_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "c1_u03_l02",
+  "unitId": "de-core-c1-u03",
+  "title": {
+    "de": "Sicherheit, Vermutung und Zurückhaltung präzise markieren",
+    "ar": "تحديد درجات اليقين والاحتمال والتحفظ بدقة",
+    "en": "Marking certainty, inference and caution precisely"
+  },
+  "canDo": [
+    "C1_U03_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u03_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Sicherheit, Vermutung und Zurückhaltung präzise markieren",
+        "ar": "تحديد درجات اليقين والاحتمال والتحفظ بدقة",
+        "en": "Marking certainty, inference and caution precisely"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nForschung, Bericht, Diagnosegespräch, Technik oder Strategie: Unsicherheit transparent machen, ohne vage oder übertrieben sicher zu klingen.\n\nModelldialog:\nA: Ist die Ursache inzwischen sicher geklärt?\nB: Noch nicht. Der Fehler dürfte mit der neuen Schnittstelle zusammenhängen.\nA: Also ist die Schnittstelle schuld?\nB: Das wäre zu stark formuliert; bislang spricht nur einiges dafür.\n\nStrategische Sprachentscheidung:\nC1-Sprache graduiert Aussagen. „dürfte“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي البحث أو التقرير أو الحوار التشخيصي أو التقنية أو الاستراتيجية: إظهار عدم اليقين دون غموض أو ادعاء ثقة زائدة.\n\nحوار نموذجي:\nA: Ist die Ursache inzwischen sicher geklärt?\nB: Noch nicht. Der Fehler dürfte mit der neuen Schnittstelle zusammenhängen.\nA: Also ist die Schnittstelle schuld?\nB: Das wäre zu stark formuliert; bislang spricht nur einiges dafür.\n\nالقرار اللغوي الاستراتيجي:\nلغة C1 تدرج قوة الادعاء: dürfte لاحتمال مبرر، müsste لاستنتاج قوي، wohl لافتراض متوسط، offenbar لما يبدو واضحًا من المؤشرات، anscheinend للمظهر الخارجي. kaum يخفض الاحتمال وkeineswegs ينفي الاستنتاج بقوة. يجب أن تتناسب قوة العبارة مع الدليل.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nResearch, reports, diagnostic conversations, technology or strategy: make uncertainty transparent without sounding vague or overconfident.\n\nModel dialogue:\nA: Ist die Ursache inzwischen sicher geklärt?\nB: Noch nicht. Der Fehler dürfte mit der neuen Schnittstelle zusammenhängen.\nA: Also ist die Schnittstelle schuld?\nB: Das wäre zu stark formuliert; bislang spricht nur einiges dafür.\n\nStrategic language choice:\nC1 language grades claims. dürfte signals reasoned probability; müsste a strong inference; wohl a moderate assumption; offenbar an inference from evidence; anscheinend outward appearance. kaum lowers probability; keineswegs strongly rejects a conclusion. Wording strength should match the evidence.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u03_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u03_l02_w1",
+          "german": "kaum",
+          "translation": {
+            "de": "hardly",
+            "ar": "بالكاد/على الأرجح لا",
+            "en": "hardly"
+          }
+        },
+        {
+          "id": "c1_u03_l02_w2",
+          "german": "die Evidenz",
+          "translation": {
+            "de": "evidence",
+            "ar": "الدليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "c1_u03_l02_w3",
+          "german": "die Schlussfolgerung",
+          "translation": {
+            "de": "conclusion",
+            "ar": "الاستنتاج",
+            "en": "conclusion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u03_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nC1-Sprache graduiert Aussagen. „dürfte“ signalisiert begründete Wahrscheinlichkeit; „müsste“ eine starke Schlussfolgerung; „wohl“ eine moderate Annahme; „offenbar“ einen aus Indizien ersichtlichen Befund; „anscheinend“ äußeren Anschein. „kaum“ reduziert Wahrscheinlichkeit, „keineswegs“ weist eine Schlussfolgerung deutlich zurück. Quelle und Evidenz sollten zur Stärke der Formulierung passen.\n\nBeispiele:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig.",
+        "ar": "المبدأ الأساسي:\nلغة C1 تدرج قوة الادعاء: dürfte لاحتمال مبرر، müsste لاستنتاج قوي، wohl لافتراض متوسط، offenbar لما يبدو واضحًا من المؤشرات، anscheinend للمظهر الخارجي. kaum يخفض الاحتمال وkeineswegs ينفي الاستنتاج بقوة. يجب أن تتناسب قوة العبارة مع الدليل.\n\nالأمثلة:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig.",
+        "en": "Core principle:\nC1 language grades claims. dürfte signals reasoned probability; müsste a strong inference; wohl a moderate assumption; offenbar an inference from evidence; anscheinend outward appearance. kaum lowers probability; keineswegs strongly rejects a conclusion. Wording strength should match the evidence.\n\nExamples:\n• Die Änderung dürfte vor allem kleinere Betriebe betreffen.\n• Der Fehler müsste nach dem Update behoben sein.\n• Die Ergebnisse sind keineswegs eindeutig."
+      }
+    },
+    {
+      "id": "c1_u03_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "kaum",
+        "ar": "kaum",
+        "en": "kaum"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "hardly",
+            "ar": "بالكاد/على الأرجح لا",
+            "en": "hardly"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "evidence",
+            "ar": "الدليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "conclusion",
+            "ar": "الاستنتاج",
+            "en": "conclusion"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u03_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Ergebnisse sind {answer} eindeutig.",
+        "ar": "Die Ergebnisse sind {answer} eindeutig.",
+        "en": "Die Ergebnisse sind {answer} eindeutig."
+      },
+      "acceptedAnswers": [
+        "keineswegs"
+      ]
+    },
+    {
+      "id": "c1_u03_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Modale Feinabstufung & epistemische Distanz“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «تدرج الموقف واليقين والمسافة المعرفية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Modal nuance & epistemic distance”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u03_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U03_REAL_LIFE"
+      ]
+    }
+  ]
+}

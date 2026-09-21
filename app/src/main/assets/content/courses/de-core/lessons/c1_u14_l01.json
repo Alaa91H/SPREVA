@@ -1,0 +1,154 @@
+{
+  "id": "c1_u14_l01",
+  "unitId": "de-core-c1-u14",
+  "title": {
+    "de": "Technische Erklärung, Unsicherheit, Datenschutz und Risikokommunikation",
+    "ar": "الشرح التقني وعدم اليقين وحماية البيانات والتواصل حول المخاطر",
+    "en": "Technical explanation, uncertainty, privacy and risk communication"
+  },
+  "canDo": [
+    "C1_U14_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u14_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Technische Erklärung, Unsicherheit, Datenschutz und Risikokommunikation",
+        "ar": "الشرح التقني وعدم اليقين وحماية البيانات والتواصل حول المخاطر",
+        "en": "Technical explanation, uncertainty, privacy and risk communication"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Technische Erklärung, Unsicherheit, Datenschutz und Risikokommunikation\n\nSystematische Erklärung:\nBei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus als auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.\n\nReferenzbeispiele:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.\n\nAuthentische Einsatzfelder:\nSoftware, KI-System, Cloud-Dienst oder digitale Behörde: Berechtigungen, Datennutzung, automatisierte Entscheidungen und Grenzen für nichttechnische Personen erklären.\n\nDiagnostischer Hinweis:\nTechnische Begriffe nicht als Autoritätsersatz verwenden. Erkläre Mechanismus und Grenzen so, dass eine nichttechnische Person sinnvolle Rückfragen stellen kann.",
+        "ar": "هدف C1: الشرح التقني وعدم اليقين وحماية البيانات والتواصل حول المخاطر\n\nشرح منهجي عميق:\nعند شرح التقنية المعقدة يجب فصل آلية العمل وتدفق البيانات والافتراضات والحدود ومصادر الخطأ. تواصل المخاطر يتجنب التهويل والثقة الزائفة، ويحدد البيانات وخطوات المعالجة بدل عبارات عامة.\n\nأمثلة مرجعية:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.\n\nمجالات استخدام واقعية:\nفي البرمجيات أو أنظمة الذكاء الاصطناعي أو الخدمات السحابية أو الإدارة الرقمية: شرح الأذونات واستخدام البيانات والقرارات الآلية والحدود لغير المتخصصين.\n\nملاحظة تشخيصية:\nلا تستخدم المصطلحات التقنية كبديل عن الدليل. اشرح الآلية والحدود بحيث يستطيع غير المتخصص طرح أسئلة مفيدة.",
+        "en": "C1 competence goal: Technical explanation, uncertainty, privacy and risk communication\n\nSystematic explanation:\nWhen explaining complex technology, separate mechanism, data flow, assumptions, limitations and failure modes. Risk communication avoids both alarmism and false reassurance. Useful wording includes unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob …. Privacy language should name concrete data and processing steps.\n\nReference examples:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.\n\nAuthentic domains:\nSoftware, AI systems, cloud services or digital administration: explain permissions, data use, automated decisions and limitations to non-technical audiences.\n\nDiagnostic note:\nDo not use technical terminology as a substitute for evidence. Explain mechanism and limits so a non-technical person can ask meaningful follow-up questions."
+      }
+    },
+    {
+      "id": "c1_u14_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u14_l01_w1",
+          "german": "der Datenfluss",
+          "translation": {
+            "de": "data flow",
+            "ar": "تدفق البيانات",
+            "en": "data flow"
+          }
+        },
+        {
+          "id": "c1_u14_l01_w2",
+          "german": "die Fehlerquelle",
+          "translation": {
+            "de": "failure source",
+            "ar": "مصدر الخطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "c1_u14_l01_w3",
+          "german": "die Zuverlässigkeit",
+          "translation": {
+            "de": "reliability",
+            "ar": "الموثوقية",
+            "en": "reliability"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u14_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nBei komplexer Technologie sollten Funktionsweise, Datenfluss, Annahmen, Grenzen und mögliche Fehlerquellen getrennt erklärt werden. Risikokommunikation vermeidet sowohl Alarmismus als auch falsche Sicherheit. Sprachlich hilfreich: unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob … Datenschutzbegriffe sollten nicht pauschal verwendet werden, sondern konkrete Daten und Verarbeitungsschritte benennen.\n\nBeispiele:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.",
+        "ar": "المبدأ الأساسي:\nعند شرح التقنية المعقدة يجب فصل آلية العمل وتدفق البيانات والافتراضات والحدود ومصادر الخطأ. تواصل المخاطر يتجنب التهويل والثقة الزائفة، ويحدد البيانات وخطوات المعالجة بدل عبارات عامة.\n\nالأمثلة:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab.",
+        "en": "Core principle:\nWhen explaining complex technology, separate mechanism, data flow, assumptions, limitations and failure modes. Risk communication avoids both alarmism and false reassurance. Useful wording includes unter bestimmten Bedingungen, nach aktuellem Stand, kann nicht ausgeschlossen werden, hängt davon ab, ob …. Privacy language should name concrete data and processing steps.\n\nExamples:\n• Nach aktuellem Stand werden die Daten lokal verarbeitet, sofern die Synchronisierung deaktiviert ist.\n• Das Modell kann plausible, aber sachlich falsche Ausgaben erzeugen.\n• Ob eine automatisierte Entscheidung zulässig ist, hängt vom konkreten Einsatzkontext und den geltenden Regeln ab."
+      }
+    },
+    {
+      "id": "c1_u14_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "der Datenfluss",
+        "ar": "der Datenfluss",
+        "en": "der Datenfluss"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "data flow",
+            "ar": "تدفق البيانات",
+            "en": "data flow"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "failure source",
+            "ar": "مصدر الخطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "reliability",
+            "ar": "الموثوقية",
+            "en": "reliability"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u14_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das System kann plausible, aber sachlich falsche Ausgaben {answer}.",
+        "ar": "Das System kann plausible, aber sachlich falsche Ausgaben {answer}.",
+        "en": "Das System kann plausible, aber sachlich falsche Ausgaben {answer}."
+      },
+      "acceptedAnswers": [
+        "erzeugen"
+      ]
+    },
+    {
+      "id": "c1_u14_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Technologie, KI & verantwortungsvolle Kommunikation“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «التقنية والذكاء الاصطناعي والتواصل المسؤول». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Technology, AI & responsible communication”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u14_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U14_FOUNDATION"
+      ]
+    }
+  ]
+}

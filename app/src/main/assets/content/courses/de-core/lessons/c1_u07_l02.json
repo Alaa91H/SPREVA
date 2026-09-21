@@ -1,0 +1,154 @@
+{
+  "id": "c1_u07_l02",
+  "unitId": "de-core-c1-u07",
+  "title": {
+    "de": "Mehrere Texte zu einer eigenständigen, quellentreuen Darstellung verbinden",
+    "ar": "دمج عدة نصوص في عرض مستقل أمين للمصادر",
+    "en": "Combining multiple texts into an independent, source-faithful account"
+  },
+  "canDo": [
+    "C1_U07_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u07_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mehrere Texte zu einer eigenständigen, quellentreuen Darstellung verbinden",
+        "ar": "دمج عدة نصوص في عرض مستقل أمين للمصادر",
+        "en": "Combining multiple texts into an independent, source-faithful account"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nStudium, Weiterbildung, Bericht oder Recherche: zwei bis drei Quellen lesen, vergleichen und in einer neutralen Synthese mit klarer Quellenkennzeichnung verbinden.\n\nModelldialog:\nA: Wie verhindere ich, dass meine Zusammenfassung nur Quelle A und dann Quelle B nacheinander wiedergibt?\nB: Ordne nach Themen statt nach Quellen.\nA: Und wo kommt meine Meinung hin?\nB: Erst nach der quellentreuen Synthese und klar als eigene Bewertung markiert.\n\nStrategische Sprachentscheidung:\nEine Synthese ist mehr als mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي الدراسة أو التدريب أو التقرير أو البحث: قراءة مصدرين أو ثلاثة ومقارنتها ودمجها في تركيب محايد مع توثيق واضح.\n\nحوار نموذجي:\nA: Wie verhindere ich, dass meine Zusammenfassung nur Quelle A und dann Quelle B nacheinander wiedergibt?\nB: Ordne nach Themen statt nach Quellen.\nA: Und wo kommt meine Meinung hin?\nB: Erst nach der quellentreuen Synthese und klar als eigene Bewertung markiert.\n\nالقرار اللغوي الاستراتيجي:\nالتركيب ليس سلسلة تلخيصات منفصلة. حدد سؤال البحث والأفكار والأدلة والقيود لكل مصدر ثم اجمع نقاط الاتفاق والاختلاف والأسئلة المفتوحة حسب الموضوع. يجب أن تحافظ إعادة الصياغة على المعنى والمصدر، وأن تفصل تقييمك الشخصي.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nStudy, training, reporting or research: read two or three sources, compare them and combine them in a neutral synthesis with clear attribution.\n\nModel dialogue:\nA: Wie verhindere ich, dass meine Zusammenfassung nur Quelle A und dann Quelle B nacheinander wiedergibt?\nB: Ordne nach Themen statt nach Quellen.\nA: Und wo kommt meine Meinung hin?\nB: Erst nach der quellentreuen Synthese und klar als eigene Bewertung markiert.\n\nStrategic language choice:\nA synthesis is more than a sequence of summaries. Identify each source’s question, main claims, evidence and limitations, then group agreements, differences and open questions thematically. Paraphrases must preserve meaning and attribution; your evaluation should be linguistically separate.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u07_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u07_l02_w1",
+          "german": "abweichen",
+          "translation": {
+            "de": "differ",
+            "ar": "يختلف",
+            "en": "differ"
+          }
+        },
+        {
+          "id": "c1_u07_l02_w2",
+          "german": "der Befund",
+          "translation": {
+            "de": "finding",
+            "ar": "النتيجة/الملاحظة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "c1_u07_l02_w3",
+          "german": "quellentreu",
+          "translation": {
+            "de": "source-faithful",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u07_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nEine Synthese ist mehr als mehrere Einzelzusammenfassungen. Zuerst werden Fragestellung, Kernaussagen, Belege und Einschränkungen jeder Quelle identifiziert; anschließend werden Übereinstimmungen, Unterschiede und offene Fragen thematisch gebündelt. Paraphrasen müssen Bedeutung erhalten und Quelle erkennbar lassen; eigene Bewertung wird sprachlich getrennt.\n\nBeispiele:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.",
+        "ar": "المبدأ الأساسي:\nالتركيب ليس سلسلة تلخيصات منفصلة. حدد سؤال البحث والأفكار والأدلة والقيود لكل مصدر ثم اجمع نقاط الاتفاق والاختلاف والأسئلة المفتوحة حسب الموضوع. يجب أن تحافظ إعادة الصياغة على المعنى والمصدر، وأن تفصل تقييمك الشخصي.\n\nالأمثلة:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt.",
+        "en": "Core principle:\nA synthesis is more than a sequence of summaries. Identify each source’s question, main claims, evidence and limitations, then group agreements, differences and open questions thematically. Paraphrases must preserve meaning and attribution; your evaluation should be linguistically separate.\n\nExamples:\n• Beide Quellen stimmen darin überein, dass die Maßnahme kurzfristig Kosten verursacht.\n• Während Quelle A die Effizienz betont, weist Quelle B stärker auf Verteilungsfragen hin.\n• Zusammengenommen legen die Befunde nahe, dass der Effekt vom Kontext abhängt."
+      }
+    },
+    {
+      "id": "c1_u07_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "abweichen",
+        "ar": "abweichen",
+        "en": "abweichen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "differ",
+            "ar": "يختلف",
+            "en": "differ"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "finding",
+            "ar": "النتيجة/الملاحظة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "source-faithful",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u07_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Zusammengenommen {answer} die Befunde einen Zusammenhang nahe.",
+        "ar": "Zusammengenommen {answer} die Befunde einen Zusammenhang nahe.",
+        "en": "Zusammengenommen {answer} die Befunde einen Zusammenhang nahe."
+      },
+      "acceptedAnswers": [
+        "legen"
+      ]
+    },
+    {
+      "id": "c1_u07_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Akademisch zusammenfassen & synthetisieren“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «التلخيص والتركيب الأكاديمي». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Academic summarizing & synthesis”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u07_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U07_REAL_LIFE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "c1_u01_l02",
+  "unitId": "de-core-c1-u01",
+  "title": {
+    "de": "Komplexe Aussagen adressatengerecht strukturieren",
+    "ar": "تنظيم الأفكار المعقدة بحسب المتلقي",
+    "en": "Structuring complex statements for the audience"
+  },
+  "canDo": [
+    "C1_U01_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u01_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe Aussagen adressatengerecht strukturieren",
+        "ar": "تنظيم الأفكار المعقدة بحسب المتلقي",
+        "en": "Structuring complex statements for the audience"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nVortrag, Bericht, Interview oder schwieriges Gespräch: dieselbe Information unterschiedlich gewichten, Übergänge glätten und Missverständnisse durch klare Referenz vermeiden.\n\nModelldialog:\nA: Womit sollten wir in der Präsentation beginnen?\nB: Mit dem Punkt, den das Publikum bereits kennt. Danach können wir die neuen Ergebnisse einführen.\nA: Und die methodischen Einschränkungen?\nB: Die würde ich direkt nach den Ergebnissen platzieren, damit die Einordnung klar bleibt.\n\nStrategische Sprachentscheidung:\nAuf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, sofern dadurch die Referenz klar bleibt.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي عرض أو تقرير أو مقابلة أو حوار صعب: تغيير مركز الثقل في الجملة وتحسين الانتقالات ومنع الغموض بالإحالات الواضحة.\n\nحوار نموذجي:\nA: Womit sollten wir in der Präsentation beginnen?\nB: Mit dem Punkt, den das Publikum bereits kennt. Danach können wir die neuen Ergebnisse einführen.\nA: Und die methodischen Einschränkungen?\nB: Die würde ich direkt nach den Ergebnissen platzieren, damit die Einordnung klar bleibt.\n\nالقرار اللغوي الاستراتيجي:\nفي C1 لا تكفي الصحة النحوية؛ يجب إدارة تدفق المعلومات. المعلومات المعروفة أو موضوع الحديث تأتي غالبًا مبكرًا، والجديدة أو الثقيلة لاحقًا. يمكن تقديم الزمن أو المقابلة أو المفعول أو جملة كاملة في أول الجملة مع بقاء الفعل المصرف ثانيًا، ويمكن نقل الجمل الثقيلة إلى النهاية إذا بقيت الإحالات واضحة.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nPresentation, report, interview or difficult conversation: weight the same information differently, smooth transitions and avoid ambiguity through clear reference.\n\nModel dialogue:\nA: Womit sollten wir in der Präsentation beginnen?\nB: Mit dem Punkt, den das Publikum bereits kennt. Danach können wir die neuen Ergebnisse einführen.\nA: Und die methodischen Einschränkungen?\nB: Die würde ich direkt nach den Ergebnissen platzieren, damit die Einordnung klar bleibt.\n\nStrategic language choice:\nAt C1, grammatical correctness alone is insufficient; information flow matters. Known/thematic material often comes early, new/heavy information later. The prefield can host time, contrast, an object or a whole clause while the finite verb remains second. Heavy clauses can be shifted to the postfield when reference remains clear.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u01_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u01_l02_w1",
+          "german": "der Bezug",
+          "translation": {
+            "de": "reference",
+            "ar": "الإحالة/العلاقة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "c1_u01_l02_w2",
+          "german": "kohärent",
+          "translation": {
+            "de": "coherent",
+            "ar": "مترابط",
+            "en": "coherent"
+          }
+        },
+        {
+          "id": "c1_u01_l02_w3",
+          "german": "auslagern",
+          "translation": {
+            "de": "shift/relocate",
+            "ar": "ينقل إلى موضع آخر",
+            "en": "shift/relocate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u01_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nAuf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, sofern dadurch die Referenz klar bleibt.\n\nBeispiele:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt.",
+        "ar": "المبدأ الأساسي:\nفي C1 لا تكفي الصحة النحوية؛ يجب إدارة تدفق المعلومات. المعلومات المعروفة أو موضوع الحديث تأتي غالبًا مبكرًا، والجديدة أو الثقيلة لاحقًا. يمكن تقديم الزمن أو المقابلة أو المفعول أو جملة كاملة في أول الجملة مع بقاء الفعل المصرف ثانيًا، ويمكن نقل الجمل الثقيلة إلى النهاية إذا بقيت الإحالات واضحة.\n\nالأمثلة:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt.",
+        "en": "Core principle:\nAt C1, grammatical correctness alone is insufficient; information flow matters. Known/thematic material often comes early, new/heavy information later. The prefield can host time, contrast, an object or a whole clause while the finite verb remains second. Heavy clauses can be shifted to the postfield when reference remains clear.\n\nExamples:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt."
+      }
+    },
+    {
+      "id": "c1_u01_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "der Bezug",
+        "ar": "der Bezug",
+        "en": "der Bezug"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reference",
+            "ar": "الإحالة/العلاقة",
+            "en": "reference"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "coherent",
+            "ar": "مترابط",
+            "en": "coherent"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "shift/relocate",
+            "ar": "ينقل إلى موضع آخر",
+            "en": "shift/relocate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u01_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "ar": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "en": "Was die Finanzierung {answer}, bestehen offene Fragen."
+      },
+      "acceptedAnswers": [
+        "betrifft"
+      ]
+    },
+    {
+      "id": "c1_u01_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Informationsstruktur, Fokus & Satzrhythmus“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «بنية المعلومات والتركيز وإيقاع الجملة». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Information structure, focus & sentence rhythm”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u01_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U01_REAL_LIFE"
+      ]
+    }
+  ]
+}

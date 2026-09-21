@@ -1,0 +1,154 @@
+{
+  "id": "c1_u12_l02",
+  "unitId": "de-core-c1-u12",
+  "title": {
+    "de": "Komplexe normative Fragen fair und präzise diskutieren",
+    "ar": "مناقشة القضايا المعيارية المعقدة بعدل ودقة",
+    "en": "Discussing complex normative issues fairly and precisely"
+  },
+  "canDo": [
+    "C1_U12_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u12_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe normative Fragen fair und präzise diskutieren",
+        "ar": "مناقشة القضايا المعيارية المعقدة بعدل ودقة",
+        "en": "Discussing complex normative issues fairly and precisely"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nArbeit, Technologie, Bildung, Wohnen, Integration oder Umwelt: kontroverse Fragen ohne Pauschalisierung diskutieren und Kriterien transparent machen.\n\nModelldialog:\nA: Ist die Lösung also gut oder schlecht?\nB: Das hängt von den Kriterien ab. Sie kann effizient sein und zugleich Verteilungsprobleme erzeugen.\nA: Wie formuliere ich dann eine Position?\nB: Indem du Kriterien offenlegst und Zielkonflikte ausdrücklich benennst.\n\nStrategische Sprachentscheidung:\nBei normativen Fragen sollten Fakten, Werte und Zielkonflikte getrennt werden. „Ist“ und „soll“ sind nicht dasselbe. Eine qualifizierte Position benennt Kriterien, betroffene Gruppen, mögliche Nebenfolgen und Unsicherheit. Perspektivübernahme bedeutet, eine Gegenposition so darzustellen, dass ihre Vertreter sie wiedererkennen könnten, bevor man sie kritisiert.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي العمل أو التقنية أو التعليم أو السكن أو الاندماج أو البيئة: مناقشة القضايا الخلافية دون تعميم وتوضيح المعايير.\n\nحوار نموذجي:\nA: Ist die Lösung also gut oder schlecht?\nB: Das hängt von den Kriterien ab. Sie kann effizient sein und zugleich Verteilungsprobleme erzeugen.\nA: Wie formuliere ich dann eine Position?\nB: Indem du Kriterien offenlegst und Zielkonflikte ausdrücklich benennst.\n\nالقرار اللغوي الاستراتيجي:\nفي القضايا المعيارية يجب فصل الوقائع عن القيم وعن تعارض الأهداف. ما هو كائن ليس هو ما ينبغي أن يكون. الموقف المتوازن يذكر المعايير والفئات المتأثرة والآثار الجانبية وعدم اليقين، ويمثل الرأي المخالف بإنصاف قبل نقده.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nWork, technology, education, housing, integration or environment: discuss controversial issues without overgeneralization and make criteria explicit.\n\nModel dialogue:\nA: Ist die Lösung also gut oder schlecht?\nB: Das hängt von den Kriterien ab. Sie kann effizient sein und zugleich Verteilungsprobleme erzeugen.\nA: Wie formuliere ich dann eine Position?\nB: Indem du Kriterien offenlegst und Zielkonflikte ausdrücklich benennst.\n\nStrategic language choice:\nIn normative questions, distinguish facts, values and trade-offs. “Is” is not “ought”. A qualified position names criteria, affected groups, possible side effects and uncertainty. Perspective-taking means presenting an opposing view in a form its supporters could recognize before criticizing it.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u12_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u12_l02_w1",
+          "german": "die Perspektive",
+          "translation": {
+            "de": "perspective",
+            "ar": "وجهة النظر",
+            "en": "perspective"
+          }
+        },
+        {
+          "id": "c1_u12_l02_w2",
+          "german": "pauschalisieren",
+          "translation": {
+            "de": "generalize",
+            "ar": "يعمّم",
+            "en": "generalize"
+          }
+        },
+        {
+          "id": "c1_u12_l02_w3",
+          "german": "abwägen",
+          "translation": {
+            "de": "weigh",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u12_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nBei normativen Fragen sollten Fakten, Werte und Zielkonflikte getrennt werden. „Ist“ und „soll“ sind nicht dasselbe. Eine qualifizierte Position benennt Kriterien, betroffene Gruppen, mögliche Nebenfolgen und Unsicherheit. Perspektivübernahme bedeutet, eine Gegenposition so darzustellen, dass ihre Vertreter sie wiedererkennen könnten, bevor man sie kritisiert.\n\nBeispiele:\n• Aus Effizienzsicht spricht einiges für die Maßnahme; unter Verteilungsgesichtspunkten entstehen jedoch neue Fragen.\n• Die empirische Frage, ob die Maßnahme wirkt, ist von der normativen Frage zu trennen, ob sie gerecht ist.\n• Eine tragfähige Bewertung hängt davon ab, welche Ziele priorisiert werden.",
+        "ar": "المبدأ الأساسي:\nفي القضايا المعيارية يجب فصل الوقائع عن القيم وعن تعارض الأهداف. ما هو كائن ليس هو ما ينبغي أن يكون. الموقف المتوازن يذكر المعايير والفئات المتأثرة والآثار الجانبية وعدم اليقين، ويمثل الرأي المخالف بإنصاف قبل نقده.\n\nالأمثلة:\n• Aus Effizienzsicht spricht einiges für die Maßnahme; unter Verteilungsgesichtspunkten entstehen jedoch neue Fragen.\n• Die empirische Frage, ob die Maßnahme wirkt, ist von der normativen Frage zu trennen, ob sie gerecht ist.\n• Eine tragfähige Bewertung hängt davon ab, welche Ziele priorisiert werden.",
+        "en": "Core principle:\nIn normative questions, distinguish facts, values and trade-offs. “Is” is not “ought”. A qualified position names criteria, affected groups, possible side effects and uncertainty. Perspective-taking means presenting an opposing view in a form its supporters could recognize before criticizing it.\n\nExamples:\n• Aus Effizienzsicht spricht einiges für die Maßnahme; unter Verteilungsgesichtspunkten entstehen jedoch neue Fragen.\n• Die empirische Frage, ob die Maßnahme wirkt, ist von der normativen Frage zu trennen, ob sie gerecht ist.\n• Eine tragfähige Bewertung hängt davon ab, welche Ziele priorisiert werden."
+      }
+    },
+    {
+      "id": "c1_u12_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "die Perspektive",
+        "ar": "die Perspektive",
+        "en": "die Perspektive"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "perspective",
+            "ar": "وجهة النظر",
+            "en": "perspective"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "generalize",
+            "ar": "يعمّم",
+            "en": "generalize"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weigh",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u12_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine Bewertung hängt davon ab, welche Kriterien {answer} werden.",
+        "ar": "Eine Bewertung hängt davon ab, welche Kriterien {answer} werden.",
+        "en": "Eine Bewertung hängt davon ab, welche Kriterien {answer} werden."
+      },
+      "acceptedAnswers": [
+        "priorisiert"
+      ]
+    },
+    {
+      "id": "c1_u12_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Gesellschaft, Ethik & differenzierte Debatte“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «المجتمع والأخلاق والنقاش المتوازن». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Society, ethics & nuanced debate”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u12_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U12_REAL_LIFE"
+      ]
+    }
+  ]
+}

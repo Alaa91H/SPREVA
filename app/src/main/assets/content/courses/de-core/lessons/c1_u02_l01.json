@@ -1,0 +1,154 @@
+{
+  "id": "c1_u02_l01",
+  "unitId": "de-core-c1-u02",
+  "title": {
+    "de": "indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass",
+    "ar": "indem وinsofern وsofern وzumal وwohingegen وals dass وohne dass",
+    "en": "indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass"
+  },
+  "canDo": [
+    "C1_U02_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u02_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass",
+        "ar": "indem وinsofern وsofern وzumal وwohingegen وals dass وohne dass",
+        "en": "indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass\n\nSystematische Erklärung:\nFortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „insofern“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.\n\nReferenzbeispiele:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.\n\nAuthentische Einsatzfelder:\nFachliche Diskussion, Analyse, Stellungnahme oder Verhandlung: Bedingungen, Methoden, Einschränkungen und Kontraste ohne Bedeutungsverlust verdichten.\n\nDiagnostischer Hinweis:\nSeltene Konnektoren erhöhen das Niveau nur, wenn sie exakt passen. Ein einfaches „weil“ ist besser als ein falsch verwendetes „zumal“ oder „insofern“.",
+        "ar": "هدف C1: indem وinsofern وsofern وzumal وwohingegen وals dass وohne dass\n\nشرح منهجي عميق:\nالروابط المتقدمة تختلف في نوع وقوة العلاقة: indem للطريقة/الوسيلة، sofern للشرط، insofern للقيد أو النطاق، zumal لسبب إضافي مؤكد، wohingegen للمقابلة. الاختيار يجب أن يعتمد على المعنى لا على التنويع فقط.\n\nأمثلة مرجعية:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.\n\nمجالات استخدام واقعية:\nفي نقاش متخصص أو تحليل أو موقف أو تفاوض: تكثيف الشروط والطرق والقيود والمقابلات دون فقدان المعنى.\n\nملاحظة تشخيصية:\nالروابط النادرة لا ترفع المستوى إلا إذا استُخدمت بدقة. weil صحيح أفضل من zumal أو insofern مستخدمين خطأ.",
+        "en": "C1 competence goal: indem, insofern, sofern, zumal, wohingegen, als dass, ohne dass\n\nSystematic explanation:\nAdvanced connectors distinguish the type and strength of a relation. indem marks means/manner; sofern condition; insofern limitation or scope; zumal an additional reinforcing reason; wohingegen contrast. zu …, als dass marks a consequence as unrealizable. Choice must be semantically motivated, not merely stylistic.\n\nReference examples:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.\n\nAuthentic domains:\nSpecialist discussion, analysis, position paper or negotiation: compress conditions, methods, limitations and contrasts without loss of meaning.\n\nDiagnostic note:\nRare connectors only raise the level when used accurately. A correct weil is better than a misused zumal or insofern."
+      }
+    },
+    {
+      "id": "c1_u02_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u02_l01_w1",
+          "german": "insofern",
+          "translation": {
+            "de": "insofar",
+            "ar": "من هذه الناحية/بقدر ما",
+            "en": "insofar"
+          }
+        },
+        {
+          "id": "c1_u02_l01_w2",
+          "german": "zumal",
+          "translation": {
+            "de": "especially since",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "c1_u02_l01_w3",
+          "german": "wohingegen",
+          "translation": {
+            "de": "whereas",
+            "ar": "في حين أن",
+            "en": "whereas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u02_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „insofern“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.\n\nBeispiele:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.",
+        "ar": "المبدأ الأساسي:\nالروابط المتقدمة تختلف في نوع وقوة العلاقة: indem للطريقة/الوسيلة، sofern للشرط، insofern للقيد أو النطاق، zumal لسبب إضافي مؤكد، wohingegen للمقابلة. الاختيار يجب أن يعتمد على المعنى لا على التنويع فقط.\n\nالأمثلة:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.",
+        "en": "Core principle:\nAdvanced connectors distinguish the type and strength of a relation. indem marks means/manner; sofern condition; insofern limitation or scope; zumal an additional reinforcing reason; wohingegen contrast. zu …, als dass marks a consequence as unrealizable. Choice must be semantically motivated, not merely stylistic.\n\nExamples:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen."
+      }
+    },
+    {
+      "id": "c1_u02_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "insofern",
+        "ar": "insofern",
+        "en": "insofern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "insofar",
+            "ar": "من هذه الناحية/بقدر ما",
+            "en": "insofar"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "especially since",
+            "ar": "خصوصًا أن",
+            "en": "especially since"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "whereas",
+            "ar": "في حين أن",
+            "en": "whereas"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u02_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Qualität steigt, {answer} die Prüfung standardisiert wird.",
+        "ar": "Die Qualität steigt, {answer} die Prüfung standardisiert wird.",
+        "en": "Die Qualität steigt, {answer} die Prüfung standardisiert wird."
+      },
+      "acceptedAnswers": [
+        "indem"
+      ]
+    },
+    {
+      "id": "c1_u02_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Komplexe Subordination & Bedeutungsnuancen“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «الجمل التابعة المعقدة والفروق الدلالية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Complex subordination & semantic nuance”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u02_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U02_FOUNDATION"
+      ]
+    }
+  ]
+}

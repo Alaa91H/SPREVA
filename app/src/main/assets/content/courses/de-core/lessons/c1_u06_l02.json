@@ -1,0 +1,154 @@
+{
+  "id": "c1_u06_l02",
+  "unitId": "de-core-c1-u06",
+  "title": {
+    "de": "Wortschatz nicht nur breit, sondern treffsicher einsetzen",
+    "ar": "استخدام مفردات دقيقة لا واسعة فقط",
+    "en": "Using vocabulary precisely, not merely broadly"
+  },
+  "canDo": [
+    "C1_U06_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u06_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Wortschatz nicht nur breit, sondern treffsicher einsetzen",
+        "ar": "استخدام مفردات دقيقة لا واسعة فقط",
+        "en": "Using vocabulary precisely, not merely broadly"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nFachgespräch, Bericht, Bewerbung oder Prüfung: Wortwahl verfeinern, Wiederholungen vermeiden und typische Kombinationen statt wörtlicher Übersetzungen verwenden.\n\nModelldialog:\nA: Kann ich schreiben „eine Maßnahme machen“?\nB: Verständlich wäre es, idiomatischer ist aber „eine Maßnahme ergreifen“ oder „durchführen“.\nA: Wie lerne ich solche Unterschiede?\nB: Am besten als feste Wortverbindungen im Kontext.\n\nStrategische Sprachentscheidung:\nFortgeschrittene Beherrschung zeigt sich in Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي حوار متخصص أو تقرير أو تقديم وظيفة أو امتحان: تحسين اختيار الكلمات وتقليل التكرار واستخدام التراكيب الطبيعية بدل الترجمة الحرفية.\n\nحوار نموذجي:\nA: Kann ich schreiben „eine Maßnahme machen“?\nB: Verständlich wäre es, idiomatischer ist aber „eine Maßnahme ergreifen“ oder „durchführen“.\nA: Wie lerne ich solche Unterschiede?\nB: Am besten als feste Wortverbindungen im Kontext.\n\nالقرار اللغوي الاستراتيجي:\nيتجلى المستوى المتقدم في المتلازمات مثل eine Entscheidung treffen وMaßnahmen ergreifen. يساعد بناء الكلمات على الاستنتاج، لكن الاصطلاحات يجب تعلمها من أنماط حقيقية لأن ليس كل تركيب ممكن نحويًا شائعًا.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nProfessional discussion, report, application or exam: refine word choice, avoid repetition and use typical combinations instead of literal translations.\n\nModel dialogue:\nA: Kann ich schreiben „eine Maßnahme machen“?\nB: Verständlich wäre es, idiomatischer ist aber „eine Maßnahme ergreifen“ oder „durchführen“.\nA: Wie lerne ich solche Unterschiede?\nB: Am besten als feste Wortverbindungen im Kontext.\n\nStrategic language choice:\nAdvanced proficiency appears in collocations: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Word formation aids inference, but idiomaticity must be learned from real patterns; not every grammatically possible combination is conventional.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u06_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u06_l02_w1",
+          "german": "zur Verfügung stehen",
+          "translation": {
+            "de": "be available",
+            "ar": "يكون متاحًا",
+            "en": "be available"
+          }
+        },
+        {
+          "id": "c1_u06_l02_w2",
+          "german": "in Betracht ziehen",
+          "translation": {
+            "de": "consider",
+            "ar": "يأخذ في الاعتبار",
+            "en": "consider"
+          }
+        },
+        {
+          "id": "c1_u06_l02_w3",
+          "german": "eine Entscheidung treffen",
+          "translation": {
+            "de": "make a decision",
+            "ar": "يتخذ قرارًا",
+            "en": "make a decision"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u06_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFortgeschrittene Beherrschung zeigt sich in Kollokationen: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Wortbildung hilft beim Erschließen: -bar (Möglichkeit), -ung (Prozess/Resultat), -heit/-keit (Abstrakta), ver-/ent-/be- verändern Verbsemantik. Idiomatik muss aus realen Mustern gelernt werden; nicht jede grammatisch mögliche Kombination ist üblich.\n\nBeispiele:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung.",
+        "ar": "المبدأ الأساسي:\nيتجلى المستوى المتقدم في المتلازمات مثل eine Entscheidung treffen وMaßnahmen ergreifen. يساعد بناء الكلمات على الاستنتاج، لكن الاصطلاحات يجب تعلمها من أنماط حقيقية لأن ليس كل تركيب ممكن نحويًا شائعًا.\n\nالأمثلة:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung.",
+        "en": "Core principle:\nAdvanced proficiency appears in collocations: eine Entscheidung treffen, Maßnahmen ergreifen, Zweifel äußern, Verantwortung übernehmen. Word formation aids inference, but idiomaticity must be learned from real patterns; not every grammatically possible combination is conventional.\n\nExamples:\n• Die Leitung hat Maßnahmen ergriffen.\n• Mehrere Fachleute äußerten Zweifel an der Umsetzbarkeit.\n• Das Team übernimmt Verantwortung für die Umsetzung."
+      }
+    },
+    {
+      "id": "c1_u06_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "zur Verfügung stehen",
+        "ar": "zur Verfügung stehen",
+        "en": "zur Verfügung stehen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "be available",
+            "ar": "يكون متاحًا",
+            "en": "be available"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "consider",
+            "ar": "يأخذ في الاعتبار",
+            "en": "consider"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "make a decision",
+            "ar": "يتخذ قرارًا",
+            "en": "make a decision"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u06_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir sollten diese Option in Betracht {answer}.",
+        "ar": "Wir sollten diese Option in Betracht {answer}.",
+        "en": "Wir sollten diese Option in Betracht {answer}."
+      },
+      "acceptedAnswers": [
+        "ziehen"
+      ]
+    },
+    {
+      "id": "c1_u06_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Kollokationen, Wortbildung & idiomatische Präzision“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «المتلازمات اللفظية وبناء الكلمات والدقة الاصطلاحية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Collocations, word formation & idiomatic precision”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u06_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U06_REAL_LIFE"
+      ]
+    }
+  ]
+}

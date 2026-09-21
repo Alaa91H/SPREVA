@@ -1,0 +1,154 @@
+{
+  "id": "c1_u02_l02",
+  "unitId": "de-core-c1-u02",
+  "title": {
+    "de": "Logische Beziehungen präzise und ökonomisch ausdrücken",
+    "ar": "التعبير الدقيق والموجز عن العلاقات المنطقية",
+    "en": "Expressing logical relationships precisely and economically"
+  },
+  "canDo": [
+    "C1_U02_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u02_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Logische Beziehungen präzise und ökonomisch ausdrücken",
+        "ar": "التعبير الدقيق والموجز عن العلاقات المنطقية",
+        "en": "Expressing logical relationships precisely and economically"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nFachliche Diskussion, Analyse, Stellungnahme oder Verhandlung: Bedingungen, Methoden, Einschränkungen und Kontraste ohne Bedeutungsverlust verdichten.\n\nModelldialog:\nA: Können wir die Bearbeitungszeit verkürzen?\nB: Ja, indem wir wiederkehrende Schritte automatisieren.\nA: Ist das für alle Fälle sinnvoll?\nB: Nur insofern, als die Einzelfallprüfung weiterhin gewährleistet bleibt.\n\nStrategische Sprachentscheidung:\nFortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „insofern“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي نقاش متخصص أو تحليل أو موقف أو تفاوض: تكثيف الشروط والطرق والقيود والمقابلات دون فقدان المعنى.\n\nحوار نموذجي:\nA: Können wir die Bearbeitungszeit verkürzen?\nB: Ja, indem wir wiederkehrende Schritte automatisieren.\nA: Ist das für alle Fälle sinnvoll?\nB: Nur insofern, als die Einzelfallprüfung weiterhin gewährleistet bleibt.\n\nالقرار اللغوي الاستراتيجي:\nالروابط المتقدمة تختلف في نوع وقوة العلاقة: indem للطريقة/الوسيلة، sofern للشرط، insofern للقيد أو النطاق، zumal لسبب إضافي مؤكد، wohingegen للمقابلة. الاختيار يجب أن يعتمد على المعنى لا على التنويع فقط.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nSpecialist discussion, analysis, position paper or negotiation: compress conditions, methods, limitations and contrasts without loss of meaning.\n\nModel dialogue:\nA: Können wir die Bearbeitungszeit verkürzen?\nB: Ja, indem wir wiederkehrende Schritte automatisieren.\nA: Ist das für alle Fälle sinnvoll?\nB: Nur insofern, als die Einzelfallprüfung weiterhin gewährleistet bleibt.\n\nStrategic language choice:\nAdvanced connectors distinguish the type and strength of a relation. indem marks means/manner; sofern condition; insofern limitation or scope; zumal an additional reinforcing reason; wohingegen contrast. zu …, als dass marks a consequence as unrealizable. Choice must be semantically motivated, not merely stylistic.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u02_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u02_l02_w1",
+          "german": "indem",
+          "translation": {
+            "de": "by doing",
+            "ar": "من خلال",
+            "en": "by doing"
+          }
+        },
+        {
+          "id": "c1_u02_l02_w2",
+          "german": "gewährleisten",
+          "translation": {
+            "de": "ensure",
+            "ar": "يضمن",
+            "en": "ensure"
+          }
+        },
+        {
+          "id": "c1_u02_l02_w3",
+          "german": "verdichten",
+          "translation": {
+            "de": "condense",
+            "ar": "يكثّف",
+            "en": "condense"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u02_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFortgeschrittene Konnektoren unterscheiden Art und Stärke einer Relation. „indem“ bezeichnet Mittel/Art und Weise; „sofern“ Bedingung; „insofern“ Einschränkung oder Bezug; „zumal“ verstärkenden Zusatzgrund; „wohingegen“ kontrastiert zwei Sachverhalte. „zu …, als dass“ markiert eine Konsequenz als nicht realisierbar. Die Wahl muss semantisch motiviert sein, nicht nur stilistisch abwechslungsreich.\n\nBeispiele:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.",
+        "ar": "المبدأ الأساسي:\nالروابط المتقدمة تختلف في نوع وقوة العلاقة: indem للطريقة/الوسيلة، sofern للشرط، insofern للقيد أو النطاق، zumal لسبب إضافي مؤكد، wohingegen للمقابلة. الاختيار يجب أن يعتمد على المعنى لا على التنويع فقط.\n\nالأمثلة:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen.",
+        "en": "Core principle:\nAdvanced connectors distinguish the type and strength of a relation. indem marks means/manner; sofern condition; insofern limitation or scope; zumal an additional reinforcing reason; wohingegen contrast. zu …, als dass marks a consequence as unrealizable. Choice must be semantically motivated, not merely stylistic.\n\nExamples:\n• Die Effizienz lässt sich steigern, indem Abläufe automatisiert werden.\n• Der Vorschlag ist insofern überzeugend, als er beide Ziele berücksichtigt.\n• Die Datenbasis ist zu schmal, als dass sich daraus sichere Schlüsse ziehen ließen."
+      }
+    },
+    {
+      "id": "c1_u02_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "indem",
+        "ar": "indem",
+        "en": "indem"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "by doing",
+            "ar": "من خلال",
+            "en": "by doing"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ensure",
+            "ar": "يضمن",
+            "en": "ensure"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "condense",
+            "ar": "يكثّف",
+            "en": "condense"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u02_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten sind zu begrenzt, {answer} dass eine sichere Aussage möglich wäre.",
+        "ar": "Die Daten sind zu begrenzt, {answer} dass eine sichere Aussage möglich wäre.",
+        "en": "Die Daten sind zu begrenzt, {answer} dass eine sichere Aussage möglich wäre."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "c1_u02_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Komplexe Subordination & Bedeutungsnuancen“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «الجمل التابعة المعقدة والفروق الدلالية». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Complex subordination & semantic nuance”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u02_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U02_REAL_LIFE"
+      ]
+    }
+  ]
+}

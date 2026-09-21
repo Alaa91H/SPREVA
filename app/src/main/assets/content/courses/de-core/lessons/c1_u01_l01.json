@@ -1,0 +1,154 @@
+{
+  "id": "c1_u01_l01",
+  "unitId": "de-core-c1-u01",
+  "title": {
+    "de": "Thema–Rhema, Vorfeldvariation, Nachfeld und gezielte Hervorhebung",
+    "ar": "الموضوع والمعلومة الجديدة وتغيير مقدمة الجملة والتوكيد",
+    "en": "Theme–rheme, prefield variation, postfield and deliberate emphasis"
+  },
+  "canDo": [
+    "C1_U01_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u01_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Thema–Rhema, Vorfeldvariation, Nachfeld und gezielte Hervorhebung",
+        "ar": "الموضوع والمعلومة الجديدة وتغيير مقدمة الجملة والتوكيد",
+        "en": "Theme–rheme, prefield variation, postfield and deliberate emphasis"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Thema–Rhema, Vorfeldvariation, Nachfeld und gezielte Hervorhebung\n\nSystematische Erklärung:\nAuf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, sofern dadurch die Referenz klar bleibt.\n\nReferenzbeispiele:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt.\n\nAuthentische Einsatzfelder:\nVortrag, Bericht, Interview oder schwieriges Gespräch: dieselbe Information unterschiedlich gewichten, Übergänge glätten und Missverständnisse durch klare Referenz vermeiden.\n\nDiagnostischer Hinweis:\nMarkierte Wortstellung nur verwenden, wenn sie eine kommunikative Funktion erfüllt. Zu viele Vorfeldvariationen oder lange Einschübe erschweren den roten Faden statt ihn zu verbessern.",
+        "ar": "هدف C1: الموضوع والمعلومة الجديدة وتغيير مقدمة الجملة والتوكيد\n\nشرح منهجي عميق:\nفي C1 لا تكفي الصحة النحوية؛ يجب إدارة تدفق المعلومات. المعلومات المعروفة أو موضوع الحديث تأتي غالبًا مبكرًا، والجديدة أو الثقيلة لاحقًا. يمكن تقديم الزمن أو المقابلة أو المفعول أو جملة كاملة في أول الجملة مع بقاء الفعل المصرف ثانيًا، ويمكن نقل الجمل الثقيلة إلى النهاية إذا بقيت الإحالات واضحة.\n\nأمثلة مرجعية:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt.\n\nمجالات استخدام واقعية:\nفي عرض أو تقرير أو مقابلة أو حوار صعب: تغيير مركز الثقل في الجملة وتحسين الانتقالات ومنع الغموض بالإحالات الواضحة.\n\nملاحظة تشخيصية:\nاستخدم ترتيب الكلمات المميز عندما يخدم وظيفة تواصلية. الإفراط في تغيير المقدمة أو الجمل الاعتراضية الطويلة يضعف الترابط بدل تحسينه.",
+        "en": "C1 competence goal: Theme–rheme, prefield variation, postfield and deliberate emphasis\n\nSystematic explanation:\nAt C1, grammatical correctness alone is insufficient; information flow matters. Known/thematic material often comes early, new/heavy information later. The prefield can host time, contrast, an object or a whole clause while the finite verb remains second. Heavy clauses can be shifted to the postfield when reference remains clear.\n\nReference examples:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt.\n\nAuthentic domains:\nPresentation, report, interview or difficult conversation: weight the same information differently, smooth transitions and avoid ambiguity through clear reference.\n\nDiagnostic note:\nUse marked word order only when it serves a communicative function. Too many prefield shifts or long insertions can obscure rather than improve the thread."
+      }
+    },
+    {
+      "id": "c1_u01_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u01_l01_w1",
+          "german": "das Vorfeld",
+          "translation": {
+            "de": "prefield",
+            "ar": "الموقع الأول في الجملة",
+            "en": "prefield"
+          }
+        },
+        {
+          "id": "c1_u01_l01_w2",
+          "german": "hervorheben",
+          "translation": {
+            "de": "emphasize",
+            "ar": "يبرز",
+            "en": "emphasize"
+          }
+        },
+        {
+          "id": "c1_u01_l01_w3",
+          "german": "gewichten",
+          "translation": {
+            "de": "weight",
+            "ar": "يرجّح/يوزّع الأهمية",
+            "en": "weight"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u01_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nAuf C1 entscheidet nicht nur grammatische Korrektheit, sondern Informationsführung. Bekanntes oder thematisches Material steht häufig früh, neue oder schwere Information später. Das Vorfeld kann gezielt Zeit, Kontrast, Objekt oder ganzen Nebensatz tragen; das finite Verb bleibt im Hauptsatz an Position 2. Schwergewichtige Nebensätze können ins Nachfeld ausgelagert werden, sofern dadurch die Referenz klar bleibt.\n\nBeispiele:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt.",
+        "ar": "المبدأ الأساسي:\nفي C1 لا تكفي الصحة النحوية؛ يجب إدارة تدفق المعلومات. المعلومات المعروفة أو موضوع الحديث تأتي غالبًا مبكرًا، والجديدة أو الثقيلة لاحقًا. يمكن تقديم الزمن أو المقابلة أو المفعول أو جملة كاملة في أول الجملة مع بقاء الفعل المصرف ثانيًا، ويمكن نقل الجمل الثقيلة إلى النهاية إذا بقيت الإحالات واضحة.\n\nالأمثلة:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt.",
+        "en": "Core principle:\nAt C1, grammatical correctness alone is insufficient; information flow matters. Known/thematic material often comes early, new/heavy information later. The prefield can host time, contrast, an object or a whole clause while the finite verb remains second. Heavy clauses can be shifted to the postfield when reference remains clear.\n\nExamples:\n• Besonders problematisch ist die fehlende Datengrundlage.\n• Was die Finanzierung betrifft, bestehen noch offene Fragen.\n• Wir haben gestern erfahren, dass sich der Termin verschiebt."
+      }
+    },
+    {
+      "id": "c1_u01_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "das Vorfeld",
+        "ar": "das Vorfeld",
+        "en": "das Vorfeld"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "prefield",
+            "ar": "الموقع الأول في الجملة",
+            "en": "prefield"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "emphasize",
+            "ar": "يبرز",
+            "en": "emphasize"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weight",
+            "ar": "يرجّح/يوزّع الأهمية",
+            "en": "weight"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u01_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Besonders problematisch {answer} die fehlende Datengrundlage.",
+        "ar": "Besonders problematisch {answer} die fehlende Datengrundlage.",
+        "en": "Besonders problematisch {answer} die fehlende Datengrundlage."
+      },
+      "acceptedAnswers": [
+        "ist"
+      ]
+    },
+    {
+      "id": "c1_u01_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Informationsstruktur, Fokus & Satzrhythmus“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «بنية المعلومات والتركيز وإيقاع الجملة». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Information structure, focus & sentence rhythm”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u01_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U01_FOUNDATION"
+      ]
+    }
+  ]
+}

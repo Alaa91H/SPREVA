@@ -1,0 +1,154 @@
+{
+  "id": "c1_u08_l01",
+  "unitId": "de-core-c1-u08",
+  "title": {
+    "de": "Adressatenorientierung, Befund–Bewertung–Empfehlung und prägnanter Stil",
+    "ar": "مراعاة المتلقي وبنية النتيجة–التقييم–التوصية والأسلوب الموجز",
+    "en": "Audience focus, finding–assessment–recommendation and concise style"
+  },
+  "canDo": [
+    "C1_U08_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u08_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Adressatenorientierung, Befund–Bewertung–Empfehlung und prägnanter Stil",
+        "ar": "مراعاة المتلقي وبنية النتيجة–التقييم–التوصية والأسلوب الموجز",
+        "en": "Audience focus, finding–assessment–recommendation and concise style"
+      },
+      "body": {
+        "de": "C1-Kompetenzziel: Adressatenorientierung, Befund–Bewertung–Empfehlung und prägnanter Stil\n\nSystematische Erklärung:\nEin professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht für sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.\n\nReferenzbeispiele:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.\n\nAuthentische Einsatzfelder:\nProjekt, Verein, Unternehmen oder Verwaltung: aus längeren Informationen einen klaren Einseiter für eine Entscheidung erstellen.\n\nDiagnostischer Hinweis:\nKürze darf nicht durch Weglassen entscheidender Unsicherheit erkauft werden. Eine Executive Summary muss Risiken und Datenlücken knapp, aber sichtbar machen.",
+        "ar": "هدف C1: مراعاة المتلقي وبنية النتيجة–التقييم–التوصية والأسلوب الموجز\n\nشرح منهجي عميق:\nيفصل التقرير المهني بين الوقائع والتحليل والتوصية. يجب أن يكون الملخص التنفيذي قائمًا بذاته: السياق، أهم النتائج، معناها، المخاطر والخطوات التالية. رتب حسب الأهمية لا حسب الزمن، واربط الأرقام بفترة ومرجع والتوصيات بتعليل.\n\nأمثلة مرجعية:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.\n\nمجالات استخدام واقعية:\nفي مشروع أو جمعية أو شركة أو إدارة: تحويل معلومات طويلة إلى ملخص صفحة واحدة لاتخاذ قرار.\n\nملاحظة تشخيصية:\nلا ينبغي تحقيق الاختصار بحذف عدم اليقين المهم. يجب أن يذكر الملخص التنفيذي المخاطر وفجوات البيانات بإيجاز ووضوح.",
+        "en": "C1 competence goal: Audience focus, finding–assessment–recommendation and concise style\n\nSystematic explanation:\nA professional brief separates facts, analysis and recommendation. An executive summary should stand alone: context, key findings, significance, major risks and next steps. Prioritize rather than narrate chronologically. Figures need a reference and time period; recommendations need rationale and conditions.\n\nReference examples:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.\n\nAuthentic domains:\nProject, association, company or administration: turn longer material into a clear one-page decision brief.\n\nDiagnostic note:\nBrevity must not come at the cost of hiding material uncertainty. An executive summary should make risks and data gaps briefly visible."
+      }
+    },
+    {
+      "id": "c1_u08_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u08_l01_w1",
+          "german": "entscheidungsrelevant",
+          "translation": {
+            "de": "decision-relevant",
+            "ar": "مرتبط بالقرار",
+            "en": "decision-relevant"
+          }
+        },
+        {
+          "id": "c1_u08_l01_w2",
+          "german": "der Befund",
+          "translation": {
+            "de": "finding",
+            "ar": "النتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "c1_u08_l01_w3",
+          "german": "die Empfehlung",
+          "translation": {
+            "de": "recommendation",
+            "ar": "التوصية",
+            "en": "recommendation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u08_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nEin professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht für sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.\n\nBeispiele:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.",
+        "ar": "المبدأ الأساسي:\nيفصل التقرير المهني بين الوقائع والتحليل والتوصية. يجب أن يكون الملخص التنفيذي قائمًا بذاته: السياق، أهم النتائج، معناها، المخاطر والخطوات التالية. رتب حسب الأهمية لا حسب الزمن، واربط الأرقام بفترة ومرجع والتوصيات بتعليل.\n\nالأمثلة:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.",
+        "en": "Core principle:\nA professional brief separates facts, analysis and recommendation. An executive summary should stand alone: context, key findings, significance, major risks and next steps. Prioritize rather than narrate chronologically. Figures need a reference and time period; recommendations need rationale and conditions.\n\nExamples:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien."
+      }
+    },
+    {
+      "id": "c1_u08_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "entscheidungsrelevant",
+        "ar": "entscheidungsrelevant",
+        "en": "entscheidungsrelevant"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "decision-relevant",
+            "ar": "مرتبط بالقرار",
+            "en": "decision-relevant"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "finding",
+            "ar": "النتيجة",
+            "en": "finding"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "recommendation",
+            "ar": "التوصية",
+            "en": "recommendation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u08_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Für die Entscheidung besonders {answer} ist der Kostenanstieg.",
+        "ar": "Für die Entscheidung besonders {answer} ist der Kostenanstieg.",
+        "en": "Für die Entscheidung besonders {answer} ist der Kostenanstieg."
+      },
+      "acceptedAnswers": [
+        "relevant"
+      ]
+    },
+    {
+      "id": "c1_u08_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Berichte, Memos & Executive Summary“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «التقارير والمذكرات والملخص التنفيذي». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Reports, memos & executive summaries”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u08_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U08_FOUNDATION"
+      ]
+    }
+  ]
+}

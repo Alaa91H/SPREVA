@@ -1,0 +1,154 @@
+{
+  "id": "c1_u08_l02",
+  "unitId": "de-core-c1-u08",
+  "title": {
+    "de": "Komplexe Sachverhalte für Entscheider verdichten",
+    "ar": "تكثيف موضوعات معقدة لصناع القرار",
+    "en": "Condensing complex issues for decision-makers"
+  },
+  "canDo": [
+    "C1_U08_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "c1_u08_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe Sachverhalte für Entscheider verdichten",
+        "ar": "تكثيف موضوعات معقدة لصناع القرار",
+        "en": "Condensing complex issues for decision-makers"
+      },
+      "body": {
+        "de": "Authentische C1-Situation:\nProjekt, Verein, Unternehmen oder Verwaltung: aus längeren Informationen einen klaren Einseiter für eine Entscheidung erstellen.\n\nModelldialog:\nA: Muss die Zusammenfassung alle Details enthalten?\nB: Nein. Sie muss die entscheidungsrelevanten Punkte vollständig, aber knapp abbilden.\nA: Was kommt in den Anhang?\nB: Methoden, Detailtabellen und Belege, die für die Kernaussage nicht unmittelbar nötig sind.\n\nStrategische Sprachentscheidung:\nEin professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht für sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.\n\nTransfer: Reagiere auf dieselbe Situation aus einer zweiten Rolle. Markiere anschließend, welche Formulierungen Fakten, Quellen, Unsicherheit, Bewertung und Handlungsvorschläge ausdrücken.",
+        "ar": "موقف C1 واقعي:\nفي مشروع أو جمعية أو شركة أو إدارة: تحويل معلومات طويلة إلى ملخص صفحة واحدة لاتخاذ قرار.\n\nحوار نموذجي:\nA: Muss die Zusammenfassung alle Details enthalten?\nB: Nein. Sie muss die entscheidungsrelevanten Punkte vollständig, aber knapp abbilden.\nA: Was kommt in den Anhang?\nB: Methoden, Detailtabellen und Belege, die für die Kernaussage nicht unmittelbar nötig sind.\n\nالقرار اللغوي الاستراتيجي:\nيفصل التقرير المهني بين الوقائع والتحليل والتوصية. يجب أن يكون الملخص التنفيذي قائمًا بذاته: السياق، أهم النتائج، معناها، المخاطر والخطوات التالية. رتب حسب الأهمية لا حسب الزمن، واربط الأرقام بفترة ومرجع والتوصيات بتعليل.\n\nتطبيق: أعد الموقف من دور ثانٍ ثم حدد العبارات التي تعبر عن الوقائع والمصادر وعدم اليقين والتقييم واقتراح العمل.",
+        "en": "Authentic C1 situation:\nProject, association, company or administration: turn longer material into a clear one-page decision brief.\n\nModel dialogue:\nA: Muss die Zusammenfassung alle Details enthalten?\nB: Nein. Sie muss die entscheidungsrelevanten Punkte vollständig, aber knapp abbilden.\nA: Was kommt in den Anhang?\nB: Methoden, Detailtabellen und Belege, die für die Kernaussage nicht unmittelbar nötig sind.\n\nStrategic language choice:\nA professional brief separates facts, analysis and recommendation. An executive summary should stand alone: context, key findings, significance, major risks and next steps. Prioritize rather than narrate chronologically. Figures need a reference and time period; recommendations need rationale and conditions.\n\nTransfer: Respond from a second role, then label expressions of fact, source, uncertainty, evaluation and recommended action."
+      }
+    },
+    {
+      "id": "c1_u08_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u08_l02_w1",
+          "german": "das Risiko",
+          "translation": {
+            "de": "risk",
+            "ar": "المخاطرة",
+            "en": "risk"
+          }
+        },
+        {
+          "id": "c1_u08_l02_w2",
+          "german": "der nächste Schritt",
+          "translation": {
+            "de": "next step",
+            "ar": "الخطوة التالية",
+            "en": "next step"
+          }
+        },
+        {
+          "id": "c1_u08_l02_w3",
+          "german": "prägnant",
+          "translation": {
+            "de": "concise",
+            "ar": "موجز ودقيق",
+            "en": "concise"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u08_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Feinanalyse & Stilentscheidung",
+        "ar": "التحليل الدقيق والاختيار الأسلوبي",
+        "en": "Fine analysis & stylistic choice"
+      },
+      "body": {
+        "de": "Kernprinzip:\nEin professioneller Kurzbericht trennt Fakten, Analyse und Empfehlung. Eine Executive Summary steht für sich: Ausgangslage, wichtigste Befunde, Bedeutung, zentrale Risiken und nächste Schritte. Aussagen sollten priorisiert statt chronologisch erzählt werden. Zahlen brauchen Bezugsgröße und Zeitraum; Empfehlungen brauchen Begründung und ggf. Bedingungen.\n\nBeispiele:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.",
+        "ar": "المبدأ الأساسي:\nيفصل التقرير المهني بين الوقائع والتحليل والتوصية. يجب أن يكون الملخص التنفيذي قائمًا بذاته: السياق، أهم النتائج، معناها، المخاطر والخطوات التالية. رتب حسب الأهمية لا حسب الزمن، واربط الأرقام بفترة ومرجع والتوصيات بتعليل.\n\nالأمثلة:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien.",
+        "en": "Core principle:\nA professional brief separates facts, analysis and recommendation. An executive summary should stand alone: context, key findings, significance, major risks and next steps. Prioritize rather than narrate chronologically. Figures need a reference and time period; recommendations need rationale and conditions.\n\nExamples:\n• Die Auswertung zeigt drei zentrale Probleme.\n• Für die Entscheidung besonders relevant ist der Anstieg der Bearbeitungszeit um 18 Prozent seit Januar.\n• Empfohlen wird ein Pilotversuch unter klar definierten Erfolgskriterien."
+      }
+    },
+    {
+      "id": "c1_u08_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt am präzisesten?",
+        "ar": "ما المعنى/الوظيفة الأدق؟",
+        "en": "Which meaning/function is most precise?"
+      },
+      "question": {
+        "de": "das Risiko",
+        "ar": "das Risiko",
+        "en": "das Risiko"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "risk",
+            "ar": "المخاطرة",
+            "en": "risk"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "next step",
+            "ar": "الخطوة التالية",
+            "en": "next step"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "concise",
+            "ar": "موجز ودقيق",
+            "en": "concise"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u08_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Empfohlen {answer} ein begrenzter Pilotversuch.",
+        "ar": "Empfohlen {answer} ein begrenzter Pilotversuch.",
+        "en": "Empfohlen {answer} ein begrenzter Pilotversuch."
+      },
+      "acceptedAnswers": [
+        "wird"
+      ]
+    },
+    {
+      "id": "c1_u08_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "C1-Produktion, Synthese & Revision",
+        "ar": "إنتاج C1 والتركيب والمراجعة",
+        "en": "C1 production, synthesis & revision"
+      },
+      "body": {
+        "de": "C1-Leistungsaufgabe: Verfasse 200–260 Wörter oder halte eine vierminütige strukturierte Stellungnahme zu „Berichte, Memos & Executive Summary“. Integriere mindestens vier Zielstrukturen, eine qualifizierte Gegenposition, einen Quellen- oder Evidenzhinweis und eine präzise Einschränkung. Überarbeite anschließend Informationsstruktur, Kollokationen, Register, Referenzen und Kürze.",
+        "ar": "مهمة أداء C1: اكتب 200–260 كلمة أو قدم موقفًا منظمًا لأربع دقائق حول «التقارير والمذكرات والملخص التنفيذي». استخدم أربع بنيات مستهدفة على الأقل، واعرض رأيًا مضادًا منصفًا، وإشارة إلى مصدر أو دليل، وقيدًا دقيقًا. ثم راجع بنية المعلومات والمتلازمات والسجل والإحالات والاختصار.",
+        "en": "C1 performance task: Write 200–260 words or deliver a four-minute structured position on “Reports, memos & executive summaries”. Integrate at least four target structures, a qualified counterposition, a source/evidence marker and a precise limitation. Then revise information structure, collocations, register, references and concision."
+      }
+    },
+    {
+      "id": "c1_u08_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Kompetenz konsolidiert",
+        "ar": "تم ترسيخ كفاءة C1",
+        "en": "C1 competence consolidated"
+      },
+      "canDo": [
+        "C1_U08_REAL_LIFE"
+      ]
+    }
+  ]
+}
