@@ -1,0 +1,296 @@
+{
+  "id": "a2_u01_l03",
+  "unitId": "de-core-a2-u01",
+  "title": {
+    "de": "Intensivtraining: Vergangenheit mit Perfekt",
+    "ar": "تدريب مكثف: الماضي بصيغة Perfekt",
+    "en": "Mastery lab: Past tense with Perfekt"
+  },
+  "canDo": [
+    "A2_U01_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u01_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Vergangenheit mit Perfekt“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «الماضي بصيغة Perfekt». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Past tense with Perfekt”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u01_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u01_l03_w1",
+          "german": "gestern",
+          "translation": {
+            "de": "yesterday",
+            "ar": "أمس",
+            "en": "yesterday"
+          }
+        },
+        {
+          "id": "a2_u01_l03_w2",
+          "german": "das Wochenende",
+          "translation": {
+            "de": "weekend",
+            "ar": "عطلة نهاية الأسبوع",
+            "en": "weekend"
+          }
+        },
+        {
+          "id": "a2_u01_l03_w3",
+          "german": "erleben",
+          "translation": {
+            "de": "experience",
+            "ar": "يعيش تجربة",
+            "en": "experience"
+          }
+        },
+        {
+          "id": "a2_u01_l03_w4",
+          "german": "besuchen",
+          "translation": {
+            "de": "visit",
+            "ar": "يزور",
+            "en": "visit"
+          }
+        },
+        {
+          "id": "a2_u01_l03_w5",
+          "german": "fahren",
+          "translation": {
+            "de": "travel/drive",
+            "ar": "يسافر / يقود",
+            "en": "travel/drive"
+          }
+        },
+        {
+          "id": "a2_u01_l03_w6",
+          "german": "treffen",
+          "translation": {
+            "de": "meet",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u01_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} gestern lange gearbeitet.",
+        "ar": "Ich {answer} gestern lange gearbeitet.",
+        "en": "Ich {answer} gestern lange gearbeitet."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a2_u01_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir sind nach Berlin {answer}.",
+        "ar": "Wir sind nach Berlin {answer}.",
+        "en": "Wir sind nach Berlin {answer}."
+      },
+      "acceptedAnswers": [
+        "gefahren"
+      ]
+    },
+    {
+      "id": "a2_u01_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Perfekt besteht aus haben/sein auf Position 2 und dem Partizip II am Satzende. Bewegungs- und Zustandswechselverben verwenden häufig sein: Ich bin gefahren. Viele andere Verben verwenden haben: Ich habe gearbeitet. Trennbare Verben bilden oft ge- zwischen Präfix und Stamm: eingekauft.",
+        "ar": "{answer} Perfekt besteht aus haben/sein auf Position 2 und dem Partizip II am Satzende. Bewegungs- und Zustandswechselverben verwenden häufig sein: Ich bin gefahren. Viele andere Verben verwenden haben: Ich habe gearbeitet. Trennbare Verben bilden oft ge- zwischen Präfix und Stamm: eingekauft.",
+        "en": "{answer} Perfekt besteht aus haben/sein auf Position 2 und dem Partizip II am Satzende. Bewegungs- und Zustandswechselverben verwenden häufig sein: Ich bin gefahren. Viele andere Verben verwenden haben: Ich habe gearbeitet. Trennbare Verben bilden oft ge- zwischen Präfix und Stamm: eingekauft."
+      },
+      "acceptedAnswers": [
+        "Das"
+      ]
+    },
+    {
+      "id": "a2_u01_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe {answer} Samstag gearbeitet.",
+        "ar": "Ich habe {answer} Samstag gearbeitet.",
+        "en": "Ich habe {answer} Samstag gearbeitet."
+      },
+      "acceptedAnswers": [
+        "am"
+      ]
+    },
+    {
+      "id": "a2_u01_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir sind {answer} Hamburg gefahren.",
+        "ar": "Wir sind {answer} Hamburg gefahren.",
+        "en": "Wir sind {answer} Hamburg gefahren."
+      },
+      "acceptedAnswers": [
+        "nach"
+      ]
+    },
+    {
+      "id": "a2_u01_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Abend habe ich Freunde getroffen.",
+        "ar": "{answer} Abend habe ich Freunde getroffen.",
+        "en": "{answer} Abend habe ich Freunde getroffen."
+      },
+      "acceptedAnswers": [
+        "Am"
+      ]
+    },
+    {
+      "id": "a2_u01_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "gestern",
+        "ar": "gestern",
+        "en": "gestern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "yesterday",
+            "ar": "أمس",
+            "en": "yesterday"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "weekend",
+            "ar": "عطلة نهاية الأسبوع",
+            "en": "weekend"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "experience",
+            "ar": "يعيش تجربة",
+            "en": "experience"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u01_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "besuchen",
+        "ar": "besuchen",
+        "en": "besuchen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "visit",
+            "ar": "يزور",
+            "en": "visit"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "travel/drive",
+            "ar": "يسافر / يقود",
+            "en": "travel/drive"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "meet",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u01_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Das Perfekt besteht aus haben/sein auf Position 2 und dem Partizip II am Satzende. Bewegungs- und Zustandswechselverben verwenden häufig sein: Ich bin gefahren. Viele andere Verben verwenden haben: Ich habe gearbeitet. Trennbare Verben bilden oft ge- zwischen Präfix und Stamm: eingekauft.\n2. Ich habe am Samstag gearbeitet.\n3. Wir sind nach Hamburg gefahren.\n4. Am Abend habe ich Freunde getroffen.\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. Das Perfekt besteht aus haben/sein auf Position 2 und dem Partizip II am Satzende. Bewegungs- und Zustandswechselverben verwenden häufig sein: Ich bin gefahren. Viele andere Verben verwenden haben: Ich habe gearbeitet. Trennbare Verben bilden oft ge- zwischen Präfix und Stamm: eingekauft.\n2. Ich habe am Samstag gearbeitet.\n3. Wir sind nach Hamburg gefahren.\n4. Am Abend habe ich Freunde getroffen.\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا متأثرًا باللغة الأم، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. Das Perfekt besteht aus haben/sein auf Position 2 und dem Partizip II am Satzende. Bewegungs- und Zustandswechselverben verwenden häufig sein: Ich bin gefahren. Viele andere Verben verwenden haben: Ich habe gearbeitet. Trennbare Verben bilden oft ge- zwischen Präfix und Stamm: eingekauft.\n2. Ich habe am Samstag gearbeitet.\n3. Wir sind nach Hamburg gefahren.\n4. Am Abend habe ich Freunde getroffen.\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u01_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren. Zu jeder Änderung die Regel laut begründen.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات بعد تغيير بداية الجملة. علّل كل تغيير.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order after changing the prefield. Explain every change."
+      }
+    },
+    {
+      "id": "a2_u01_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; nach 10–20 Minuten neue Beispiele; am nächsten Lerntag gemischt mit einer älteren Kasus-/Tempusregel; schließlich in einer realen Nachricht oder einem Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ بعد 10–20 دقيقة أنشئ أمثلة جديدة؛ في يوم التعلم التالي امزجها مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve now unaided; after 10–20 minutes create new examples; next study day interleave with an older case/tense rule; finally use it in a real message or role-play."
+      }
+    },
+    {
+      "id": "a2_u01_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U01_MASTERY"
+      ]
+    }
+  ]
+}
