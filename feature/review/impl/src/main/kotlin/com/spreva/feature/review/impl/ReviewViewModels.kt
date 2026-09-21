@@ -6,6 +6,14 @@ import com.spreva.core.audio.CourseAudioPlayer
 import com.spreva.core.common.AppClock
 import com.spreva.core.model.ReviewCard
 import com.spreva.core.model.ReviewRating
+import com.spreva.core.model.CefrLevel
+import com.spreva.core.model.LearningProfile
+import com.spreva.core.model.PlacementAnswer
+import com.spreva.core.model.PlacementDecision
+import com.spreva.core.model.PlacementQuestion
+import com.spreva.domain.learning.AdaptivePlacementEngine
+import com.spreva.domain.learning.LearningIntelligenceRepository
+import com.spreva.domain.learning.PlacementQuestionRepository
 import com.spreva.domain.review.GetDueReviews
 import com.spreva.domain.review.GradeReview
 import com.spreva.domain.review.ReviewQueue
@@ -22,6 +30,7 @@ import kotlinx.coroutines.launch
 @HiltViewModel
 class PracticeViewModel @Inject constructor(
     reviewRepository: com.spreva.domain.review.ReviewRepository,
+    intelligenceRepository: LearningIntelligenceRepository,
     clock: AppClock,
 ) : ViewModel() {
 
@@ -29,6 +38,9 @@ class PracticeViewModel @Inject constructor(
 
     val dueCount: StateFlow<Int> = reviewRepository.observeDueCount(nowEpochMs)
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), 0)
+
+    val profile: StateFlow<LearningProfile> = intelligenceRepository.observeProfile()
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), LearningProfile())
 }
 
 /**
@@ -118,5 +130,97 @@ class ReviewSessionViewModel @Inject constructor(
     override fun onCleared() {
         courseAudioPlayer.stop()
         super.onCleared()
+    }
+}
+
+
+data class PlacementUiState(
+    val isLoading: Boolean = true,
+    val error: String? = null,
+    val questions: Map<CefrLevel, List<PlacementQuestion>> = emptyMap(),
+    val history: List<PlacementAnswer> = emptyList(),
+    val currentLevel: CefrLevel = CefrLevel.B1,
+    val selectedOptionId: String? = null,
+    val result: PlacementDecision? = null,
+) {
+    val currentQuestion: PlacementQuestion?
+        get() {
+            val answeredHere = history.count { it.level == currentLevel }
+            return questions[currentLevel]?.getOrNull(answeredHere)
+        }
+}
+
+@HiltViewModel
+class PlacementViewModel @Inject constructor(
+    private val questionRepository: PlacementQuestionRepository,
+    private val engine: AdaptivePlacementEngine,
+) : ViewModel() {
+
+    private val _state = MutableStateFlow(PlacementUiState())
+    val state: StateFlow<PlacementUiState> = _state.asStateFlow()
+
+    init {
+        viewModelScope.launch {
+            runCatching { questionRepository.questions() }
+                .onSuccess { all ->
+                    val grouped = all.groupBy { it.level }
+                    val missing = AdaptivePlacementEngine.LEVELS.filter {
+                        grouped[it].orEmpty().size < AdaptivePlacementEngine.BUNDLE_SIZE
+                    }
+                    if (missing.isNotEmpty()) {
+                        _state.value = PlacementUiState(
+                            isLoading = false,
+                            error = "Placement bank missing questions for: ${missing.joinToString()}",
+                        )
+                    } else {
+                        val start = engine.decide(emptyList()).nextLevel ?: CefrLevel.B1
+                        _state.value = PlacementUiState(
+                            isLoading = false,
+                            questions = grouped,
+                            currentLevel = start,
+                        )
+                    }
+                }
+                .onFailure {
+                    _state.value = PlacementUiState(
+                        isLoading = false,
+                        error = it.message ?: "Placement bank failed to load",
+                    )
+                }
+        }
+    }
+
+    fun selectOption(id: String) {
+        if (_state.value.result?.finished == true) return
+        _state.value = _state.value.copy(selectedOptionId = id)
+    }
+
+    fun submit() {
+        val state = _state.value
+        val question = state.currentQuestion ?: return
+        val selected = state.selectedOptionId ?: return
+        val answer = PlacementAnswer(
+            questionId = question.id,
+            level = question.level,
+            correct = selected == question.correctOptionId,
+        )
+        val history = state.history + answer
+        val decision = engine.decide(history)
+        _state.value = state.copy(
+            history = history,
+            currentLevel = decision.nextLevel ?: state.currentLevel,
+            selectedOptionId = null,
+            result = decision.takeIf { it.finished },
+        )
+    }
+
+    fun restart() {
+        val start = engine.decide(emptyList()).nextLevel ?: CefrLevel.B1
+        _state.value = _state.value.copy(
+            history = emptyList(),
+            currentLevel = start,
+            selectedOptionId = null,
+            result = null,
+        )
     }
 }
