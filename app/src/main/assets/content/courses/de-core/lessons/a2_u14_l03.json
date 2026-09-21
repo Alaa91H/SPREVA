@@ -1,0 +1,296 @@
+{
+  "id": "a2_u14_l03",
+  "unitId": "de-core-a2-u14",
+  "title": {
+    "de": "Integrations-Mastery",
+    "ar": "إتقان التكامل",
+    "en": "Integration mastery"
+  },
+  "canDo": [
+    "A2_U14_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u14_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Mastery",
+        "ar": "إتقان التكامل",
+        "en": "Integration mastery"
+      },
+      "body": {
+        "de": "Mastery-Ziel: Simuliere Bewerbung mit Lebenslauf, Erfahrung, Terminvereinbarung und höflicher Rückfrage. Löse zuerst ohne Hilfe, erkläre danach die Regel und bilde eine zweite korrekte Variante.",
+        "ar": "هدف الإتقان: Simuliere Bewerbung mit Lebenslauf, Erfahrung, Terminvereinbarung und höflicher Rückfrage. حل أولًا دون مساعدة، ثم اشرح القاعدة وأنشئ صيغة صحيحة ثانية.",
+        "en": "Mastery goal: Simuliere Bewerbung mit Lebenslauf, Erfahrung, Terminvereinbarung und höflicher Rückfrage. Solve unaided first, then explain the rule and create a second correct variant."
+      }
+    },
+    {
+      "id": "a2_u14_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u14_l03_w1",
+          "german": "eingereicht",
+          "translation": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "a2_u14_l03_w2",
+          "german": "reparieren",
+          "translation": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "a2_u14_l03_w3",
+          "german": "bewerben",
+          "translation": {
+            "de": "bewerben",
+            "ar": "يتقدم لوظيفة",
+            "en": "apply"
+          }
+        },
+        {
+          "id": "a2_u14_l03_w4",
+          "german": "Verspätung",
+          "translation": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "a2_u14_l03_w5",
+          "german": "weil",
+          "translation": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "a2_u14_l03_w6",
+          "german": "trotzdem",
+          "translation": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u14_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich suche eine Wohnung, {answer} ruhig ist.",
+        "ar": "Ich suche eine Wohnung, {answer} ruhig ist.",
+        "en": "Ich suche eine Wohnung, {answer} ruhig ist."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "a2_u14_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir wohnen in einer {answer} Wohnung.",
+        "ar": "Wir wohnen in einer {answer} Wohnung.",
+        "en": "Wir wohnen in einer {answer} Wohnung."
+      },
+      "acceptedAnswers": [
+        "kleinen"
+      ]
+    },
+    {
+      "id": "a2_u14_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist der Mann, {answer} hier arbeitet.",
+        "ar": "Das ist der Mann, {answer} hier arbeitet.",
+        "en": "Das ist der Mann, {answer} hier arbeitet."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u14_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte mich um die Stelle {answer}.",
+        "ar": "Ich möchte mich um die Stelle {answer}.",
+        "en": "Ich möchte mich um die Stelle {answer}."
+      },
+      "acceptedAnswers": [
+        "bewerben"
+      ]
+    },
+    {
+      "id": "a2_u14_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Im Anhang finden Sie meinen {answer}.",
+        "ar": "Im Anhang finden Sie meinen {answer}.",
+        "en": "Im Anhang finden Sie meinen {answer}."
+      },
+      "acceptedAnswers": [
+        "Lebenslauf"
+      ]
+    },
+    {
+      "id": "a2_u14_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe zwei Jahre {answer}.",
+        "ar": "Ich habe zwei Jahre {answer}.",
+        "en": "Ich habe zwei Jahre {answer}."
+      },
+      "acceptedAnswers": [
+        "Erfahrung"
+      ]
+    },
+    {
+      "id": "a2_u14_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Verspätung",
+        "ar": "Verspätung",
+        "en": "Verspätung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "weil",
+        "ar": "weil",
+        "en": "weil"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerprotokoll",
+        "ar": "سجل الأخطاء",
+        "en": "Error log"
+      },
+      "body": {
+        "de": "Notiere für jede falsche Antwort: meine Form → korrekte Form → Regel → neues eigenes Beispiel. Wiederhole nur die Fehler nach einer Pause.",
+        "ar": "لكل إجابة خاطئة اكتب: صيغتي ← الصيغة الصحيحة ← القاعدة ← مثال جديد. أعد الأخطاء فقط بعد فاصل.",
+        "en": "For every wrong answer record: my form → correct form → rule → new example. Repeat only the errors after a delay."
+      }
+    },
+    {
+      "id": "a2_u14_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving",
+        "ar": "تداخل القواعد",
+        "en": "Interleaving"
+      },
+      "body": {
+        "de": "Mische die sechs Zielstrukturen neu und löse sie in zufälliger Reihenfolge. Nenne vor jeder Antwort die vermutete Regel.",
+        "ar": "امزج البنيات الست وأجب بترتيب عشوائي. قبل كل إجابة سمِّ القاعدة التي تعتقد أنها مطلوبة.",
+        "en": "Shuffle the six target structures and solve them in random order. Name the expected rule before answering."
+      }
+    },
+    {
+      "id": "a2_u14_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Freie Produktion",
+        "ar": "إنتاج حر",
+        "en": "Free production"
+      },
+      "body": {
+        "de": "Simuliere Bewerbung mit Lebenslauf, Erfahrung, Terminvereinbarung und höflicher Rückfrage.",
+        "ar": "Simuliere Bewerbung mit Lebenslauf, Erfahrung, Terminvereinbarung und höflicher Rückfrage.",
+        "en": "Simuliere Bewerbung mit Lebenslauf, Erfahrung, Terminvereinbarung und höflicher Rückfrage."
+      }
+    },
+    {
+      "id": "a2_u14_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Integrations-Mastery",
+        "ar": "إتقان تكامل A2",
+        "en": "A2 integration mastery"
+      },
+      "canDo": [
+        "A2_U14_MASTERY"
+      ]
+    }
+  ]
+}

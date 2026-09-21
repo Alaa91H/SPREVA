@@ -1,0 +1,268 @@
+{
+  "id": "b1_u14_l02",
+  "unitId": "de-core-b1-u14",
+  "title": {
+    "de": "Real-Life Mission",
+    "ar": "مهمة واقعية متكاملة",
+    "en": "Real-life mission"
+  },
+  "canDo": [
+    "B1_U14_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u14_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Mission",
+        "ar": "مهمة واقعية متكاملة",
+        "en": "Real-life mission"
+      },
+      "body": {
+        "de": "Realistische Kette: Leite eine kurze Besprechung mit Vorschlag, Einwand, Kompromiss, Aufgabenverteilung und Frist. Jede Antwort verändert die nächste Situation. Wiederhole mit neuen Daten und Rollen.",
+        "ar": "سلسلة واقعية: Leite eine kurze Besprechung mit Vorschlag, Einwand, Kompromiss, Aufgabenverteilung und Frist. كل إجابة تغيّر الموقف التالي. أعد المهمة ببيانات وأدوار جديدة.",
+        "en": "Realistic chain: Leite eine kurze Besprechung mit Vorschlag, Einwand, Kompromiss, Aufgabenverteilung und Frist. Each response changes the next situation. Repeat with new data and roles."
+      }
+    },
+    {
+      "id": "b1_u14_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u14_l02_w1",
+          "german": "Vorgang",
+          "translation": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b1_u14_l02_w2",
+          "german": "zuständig",
+          "translation": {
+            "de": "zuständig",
+            "ar": "مختص",
+            "en": "responsible"
+          }
+        },
+        {
+          "id": "b1_u14_l02_w3",
+          "german": "Vorschlag",
+          "translation": {
+            "de": "Vorschlag",
+            "ar": "اقتراح",
+            "en": "proposal"
+          }
+        },
+        {
+          "id": "b1_u14_l02_w4",
+          "german": "Überweisung",
+          "translation": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "b1_u14_l02_w5",
+          "german": "begründen",
+          "translation": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "b1_u14_l02_w6",
+          "german": "zusammenfassend",
+          "translation": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u14_l02_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir suchen einen {answer} Mitarbeiter.",
+        "ar": "Wir suchen einen {answer} Mitarbeiter.",
+        "en": "Wir suchen einen {answer} Mitarbeiter."
+      },
+      "acceptedAnswers": [
+        "zuverlässigen"
+      ]
+    },
+    {
+      "id": "b1_u14_l02_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich warte {answer} eine Antwort.",
+        "ar": "Ich warte {answer} eine Antwort.",
+        "en": "Ich warte {answer} eine Antwort."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "b1_u14_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Worauf wartest du? Ich warte {answer}.",
+        "ar": "Worauf wartest du? Ich warte {answer}.",
+        "en": "Worauf wartest du? Ich warte {answer}."
+      },
+      "acceptedAnswers": [
+        "darauf"
+      ]
+    },
+    {
+      "id": "b1_u14_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist die Entscheidung {answer} Amtes.",
+        "ar": "Das ist die Entscheidung {answer} Amtes.",
+        "en": "Das ist die Entscheidung {answer} Amtes."
+      },
+      "acceptedAnswers": [
+        "des"
+      ]
+    },
+    {
+      "id": "b1_u14_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich spreche mit dem {answer}.",
+        "ar": "Ich spreche mit dem {answer}.",
+        "en": "Ich spreche mit dem {answer}."
+      },
+      "acceptedAnswers": [
+        "Kunden"
+      ]
+    },
+    {
+      "id": "b1_u14_l02_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Firma, bei {answer} ich arbeite, wächst.",
+        "ar": "Die Firma, bei {answer} ich arbeite, wächst.",
+        "en": "Die Firma, bei {answer} ich arbeite, wächst."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b1_u14_l02_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Überweisung",
+        "ar": "Überweisung",
+        "en": "Überweisung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l02_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "begründen",
+        "ar": "begründen",
+        "en": "begründen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l02_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Leite eine kurze Besprechung mit Vorschlag, Einwand, Kompromiss, Aufgabenverteilung und Frist.",
+        "ar": "Leite eine kurze Besprechung mit Vorschlag, Einwand, Kompromiss, Aufgabenverteilung und Frist.",
+        "en": "Leite eine kurze Besprechung mit Vorschlag, Einwand, Kompromiss, Aufgabenverteilung und Frist."
+      }
+    },
+    {
+      "id": "b1_u14_l02_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Integration gesichert",
+        "ar": "تم تثبيت تكامل B1",
+        "en": "B1 integration secured"
+      },
+      "canDo": [
+        "B1_U14_REAL_LIFE"
+      ]
+    }
+  ]
+}

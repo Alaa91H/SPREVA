@@ -1,0 +1,378 @@
+{
+  "id": "b2_u15_l04",
+  "unitId": "de-core-b2-u15",
+  "title": {
+    "de": "Integrations-Casebook",
+    "ar": "دفتر حالات التكامل",
+    "en": "Integration casebook"
+  },
+  "canDo": [
+    "B2_U15_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u15_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Casebook",
+        "ar": "دفتر حالات التكامل",
+        "en": "Integration casebook"
+      },
+      "body": {
+        "de": "Casebook-Ziel: Bewerte eine technische oder städtische Maßnahme mit Kosten, Nutzen, Verteilung, Evidenz und Unsicherheit. Trenne Fehler in Grammatik, Bedeutung, Register und Informationsstruktur; korrigiere anschließend minimal und vollständig.",
+        "ar": "هدف دفتر الحالات: Bewerte eine technische oder städtische Maßnahme mit Kosten, Nutzen, Verteilung, Evidenz und Unsicherheit. صنّف الأخطاء إلى نحو ومعنى وسجل وبنية معلومات، ثم صحح بأقل تغيير وبصياغة كاملة.",
+        "en": "Casebook goal: Bewerte eine technische oder städtische Maßnahme mit Kosten, Nutzen, Verteilung, Evidenz und Unsicherheit. Classify errors into grammar, meaning, register and information structure, then repair minimally and fully."
+      }
+    },
+    {
+      "id": "b2_u15_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u15_l04_w1",
+          "german": "Evidenz",
+          "translation": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "b2_u15_l04_w2",
+          "german": "Einschränkung",
+          "translation": {
+            "de": "Einschränkung",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        },
+        {
+          "id": "b2_u15_l04_w3",
+          "german": "Zugeständnis",
+          "translation": {
+            "de": "Zugeständnis",
+            "ar": "تنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "b2_u15_l04_w4",
+          "german": "Kündigungsfrist",
+          "translation": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "b2_u15_l04_w5",
+          "german": "nahelegen",
+          "translation": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "b2_u15_l04_w6",
+          "german": "abwägen",
+          "translation": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u15_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bitte prüfen Sie die {answer}.",
+        "ar": "Bitte prüfen Sie die {answer}.",
+        "en": "Bitte prüfen Sie die {answer}."
+      },
+      "acceptedAnswers": [
+        "Kündigungsfrist"
+      ]
+    },
+    {
+      "id": "b2_u15_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beschäftigte sind {answer}, Änderungen mitzuteilen.",
+        "ar": "Beschäftigte sind {answer}, Änderungen mitzuteilen.",
+        "en": "Beschäftigte sind {answer}, Änderungen mitzuteilen."
+      },
+      "acceptedAnswers": [
+        "verpflichtet"
+      ]
+    },
+    {
+      "id": "b2_u15_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten werden lokal {answer}.",
+        "ar": "Die Daten werden lokal {answer}.",
+        "en": "Die Daten werden lokal {answer}."
+      },
+      "acceptedAnswers": [
+        "verarbeitet"
+      ]
+    },
+    {
+      "id": "b2_u15_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf.",
+        "ar": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf.",
+        "en": "Der Fehler tritt {answer} nur unter bestimmten Bedingungen auf."
+      },
+      "acceptedAnswers": [
+        "vermutlich"
+      ]
+    },
+    {
+      "id": "b2_u15_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kurzfristig entstehen Kosten; {answer} könnten Vorteile folgen.",
+        "ar": "Kurzfristig entstehen Kosten; {answer} könnten Vorteile folgen.",
+        "en": "Kurzfristig entstehen Kosten; {answer} könnten Vorteile folgen."
+      },
+      "acceptedAnswers": [
+        "langfristig"
+      ]
+    },
+    {
+      "id": "b2_u15_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Hier besteht ein {answer} zwischen Effizienz und Verteilung.",
+        "ar": "Hier besteht ein {answer} zwischen Effizienz und Verteilung.",
+        "en": "Hier besteht ein {answer} zwischen Effizienz und Verteilung."
+      },
+      "acceptedAnswers": [
+        "Zielkonflikt"
+      ]
+    },
+    {
+      "id": "b2_u15_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Kündigungsfrist",
+        "ar": "Kündigungsfrist",
+        "en": "Kündigungsfrist"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "nahelegen",
+        "ar": "nahelegen",
+        "en": "nahelegen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "abwägen",
+        "ar": "abwägen",
+        "en": "abwägen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Einschränkung",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Evidenz",
+        "ar": "Evidenz",
+        "en": "Evidenz"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Einschränkung",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zugeständnis",
+            "ar": "تنازل",
+            "en": "concession"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastdiagnose",
+        "ar": "تشخيص الفروق",
+        "en": "Contrast diagnosis"
+      },
+      "body": {
+        "de": "Nimm jede Lösung und formuliere eine sehr ähnliche, aber falsche oder unpassende Variante. Erkläre exakt, welcher Faktor den Unterschied macht.",
+        "ar": "لكل حل أنشئ صيغة شديدة الشبه لكنها خاطئة أو غير مناسبة، واشرح العامل الذي أحدث الفرق بدقة.",
+        "en": "For each solution create a very similar but wrong or inappropriate variant and explain exactly which factor creates the difference."
+      }
+    },
+    {
+      "id": "b2_u15_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Prüfungssimulation",
+        "ar": "محاكاة اختبار",
+        "en": "Exam simulation"
+      },
+      "body": {
+        "de": "Bearbeite alle Fälle ohne Zurückspringen. Danach zweite Runde nur mit den unsicheren Aufgaben und begründe jede Änderung.",
+        "ar": "حل جميع الحالات دون الرجوع للخلف. ثم جولة ثانية فقط للمهام غير المؤكدة مع تعليل كل تغيير.",
+        "en": "Complete all cases without going back. Then do a second pass only on uncertain items and justify every change."
+      }
+    },
+    {
+      "id": "b2_u15_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "Abschlussleistung",
+        "ar": "المهمة الختامية",
+        "en": "Final performance"
+      },
+      "body": {
+        "de": "Bewerte eine technische oder städtische Maßnahme mit Kosten, Nutzen, Verteilung, Evidenz und Unsicherheit.",
+        "ar": "Bewerte eine technische oder städtische Maßnahme mit Kosten, Nutzen, Verteilung, Evidenz und Unsicherheit.",
+        "en": "Bewerte eine technische oder städtische Maßnahme mit Kosten, Nutzen, Verteilung, Evidenz und Unsicherheit."
+      }
+    },
+    {
+      "id": "b2_u15_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Integrations-Casebook",
+        "ar": "دفتر تكامل B2",
+        "en": "B2 integration casebook"
+      },
+      "canDo": [
+        "B2_U15_CASEBOOK"
+      ]
+    }
+  ]
+}

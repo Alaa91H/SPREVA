@@ -1,0 +1,268 @@
+{
+  "id": "c1_u16_l01",
+  "unitId": "de-core-c1-u16",
+  "title": {
+    "de": "Integrationsgrundlagen",
+    "ar": "أساسيات التكامل",
+    "en": "Integration foundations"
+  },
+  "canDo": [
+    "C1_U16_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "c1_u16_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrationsgrundlagen",
+        "ar": "أساسيات التكامل",
+        "en": "Integration foundations"
+      },
+      "body": {
+        "de": "Dieses Abschlussmodul verbindet mehrere C1-Themen gleichzeitig. Entscheide bei jeder Aufgabe nicht nur die Form, sondern auch, welche ältere Regel aktiviert werden muss.",
+        "ar": "هذه الوحدة الختامية تربط عدة موضوعات من C1 في الوقت نفسه. حدّد في كل مهمة القاعدة السابقة التي يجب تفعيلها، لا الصيغة فقط.",
+        "en": "This capstone combines several C1 topics at once. For every task, identify not only the form but which earlier rule must be activated."
+      }
+    },
+    {
+      "id": "c1_u16_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u16_l01_w1",
+          "german": "quellentreu",
+          "translation": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        },
+        {
+          "id": "c1_u16_l01_w2",
+          "german": "Operationalisierung",
+          "translation": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        },
+        {
+          "id": "c1_u16_l01_w3",
+          "german": "Präsupposition",
+          "translation": {
+            "de": "Präsupposition",
+            "ar": "افتراض مسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "c1_u16_l01_w4",
+          "german": "Kohärenz",
+          "translation": {
+            "de": "Kohärenz",
+            "ar": "تماسك",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "c1_u16_l01_w5",
+          "german": "reframen",
+          "translation": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "c1_u16_l01_w6",
+          "german": "Evidenzgrad",
+          "translation": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u16_l01_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "ar": "Was die Finanzierung {answer}, bestehen offene Fragen.",
+        "en": "Was die Finanzierung {answer}, bestehen offene Fragen."
+      },
+      "acceptedAnswers": [
+        "betrifft"
+      ]
+    },
+    {
+      "id": "c1_u16_l01_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Ansatz ist {answer} überzeugend, als er beide Ziele verbindet.",
+        "ar": "Der Ansatz ist {answer} überzeugend, als er beide Ziele verbindet.",
+        "en": "Der Ansatz ist {answer} überzeugend, als er beide Ziele verbindet."
+      },
+      "acceptedAnswers": [
+        "insofern"
+      ]
+    },
+    {
+      "id": "c1_u16_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Änderung {answer} erhebliche Folgen haben.",
+        "ar": "Die Änderung {answer} erhebliche Folgen haben.",
+        "en": "Die Änderung {answer} erhebliche Folgen haben."
+      },
+      "acceptedAnswers": [
+        "dürfte"
+      ]
+    },
+    {
+      "id": "c1_u16_l01_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dem Bericht zufolge {answer} die Ursache unklar.",
+        "ar": "Dem Bericht zufolge {answer} die Ursache unklar.",
+        "en": "Dem Bericht zufolge {answer} die Ursache unklar."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "c1_u16_l01_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach {answer} der Prüfung erfolgt die Freigabe.",
+        "ar": "Nach {answer} der Prüfung erfolgt die Freigabe.",
+        "en": "Nach {answer} der Prüfung erfolgt die Freigabe."
+      },
+      "acceptedAnswers": [
+        "Abschluss"
+      ]
+    },
+    {
+      "id": "c1_u16_l01_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Leitung hat Maßnahmen {answer}.",
+        "ar": "Die Leitung hat Maßnahmen {answer}.",
+        "en": "Die Leitung hat Maßnahmen {answer}."
+      },
+      "acceptedAnswers": [
+        "ergriffen"
+      ]
+    },
+    {
+      "id": "c1_u16_l01_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Kohärenz",
+        "ar": "Kohärenz",
+        "en": "Kohärenz"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kohärenz",
+            "ar": "تماسك",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l01_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "reframen",
+        "ar": "reframen",
+        "en": "reframen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Synthetisiere drei Quellen mit klarer Attribution, Gemeinsamkeiten, Unterschieden, Limitationen und eigener getrennt markierter Bewertung.",
+        "ar": "Synthetisiere drei Quellen mit klarer Attribution, Gemeinsamkeiten, Unterschieden, Limitationen und eigener getrennt markierter Bewertung.",
+        "en": "Synthetisiere drei Quellen mit klarer Attribution, Gemeinsamkeiten, Unterschieden, Limitationen und eigener getrennt markierter Bewertung."
+      }
+    },
+    {
+      "id": "c1_u16_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Integration gesichert",
+        "ar": "تم تثبيت تكامل C1",
+        "en": "C1 integration secured"
+      },
+      "canDo": [
+        "C1_U16_FOUNDATION"
+      ]
+    }
+  ]
+}

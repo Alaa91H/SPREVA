@@ -612,6 +612,52 @@
               "activityCount": 16
             }
           ]
+        },
+        {
+          "id": "de-core-a1-u14",
+          "title": {
+            "de": "A1 Integration — ein kompletter Alltagstag",
+            "ar": "تكامل A1 — يوم كامل في الحياة اليومية",
+            "en": "A1 Integration — a complete day in real life"
+          },
+          "lessons": [
+            {
+              "id": "a1_u14_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a1_u14_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a1_u14_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a1_u14_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
+              },
+              "activityCount": 16
+            }
+          ]
         }
       ]
     },
@@ -1221,6 +1267,52 @@
               "activityCount": 16
             }
           ]
+        },
+        {
+          "id": "de-core-a2-u14",
+          "title": {
+            "de": "A2 Integration — selbstständig durch Alltag & Arbeit",
+            "ar": "تكامل A2 — الاستقلال في الحياة والعمل",
+            "en": "A2 Integration — independent everyday and work life"
+          },
+          "lessons": [
+            {
+              "id": "a2_u14_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a2_u14_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "a2_u14_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "a2_u14_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
+              },
+              "activityCount": 16
+            }
+          ]
         }
       ]
     },
@@ -1826,6 +1918,52 @@
                 "de": "Falltraining: Umwelt, Gesellschaft & Präsentation",
                 "ar": "تدريب الحالات: البيئة والمجتمع والعرض",
                 "en": "Casebook: Environment, society & presentation"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u14",
+          "title": {
+            "de": "B1 Integration — selbstständig handeln, erklären, verhandeln",
+            "ar": "تكامل B1 — التصرف والشرح والتفاوض باستقلال",
+            "en": "B1 Integration — act, explain and negotiate independently"
+          },
+          "lessons": [
+            {
+              "id": "b1_u14_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b1_u14_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b1_u14_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b1_u14_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
               },
               "activityCount": 16
             }
@@ -2481,6 +2619,52 @@
                 "de": "Falltraining: Umwelt, Klima & Stadtentwicklung",
                 "ar": "تدريب الحالات: البيئة والمناخ وتطوير المدن",
                 "en": "Casebook: Environment, climate & urban development"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u15",
+          "title": {
+            "de": "B2 Integration — analysieren, entscheiden & professionell kommunizieren",
+            "ar": "تكامل B2 — التحليل واتخاذ القرار والتواصل المهني",
+            "en": "B2 Integration — analyze, decide & communicate professionally"
+          },
+          "lessons": [
+            {
+              "id": "b2_u15_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b2_u15_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "b2_u15_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "b2_u15_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
               },
               "activityCount": 16
             }
@@ -3182,6 +3366,52 @@
                 "de": "Falltraining: Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur",
                 "ar": "تدريب الحالات: التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي",
                 "en": "Casebook: Editing, error diagnosis & stylistic self-correction"
+              },
+              "activityCount": 16
+            }
+          ]
+        },
+        {
+          "id": "de-core-c1-u16",
+          "title": {
+            "de": "C1 Integration — Synthese, Führung, Forschung & Revision",
+            "ar": "تكامل C1 — التركيب والقيادة والبحث والمراجعة",
+            "en": "C1 Integration — synthesis, leadership, research & revision"
+          },
+          "lessons": [
+            {
+              "id": "c1_u16_l01",
+              "title": {
+                "de": "Integrationsgrundlagen",
+                "ar": "أساسيات التكامل",
+                "en": "Integration foundations"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "c1_u16_l02",
+              "title": {
+                "de": "Real-Life Mission",
+                "ar": "مهمة واقعية متكاملة",
+                "en": "Real-life mission"
+              },
+              "activityCount": 12
+            },
+            {
+              "id": "c1_u16_l03",
+              "title": {
+                "de": "Integrations-Mastery",
+                "ar": "إتقان التكامل",
+                "en": "Integration mastery"
+              },
+              "activityCount": 14
+            },
+            {
+              "id": "c1_u16_l04",
+              "title": {
+                "de": "Integrations-Casebook",
+                "ar": "دفتر حالات التكامل",
+                "en": "Integration casebook"
               },
               "activityCount": 16
             }

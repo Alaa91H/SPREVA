@@ -1,0 +1,268 @@
+{
+  "id": "a2_u14_l01",
+  "unitId": "de-core-a2-u14",
+  "title": {
+    "de": "Integrationsgrundlagen",
+    "ar": "أساسيات التكامل",
+    "en": "Integration foundations"
+  },
+  "canDo": [
+    "A2_U14_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a2_u14_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrationsgrundlagen",
+        "ar": "أساسيات التكامل",
+        "en": "Integration foundations"
+      },
+      "body": {
+        "de": "Dieses Abschlussmodul verbindet mehrere A2-Themen gleichzeitig. Entscheide bei jeder Aufgabe nicht nur die Form, sondern auch, welche ältere Regel aktiviert werden muss.",
+        "ar": "هذه الوحدة الختامية تربط عدة موضوعات من A2 في الوقت نفسه. حدّد في كل مهمة القاعدة السابقة التي يجب تفعيلها، لا الصيغة فقط.",
+        "en": "This capstone combines several A2 topics at once. For every task, identify not only the form but which earlier rule must be activated."
+      }
+    },
+    {
+      "id": "a2_u14_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u14_l01_w1",
+          "german": "eingereicht",
+          "translation": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "a2_u14_l01_w2",
+          "german": "reparieren",
+          "translation": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "a2_u14_l01_w3",
+          "german": "bewerben",
+          "translation": {
+            "de": "bewerben",
+            "ar": "يتقدم لوظيفة",
+            "en": "apply"
+          }
+        },
+        {
+          "id": "a2_u14_l01_w4",
+          "german": "Verspätung",
+          "translation": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "a2_u14_l01_w5",
+          "german": "weil",
+          "translation": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "a2_u14_l01_w6",
+          "german": "trotzdem",
+          "translation": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u14_l01_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} gestern lange gearbeitet.",
+        "ar": "Ich {answer} gestern lange gearbeitet.",
+        "en": "Ich {answer} gestern lange gearbeitet."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a2_u14_l01_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Danach {answer} ich nach Hause gefahren.",
+        "ar": "Danach {answer} ich nach Hause gefahren.",
+        "en": "Danach {answer} ich nach Hause gefahren."
+      },
+      "acceptedAnswers": [
+        "bin"
+      ]
+    },
+    {
+      "id": "a2_u14_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Als ich klein {answer}, wohnte ich in Köln.",
+        "ar": "Als ich klein {answer}, wohnte ich in Köln.",
+        "en": "Als ich klein {answer}, wohnte ich in Köln."
+      },
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "a2_u14_l01_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich Zeit {answer}, rufe ich an.",
+        "ar": "Wenn ich Zeit {answer}, rufe ich an.",
+        "en": "Wenn ich Zeit {answer}, rufe ich an."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a2_u14_l01_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bleibe zu Hause, {answer} ich krank bin.",
+        "ar": "Ich bleibe zu Hause, {answer} ich krank bin.",
+        "en": "Ich bleibe zu Hause, {answer} ich krank bin."
+      },
+      "acceptedAnswers": [
+        "weil"
+      ]
+    },
+    {
+      "id": "a2_u14_l01_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich glaube, {answer} er morgen kommt.",
+        "ar": "Ich glaube, {answer} er morgen kommt.",
+        "en": "Ich glaube, {answer} er morgen kommt."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "a2_u14_l01_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Verspätung",
+        "ar": "Verspätung",
+        "en": "Verspätung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Verspätung",
+            "ar": "تأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l01_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "weil",
+        "ar": "weil",
+        "en": "weil"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "trotzdem",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "eingereicht",
+            "ar": "مُقدَّم",
+            "en": "submitted"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u14_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Erzähle einen problematischen Tag in Vergangenheit und begründe Entscheidungen mit weil/dass/wenn/als.",
+        "ar": "Erzähle einen problematischen Tag in Vergangenheit und begründe Entscheidungen mit weil/dass/wenn/als.",
+        "en": "Erzähle einen problematischen Tag in Vergangenheit und begründe Entscheidungen mit weil/dass/wenn/als."
+      }
+    },
+    {
+      "id": "a2_u14_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Integration gesichert",
+        "ar": "تم تثبيت تكامل A2",
+        "en": "A2 integration secured"
+      },
+      "canDo": [
+        "A2_U14_FOUNDATION"
+      ]
+    }
+  ]
+}

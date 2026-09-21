@@ -1,0 +1,268 @@
+{
+  "id": "a1_u14_l02",
+  "unitId": "de-core-a1-u14",
+  "title": {
+    "de": "Real-Life Mission",
+    "ar": "مهمة واقعية متكاملة",
+    "en": "Real-life mission"
+  },
+  "canDo": [
+    "A1_U14_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u14_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Mission",
+        "ar": "مهمة واقعية متكاملة",
+        "en": "Real-life mission"
+      },
+      "body": {
+        "de": "Realistische Kette: Spiele sechs Mini-Dialoge hintereinander, ohne Themenwechsel anzukündigen: Fahrkarte, Weg, Apotheke, Einkauf, Restaurant, Einladung. Jede Antwort verändert die nächste Situation. Wiederhole mit neuen Daten und Rollen.",
+        "ar": "سلسلة واقعية: Spiele sechs Mini-Dialoge hintereinander, ohne Themenwechsel anzukündigen: Fahrkarte, Weg, Apotheke, Einkauf, Restaurant, Einladung. كل إجابة تغيّر الموقف التالي. أعد المهمة ببيانات وأدوار جديدة.",
+        "en": "Realistic chain: Spiele sechs Mini-Dialoge hintereinander, ohne Themenwechsel anzukündigen: Fahrkarte, Weg, Apotheke, Einkauf, Restaurant, Einladung. Each response changes the next situation. Repeat with new data and roles."
+      }
+    },
+    {
+      "id": "a1_u14_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u14_l02_w1",
+          "german": "der Termin",
+          "translation": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        },
+        {
+          "id": "a1_u14_l02_w2",
+          "german": "die Fahrkarte",
+          "translation": {
+            "de": "die Fahrkarte",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "a1_u14_l02_w3",
+          "german": "die Apotheke",
+          "translation": {
+            "de": "die Apotheke",
+            "ar": "الصيدلية",
+            "en": "pharmacy"
+          }
+        },
+        {
+          "id": "a1_u14_l02_w4",
+          "german": "bestellen",
+          "translation": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "a1_u14_l02_w5",
+          "german": "bezahlen",
+          "translation": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "a1_u14_l02_w6",
+          "german": "einladen",
+          "translation": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u14_l02_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wo kann ich eine {answer} kaufen?",
+        "ar": "Wo kann ich eine {answer} kaufen?",
+        "en": "Wo kann ich eine {answer} kaufen?"
+      },
+      "acceptedAnswers": [
+        "Fahrkarte"
+      ]
+    },
+    {
+      "id": "a1_u14_l02_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich muss einmal {answer}.",
+        "ar": "Ich muss einmal {answer}.",
+        "en": "Ich muss einmal {answer}."
+      },
+      "acceptedAnswers": [
+        "umsteigen"
+      ]
+    },
+    {
+      "id": "a1_u14_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gehen Sie {answer} und dann links.",
+        "ar": "Gehen Sie {answer} und dann links.",
+        "en": "Gehen Sie {answer} und dann links."
+      },
+      "acceptedAnswers": [
+        "geradeaus"
+      ]
+    },
+    {
+      "id": "a1_u14_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Apotheke ist {answer} der Bank.",
+        "ar": "Die Apotheke ist {answer} der Bank.",
+        "en": "Die Apotheke ist {answer} der Bank."
+      },
+      "acceptedAnswers": [
+        "gegenüber"
+      ]
+    },
+    {
+      "id": "a1_u14_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe starke {answer}.",
+        "ar": "Ich habe starke {answer}.",
+        "en": "Ich habe starke {answer}."
+      },
+      "acceptedAnswers": [
+        "Schmerzen"
+      ]
+    },
+    {
+      "id": "a1_u14_l02_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Rücken {answer} weh.",
+        "ar": "Mein Rücken {answer} weh.",
+        "en": "Mein Rücken {answer} weh."
+      },
+      "acceptedAnswers": [
+        "tut"
+      ]
+    },
+    {
+      "id": "a1_u14_l02_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "bestellen",
+        "ar": "bestellen",
+        "en": "bestellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bestellen",
+            "ar": "يطلب",
+            "en": "order"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l02_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "bezahlen",
+        "ar": "bezahlen",
+        "en": "bezahlen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bezahlen",
+            "ar": "يدفع",
+            "en": "pay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "einladen",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "der Termin",
+            "ar": "الموعد",
+            "en": "appointment"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u14_l02_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Spiele sechs Mini-Dialoge hintereinander, ohne Themenwechsel anzukündigen: Fahrkarte, Weg, Apotheke, Einkauf, Restaurant, Einladung.",
+        "ar": "Spiele sechs Mini-Dialoge hintereinander, ohne Themenwechsel anzukündigen: Fahrkarte, Weg, Apotheke, Einkauf, Restaurant, Einladung.",
+        "en": "Spiele sechs Mini-Dialoge hintereinander, ohne Themenwechsel anzukündigen: Fahrkarte, Weg, Apotheke, Einkauf, Restaurant, Einladung."
+      }
+    },
+    {
+      "id": "a1_u14_l02_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A1-Integration gesichert",
+        "ar": "تم تثبيت تكامل A1",
+        "en": "A1 integration secured"
+      },
+      "canDo": [
+        "A1_U14_REAL_LIFE"
+      ]
+    }
+  ]
+}

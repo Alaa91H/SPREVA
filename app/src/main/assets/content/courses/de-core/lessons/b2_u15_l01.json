@@ -1,0 +1,268 @@
+{
+  "id": "b2_u15_l01",
+  "unitId": "de-core-b2-u15",
+  "title": {
+    "de": "Integrationsgrundlagen",
+    "ar": "أساسيات التكامل",
+    "en": "Integration foundations"
+  },
+  "canDo": [
+    "B2_U15_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u15_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrationsgrundlagen",
+        "ar": "أساسيات التكامل",
+        "en": "Integration foundations"
+      },
+      "body": {
+        "de": "Dieses Abschlussmodul verbindet mehrere B2-Themen gleichzeitig. Entscheide bei jeder Aufgabe nicht nur die Form, sondern auch, welche ältere Regel aktiviert werden muss.",
+        "ar": "هذه الوحدة الختامية تربط عدة موضوعات من B2 في الوقت نفسه. حدّد في كل مهمة القاعدة السابقة التي يجب تفعيلها، لا الصيغة فقط.",
+        "en": "This capstone combines several B2 topics at once. For every task, identify not only the form but which earlier rule must be activated."
+      }
+    },
+    {
+      "id": "b2_u15_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u15_l01_w1",
+          "german": "Evidenz",
+          "translation": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "b2_u15_l01_w2",
+          "german": "Einschränkung",
+          "translation": {
+            "de": "Einschränkung",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        },
+        {
+          "id": "b2_u15_l01_w3",
+          "german": "Zugeständnis",
+          "translation": {
+            "de": "Zugeständnis",
+            "ar": "تنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "b2_u15_l01_w4",
+          "german": "Kündigungsfrist",
+          "translation": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "b2_u15_l01_w5",
+          "german": "nahelegen",
+          "translation": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "b2_u15_l01_w6",
+          "german": "abwägen",
+          "translation": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u15_l01_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} alle Daten vorliegen, kann entschieden werden.",
+        "ar": "{answer} alle Daten vorliegen, kann entschieden werden.",
+        "en": "{answer} alle Daten vorliegen, kann entschieden werden."
+      },
+      "acceptedAnswers": [
+        "Sofern"
+      ]
+    },
+    {
+      "id": "b2_u15_l01_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar.",
+        "ar": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar.",
+        "en": "Die Daten sind begrenzt; {answer} ist ein Trend sichtbar."
+      },
+      "acceptedAnswers": [
+        "dennoch"
+      ]
+    },
+    {
+      "id": "b2_u15_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Kosten stiegen, {answer} die Nachfrage sank.",
+        "ar": "Die Kosten stiegen, {answer} die Nachfrage sank.",
+        "en": "Die Kosten stiegen, {answer} die Nachfrage sank."
+      },
+      "acceptedAnswers": [
+        "wohingegen"
+      ]
+    },
+    {
+      "id": "b2_u15_l01_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Problem lässt sich {answer}.",
+        "ar": "Das Problem lässt sich {answer}.",
+        "en": "Das Problem lässt sich {answer}."
+      },
+      "acceptedAnswers": [
+        "lösen"
+      ]
+    },
+    {
+      "id": "b2_u15_l01_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Regeln sind unbedingt {answer}.",
+        "ar": "Die Regeln sind unbedingt {answer}.",
+        "en": "Die Regeln sind unbedingt {answer}."
+      },
+      "acceptedAnswers": [
+        "einzuhalten"
+      ]
+    },
+    {
+      "id": "b2_u15_l01_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Aufgrund {answer} Verzögerung wurde verschoben.",
+        "ar": "Aufgrund {answer} Verzögerung wurde verschoben.",
+        "en": "Aufgrund {answer} Verzögerung wurde verschoben."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b2_u15_l01_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Kündigungsfrist",
+        "ar": "Kündigungsfrist",
+        "en": "Kündigungsfrist"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l01_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "nahelegen",
+        "ar": "nahelegen",
+        "en": "nahelegen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Analysiere eine fiktive Datengrafik: Beobachtung, Vergleich, vorsichtige Interpretation, Limitation.",
+        "ar": "Analysiere eine fiktive Datengrafik: Beobachtung, Vergleich, vorsichtige Interpretation, Limitation.",
+        "en": "Analysiere eine fiktive Datengrafik: Beobachtung, Vergleich, vorsichtige Interpretation, Limitation."
+      }
+    },
+    {
+      "id": "b2_u15_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Integration gesichert",
+        "ar": "تم تثبيت تكامل B2",
+        "en": "B2 integration secured"
+      },
+      "canDo": [
+        "B2_U15_FOUNDATION"
+      ]
+    }
+  ]
+}

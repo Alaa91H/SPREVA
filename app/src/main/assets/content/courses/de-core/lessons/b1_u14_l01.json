@@ -1,0 +1,268 @@
+{
+  "id": "b1_u14_l01",
+  "unitId": "de-core-b1-u14",
+  "title": {
+    "de": "Integrationsgrundlagen",
+    "ar": "أساسيات التكامل",
+    "en": "Integration foundations"
+  },
+  "canDo": [
+    "B1_U14_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u14_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrationsgrundlagen",
+        "ar": "أساسيات التكامل",
+        "en": "Integration foundations"
+      },
+      "body": {
+        "de": "Dieses Abschlussmodul verbindet mehrere B1-Themen gleichzeitig. Entscheide bei jeder Aufgabe nicht nur die Form, sondern auch, welche ältere Regel aktiviert werden muss.",
+        "ar": "هذه الوحدة الختامية تربط عدة موضوعات من B1 في الوقت نفسه. حدّد في كل مهمة القاعدة السابقة التي يجب تفعيلها، لا الصيغة فقط.",
+        "en": "This capstone combines several B1 topics at once. For every task, identify not only the form but which earlier rule must be activated."
+      }
+    },
+    {
+      "id": "b1_u14_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u14_l01_w1",
+          "german": "Vorgang",
+          "translation": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b1_u14_l01_w2",
+          "german": "zuständig",
+          "translation": {
+            "de": "zuständig",
+            "ar": "مختص",
+            "en": "responsible"
+          }
+        },
+        {
+          "id": "b1_u14_l01_w3",
+          "german": "Vorschlag",
+          "translation": {
+            "de": "Vorschlag",
+            "ar": "اقتراح",
+            "en": "proposal"
+          }
+        },
+        {
+          "id": "b1_u14_l01_w4",
+          "german": "Überweisung",
+          "translation": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "b1_u14_l01_w5",
+          "german": "begründen",
+          "translation": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "b1_u14_l01_w6",
+          "german": "zusammenfassend",
+          "translation": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u14_l01_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nachdem ich angekommen {answer}, begann die Besprechung.",
+        "ar": "Nachdem ich angekommen {answer}, begann die Besprechung.",
+        "en": "Nachdem ich angekommen {answer}, begann die Besprechung."
+      },
+      "acceptedAnswers": [
+        "war"
+      ]
+    },
+    {
+      "id": "b1_u14_l01_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag {answer} gestern geprüft.",
+        "ar": "Der Antrag {answer} gestern geprüft.",
+        "en": "Der Antrag {answer} gestern geprüft."
+      },
+      "acceptedAnswers": [
+        "wurde"
+      ]
+    },
+    {
+      "id": "b1_u14_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich mehr Zeit hätte, {answer} ich früher kommen.",
+        "ar": "Wenn ich mehr Zeit hätte, {answer} ich früher kommen.",
+        "en": "Wenn ich mehr Zeit hätte, {answer} ich früher kommen."
+      },
+      "acceptedAnswers": [
+        "würde"
+      ]
+    },
+    {
+      "id": "b1_u14_l01_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist die Kollegin, mit {answer} ich arbeite.",
+        "ar": "Das ist die Kollegin, mit {answer} ich arbeite.",
+        "en": "Das ist die Kollegin, mit {answer} ich arbeite."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "b1_u14_l01_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich lerne, um die Prüfung zu {answer}.",
+        "ar": "Ich lerne, um die Prüfung zu {answer}.",
+        "en": "Ich lerne, um die Prüfung zu {answer}."
+      },
+      "acceptedAnswers": [
+        "bestehen"
+      ]
+    },
+    {
+      "id": "b1_u14_l01_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Statt anzurufen, {answer} ich eine E-Mail.",
+        "ar": "Statt anzurufen, {answer} ich eine E-Mail.",
+        "en": "Statt anzurufen, {answer} ich eine E-Mail."
+      },
+      "acceptedAnswers": [
+        "schrieb"
+      ]
+    },
+    {
+      "id": "b1_u14_l01_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Überweisung",
+        "ar": "Überweisung",
+        "en": "Überweisung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Überweisung",
+            "ar": "تحويلة",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l01_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "begründen",
+        "ar": "begründen",
+        "en": "begründen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "begründen",
+            "ar": "يبرر",
+            "en": "justify"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zusammenfassend",
+            "ar": "خلاصةً",
+            "en": "in summary"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Vorgang",
+            "ar": "إجراء",
+            "en": "process"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u14_l01_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Erzähle einen Behörden- oder Arbeitsfall chronologisch und wechsle gezielt zwischen Aktiv und Passiv.",
+        "ar": "Erzähle einen Behörden- oder Arbeitsfall chronologisch und wechsle gezielt zwischen Aktiv und Passiv.",
+        "en": "Erzähle einen Behörden- oder Arbeitsfall chronologisch und wechsle gezielt zwischen Aktiv und Passiv."
+      }
+    },
+    {
+      "id": "b1_u14_l01_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Integration gesichert",
+        "ar": "تم تثبيت تكامل B1",
+        "en": "B1 integration secured"
+      },
+      "canDo": [
+        "B1_U14_FOUNDATION"
+      ]
+    }
+  ]
+}

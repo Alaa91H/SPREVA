@@ -1,0 +1,296 @@
+{
+  "id": "c1_u16_l03",
+  "unitId": "de-core-c1-u16",
+  "title": {
+    "de": "Integrations-Mastery",
+    "ar": "إتقان التكامل",
+    "en": "Integration mastery"
+  },
+  "canDo": [
+    "C1_U16_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "c1_u16_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Mastery",
+        "ar": "إتقان التكامل",
+        "en": "Integration mastery"
+      },
+      "body": {
+        "de": "Mastery-Ziel: Kritisiere eine fiktive Studie methodisch und trenne empirische Befunde, normative Bewertung und rhetorische Rahmung. Löse zuerst ohne Hilfe, erkläre danach die Regel und bilde eine zweite korrekte Variante.",
+        "ar": "هدف الإتقان: Kritisiere eine fiktive Studie methodisch und trenne empirische Befunde, normative Bewertung und rhetorische Rahmung. حل أولًا دون مساعدة، ثم اشرح القاعدة وأنشئ صيغة صحيحة ثانية.",
+        "en": "Mastery goal: Kritisiere eine fiktive Studie methodisch und trenne empirische Befunde, normative Bewertung und rhetorische Rahmung. Solve unaided first, then explain the rule and create a second correct variant."
+      }
+    },
+    {
+      "id": "c1_u16_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "c1_u16_l03_w1",
+          "german": "quellentreu",
+          "translation": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        },
+        {
+          "id": "c1_u16_l03_w2",
+          "german": "Operationalisierung",
+          "translation": {
+            "de": "Operationalisierung",
+            "ar": "تشغيل إجرائي",
+            "en": "operationalization"
+          }
+        },
+        {
+          "id": "c1_u16_l03_w3",
+          "german": "Präsupposition",
+          "translation": {
+            "de": "Präsupposition",
+            "ar": "افتراض مسبق",
+            "en": "presupposition"
+          }
+        },
+        {
+          "id": "c1_u16_l03_w4",
+          "german": "Kohärenz",
+          "translation": {
+            "de": "Kohärenz",
+            "ar": "تماسك",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "c1_u16_l03_w5",
+          "german": "reframen",
+          "translation": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "c1_u16_l03_w6",
+          "german": "Evidenzgrad",
+          "translation": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1_u16_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frage {answer} voraus, dass das Problem besteht.",
+        "ar": "Die Frage {answer} voraus, dass das Problem besteht.",
+        "en": "Die Frage {answer} voraus, dass das Problem besteht."
+      },
+      "acceptedAnswers": [
+        "setzt"
+      ]
+    },
+    {
+      "id": "c1_u16_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Metapher eröffnet eine mögliche {answer}.",
+        "ar": "Die Metapher eröffnet eine mögliche {answer}.",
+        "en": "Die Metapher eröffnet eine mögliche {answer}."
+      },
+      "acceptedAnswers": [
+        "Lesart"
+      ]
+    },
+    {
+      "id": "c1_u16_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die empirische Frage ist {answer} der normativen zu trennen.",
+        "ar": "Die empirische Frage ist {answer} der normativen zu trennen.",
+        "en": "Die empirische Frage ist {answer} der normativen zu trennen."
+      },
+      "acceptedAnswers": [
+        "von"
+      ]
+    },
+    {
+      "id": "c1_u16_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Korrelation erlaubt keinen eindeutigen {answer}.",
+        "ar": "Korrelation erlaubt keinen eindeutigen {answer}.",
+        "en": "Korrelation erlaubt keinen eindeutigen {answer}."
+      },
+      "acceptedAnswers": [
+        "Kausalschluss"
+      ]
+    },
+    {
+      "id": "c1_u16_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} macht das Konstrukt messbar.",
+        "ar": "Die {answer} macht das Konstrukt messbar.",
+        "en": "Die {answer} macht das Konstrukt messbar."
+      },
+      "acceptedAnswers": [
+        "Operationalisierung"
+      ]
+    },
+    {
+      "id": "c1_u16_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Übertragbarkeit ist aufgrund der Stichprobe {answer}.",
+        "ar": "Die Übertragbarkeit ist aufgrund der Stichprobe {answer}.",
+        "en": "Die Übertragbarkeit ist aufgrund der Stichprobe {answer}."
+      },
+      "acceptedAnswers": [
+        "begrenzt"
+      ]
+    },
+    {
+      "id": "c1_u16_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Kohärenz",
+        "ar": "Kohärenz",
+        "en": "Kohärenz"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kohärenz",
+            "ar": "تماسك",
+            "en": "coherence"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "reframen",
+        "ar": "reframen",
+        "en": "reframen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reframen",
+            "ar": "يعيد التأطير",
+            "en": "reframe"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Evidenzgrad",
+            "ar": "درجة الدليل",
+            "en": "evidence strength"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "quellentreu",
+            "ar": "أمين للمصدر",
+            "en": "source-faithful"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "c1_u16_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerprotokoll",
+        "ar": "سجل الأخطاء",
+        "en": "Error log"
+      },
+      "body": {
+        "de": "Notiere für jede falsche Antwort: meine Form → korrekte Form → Regel → neues eigenes Beispiel. Wiederhole nur die Fehler nach einer Pause.",
+        "ar": "لكل إجابة خاطئة اكتب: صيغتي ← الصيغة الصحيحة ← القاعدة ← مثال جديد. أعد الأخطاء فقط بعد فاصل.",
+        "en": "For every wrong answer record: my form → correct form → rule → new example. Repeat only the errors after a delay."
+      }
+    },
+    {
+      "id": "c1_u16_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving",
+        "ar": "تداخل القواعد",
+        "en": "Interleaving"
+      },
+      "body": {
+        "de": "Mische die sechs Zielstrukturen neu und löse sie in zufälliger Reihenfolge. Nenne vor jeder Antwort die vermutete Regel.",
+        "ar": "امزج البنيات الست وأجب بترتيب عشوائي. قبل كل إجابة سمِّ القاعدة التي تعتقد أنها مطلوبة.",
+        "en": "Shuffle the six target structures and solve them in random order. Name the expected rule before answering."
+      }
+    },
+    {
+      "id": "c1_u16_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Freie Produktion",
+        "ar": "إنتاج حر",
+        "en": "Free production"
+      },
+      "body": {
+        "de": "Kritisiere eine fiktive Studie methodisch und trenne empirische Befunde, normative Bewertung und rhetorische Rahmung.",
+        "ar": "Kritisiere eine fiktive Studie methodisch und trenne empirische Befunde, normative Bewertung und rhetorische Rahmung.",
+        "en": "Kritisiere eine fiktive Studie methodisch und trenne empirische Befunde, normative Bewertung und rhetorische Rahmung."
+      }
+    },
+    {
+      "id": "c1_u16_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "C1-Integrations-Mastery",
+        "ar": "إتقان تكامل C1",
+        "en": "C1 integration mastery"
+      },
+      "canDo": [
+        "C1_U16_MASTERY"
+      ]
+    }
+  ]
+}

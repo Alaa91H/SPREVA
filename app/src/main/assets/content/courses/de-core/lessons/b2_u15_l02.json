@@ -1,0 +1,268 @@
+{
+  "id": "b2_u15_l02",
+  "unitId": "de-core-b2-u15",
+  "title": {
+    "de": "Real-Life Mission",
+    "ar": "مهمة واقعية متكاملة",
+    "en": "Real-life mission"
+  },
+  "canDo": [
+    "B2_U15_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u15_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Real-Life Mission",
+        "ar": "مهمة واقعية متكاملة",
+        "en": "Real-life mission"
+      },
+      "body": {
+        "de": "Realistische Kette: Schreibe ein professionelles Memo, das zwei Quellen neutral wiedergibt und eine begründete Empfehlung enthält. Jede Antwort verändert die nächste Situation. Wiederhole mit neuen Daten und Rollen.",
+        "ar": "سلسلة واقعية: Schreibe ein professionelles Memo, das zwei Quellen neutral wiedergibt und eine begründete Empfehlung enthält. كل إجابة تغيّر الموقف التالي. أعد المهمة ببيانات وأدوار جديدة.",
+        "en": "Realistic chain: Schreibe ein professionelles Memo, das zwei Quellen neutral wiedergibt und eine begründete Empfehlung enthält. Each response changes the next situation. Repeat with new data and roles."
+      }
+    },
+    {
+      "id": "b2_u15_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u15_l02_w1",
+          "german": "Evidenz",
+          "translation": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "b2_u15_l02_w2",
+          "german": "Einschränkung",
+          "translation": {
+            "de": "Einschränkung",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        },
+        {
+          "id": "b2_u15_l02_w3",
+          "german": "Zugeständnis",
+          "translation": {
+            "de": "Zugeständnis",
+            "ar": "تنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "b2_u15_l02_w4",
+          "german": "Kündigungsfrist",
+          "translation": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "b2_u15_l02_w5",
+          "german": "nahelegen",
+          "translation": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "b2_u15_l02_w6",
+          "german": "abwägen",
+          "translation": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u15_l02_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die gestern {answer} Daten werden ausgewertet.",
+        "ar": "Die gestern {answer} Daten werden ausgewertet.",
+        "en": "Die gestern {answer} Daten werden ausgewertet."
+      },
+      "acceptedAnswers": [
+        "erhobenen"
+      ]
+    },
+    {
+      "id": "b2_u15_l02_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Sprecher erklärte, die Lage {answer} stabil.",
+        "ar": "Der Sprecher erklärte, die Lage {answer} stabil.",
+        "en": "Der Sprecher erklärte, die Lage {answer} stabil."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "b2_u15_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Laut Bericht {answer} die Kosten gestiegen.",
+        "ar": "Laut Bericht {answer} die Kosten gestiegen.",
+        "en": "Laut Bericht {answer} die Kosten gestiegen."
+      },
+      "acceptedAnswers": [
+        "seien"
+      ]
+    },
+    {
+      "id": "b2_u15_l02_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er hat {answer} den Termin vergessen.",
+        "ar": "Er hat {answer} den Termin vergessen.",
+        "en": "Er hat {answer} den Termin vergessen."
+      },
+      "acceptedAnswers": [
+        "wohl"
+      ]
+    },
+    {
+      "id": "b2_u15_l02_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dafür spricht ein konkreter {answer}.",
+        "ar": "Dafür spricht ein konkreter {answer}.",
+        "en": "Dafür spricht ein konkreter {answer}."
+      },
+      "acceptedAnswers": [
+        "Beleg"
+      ]
+    },
+    {
+      "id": "b2_u15_l02_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dieser Einwand ist berechtigt; {answer} gibt es Alternativen.",
+        "ar": "Dieser Einwand ist berechtigt; {answer} gibt es Alternativen.",
+        "en": "Dieser Einwand ist berechtigt; {answer} gibt es Alternativen."
+      },
+      "acceptedAnswers": [
+        "allerdings"
+      ]
+    },
+    {
+      "id": "b2_u15_l02_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Kündigungsfrist",
+        "ar": "Kündigungsfrist",
+        "en": "Kündigungsfrist"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l02_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "nahelegen",
+        "ar": "nahelegen",
+        "en": "nahelegen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l02_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Transferauftrag",
+        "ar": "مهمة نقل التعلم",
+        "en": "Transfer task"
+      },
+      "body": {
+        "de": "Schreibe ein professionelles Memo, das zwei Quellen neutral wiedergibt und eine begründete Empfehlung enthält.",
+        "ar": "Schreibe ein professionelles Memo, das zwei Quellen neutral wiedergibt und eine begründete Empfehlung enthält.",
+        "en": "Schreibe ein professionelles Memo, das zwei Quellen neutral wiedergibt und eine begründete Empfehlung enthält."
+      }
+    },
+    {
+      "id": "b2_u15_l02_act12",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Integration gesichert",
+        "ar": "تم تثبيت تكامل B2",
+        "en": "B2 integration secured"
+      },
+      "canDo": [
+        "B2_U15_REAL_LIFE"
+      ]
+    }
+  ]
+}

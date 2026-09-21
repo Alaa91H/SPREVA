@@ -1,0 +1,296 @@
+{
+  "id": "b2_u15_l03",
+  "unitId": "de-core-b2-u15",
+  "title": {
+    "de": "Integrations-Mastery",
+    "ar": "إتقان التكامل",
+    "en": "Integration mastery"
+  },
+  "canDo": [
+    "B2_U15_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "b2_u15_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Integrations-Mastery",
+        "ar": "إتقان التكامل",
+        "en": "Integration mastery"
+      },
+      "body": {
+        "de": "Mastery-Ziel: Verhandle einen Vertrag oder Projekttermin mit Interessen, Bedingungen, Zugeständnissen und schriftlichem Abschluss. Löse zuerst ohne Hilfe, erkläre danach die Regel und bilde eine zweite korrekte Variante.",
+        "ar": "هدف الإتقان: Verhandle einen Vertrag oder Projekttermin mit Interessen, Bedingungen, Zugeständnissen und schriftlichem Abschluss. حل أولًا دون مساعدة، ثم اشرح القاعدة وأنشئ صيغة صحيحة ثانية.",
+        "en": "Mastery goal: Verhandle einen Vertrag oder Projekttermin mit Interessen, Bedingungen, Zugeständnissen und schriftlichem Abschluss. Solve unaided first, then explain the rule and create a second correct variant."
+      }
+    },
+    {
+      "id": "b2_u15_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u15_l03_w1",
+          "german": "Evidenz",
+          "translation": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "b2_u15_l03_w2",
+          "german": "Einschränkung",
+          "translation": {
+            "de": "Einschränkung",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        },
+        {
+          "id": "b2_u15_l03_w3",
+          "german": "Zugeständnis",
+          "translation": {
+            "de": "Zugeständnis",
+            "ar": "تنازل",
+            "en": "concession"
+          }
+        },
+        {
+          "id": "b2_u15_l03_w4",
+          "german": "Kündigungsfrist",
+          "translation": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "b2_u15_l03_w5",
+          "german": "nahelegen",
+          "translation": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "b2_u15_l03_w6",
+          "german": "abwägen",
+          "translation": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u15_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Anteil ist um fünf Prozentpunkte {answer}.",
+        "ar": "Der Anteil ist um fünf Prozentpunkte {answer}.",
+        "en": "Der Anteil ist um fünf Prozentpunkte {answer}."
+      },
+      "acceptedAnswers": [
+        "gestiegen"
+      ]
+    },
+    {
+      "id": "b2_u15_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das {answer} noch keine Ursache.",
+        "ar": "Das {answer} noch keine Ursache.",
+        "en": "Das {answer} noch keine Ursache."
+      },
+      "acceptedAnswers": [
+        "beweist"
+      ]
+    },
+    {
+      "id": "b2_u15_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wäre es für Sie {answer}, den Termin zu verschieben?",
+        "ar": "Wäre es für Sie {answer}, den Termin zu verschieben?",
+        "en": "Wäre es für Sie {answer}, den Termin zu verschieben?"
+      },
+      "acceptedAnswers": [
+        "denkbar"
+      ]
+    },
+    {
+      "id": "b2_u15_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unter der {answer}, dass …, könnten wir zustimmen.",
+        "ar": "Unter der {answer}, dass …, könnten wir zustimmen.",
+        "en": "Unter der {answer}, dass …, könnten wir zustimmen."
+      },
+      "acceptedAnswers": [
+        "Bedingung"
+      ]
+    },
+    {
+      "id": "b2_u15_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Aussage wird nicht durch Daten {answer}.",
+        "ar": "Die Aussage wird nicht durch Daten {answer}.",
+        "en": "Die Aussage wird nicht durch Daten {answer}."
+      },
+      "acceptedAnswers": [
+        "belegt"
+      ]
+    },
+    {
+      "id": "b2_u15_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Studie {answer} einen Zusammenhang nahe.",
+        "ar": "Die Studie {answer} einen Zusammenhang nahe.",
+        "en": "Die Studie {answer} einen Zusammenhang nahe."
+      },
+      "acceptedAnswers": [
+        "legt"
+      ]
+    },
+    {
+      "id": "b2_u15_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "Kündigungsfrist",
+        "ar": "Kündigungsfrist",
+        "en": "Kündigungsfrist"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Kündigungsfrist",
+            "ar": "مهلة إلغاء",
+            "en": "notice period"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Wähle die funktional passende Form.",
+        "ar": "اختر الصيغة الأنسب وظيفيًا.",
+        "en": "Choose the functionally appropriate form."
+      },
+      "question": {
+        "de": "nahelegen",
+        "ar": "nahelegen",
+        "en": "nahelegen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "nahelegen",
+            "ar": "يشير إلى",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "abwägen",
+            "ar": "يوازن",
+            "en": "weigh"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Evidenz",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u15_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerprotokoll",
+        "ar": "سجل الأخطاء",
+        "en": "Error log"
+      },
+      "body": {
+        "de": "Notiere für jede falsche Antwort: meine Form → korrekte Form → Regel → neues eigenes Beispiel. Wiederhole nur die Fehler nach einer Pause.",
+        "ar": "لكل إجابة خاطئة اكتب: صيغتي ← الصيغة الصحيحة ← القاعدة ← مثال جديد. أعد الأخطاء فقط بعد فاصل.",
+        "en": "For every wrong answer record: my form → correct form → rule → new example. Repeat only the errors after a delay."
+      }
+    },
+    {
+      "id": "b2_u15_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Interleaving",
+        "ar": "تداخل القواعد",
+        "en": "Interleaving"
+      },
+      "body": {
+        "de": "Mische die sechs Zielstrukturen neu und löse sie in zufälliger Reihenfolge. Nenne vor jeder Antwort die vermutete Regel.",
+        "ar": "امزج البنيات الست وأجب بترتيب عشوائي. قبل كل إجابة سمِّ القاعدة التي تعتقد أنها مطلوبة.",
+        "en": "Shuffle the six target structures and solve them in random order. Name the expected rule before answering."
+      }
+    },
+    {
+      "id": "b2_u15_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Freie Produktion",
+        "ar": "إنتاج حر",
+        "en": "Free production"
+      },
+      "body": {
+        "de": "Verhandle einen Vertrag oder Projekttermin mit Interessen, Bedingungen, Zugeständnissen und schriftlichem Abschluss.",
+        "ar": "Verhandle einen Vertrag oder Projekttermin mit Interessen, Bedingungen, Zugeständnissen und schriftlichem Abschluss.",
+        "en": "Verhandle einen Vertrag oder Projekttermin mit Interessen, Bedingungen, Zugeständnissen und schriftlichem Abschluss."
+      }
+    },
+    {
+      "id": "b2_u15_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Integrations-Mastery",
+        "ar": "إتقان تكامل B2",
+        "en": "B2 integration mastery"
+      },
+      "canDo": [
+        "B2_U15_MASTERY"
+      ]
+    }
+  ]
+}
