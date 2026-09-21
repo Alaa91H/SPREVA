@@ -1,0 +1,378 @@
+{
+  "id": "b2_u05_l04",
+  "unitId": "de-core-b2-u05",
+  "title": {
+    "de": "Falltraining: Indirekte Rede & Distanz",
+    "ar": "تدريب الحالات: النقل غير المباشر والمسافة الأسلوبية",
+    "en": "Casebook: Reported speech & stance distance"
+  },
+  "canDo": [
+    "B2_U05_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u05_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Indirekte Rede & Distanz\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Konjunktiv I für Wiedergabe; Konjunktiv II als Ersatz/zusätzliche Distanz\n• laut + Dativ / X zufolge nachgestellt oder vorangestellt\n• behaupten wertet stärker als sagen/erklären",
+        "ar": "الموضوع: النقل غير المباشر والمسافة الأسلوبية\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Konjunktiv I für Wiedergabe; Konjunktiv II als Ersatz/zusätzliche Distanz\n• laut + Dativ / X zufolge nachgestellt oder vorangestellt\n• behaupten wertet stärker als sagen/erklären",
+        "en": "Topic: Reported speech & stance distance\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Konjunktiv I für Wiedergabe; Konjunktiv II als Ersatz/zusätzliche Distanz\n• laut + Dativ / X zufolge nachgestellt oder vorangestellt\n• behaupten wertet stärker als sagen/erklären"
+      }
+    },
+    {
+      "id": "b2_u05_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u05_l04_w1",
+          "german": "sei",
+          "translation": {
+            "de": "sei",
+            "ar": "sei/يكون في النقل",
+            "en": "be (reported)"
+          }
+        },
+        {
+          "id": "b2_u05_l04_w2",
+          "german": "habe",
+          "translation": {
+            "de": "habe",
+            "ar": "لديه/قد في النقل",
+            "en": "have (reported)"
+          }
+        },
+        {
+          "id": "b2_u05_l04_w3",
+          "german": "werde",
+          "translation": {
+            "de": "werde",
+            "ar": "سوف في النقل",
+            "en": "will (reported)"
+          }
+        },
+        {
+          "id": "b2_u05_l04_w4",
+          "german": "laut",
+          "translation": {
+            "de": "laut",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "b2_u05_l04_w5",
+          "german": "zufolge",
+          "translation": {
+            "de": "zufolge",
+            "ar": "بحسب",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "b2_u05_l04_w6",
+          "german": "behaupten",
+          "translation": {
+            "de": "behaupten",
+            "ar": "يدعي",
+            "en": "claim"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u05_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er sagt, er {answer} krank.",
+        "ar": "Er sagt, er {answer} krank.",
+        "en": "Er sagt, er {answer} krank."
+      },
+      "acceptedAnswers": [
+        "sei"
+      ]
+    },
+    {
+      "id": "b2_u05_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie erklärt, sie {answer} nichts gesehen.",
+        "ar": "Sie erklärt, sie {answer} nichts gesehen.",
+        "en": "Sie erklärt, sie {answer} nichts gesehen."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "b2_u05_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Sprecher sagt, man {answer} reagieren.",
+        "ar": "Der Sprecher sagt, man {answer} reagieren.",
+        "en": "Der Sprecher sagt, man {answer} reagieren."
+      },
+      "acceptedAnswers": [
+        "werde"
+      ]
+    },
+    {
+      "id": "b2_u05_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Bericht ist die Lage stabil.",
+        "ar": "{answer} Bericht ist die Lage stabil.",
+        "en": "{answer} Bericht ist die Lage stabil."
+      },
+      "acceptedAnswers": [
+        "Laut"
+      ]
+    },
+    {
+      "id": "b2_u05_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dem Bericht {answer} sei die Lage stabil.",
+        "ar": "Dem Bericht {answer} sei die Lage stabil.",
+        "en": "Dem Bericht {answer} sei die Lage stabil."
+      },
+      "acceptedAnswers": [
+        "zufolge"
+      ]
+    },
+    {
+      "id": "b2_u05_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Autor {answer}, die Zahlen seien falsch.",
+        "ar": "Der Autor {answer}, die Zahlen seien falsch.",
+        "en": "Der Autor {answer}, die Zahlen seien falsch."
+      },
+      "acceptedAnswers": [
+        "behauptet"
+      ]
+    },
+    {
+      "id": "b2_u05_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "sei",
+        "ar": "sei",
+        "en": "sei"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sei",
+            "ar": "sei/يكون في النقل",
+            "en": "be (reported)"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "habe",
+            "ar": "لديه/قد في النقل",
+            "en": "have (reported)"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "werde",
+            "ar": "سوف في النقل",
+            "en": "will (reported)"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u05_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "habe",
+        "ar": "habe",
+        "en": "habe"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "habe",
+            "ar": "لديه/قد في النقل",
+            "en": "have (reported)"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "werde",
+            "ar": "سوف في النقل",
+            "en": "will (reported)"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "laut",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u05_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "werde",
+        "ar": "werde",
+        "en": "werde"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "werde",
+            "ar": "سوف في النقل",
+            "en": "will (reported)"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "laut",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "zufolge",
+            "ar": "بحسب",
+            "en": "according to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u05_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "laut",
+        "ar": "laut",
+        "en": "laut"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "laut",
+            "ar": "وفقًا لـ",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zufolge",
+            "ar": "بحسب",
+            "en": "according to"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "behaupten",
+            "ar": "يدعي",
+            "en": "claim"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u05_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ Konjunktiv I = automatisch Zweifel → ✅ primär Wiedergabe/Distanz\n• ❌ laut dem Bericht zufolge doppelt → eines wählen\n• ❌ Er sagt, er ist … in formellem Bericht kann Quelle weniger klar markiert sein\n• ❌ Quelle nach mehreren Wiedergabestufen verlieren.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ Konjunktiv I = automatisch Zweifel → ✅ primär Wiedergabe/Distanz\n• ❌ laut dem Bericht zufolge doppelt → eines wählen\n• ❌ Er sagt, er ist … in formellem Bericht kann Quelle weniger klar markiert sein\n• ❌ Quelle nach mehreren Wiedergabestufen verlieren.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ Konjunktiv I = automatisch Zweifel → ✅ primär Wiedergabe/Distanz\n• ❌ laut dem Bericht zufolge doppelt → eines wählen\n• ❌ Er sagt, er ist … in formellem Bericht kann Quelle weniger klar markiert sein\n• ❌ Quelle nach mehreren Wiedergabestufen verlieren.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u05_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Konjunktiv I für Wiedergabe; Konjunktiv II als Ersatz/zusätzliche Distanz\n• laut + Dativ / X zufolge nachgestellt oder vorangestellt\n• behaupten wertet stärker als sagen/erklären\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Konjunktiv I für Wiedergabe; Konjunktiv II als Ersatz/zusätzliche Distanz\n• laut + Dativ / X zufolge nachgestellt oder vorangestellt\n• behaupten wertet stärker als sagen/erklären\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Konjunktiv I für Wiedergabe; Konjunktiv II als Ersatz/zusätzliche Distanz\n• laut + Dativ / X zufolge nachgestellt oder vorangestellt\n• behaupten wertet stärker als sagen/erklären\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u05_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Fasse drei widersprüchliche Aussagen neutral zusammen. Markiere jede Quelle und trenne Bericht von eigener Bewertung.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Fasse drei widersprüchliche Aussagen neutral zusammen. Markiere jede Quelle und trenne Bericht von eigener Bewertung.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Fasse drei widersprüchliche Aussagen neutral zusammen. Markiere jede Quelle und trenne Bericht von eigener Bewertung.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u05_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U05_CASEBOOK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "id": "b2_u07_l04",
+  "unitId": "de-core-b2-u07",
+  "title": {
+    "de": "Falltraining: Argumentieren & Debattieren",
+    "ar": "تدريب الحالات: الحجاج والمناظرة",
+    "en": "Casebook: Argumentation & debate"
+  },
+  "canDo": [
+    "B2_U07_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u07_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Argumentieren & Debattieren\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• These ≠ Begründung ≠ Beispiel/Beleg\n• Gegenargument fair wiedergeben, dann antworten\n• qualifizierte Schlussfolgerung kann stärker sein als absolute Behauptung",
+        "ar": "الموضوع: الحجاج والمناظرة\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• These ≠ Begründung ≠ Beispiel/Beleg\n• Gegenargument fair wiedergeben, dann antworten\n• qualifizierte Schlussfolgerung kann stärker sein als absolute Behauptung",
+        "en": "Topic: Argumentation & debate\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• These ≠ Begründung ≠ Beispiel/Beleg\n• Gegenargument fair wiedergeben, dann antworten\n• qualifizierte Schlussfolgerung kann stärker sein als absolute Behauptung"
+      }
+    },
+    {
+      "id": "b2_u07_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u07_l04_w1",
+          "german": "These",
+          "translation": {
+            "de": "These",
+            "ar": "أطروحة",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "b2_u07_l04_w2",
+          "german": "Einwand",
+          "translation": {
+            "de": "Einwand",
+            "ar": "اعتراض",
+            "en": "objection"
+          }
+        },
+        {
+          "id": "b2_u07_l04_w3",
+          "german": "Beleg",
+          "translation": {
+            "de": "Beleg",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "b2_u07_l04_w4",
+          "german": "entkräften",
+          "translation": {
+            "de": "entkräften",
+            "ar": "يدحض",
+            "en": "rebut"
+          }
+        },
+        {
+          "id": "b2_u07_l04_w5",
+          "german": "einschränken",
+          "translation": {
+            "de": "einschränken",
+            "ar": "يقيّد",
+            "en": "qualify"
+          }
+        },
+        {
+          "id": "b2_u07_l04_w6",
+          "german": "Kompromiss",
+          "translation": {
+            "de": "Kompromiss",
+            "ar": "حل وسط",
+            "en": "compromise"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u07_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Meine zentrale {answer} lautet …",
+        "ar": "Meine zentrale {answer} lautet …",
+        "en": "Meine zentrale {answer} lautet …"
+      },
+      "acceptedAnswers": [
+        "These"
+      ]
+    },
+    {
+      "id": "b2_u07_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dagegen lässt sich {answer}, dass …",
+        "ar": "Dagegen lässt sich {answer}, dass …",
+        "en": "Dagegen lässt sich {answer}, dass …"
+      },
+      "acceptedAnswers": [
+        "einwenden"
+      ]
+    },
+    {
+      "id": "b2_u07_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dafür gibt es einen konkreten {answer}.",
+        "ar": "Dafür gibt es einen konkreten {answer}.",
+        "en": "Dafür gibt es einen konkreten {answer}."
+      },
+      "acceptedAnswers": [
+        "Beleg"
+      ]
+    },
+    {
+      "id": "b2_u07_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Einwand lässt sich teilweise {answer}.",
+        "ar": "Der Einwand lässt sich teilweise {answer}.",
+        "en": "Der Einwand lässt sich teilweise {answer}."
+      },
+      "acceptedAnswers": [
+        "entkräften"
+      ]
+    },
+    {
+      "id": "b2_u07_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Diese Aussage muss man {answer}.",
+        "ar": "Diese Aussage muss man {answer}.",
+        "en": "Diese Aussage muss man {answer}."
+      },
+      "acceptedAnswers": [
+        "einschränken"
+      ]
+    },
+    {
+      "id": "b2_u07_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ein {answer} könnte beide Interessen verbinden.",
+        "ar": "Ein {answer} könnte beide Interessen verbinden.",
+        "en": "Ein {answer} könnte beide Interessen verbinden."
+      },
+      "acceptedAnswers": [
+        "Kompromiss"
+      ]
+    },
+    {
+      "id": "b2_u07_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "These",
+        "ar": "These",
+        "en": "These"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "These",
+            "ar": "أطروحة",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Einwand",
+            "ar": "اعتراض",
+            "en": "objection"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Beleg",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u07_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Einwand",
+        "ar": "Einwand",
+        "en": "Einwand"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Einwand",
+            "ar": "اعتراض",
+            "en": "objection"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Beleg",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "entkräften",
+            "ar": "يدحض",
+            "en": "rebut"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u07_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Beleg",
+        "ar": "Beleg",
+        "en": "Beleg"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Beleg",
+            "ar": "دليل",
+            "en": "evidence"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "entkräften",
+            "ar": "يدحض",
+            "en": "rebut"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einschränken",
+            "ar": "يقيّد",
+            "en": "qualify"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u07_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "entkräften",
+        "ar": "entkräften",
+        "en": "entkräften"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "entkräften",
+            "ar": "يدحض",
+            "en": "rebut"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "einschränken",
+            "ar": "يقيّد",
+            "en": "qualify"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Kompromiss",
+            "ar": "حل وسط",
+            "en": "compromise"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u07_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ Gegenargument absichtlich schwächer darstellen\n• ❌ Beispiel als Beweis ausgeben\n• ❌ Einwand ignorieren statt beantworten\n• ❌ absolute Wörter immer/nie ohne Evidenz.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ Gegenargument absichtlich schwächer darstellen\n• ❌ Beispiel als Beweis ausgeben\n• ❌ Einwand ignorieren statt beantworten\n• ❌ absolute Wörter immer/nie ohne Evidenz.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ Gegenargument absichtlich schwächer darstellen\n• ❌ Beispiel als Beweis ausgeben\n• ❌ Einwand ignorieren statt beantworten\n• ❌ absolute Wörter immer/nie ohne Evidenz.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u07_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• These ≠ Begründung ≠ Beispiel/Beleg\n• Gegenargument fair wiedergeben, dann antworten\n• qualifizierte Schlussfolgerung kann stärker sein als absolute Behauptung\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• These ≠ Begründung ≠ Beispiel/Beleg\n• Gegenargument fair wiedergeben, dann antworten\n• qualifizierte Schlussfolgerung kann stärker sein als absolute Behauptung\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• These ≠ Begründung ≠ Beispiel/Beleg\n• Gegenargument fair wiedergeben, dann antworten\n• qualifizierte Schlussfolgerung kann stärker sein als absolute Behauptung\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u07_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Baue vollständige Debatte mit These, zwei Gründen, Beleg, starkem Gegenargument, Antwort, Einschränkung und Kompromiss.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Baue vollständige Debatte mit These, zwei Gründen, Beleg, starkem Gegenargument, Antwort, Einschränkung und Kompromiss.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Baue vollständige Debatte mit These, zwei Gründen, Beleg, starkem Gegenargument, Antwort, Einschränkung und Kompromiss.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u07_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U07_CASEBOOK"
+      ]
+    }
+  ]
+}

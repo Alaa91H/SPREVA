@@ -1,0 +1,378 @@
+{
+  "id": "b2_u03_l04",
+  "unitId": "de-core-b2-u03",
+  "title": {
+    "de": "Falltraining: Nominalstil & formelle Texte",
+    "ar": "تدريب الحالات: الأسلوب الاسمي والنصوص الرسمية",
+    "en": "Casebook: Nominal style & formal texts"
+  },
+  "canDo": [
+    "B2_U03_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u03_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Nominalstil & formelle Texte\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• verbal: weil geprüft wurde ↔ nominal: aufgrund/nach der Prüfung\n• Funktionsverbgefüge gezielt statt inflationär\n• Nominalstil verdichtet; Verbalstil macht Akteur/Handlung oft klarer",
+        "ar": "الموضوع: الأسلوب الاسمي والنصوص الرسمية\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• verbal: weil geprüft wurde ↔ nominal: aufgrund/nach der Prüfung\n• Funktionsverbgefüge gezielt statt inflationär\n• Nominalstil verdichtet; Verbalstil macht Akteur/Handlung oft klarer",
+        "en": "Topic: Nominal style & formal texts\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• verbal: weil geprüft wurde ↔ nominal: aufgrund/nach der Prüfung\n• Funktionsverbgefüge gezielt statt inflationär\n• Nominalstil verdichtet; Verbalstil macht Akteur/Handlung oft klarer"
+      }
+    },
+    {
+      "id": "b2_u03_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u03_l04_w1",
+          "german": "aufgrund",
+          "translation": {
+            "de": "aufgrund",
+            "ar": "بسبب",
+            "en": "due to"
+          }
+        },
+        {
+          "id": "b2_u03_l04_w2",
+          "german": "im Rahmen",
+          "translation": {
+            "de": "im Rahmen",
+            "ar": "في إطار",
+            "en": "within the framework"
+          }
+        },
+        {
+          "id": "b2_u03_l04_w3",
+          "german": "Durchführung",
+          "translation": {
+            "de": "Durchführung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "b2_u03_l04_w4",
+          "german": "Einführung",
+          "translation": {
+            "de": "Einführung",
+            "ar": "إدخال/تطبيق",
+            "en": "introduction"
+          }
+        },
+        {
+          "id": "b2_u03_l04_w5",
+          "german": "Überprüfung",
+          "translation": {
+            "de": "Überprüfung",
+            "ar": "مراجعة/فحص",
+            "en": "review"
+          }
+        },
+        {
+          "id": "b2_u03_l04_w6",
+          "german": "Voraussetzung",
+          "translation": {
+            "de": "Voraussetzung",
+            "ar": "شرط مسبق",
+            "en": "prerequisite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u03_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} der Verzögerung wurde verschoben.",
+        "ar": "{answer} der Verzögerung wurde verschoben.",
+        "en": "{answer} der Verzögerung wurde verschoben."
+      },
+      "acceptedAnswers": [
+        "Aufgrund"
+      ]
+    },
+    {
+      "id": "b2_u03_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} des Systems dauert zwei Wochen.",
+        "ar": "Die {answer} des Systems dauert zwei Wochen.",
+        "en": "Die {answer} des Systems dauert zwei Wochen."
+      },
+      "acceptedAnswers": [
+        "Einführung"
+      ]
+    },
+    {
+      "id": "b2_u03_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach der {answer} erfolgt die Freigabe.",
+        "ar": "Nach der {answer} erfolgt die Freigabe.",
+        "en": "Nach der {answer} erfolgt die Freigabe."
+      },
+      "acceptedAnswers": [
+        "Überprüfung"
+      ]
+    },
+    {
+      "id": "b2_u03_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} der Maßnahme beginnt Montag.",
+        "ar": "Die {answer} der Maßnahme beginnt Montag.",
+        "en": "Die {answer} der Maßnahme beginnt Montag."
+      },
+      "acceptedAnswers": [
+        "Durchführung"
+      ]
+    },
+    {
+      "id": "b2_u03_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das geschieht {answer} des Projekts.",
+        "ar": "Das geschieht {answer} des Projekts.",
+        "en": "Das geschieht {answer} des Projekts."
+      },
+      "acceptedAnswers": [
+        "im Rahmen"
+      ]
+    },
+    {
+      "id": "b2_u03_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine Anmeldung ist {answer}.",
+        "ar": "Eine Anmeldung ist {answer}.",
+        "en": "Eine Anmeldung ist {answer}."
+      },
+      "acceptedAnswers": [
+        "Voraussetzung"
+      ]
+    },
+    {
+      "id": "b2_u03_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "aufgrund",
+        "ar": "aufgrund",
+        "en": "aufgrund"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "aufgrund",
+            "ar": "بسبب",
+            "en": "due to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "im Rahmen",
+            "ar": "في إطار",
+            "en": "within the framework"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Durchführung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u03_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "im Rahmen",
+        "ar": "im Rahmen",
+        "en": "im Rahmen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "im Rahmen",
+            "ar": "في إطار",
+            "en": "within the framework"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Durchführung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Einführung",
+            "ar": "إدخال/تطبيق",
+            "en": "introduction"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u03_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Durchführung",
+        "ar": "Durchführung",
+        "en": "Durchführung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Durchführung",
+            "ar": "تنفيذ",
+            "en": "implementation"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Einführung",
+            "ar": "إدخال/تطبيق",
+            "en": "introduction"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Überprüfung",
+            "ar": "مراجعة/فحص",
+            "en": "review"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u03_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Einführung",
+        "ar": "Einführung",
+        "en": "Einführung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Einführung",
+            "ar": "إدخال/تطبيق",
+            "en": "introduction"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Überprüfung",
+            "ar": "مراجعة/فحص",
+            "en": "review"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Voraussetzung",
+            "ar": "شرط مسبق",
+            "en": "prerequisite"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u03_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ wegen dass … im Nominalstil → ✅ wegen/aufgrund + Nominalgruppe\n• ❌ endlose Nominalkette ohne klares Kernnomen\n• ❌ Durchführung machen → idiomatischer je nach Kontext durchführen\n• ❌ Nominalstil automatisch für besser halten → Lesbarkeit mitdenken.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ wegen dass … im Nominalstil → ✅ wegen/aufgrund + Nominalgruppe\n• ❌ endlose Nominalkette ohne klares Kernnomen\n• ❌ Durchführung machen → idiomatischer je nach Kontext durchführen\n• ❌ Nominalstil automatisch für besser halten → Lesbarkeit mitdenken.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ wegen dass … im Nominalstil → ✅ wegen/aufgrund + Nominalgruppe\n• ❌ endlose Nominalkette ohne klares Kernnomen\n• ❌ Durchführung machen → idiomatischer je nach Kontext durchführen\n• ❌ Nominalstil automatisch für besser halten → Lesbarkeit mitdenken.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u03_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• verbal: weil geprüft wurde ↔ nominal: aufgrund/nach der Prüfung\n• Funktionsverbgefüge gezielt statt inflationär\n• Nominalstil verdichtet; Verbalstil macht Akteur/Handlung oft klarer\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• verbal: weil geprüft wurde ↔ nominal: aufgrund/nach der Prüfung\n• Funktionsverbgefüge gezielt statt inflationär\n• Nominalstil verdichtet; Verbalstil macht Akteur/Handlung oft klarer\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• verbal: weil geprüft wurde ↔ nominal: aufgrund/nach der Prüfung\n• Funktionsverbgefüge gezielt statt inflationär\n• Nominalstil verdichtet; Verbalstil macht Akteur/Handlung oft klarer\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u03_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Nimm einen 120-Wörter-Absatz und schreibe zwei Versionen: dichter formeller Nominalstil und klarer Verbalstil. Vergleiche Lesbarkeit.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Nimm einen 120-Wörter-Absatz und schreibe zwei Versionen: dichter formeller Nominalstil und klarer Verbalstil. Vergleiche Lesbarkeit.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Nimm einen 120-Wörter-Absatz und schreibe zwei Versionen: dichter formeller Nominalstil und klarer Verbalstil. Vergleiche Lesbarkeit.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u03_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U03_CASEBOOK"
+      ]
+    }
+  ]
+}

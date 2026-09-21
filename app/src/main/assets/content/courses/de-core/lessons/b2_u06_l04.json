@@ -1,0 +1,378 @@
+{
+  "id": "b2_u06_l04",
+  "unitId": "de-core-b2-u06",
+  "title": {
+    "de": "Falltraining: Register, Modalpartikeln & Pragmatik",
+    "ar": "تدريب الحالات: السجل اللغوي والجسيمات المقامية",
+    "en": "Casebook: Register, modal particles & pragmatics"
+  },
+  "canDo": [
+    "B2_U06_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u06_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Register, Modalpartikeln & Pragmatik\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Partikeln verändern Haltung/Beziehung stärker als Sachinhalt\n• mündlich häufig, formell schriftlich seltener\n• dieselbe Partikel kann je nach Intonation unterschiedliche Wirkung haben",
+        "ar": "الموضوع: السجل اللغوي والجسيمات المقامية\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Partikeln verändern Haltung/Beziehung stärker als Sachinhalt\n• mündlich häufig, formell schriftlich seltener\n• dieselbe Partikel kann je nach Intonation unterschiedliche Wirkung haben",
+        "en": "Topic: Register, modal particles & pragmatics\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Partikeln verändern Haltung/Beziehung stärker als Sachinhalt\n• mündlich häufig, formell schriftlich seltener\n• dieselbe Partikel kann je nach Intonation unterschiedliche Wirkung haben"
+      }
+    },
+    {
+      "id": "b2_u06_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u06_l04_w1",
+          "german": "doch",
+          "translation": {
+            "de": "doch",
+            "ar": "doch الجسيم المقامي",
+            "en": "modal doch"
+          }
+        },
+        {
+          "id": "b2_u06_l04_w2",
+          "german": "wohl",
+          "translation": {
+            "de": "wohl",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "b2_u06_l04_w3",
+          "german": "eben",
+          "translation": {
+            "de": "eben",
+            "ar": "ببساطة/هكذا",
+            "en": "simply"
+          }
+        },
+        {
+          "id": "b2_u06_l04_w4",
+          "german": "ja",
+          "translation": {
+            "de": "ja",
+            "ar": "كما هو معروف",
+            "en": "as you know"
+          }
+        },
+        {
+          "id": "b2_u06_l04_w5",
+          "german": "mal",
+          "translation": {
+            "de": "mal",
+            "ar": "مرة/تلطيف",
+            "en": "softener"
+          }
+        },
+        {
+          "id": "b2_u06_l04_w6",
+          "german": "Tonfall",
+          "translation": {
+            "de": "Tonfall",
+            "ar": "نبرة",
+            "en": "tone"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u06_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Komm {answer} kurz vorbei.",
+        "ar": "Komm {answer} kurz vorbei.",
+        "en": "Komm {answer} kurz vorbei."
+      },
+      "acceptedAnswers": [
+        "doch"
+      ]
+    },
+    {
+      "id": "b2_u06_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er hat {answer} den Termin vergessen.",
+        "ar": "Er hat {answer} den Termin vergessen.",
+        "en": "Er hat {answer} den Termin vergessen."
+      },
+      "acceptedAnswers": [
+        "wohl"
+      ]
+    },
+    {
+      "id": "b2_u06_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist {answer} so.",
+        "ar": "Das ist {answer} so.",
+        "en": "Das ist {answer} so."
+      },
+      "acceptedAnswers": [
+        "eben"
+      ]
+    },
+    {
+      "id": "b2_u06_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das weißt du {answer}.",
+        "ar": "Das weißt du {answer}.",
+        "en": "Das weißt du {answer}."
+      },
+      "acceptedAnswers": [
+        "ja"
+      ]
+    },
+    {
+      "id": "b2_u06_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Schau {answer} bitte nach.",
+        "ar": "Schau {answer} bitte nach.",
+        "en": "Schau {answer} bitte nach."
+      },
+      "acceptedAnswers": [
+        "mal"
+      ]
+    },
+    {
+      "id": "b2_u06_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der {answer} entscheidet über die Wirkung mit.",
+        "ar": "Der {answer} entscheidet über die Wirkung mit.",
+        "en": "Der {answer} entscheidet über die Wirkung mit."
+      },
+      "acceptedAnswers": [
+        "Tonfall"
+      ]
+    },
+    {
+      "id": "b2_u06_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "doch",
+        "ar": "doch",
+        "en": "doch"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "doch",
+            "ar": "doch الجسيم المقامي",
+            "en": "modal doch"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "wohl",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "eben",
+            "ar": "ببساطة/هكذا",
+            "en": "simply"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u06_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "wohl",
+        "ar": "wohl",
+        "en": "wohl"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wohl",
+            "ar": "على الأرجح",
+            "en": "probably"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "eben",
+            "ar": "ببساطة/هكذا",
+            "en": "simply"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ja",
+            "ar": "كما هو معروف",
+            "en": "as you know"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u06_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "eben",
+        "ar": "eben",
+        "en": "eben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "eben",
+            "ar": "ببساطة/هكذا",
+            "en": "simply"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ja",
+            "ar": "كما هو معروف",
+            "en": "as you know"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "mal",
+            "ar": "مرة/تلطيف",
+            "en": "softener"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u06_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "ja",
+        "ar": "ja",
+        "en": "ja"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ja",
+            "ar": "كما هو معروف",
+            "en": "as you know"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "mal",
+            "ar": "مرة/تلطيف",
+            "en": "softener"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Tonfall",
+            "ar": "نبرة",
+            "en": "tone"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u06_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ Modalpartikel Wort für Wort übersetzen\n• ❌ wohl = sicher → ✅ eher Vermutung\n• ❌ doch in formeller Beschwerde inflationär nutzen\n• ❌ Partikel ohne Intonation/Kontext deuten.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ Modalpartikel Wort für Wort übersetzen\n• ❌ wohl = sicher → ✅ eher Vermutung\n• ❌ doch in formeller Beschwerde inflationär nutzen\n• ❌ Partikel ohne Intonation/Kontext deuten.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ Modalpartikel Wort für Wort übersetzen\n• ❌ wohl = sicher → ✅ eher Vermutung\n• ❌ doch in formeller Beschwerde inflationär nutzen\n• ❌ Partikel ohne Intonation/Kontext deuten.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u06_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Partikeln verändern Haltung/Beziehung stärker als Sachinhalt\n• mündlich häufig, formell schriftlich seltener\n• dieselbe Partikel kann je nach Intonation unterschiedliche Wirkung haben\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Partikeln verändern Haltung/Beziehung stärker als Sachinhalt\n• mündlich häufig, formell schriftlich seltener\n• dieselbe Partikel kann je nach Intonation unterschiedliche Wirkung haben\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Partikeln verändern Haltung/Beziehung stärker als Sachinhalt\n• mündlich häufig, formell schriftlich seltener\n• dieselbe Partikel kann je nach Intonation unterschiedliche Wirkung haben\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u06_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Nimm sechs neutrale Sätze und füge unterschiedliche Modalpartikeln ein. Beschreibe jeweils Wirkung und passenden Beziehungskontext.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Nimm sechs neutrale Sätze und füge unterschiedliche Modalpartikeln ein. Beschreibe jeweils Wirkung und passenden Beziehungskontext.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Nimm sechs neutrale Sätze und füge unterschiedliche Modalpartikeln ein. Beschreibe jeweils Wirkung und passenden Beziehungskontext.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u06_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U06_CASEBOOK"
+      ]
+    }
+  ]
+}

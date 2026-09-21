@@ -1,0 +1,378 @@
+{
+  "id": "b2_u04_l04",
+  "unitId": "de-core-b2-u04",
+  "title": {
+    "de": "Falltraining: Partizipialattribute & Informationsdichte",
+    "ar": "تدريب الحالات: صفات اسم الفاعل/المفعول وكثافة المعلومات",
+    "en": "Casebook: Participial attributes & information density"
+  },
+  "canDo": [
+    "B2_U04_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u04_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Partizipialattribute & Informationsdichte\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Partizip I meist aktiv/gleichzeitig; Partizip II meist abgeschlossen/passivisch\n• Endung folgt Adjektivdeklination\n• zum Verstehen in Relativsatz auflösen",
+        "ar": "الموضوع: صفات اسم الفاعل/المفعول وكثافة المعلومات\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Partizip I meist aktiv/gleichzeitig; Partizip II meist abgeschlossen/passivisch\n• Endung folgt Adjektivdeklination\n• zum Verstehen in Relativsatz auflösen",
+        "en": "Topic: Participial attributes & information density\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Partizip I meist aktiv/gleichzeitig; Partizip II meist abgeschlossen/passivisch\n• Endung folgt Adjektivdeklination\n• zum Verstehen in Relativsatz auflösen"
+      }
+    },
+    {
+      "id": "b2_u04_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u04_l04_w1",
+          "german": "steigend",
+          "translation": {
+            "de": "steigend",
+            "ar": "متزايد",
+            "en": "rising"
+          }
+        },
+        {
+          "id": "b2_u04_l04_w2",
+          "german": "eingereicht",
+          "translation": {
+            "de": "eingereicht",
+            "ar": "مقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "b2_u04_l04_w3",
+          "german": "betreffend",
+          "translation": {
+            "de": "betreffend",
+            "ar": "متعلق بـ",
+            "en": "concerning"
+          }
+        },
+        {
+          "id": "b2_u04_l04_w4",
+          "german": "vorliegend",
+          "translation": {
+            "de": "vorliegend",
+            "ar": "موجود/متاح",
+            "en": "available/present"
+          }
+        },
+        {
+          "id": "b2_u04_l04_w5",
+          "german": "arbeitend",
+          "translation": {
+            "de": "arbeitend",
+            "ar": "عامل",
+            "en": "working"
+          }
+        },
+        {
+          "id": "b2_u04_l04_w6",
+          "german": "ausgefüllt",
+          "translation": {
+            "de": "ausgefüllt",
+            "ar": "معبأ",
+            "en": "completed"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u04_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} Kosten belasten Haushalte.",
+        "ar": "Die {answer} Kosten belasten Haushalte.",
+        "en": "Die {answer} Kosten belasten Haushalte."
+      },
+      "acceptedAnswers": [
+        "steigenden"
+      ]
+    },
+    {
+      "id": "b2_u04_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die gestern {answer} Unterlagen werden geprüft.",
+        "ar": "Die gestern {answer} Unterlagen werden geprüft.",
+        "en": "Die gestern {answer} Unterlagen werden geprüft."
+      },
+      "acceptedAnswers": [
+        "eingereichten"
+      ]
+    },
+    {
+      "id": "b2_u04_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die den Vertrag {answer} Regel gilt weiter.",
+        "ar": "Die den Vertrag {answer} Regel gilt weiter.",
+        "en": "Die den Vertrag {answer} Regel gilt weiter."
+      },
+      "acceptedAnswers": [
+        "betreffende"
+      ]
+    },
+    {
+      "id": "b2_u04_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Auf Grundlage der {answer} Daten …",
+        "ar": "Auf Grundlage der {answer} Daten …",
+        "en": "Auf Grundlage der {answer} Daten …"
+      },
+      "acceptedAnswers": [
+        "vorliegenden"
+      ]
+    },
+    {
+      "id": "b2_u04_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir suchen eine selbstständig {answer} Fachkraft.",
+        "ar": "Wir suchen eine selbstständig {answer} Fachkraft.",
+        "en": "Wir suchen eine selbstständig {answer} Fachkraft."
+      },
+      "acceptedAnswers": [
+        "arbeitende"
+      ]
+    },
+    {
+      "id": "b2_u04_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Unvollständig {answer} Formulare werden zurückgeschickt.",
+        "ar": "Unvollständig {answer} Formulare werden zurückgeschickt.",
+        "en": "Unvollständig {answer} Formulare werden zurückgeschickt."
+      },
+      "acceptedAnswers": [
+        "ausgefüllte"
+      ]
+    },
+    {
+      "id": "b2_u04_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "steigend",
+        "ar": "steigend",
+        "en": "steigend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "steigend",
+            "ar": "متزايد",
+            "en": "rising"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "eingereicht",
+            "ar": "مقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "betreffend",
+            "ar": "متعلق بـ",
+            "en": "concerning"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u04_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "eingereicht",
+        "ar": "eingereicht",
+        "en": "eingereicht"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "eingereicht",
+            "ar": "مقدَّم",
+            "en": "submitted"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "betreffend",
+            "ar": "متعلق بـ",
+            "en": "concerning"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "vorliegend",
+            "ar": "موجود/متاح",
+            "en": "available/present"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u04_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "betreffend",
+        "ar": "betreffend",
+        "en": "betreffend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "betreffend",
+            "ar": "متعلق بـ",
+            "en": "concerning"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "vorliegend",
+            "ar": "موجود/متاح",
+            "en": "available/present"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "arbeitend",
+            "ar": "عامل",
+            "en": "working"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u04_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "vorliegend",
+        "ar": "vorliegend",
+        "en": "vorliegend"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorliegend",
+            "ar": "موجود/متاح",
+            "en": "available/present"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "arbeitend",
+            "ar": "عامل",
+            "en": "working"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ausgefüllt",
+            "ar": "معبأ",
+            "en": "completed"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u04_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ eingereichte gestern Unterlagen → ✅ gestern eingereichte Unterlagen\n• ❌ steigende die Kosten → ✅ die steigenden Kosten\n• ❌ Partizip II aktiv interpretieren: eingereichte Unterlagen = wurden eingereicht\n• ❌ lange Attribute ohne Kernnomenanalyse lesen.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ eingereichte gestern Unterlagen → ✅ gestern eingereichte Unterlagen\n• ❌ steigende die Kosten → ✅ die steigenden Kosten\n• ❌ Partizip II aktiv interpretieren: eingereichte Unterlagen = wurden eingereicht\n• ❌ lange Attribute ohne Kernnomenanalyse lesen.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ eingereichte gestern Unterlagen → ✅ gestern eingereichte Unterlagen\n• ❌ steigende die Kosten → ✅ die steigenden Kosten\n• ❌ Partizip II aktiv interpretieren: eingereichte Unterlagen = wurden eingereicht\n• ❌ lange Attribute ohne Kernnomenanalyse lesen.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u04_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Partizip I meist aktiv/gleichzeitig; Partizip II meist abgeschlossen/passivisch\n• Endung folgt Adjektivdeklination\n• zum Verstehen in Relativsatz auflösen\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Partizip I meist aktiv/gleichzeitig; Partizip II meist abgeschlossen/passivisch\n• Endung folgt Adjektivdeklination\n• zum Verstehen in Relativsatz auflösen\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Partizip I meist aktiv/gleichzeitig; Partizip II meist abgeschlossen/passivisch\n• Endung folgt Adjektivdeklination\n• zum Verstehen in Relativsatz auflösen\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u04_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Wandle zehn Relativsätze in Partizipialattribute und zurück. Markiere Kernnomen, Partizip und Endung.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Wandle zehn Relativsätze in Partizipialattribute und zurück. Markiere Kernnomen, Partizip und Endung.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Wandle zehn Relativsätze in Partizipialattribute und zurück. Markiere Kernnomen, Partizip und Endung.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u04_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U04_CASEBOOK"
+      ]
+    }
+  ]
+}

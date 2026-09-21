@@ -1,0 +1,378 @@
+{
+  "id": "b2_u02_l04",
+  "unitId": "de-core-b2-u02",
+  "title": {
+    "de": "Falltraining: Passiversatz & Handlungsfokus",
+    "ar": "تدريب الحالات: بدائل المبني للمجهول وتركيز الفعل",
+    "en": "Casebook: Passive alternatives & action focus"
+  },
+  "canDo": [
+    "B2_U02_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u02_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Passiversatz & Handlungsfokus\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• lässt sich = Möglichkeit; sein+zu oft Möglichkeit oder Verpflichtung\n• werden-Passiv neutraler Prozessfokus\n• bekommen-Passiv rückt Empfänger in Vordergrund; man rückt allgemeinen Akteur zurück ins Bild",
+        "ar": "الموضوع: بدائل المبني للمجهول وتركيز الفعل\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• lässt sich = Möglichkeit; sein+zu oft Möglichkeit oder Verpflichtung\n• werden-Passiv neutraler Prozessfokus\n• bekommen-Passiv rückt Empfänger in Vordergrund; man rückt allgemeinen Akteur zurück ins Bild",
+        "en": "Topic: Passive alternatives & action focus\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• lässt sich = Möglichkeit; sein+zu oft Möglichkeit oder Verpflichtung\n• werden-Passiv neutraler Prozessfokus\n• bekommen-Passiv rückt Empfänger in Vordergrund; man rückt allgemeinen Akteur zurück ins Bild"
+      }
+    },
+    {
+      "id": "b2_u02_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u02_l04_w1",
+          "german": "sich lassen",
+          "translation": {
+            "de": "sich lassen",
+            "ar": "يمكن فعله",
+            "en": "can be done"
+          }
+        },
+        {
+          "id": "b2_u02_l04_w2",
+          "german": "sein + zu",
+          "translation": {
+            "de": "sein + zu",
+            "ar": "يجب/يمكن بحسب السياق",
+            "en": "be to"
+          }
+        },
+        {
+          "id": "b2_u02_l04_w3",
+          "german": "man",
+          "translation": {
+            "de": "man",
+            "ar": "المرء/الناس",
+            "en": "one/people"
+          }
+        },
+        {
+          "id": "b2_u02_l04_w4",
+          "german": "bekommen",
+          "translation": {
+            "de": "bekommen",
+            "ar": "يتلقى",
+            "en": "get"
+          }
+        },
+        {
+          "id": "b2_u02_l04_w5",
+          "german": "einzuhalten",
+          "translation": {
+            "de": "einzuhalten",
+            "ar": "يجب الالتزام",
+            "en": "to be observed"
+          }
+        },
+        {
+          "id": "b2_u02_l04_w6",
+          "german": "beheben",
+          "translation": {
+            "de": "beheben",
+            "ar": "يعالج",
+            "en": "remedy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u02_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Problem lässt sich leicht {answer}.",
+        "ar": "Das Problem lässt sich leicht {answer}.",
+        "en": "Das Problem lässt sich leicht {answer}."
+      },
+      "acceptedAnswers": [
+        "beheben"
+      ]
+    },
+    {
+      "id": "b2_u02_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frist ist {answer}.",
+        "ar": "Die Frist ist {answer}.",
+        "en": "Die Frist ist {answer}."
+      },
+      "acceptedAnswers": [
+        "einzuhalten"
+      ]
+    },
+    {
+      "id": "b2_u02_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} kann den Antrag online stellen.",
+        "ar": "{answer} kann den Antrag online stellen.",
+        "en": "{answer} kann den Antrag online stellen."
+      },
+      "acceptedAnswers": [
+        "Man"
+      ]
+    },
+    {
+      "id": "b2_u02_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie bekommt die Unterlagen {answer}.",
+        "ar": "Sie bekommt die Unterlagen {answer}.",
+        "en": "Sie bekommt die Unterlagen {answer}."
+      },
+      "acceptedAnswers": [
+        "zugeschickt"
+      ]
+    },
+    {
+      "id": "b2_u02_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Datei lässt sich nicht {answer}.",
+        "ar": "Die Datei lässt sich nicht {answer}.",
+        "en": "Die Datei lässt sich nicht {answer}."
+      },
+      "acceptedAnswers": [
+        "öffnen"
+      ]
+    },
+    {
+      "id": "b2_u02_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Regeln sind unbedingt {answer}.",
+        "ar": "Die Regeln sind unbedingt {answer}.",
+        "en": "Die Regeln sind unbedingt {answer}."
+      },
+      "acceptedAnswers": [
+        "zu beachten"
+      ]
+    },
+    {
+      "id": "b2_u02_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "sich lassen",
+        "ar": "sich lassen",
+        "en": "sich lassen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sich lassen",
+            "ar": "يمكن فعله",
+            "en": "can be done"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sein + zu",
+            "ar": "يجب/يمكن بحسب السياق",
+            "en": "be to"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "man",
+            "ar": "المرء/الناس",
+            "en": "one/people"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u02_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "sein + zu",
+        "ar": "sein + zu",
+        "en": "sein + zu"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sein + zu",
+            "ar": "يجب/يمكن بحسب السياق",
+            "en": "be to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "man",
+            "ar": "المرء/الناس",
+            "en": "one/people"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "bekommen",
+            "ar": "يتلقى",
+            "en": "get"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u02_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "man",
+        "ar": "man",
+        "en": "man"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "man",
+            "ar": "المرء/الناس",
+            "en": "one/people"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bekommen",
+            "ar": "يتلقى",
+            "en": "get"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einzuhalten",
+            "ar": "يجب الالتزام",
+            "en": "to be observed"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u02_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "bekommen",
+        "ar": "bekommen",
+        "en": "bekommen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bekommen",
+            "ar": "يتلقى",
+            "en": "get"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "einzuhalten",
+            "ar": "يجب الالتزام",
+            "en": "to be observed"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "beheben",
+            "ar": "يعالج",
+            "en": "remedy"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u02_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ lässt sich gelöst → ✅ lässt sich lösen\n• ❌ ist zu eingehalten → ✅ ist einzuhalten\n• ❌ bekommen-Passiv mit Handlung statt Empfängerfokus verwechseln\n• ❌ Passiversatz wählen, obwohl Modalität sich dadurch ändert.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ lässt sich gelöst → ✅ lässt sich lösen\n• ❌ ist zu eingehalten → ✅ ist einzuhalten\n• ❌ bekommen-Passiv mit Handlung statt Empfängerfokus verwechseln\n• ❌ Passiversatz wählen, obwohl Modalität sich dadurch ändert.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ lässt sich gelöst → ✅ lässt sich lösen\n• ❌ ist zu eingehalten → ✅ ist einzuhalten\n• ❌ bekommen-Passiv mit Handlung statt Empfängerfokus verwechseln\n• ❌ Passiversatz wählen, obwohl Modalität sich dadurch ändert.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u02_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• lässt sich = Möglichkeit; sein+zu oft Möglichkeit oder Verpflichtung\n• werden-Passiv neutraler Prozessfokus\n• bekommen-Passiv rückt Empfänger in Vordergrund; man rückt allgemeinen Akteur zurück ins Bild\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• lässt sich = Möglichkeit; sein+zu oft Möglichkeit oder Verpflichtung\n• werden-Passiv neutraler Prozessfokus\n• bekommen-Passiv rückt Empfänger in Vordergrund; man rückt allgemeinen Akteur zurück ins Bild\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• lässt sich = Möglichkeit; sein+zu oft Möglichkeit oder Verpflichtung\n• werden-Passiv neutraler Prozessfokus\n• bekommen-Passiv rückt Empfänger in Vordergrund; man rückt allgemeinen Akteur zurück ins Bild\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u02_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Formuliere acht Prozesssätze in jeweils drei Varianten: werden-Passiv, Passiversatz und Aktiv mit man. Vergleiche Modalität/Fokus.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Formuliere acht Prozesssätze in jeweils drei Varianten: werden-Passiv, Passiversatz und Aktiv mit man. Vergleiche Modalität/Fokus.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Formuliere acht Prozesssätze in jeweils drei Varianten: werden-Passiv, Passiversatz und Aktiv mit man. Vergleiche Modalität/Fokus.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u02_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U02_CASEBOOK"
+      ]
+    }
+  ]
+}

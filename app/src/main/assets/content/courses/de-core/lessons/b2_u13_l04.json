@@ -1,0 +1,378 @@
+{
+  "id": "b2_u13_l04",
+  "unitId": "de-core-b2-u13",
+  "title": {
+    "de": "Falltraining: Wissenschaft, Technik & Digitalisierung",
+    "ar": "تدريب الحالات: العلم والتقنية والرقمنة",
+    "en": "Casebook: Science, technology & digitalization"
+  },
+  "canDo": [
+    "B2_U13_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u13_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Wissenschaft, Technik & Digitalisierung\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Mechanismus, Datenfluss, Annahmen und Grenzen getrennt erklären\n• wahrscheinlich/vermutlich/möglicherweise graduieren Sicherheit\n• Passiv beschreibt Prozess; Aktiv klärt verantwortlichen Akteur",
+        "ar": "الموضوع: العلم والتقنية والرقمنة\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Mechanismus, Datenfluss, Annahmen und Grenzen getrennt erklären\n• wahrscheinlich/vermutlich/möglicherweise graduieren Sicherheit\n• Passiv beschreibt Prozess; Aktiv klärt verantwortlichen Akteur",
+        "en": "Topic: Science, technology & digitalization\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Mechanismus, Datenfluss, Annahmen und Grenzen getrennt erklären\n• wahrscheinlich/vermutlich/möglicherweise graduieren Sicherheit\n• Passiv beschreibt Prozess; Aktiv klärt verantwortlichen Akteur"
+      }
+    },
+    {
+      "id": "b2_u13_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u13_l04_w1",
+          "german": "verschlüsseln",
+          "translation": {
+            "de": "verschlüsseln",
+            "ar": "يشفّر",
+            "en": "encrypt"
+          }
+        },
+        {
+          "id": "b2_u13_l04_w2",
+          "german": "verarbeiten",
+          "translation": {
+            "de": "verarbeiten",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b2_u13_l04_w3",
+          "german": "Berechtigung",
+          "translation": {
+            "de": "Berechtigung",
+            "ar": "إذن",
+            "en": "permission"
+          }
+        },
+        {
+          "id": "b2_u13_l04_w4",
+          "german": "Fehlerquelle",
+          "translation": {
+            "de": "Fehlerquelle",
+            "ar": "مصدر خطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "b2_u13_l04_w5",
+          "german": "Wahrscheinlichkeit",
+          "translation": {
+            "de": "Wahrscheinlichkeit",
+            "ar": "احتمال",
+            "en": "probability"
+          }
+        },
+        {
+          "id": "b2_u13_l04_w6",
+          "german": "Einschränkung",
+          "translation": {
+            "de": "Einschränkung",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u13_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Daten werden lokal {answer}.",
+        "ar": "Die Daten werden lokal {answer}.",
+        "en": "Die Daten werden lokal {answer}."
+      },
+      "acceptedAnswers": [
+        "verarbeitet"
+      ]
+    },
+    {
+      "id": "b2_u13_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Verbindung wird {answer}.",
+        "ar": "Die Verbindung wird {answer}.",
+        "en": "Die Verbindung wird {answer}."
+      },
+      "acceptedAnswers": [
+        "verschlüsselt"
+      ]
+    },
+    {
+      "id": "b2_u13_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die App braucht diese {answer}.",
+        "ar": "Die App braucht diese {answer}.",
+        "en": "Die App braucht diese {answer}."
+      },
+      "acceptedAnswers": [
+        "Berechtigung"
+      ]
+    },
+    {
+      "id": "b2_u13_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist eine mögliche {answer}.",
+        "ar": "Das ist eine mögliche {answer}.",
+        "en": "Das ist eine mögliche {answer}."
+      },
+      "acceptedAnswers": [
+        "Fehlerquelle"
+      ]
+    },
+    {
+      "id": "b2_u13_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mit hoher {answer} liegt es am Update.",
+        "ar": "Mit hoher {answer} liegt es am Update.",
+        "en": "Mit hoher {answer} liegt es am Update."
+      },
+      "acceptedAnswers": [
+        "Wahrscheinlichkeit"
+      ]
+    },
+    {
+      "id": "b2_u13_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Eine wichtige {answer} ist die kleine Datenbasis.",
+        "ar": "Eine wichtige {answer} ist die kleine Datenbasis.",
+        "en": "Eine wichtige {answer} ist die kleine Datenbasis."
+      },
+      "acceptedAnswers": [
+        "Einschränkung"
+      ]
+    },
+    {
+      "id": "b2_u13_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "verschlüsseln",
+        "ar": "verschlüsseln",
+        "en": "verschlüsseln"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "verschlüsseln",
+            "ar": "يشفّر",
+            "en": "encrypt"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "verarbeiten",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Berechtigung",
+            "ar": "إذن",
+            "en": "permission"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u13_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "verarbeiten",
+        "ar": "verarbeiten",
+        "en": "verarbeiten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "verarbeiten",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Berechtigung",
+            "ar": "إذن",
+            "en": "permission"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Fehlerquelle",
+            "ar": "مصدر خطأ",
+            "en": "failure source"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u13_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Berechtigung",
+        "ar": "Berechtigung",
+        "en": "Berechtigung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Berechtigung",
+            "ar": "إذن",
+            "en": "permission"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Fehlerquelle",
+            "ar": "مصدر خطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Wahrscheinlichkeit",
+            "ar": "احتمال",
+            "en": "probability"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u13_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Fehlerquelle",
+        "ar": "Fehlerquelle",
+        "en": "Fehlerquelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Fehlerquelle",
+            "ar": "مصدر خطأ",
+            "en": "failure source"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Wahrscheinlichkeit",
+            "ar": "احتمال",
+            "en": "probability"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Einschränkung",
+            "ar": "قيد",
+            "en": "limitation"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u13_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ technischer Begriff = automatisch Beleg\n• ❌ vermutlich = sicher\n• ❌ Datenschutz pauschal sagen ohne Datenfluss zu nennen\n• ❌ Fehlerursache aus einem einzelnen Symptom ableiten.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ technischer Begriff = automatisch Beleg\n• ❌ vermutlich = sicher\n• ❌ Datenschutz pauschal sagen ohne Datenfluss zu nennen\n• ❌ Fehlerursache aus einem einzelnen Symptom ableiten.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ technischer Begriff = automatisch Beleg\n• ❌ vermutlich = sicher\n• ❌ Datenschutz pauschal sagen ohne Datenfluss zu nennen\n• ❌ Fehlerursache aus einem einzelnen Symptom ableiten.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u13_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Mechanismus, Datenfluss, Annahmen und Grenzen getrennt erklären\n• wahrscheinlich/vermutlich/möglicherweise graduieren Sicherheit\n• Passiv beschreibt Prozess; Aktiv klärt verantwortlichen Akteur\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Mechanismus, Datenfluss, Annahmen und Grenzen getrennt erklären\n• wahrscheinlich/vermutlich/möglicherweise graduieren Sicherheit\n• Passiv beschreibt Prozess; Aktiv klärt verantwortlichen Akteur\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Mechanismus, Datenfluss, Annahmen und Grenzen getrennt erklären\n• wahrscheinlich/vermutlich/möglicherweise graduieren Sicherheit\n• Passiv beschreibt Prozess; Aktiv klärt verantwortlichen Akteur\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u13_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Erkläre einer nichttechnischen Person eine App-Funktion: Datenquelle, Verarbeitung, Berechtigung, Übertragung, Risiko, bekannte Grenze und Prüfschritt.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Erkläre einer nichttechnischen Person eine App-Funktion: Datenquelle, Verarbeitung, Berechtigung, Übertragung, Risiko, bekannte Grenze und Prüfschritt.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Erkläre einer nichttechnischen Person eine App-Funktion: Datenquelle, Verarbeitung, Berechtigung, Übertragung, Risiko, bekannte Grenze und Prüfschritt.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u13_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U13_CASEBOOK"
+      ]
+    }
+  ]
+}

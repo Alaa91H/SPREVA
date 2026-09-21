@@ -1,0 +1,378 @@
+{
+  "id": "b2_u14_l04",
+  "unitId": "de-core-b2-u14",
+  "title": {
+    "de": "Falltraining: Umwelt, Klima & Stadtentwicklung",
+    "ar": "تدريب الحالات: البيئة والمناخ وتطوير المدن",
+    "en": "Casebook: Environment, climate & urban development"
+  },
+  "canDo": [
+    "B2_U14_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b2_u14_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Casebook — Präzision unter Auswahl",
+        "ar": "دفتر حالات B2 — الدقة عند الاختيار",
+        "en": "B2 Casebook — precision under choice"
+      },
+      "body": {
+        "de": "Thema: Umwelt, Klima & Stadtentwicklung\n\nB2-Ziel: Zwischen mehreren korrekten Möglichkeiten die semantisch und stilistisch passendste wählen. Begründe jede Wahl mit Funktion, Register und Kontext.\n\nKontraste:\n• Ziel → Mechanismus → Wirkung → Nebenwirkung → Verteilung\n• kurzfristig vs langfristig getrennt bewerten\n• Prognosen mit könnte/dürfte/unter Annahme markieren",
+        "ar": "الموضوع: البيئة والمناخ وتطوير المدن\n\nهدف B2: الاختيار بين عدة صيغ صحيحة للصيغة الأدق دلاليًا وأسلوبيًا. علّل كل اختيار بالوظيفة والسجل والسياق.\n\nالمقارنات:\n• Ziel → Mechanismus → Wirkung → Nebenwirkung → Verteilung\n• kurzfristig vs langfristig getrennt bewerten\n• Prognosen mit könnte/dürfte/unter Annahme markieren",
+        "en": "Topic: Environment, climate & urban development\n\nB2 goal: choose the semantically and stylistically best option among several correct possibilities. Justify every choice by function, register and context.\n\nContrasts:\n• Ziel → Mechanismus → Wirkung → Nebenwirkung → Verteilung\n• kurzfristig vs langfristig getrennt bewerten\n• Prognosen mit könnte/dürfte/unter Annahme markieren"
+      }
+    },
+    {
+      "id": "b2_u14_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u14_l04_w1",
+          "german": "Maßnahme",
+          "translation": {
+            "de": "Maßnahme",
+            "ar": "إجراء",
+            "en": "measure"
+          }
+        },
+        {
+          "id": "b2_u14_l04_w2",
+          "german": "Auswirkung",
+          "translation": {
+            "de": "Auswirkung",
+            "ar": "أثر",
+            "en": "impact"
+          }
+        },
+        {
+          "id": "b2_u14_l04_w3",
+          "german": "Emission",
+          "translation": {
+            "de": "Emission",
+            "ar": "انبعاث",
+            "en": "emission"
+          }
+        },
+        {
+          "id": "b2_u14_l04_w4",
+          "german": "Belastung",
+          "translation": {
+            "de": "Belastung",
+            "ar": "عبء",
+            "en": "burden"
+          }
+        },
+        {
+          "id": "b2_u14_l04_w5",
+          "german": "langfristig",
+          "translation": {
+            "de": "langfristig",
+            "ar": "طويل الأمد",
+            "en": "long-term"
+          }
+        },
+        {
+          "id": "b2_u14_l04_w6",
+          "german": "Zielkonflikt",
+          "translation": {
+            "de": "Zielkonflikt",
+            "ar": "تعارض أهداف",
+            "en": "trade-off"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u14_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} soll den Verkehr reduzieren.",
+        "ar": "Die {answer} soll den Verkehr reduzieren.",
+        "en": "Die {answer} soll den Verkehr reduzieren."
+      },
+      "acceptedAnswers": [
+        "Maßnahme"
+      ]
+    },
+    {
+      "id": "b2_u14_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Welche {answer} hat sie auf Mieter?",
+        "ar": "Welche {answer} hat sie auf Mieter?",
+        "en": "Welche {answer} hat sie auf Mieter?"
+      },
+      "acceptedAnswers": [
+        "Auswirkung"
+      ]
+    },
+    {
+      "id": "b2_u14_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} sollen sinken.",
+        "ar": "Die {answer} sollen sinken.",
+        "en": "Die {answer} sollen sinken."
+      },
+      "acceptedAnswers": [
+        "Emissionen"
+      ]
+    },
+    {
+      "id": "b2_u14_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Für manche Gruppen steigt die {answer}.",
+        "ar": "Für manche Gruppen steigt die {answer}.",
+        "en": "Für manche Gruppen steigt die {answer}."
+      },
+      "acceptedAnswers": [
+        "Belastung"
+      ]
+    },
+    {
+      "id": "b2_u14_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} könnten Kosten sinken.",
+        "ar": "{answer} könnten Kosten sinken.",
+        "en": "{answer} könnten Kosten sinken."
+      },
+      "acceptedAnswers": [
+        "Langfristig"
+      ]
+    },
+    {
+      "id": "b2_u14_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Hier besteht ein {answer} zwischen Kosten und Nutzen.",
+        "ar": "Hier besteht ein {answer} zwischen Kosten und Nutzen.",
+        "en": "Hier besteht ein {answer} zwischen Kosten und Nutzen."
+      },
+      "acceptedAnswers": [
+        "Zielkonflikt"
+      ]
+    },
+    {
+      "id": "b2_u14_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Maßnahme",
+        "ar": "Maßnahme",
+        "en": "Maßnahme"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Maßnahme",
+            "ar": "إجراء",
+            "en": "measure"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Auswirkung",
+            "ar": "أثر",
+            "en": "impact"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Emission",
+            "ar": "انبعاث",
+            "en": "emission"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u14_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Auswirkung",
+        "ar": "Auswirkung",
+        "en": "Auswirkung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Auswirkung",
+            "ar": "أثر",
+            "en": "impact"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Emission",
+            "ar": "انبعاث",
+            "en": "emission"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Belastung",
+            "ar": "عبء",
+            "en": "burden"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u14_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Emission",
+        "ar": "Emission",
+        "en": "Emission"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Emission",
+            "ar": "انبعاث",
+            "en": "emission"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "Belastung",
+            "ar": "عبء",
+            "en": "burden"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "langfristig",
+            "ar": "طويل الأمد",
+            "en": "long-term"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u14_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Formulierung ist funktional am passendsten?",
+        "ar": "أي صياغة هي الأنسب وظيفيًا؟",
+        "en": "Which wording best fits the function?"
+      },
+      "question": {
+        "de": "Belastung",
+        "ar": "Belastung",
+        "en": "Belastung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Belastung",
+            "ar": "عبء",
+            "en": "burden"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "langfristig",
+            "ar": "طويل الأمد",
+            "en": "long-term"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Zielkonflikt",
+            "ar": "تعارض أهداف",
+            "en": "trade-off"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u14_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehleranalyse: korrekt, aber unpassend?",
+        "ar": "تحليل الخطأ: صحيح نحويًا لكن غير مناسب؟",
+        "en": "Error analysis: grammatical but inappropriate?"
+      },
+      "body": {
+        "de": "• ❌ nur Gesamtnutzen nennen, Verteilung ignorieren\n• ❌ Prognose als sichere Tatsache formulieren\n• ❌ Maßnahme mit Ziel verwechseln\n• ❌ kurzfristige und langfristige Wirkung vermischen.\n\nUnterscheide drei Kategorien: grammatisch falsch, semantisch falsch, stilistisch/kontextuell unpassend. Repariere jeden Fall auf mindestens zwei Arten.",
+        "ar": "• ❌ nur Gesamtnutzen nennen, Verteilung ignorieren\n• ❌ Prognose als sichere Tatsache formulieren\n• ❌ Maßnahme mit Ziel verwechseln\n• ❌ kurzfristige und langfristige Wirkung vermischen.\n\nميّز بين ثلاث فئات: خطأ نحوي، خطأ دلالي، وغير مناسب أسلوبيًا/سياقيًا. أصلح كل حالة بطريقتين على الأقل.",
+        "en": "• ❌ nur Gesamtnutzen nennen, Verteilung ignorieren\n• ❌ Prognose als sichere Tatsache formulieren\n• ❌ Maßnahme mit Ziel verwechseln\n• ❌ kurzfristige und langfristige Wirkung vermischen.\n\nDistinguish three categories: grammatically wrong, semantically wrong, stylistically/contextually inappropriate. Repair each in at least two ways."
+      }
+    },
+    {
+      "id": "b2_u14_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Nuancenmatrix",
+        "ar": "مصفوفة الفروق الدقيقة",
+        "en": "Nuance matrix"
+      },
+      "body": {
+        "de": "• Ziel → Mechanismus → Wirkung → Nebenwirkung → Verteilung\n• kurzfristig vs langfristig getrennt bewerten\n• Prognosen mit könnte/dürfte/unter Annahme markieren\n\nErstelle zu jeder Zeile drei Varianten mit unterschiedlicher Stärke, Formalität oder Perspektive. Ordne sie anschließend vom neutralsten zum markiertesten Ausdruck.",
+        "ar": "• Ziel → Mechanismus → Wirkung → Nebenwirkung → Verteilung\n• kurzfristig vs langfristig getrennt bewerten\n• Prognosen mit könnte/dürfte/unter Annahme markieren\n\nأنشئ ثلاث صيغ لكل نقطة بدرجات مختلفة من القوة أو الرسمية أو المنظور، ثم رتبها من الأكثر حيادًا إلى الأكثر تحديدًا.",
+        "en": "• Ziel → Mechanismus → Wirkung → Nebenwirkung → Verteilung\n• kurzfristig vs langfristig getrennt bewerten\n• Prognosen mit könnte/dürfte/unter Annahme markieren\n\nCreate three variants for each line with different strength, formality or perspective. Then order them from most neutral to most marked."
+      }
+    },
+    {
+      "id": "b2_u14_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B2 Transfer & Revision",
+        "ar": "تطبيق ومراجعة B2",
+        "en": "B2 transfer & revision"
+      },
+      "body": {
+        "de": "Bewerte drei Stadtmaßnahmen anhand von Ziel, Mechanismus, Kosten, Nutzen, Nebenwirkung, betroffenen Gruppen und Unsicherheit.\n\nDanach vier Revisionen: 1) Logik, 2) Evidenz/Unsicherheit, 3) Register/Kollokationen, 4) Kürze. Formuliere mindestens einen Satz nach jeder Revision neu.",
+        "ar": "Bewerte drei Stadtmaßnahmen anhand von Ziel, Mechanismus, Kosten, Nutzen, Nebenwirkung, betroffenen Gruppen und Unsicherheit.\n\nثم أربع مراجعات: 1) المنطق، 2) الدليل/عدم اليقين، 3) السجل/المتلازمات، 4) الاختصار. أعد صياغة جملة واحدة على الأقل بعد كل مراجعة.",
+        "en": "Bewerte drei Stadtmaßnahmen anhand von Ziel, Mechanismus, Kosten, Nutzen, Nebenwirkung, betroffenen Gruppen und Unsicherheit.\n\nThen revise in four passes: 1) logic, 2) evidence/uncertainty, 3) register/collocations, 4) concision. Rewrite at least one sentence after each pass."
+      }
+    },
+    {
+      "id": "b2_u14_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B2",
+        "en": "B2 casebook complete"
+      },
+      "canDo": [
+        "B2_U14_CASEBOOK"
+      ]
+    }
+  ]
+}
