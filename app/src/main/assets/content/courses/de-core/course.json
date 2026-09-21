@@ -410,6 +410,15 @@
                 "en": "Describing simple health complaints"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u11_l03",
+              "title": {
+                "de": "Intensivtraining: Gesundheit & Apotheke",
+                "ar": "تدريب مكثف: الصحة والصيدلية",
+                "en": "Mastery lab: Health & pharmacy"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -438,6 +447,15 @@
                 "en": "Talking about work, courses and skills"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u12_l03",
+              "title": {
+                "de": "Intensivtraining: Arbeit, Lernen & Fähigkeiten",
+                "ar": "تدريب مكثف: العمل والتعلم والقدرات",
+                "en": "Mastery lab: Work, study & abilities"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -466,6 +484,15 @@
                 "en": "Making plans, inviting and responding"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u13_l03",
+              "title": {
+                "de": "Intensivtraining: Freizeit, Wetter & Einladungen",
+                "ar": "تدريب مكثف: وقت الفراغ والطقس والدعوات",
+                "en": "Mastery lab: Leisure, weather & invitations"
+              },
+              "activityCount": 14
             }
           ]
         }

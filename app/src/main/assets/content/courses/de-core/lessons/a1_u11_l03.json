@@ -1,0 +1,296 @@
+{
+  "id": "a1_u11_l03",
+  "unitId": "de-core-a1-u11",
+  "title": {
+    "de": "Intensivtraining: Gesundheit & Apotheke",
+    "ar": "تدريب مكثف: الصحة والصيدلية",
+    "en": "Mastery lab: Health & pharmacy"
+  },
+  "canDo": [
+    "A1_U11_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u11_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Gesundheit & Apotheke“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.",
+        "ar": "تدريب مكثف على «الصحة والصيدلية». بعد كل إجابة اذكر القاعدة وأنشئ مثالًا ثانيًا واشرح خطأً شائعًا.",
+        "en": "Intensive practice for “Health & pharmacy”. After every answer state the rule, create a second example and explain one typical error."
+      }
+    },
+    {
+      "id": "a1_u11_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u11_l03_w1",
+          "german": "der Kopf",
+          "translation": {
+            "de": "head",
+            "ar": "الرأس",
+            "en": "head"
+          }
+        },
+        {
+          "id": "a1_u11_l03_w2",
+          "german": "der Hals",
+          "translation": {
+            "de": "throat/neck",
+            "ar": "الحلق / الرقبة",
+            "en": "throat/neck"
+          }
+        },
+        {
+          "id": "a1_u11_l03_w3",
+          "german": "der Schmerz",
+          "translation": {
+            "de": "pain",
+            "ar": "الألم",
+            "en": "pain"
+          }
+        },
+        {
+          "id": "a1_u11_l03_w4",
+          "german": "krank",
+          "translation": {
+            "de": "ill",
+            "ar": "مريض",
+            "en": "ill"
+          }
+        },
+        {
+          "id": "a1_u11_l03_w5",
+          "german": "die Apotheke",
+          "translation": {
+            "de": "pharmacy",
+            "ar": "الصيدلية",
+            "en": "pharmacy"
+          }
+        },
+        {
+          "id": "a1_u11_l03_w6",
+          "german": "der Arzttermin",
+          "translation": {
+            "de": "doctor's appointment",
+            "ar": "موعد الطبيب",
+            "en": "doctor's appointment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u11_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Rücken tut {answer}.",
+        "ar": "Mein Rücken tut {answer}.",
+        "en": "Mein Rücken tut {answer}."
+      },
+      "acceptedAnswers": [
+        "weh"
+      ]
+    },
+    {
+      "id": "a1_u11_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} einen Termin.",
+        "ar": "Ich {answer} einen Termin.",
+        "en": "Ich {answer} einen Termin."
+      },
+      "acceptedAnswers": [
+        "brauche"
+      ]
+    },
+    {
+      "id": "a1_u11_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beschwerden werden oft mit „haben“ oder „weh tun“ ausgedrückt: Ich habe Kopfschmerzen. Mein Rücken tut weh. Bei Körperteilen steht häufig {answer} bestimmte Artikel. Für einen Bedarf: Ich brauche einen Termin / ein Medikament.",
+        "ar": "Beschwerden werden oft mit „haben“ oder „weh tun“ ausgedrückt: Ich habe Kopfschmerzen. Mein Rücken tut weh. Bei Körperteilen steht häufig {answer} bestimmte Artikel. Für einen Bedarf: Ich brauche einen Termin / ein Medikament.",
+        "en": "Beschwerden werden oft mit „haben“ oder „weh tun“ ausgedrückt: Ich habe Kopfschmerzen. Mein Rücken tut weh. Bei Körperteilen steht häufig {answer} bestimmte Artikel. Für einen Bedarf: Ich brauche einen Termin / ein Medikament."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u11_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} seit heute Kopfschmerzen.",
+        "ar": "Ich {answer} seit heute Kopfschmerzen.",
+        "en": "Ich {answer} seit heute Kopfschmerzen."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "a1_u11_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Hals {answer} weh.",
+        "ar": "Mein Hals {answer} weh.",
+        "en": "Mein Hals {answer} weh."
+      },
+      "acceptedAnswers": [
+        "tut"
+      ]
+    },
+    {
+      "id": "a1_u11_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich brauche {answer} Termin beim Arzt.",
+        "ar": "Ich brauche {answer} Termin beim Arzt.",
+        "en": "Ich brauche {answer} Termin beim Arzt."
+      },
+      "acceptedAnswers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "a1_u11_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Kopf",
+        "ar": "der Kopf",
+        "en": "der Kopf"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "head",
+            "ar": "الرأس",
+            "en": "head"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "throat/neck",
+            "ar": "الحلق / الرقبة",
+            "en": "throat/neck"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "pain",
+            "ar": "الألم",
+            "en": "pain"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u11_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "krank",
+        "ar": "krank",
+        "en": "krank"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ill",
+            "ar": "مريض",
+            "en": "ill"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "pharmacy",
+            "ar": "الصيدلية",
+            "en": "pharmacy"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "doctor's appointment",
+            "ar": "موعد الطبيب",
+            "en": "doctor's appointment"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u11_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Beschwerden werden oft mit „haben“ oder „weh tun“ ausgedrückt: Ich habe Kopfschmerzen. Mein Rücken tut weh. Bei Körperteilen steht häufig der bestimmte Artikel. Für einen Bedarf: Ich brauche einen Termin / ein Medikament.\n2. Ich habe seit heute Kopfschmerzen.\n3. Mein Hals tut weh.\n4. Ich brauche einen Termin beim Arzt.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre und korrigiere.",
+        "ar": "نماذج صحيحة:\n1. Beschwerden werden oft mit „haben“ oder „weh tun“ ausgedrückt: Ich habe Kopfschmerzen. Mein Rücken tut weh. Bei Körperteilen steht häufig der bestimmte Artikel. Für einen Bedarf: Ich brauche einen Termin / ein Medikament.\n2. Ich habe seit heute Kopfschmerzen.\n3. Mein Hals tut weh.\n4. Ich brauche einen Termin beim Arzt.\n\nحدّد الصيغة الحاسمة وأنشئ خطأً شائعًا ثم اشرح وصحح.",
+        "en": "Correct patterns:\n1. Beschwerden werden oft mit „haben“ oder „weh tun“ ausgedrückt: Ich habe Kopfschmerzen. Mein Rücken tut weh. Bei Körperteilen steht häufig der bestimmte Artikel. Für einen Bedarf: Ich brauche einen Termin / ein Medikament.\n2. Ich habe seit heute Kopfschmerzen.\n3. Mein Hals tut weh.\n4. Ich brauche einen Termin beim Arzt.\n\nMark the decisive form, create a typical wrong version, explain and correct it."
+      }
+    },
+    {
+      "id": "a1_u11_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة خمس مرات ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model five ways, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u11_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "Sofort mündlich wiederholen, später sechs neue Sätze bilden, die Regel erklären, im Dialog anwenden und mit älteren Themen mischen.",
+        "ar": "كرر شفهيًا الآن، ثم كوّن ست جمل جديدة لاحقًا واشرح القاعدة واستخدمها في حوار وامزجها مع موضوعات سابقة.",
+        "en": "Repeat orally now, later create six new sentences, explain the rule, use it in dialogue and interleave with older topics."
+      }
+    },
+    {
+      "id": "a1_u11_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U11_MASTERY"
+      ]
+    }
+  ]
+}
