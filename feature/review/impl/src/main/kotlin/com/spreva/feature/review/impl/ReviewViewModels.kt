@@ -17,6 +17,7 @@ import com.spreva.domain.learning.PlacementQuestionRepository
 import com.spreva.domain.review.GetDueReviews
 import com.spreva.domain.review.GradeReview
 import com.spreva.domain.review.ReviewQueue
+import com.spreva.domain.review.PreviewReview
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -54,6 +55,7 @@ class PracticeViewModel @Inject constructor(
 class ReviewSessionViewModel @Inject constructor(
     getDueReviews: GetDueReviews,
     private val gradeReview: GradeReview,
+    private val previewReview: PreviewReview,
     private val clock: AppClock,
     private val courseAudioPlayer: CourseAudioPlayer,
 ) : ViewModel() {
@@ -110,6 +112,13 @@ class ReviewSessionViewModel @Inject constructor(
 
     fun reveal() {
         _revealed.value = true
+    }
+
+    fun previewIntervals(card: ReviewCard): Map<ReviewRating, Long> {
+        val now = clock.now()
+        return previewReview(card, now.toEpochMilli()).mapValues { (_, due) ->
+            java.time.Duration.between(now, due).toMillis().coerceAtLeast(0L)
+        }
     }
 
     /** Grades the front card; the queue flow drops it once dueAt moves forward. */

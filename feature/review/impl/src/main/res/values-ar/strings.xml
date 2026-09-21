@@ -47,4 +47,8 @@
     <string name="spreva_placement_result_note">استخدم النتيجة كنقطة بداية. سيُحسّن ملف الإتقان التوصيات مع إكمال الدروس والمراجعات الفعلية.</string>
     <string name="spreva_placement_open_level">فتح مستوى %1$s</string>
     <string name="spreva_placement_restart">إعادة التشخيص</string>
+    <string name="spreva_review_rating_interval">%1$s · %2$s</string>
+    <string name="spreva_review_minutes">%1$d د</string>
+    <string name="spreva_review_hours">%1$d س</string>
+    <string name="spreva_review_days">%1$d يوم</string>
 </resources>

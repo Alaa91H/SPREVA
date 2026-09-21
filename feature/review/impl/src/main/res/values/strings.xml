@@ -47,4 +47,8 @@
     <string name="spreva_placement_result_note">Use this as a starting point. Your mastery profile will refine recommendations as you complete real lessons and reviews.</string>
     <string name="spreva_placement_open_level">Open %1$s course</string>
     <string name="spreva_placement_restart">Run diagnostic again</string>
+    <string name="spreva_review_rating_interval">%1$s · %2$s</string>
+    <string name="spreva_review_minutes">%1$d min</string>
+    <string name="spreva_review_hours">%1$d h</string>
+    <string name="spreva_review_days">%1$d d</string>
 </resources>

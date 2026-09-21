@@ -261,41 +261,63 @@ fun ReviewSessionRoute(onFinished: () -> Unit, viewModel: ReviewSessionViewModel
                         Text(stringResource(R.string.spreva_review_check))
                     }
                 } else {
-                    GradeButtons(viewModel = viewModel)
+                    GradeButtons(viewModel = viewModel, card = current)
                 }
             } else if (!revealed) {
                 Button(onClick = viewModel::reveal, modifier = Modifier.fillMaxWidth()) {
                     Text(stringResource(R.string.spreva_review_show_answer))
                 }
             } else {
-                GradeButtons(viewModel = viewModel)
+                GradeButtons(viewModel = viewModel, card = current)
             }
         }
     }
 }
 
-/** Again/Hard/Good/Easy — extracted so both card flows share it. */
+/** Again/Hard/Good/Easy with FSRS interval previews. */
 @Composable
-private fun GradeButtons(viewModel: ReviewSessionViewModel) {
+private fun GradeButtons(
+    viewModel: ReviewSessionViewModel,
+    card: com.spreva.core.model.ReviewCard,
+) {
+    val previews = viewModel.previewIntervals(card)
+
+    @Composable
+    fun label(rating: ReviewRating, textRes: Int): String {
+        val base = stringResource(textRes)
+        val interval = formatInterval(previews[rating] ?: 0L)
+        return stringResource(R.string.spreva_review_rating_interval, base, interval)
+    }
+
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
         OutlinedButton(
             onClick = { viewModel.grade(ReviewRating.AGAIN) },
             modifier = Modifier.weight(1f),
-        ) { Text(stringResource(R.string.spreva_review_again)) }
+        ) { Text(label(ReviewRating.AGAIN, R.string.spreva_review_again)) }
         OutlinedButton(
             onClick = { viewModel.grade(ReviewRating.HARD) },
             modifier = Modifier.weight(1f),
-        ) { Text(stringResource(R.string.spreva_review_hard)) }
+        ) { Text(label(ReviewRating.HARD, R.string.spreva_review_hard)) }
     }
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
         Button(
             onClick = { viewModel.grade(ReviewRating.GOOD) },
             modifier = Modifier.weight(1f),
-        ) { Text(stringResource(R.string.spreva_review_good)) }
+        ) { Text(label(ReviewRating.GOOD, R.string.spreva_review_good)) }
         Button(
             onClick = { viewModel.grade(ReviewRating.EASY) },
             modifier = Modifier.weight(1f),
-        ) { Text(stringResource(R.string.spreva_review_easy)) }
+        ) { Text(label(ReviewRating.EASY, R.string.spreva_review_easy)) }
+    }
+}
+
+@Composable
+private fun formatInterval(durationMs: Long): String {
+    val minutes = (durationMs / 60_000L).coerceAtLeast(1L)
+    return when {
+        minutes < 60 -> stringResource(R.string.spreva_review_minutes, minutes)
+        minutes < 60 * 24 -> stringResource(R.string.spreva_review_hours, minutes / 60)
+        else -> stringResource(R.string.spreva_review_days, minutes / (60 * 24))
     }
 }
 
