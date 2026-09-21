@@ -63,9 +63,10 @@ class Fsrs6ReviewScheduler(
     }
 
     private fun parseState(card: ReviewCard): FsrsSchedulerState? {
-        if (card.schedulerVersion != version || card.schedulerState.isNullOrBlank()) return null
+        val stateJson = card.schedulerState
+        if (card.schedulerVersion != version || stateJson.isNullOrBlank()) return null
         return runCatching {
-            json.decodeFromString<FsrsSchedulerState>(card.schedulerState)
+            json.decodeFromString<FsrsSchedulerState>(stateJson)
         }.getOrNull()?.takeIf {
             it.stabilityDays.isFinite() && it.stabilityDays > 0.0 &&
                 it.difficulty.isFinite() && it.difficulty in 1.0..10.0
