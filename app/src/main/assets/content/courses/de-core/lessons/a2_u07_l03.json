@@ -1,0 +1,296 @@
+{
+  "id": "a2_u07_l03",
+  "unitId": "de-core-a2-u07",
+  "title": {
+    "de": "Intensivtraining: Reflexive Verben & Alltag",
+    "ar": "تدريب مكثف: الأفعال الانعكاسية والحياة اليومية",
+    "en": "Mastery lab: Reflexive verbs & daily life"
+  },
+  "canDo": [
+    "A2_U07_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u07_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Reflexive Verben & Alltag“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «الأفعال الانعكاسية والحياة اليومية». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Reflexive verbs & daily life”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u07_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u07_l03_w1",
+          "german": "sich anmelden",
+          "translation": {
+            "de": "register",
+            "ar": "يسجل نفسه",
+            "en": "register"
+          }
+        },
+        {
+          "id": "a2_u07_l03_w2",
+          "german": "sich treffen",
+          "translation": {
+            "de": "meet",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        },
+        {
+          "id": "a2_u07_l03_w3",
+          "german": "sich freuen",
+          "translation": {
+            "de": "look forward/be glad",
+            "ar": "يفرح / يتطلع",
+            "en": "look forward/be glad"
+          }
+        },
+        {
+          "id": "a2_u07_l03_w4",
+          "german": "sich interessieren",
+          "translation": {
+            "de": "be interested",
+            "ar": "يهتم",
+            "en": "be interested"
+          }
+        },
+        {
+          "id": "a2_u07_l03_w5",
+          "german": "sich erinnern",
+          "translation": {
+            "de": "remember",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        },
+        {
+          "id": "a2_u07_l03_w6",
+          "german": "der Kursplatz",
+          "translation": {
+            "de": "course place",
+            "ar": "مكان في الدورة",
+            "en": "course place"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u07_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich interessiere {answer} für Sprachen.",
+        "ar": "Ich interessiere {answer} für Sprachen.",
+        "en": "Ich interessiere {answer} für Sprachen."
+      },
+      "acceptedAnswers": [
+        "mich"
+      ]
+    },
+    {
+      "id": "a2_u07_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir treffen {answer} um 18 Uhr.",
+        "ar": "Wir treffen {answer} um 18 Uhr.",
+        "en": "Wir treffen {answer} um 18 Uhr."
+      },
+      "acceptedAnswers": [
+        "uns"
+      ]
+    },
+    {
+      "id": "a2_u07_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Reflexivpronomen: mich, dich, sich, uns, euch, sich. Manche Verben sind häufig reflexiv: sich interessieren für, sich freuen auf/über, sich treffen, sich anmelden. {answer} Pronomen passt zum Subjekt.",
+        "ar": "Reflexivpronomen: mich, dich, sich, uns, euch, sich. Manche Verben sind häufig reflexiv: sich interessieren für, sich freuen auf/über, sich treffen, sich anmelden. {answer} Pronomen passt zum Subjekt.",
+        "en": "Reflexivpronomen: mich, dich, sich, uns, euch, sich. Manche Verben sind häufig reflexiv: sich interessieren für, sich freuen auf/über, sich treffen, sich anmelden. {answer} Pronomen passt zum Subjekt."
+      },
+      "acceptedAnswers": [
+        "Das"
+      ]
+    },
+    {
+      "id": "a2_u07_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich interessiere {answer} für Deutsch.",
+        "ar": "Ich interessiere {answer} für Deutsch.",
+        "en": "Ich interessiere {answer} für Deutsch."
+      },
+      "acceptedAnswers": [
+        "mich"
+      ]
+    },
+    {
+      "id": "a2_u07_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Hast du {answer} schon angemeldet?",
+        "ar": "Hast du {answer} schon angemeldet?",
+        "en": "Hast du {answer} schon angemeldet?"
+      },
+      "acceptedAnswers": [
+        "dich"
+      ]
+    },
+    {
+      "id": "a2_u07_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kursanmeldung, Freizeit, Gesundheit und Kontakte: sich anmelden, sich erinnern, sich freuen und sich {answer} jemandem treffen.",
+        "ar": "Kursanmeldung, Freizeit, Gesundheit und Kontakte: sich anmelden, sich erinnern, sich freuen und sich {answer} jemandem treffen.",
+        "en": "Kursanmeldung, Freizeit, Gesundheit und Kontakte: sich anmelden, sich erinnern, sich freuen und sich {answer} jemandem treffen."
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "a2_u07_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "sich anmelden",
+        "ar": "sich anmelden",
+        "en": "sich anmelden"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "register",
+            "ar": "يسجل نفسه",
+            "en": "register"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "meet",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "look forward/be glad",
+            "ar": "يفرح / يتطلع",
+            "en": "look forward/be glad"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u07_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "sich interessieren",
+        "ar": "sich interessieren",
+        "en": "sich interessieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "be interested",
+            "ar": "يهتم",
+            "en": "be interested"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "remember",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "course place",
+            "ar": "مكان في الدورة",
+            "en": "course place"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u07_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Reflexivpronomen: mich, dich, sich, uns, euch, sich. Manche Verben sind häufig reflexiv: sich interessieren für, sich freuen auf/über, sich treffen, sich anmelden. Das Pronomen passt zum Subjekt.\n2. Ich interessiere mich für Deutsch.\n3. Wir treffen uns um 18 Uhr.\n4. Hast du dich schon angemeldet?\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. Reflexivpronomen: mich, dich, sich, uns, euch, sich. Manche Verben sind häufig reflexiv: sich interessieren für, sich freuen auf/über, sich treffen, sich anmelden. Das Pronomen passt zum Subjekt.\n2. Ich interessiere mich für Deutsch.\n3. Wir treffen uns um 18 Uhr.\n4. Hast du dich schon angemeldet?\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا متأثرًا باللغة الأم، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. Reflexivpronomen: mich, dich, sich, uns, euch, sich. Manche Verben sind häufig reflexiv: sich interessieren für, sich freuen auf/über, sich treffen, sich anmelden. Das Pronomen passt zum Subjekt.\n2. Ich interessiere mich für Deutsch.\n3. Wir treffen uns um 18 Uhr.\n4. Hast du dich schon angemeldet?\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u07_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren. Zu jeder Änderung die Regel laut begründen.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات بعد تغيير بداية الجملة. علّل كل تغيير.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order after changing the prefield. Explain every change."
+      }
+    },
+    {
+      "id": "a2_u07_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; nach 10–20 Minuten neue Beispiele; am nächsten Lerntag gemischt mit einer älteren Kasus-/Tempusregel; schließlich in einer realen Nachricht oder einem Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ بعد 10–20 دقيقة أنشئ أمثلة جديدة؛ في يوم التعلم التالي امزجها مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve now unaided; after 10–20 minutes create new examples; next study day interleave with an older case/tense rule; finally use it in a real message or role-play."
+      }
+    },
+    {
+      "id": "a2_u07_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U07_MASTERY"
+      ]
+    }
+  ]
+}

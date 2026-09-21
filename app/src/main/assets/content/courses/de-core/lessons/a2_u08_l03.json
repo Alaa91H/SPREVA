@@ -1,0 +1,297 @@
+{
+  "id": "a2_u08_l03",
+  "unitId": "de-core-a2-u08",
+  "title": {
+    "de": "Intensivtraining: Vergleichen & auswählen",
+    "ar": "تدريب مكثف: المقارنة والاختيار",
+    "en": "Mastery lab: Comparing & choosing"
+  },
+  "canDo": [
+    "A2_U08_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u08_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Vergleichen & auswählen“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «المقارنة والاختيار». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Comparing & choosing”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u08_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u08_l03_w1",
+          "german": "günstig",
+          "translation": {
+            "de": "affordable",
+            "ar": "مناسب السعر",
+            "en": "affordable"
+          }
+        },
+        {
+          "id": "a2_u08_l03_w2",
+          "german": "teuer",
+          "translation": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        },
+        {
+          "id": "a2_u08_l03_w3",
+          "german": "groß",
+          "translation": {
+            "de": "large",
+            "ar": "كبير",
+            "en": "large"
+          }
+        },
+        {
+          "id": "a2_u08_l03_w4",
+          "german": "hell",
+          "translation": {
+            "de": "bright",
+            "ar": "مضيء",
+            "en": "bright"
+          }
+        },
+        {
+          "id": "a2_u08_l03_w5",
+          "german": "nah",
+          "translation": {
+            "de": "near",
+            "ar": "قريب",
+            "en": "near"
+          }
+        },
+        {
+          "id": "a2_u08_l03_w6",
+          "german": "weit",
+          "translation": {
+            "de": "far",
+            "ar": "بعيد",
+            "en": "far"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u08_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die zweite Wohnung ist günstiger {answer} die erste.",
+        "ar": "Die zweite Wohnung ist günstiger {answer} die erste.",
+        "en": "Die zweite Wohnung ist günstiger {answer} die erste."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "a2_u08_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dieses Angebot ist am {answer}.",
+        "ar": "Dieses Angebot ist am {answer}.",
+        "en": "Dieses Angebot ist am {answer}."
+      },
+      "acceptedAnswers": [
+        "günstigsten",
+        "guenstigsten"
+      ]
+    },
+    {
+      "id": "a2_u08_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Diese Wohnung ist größer als {answer} andere.",
+        "ar": "Diese Wohnung ist größer als {answer} andere.",
+        "en": "Diese Wohnung ist größer als {answer} andere."
+      },
+      "acceptedAnswers": [
+        "die"
+      ]
+    },
+    {
+      "id": "a2_u08_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Bus ist so schnell wie die Bahn.",
+        "ar": "{answer} Bus ist so schnell wie die Bahn.",
+        "en": "{answer} Bus ist so schnell wie die Bahn."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "a2_u08_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Angebot ist am günstigsten.",
+        "ar": "{answer} Angebot ist am günstigsten.",
+        "en": "{answer} Angebot ist am günstigsten."
+      },
+      "acceptedAnswers": [
+        "Das"
+      ]
+    },
+    {
+      "id": "a2_u08_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wohnungssuche, Technik, Tarife oder Einkauf: Preis, Qualität, Größe und Entfernung vergleichen und {answer} Wahl begründen.",
+        "ar": "Wohnungssuche, Technik, Tarife oder Einkauf: Preis, Qualität, Größe und Entfernung vergleichen und {answer} Wahl begründen.",
+        "en": "Wohnungssuche, Technik, Tarife oder Einkauf: Preis, Qualität, Größe und Entfernung vergleichen und {answer} Wahl begründen."
+      },
+      "acceptedAnswers": [
+        "eine"
+      ]
+    },
+    {
+      "id": "a2_u08_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "günstig",
+        "ar": "günstig",
+        "en": "günstig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "affordable",
+            "ar": "مناسب السعر",
+            "en": "affordable"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "large",
+            "ar": "كبير",
+            "en": "large"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u08_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "hell",
+        "ar": "hell",
+        "en": "hell"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "bright",
+            "ar": "مضيء",
+            "en": "bright"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "near",
+            "ar": "قريب",
+            "en": "near"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "far",
+            "ar": "بعيد",
+            "en": "far"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u08_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Diese Wohnung ist größer als die andere.\n2. Der Bus ist so schnell wie die Bahn.\n3. Das Angebot ist am günstigsten.\n4. Wohnungssuche, Technik, Tarife oder Einkauf: Preis, Qualität, Größe und Entfernung vergleichen und eine Wahl begründen.\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. Diese Wohnung ist größer als die andere.\n2. Der Bus ist so schnell wie die Bahn.\n3. Das Angebot ist am günstigsten.\n4. Wohnungssuche, Technik, Tarife oder Einkauf: Preis, Qualität, Größe und Entfernung vergleichen und eine Wahl begründen.\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا متأثرًا باللغة الأم، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. Diese Wohnung ist größer als die andere.\n2. Der Bus ist so schnell wie die Bahn.\n3. Das Angebot ist am günstigsten.\n4. Wohnungssuche, Technik, Tarife oder Einkauf: Preis, Qualität, Größe und Entfernung vergleichen und eine Wahl begründen.\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u08_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren. Zu jeder Änderung die Regel laut begründen.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات بعد تغيير بداية الجملة. علّل كل تغيير.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order after changing the prefield. Explain every change."
+      }
+    },
+    {
+      "id": "a2_u08_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; nach 10–20 Minuten neue Beispiele; am nächsten Lerntag gemischt mit einer älteren Kasus-/Tempusregel; schließlich in einer realen Nachricht oder einem Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ بعد 10–20 دقيقة أنشئ أمثلة جديدة؛ في يوم التعلم التالي امزجها مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve now unaided; after 10–20 minutes create new examples; next study day interleave with an older case/tense rule; finally use it in a real message or role-play."
+      }
+    },
+    {
+      "id": "a2_u08_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U08_MASTERY"
+      ]
+    }
+  ]
+}

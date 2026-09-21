@@ -1,0 +1,296 @@
+{
+  "id": "a2_u09_l03",
+  "unitId": "de-core-a2-u09",
+  "title": {
+    "de": "Intensivtraining: Adjektive im Alltag",
+    "ar": "تدريب مكثف: الصفات في الحياة اليومية",
+    "en": "Mastery lab: Adjectives in everyday German"
+  },
+  "canDo": [
+    "A2_U09_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u09_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Adjektive im Alltag“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «الصفات في الحياة اليومية». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Adjectives in everyday German”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u09_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u09_l03_w1",
+          "german": "der Mantel",
+          "translation": {
+            "de": "coat",
+            "ar": "المعطف",
+            "en": "coat"
+          }
+        },
+        {
+          "id": "a2_u09_l03_w2",
+          "german": "der Pullover",
+          "translation": {
+            "de": "sweater",
+            "ar": "الكنزة",
+            "en": "sweater"
+          }
+        },
+        {
+          "id": "a2_u09_l03_w3",
+          "german": "hell",
+          "translation": {
+            "de": "light/bright",
+            "ar": "فاتح / مضيء",
+            "en": "light/bright"
+          }
+        },
+        {
+          "id": "a2_u09_l03_w4",
+          "german": "dunkel",
+          "translation": {
+            "de": "dark",
+            "ar": "داكن",
+            "en": "dark"
+          }
+        },
+        {
+          "id": "a2_u09_l03_w5",
+          "german": "bequem",
+          "translation": {
+            "de": "comfortable",
+            "ar": "مريح",
+            "en": "comfortable"
+          }
+        },
+        {
+          "id": "a2_u09_l03_w6",
+          "german": "passen",
+          "translation": {
+            "de": "fit/suit",
+            "ar": "يناسب",
+            "en": "fit/suit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u09_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich suche einen schwarz{answer} Mantel.",
+        "ar": "Ich suche einen schwarz{answer} Mantel.",
+        "en": "Ich suche einen schwarz{answer} Mantel."
+      },
+      "acceptedAnswers": [
+        "en"
+      ]
+    },
+    {
+      "id": "a2_u09_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist eine bequem{answer} Jacke.",
+        "ar": "Das ist eine bequem{answer} Jacke.",
+        "en": "Das ist eine bequem{answer} Jacke."
+      },
+      "acceptedAnswers": [
+        "e"
+      ]
+    },
+    {
+      "id": "a2_u09_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Steht ein Adjektiv vor einem Nomen, bekommt es eine Endung: {answer} rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.",
+        "ar": "Steht ein Adjektiv vor einem Nomen, bekommt es eine Endung: {answer} rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.",
+        "en": "Steht ein Adjektiv vor einem Nomen, bekommt es eine Endung: {answer} rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u09_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich suche {answer} schwarzen Mantel.",
+        "ar": "Ich suche {answer} schwarzen Mantel.",
+        "en": "Ich suche {answer} schwarzen Mantel."
+      },
+      "acceptedAnswers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "a2_u09_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} blaue Jacke ist schön.",
+        "ar": "{answer} blaue Jacke ist schön.",
+        "en": "{answer} blaue Jacke ist schön."
+      },
+      "acceptedAnswers": [
+        "Die"
+      ]
+    },
+    {
+      "id": "a2_u09_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ist ein gutes Angebot.",
+        "ar": "{answer} ist ein gutes Angebot.",
+        "en": "{answer} ist ein gutes Angebot."
+      },
+      "acceptedAnswers": [
+        "Das"
+      ]
+    },
+    {
+      "id": "a2_u09_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "der Mantel",
+        "ar": "der Mantel",
+        "en": "der Mantel"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "coat",
+            "ar": "المعطف",
+            "en": "coat"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sweater",
+            "ar": "الكنزة",
+            "en": "sweater"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "light/bright",
+            "ar": "فاتح / مضيء",
+            "en": "light/bright"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u09_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "dunkel",
+        "ar": "dunkel",
+        "en": "dunkel"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "dark",
+            "ar": "داكن",
+            "en": "dark"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "comfortable",
+            "ar": "مريح",
+            "en": "comfortable"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "fit/suit",
+            "ar": "يناسب",
+            "en": "fit/suit"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u09_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Steht ein Adjektiv vor einem Nomen, bekommt es eine Endung: der rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.\n2. Ich suche einen schwarzen Mantel.\n3. Die blaue Jacke ist schön.\n4. Das ist ein gutes Angebot.\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. Steht ein Adjektiv vor einem Nomen, bekommt es eine Endung: der rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.\n2. Ich suche einen schwarzen Mantel.\n3. Die blaue Jacke ist schön.\n4. Das ist ein gutes Angebot.\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا متأثرًا باللغة الأم، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. Steht ein Adjektiv vor einem Nomen, bekommt es eine Endung: der rote Pullover, ein roter Pullover, eine rote Jacke. Die Endung hängt von Artikel, Genus, Kasus und Numerus ab. Auf A2 zuerst häufige Nominativ-/Akkusativmuster automatisieren.\n2. Ich suche einen schwarzen Mantel.\n3. Die blaue Jacke ist schön.\n4. Das ist ein gutes Angebot.\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u09_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren. Zu jeder Änderung die Regel laut begründen.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات بعد تغيير بداية الجملة. علّل كل تغيير.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order after changing the prefield. Explain every change."
+      }
+    },
+    {
+      "id": "a2_u09_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; nach 10–20 Minuten neue Beispiele; am nächsten Lerntag gemischt mit einer älteren Kasus-/Tempusregel; schließlich in einer realen Nachricht oder einem Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ بعد 10–20 دقيقة أنشئ أمثلة جديدة؛ في يوم التعلم التالي امزجها مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve now unaided; after 10–20 minutes create new examples; next study day interleave with an older case/tense rule; finally use it in a real message or role-play."
+      }
+    },
+    {
+      "id": "a2_u09_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U09_MASTERY"
+      ]
+    }
+  ]
+}

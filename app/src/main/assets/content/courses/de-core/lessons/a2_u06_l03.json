@@ -1,0 +1,296 @@
+{
+  "id": "a2_u06_l03",
+  "unitId": "de-core-a2-u06",
+  "title": {
+    "de": "Intensivtraining: Wechselpräpositionen & Wohnung",
+    "ar": "تدريب مكثف: حروف الجر الثنائية والسكن",
+    "en": "Mastery lab: Two-way prepositions & housing"
+  },
+  "canDo": [
+    "A2_U06_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a2_u06_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Mastery — Regel + Transfer",
+        "ar": "إتقان A2 — القاعدة والتطبيق",
+        "en": "A2 Mastery — rule + transfer"
+      },
+      "body": {
+        "de": "Automatisiere „Wechselpräpositionen & Wohnung“. Nach jeder Lösung: Kasus/Verbform begründen, Satz mit anderem Subjekt neu bilden und eine falsche Alternative erklären.",
+        "ar": "رسّخ «حروف الجر الثنائية والسكن». بعد كل حل: علّل الحالة الإعرابية/صيغة الفعل، أعد الجملة بفاعل مختلف، واشرح بديلًا خاطئًا.",
+        "en": "Automate “Two-way prepositions & housing”. After each solution justify case/verb form, rebuild with a different subject and explain one wrong alternative."
+      }
+    },
+    {
+      "id": "a2_u06_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u06_l03_w1",
+          "german": "stellen",
+          "translation": {
+            "de": "put/place",
+            "ar": "يضع عموديًا",
+            "en": "put/place"
+          }
+        },
+        {
+          "id": "a2_u06_l03_w2",
+          "german": "liegen",
+          "translation": {
+            "de": "lie",
+            "ar": "يكون موضوعًا أفقيًا",
+            "en": "lie"
+          }
+        },
+        {
+          "id": "a2_u06_l03_w3",
+          "german": "hängen",
+          "translation": {
+            "de": "hang",
+            "ar": "يعلّق / يكون معلّقًا",
+            "en": "hang"
+          }
+        },
+        {
+          "id": "a2_u06_l03_w4",
+          "german": "neben",
+          "translation": {
+            "de": "next to",
+            "ar": "بجانب",
+            "en": "next to"
+          }
+        },
+        {
+          "id": "a2_u06_l03_w5",
+          "german": "zwischen",
+          "translation": {
+            "de": "between",
+            "ar": "بين",
+            "en": "between"
+          }
+        },
+        {
+          "id": "a2_u06_l03_w6",
+          "german": "die Wand",
+          "translation": {
+            "de": "wall",
+            "ar": "الجدار",
+            "en": "wall"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u06_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Bild hängt an {answer} Wand.",
+        "ar": "Das Bild hängt an {answer} Wand.",
+        "en": "Das Bild hängt an {answer} Wand."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u06_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stelle den Stuhl neben {answer} Tisch.",
+        "ar": "Ich stelle den Stuhl neben {answer} Tisch.",
+        "en": "Ich stelle den Stuhl neben {answer} Tisch."
+      },
+      "acceptedAnswers": [
+        "den"
+      ]
+    },
+    {
+      "id": "a2_u06_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Tisch steht neben dem Fenster.",
+        "ar": "{answer} Tisch steht neben dem Fenster.",
+        "en": "{answer} Tisch steht neben dem Fenster."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "a2_u06_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stelle den Tisch neben {answer} Fenster.",
+        "ar": "Ich stelle den Tisch neben {answer} Fenster.",
+        "en": "Ich stelle den Tisch neben {answer} Fenster."
+      },
+      "acceptedAnswers": [
+        "das"
+      ]
+    },
+    {
+      "id": "a2_u06_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Jacke hängt an {answer} Tür.",
+        "ar": "Die Jacke hängt an {answer} Tür.",
+        "en": "Die Jacke hängt an {answer} Tür."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a2_u06_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Umzug, Möbelaufbau oder Wohnungsbeschreibung: sagen, {answer} Dinge stehen und wohin sie gestellt werden sollen.",
+        "ar": "Umzug, Möbelaufbau oder Wohnungsbeschreibung: sagen, {answer} Dinge stehen und wohin sie gestellt werden sollen.",
+        "en": "Umzug, Möbelaufbau oder Wohnungsbeschreibung: sagen, {answer} Dinge stehen und wohin sie gestellt werden sollen."
+      },
+      "acceptedAnswers": [
+        "wo"
+      ]
+    },
+    {
+      "id": "a2_u06_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "stellen",
+        "ar": "stellen",
+        "en": "stellen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "put/place",
+            "ar": "يضع عموديًا",
+            "en": "put/place"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "lie",
+            "ar": "يكون موضوعًا أفقيًا",
+            "en": "lie"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "hang",
+            "ar": "يعلّق / يكون معلّقًا",
+            "en": "hang"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u06_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "neben",
+        "ar": "neben",
+        "en": "neben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "next to",
+            "ar": "بجانب",
+            "en": "next to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "between",
+            "ar": "بين",
+            "en": "between"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "wall",
+            "ar": "الجدار",
+            "en": "wall"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u06_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Fehlertraining",
+        "ar": "تدريب المقارنة والأخطاء",
+        "en": "Contrast & error training"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Der Tisch steht neben dem Fenster.\n2. Ich stelle den Tisch neben das Fenster.\n3. Die Jacke hängt an der Tür.\n4. Umzug, Möbelaufbau oder Wohnungsbeschreibung: sagen, wo Dinge stehen und wohin sie gestellt werden sollen.\n\nFür jeden Satz: Kasus/Verbposition markieren, eine typische Interferenzform bilden, Fehler benennen und korrigieren.",
+        "ar": "نماذج صحيحة:\n1. Der Tisch steht neben dem Fenster.\n2. Ich stelle den Tisch neben das Fenster.\n3. Die Jacke hängt an der Tür.\n4. Umzug, Möbelaufbau oder Wohnungsbeschreibung: sagen, wo Dinge stehen und wohin sie gestellt werden sollen.\n\nلكل جملة: حدّد الحالة/موقع الفعل، أنشئ خطأً شائعًا متأثرًا باللغة الأم، سمّه ثم صححه.",
+        "en": "Correct patterns:\n1. Der Tisch steht neben dem Fenster.\n2. Ich stelle den Tisch neben das Fenster.\n3. Die Jacke hängt an der Tür.\n4. Umzug, Möbelaufbau oder Wohnungsbeschreibung: sagen, wo Dinge stehen und wohin sie gestellt werden sollen.\n\nFor each sentence mark case/verb position, create a typical interference error, name it and correct it."
+      }
+    },
+    {
+      "id": "a2_u06_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "A2-Variationsmatrix",
+        "ar": "مصفوفة تحويلات A2",
+        "en": "A2 variation matrix"
+      },
+      "body": {
+        "de": "1) Nomen → Pronomen. 2) Nominativ/Akkusativ/Dativ neu prüfen. 3) Präsens → Perfekt/Präteritum. 4) Hauptsatz → weil/dass/wenn-Satz. 5) du → Sie. 6) Wortstellung nach Vorfeldwechsel kontrollieren. Zu jeder Änderung die Regel laut begründen.",
+        "ar": "1) اسم → ضمير. 2) راجع Nominativ/Akkusativ/Dativ. 3) حاضر → Perfekt/Präteritum. 4) رئيسية → weil/dass/wenn. 5) du → Sie. 6) راجع ترتيب الكلمات بعد تغيير بداية الجملة. علّل كل تغيير.",
+        "en": "1) noun → pronoun. 2) re-check nominative/accusative/dative. 3) present → Perfekt/Präteritum. 4) main clause → weil/dass/wenn clause. 5) du → Sie. 6) check word order after changing the prefield. Explain every change."
+      }
+    },
+    {
+      "id": "a2_u06_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Spaced Retrieval",
+        "ar": "استرجاع متباعد",
+        "en": "Spaced retrieval"
+      },
+      "body": {
+        "de": "Jetzt ohne Hilfe lösen; nach 10–20 Minuten neue Beispiele; am nächsten Lerntag gemischt mit einer älteren Kasus-/Tempusregel; schließlich in einer realen Nachricht oder einem Rollenspiel verwenden.",
+        "ar": "حل الآن دون مساعدة؛ بعد 10–20 دقيقة أنشئ أمثلة جديدة؛ في يوم التعلم التالي امزجها مع قاعدة حالة/زمن سابقة؛ ثم استخدمها في رسالة أو تمثيل موقف.",
+        "en": "Solve now unaided; after 10–20 minutes create new examples; next study day interleave with an older case/tense rule; finally use it in a real message or role-play."
+      }
+    },
+    {
+      "id": "a2_u06_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2-Mastery gesichert",
+        "ar": "تم تثبيت إتقان A2",
+        "en": "A2 mastery secured"
+      },
+      "canDo": [
+        "A2_U06_MASTERY"
+      ]
+    }
+  ]
+}
