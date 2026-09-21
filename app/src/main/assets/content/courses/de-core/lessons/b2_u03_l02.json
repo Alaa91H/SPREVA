@@ -1,0 +1,154 @@
+{
+  "id": "b2_u03_l02",
+  "unitId": "de-core-b2-u03",
+  "title": {
+    "de": "Dichte Verwaltungs- und Fachsprache verstehen und produzieren",
+    "ar": "فهم وإنتاج لغة إدارية ومتخصصة كثيفة",
+    "en": "Understanding and producing dense administrative/professional language"
+  },
+  "canDo": [
+    "B2_U03_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u03_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Dichte Verwaltungs- und Fachsprache verstehen und produzieren",
+        "ar": "فهم وإنتاج لغة إدارية ومتخصصة كثيفة",
+        "en": "Understanding and producing dense administrative/professional language"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nBescheid, Bericht, Protokoll, Bewerbung oder Fachtext: nominale Strukturen entschlüsseln und gezielt verwenden, ohne unnötig kompliziert zu schreiben.\n\nModelldialog:\nA: Warum wurde der Start verschoben?\nB: Aufgrund technischer Probleme.\nA: Wann geht es weiter?\nB: Nach Abschluss der Tests wird ein neuer Termin festgelegt.\n\nSprachliche Strategie:\nFormelle Texte verdichten Handlungen oft als Nomen: weil die Kosten steigen → aufgrund des Kostenanstiegs; nachdem man geprüft hat → nach der Prüfung. Nominalstil spart Wiederholung und wirkt sachlich, kann aber schwer lesbar werden. Gute B2-Texte wechseln bewusst zwischen verbalem und nominalem Stil.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nقرار رسمي أو تقرير أو محضر أو طلب عمل أو نص متخصص: فك التراكيب الاسمية واستخدامها دون تعقيد زائد.\n\nحوار نموذجي:\nA: Warum wurde der Start verschoben?\nB: Aufgrund technischer Probleme.\nA: Wann geht es weiter?\nB: Nach Abschluss der Tests wird ein neuer Termin festgelegt.\n\nالاستراتيجية اللغوية:\nتُحوّل النصوص الرسمية الأفعال إلى أسماء: weil die Kosten steigen → aufgrund des Kostenanstiegs؛ nachdem man geprüft hat → nach der Prüfung. الأسلوب الاسمي مكثف وموضوعي لكنه قد يصعب القراءة.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nOfficial decision, report, minutes, application or specialist text: decode nominal structures and use them selectively without unnecessary complexity.\n\nModel dialogue:\nA: Warum wurde der Start verschoben?\nB: Aufgrund technischer Probleme.\nA: Wann geht es weiter?\nB: Nach Abschluss der Tests wird ein neuer Termin festgelegt.\n\nLanguage strategy:\nFormal texts often compress actions into nouns: weil die Kosten steigen → aufgrund des Kostenanstiegs; nachdem man geprüft hat → nach der Prüfung. Nominal style is dense and factual but can reduce readability. Strong B2 writing alternates deliberately between verbal and nominal style.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u03_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u03_l02_w1",
+          "german": "die Durchführung",
+          "translation": {
+            "de": "implementation/conduct",
+            "ar": "التنفيذ",
+            "en": "implementation/conduct"
+          }
+        },
+        {
+          "id": "b2_u03_l02_w2",
+          "german": "die Verzögerung",
+          "translation": {
+            "de": "delay",
+            "ar": "التأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "b2_u03_l02_w3",
+          "german": "die Voraussetzung",
+          "translation": {
+            "de": "prerequisite",
+            "ar": "المتطلب",
+            "en": "prerequisite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u03_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFormelle Texte verdichten Handlungen oft als Nomen: weil die Kosten steigen → aufgrund des Kostenanstiegs; nachdem man geprüft hat → nach der Prüfung. Nominalstil spart Wiederholung und wirkt sachlich, kann aber schwer lesbar werden. Gute B2-Texte wechseln bewusst zwischen verbalem und nominalem Stil.\n\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen.",
+        "ar": "المبدأ الأساسي:\nتُحوّل النصوص الرسمية الأفعال إلى أسماء: weil die Kosten steigen → aufgrund des Kostenanstiegs؛ nachdem man geprüft hat → nach der Prüfung. الأسلوب الاسمي مكثف وموضوعي لكنه قد يصعب القراءة.\n\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen.",
+        "en": "Core principle:\nFormal texts often compress actions into nouns: weil die Kosten steigen → aufgrund des Kostenanstiegs; nachdem man geprüft hat → nach der Prüfung. Nominal style is dense and factual but can reduce readability. Strong B2 writing alternates deliberately between verbal and nominal style.\n\n• Aufgrund der Verzögerung wurde der Termin verschoben.\n• Nach Abschluss der Prüfung erhalten Sie eine Rückmeldung.\n• Die Einführung des Systems erfordert zusätzliche Schulungen."
+      }
+    },
+    {
+      "id": "b2_u03_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "die Durchführung",
+        "ar": "die Durchführung",
+        "en": "die Durchführung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "implementation/conduct",
+            "ar": "التنفيذ",
+            "en": "implementation/conduct"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "delay",
+            "ar": "التأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "prerequisite",
+            "ar": "المتطلب",
+            "en": "prerequisite"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u03_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Nach {answer} der Prüfung erhalten Sie Bescheid.",
+        "ar": "Nach {answer} der Prüfung erhalten Sie Bescheid.",
+        "en": "Nach {answer} der Prüfung erhalten Sie Bescheid."
+      },
+      "acceptedAnswers": [
+        "Abschluss"
+      ]
+    },
+    {
+      "id": "b2_u03_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Nominalstil & formelle Texte“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الأسلوب الاسمي والنصوص الرسمية». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Nominal style & formal texts”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u03_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U03_REAL_LIFE"
+      ]
+    }
+  ]
+}

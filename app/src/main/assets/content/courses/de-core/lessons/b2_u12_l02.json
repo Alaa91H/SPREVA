@@ -1,0 +1,154 @@
+{
+  "id": "b2_u12_l02",
+  "unitId": "de-core-b2-u12",
+  "title": {
+    "de": "Formelle Regeltexte sicher lesen",
+    "ar": "قراءة النصوص التنظيمية الرسمية بأمان",
+    "en": "Reading formal rules and administrative texts safely"
+  },
+  "canDo": [
+    "B2_U12_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u12_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Formelle Regeltexte sicher lesen",
+        "ar": "قراءة النصوص التنظيمية الرسمية بأمان",
+        "en": "Reading formal rules and administrative texts safely"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nArbeitsvertrag, Mietvertrag, Behördenschreiben oder Hausordnung: Pflichten, Rechte, Fristen und Bedingungen sprachlich identifizieren.\n\nModelldialog:\nA: Was bedeutet „innerhalb eines Monats“?\nB: Es bezeichnet eine Frist von einem Monat.\nA: Und „ist verpflichtet“?\nB: Das drückt eine Pflicht aus, nicht nur eine Empfehlung.\n\nSprachliche Strategie:\nFormelle Regeltexte enthalten Modalität: ist verpflichtet = Pflicht; ist berechtigt = Recht; kann = Möglichkeit/Ermessen; darf nicht = Verbot; sofern = Bedingung; innerhalb von = Frist. Sprachlich unterscheiden zwischen Information und individueller Rechtsberatung. Für konkrete Fälle sind offizielle Stellen oder Fachberatung maßgeblich.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nعقد عمل أو إيجار أو رسالة دائرة أو نظام مبنى: تحديد الواجبات والحقوق والمهل والشروط لغويًا.\n\nحوار نموذجي:\nA: Was bedeutet „innerhalb eines Monats“?\nB: Es bezeichnet eine Frist von einem Monat.\nA: Und „ist verpflichtet“?\nB: Das drückt eine Pflicht aus, nicht nur eine Empfehlung.\n\nالاستراتيجية اللغوية:\nالنصوص الرسمية تحمل دلالات إلزام وحق ومنع: ist verpflichtet واجب، ist berechtigt حق، darf nicht حظر، sofern شرط، innerhalb von مهلة. يجب التفريق بين فهم اللغة والاستشارة القانونية الفردية.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nEmployment contract, lease, official letter or house rules: identify duties, rights, deadlines and conditions linguistically.\n\nModel dialogue:\nA: Was bedeutet „innerhalb eines Monats“?\nB: Es bezeichnet eine Frist von einem Monat.\nA: Und „ist verpflichtet“?\nB: Das drückt eine Pflicht aus, nicht nur eine Empfehlung.\n\nLanguage strategy:\nFormal rule texts encode modality: ist verpflichtet = duty; ist berechtigt = right; kann = possibility/discretion; darf nicht = prohibition; sofern = condition; innerhalb von = deadline. Distinguish language comprehension from individualized legal advice.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u12_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u12_l02_w1",
+          "german": "unverzüglich",
+          "translation": {
+            "de": "without undue delay",
+            "ar": "دون تأخير",
+            "en": "without undue delay"
+          }
+        },
+        {
+          "id": "b2_u12_l02_w2",
+          "german": "die Frist",
+          "translation": {
+            "de": "deadline",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "b2_u12_l02_w3",
+          "german": "die Voraussetzung",
+          "translation": {
+            "de": "requirement",
+            "ar": "الشرط/المتطلب",
+            "en": "requirement"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u12_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nFormelle Regeltexte enthalten Modalität: ist verpflichtet = Pflicht; ist berechtigt = Recht; kann = Möglichkeit/Ermessen; darf nicht = Verbot; sofern = Bedingung; innerhalb von = Frist. Sprachlich unterscheiden zwischen Information und individueller Rechtsberatung. Für konkrete Fälle sind offizielle Stellen oder Fachberatung maßgeblich.\n\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.",
+        "ar": "المبدأ الأساسي:\nالنصوص الرسمية تحمل دلالات إلزام وحق ومنع: ist verpflichtet واجب، ist berechtigt حق، darf nicht حظر، sofern شرط، innerhalb von مهلة. يجب التفريق بين فهم اللغة والاستشارة القانونية الفردية.\n\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig.",
+        "en": "Core principle:\nFormal rule texts encode modality: ist verpflichtet = duty; ist berechtigt = right; kann = possibility/discretion; darf nicht = prohibition; sofern = condition; innerhalb von = deadline. Distinguish language comprehension from individualized legal advice.\n\n• Die Beschäftigten sind verpflichtet, Änderungen unverzüglich mitzuteilen.\n• Der Antrag kann innerhalb eines Monats gestellt werden.\n• Die Nutzung ist nur unter bestimmten Voraussetzungen zulässig."
+      }
+    },
+    {
+      "id": "b2_u12_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "unverzüglich",
+        "ar": "unverzüglich",
+        "en": "unverzüglich"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "without undue delay",
+            "ar": "دون تأخير",
+            "en": "without undue delay"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deadline",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "requirement",
+            "ar": "الشرط/المتطلب",
+            "en": "requirement"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u12_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag kann innerhalb eines Monats {answer} werden.",
+        "ar": "Der Antrag kann innerhalb eines Monats {answer} werden.",
+        "en": "Der Antrag kann innerhalb eines Monats {answer} werden."
+      },
+      "acceptedAnswers": [
+        "gestellt"
+      ]
+    },
+    {
+      "id": "b2_u12_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Recht, Verwaltung & Arbeitsleben“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «القانون والإدارة والحياة المهنية». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Law, administration & working life”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u12_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U12_REAL_LIFE"
+      ]
+    }
+  ]
+}

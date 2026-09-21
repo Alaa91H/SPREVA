@@ -1,0 +1,154 @@
+{
+  "id": "b2_u02_l02",
+  "unitId": "de-core-b2-u02",
+  "title": {
+    "de": "Prozesse stilistisch variabel beschreiben",
+    "ar": "وصف العمليات بتنوع أسلوبي",
+    "en": "Describing processes with stylistic variation"
+  },
+  "canDo": [
+    "B2_U02_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u02_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Prozesse stilistisch variabel beschreiben",
+        "ar": "وصف العمليات بتنوع أسلوبي",
+        "en": "Describing processes with stylistic variation"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nTechnische Anleitung, Verwaltung, Beruf oder Bericht: Prozesse beschreiben, ohne ständig dieselbe Passivform zu verwenden.\n\nModelldialog:\nA: Kann man den Fehler ohne Neustart beheben?\nB: Ja, das Problem lässt sich über die Einstellungen lösen.\nA: Muss ich noch etwas beachten?\nB: Die Hinweise sind unbedingt einzuhalten.\n\nSprachliche Strategie:\nNeben werden-Passiv gibt es funktionale Alternativen: Das Problem lässt sich lösen = kann gelöst werden. Die Frist ist einzuhalten = muss eingehalten werden. Beim bekommen-Passiv rückt der Empfänger in den Fokus: Er bekommt die Unterlagen zugeschickt. Unpersönliche Formen mit man eignen sich für allgemein handelnde Personen.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nتعليمات تقنية أو إدارة أو مهنة أو تقرير: وصف العمليات دون تكرار نفس المبني للمجهول.\n\nحوار نموذجي:\nA: Kann man den Fehler ohne Neustart beheben?\nB: Ja, das Problem lässt sich über die Einstellungen lösen.\nA: Muss ich noch etwas beachten?\nB: Die Hinweise sind unbedingt einzuhalten.\n\nالاستراتيجية اللغوية:\nإلى جانب werden-Passiv توجد بدائل: Das Problem lässt sich lösen = يمكن حله؛ Die Frist ist einzuhalten = يجب الالتزام بالمهلة؛ bekommen-Passiv يركز على المتلقي.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nTechnical instructions, administration, work or reports: describe processes without repeating the same passive form.\n\nModel dialogue:\nA: Kann man den Fehler ohne Neustart beheben?\nB: Ja, das Problem lässt sich über die Einstellungen lösen.\nA: Muss ich noch etwas beachten?\nB: Die Hinweise sind unbedingt einzuhalten.\n\nLanguage strategy:\nBesides the werden-passive, German has functional alternatives: Das Problem lässt sich lösen = can be solved; Die Frist ist einzuhalten = must be observed. The bekommen-passive focuses on the recipient. man is useful for general human agents.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u02_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u02_l02_w1",
+          "german": "zugeschickt bekommen",
+          "translation": {
+            "de": "receive by mail",
+            "ar": "يتلقى مرسَلًا",
+            "en": "receive by mail"
+          }
+        },
+        {
+          "id": "b2_u02_l02_w2",
+          "german": "unpersönlich",
+          "translation": {
+            "de": "impersonal",
+            "ar": "غير شخصي",
+            "en": "impersonal"
+          }
+        },
+        {
+          "id": "b2_u02_l02_w3",
+          "german": "der Vorgang",
+          "translation": {
+            "de": "process",
+            "ar": "العملية",
+            "en": "process"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u02_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nNeben werden-Passiv gibt es funktionale Alternativen: Das Problem lässt sich lösen = kann gelöst werden. Die Frist ist einzuhalten = muss eingehalten werden. Beim bekommen-Passiv rückt der Empfänger in den Fokus: Er bekommt die Unterlagen zugeschickt. Unpersönliche Formen mit man eignen sich für allgemein handelnde Personen.\n\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt.",
+        "ar": "المبدأ الأساسي:\nإلى جانب werden-Passiv توجد بدائل: Das Problem lässt sich lösen = يمكن حله؛ Die Frist ist einzuhalten = يجب الالتزام بالمهلة؛ bekommen-Passiv يركز على المتلقي.\n\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt.",
+        "en": "Core principle:\nBesides the werden-passive, German has functional alternatives: Das Problem lässt sich lösen = can be solved; Die Frist ist einzuhalten = must be observed. The bekommen-passive focuses on the recipient. man is useful for general human agents.\n\n• Die Datei lässt sich nicht öffnen.\n• Die Sicherheitsregeln sind einzuhalten.\n• Sie bekommt die Unterlagen per Post zugeschickt."
+      }
+    },
+    {
+      "id": "b2_u02_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "zugeschickt bekommen",
+        "ar": "zugeschickt bekommen",
+        "en": "zugeschickt bekommen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "receive by mail",
+            "ar": "يتلقى مرسَلًا",
+            "en": "receive by mail"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "impersonal",
+            "ar": "غير شخصي",
+            "en": "impersonal"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "process",
+            "ar": "العملية",
+            "en": "process"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u02_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Frist ist unbedingt {answer}.",
+        "ar": "Die Frist ist unbedingt {answer}.",
+        "en": "Die Frist ist unbedingt {answer}."
+      },
+      "acceptedAnswers": [
+        "einzuhalten"
+      ]
+    },
+    {
+      "id": "b2_u02_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Passiversatz & Handlungsfokus“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «بدائل المبني للمجهول وتركيز الفعل». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Passive alternatives & action focus”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u02_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U02_REAL_LIFE"
+      ]
+    }
+  ]
+}

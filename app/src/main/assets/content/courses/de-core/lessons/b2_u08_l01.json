@@ -1,0 +1,154 @@
+{
+  "id": "b2_u08_l01",
+  "unitId": "de-core-b2-u08",
+  "title": {
+    "de": "Trends, Vergleichssprache und vorsichtige Interpretation",
+    "ar": "الاتجاهات ولغة المقارنة والتفسير الحذر",
+    "en": "Trends, comparison language and cautious interpretation"
+  },
+  "canDo": [
+    "B2_U08_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u08_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Trends, Vergleichssprache und vorsichtige Interpretation",
+        "ar": "الاتجاهات ولغة المقارنة والتفسير الحذر",
+        "en": "Trends, comparison language and cautious interpretation"
+      },
+      "body": {
+        "de": "Kompetenzziel: Trends, Vergleichssprache und vorsichtige Interpretation\n\nSprachsystem:\nDatenbeschreibung trennt Beobachtung und Interpretation: Die Zahl steigt von X auf Y = Beobachtung. Das könnte darauf hindeuten, dass … = vorsichtige Deutung. Wichtige Verben: steigen, sinken, stagnieren, schwanken; Vergleich: im Gegensatz zu, gegenüber, etwa doppelt so hoch.\n\nReferenzbeispiele:\n• Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n• Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n• Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert.\n\nAnwendungsdomäne:\nBeruf, Studium, Weiterbildung oder Prüfung: Diagramm erläutern, wichtigste Trends auswählen und Grenzen der Daten benennen.\n\nQualitätskontrolle:\nKorrelation nicht als Ursache formulieren. Sprachlich zwischen „zeigt“, „deutet darauf hin“ und „beweist“ unterscheiden; letzteres erfordert sehr starke Evidenz.",
+        "ar": "هدف الكفاءة: الاتجاهات ولغة المقارنة والتفسير الحذر\n\nالنظام اللغوي:\nيجب الفصل بين الوصف والتفسير: ترتفع النسبة من X إلى Y = ملاحظة، وقد يدل ذلك على… = تفسير حذر. من الأفعال steigen وsinken وstagnieren وschwanken.\n\nأمثلة مرجعية:\n• Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n• Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n• Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert.\n\nمجال التطبيق:\nالعمل أو الدراسة أو التدريب أو الامتحان: شرح رسم بياني واختيار الاتجاهات الرئيسية وذكر حدود البيانات.\n\nمراجعة الجودة:\nلا تحول الارتباط إلى سببية. ميّز بين zeigt وdeutet darauf hin وbeweist؛ الأخيرة تحتاج دليلًا قويًا جدًا.",
+        "en": "Competence goal: Trends, comparison language and cautious interpretation\n\nLanguage system:\nData description separates observation from interpretation. “The figure rises from X to Y” is observation; “This could indicate…” is cautious interpretation. Key verbs include steigen, sinken, stagnieren, schwanken.\n\nReference examples:\n• Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n• Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n• Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert.\n\nApplication domain:\nWork, study, training or exam: explain a chart, select key trends and state data limitations.\n\nQuality control:\nDo not turn correlation into causation. Distinguish zeigt, deutet darauf hin and beweist; the last requires very strong evidence."
+      }
+    },
+    {
+      "id": "b2_u08_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u08_l01_w1",
+          "german": "steigen",
+          "translation": {
+            "de": "rise",
+            "ar": "يرتفع",
+            "en": "rise"
+          }
+        },
+        {
+          "id": "b2_u08_l01_w2",
+          "german": "sinken",
+          "translation": {
+            "de": "fall",
+            "ar": "ينخفض",
+            "en": "fall"
+          }
+        },
+        {
+          "id": "b2_u08_l01_w3",
+          "german": "schwanken",
+          "translation": {
+            "de": "fluctuate",
+            "ar": "يتذبذب",
+            "en": "fluctuate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u08_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nDatenbeschreibung trennt Beobachtung und Interpretation: Die Zahl steigt von X auf Y = Beobachtung. Das könnte darauf hindeuten, dass … = vorsichtige Deutung. Wichtige Verben: steigen, sinken, stagnieren, schwanken; Vergleich: im Gegensatz zu, gegenüber, etwa doppelt so hoch.\n\n• Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n• Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n• Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert.",
+        "ar": "المبدأ الأساسي:\nيجب الفصل بين الوصف والتفسير: ترتفع النسبة من X إلى Y = ملاحظة، وقد يدل ذلك على… = تفسير حذر. من الأفعال steigen وsinken وstagnieren وschwanken.\n\n• Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n• Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n• Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert.",
+        "en": "Core principle:\nData description separates observation from interpretation. “The figure rises from X to Y” is observation; “This could indicate…” is cautious interpretation. Key verbs include steigen, sinken, stagnieren, schwanken.\n\n• Zwischen 2024 und 2026 ist der Anteil deutlich gestiegen.\n• Im Vergleich zur ersten Gruppe liegt der Wert etwa zehn Prozentpunkte höher.\n• Die Daten könnten darauf hindeuten, dass sich das Verhalten verändert."
+      }
+    },
+    {
+      "id": "b2_u08_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "steigen",
+        "ar": "steigen",
+        "en": "steigen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "rise",
+            "ar": "يرتفع",
+            "en": "rise"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "fall",
+            "ar": "ينخفض",
+            "en": "fall"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "fluctuate",
+            "ar": "يتذبذب",
+            "en": "fluctuate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u08_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Anteil ist deutlich {answer}.",
+        "ar": "Der Anteil ist deutlich {answer}.",
+        "en": "Der Anteil ist deutlich {answer}."
+      },
+      "acceptedAnswers": [
+        "gestiegen"
+      ]
+    },
+    {
+      "id": "b2_u08_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Präsentieren & Daten beschreiben“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «العرض ووصف البيانات». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Presentations & describing data”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u08_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U08_FOUNDATION"
+      ]
+    }
+  ]
+}

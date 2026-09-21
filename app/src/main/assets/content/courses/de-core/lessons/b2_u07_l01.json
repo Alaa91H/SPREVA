@@ -1,0 +1,154 @@
+{
+  "id": "b2_u07_l01",
+  "unitId": "de-core-b2-u07",
+  "title": {
+    "de": "These, Begründung, Beispiel, Gegenargument, Einschränkung",
+    "ar": "الأطروحة والتعليل والمثال والحجة المضادة والتحفظ",
+    "en": "Claim, reasoning, example, counterargument and qualification"
+  },
+  "canDo": [
+    "B2_U07_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u07_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "These, Begründung, Beispiel, Gegenargument, Einschränkung",
+        "ar": "الأطروحة والتعليل والمثال والحجة المضادة والتحفظ",
+        "en": "Claim, reasoning, example, counterargument and qualification"
+      },
+      "body": {
+        "de": "Kompetenzziel: These, Begründung, Beispiel, Gegenargument, Einschränkung\n\nSprachsystem:\nEine belastbare Argumentation trennt Behauptung, Begründung und Beispiel. Gegenpositionen werden korrekt wiedergegeben, bevor man antwortet. Sprachmittel: Dafür spricht …; Dagegen lässt sich einwenden …; Dieser Einwand ist berechtigt, allerdings …; Unter der Voraussetzung, dass …\n\nReferenzbeispiele:\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen.\n\nAnwendungsdomäne:\nTeamentscheidung, Prüfung, Verein oder öffentliche Diskussion: Standpunkte entwickeln, Gegenargumente aufnehmen und Kompromisse formulieren.\n\nQualitätskontrolle:\nEin Gegenargument nicht schwächer darstellen, als es ist. Gute B2-Argumentation gewinnt durch Präzision, nicht durch Lautstärke oder absolute Formulierungen.",
+        "ar": "هدف الكفاءة: الأطروحة والتعليل والمثال والحجة المضادة والتحفظ\n\nالنظام اللغوي:\nالحجة القوية تفصل بين الادعاء والتعليل والمثال، وتنقل موقف الطرف الآخر بدقة قبل الرد. من التراكيب: Dafür spricht… وDagegen lässt sich einwenden…\n\nأمثلة مرجعية:\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen.\n\nمجال التطبيق:\nقرار فريق أو امتحان أو جمعية أو نقاش عام: تطوير المواقف والتعامل مع الحجج المضادة وصياغة حلول وسط.\n\nمراجعة الجودة:\nلا تضعف حجة الطرف الآخر عمدًا. قوة حجاج B2 تأتي من الدقة لا من الصوت العالي أو التعميم المطلق.",
+        "en": "Competence goal: Claim, reasoning, example, counterargument and qualification\n\nLanguage system:\nStrong argumentation separates claim, reason and example. Opposing positions are represented accurately before responding. Useful phrases: Dafür spricht …; Dagegen lässt sich einwenden …; Dieser Einwand ist berechtigt, allerdings …\n\nReference examples:\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen.\n\nApplication domain:\nTeam decision, exam, association or public discussion: develop positions, address counterarguments and formulate compromises.\n\nQuality control:\nDo not weaken the opposing argument unfairly. Strong B2 argumentation relies on precision, not volume or absolute claims."
+      }
+    },
+    {
+      "id": "b2_u07_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u07_l01_w1",
+          "german": "die These",
+          "translation": {
+            "de": "thesis/claim",
+            "ar": "الأطروحة",
+            "en": "thesis/claim"
+          }
+        },
+        {
+          "id": "b2_u07_l01_w2",
+          "german": "der Einwand",
+          "translation": {
+            "de": "objection",
+            "ar": "الاعتراض",
+            "en": "objection"
+          }
+        },
+        {
+          "id": "b2_u07_l01_w3",
+          "german": "berücksichtigen",
+          "translation": {
+            "de": "take into account",
+            "ar": "يراعي",
+            "en": "take into account"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u07_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nEine belastbare Argumentation trennt Behauptung, Begründung und Beispiel. Gegenpositionen werden korrekt wiedergegeben, bevor man antwortet. Sprachmittel: Dafür spricht …; Dagegen lässt sich einwenden …; Dieser Einwand ist berechtigt, allerdings …; Unter der Voraussetzung, dass …\n\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen.",
+        "ar": "المبدأ الأساسي:\nالحجة القوية تفصل بين الادعاء والتعليل والمثال، وتنقل موقف الطرف الآخر بدقة قبل الرد. من التراكيب: Dafür spricht… وDagegen lässt sich einwenden…\n\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen.",
+        "en": "Core principle:\nStrong argumentation separates claim, reason and example. Opposing positions are represented accurately before responding. Useful phrases: Dafür spricht …; Dagegen lässt sich einwenden …; Dieser Einwand ist berechtigt, allerdings …\n\n• Dafür spricht vor allem die größere Flexibilität.\n• Dagegen lässt sich einwenden, dass nicht alle Beschäftigten dieselben Bedingungen haben.\n• Dieser Einwand ist berechtigt; allerdings könnte ein hybrides Modell beide Seiten berücksichtigen."
+      }
+    },
+    {
+      "id": "b2_u07_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "die These",
+        "ar": "die These",
+        "en": "die These"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "thesis/claim",
+            "ar": "الأطروحة",
+            "en": "thesis/claim"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "objection",
+            "ar": "الاعتراض",
+            "en": "objection"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "take into account",
+            "ar": "يراعي",
+            "en": "take into account"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u07_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dagegen lässt sich {answer}, dass die Kosten hoch sind.",
+        "ar": "Dagegen lässt sich {answer}, dass die Kosten hoch sind.",
+        "en": "Dagegen lässt sich {answer}, dass die Kosten hoch sind."
+      },
+      "acceptedAnswers": [
+        "einwenden"
+      ]
+    },
+    {
+      "id": "b2_u07_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Argumentieren & Debattieren“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الحجاج والمناظرة». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Argumentation & debate”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u07_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U07_FOUNDATION"
+      ]
+    }
+  ]
+}

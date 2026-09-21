@@ -1,0 +1,154 @@
+{
+  "id": "b2_u14_l01",
+  "unitId": "de-core-b2-u14",
+  "title": {
+    "de": "Abwägung, Prognose und Maßnahmenbewertung",
+    "ar": "الموازنة والتنبؤ وتقييم الإجراءات",
+    "en": "Trade-offs, forecasts and policy evaluation"
+  },
+  "canDo": [
+    "B2_U14_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u14_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Abwägung, Prognose und Maßnahmenbewertung",
+        "ar": "الموازنة والتنبؤ وتقييم الإجراءات",
+        "en": "Trade-offs, forecasts and policy evaluation"
+      },
+      "body": {
+        "de": "Kompetenzziel: Abwägung, Prognose und Maßnahmenbewertung\n\nSprachsystem:\nBei gesellschaftlichen Maßnahmen sollten Ziel, Mechanismus, Kosten, Nutzen, Nebenwirkungen und Verteilung getrennt betrachtet werden. Sprachmittel: kurzfristig/langfristig; einerseits/andererseits; unter der Annahme, dass …; könnte dazu beitragen …; birgt das Risiko …\n\nReferenzbeispiele:\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.\n\nAnwendungsdomäne:\nVerkehr, Energie, Wohnen, Recycling oder Stadtplanung: mehrere Perspektiven darstellen und eine begründete, nicht absolute Bewertung formulieren.\n\nQualitätskontrolle:\nBewertung nicht auf ein einziges Kriterium reduzieren. B2 bedeutet, Zielkonflikte sichtbar zu machen und Unsicherheit bei Prognosen sprachlich korrekt zu markieren.",
+        "ar": "هدف الكفاءة: الموازنة والتنبؤ وتقييم الإجراءات\n\nالنظام اللغوي:\nعند تقييم إجراء اجتماعي يجب فصل الهدف والآلية والتكلفة والفائدة والآثار الجانبية والتوزيع. من العبارات kurzfristig/langfristig وeinerseits/andererseits وkönnte dazu beitragen…\n\nأمثلة مرجعية:\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.\n\nمجال التطبيق:\nالنقل والطاقة والسكن والتدوير أو تخطيط المدن: عرض وجهات نظر متعددة وصياغة تقييم مبرر غير مطلق.\n\nمراجعة الجودة:\nلا تختزل التقييم في معيار واحد. في B2 يجب إظهار تعارض الأهداف وعدم اليقين في التنبؤات.",
+        "en": "Competence goal: Trade-offs, forecasts and policy evaluation\n\nLanguage system:\nWhen evaluating public measures, separate goal, mechanism, cost, benefit, side effects and distribution. Useful language: kurzfristig/langfristig; einerseits/andererseits; unter der Annahme, dass …; könnte dazu beitragen …; birgt das Risiko ….\n\nReference examples:\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.\n\nApplication domain:\nTransport, energy, housing, recycling or urban planning: present multiple perspectives and formulate a reasoned, non-absolute evaluation.\n\nQuality control:\nDo not reduce evaluation to one criterion. B2 means making trade-offs visible and marking uncertainty in forecasts appropriately."
+      }
+    },
+    {
+      "id": "b2_u14_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u14_l01_w1",
+          "german": "die Emission",
+          "translation": {
+            "de": "emission",
+            "ar": "الانبعاث",
+            "en": "emission"
+          }
+        },
+        {
+          "id": "b2_u14_l01_w2",
+          "german": "die Belastung",
+          "translation": {
+            "de": "burden",
+            "ar": "العبء",
+            "en": "burden"
+          }
+        },
+        {
+          "id": "b2_u14_l01_w3",
+          "german": "der Ausbau",
+          "translation": {
+            "de": "expansion",
+            "ar": "التوسعة",
+            "en": "expansion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u14_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nBei gesellschaftlichen Maßnahmen sollten Ziel, Mechanismus, Kosten, Nutzen, Nebenwirkungen und Verteilung getrennt betrachtet werden. Sprachmittel: kurzfristig/langfristig; einerseits/andererseits; unter der Annahme, dass …; könnte dazu beitragen …; birgt das Risiko …\n\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.",
+        "ar": "المبدأ الأساسي:\nعند تقييم إجراء اجتماعي يجب فصل الهدف والآلية والتكلفة والفائدة والآثار الجانبية والتوزيع. من العبارات kurzfristig/langfristig وeinerseits/andererseits وkönnte dazu beitragen…\n\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.",
+        "en": "Core principle:\nWhen evaluating public measures, separate goal, mechanism, cost, benefit, side effects and distribution. Useful language: kurzfristig/langfristig; einerseits/andererseits; unter der Annahme, dass …; könnte dazu beitragen …; birgt das Risiko ….\n\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll."
+      }
+    },
+    {
+      "id": "b2_u14_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "die Emission",
+        "ar": "die Emission",
+        "en": "die Emission"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "emission",
+            "ar": "الانبعاث",
+            "en": "emission"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "burden",
+            "ar": "العبء",
+            "en": "burden"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "expansion",
+            "ar": "التوسعة",
+            "en": "expansion"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u14_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Maßnahme könnte zur Reduktion {answer}.",
+        "ar": "Die Maßnahme könnte zur Reduktion {answer}.",
+        "en": "Die Maßnahme könnte zur Reduktion {answer}."
+      },
+      "acceptedAnswers": [
+        "beitragen"
+      ]
+    },
+    {
+      "id": "b2_u14_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Umwelt, Klima & Stadtentwicklung“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «البيئة والمناخ وتطوير المدن». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Environment, climate & urban development”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u14_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U14_FOUNDATION"
+      ]
+    }
+  ]
+}

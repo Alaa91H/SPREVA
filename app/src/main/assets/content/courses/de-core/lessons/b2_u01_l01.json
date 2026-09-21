@@ -1,0 +1,154 @@
+{
+  "id": "b2_u01_l01",
+  "unitId": "de-core-b2-u01",
+  "title": {
+    "de": "obwohl, dennoch, sofern, während, hingegen, sodass",
+    "ar": "obwohl وdennoch وsofern وwährend وhingegen وsodass",
+    "en": "obwohl, dennoch, sofern, während, hingegen and sodass"
+  },
+  "canDo": [
+    "B2_U01_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b2_u01_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "obwohl, dennoch, sofern, während, hingegen, sodass",
+        "ar": "obwohl وdennoch وsofern وwährend وhingegen وsodass",
+        "en": "obwohl, dennoch, sofern, während, hingegen and sodass"
+      },
+      "body": {
+        "de": "Kompetenzziel: obwohl, dennoch, sofern, während, hingegen, sodass\n\nSprachsystem:\nAuf B2 reicht es nicht, Sätze nur aneinanderzureihen. Konnektoren markieren präzise Logik: obwohl/obgleich = Einräumung; dennoch/gleichwohl = trotz dieser Einräumung; sofern = Bedingung; hingegen = klarer Gegensatz; sodass = Folge. Nebensatzkonnektoren erzwingen Verbendstellung, Satzadverbien häufig Inversion.\n\nReferenzbeispiele:\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.\n\nAnwendungsdomäne:\nDiskussion, Bericht, Beschwerde oder Präsentation: Bedingungen, Gegenargumente, Folgen und Einschränkungen sprachlich sauber verknüpfen.\n\nQualitätskontrolle:\nKonnektoren sind keine austauschbaren Stilwörter. Prüfe zuerst die semantische Relation: Ursache, Folge, Einräumung, Bedingung oder Gegensatz.",
+        "ar": "هدف الكفاءة: obwohl وdennoch وsofern وwährend وhingegen وsodass\n\nالنظام اللغوي:\nفي B2 لا يكفي ربط الجمل بشكل بسيط. الروابط تحدد المنطق: obwohl للتنازل، dennoch رغم ذلك، sofern للشرط، hingegen للتعارض، sodass للنتيجة. روابط الجمل التابعة تدفع الفعل للنهاية.\n\nأمثلة مرجعية:\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.\n\nمجال التطبيق:\nنقاش أو تقرير أو شكوى أو عرض: ربط الشروط والحجج المضادة والنتائج والقيود بدقة.\n\nمراجعة الجودة:\nالروابط ليست كلمات أسلوبية قابلة للاستبدال. حدد أولًا العلاقة: سبب، نتيجة، تنازل، شرط أو تعارض.",
+        "en": "Competence goal: obwohl, dennoch, sofern, während, hingegen and sodass\n\nLanguage system:\nAt B2, sentences should not merely be chained. Connectors mark precise logic: obwohl/obgleich for concession, dennoch/gleichwohl for contrast after concession, sofern for condition, hingegen for opposition, sodass for result. Subordinators trigger verb-final order; sentence adverbs often trigger inversion.\n\nReference examples:\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.\n\nApplication domain:\nDiscussion, report, complaint or presentation: connect conditions, counterarguments, consequences and limitations precisely.\n\nQuality control:\nConnectors are not interchangeable style words. First identify the semantic relation: cause, result, concession, condition or contrast."
+      }
+    },
+    {
+      "id": "b2_u01_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u01_l01_w1",
+          "german": "sofern",
+          "translation": {
+            "de": "provided that",
+            "ar": "بشرط أن",
+            "en": "provided that"
+          }
+        },
+        {
+          "id": "b2_u01_l01_w2",
+          "german": "dennoch",
+          "translation": {
+            "de": "nevertheless",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "b2_u01_l01_w3",
+          "german": "hingegen",
+          "translation": {
+            "de": "by contrast",
+            "ar": "في المقابل",
+            "en": "by contrast"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u01_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nAuf B2 reicht es nicht, Sätze nur aneinanderzureihen. Konnektoren markieren präzise Logik: obwohl/obgleich = Einräumung; dennoch/gleichwohl = trotz dieser Einräumung; sofern = Bedingung; hingegen = klarer Gegensatz; sodass = Folge. Nebensatzkonnektoren erzwingen Verbendstellung, Satzadverbien häufig Inversion.\n\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.",
+        "ar": "المبدأ الأساسي:\nفي B2 لا يكفي ربط الجمل بشكل بسيط. الروابط تحدد المنطق: obwohl للتنازل، dennoch رغم ذلك، sofern للشرط، hingegen للتعارض، sodass للنتيجة. روابط الجمل التابعة تدفع الفعل للنهاية.\n\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.",
+        "en": "Core principle:\nAt B2, sentences should not merely be chained. Connectors mark precise logic: obwohl/obgleich for concession, dennoch/gleichwohl for contrast after concession, sofern for condition, hingegen for opposition, sodass for result. Subordinators trigger verb-final order; sentence adverbs often trigger inversion.\n\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden."
+      }
+    },
+    {
+      "id": "b2_u01_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "sofern",
+        "ar": "sofern",
+        "en": "sofern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "provided that",
+            "ar": "بشرط أن",
+            "en": "provided that"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "nevertheless",
+            "ar": "مع ذلك",
+            "en": "nevertheless"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "by contrast",
+            "ar": "في المقابل",
+            "en": "by contrast"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u01_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} die Daten begrenzt sind, ist der Trend sichtbar.",
+        "ar": "{answer} die Daten begrenzt sind, ist der Trend sichtbar.",
+        "en": "{answer} die Daten begrenzt sind, ist der Trend sichtbar."
+      },
+      "acceptedAnswers": [
+        "Obwohl"
+      ]
+    },
+    {
+      "id": "b2_u01_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Komplexe Konnektoren & Argumentlogik“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الروابط المعقدة ومنطق الحجة». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Complex connectors & argument logic”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u01_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U01_FOUNDATION"
+      ]
+    }
+  ]
+}

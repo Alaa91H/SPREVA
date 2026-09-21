@@ -1130,6 +1130,409 @@
           ]
         }
       ]
+    },
+    {
+      "id": "de-core-b2",
+      "cefr": "B2",
+      "title": {
+        "de": "B2 — Präzision, Beruf & komplexe Themen",
+        "ar": "B2 — الدقة والعمل والموضوعات المعقدة",
+        "en": "B2 — Precision, professional language & complex topics"
+      },
+      "units": [
+        {
+          "id": "de-core-b2-u01",
+          "title": {
+            "de": "Komplexe Konnektoren & Argumentlogik",
+            "ar": "الروابط المعقدة ومنطق الحجة",
+            "en": "Complex connectors & argument logic"
+          },
+          "lessons": [
+            {
+              "id": "b2_u01_l01",
+              "title": {
+                "de": "obwohl, dennoch, sofern, während, hingegen, sodass",
+                "ar": "obwohl وdennoch وsofern وwährend وhingegen وsodass",
+                "en": "obwohl, dennoch, sofern, während, hingegen and sodass"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u01_l02",
+              "title": {
+                "de": "Komplexe Beziehungen zwischen Argumenten ausdrücken",
+                "ar": "التعبير عن علاقات معقدة بين الحجج",
+                "en": "Expressing complex relationships between arguments"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u02",
+          "title": {
+            "de": "Passiversatz & Handlungsfokus",
+            "ar": "بدائل المبني للمجهول وتركيز الفعل",
+            "en": "Passive alternatives & action focus"
+          },
+          "lessons": [
+            {
+              "id": "b2_u02_l01",
+              "title": {
+                "de": "sich lassen, sein + zu, bekommen-Passiv und unpersönliche Formen",
+                "ar": "sich lassen وsein + zu وbekommen-Passiv والصيغ غير الشخصية",
+                "en": "sich lassen, sein + zu, bekommen-passive and impersonal forms"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u02_l02",
+              "title": {
+                "de": "Prozesse stilistisch variabel beschreiben",
+                "ar": "وصف العمليات بتنوع أسلوبي",
+                "en": "Describing processes with stylistic variation"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u03",
+          "title": {
+            "de": "Nominalstil & formelle Texte",
+            "ar": "الأسلوب الاسمي والنصوص الرسمية",
+            "en": "Nominal style & formal texts"
+          },
+          "lessons": [
+            {
+              "id": "b2_u03_l01",
+              "title": {
+                "de": "Nominalisierung von Verben/Adjektiven und Präpositionalgefüge",
+                "ar": "تحويل الأفعال/الصفات إلى أسماء والتراكيب الاسمية",
+                "en": "Nominalization of verbs/adjectives and prepositional structures"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u03_l02",
+              "title": {
+                "de": "Dichte Verwaltungs- und Fachsprache verstehen und produzieren",
+                "ar": "فهم وإنتاج لغة إدارية ومتخصصة كثيفة",
+                "en": "Understanding and producing dense administrative/professional language"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u04",
+          "title": {
+            "de": "Partizipialattribute & Informationsdichte",
+            "ar": "صفات اسم الفاعل/المفعول وكثافة المعلومات",
+            "en": "Participial attributes & information density"
+          },
+          "lessons": [
+            {
+              "id": "b2_u04_l01",
+              "title": {
+                "de": "Partizip I/II als Attribute und Auflösung in Relativsätze",
+                "ar": "Partizip I/II كصفات وتحويلها إلى جمل موصولة",
+                "en": "Participle I/II as attributes and expansion into relative clauses"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u04_l02",
+              "title": {
+                "de": "Komplexe Nominalgruppen in Fachtexten entschlüsseln",
+                "ar": "فك المجموعات الاسمية المعقدة في النصوص المتخصصة",
+                "en": "Decoding complex noun phrases in specialist texts"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u05",
+          "title": {
+            "de": "Indirekte Rede & Distanz",
+            "ar": "النقل غير المباشر والمسافة الأسلوبية",
+            "en": "Reported speech & stance distance"
+          },
+          "lessons": [
+            {
+              "id": "b2_u05_l01",
+              "title": {
+                "de": "Konjunktiv I und Ersatzformen",
+                "ar": "Konjunktiv I وصيغ التعويض",
+                "en": "Konjunktiv I and substitute forms"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u05_l02",
+              "title": {
+                "de": "Aussagen neutral wiedergeben",
+                "ar": "نقل الأقوال بحياد",
+                "en": "Reporting statements neutrally"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u06",
+          "title": {
+            "de": "Register, Modalpartikeln & Pragmatik",
+            "ar": "السجل اللغوي والجسيمات المقامية",
+            "en": "Register, modal particles & pragmatics"
+          },
+          "lessons": [
+            {
+              "id": "b2_u06_l01",
+              "title": {
+                "de": "doch, ja, eben, wohl, mal und situationsgerechter Ton",
+                "ar": "doch وja وeben وwohl وmal والنبرة المناسبة",
+                "en": "doch, ja, eben, wohl, mal and context-appropriate tone"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u06_l02",
+              "title": {
+                "de": "Natürlich und situationsangemessen klingen",
+                "ar": "التحدث بطبيعية وبما يناسب المقام",
+                "en": "Sounding natural and context-appropriate"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u07",
+          "title": {
+            "de": "Argumentieren & Debattieren",
+            "ar": "الحجاج والمناظرة",
+            "en": "Argumentation & debate"
+          },
+          "lessons": [
+            {
+              "id": "b2_u07_l01",
+              "title": {
+                "de": "These, Begründung, Beispiel, Gegenargument, Einschränkung",
+                "ar": "الأطروحة والتعليل والمثال والحجة المضادة والتحفظ",
+                "en": "Claim, reasoning, example, counterargument and qualification"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u07_l02",
+              "title": {
+                "de": "Eine Position überzeugend und fair vertreten",
+                "ar": "الدفاع عن موقف بإقناع وإنصاف",
+                "en": "Defending a position persuasively and fairly"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u08",
+          "title": {
+            "de": "Präsentieren & Daten beschreiben",
+            "ar": "العرض ووصف البيانات",
+            "en": "Presentations & describing data"
+          },
+          "lessons": [
+            {
+              "id": "b2_u08_l01",
+              "title": {
+                "de": "Trends, Vergleichssprache und vorsichtige Interpretation",
+                "ar": "الاتجاهات ولغة المقارنة والتفسير الحذر",
+                "en": "Trends, comparison language and cautious interpretation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u08_l02",
+              "title": {
+                "de": "Grafiken und Ergebnisse mündlich darstellen",
+                "ar": "عرض الرسوم والنتائج شفهيًا",
+                "en": "Presenting charts and results orally"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u09",
+          "title": {
+            "de": "Verhandeln & Konflikte lösen",
+            "ar": "التفاوض وحل النزاعات",
+            "en": "Negotiation & conflict resolution"
+          },
+          "lessons": [
+            {
+              "id": "b2_u09_l01",
+              "title": {
+                "de": "Interessen, Bedingungen, Zugeständnisse und Deeskalation",
+                "ar": "المصالح والشروط والتنازلات وتهدئة التصعيد",
+                "en": "Interests, conditions, concessions and de-escalation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u09_l02",
+              "title": {
+                "de": "Lösungsorientiert verhandeln",
+                "ar": "التفاوض باتجاه الحل",
+                "en": "Negotiating toward solutions"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u10",
+          "title": {
+            "de": "Medienkompetenz & Quellenkritik",
+            "ar": "الكفاءة الإعلامية ونقد المصادر",
+            "en": "Media literacy & source evaluation"
+          },
+          "lessons": [
+            {
+              "id": "b2_u10_l01",
+              "title": {
+                "de": "Quellen markieren, Unsicherheit graduieren und Behauptungen prüfen",
+                "ar": "تحديد المصادر وتدرج عدم اليقين وفحص الادعاءات",
+                "en": "Marking sources, grading uncertainty and checking claims"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u10_l02",
+              "title": {
+                "de": "Informationen kritisch zusammenfassen",
+                "ar": "تلخيص المعلومات نقديًا",
+                "en": "Critically summarizing information"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u11",
+          "title": {
+            "de": "Wirtschaft, Konsum & Finanzen",
+            "ar": "الاقتصاد والاستهلاك والمال",
+            "en": "Economics, consumption & finance"
+          },
+          "lessons": [
+            {
+              "id": "b2_u11_l01",
+              "title": {
+                "de": "Ursache-Folge, Bedingungen und finanzielle Fachsprache",
+                "ar": "السبب والنتيجة والشروط ومفردات مالية",
+                "en": "Cause-effect, conditions and financial terminology"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u11_l02",
+              "title": {
+                "de": "Verträge, Preise und finanzielle Entscheidungen verstehen",
+                "ar": "فهم العقود والأسعار والقرارات المالية",
+                "en": "Understanding contracts, prices and financial decisions"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u12",
+          "title": {
+            "de": "Recht, Verwaltung & Arbeitsleben",
+            "ar": "القانون والإدارة والحياة المهنية",
+            "en": "Law, administration & working life"
+          },
+          "lessons": [
+            {
+              "id": "b2_u12_l01",
+              "title": {
+                "de": "Rechts- und Verwaltungssprache entschlüsseln",
+                "ar": "فك لغة القانون والإدارة",
+                "en": "Decoding legal and administrative language"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u12_l02",
+              "title": {
+                "de": "Formelle Regeltexte sicher lesen",
+                "ar": "قراءة النصوص التنظيمية الرسمية بأمان",
+                "en": "Reading formal rules and administrative texts safely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u13",
+          "title": {
+            "de": "Wissenschaft, Technik & Digitalisierung",
+            "ar": "العلم والتقنية والرقمنة",
+            "en": "Science, technology & digitalization"
+          },
+          "lessons": [
+            {
+              "id": "b2_u13_l01",
+              "title": {
+                "de": "Prozessbeschreibung, Wahrscheinlichkeit und technische Präzision",
+                "ar": "وصف العمليات والاحتمال والدقة التقنية",
+                "en": "Process description, probability and technical precision"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u13_l02",
+              "title": {
+                "de": "Komplexe technische Sachverhalte erklären",
+                "ar": "شرح موضوعات تقنية معقدة",
+                "en": "Explaining complex technical topics"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b2-u14",
+          "title": {
+            "de": "Umwelt, Klima & Stadtentwicklung",
+            "ar": "البيئة والمناخ وتطوير المدن",
+            "en": "Environment, climate & urban development"
+          },
+          "lessons": [
+            {
+              "id": "b2_u14_l01",
+              "title": {
+                "de": "Abwägung, Prognose und Maßnahmenbewertung",
+                "ar": "الموازنة والتنبؤ وتقييم الإجراءات",
+                "en": "Trade-offs, forecasts and policy evaluation"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b2_u14_l02",
+              "title": {
+                "de": "Komplexe Maßnahmen sachlich bewerten",
+                "ar": "تقييم الإجراءات المعقدة بموضوعية",
+                "en": "Evaluating complex measures objectively"
+              },
+              "activityCount": 7
+            }
+          ]
+        }
+      ]
     }
   ]
 }

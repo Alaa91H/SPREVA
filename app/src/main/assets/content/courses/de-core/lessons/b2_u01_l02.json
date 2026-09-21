@@ -1,0 +1,155 @@
+{
+  "id": "b2_u01_l02",
+  "unitId": "de-core-b2-u01",
+  "title": {
+    "de": "Komplexe Beziehungen zwischen Argumenten ausdrücken",
+    "ar": "التعبير عن علاقات معقدة بين الحجج",
+    "en": "Expressing complex relationships between arguments"
+  },
+  "canDo": [
+    "B2_U01_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u01_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe Beziehungen zwischen Argumenten ausdrücken",
+        "ar": "التعبير عن علاقات معقدة بين الحجج",
+        "en": "Expressing complex relationships between arguments"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nDiskussion, Bericht, Beschwerde oder Präsentation: Bedingungen, Gegenargumente, Folgen und Einschränkungen sprachlich sauber verknüpfen.\n\nModelldialog:\nA: Sollten wir das neue System sofort einführen?\nB: Sofern die Tests erfolgreich sind, spricht wenig dagegen.\nA: Die Umstellung kostet allerdings viel Zeit.\nB: Das stimmt; dennoch wären die langfristigen Vorteile erheblich.\n\nSprachliche Strategie:\nAuf B2 reicht es nicht, Sätze nur aneinanderzureihen. Konnektoren markieren präzise Logik: obwohl/obgleich = Einräumung; dennoch/gleichwohl = trotz dieser Einräumung; sofern = Bedingung; hingegen = klarer Gegensatz; sodass = Folge. Nebensatzkonnektoren erzwingen Verbendstellung, Satzadverbien häufig Inversion.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nنقاش أو تقرير أو شكوى أو عرض: ربط الشروط والحجج المضادة والنتائج والقيود بدقة.\n\nحوار نموذجي:\nA: Sollten wir das neue System sofort einführen?\nB: Sofern die Tests erfolgreich sind, spricht wenig dagegen.\nA: Die Umstellung kostet allerdings viel Zeit.\nB: Das stimmt; dennoch wären die langfristigen Vorteile erheblich.\n\nالاستراتيجية اللغوية:\nفي B2 لا يكفي ربط الجمل بشكل بسيط. الروابط تحدد المنطق: obwohl للتنازل، dennoch رغم ذلك، sofern للشرط، hingegen للتعارض، sodass للنتيجة. روابط الجمل التابعة تدفع الفعل للنهاية.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nDiscussion, report, complaint or presentation: connect conditions, counterarguments, consequences and limitations precisely.\n\nModel dialogue:\nA: Sollten wir das neue System sofort einführen?\nB: Sofern die Tests erfolgreich sind, spricht wenig dagegen.\nA: Die Umstellung kostet allerdings viel Zeit.\nB: Das stimmt; dennoch wären die langfristigen Vorteile erheblich.\n\nLanguage strategy:\nAt B2, sentences should not merely be chained. Connectors mark precise logic: obwohl/obgleich for concession, dennoch/gleichwohl for contrast after concession, sofern for condition, hingegen for opposition, sodass for result. Subordinators trigger verb-final order; sentence adverbs often trigger inversion.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u01_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u01_l02_w1",
+          "german": "sodass",
+          "translation": {
+            "de": "so that/as a result",
+            "ar": "بحيث / مما أدى إلى",
+            "en": "so that/as a result"
+          }
+        },
+        {
+          "id": "b2_u01_l02_w2",
+          "german": "einschränken",
+          "translation": {
+            "de": "limit",
+            "ar": "يقيّد",
+            "en": "limit"
+          }
+        },
+        {
+          "id": "b2_u01_l02_w3",
+          "german": "abwägen",
+          "translation": {
+            "de": "weigh up",
+            "ar": "يوازن",
+            "en": "weigh up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u01_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nAuf B2 reicht es nicht, Sätze nur aneinanderzureihen. Konnektoren markieren präzise Logik: obwohl/obgleich = Einräumung; dennoch/gleichwohl = trotz dieser Einräumung; sofern = Bedingung; hingegen = klarer Gegensatz; sodass = Folge. Nebensatzkonnektoren erzwingen Verbendstellung, Satzadverbien häufig Inversion.\n\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.",
+        "ar": "المبدأ الأساسي:\nفي B2 لا يكفي ربط الجمل بشكل بسيط. الروابط تحدد المنطق: obwohl للتنازل، dennoch رغم ذلك، sofern للشرط، hingegen للتعارض، sodass للنتيجة. روابط الجمل التابعة تدفع الفعل للنهاية.\n\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden.",
+        "en": "Core principle:\nAt B2, sentences should not merely be chained. Connectors mark precise logic: obwohl/obgleich for concession, dennoch/gleichwohl for contrast after concession, sofern for condition, hingegen for opposition, sodass for result. Subordinators trigger verb-final order; sentence adverbs often trigger inversion.\n\n• Obwohl die Maßnahme teuer ist, kann sie langfristig Kosten senken.\n• Die Daten sind begrenzt; dennoch lässt sich ein Trend erkennen.\n• Sofern alle Unterlagen vorliegen, kann der Antrag bearbeitet werden."
+      }
+    },
+    {
+      "id": "b2_u01_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "sodass",
+        "ar": "sodass",
+        "en": "sodass"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "so that/as a result",
+            "ar": "بحيث / مما أدى إلى",
+            "en": "so that/as a result"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "limit",
+            "ar": "يقيّد",
+            "en": "limit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weigh up",
+            "ar": "يوازن",
+            "en": "weigh up"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u01_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Unterlagen sind vollständig; {answer} kann der Vorgang starten.",
+        "ar": "Die Unterlagen sind vollständig; {answer} kann der Vorgang starten.",
+        "en": "Die Unterlagen sind vollständig; {answer} kann der Vorgang starten."
+      },
+      "acceptedAnswers": [
+        "daher",
+        "deshalb"
+      ]
+    },
+    {
+      "id": "b2_u01_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Komplexe Konnektoren & Argumentlogik“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «الروابط المعقدة ومنطق الحجة». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Complex connectors & argument logic”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u01_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U01_REAL_LIFE"
+      ]
+    }
+  ]
+}

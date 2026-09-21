@@ -1,0 +1,154 @@
+{
+  "id": "b2_u05_l02",
+  "unitId": "de-core-b2-u05",
+  "title": {
+    "de": "Aussagen neutral wiedergeben",
+    "ar": "نقل الأقوال بحياد",
+    "en": "Reporting statements neutrally"
+  },
+  "canDo": [
+    "B2_U05_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u05_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Aussagen neutral wiedergeben",
+        "ar": "نقل الأقوال بحياد",
+        "en": "Reporting statements neutrally"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nNachrichten, Protokolle, Konflikte oder Arbeitsberichte: Aussagen verschiedener Personen sauber trennen und Quellen sprachlich markieren.\n\nModelldialog:\nA: Was sagt die Leitung zum Vorfall?\nB: Sie erklärt, die Ursache sei noch unklar.\nA: Gibt es schon Ergebnisse?\nB: Laut Leitung habe die Prüfung erst begonnen.\n\nSprachliche Strategie:\nKonjunktiv I signalisiert, dass eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nالأخبار أو المحاضر أو الخلافات أو تقارير العمل: فصل أقوال الأشخاص وتحديد المصدر لغويًا.\n\nحوار نموذجي:\nA: Was sagt die Leitung zum Vorfall?\nB: Sie erklärt, die Ursache sei noch unklar.\nA: Gibt es schon Ergebnisse?\nB: Laut Leitung habe die Prüfung erst begonnen.\n\nالاستراتيجية اللغوية:\nيدل Konjunktiv I على نقل قول دون تبنيه كحقيقة: Er sagt, er sei krank. إذا تطابقت الصيغة مع Indikativ قد يُستخدم Konjunktiv II. في الصحافة والتقارير الرسمية هو مهم.\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nNews, minutes, conflicts or work reports: separate different speakers' statements and mark sources linguistically.\n\nModel dialogue:\nA: Was sagt die Leitung zum Vorfall?\nB: Sie erklärt, die Ursache sei noch unklar.\nA: Gibt es schon Ergebnisse?\nB: Laut Leitung habe die Prüfung erst begonnen.\n\nLanguage strategy:\nKonjunktiv I marks reported speech without endorsing the statement as fact: Er sagt, er sei krank. If the form matches the indicative, Konjunktiv II can substitute. Everyday speech often uses dass + indicative; press and formal reports rely more on Konjunktiv I.\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u05_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u05_l02_w1",
+          "german": "behaupten",
+          "translation": {
+            "de": "claim",
+            "ar": "يدعي",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "b2_u05_l02_w2",
+          "german": "angeben",
+          "translation": {
+            "de": "state/provide",
+            "ar": "يفيد/يذكر",
+            "en": "state/provide"
+          }
+        },
+        {
+          "id": "b2_u05_l02_w3",
+          "german": "abweichen",
+          "translation": {
+            "de": "deviate",
+            "ar": "يختلف",
+            "en": "deviate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u05_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nKonjunktiv I signalisiert, dass eine Aussage wiedergegeben wird, ohne sie als eigene Tatsache zu bestätigen: Er sagt, er sei krank. Sie erklärt, sie habe die E-Mail gesendet. Ist die Form mit Indikativ identisch, kann Konjunktiv II als Ersatz dienen. In Alltagssprache ist dass + Indikativ häufig, in Presse und formellen Berichten Konjunktiv I wichtiger.\n\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen.",
+        "ar": "المبدأ الأساسي:\nيدل Konjunktiv I على نقل قول دون تبنيه كحقيقة: Er sagt, er sei krank. إذا تطابقت الصيغة مع Indikativ قد يُستخدم Konjunktiv II. في الصحافة والتقارير الرسمية هو مهم.\n\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen.",
+        "en": "Core principle:\nKonjunktiv I marks reported speech without endorsing the statement as fact: Er sagt, er sei krank. If the form matches the indicative, Konjunktiv II can substitute. Everyday speech often uses dass + indicative; press and formal reports rely more on Konjunktiv I.\n\n• Der Sprecher erklärte, die Lage sei stabil.\n• Die Zeugin sagte, sie habe nichts gesehen.\n• Der Bericht weist darauf hin, die Zahlen könnten abweichen."
+      }
+    },
+    {
+      "id": "b2_u05_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "behaupten",
+        "ar": "behaupten",
+        "en": "behaupten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "claim",
+            "ar": "يدعي",
+            "en": "claim"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "state/provide",
+            "ar": "يفيد/يذكر",
+            "en": "state/provide"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "deviate",
+            "ar": "يختلف",
+            "en": "deviate"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u05_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie erklärt, sie {answer} die Nachricht erhalten.",
+        "ar": "Sie erklärt, sie {answer} die Nachricht erhalten.",
+        "en": "Sie erklärt, sie {answer} die Nachricht erhalten."
+      },
+      "acceptedAnswers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "b2_u05_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Indirekte Rede & Distanz“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «النقل غير المباشر والمسافة الأسلوبية». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Reported speech & stance distance”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u05_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U05_REAL_LIFE"
+      ]
+    }
+  ]
+}

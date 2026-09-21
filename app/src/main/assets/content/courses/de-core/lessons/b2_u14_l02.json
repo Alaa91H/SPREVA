@@ -1,0 +1,154 @@
+{
+  "id": "b2_u14_l02",
+  "unitId": "de-core-b2-u14",
+  "title": {
+    "de": "Komplexe Maßnahmen sachlich bewerten",
+    "ar": "تقييم الإجراءات المعقدة بموضوعية",
+    "en": "Evaluating complex measures objectively"
+  },
+  "canDo": [
+    "B2_U14_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b2_u14_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Komplexe Maßnahmen sachlich bewerten",
+        "ar": "تقييم الإجراءات المعقدة بموضوعية",
+        "en": "Evaluating complex measures objectively"
+      },
+      "body": {
+        "de": "Komplexe Realsituation:\nVerkehr, Energie, Wohnen, Recycling oder Stadtplanung: mehrere Perspektiven darstellen und eine begründete, nicht absolute Bewertung formulieren.\n\nModelldialog:\nA: Sollte die Innenstadt stärker autofrei werden?\nB: Das könnte Lärm und Emissionen senken.\nA: Gleichzeitig brauchen Geschäfte Liefermöglichkeiten.\nB: Genau. Deshalb müsste die Umsetzung Ausnahmen und Logistik mitdenken.\n\nSprachliche Strategie:\nBei gesellschaftlichen Maßnahmen sollten Ziel, Mechanismus, Kosten, Nutzen, Nebenwirkungen und Verteilung getrennt betrachtet werden. Sprachmittel: kurzfristig/langfristig; einerseits/andererseits; unter der Annahme, dass …; könnte dazu beitragen …; birgt das Risiko …\n\nTransfer: Formuliere eine alternative Reaktion, nenne eine Einschränkung und begründe deine Entscheidung mit mindestens zwei logisch unterschiedlichen Konnektoren.",
+        "ar": "موقف واقعي معقد:\nالنقل والطاقة والسكن والتدوير أو تخطيط المدن: عرض وجهات نظر متعددة وصياغة تقييم مبرر غير مطلق.\n\nحوار نموذجي:\nA: Sollte die Innenstadt stärker autofrei werden?\nB: Das könnte Lärm und Emissionen senken.\nA: Gleichzeitig brauchen Geschäfte Liefermöglichkeiten.\nB: Genau. Deshalb müsste die Umsetzung Ausnahmen und Logistik mitdenken.\n\nالاستراتيجية اللغوية:\nعند تقييم إجراء اجتماعي يجب فصل الهدف والآلية والتكلفة والفائدة والآثار الجانبية والتوزيع. من العبارات kurzfristig/langfristig وeinerseits/andererseits وkönnte dazu beitragen…\n\nتطبيق: صغ ردًا بديلًا واذكر قيدًا وعلّل قرارك برابطين منطقيين مختلفين على الأقل.",
+        "en": "Complex real-life situation:\nTransport, energy, housing, recycling or urban planning: present multiple perspectives and formulate a reasoned, non-absolute evaluation.\n\nModel dialogue:\nA: Sollte die Innenstadt stärker autofrei werden?\nB: Das könnte Lärm und Emissionen senken.\nA: Gleichzeitig brauchen Geschäfte Liefermöglichkeiten.\nB: Genau. Deshalb müsste die Umsetzung Ausnahmen und Logistik mitdenken.\n\nLanguage strategy:\nWhen evaluating public measures, separate goal, mechanism, cost, benefit, side effects and distribution. Useful language: kurzfristig/langfristig; einerseits/andererseits; unter der Annahme, dass …; könnte dazu beitragen …; birgt das Risiko ….\n\nTransfer: Formulate an alternative response, state one limitation and justify your decision with at least two logically different connectors."
+      }
+    },
+    {
+      "id": "b2_u14_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b2_u14_l02_w1",
+          "german": "die Nebenwirkung",
+          "translation": {
+            "de": "side effect",
+            "ar": "الأثر الجانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "b2_u14_l02_w2",
+          "german": "langfristig",
+          "translation": {
+            "de": "long-term",
+            "ar": "على المدى الطويل",
+            "en": "long-term"
+          }
+        },
+        {
+          "id": "b2_u14_l02_w3",
+          "german": "abwägen",
+          "translation": {
+            "de": "weigh up",
+            "ar": "يوازن",
+            "en": "weigh up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2_u14_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Stil, Logik & Beispiele",
+        "ar": "الأسلوب والمنطق والأمثلة",
+        "en": "Style, logic & examples"
+      },
+      "body": {
+        "de": "Kernprinzip:\nBei gesellschaftlichen Maßnahmen sollten Ziel, Mechanismus, Kosten, Nutzen, Nebenwirkungen und Verteilung getrennt betrachtet werden. Sprachmittel: kurzfristig/langfristig; einerseits/andererseits; unter der Annahme, dass …; könnte dazu beitragen …; birgt das Risiko …\n\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.",
+        "ar": "المبدأ الأساسي:\nعند تقييم إجراء اجتماعي يجب فصل الهدف والآلية والتكلفة والفائدة والآثار الجانبية والتوزيع. من العبارات kurzfristig/langfristig وeinerseits/andererseits وkönnte dazu beitragen…\n\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll.",
+        "en": "Core principle:\nWhen evaluating public measures, separate goal, mechanism, cost, benefit, side effects and distribution. Useful language: kurzfristig/langfristig; einerseits/andererseits; unter der Annahme, dass …; könnte dazu beitragen …; birgt das Risiko ….\n\n• Kurzfristig entstehen zusätzliche Kosten, langfristig könnten jedoch Einsparungen folgen.\n• Die Maßnahme könnte den Verkehr reduzieren, birgt aber das Risiko höherer Belastungen für bestimmte Gruppen.\n• Unter der Annahme ausreichender Kapazitäten wäre der Ausbau sinnvoll."
+      }
+    },
+    {
+      "id": "b2_u14_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung ist fachlich am passendsten?",
+        "ar": "ما المعنى الأدق في السياق؟",
+        "en": "Which meaning is most appropriate in context?"
+      },
+      "question": {
+        "de": "die Nebenwirkung",
+        "ar": "die Nebenwirkung",
+        "en": "die Nebenwirkung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "side effect",
+            "ar": "الأثر الجانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "long-term",
+            "ar": "على المدى الطويل",
+            "en": "long-term"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weigh up",
+            "ar": "يوازن",
+            "en": "weigh up"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b2_u14_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} entstehen Kosten, langfristig Vorteile.",
+        "ar": "{answer} entstehen Kosten, langfristig Vorteile.",
+        "en": "{answer} entstehen Kosten, langfristig Vorteile."
+      },
+      "acceptedAnswers": [
+        "Kurzfristig"
+      ]
+    },
+    {
+      "id": "b2_u14_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "B2-Produktion & Revision",
+        "ar": "إنتاج B2 والمراجعة",
+        "en": "B2 production & revision"
+      },
+      "body": {
+        "de": "B2-Produktion: Verfasse 140–180 Wörter oder eine dreiminütige Stellungnahme zu „Umwelt, Klima & Stadtentwicklung“. Trenne Beobachtung, Interpretation und Bewertung. Nutze mindestens drei Zielstrukturen, ein Gegenargument und eine Einschränkung. Überarbeite Register, Kohäsion und Präzision.",
+        "ar": "إنتاج B2: اكتب 140–180 كلمة أو قدم موقفًا لثلاث دقائق حول «البيئة والمناخ وتطوير المدن». افصل بين الملاحظة والتفسير والتقييم، واستخدم ثلاث بنيات مستهدفة وحجة مضادة وقيدًا، ثم راجع السجل والترابط والدقة.",
+        "en": "B2 production: Write 140–180 words or give a three-minute position on “Environment, climate & urban development”. Separate observation, interpretation and evaluation; use at least three target structures, a counterargument and a limitation, then revise register, cohesion and precision."
+      }
+    },
+    {
+      "id": "b2_u14_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B2-Kompetenz nachgewiesen",
+        "ar": "تم تحقيق كفاءة B2",
+        "en": "B2 competence demonstrated"
+      },
+      "canDo": [
+        "B2_U14_REAL_LIFE"
+      ]
+    }
+  ]
+}
