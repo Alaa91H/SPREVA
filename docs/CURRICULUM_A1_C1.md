@@ -212,4 +212,6 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 Content should remain original, scenario-driven, respectful, and useful across everyday life, employment, education, housing, health communication, public services, travel, finance, technology and academic contexts. Medical, legal and financial language lessons teach **communication and document comprehension**; they must not be presented as individualized professional advice.
 
-Future expansion should prioritize authentic licensed audio, additional listening/speaking tasks, calibrated assessment, FSRS evidence, corpus-informed collocations and expert linguistic review rather than adding superficial lesson counts.
+Future expansion should prioritize authentic licensed audio, rubric-calibrated writing/speaking assessment, personalized FSRS parameter optimization once sufficient review history exists, corpus-informed collocations, instrumented end-to-end tests and expert linguistic review rather than adding superficial lesson counts.
+
+The shipped app now includes a local-first Learning Intelligence foundation — FSRS-6 scheduling, adaptive placement, confidence-weighted skill/topic mastery, mistake-pattern detection and repeated-error remediation. See [LEARNING_INTELLIGENCE.md](LEARNING_INTELLIGENCE.md) for the evidence model and its explicit limitations.

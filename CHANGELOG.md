@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Learning intelligence
+- Replaced the production demo interval scheduler with a **FSRS-6** implementation using the public 21-parameter default model at 90% desired retention. Stability, difficulty and last-review state are serialized in the existing opaque `schedulerState`, so no Room schema migration is required; legacy `demo-v1` cards migrate lazily on their next grade.
+- Added FSRS interval previews to **Again / Hard / Good / Easy** before the learner commits a review rating.
+- Added confidence-weighted **skill mastery** for grammar, reading, listening and pronunciation, plus completion-only evidence for writing and speaking until a real rubric evaluator exists. A Beta-style prior and evidence confidence prevent one lucky answer from becoming “100% mastery.”
+- Added confidence-weighted **topic/lesson mastery**, repeated-error detection, repaired-error signals, rushed-guess detection, slow-recall detection and incomplete productive-task signals.
+- Practice is now a **personalized learning dashboard**: due reviews, saved placement recommendation, skill mastery, and clickable focus lessons ranked from actual local attempt history.
+- Repeated objective errors automatically create deterministic **FSRS remediation cards** after the second incorrect attempt. Vocabulary provisioning now correctly runs through the injected `CompleteLesson` use case; this also fixed an older lesson-player path that could bypass review-card provisioning and the completion event.
+- Added an **adaptive A1–C1 placement diagnostic** sourced from the course’s original Exam & Skills Labs instead of a duplicate question bank. It starts at B1, tests four questions per visited level, moves up/down from evidence, persists the latest recommended starting level in Preferences DataStore, and explicitly does not claim CEFR certification.
+- Learning Intelligence remains local-first: attempt history, mastery derivation, diagnostic state and review scheduling require no server-side learner profiling.
+
 ### Academic curriculum
 - Added **Pronunciation & Prosody Labs** for A1–C1: 5 units / 20 lessons / 270 activities progressing from sound discrimination and basic stress to connected speech, pragmatic focus and C1 rhetorical prosody. `speaking_repeat` now supports local German TTS fallback when licensed native audio is absent, with multi-speed playback preserved.
 - Added **Exam & Skills Labs** for A1, A2, B1, B2 and C1: 5 new units / 20 lessons / 280 activities covering reading, listening, dictation, free writing, free speaking, mixed mastery and original four-skill full mocks. Added renderer-native `dictation`, `free_write` and `speaking_prompt` activities, TTS fallback for listening, and 0.75×/1.0×/1.15× shadowing playback.
