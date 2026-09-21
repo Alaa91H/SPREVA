@@ -1,0 +1,155 @@
+{
+  "id": "a1_u13_l02",
+  "unitId": "de-core-a1-u13",
+  "title": {
+    "de": "Pläne machen, einladen und reagieren",
+    "ar": "وضع خطط وتوجيه دعوة والرد عليها",
+    "en": "Making plans, inviting and responding"
+  },
+  "canDo": [
+    "A1_U13_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u13_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Pläne machen, einladen und reagieren",
+        "ar": "وضع خطط وتوجيه دعوة والرد عليها",
+        "en": "Making plans, inviting and responding"
+      },
+      "body": {
+        "de": "Realsituation:\nWochenende und Freizeit: Wetter kommentieren, Freunde einladen, Zeit und Treffpunkt vereinbaren, höflich zu- oder absagen.\n\nModelldialog:\nA: Das Wetter ist morgen schön. Möchtest du spazieren gehen?\nB: Ja, gern. Um wie viel Uhr?\nA: Um drei im Park?\nB: Perfekt, bis morgen!\n\nSprachfokus:\nVorlieben: Ich mag Musik / Ich spiele gern Fußball. Ein Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nعطلة نهاية الأسبوع: الحديث عن الطقس ودعوة الأصدقاء وتحديد الوقت والمكان والقبول أو الاعتذار بأدب.\n\nحوار نموذجي:\nA: Das Wetter ist morgen schön. Möchtest du spazieren gehen?\nB: Ja, gern. Um wie viel Uhr?\nA: Um drei im Park?\nB: Perfekt, bis morgen!\n\nالتركيز اللغوي:\nللتفضيل: Ich mag Musik أو Ich spiele gern Fußball. للرغبة: Ich möchte ins Kino gehen. للدعوة: Möchtest du…? والرد Ja, gern أو Leider kann ich nicht.\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nWeekend and leisure: comment on weather, invite friends, agree on time/place, accept or decline politely.\n\nModel dialogue:\nA: Das Wetter ist morgen schön. Möchtest du spazieren gehen?\nB: Ja, gern. Um wie viel Uhr?\nA: Um drei im Park?\nB: Perfekt, bis morgen!\n\nLanguage focus:\nPreferences: Ich mag Musik / Ich spiele gern Fußball. A polite wish or plan: Ich möchte ins Kino gehen. Invitations: Möchtest du …? Replies: Ja, gern / Leider kann ich nicht.\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u13_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u13_l02_w1",
+          "german": "sonnig",
+          "translation": {
+            "de": "sunny",
+            "ar": "مشمس",
+            "en": "sunny"
+          }
+        },
+        {
+          "id": "a1_u13_l02_w2",
+          "german": "einladen",
+          "translation": {
+            "de": "invite",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "a1_u13_l02_w3",
+          "german": "leider",
+          "translation": {
+            "de": "unfortunately",
+            "ar": "للأسف",
+            "en": "unfortunately"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u13_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Vorlieben: Ich mag Musik / Ich spiele gern Fußball. Ein Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.\n\nBeispiele:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit.",
+        "ar": "قاعدة مختصرة: للتفضيل: Ich mag Musik أو Ich spiele gern Fußball. للرغبة: Ich möchte ins Kino gehen. للدعوة: Möchtest du…? والرد Ja, gern أو Leider kann ich nicht.\n\nالأمثلة:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit.",
+        "en": "Key rule: Preferences: Ich mag Musik / Ich spiele gern Fußball. A polite wish or plan: Ich möchte ins Kino gehen. Invitations: Möchtest du …? Replies: Ja, gern / Leider kann ich nicht.\n\nExamples:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit."
+      }
+    },
+    {
+      "id": "a1_u13_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "sonnig",
+        "ar": "sonnig",
+        "en": "sonnig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sunny",
+            "ar": "مشمس",
+            "en": "sunny"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "invite",
+            "ar": "يدعو",
+            "en": "invite"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "unfortunately",
+            "ar": "للأسف",
+            "en": "unfortunately"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u13_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} du am Samstag mitkommen?",
+        "ar": "{answer} du am Samstag mitkommen?",
+        "en": "{answer} du am Samstag mitkommen?"
+      },
+      "acceptedAnswers": [
+        "Möchtest",
+        "Moechtest"
+      ]
+    },
+    {
+      "id": "a1_u13_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Pläne machen, einladen und reagieren“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «وضع خطط وتوجيه دعوة والرد عليها». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Making plans, inviting and responding”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u13_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U13_REAL_LIFE"
+      ]
+    }
+  ]
+}

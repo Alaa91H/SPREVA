@@ -1,0 +1,156 @@
+{
+  "id": "a1_u12_l02",
+  "unitId": "de-core-a1-u12",
+  "title": {
+    "de": "Über Arbeit, Kurs und Kompetenzen sprechen",
+    "ar": "التحدث عن العمل والدورة والمهارات",
+    "en": "Talking about work, courses and skills"
+  },
+  "canDo": [
+    "A1_U12_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u12_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Über Arbeit, Kurs und Kompetenzen sprechen",
+        "ar": "التحدث عن العمل والدورة والمهارات",
+        "en": "Talking about work, courses and skills"
+      },
+      "body": {
+        "de": "Realsituation:\nSprachkurs, Arbeitsplatz oder Kennenlernen: Beruf nennen, Aufgaben beschreiben, Arbeitszeiten und einfache Fähigkeiten ausdrücken.\n\nModelldialog:\nA: Was machen Sie beruflich?\nB: Ich bin Koch.\nA: Was können Sie besonders gut?\nB: Ich kann gut organisieren und schnell arbeiten.\n\nSprachfokus:\nMit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. Der zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nدورة اللغة أو مكان العمل: ذكر المهنة والمهام وساعات العمل والقدرات الأساسية.\n\nحوار نموذجي:\nA: Was machen Sie beruflich?\nB: Ich bin Koch.\nA: Was können Sie besonders gut?\nB: Ich kann gut organisieren und schnell arbeiten.\n\nالتركيز اللغوي:\nنستخدم können للقدرات: Ich kann gut kochen، ويأتي المصدر في النهاية. المهنة بعد sein غالبًا بلا أداة: Ich bin Elektriker. والمؤنث كثيرًا ما ينتهي بـ -in.\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nLanguage class or workplace: state your profession, describe tasks, working hours and basic abilities.\n\nModel dialogue:\nA: Was machen Sie beruflich?\nB: Ich bin Koch.\nA: Was können Sie besonders gut?\nB: Ich kann gut organisieren und schnell arbeiten.\n\nLanguage focus:\nUse können for abilities: Ich kann gut kochen; the infinitive goes to the end. Professions after sein often appear without an article: Ich bin Elektriker. Female forms often use -in.\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u12_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u12_l02_w1",
+          "german": "der Kurs",
+          "translation": {
+            "de": "course",
+            "ar": "الدورة",
+            "en": "course"
+          }
+        },
+        {
+          "id": "a1_u12_l02_w2",
+          "german": "die Aufgabe",
+          "translation": {
+            "de": "task",
+            "ar": "المهمة",
+            "en": "task"
+          }
+        },
+        {
+          "id": "a1_u12_l02_w3",
+          "german": "die Pause",
+          "translation": {
+            "de": "break",
+            "ar": "الاستراحة",
+            "en": "break"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u12_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Mit „können“ beschreibt man Fähigkeiten: Ich kann gut kochen. Der zweite Verbteil steht als Infinitiv am Ende. Berufe stehen nach „sein“ häufig ohne Artikel: Ich bin Elektriker. Bei weiblichen Formen oft -in: die Verkäuferin.\n\nBeispiele:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr.",
+        "ar": "قاعدة مختصرة: نستخدم können للقدرات: Ich kann gut kochen، ويأتي المصدر في النهاية. المهنة بعد sein غالبًا بلا أداة: Ich bin Elektriker. والمؤنث كثيرًا ما ينتهي بـ -in.\n\nالأمثلة:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr.",
+        "en": "Key rule: Use können for abilities: Ich kann gut kochen; the infinitive goes to the end. Professions after sein often appear without an article: Ich bin Elektriker. Female forms often use -in.\n\nExamples:\n• Ich bin Verkäufer.\n• Ich kann mit Computern arbeiten.\n• Der Deutschkurs beginnt um neun Uhr."
+      }
+    },
+    {
+      "id": "a1_u12_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "der Kurs",
+        "ar": "der Kurs",
+        "en": "der Kurs"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "course",
+            "ar": "الدورة",
+            "en": "course"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "task",
+            "ar": "المهمة",
+            "en": "task"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "break",
+            "ar": "الاستراحة",
+            "en": "break"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u12_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bin {answer} und arbeite in einem Restaurant.",
+        "ar": "Ich bin {answer} und arbeite in einem Restaurant.",
+        "en": "Ich bin {answer} und arbeite in einem Restaurant."
+      },
+      "acceptedAnswers": [
+        "Koch",
+        "Köchin",
+        "Koechin"
+      ]
+    },
+    {
+      "id": "a1_u12_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Über Arbeit, Kurs und Kompetenzen sprechen“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «التحدث عن العمل والدورة والمهارات». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Talking about work, courses and skills”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u12_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U12_REAL_LIFE"
+      ]
+    }
+  ]
+}

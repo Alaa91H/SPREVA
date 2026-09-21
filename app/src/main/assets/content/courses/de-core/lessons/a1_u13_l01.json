@@ -1,0 +1,154 @@
+{
+  "id": "a1_u13_l01",
+  "unitId": "de-core-a1-u13",
+  "title": {
+    "de": "mögen/gern, möchten und einfache Einladungen",
+    "ar": "mögen/gern وmöchten وصياغة الدعوات البسيطة",
+    "en": "mögen/gern, möchten and simple invitations"
+  },
+  "canDo": [
+    "A1_U13_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u13_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "mögen/gern, möchten und einfache Einladungen",
+        "ar": "mögen/gern وmöchten وصياغة الدعوات البسيطة",
+        "en": "mögen/gern, möchten and simple invitations"
+      },
+      "body": {
+        "de": "Lernziel: mögen/gern, möchten und einfache Einladungen\n\nKernregel:\nVorlieben: Ich mag Musik / Ich spiele gern Fußball. Ein Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.\n\nMusterbeispiele:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit.\n\nPraxisbezug:\nWochenende und Freizeit: Wetter kommentieren, Freunde einladen, Zeit und Treffpunkt vereinbaren, höflich zu- oder absagen.\n\nTypische Stolperfalle:\n„gern“ steht typischerweise beim Verb, „mögen“ vor einem Nomen. Bei Absagen wirkt ein kurzer Grund höflicher: „Leider kann ich nicht, ich muss arbeiten.“",
+        "ar": "هدف الدرس: mögen/gern وmöchten وصياغة الدعوات البسيطة\n\nالقاعدة الأساسية:\nللتفضيل: Ich mag Musik أو Ich spiele gern Fußball. للرغبة: Ich möchte ins Kino gehen. للدعوة: Möchtest du…? والرد Ja, gern أو Leider kann ich nicht.\n\nأمثلة ألمانية:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit.\n\nالاستخدام في الحياة:\nعطلة نهاية الأسبوع: الحديث عن الطقس ودعوة الأصدقاء وتحديد الوقت والمكان والقبول أو الاعتذار بأدب.\n\nخطأ شائع يجب تجنبه:\ngern تأتي عادة مع الفعل وmögen قبل الاسم. عند الاعتذار من الأفضل ذكر سبب قصير بشكل مهذب.",
+        "en": "Lesson goal: mögen/gern, möchten and simple invitations\n\nCore rule:\nPreferences: Ich mag Musik / Ich spiele gern Fußball. A polite wish or plan: Ich möchte ins Kino gehen. Invitations: Möchtest du …? Replies: Ja, gern / Leider kann ich nicht.\n\nGerman examples:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit.\n\nReal-life use:\nWeekend and leisure: comment on weather, invite friends, agree on time/place, accept or decline politely.\n\nCommon pitfall:\ngern typically modifies a verb, while mögen often takes a noun. When declining, a brief reason sounds polite."
+      }
+    },
+    {
+      "id": "a1_u13_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u13_l01_w1",
+          "german": "die Freizeit",
+          "translation": {
+            "de": "free time",
+            "ar": "وقت الفراغ",
+            "en": "free time"
+          }
+        },
+        {
+          "id": "a1_u13_l01_w2",
+          "german": "spazieren gehen",
+          "translation": {
+            "de": "go for a walk",
+            "ar": "يتمشى",
+            "en": "go for a walk"
+          }
+        },
+        {
+          "id": "a1_u13_l01_w3",
+          "german": "das Wetter",
+          "translation": {
+            "de": "weather",
+            "ar": "الطقس",
+            "en": "weather"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u13_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Vorlieben: Ich mag Musik / Ich spiele gern Fußball. Ein Wunsch oder höflicher Plan: Ich möchte ins Kino gehen. Einladungen mit „Möchtest du …?“; Antworten: „Ja, gern“, „Leider kann ich nicht“.\n\nBeispiele:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit.",
+        "ar": "قاعدة مختصرة: للتفضيل: Ich mag Musik أو Ich spiele gern Fußball. للرغبة: Ich möchte ins Kino gehen. للدعوة: Möchtest du…? والرد Ja, gern أو Leider kann ich nicht.\n\nالأمثلة:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit.",
+        "en": "Key rule: Preferences: Ich mag Musik / Ich spiele gern Fußball. A polite wish or plan: Ich möchte ins Kino gehen. Invitations: Möchtest du …? Replies: Ja, gern / Leider kann ich nicht.\n\nExamples:\n• Ich gehe gern spazieren.\n• Möchtest du am Samstag mitkommen?\n• Leider kann ich nicht, aber am Sonntag habe ich Zeit."
+      }
+    },
+    {
+      "id": "a1_u13_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "die Freizeit",
+        "ar": "die Freizeit",
+        "en": "die Freizeit"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "free time",
+            "ar": "وقت الفراغ",
+            "en": "free time"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "go for a walk",
+            "ar": "يتمشى",
+            "en": "go for a walk"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "weather",
+            "ar": "الطقس",
+            "en": "weather"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u13_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich gehe {answer} schwimmen.",
+        "ar": "Ich gehe {answer} schwimmen.",
+        "en": "Ich gehe {answer} schwimmen."
+      },
+      "acceptedAnswers": [
+        "gern"
+      ]
+    },
+    {
+      "id": "a1_u13_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Freizeit, Wetter & Einladungen“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «وقت الفراغ والطقس والدعوات». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Leisure, weather & invitations”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u13_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U13_FOUNDATION"
+      ]
+    }
+  ]
+}

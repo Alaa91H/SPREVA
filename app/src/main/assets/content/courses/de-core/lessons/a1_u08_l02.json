@@ -1,0 +1,154 @@
+{
+  "id": "a1_u08_l02",
+  "unitId": "de-core-a1-u08",
+  "title": {
+    "de": "Den eigenen Tagesablauf beschreiben",
+    "ar": "وصف الروتين اليومي",
+    "en": "Describing your daily routine"
+  },
+  "canDo": [
+    "A1_U08_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u08_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Den eigenen Tagesablauf beschreiben",
+        "ar": "وصف الروتين اليومي",
+        "en": "Describing your daily routine"
+      },
+      "body": {
+        "de": "Realsituation:\nAlltag, Arbeit oder Kurs: Aufstehen, Frühstück, Arbeitsweg, Pausen und Feierabend zeitlich ordnen und erzählen.\n\nModelldialog:\nA: Wann stehst du auf?\nB: Um halb sieben stehe ich auf.\nA: Und wann fängst du an zu arbeiten?\nB: Um acht Uhr fange ich an.\n\nSprachfokus:\nBei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt der Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nالحياة اليومية أو العمل أو الدورة: ترتيب الاستيقاظ والفطور وطريق العمل والاستراحات ونهاية الدوام زمنيًا.\n\nحوار نموذجي:\nA: Wann stehst du auf?\nB: Um halb sieben stehe ich auf.\nA: Und wann fängst du an zu arbeiten?\nB: Um acht Uhr fange ich an.\n\nالتركيز اللغوي:\nفي الأفعال المنفصلة يذهب الجزء المنفصل إلى نهاية الجملة: Ich stehe … auf. وإذا بدأت الجملة بظرف زمن يبقى الفعل المصرف في الموقع الثاني: Um 7 Uhr stehe ich auf.\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nDaily life, work or class: sequence waking up, breakfast, commute, breaks and finishing work.\n\nModel dialogue:\nA: Wann stehst du auf?\nB: Um halb sieben stehe ich auf.\nA: Und wann fängst du an zu arbeiten?\nB: Um acht Uhr fange ich an.\n\nLanguage focus:\nWith separable verbs the prefix moves to the end of a main clause: Ich stehe um 7 Uhr auf. If a time expression comes first, the conjugated verb remains in position 2: Um 7 Uhr stehe ich auf.\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u08_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u08_l02_w1",
+          "german": "einkaufen",
+          "translation": {
+            "de": "shop",
+            "ar": "يتسوق",
+            "en": "shop"
+          }
+        },
+        {
+          "id": "a1_u08_l02_w2",
+          "german": "fernsehen",
+          "translation": {
+            "de": "watch TV",
+            "ar": "يشاهد التلفاز",
+            "en": "watch TV"
+          }
+        },
+        {
+          "id": "a1_u08_l02_w3",
+          "german": "schlafen",
+          "translation": {
+            "de": "sleep",
+            "ar": "ينام",
+            "en": "sleep"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u08_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Bei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt der Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.\n\nBeispiele:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern.",
+        "ar": "قاعدة مختصرة: في الأفعال المنفصلة يذهب الجزء المنفصل إلى نهاية الجملة: Ich stehe … auf. وإذا بدأت الجملة بظرف زمن يبقى الفعل المصرف في الموقع الثاني: Um 7 Uhr stehe ich auf.\n\nالأمثلة:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern.",
+        "en": "Key rule: With separable verbs the prefix moves to the end of a main clause: Ich stehe um 7 Uhr auf. If a time expression comes first, the conjugated verb remains in position 2: Um 7 Uhr stehe ich auf.\n\nExamples:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern."
+      }
+    },
+    {
+      "id": "a1_u08_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "einkaufen",
+        "ar": "einkaufen",
+        "en": "einkaufen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "shop",
+            "ar": "يتسوق",
+            "en": "shop"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "watch TV",
+            "ar": "يشاهد التلفاز",
+            "en": "watch TV"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sleep",
+            "ar": "ينام",
+            "en": "sleep"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u08_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Um acht Uhr {answer} ich mit der Arbeit an.",
+        "ar": "Um acht Uhr {answer} ich mit der Arbeit an.",
+        "en": "Um acht Uhr {answer} ich mit der Arbeit an."
+      },
+      "acceptedAnswers": [
+        "fange"
+      ]
+    },
+    {
+      "id": "a1_u08_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Den eigenen Tagesablauf beschreiben“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «وصف الروتين اليومي». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Describing your daily routine”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u08_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U08_REAL_LIFE"
+      ]
+    }
+  ]
+}

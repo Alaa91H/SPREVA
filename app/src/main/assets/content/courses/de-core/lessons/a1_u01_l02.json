@@ -1,0 +1,155 @@
+{
+  "id": "a1_u01_l02",
+  "unitId": "de-core-a1-u01",
+  "title": {
+    "de": "Sich sicher vorstellen",
+    "ar": "تقديم النفس بثقة",
+    "en": "Introducing yourself confidently"
+  },
+  "canDo": [
+    "A1_U01_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u01_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Sich sicher vorstellen",
+        "ar": "تقديم النفس بثقة",
+        "en": "Introducing yourself confidently"
+      },
+      "body": {
+        "de": "Realsituation:\nErste Begegnung in einem Kurs, Amt, Wohnheim oder am Arbeitsplatz: begrüßen, Namen nennen, Herkunft und Wohnort erfragen.\n\nModelldialog:\nA: Guten Tag! Ich heiße Lina.\nB: Hallo, ich bin Omar. Wie heißen Sie?\nA: Ich heiße Lina. Woher kommen Sie?\nB: Ich komme aus Jordanien.\n\nSprachfokus:\nIm deutschen Hauptsatz steht das konjugierte Verb normalerweise an Position 2. Mit sein: ich bin, du bist, er/sie ist, wir sind, ihr seid, Sie/sie sind. Fragen wie „Wie heißen Sie?“ beginnen mit einem Fragewort und danach folgt das Verb.\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nلقاء أول في دورة أو دائرة رسمية أو سكن أو عمل: التحية، ذكر الاسم، والسؤال عن الأصل ومكان السكن.\n\nحوار نموذجي:\nA: Guten Tag! Ich heiße Lina.\nB: Hallo, ich bin Omar. Wie heißen Sie?\nA: Ich heiße Lina. Woher kommen Sie?\nB: Ich komme aus Jordanien.\n\nالتركيز اللغوي:\nفي الجملة الألمانية الرئيسية يأتي الفعل المصرف غالبًا في الموقع الثاني. مع sein: ich bin، du bist، er/sie ist… وفي أسئلة مثل Wie heißen Sie? تبدأ الجملة بأداة السؤال ثم يأتي الفعل.\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nA first meeting in a class, public office, residence or workplace: greet, state your name, ask about origin and residence.\n\nModel dialogue:\nA: Guten Tag! Ich heiße Lina.\nB: Hallo, ich bin Omar. Wie heißen Sie?\nA: Ich heiße Lina. Woher kommen Sie?\nB: Ich komme aus Jordanien.\n\nLanguage focus:\nIn a German main clause the conjugated verb normally occupies position 2. With sein: ich bin, du bist, er/sie ist, wir sind, ihr seid, Sie/sie sind. W-questions begin with a question word followed by the verb.\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u01_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u01_l02_w1",
+          "german": "Woher kommen Sie?",
+          "translation": {
+            "de": "Where are you from?",
+            "ar": "من أين أتيت؟",
+            "en": "Where are you from?"
+          }
+        },
+        {
+          "id": "a1_u01_l02_w2",
+          "german": "Ich wohne in …",
+          "translation": {
+            "de": "I live in …",
+            "ar": "أنا أسكن في …",
+            "en": "I live in …"
+          }
+        },
+        {
+          "id": "a1_u01_l02_w3",
+          "german": "Freut mich.",
+          "translation": {
+            "de": "Nice to meet you",
+            "ar": "تشرفت بمعرفتك",
+            "en": "Nice to meet you"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u01_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Im deutschen Hauptsatz steht das konjugierte Verb normalerweise an Position 2. Mit sein: ich bin, du bist, er/sie ist, wir sind, ihr seid, Sie/sie sind. Fragen wie „Wie heißen Sie?“ beginnen mit einem Fragewort und danach folgt das Verb.\n\nBeispiele:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin.",
+        "ar": "قاعدة مختصرة: في الجملة الألمانية الرئيسية يأتي الفعل المصرف غالبًا في الموقع الثاني. مع sein: ich bin، du bist، er/sie ist… وفي أسئلة مثل Wie heißen Sie? تبدأ الجملة بأداة السؤال ثم يأتي الفعل.\n\nالأمثلة:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin.",
+        "en": "Key rule: In a German main clause the conjugated verb normally occupies position 2. With sein: ich bin, du bist, er/sie ist, wir sind, ihr seid, Sie/sie sind. W-questions begin with a question word followed by the verb.\n\nExamples:\n• Guten Tag, ich bin Samir.\n• Wie heißen Sie?\n• Ich komme aus Syrien und wohne in Berlin."
+      }
+    },
+    {
+      "id": "a1_u01_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "Woher kommen Sie?",
+        "ar": "Woher kommen Sie?",
+        "en": "Woher kommen Sie?"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "Where are you from?",
+            "ar": "من أين أتيت؟",
+            "en": "Where are you from?"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "I live in …",
+            "ar": "أنا أسكن في …",
+            "en": "I live in …"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "Nice to meet you",
+            "ar": "تشرفت بمعرفتك",
+            "en": "Nice to meet you"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u01_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wie {answer} Sie?",
+        "ar": "Wie {answer} Sie?",
+        "en": "Wie {answer} Sie?"
+      },
+      "acceptedAnswers": [
+        "heißen",
+        "heissen"
+      ]
+    },
+    {
+      "id": "a1_u01_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Sich sicher vorstellen“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «تقديم النفس بثقة». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Introducing yourself confidently”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u01_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U01_REAL_LIFE"
+      ]
+    }
+  ]
+}

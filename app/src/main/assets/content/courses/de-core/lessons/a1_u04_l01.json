@@ -1,0 +1,154 @@
+{
+  "id": "a1_u04_l01",
+  "unitId": "de-core-a1-u04",
+  "title": {
+    "de": "Possessivartikel mein/dein/sein/ihr",
+    "ar": "أدوات الملكية mein/dein/sein/ihr",
+    "en": "Possessive determiners mein/dein/sein/ihr"
+  },
+  "canDo": [
+    "A1_U04_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u04_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Possessivartikel mein/dein/sein/ihr",
+        "ar": "أدوات الملكية mein/dein/sein/ihr",
+        "en": "Possessive determiners mein/dein/sein/ihr"
+      },
+      "body": {
+        "de": "Lernziel: Possessivartikel mein/dein/sein/ihr\n\nKernregel:\nPossessivartikel richten sich nach Besitzer und Nomen: mein Bruder, meine Schwester; dein Vater, deine Mutter. Bei er verwendet man sein-, bei sie ihr-. Die Endung folgt dem Geschlecht und Kasus des Nomens.\n\nMusterbeispiele:\n• Das ist meine Schwester.\n• Sein Sohn ist fünf Jahre alt.\n• Wie heißt deine Mutter?\n\nPraxisbezug:\nSmalltalk, Schule, Kita oder Nachbarschaft: Familienmitglieder vorstellen, Alter und Beziehungen beschreiben, nach Angehörigen fragen.\n\nTypische Stolperfalle:\n„sein“ kann Verb oder Possessivstamm sein: „Er ist“ vs. „sein Bruder“. Achte auf die Endung: mein Vater, meine Mutter, mein Kind.",
+        "ar": "هدف الدرس: أدوات الملكية mein/dein/sein/ihr\n\nالقاعدة الأساسية:\nأداة الملكية تعتمد على المالك والاسم: mein Bruder، meine Schwester. مع er نستخدم sein- ومع sie نستخدم ihr-. النهاية تتبع جنس الاسم والحالة الإعرابية.\n\nأمثلة ألمانية:\n• Das ist meine Schwester.\n• Sein Sohn ist fünf Jahre alt.\n• Wie heißt deine Mutter?\n\nالاستخدام في الحياة:\nمحادثة يومية أو مدرسة أو روضة أو جيران: تقديم أفراد العائلة ووصف العمر والعلاقة والسؤال عن الأقارب.\n\nخطأ شائع يجب تجنبه:\nsein قد يكون فعلًا أو جذر ملكية: Er ist مقابل sein Bruder. انتبه للنهايات: mein Vater، meine Mutter، mein Kind.",
+        "en": "Lesson goal: Possessive determiners mein/dein/sein/ihr\n\nCore rule:\nPossessive determiners depend on the owner and the noun: mein Bruder, meine Schwester; dein Vater, deine Mutter. Use sein- for er and ihr- for sie; endings follow noun gender and case.\n\nGerman examples:\n• Das ist meine Schwester.\n• Sein Sohn ist fünf Jahre alt.\n• Wie heißt deine Mutter?\n\nReal-life use:\nSmall talk, school, daycare or neighborhood: introduce family members, describe age and relationships, ask about relatives.\n\nCommon pitfall:\nsein may be a verb or a possessive stem: Er ist vs sein Bruder. Watch endings: mein Vater, meine Mutter, mein Kind."
+      }
+    },
+    {
+      "id": "a1_u04_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u04_l01_w1",
+          "german": "die Familie",
+          "translation": {
+            "de": "family",
+            "ar": "العائلة",
+            "en": "family"
+          }
+        },
+        {
+          "id": "a1_u04_l01_w2",
+          "german": "der Bruder",
+          "translation": {
+            "de": "brother",
+            "ar": "الأخ",
+            "en": "brother"
+          }
+        },
+        {
+          "id": "a1_u04_l01_w3",
+          "german": "die Schwester",
+          "translation": {
+            "de": "sister",
+            "ar": "الأخت",
+            "en": "sister"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u04_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Possessivartikel richten sich nach Besitzer und Nomen: mein Bruder, meine Schwester; dein Vater, deine Mutter. Bei er verwendet man sein-, bei sie ihr-. Die Endung folgt dem Geschlecht und Kasus des Nomens.\n\nBeispiele:\n• Das ist meine Schwester.\n• Sein Sohn ist fünf Jahre alt.\n• Wie heißt deine Mutter?",
+        "ar": "قاعدة مختصرة: أداة الملكية تعتمد على المالك والاسم: mein Bruder، meine Schwester. مع er نستخدم sein- ومع sie نستخدم ihr-. النهاية تتبع جنس الاسم والحالة الإعرابية.\n\nالأمثلة:\n• Das ist meine Schwester.\n• Sein Sohn ist fünf Jahre alt.\n• Wie heißt deine Mutter?",
+        "en": "Key rule: Possessive determiners depend on the owner and the noun: mein Bruder, meine Schwester; dein Vater, deine Mutter. Use sein- for er and ihr- for sie; endings follow noun gender and case.\n\nExamples:\n• Das ist meine Schwester.\n• Sein Sohn ist fünf Jahre alt.\n• Wie heißt deine Mutter?"
+      }
+    },
+    {
+      "id": "a1_u04_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "die Familie",
+        "ar": "die Familie",
+        "en": "die Familie"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "family",
+            "ar": "العائلة",
+            "en": "family"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "brother",
+            "ar": "الأخ",
+            "en": "brother"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sister",
+            "ar": "الأخت",
+            "en": "sister"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u04_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist {answer} Mutter.",
+        "ar": "Das ist {answer} Mutter.",
+        "en": "Das ist {answer} Mutter."
+      },
+      "acceptedAnswers": [
+        "meine"
+      ]
+    },
+    {
+      "id": "a1_u04_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Familie & Beziehungen“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «العائلة والعلاقات». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Family & relationships”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u04_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U04_FOUNDATION"
+      ]
+    }
+  ]
+}

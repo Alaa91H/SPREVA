@@ -1,0 +1,154 @@
+{
+  "id": "a1_u08_l01",
+  "unitId": "de-core-a1-u08",
+  "title": {
+    "de": "Verbzweitstellung und trennbare Verben",
+    "ar": "الموقع الثاني للفعل والأفعال المنفصلة",
+    "en": "Verb-second word order and separable verbs"
+  },
+  "canDo": [
+    "A1_U08_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u08_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Verbzweitstellung und trennbare Verben",
+        "ar": "الموقع الثاني للفعل والأفعال المنفصلة",
+        "en": "Verb-second word order and separable verbs"
+      },
+      "body": {
+        "de": "Lernziel: Verbzweitstellung und trennbare Verben\n\nKernregel:\nBei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt der Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.\n\nMusterbeispiele:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern.\n\nPraxisbezug:\nAlltag, Arbeit oder Kurs: Aufstehen, Frühstück, Arbeitsweg, Pausen und Feierabend zeitlich ordnen und erzählen.\n\nTypische Stolperfalle:\nDas Präfix nicht neben dem Verb lassen: „Ich aufstehe“ ist im Hauptsatz falsch. Richtig: „Ich stehe auf.“",
+        "ar": "هدف الدرس: الموقع الثاني للفعل والأفعال المنفصلة\n\nالقاعدة الأساسية:\nفي الأفعال المنفصلة يذهب الجزء المنفصل إلى نهاية الجملة: Ich stehe … auf. وإذا بدأت الجملة بظرف زمن يبقى الفعل المصرف في الموقع الثاني: Um 7 Uhr stehe ich auf.\n\nأمثلة ألمانية:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern.\n\nالاستخدام في الحياة:\nالحياة اليومية أو العمل أو الدورة: ترتيب الاستيقاظ والفطور وطريق العمل والاستراحات ونهاية الدوام زمنيًا.\n\nخطأ شائع يجب تجنبه:\nلا تترك الجزء المنفصل بجانب الفعل في الجملة الرئيسية. Ich aufstehe خطأ؛ الصحيح Ich stehe auf.",
+        "en": "Lesson goal: Verb-second word order and separable verbs\n\nCore rule:\nWith separable verbs the prefix moves to the end of a main clause: Ich stehe um 7 Uhr auf. If a time expression comes first, the conjugated verb remains in position 2: Um 7 Uhr stehe ich auf.\n\nGerman examples:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern.\n\nReal-life use:\nDaily life, work or class: sequence waking up, breakfast, commute, breaks and finishing work.\n\nCommon pitfall:\nDo not keep the separable prefix attached in a main clause. Ich aufstehe is wrong; use Ich stehe auf."
+      }
+    },
+    {
+      "id": "a1_u08_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u08_l01_w1",
+          "german": "aufstehen",
+          "translation": {
+            "de": "get up",
+            "ar": "يستيقظ / ينهض",
+            "en": "get up"
+          }
+        },
+        {
+          "id": "a1_u08_l01_w2",
+          "german": "frühstücken",
+          "translation": {
+            "de": "have breakfast",
+            "ar": "يتناول الفطور",
+            "en": "have breakfast"
+          }
+        },
+        {
+          "id": "a1_u08_l01_w3",
+          "german": "anfangen",
+          "translation": {
+            "de": "begin",
+            "ar": "يبدأ",
+            "en": "begin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u08_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Bei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt der Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.\n\nBeispiele:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern.",
+        "ar": "قاعدة مختصرة: في الأفعال المنفصلة يذهب الجزء المنفصل إلى نهاية الجملة: Ich stehe … auf. وإذا بدأت الجملة بظرف زمن يبقى الفعل المصرف في الموقع الثاني: Um 7 Uhr stehe ich auf.\n\nالأمثلة:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern.",
+        "en": "Key rule: With separable verbs the prefix moves to the end of a main clause: Ich stehe um 7 Uhr auf. If a time expression comes first, the conjugated verb remains in position 2: Um 7 Uhr stehe ich auf.\n\nExamples:\n• Ich stehe um sieben Uhr auf.\n• Danach frühstücke ich.\n• Am Abend sehe ich fern."
+      }
+    },
+    {
+      "id": "a1_u08_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "aufstehen",
+        "ar": "aufstehen",
+        "en": "aufstehen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "get up",
+            "ar": "يستيقظ / ينهض",
+            "en": "get up"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "have breakfast",
+            "ar": "يتناول الفطور",
+            "en": "have breakfast"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "begin",
+            "ar": "يبدأ",
+            "en": "begin"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u08_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stehe um sieben Uhr {answer}.",
+        "ar": "Ich stehe um sieben Uhr {answer}.",
+        "en": "Ich stehe um sieben Uhr {answer}."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "a1_u08_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Tagesablauf & trennbare Verben“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «الروتين اليومي والأفعال المنفصلة». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Daily routine & separable verbs”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u08_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U08_FOUNDATION"
+      ]
+    }
+  ]
+}

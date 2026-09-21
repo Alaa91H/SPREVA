@@ -1,0 +1,154 @@
+{
+  "id": "a1_u07_l01",
+  "unitId": "de-core-a1-u07",
+  "title": {
+    "de": "Preise, Mengen und brauchen/haben",
+    "ar": "الأسعار والكميات واستخدام brauchen/haben",
+    "en": "Prices, quantities and brauchen/haben"
+  },
+  "canDo": [
+    "A1_U07_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "a1_u07_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Preise, Mengen und brauchen/haben",
+        "ar": "الأسعار والكميات واستخدام brauchen/haben",
+        "en": "Prices, quantities and brauchen/haben"
+      },
+      "body": {
+        "de": "Lernziel: Preise, Mengen und brauchen/haben\n\nKernregel:\nPreise werden mit Euro und Cent angegeben: 2,49 € = zwei Euro neunundvierzig. Mengen stehen oft vor dem Nomen: ein Kilo Äpfel, eine Flasche Wasser. „brauchen“ nimmt ein Akkusativobjekt: Ich brauche einen Beutel.\n\nMusterbeispiele:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?\n\nPraxisbezug:\nSupermarkt, Kleidungsladen oder Markt: Preis erfragen, Menge nennen, nach Größe/Farbe fragen und an der Kasse bezahlen.\n\nTypische Stolperfalle:\nBei Preisen nicht „ist wie viel?“ übertragen. Natürlich sind „Was kostet das?“ oder „Wie viel kostet das?“. Bei Mengen bleibt das Produkt oft ohne Artikel.",
+        "ar": "هدف الدرس: الأسعار والكميات واستخدام brauchen/haben\n\nالقاعدة الأساسية:\nتُذكر الأسعار باليورو والسنت. تأتي الكمية غالبًا قبل الاسم: ein Kilo Äpfel. فعل brauchen يأخذ مفعول Akkusativ: Ich brauche einen Beutel.\n\nأمثلة ألمانية:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?\n\nالاستخدام في الحياة:\nالسوبرماركت أو متجر الملابس أو السوق: السؤال عن السعر والكمية والمقاس واللون والدفع عند الصندوق.\n\nخطأ شائع يجب تجنبه:\nلا تنقل تركيب «بكم هذا؟» حرفيًا. الصياغة الطبيعية Was kostet das? أو Wie viel kostet das? وبعد الكميات يأتي المنتج غالبًا بلا أداة.",
+        "en": "Lesson goal: Prices, quantities and brauchen/haben\n\nCore rule:\nPrices are given in euros and cents. Quantity expressions come before nouns: ein Kilo Äpfel. brauchen takes an accusative object: Ich brauche einen Beutel.\n\nGerman examples:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?\n\nReal-life use:\nSupermarket, clothing store or market: ask price and quantity, request size/color and pay at checkout.\n\nCommon pitfall:\nDo not translate “how much is this?” word-for-word. Natural German is Was kostet das? or Wie viel kostet das? Products after quantity expressions often have no article."
+      }
+    },
+    {
+      "id": "a1_u07_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u07_l01_w1",
+          "german": "kosten",
+          "translation": {
+            "de": "to cost",
+            "ar": "يكلّف",
+            "en": "to cost"
+          }
+        },
+        {
+          "id": "a1_u07_l01_w2",
+          "german": "billig",
+          "translation": {
+            "de": "cheap",
+            "ar": "رخيص",
+            "en": "cheap"
+          }
+        },
+        {
+          "id": "a1_u07_l01_w3",
+          "german": "teuer",
+          "translation": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u07_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Preise werden mit Euro und Cent angegeben: 2,49 € = zwei Euro neunundvierzig. Mengen stehen oft vor dem Nomen: ein Kilo Äpfel, eine Flasche Wasser. „brauchen“ nimmt ein Akkusativobjekt: Ich brauche einen Beutel.\n\nBeispiele:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?",
+        "ar": "قاعدة مختصرة: تُذكر الأسعار باليورو والسنت. تأتي الكمية غالبًا قبل الاسم: ein Kilo Äpfel. فعل brauchen يأخذ مفعول Akkusativ: Ich brauche einen Beutel.\n\nالأمثلة:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?",
+        "en": "Key rule: Prices are given in euros and cents. Quantity expressions come before nouns: ein Kilo Äpfel. brauchen takes an accusative object: Ich brauche einen Beutel.\n\nExamples:\n• Was kostet das?\n• Ich brauche ein Kilo Tomaten.\n• Kann ich mit Karte bezahlen?"
+      }
+    },
+    {
+      "id": "a1_u07_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "kosten",
+        "ar": "kosten",
+        "en": "kosten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "to cost",
+            "ar": "يكلّف",
+            "en": "to cost"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "cheap",
+            "ar": "رخيص",
+            "en": "cheap"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u07_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was {answer} das?",
+        "ar": "Was {answer} das?",
+        "en": "Was {answer} das?"
+      },
+      "acceptedAnswers": [
+        "kostet"
+      ]
+    },
+    {
+      "id": "a1_u07_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Aktive Aufgabe: Formuliere fünf eigene Sätze zum Thema „Einkaufen & Geld“. Nutze mindestens zwei neue Ausdrücke und lies die Sätze laut. Prüfe Verbposition, Artikel und Endungen.",
+        "ar": "مهمة إنتاجية: اكتب خمس جمل من عندك حول «التسوق والمال». استخدم تعبيرين جديدين على الأقل واقرأ الجمل بصوت مرتفع، ثم راجع موقع الفعل والأدوات والنهايات.",
+        "en": "Production task: Create five original sentences about “Shopping & money”. Use at least two new expressions, read them aloud, then check verb position, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u07_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U07_FOUNDATION"
+      ]
+    }
+  ]
+}

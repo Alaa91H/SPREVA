@@ -1,0 +1,154 @@
+{
+  "id": "a1_u06_l02",
+  "unitId": "de-core-a1-u06",
+  "title": {
+    "de": "Bestellen, Wünsche äußern und bezahlen",
+    "ar": "الطلب والتعبير عن الرغبات والدفع",
+    "en": "Ordering, expressing wishes and paying"
+  },
+  "canDo": [
+    "A1_U06_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u06_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Bestellen, Wünsche äußern und bezahlen",
+        "ar": "الطلب والتعبير عن الرغبات والدفع",
+        "en": "Ordering, expressing wishes and paying"
+      },
+      "body": {
+        "de": "Realsituation:\nCafé, Restaurant, Kantine oder Imbiss: Speisekarte verstehen, bestellen, nach Zutaten fragen und die Rechnung verlangen.\n\nModelldialog:\nA: Was möchten Sie?\nB: Ich nehme eine Suppe und einen Salat.\nA: Möchten Sie etwas trinken?\nB: Ja, ein Wasser, bitte. Und später die Rechnung.\n\nSprachfokus:\n„möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht das direkte Objekt im Akkusativ.\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nمقهى أو مطعم أو كانتين: فهم القائمة، الطلب، السؤال عن المكونات وطلب الحساب.\n\nحوار نموذجي:\nA: Was möchten Sie?\nB: Ich nehme eine Suppe und einen Salat.\nA: Möchten Sie etwas trinken?\nB: Ja, ein Wasser, bitte. Und später die Rechnung.\n\nالتركيز اللغوي:\nmöchten صيغة مهذبة للرغبة: Ich möchte einen Kaffee. وgern للتفضيل: Ich trinke gern Tee. بعد أفعال مثل möchten/nehmen/brauchen يأتي المفعول به في Akkusativ.\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nCafe, restaurant, canteen or snack bar: understand a menu, order, ask about ingredients and request the bill.\n\nModel dialogue:\nA: Was möchten Sie?\nB: Ich nehme eine Suppe und einen Salat.\nA: Möchten Sie etwas trinken?\nB: Ja, ein Wasser, bitte. Und später die Rechnung.\n\nLanguage focus:\nmöchten is a polite way to express wishes: Ich möchte einen Kaffee. gern expresses preferences: Ich trinke gern Tee. Direct objects after verbs such as möchten/nehmen/brauchen are accusative.\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u06_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u06_l02_w1",
+          "german": "der Kaffee",
+          "translation": {
+            "de": "coffee",
+            "ar": "القهوة",
+            "en": "coffee"
+          }
+        },
+        {
+          "id": "a1_u06_l02_w2",
+          "german": "vegetarisch",
+          "translation": {
+            "de": "vegetarian",
+            "ar": "نباتي",
+            "en": "vegetarian"
+          }
+        },
+        {
+          "id": "a1_u06_l02_w3",
+          "german": "die Rechnung",
+          "translation": {
+            "de": "bill",
+            "ar": "الحساب / الفاتورة",
+            "en": "bill"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u06_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: „möchten“ ist eine höfliche Form für Wünsche: Ich möchte einen Kaffee. „gern“ beschreibt Vorlieben: Ich trinke gern Tee. Nach vielen Verben wie möchten/nehmen/brauchen steht das direkte Objekt im Akkusativ.\n\nBeispiele:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte.",
+        "ar": "قاعدة مختصرة: möchten صيغة مهذبة للرغبة: Ich möchte einen Kaffee. وgern للتفضيل: Ich trinke gern Tee. بعد أفعال مثل möchten/nehmen/brauchen يأتي المفعول به في Akkusativ.\n\nالأمثلة:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte.",
+        "en": "Key rule: möchten is a polite way to express wishes: Ich möchte einen Kaffee. gern expresses preferences: Ich trinke gern Tee. Direct objects after verbs such as möchten/nehmen/brauchen are accusative.\n\nExamples:\n• Ich möchte einen Tee, bitte.\n• Ich esse gern Gemüse.\n• Die Rechnung, bitte."
+      }
+    },
+    {
+      "id": "a1_u06_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "der Kaffee",
+        "ar": "der Kaffee",
+        "en": "der Kaffee"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "coffee",
+            "ar": "القهوة",
+            "en": "coffee"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "vegetarian",
+            "ar": "نباتي",
+            "en": "vegetarian"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "bill",
+            "ar": "الحساب / الفاتورة",
+            "en": "bill"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u06_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer}, bitte.",
+        "ar": "Die {answer}, bitte.",
+        "en": "Die {answer}, bitte."
+      },
+      "acceptedAnswers": [
+        "Rechnung"
+      ]
+    },
+    {
+      "id": "a1_u06_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Bestellen, Wünsche äußern und bezahlen“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «الطلب والتعبير عن الرغبات والدفع». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Ordering, expressing wishes and paying”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u06_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U06_REAL_LIFE"
+      ]
+    }
+  ]
+}

@@ -1,24 +1,382 @@
 {
   "id": "de-core",
-  "title": { "de": "Deutsch Core", "ar": "الألمانية الأساسية", "en": "German Core" },
+  "title": {
+    "de": "SPREVA Deutschakademie",
+    "ar": "أكاديمية SPREVA للألمانية",
+    "en": "SPREVA German Academy"
+  },
   "levels": [
     {
       "id": "de-core-a1",
       "cefr": "A1",
-      "title": { "de": "A1 — Erste Schritte", "ar": "A1 — الخطوات الأولى", "en": "A1 — First steps" },
+      "title": {
+        "de": "A1 — Grundlagen im Alltag",
+        "ar": "A1 — أساسيات الحياة اليومية",
+        "en": "A1 — Everyday foundations"
+      },
       "units": [
         {
           "id": "de-core-a1-u01",
-          "title": { "de": "Begrüßung & Vorstellung", "ar": "التحية والتعارف", "en": "Greetings & introductions" },
+          "title": {
+            "de": "Begrüßung & Vorstellung",
+            "ar": "التحية والتعارف",
+            "en": "Greetings & introductions"
+          },
           "lessons": [
-            { "id": "a1_u01_l01" }
+            {
+              "id": "a1_u01_l01",
+              "title": {
+                "de": "Personalpronomen, sein und W-Fragen",
+                "ar": "الضمائر الشخصية وفعل sein وأسئلة W",
+                "en": "Personal pronouns, sein and W-questions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u01_l02",
+              "title": {
+                "de": "Sich sicher vorstellen",
+                "ar": "تقديم النفس بثقة",
+                "en": "Introducing yourself confidently"
+              },
+              "activityCount": 7
+            }
           ]
         },
         {
           "id": "de-core-a1-u02",
-          "title": { "de": "Zahlen & Uhrzeit", "ar": "الأرقام والوقت", "en": "Numbers & time" },
+          "title": {
+            "de": "Alphabet, Aussprache & persönliche Daten",
+            "ar": "الأبجدية والنطق والبيانات الشخصية",
+            "en": "Alphabet, pronunciation & personal data"
+          },
           "lessons": [
-            { "id": "a1_u02_l01" }
+            {
+              "id": "a1_u02_l01",
+              "title": {
+                "de": "Buchstabieren, kommen/wohnen und einfache Angaben",
+                "ar": "تهجئة الكلمات وتصريف kommen/wohnen والبيانات الأساسية",
+                "en": "Spelling, kommen/wohnen and basic personal details"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u02_l02",
+              "title": {
+                "de": "Namen, Adresse und E-Mail korrekt angeben",
+                "ar": "إعطاء الاسم والعنوان والبريد الإلكتروني بشكل صحيح",
+                "en": "Giving name, address and email correctly"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u03",
+          "title": {
+            "de": "Zahlen, Uhrzeit & Termine",
+            "ar": "الأرقام والوقت والمواعيد",
+            "en": "Numbers, time & appointments"
+          },
+          "lessons": [
+            {
+              "id": "a1_u03_l01",
+              "title": {
+                "de": "Zahlen, um/am und Zeitangaben",
+                "ar": "الأرقام واستخدام um/am وتعبيرات الزمن",
+                "en": "Numbers, um/am and time expressions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u03_l02",
+              "title": {
+                "de": "Einen Termin vereinbaren und verstehen",
+                "ar": "حجز موعد وفهمه",
+                "en": "Arranging and understanding an appointment"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u04",
+          "title": {
+            "de": "Familie & Beziehungen",
+            "ar": "العائلة والعلاقات",
+            "en": "Family & relationships"
+          },
+          "lessons": [
+            {
+              "id": "a1_u04_l01",
+              "title": {
+                "de": "Possessivartikel mein/dein/sein/ihr",
+                "ar": "أدوات الملكية mein/dein/sein/ihr",
+                "en": "Possessive determiners mein/dein/sein/ihr"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u04_l02",
+              "title": {
+                "de": "Über Familie und wichtige Personen sprechen",
+                "ar": "التحدث عن العائلة والأشخاص المهمين",
+                "en": "Talking about family and important people"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u05",
+          "title": {
+            "de": "Wohnen & Zuhause",
+            "ar": "السكن والمنزل",
+            "en": "Home & housing"
+          },
+          "lessons": [
+            {
+              "id": "a1_u05_l01",
+              "title": {
+                "de": "Artikel der/die/das und es gibt + Akkusativ",
+                "ar": "أدوات التعريف der/die/das و es gibt مع Akkusativ",
+                "en": "Articles der/die/das and es gibt + accusative"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u05_l02",
+              "title": {
+                "de": "Wohnung, Zimmer und Möbel beschreiben",
+                "ar": "وصف السكن والغرف والأثاث",
+                "en": "Describing a home, rooms and furniture"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u06",
+          "title": {
+            "de": "Essen, Trinken & Restaurant",
+            "ar": "الطعام والشراب والمطعم",
+            "en": "Food, drink & restaurants"
+          },
+          "lessons": [
+            {
+              "id": "a1_u06_l01",
+              "title": {
+                "de": "möchten, gern und Akkusativ beim Bestellen",
+                "ar": "möchten وgern وAkkusativ عند الطلب",
+                "en": "möchten, gern and the accusative when ordering"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u06_l02",
+              "title": {
+                "de": "Bestellen, Wünsche äußern und bezahlen",
+                "ar": "الطلب والتعبير عن الرغبات والدفع",
+                "en": "Ordering, expressing wishes and paying"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u07",
+          "title": {
+            "de": "Einkaufen & Geld",
+            "ar": "التسوق والمال",
+            "en": "Shopping & money"
+          },
+          "lessons": [
+            {
+              "id": "a1_u07_l01",
+              "title": {
+                "de": "Preise, Mengen und brauchen/haben",
+                "ar": "الأسعار والكميات واستخدام brauchen/haben",
+                "en": "Prices, quantities and brauchen/haben"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u07_l02",
+              "title": {
+                "de": "Im Supermarkt und Geschäft einkaufen",
+                "ar": "التسوق في السوبرماركت والمتجر",
+                "en": "Shopping in supermarkets and stores"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u08",
+          "title": {
+            "de": "Tagesablauf & trennbare Verben",
+            "ar": "الروتين اليومي والأفعال المنفصلة",
+            "en": "Daily routine & separable verbs"
+          },
+          "lessons": [
+            {
+              "id": "a1_u08_l01",
+              "title": {
+                "de": "Verbzweitstellung und trennbare Verben",
+                "ar": "الموقع الثاني للفعل والأفعال المنفصلة",
+                "en": "Verb-second word order and separable verbs"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u08_l02",
+              "title": {
+                "de": "Den eigenen Tagesablauf beschreiben",
+                "ar": "وصف الروتين اليومي",
+                "en": "Describing your daily routine"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u09",
+          "title": {
+            "de": "Stadt & Wegbeschreibung",
+            "ar": "المدينة ووصف الطريق",
+            "en": "City & directions"
+          },
+          "lessons": [
+            {
+              "id": "a1_u09_l01",
+              "title": {
+                "de": "Wo?/Wohin?, lokale Präpositionen und Imperativ Sie",
+                "ar": "Wo/Wohin وحروف المكان وصيغة الأمر الرسمية",
+                "en": "Wo?/Wohin?, local prepositions and formal imperative"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u09_l02",
+              "title": {
+                "de": "Nach dem Weg fragen und Anweisungen verstehen",
+                "ar": "السؤال عن الطريق وفهم التعليمات",
+                "en": "Asking for and understanding directions"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u10",
+          "title": {
+            "de": "Verkehr & Tickets",
+            "ar": "المواصلات والتذاكر",
+            "en": "Transport & tickets"
+          },
+          "lessons": [
+            {
+              "id": "a1_u10_l01",
+              "title": {
+                "de": "können/müssen und Satzklammer mit Modalverben",
+                "ar": "können/müssen وإطار الجملة مع الأفعال الناقصة",
+                "en": "können/müssen and the modal-verb sentence frame"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u10_l02",
+              "title": {
+                "de": "Mit Bus und Bahn fahren",
+                "ar": "استخدام الحافلة والقطار",
+                "en": "Using bus and rail transport"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u11",
+          "title": {
+            "de": "Gesundheit & Apotheke",
+            "ar": "الصحة والصيدلية",
+            "en": "Health & pharmacy"
+          },
+          "lessons": [
+            {
+              "id": "a1_u11_l01",
+              "title": {
+                "de": "haben, brauchen und „weh tun“",
+                "ar": "استخدام haben وbrauchen وweh tun",
+                "en": "haben, brauchen and weh tun"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u11_l02",
+              "title": {
+                "de": "Einfache Beschwerden beschreiben",
+                "ar": "وصف الأعراض البسيطة",
+                "en": "Describing simple health complaints"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u12",
+          "title": {
+            "de": "Arbeit, Lernen & Fähigkeiten",
+            "ar": "العمل والتعلم والقدرات",
+            "en": "Work, study & abilities"
+          },
+          "lessons": [
+            {
+              "id": "a1_u12_l01",
+              "title": {
+                "de": "Berufe, können und einfache Tätigkeitsbeschreibungen",
+                "ar": "المهن وkönnen ووصف المهام البسيطة",
+                "en": "Jobs, können and simple task descriptions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u12_l02",
+              "title": {
+                "de": "Über Arbeit, Kurs und Kompetenzen sprechen",
+                "ar": "التحدث عن العمل والدورة والمهارات",
+                "en": "Talking about work, courses and skills"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-a1-u13",
+          "title": {
+            "de": "Freizeit, Wetter & Einladungen",
+            "ar": "وقت الفراغ والطقس والدعوات",
+            "en": "Leisure, weather & invitations"
+          },
+          "lessons": [
+            {
+              "id": "a1_u13_l01",
+              "title": {
+                "de": "mögen/gern, möchten und einfache Einladungen",
+                "ar": "mögen/gern وmöchten وصياغة الدعوات البسيطة",
+                "en": "mögen/gern, möchten and simple invitations"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "a1_u13_l02",
+              "title": {
+                "de": "Pläne machen, einladen und reagieren",
+                "ar": "وضع خطط وتوجيه دعوة والرد عليها",
+                "en": "Making plans, inviting and responding"
+              },
+              "activityCount": 7
+            }
           ]
         }
       ]

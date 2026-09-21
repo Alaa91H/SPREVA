@@ -1,0 +1,155 @@
+{
+  "id": "a1_u10_l02",
+  "unitId": "de-core-a1-u10",
+  "title": {
+    "de": "Mit Bus und Bahn fahren",
+    "ar": "استخدام الحافلة والقطار",
+    "en": "Using bus and rail transport"
+  },
+  "canDo": [
+    "A1_U10_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "a1_u10_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mit Bus und Bahn fahren",
+        "ar": "استخدام الحافلة والقطار",
+        "en": "Using bus and rail transport"
+      },
+      "body": {
+        "de": "Realsituation:\nFahrkartenautomat, Bahnhof oder Haltestelle: Ticket kaufen, Verbindung fragen, umsteigen, Verspätung und Gleis verstehen.\n\nModelldialog:\nA: Fährt dieser Zug nach Köln?\nB: Ja, aber Sie müssen in Düsseldorf umsteigen.\nA: Von welchem Gleis?\nB: Von Gleis vier.\n\nSprachfokus:\nBei Modalverben steht das Modalverb konjugiert auf Position 2 und der Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.\n\nTransfer: Spiele den Dialog mit eigenen Daten nach und ändere mindestens drei Informationen.",
+        "ar": "الموقف الواقعي:\nآلة التذاكر أو المحطة: شراء تذكرة، السؤال عن الرحلة، التبديل، فهم التأخير ورقم الرصيف.\n\nحوار نموذجي:\nA: Fährt dieser Zug nach Köln?\nB: Ja, aber Sie müssen in Düsseldorf umsteigen.\nA: Von welchem Gleis?\nB: Von Gleis vier.\n\nالتركيز اللغوي:\nمع الأفعال الناقصة يأتي الفعل الناقص المصرف في الموقع الثاني والمصدر في نهاية الجملة: Ich muss umsteigen. Können Sie mir helfen?\n\nتطبيق: أعد الحوار ببياناتك وغيّر ثلاث معلومات على الأقل.",
+        "en": "Real-life situation:\nTicket machine, station or stop: buy a ticket, ask for a connection, change trains, understand delays and platforms.\n\nModel dialogue:\nA: Fährt dieser Zug nach Köln?\nB: Ja, aber Sie müssen in Düsseldorf umsteigen.\nA: Von welchem Gleis?\nB: Von Gleis vier.\n\nLanguage focus:\nWith modal verbs the conjugated modal is in position 2 and the full infinitive goes to the end: Ich muss umsteigen. Können Sie mir helfen?\n\nTransfer: Recreate the dialogue with your own details and change at least three pieces of information."
+      }
+    },
+    {
+      "id": "a1_u10_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u10_l02_w1",
+          "german": "die Haltestelle",
+          "translation": {
+            "de": "stop",
+            "ar": "الموقف",
+            "en": "stop"
+          }
+        },
+        {
+          "id": "a1_u10_l02_w2",
+          "german": "die Verspätung",
+          "translation": {
+            "de": "delay",
+            "ar": "التأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "a1_u10_l02_w3",
+          "german": "abfahren",
+          "translation": {
+            "de": "depart",
+            "ar": "ينطلق",
+            "en": "depart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u10_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Struktur & Beispiele",
+        "ar": "البنية والأمثلة",
+        "en": "Structure & examples"
+      },
+      "body": {
+        "de": "Merksatz: Bei Modalverben steht das Modalverb konjugiert auf Position 2 und der Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.\n\nBeispiele:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später.",
+        "ar": "قاعدة مختصرة: مع الأفعال الناقصة يأتي الفعل الناقص المصرف في الموقع الثاني والمصدر في نهاية الجملة: Ich muss umsteigen. Können Sie mir helfen?\n\nالأمثلة:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später.",
+        "en": "Key rule: With modal verbs the conjugated modal is in position 2 and the full infinitive goes to the end: Ich muss umsteigen. Können Sie mir helfen?\n\nExamples:\n• Ich muss in Essen umsteigen.\n• Kann ich hier ein Ticket kaufen?\n• Der Zug kommt zehn Minuten später."
+      }
+    },
+    {
+      "id": "a1_u10_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt?",
+        "ar": "ما المعنى الصحيح؟",
+        "en": "Which meaning fits?"
+      },
+      "question": {
+        "de": "die Haltestelle",
+        "ar": "die Haltestelle",
+        "en": "die Haltestelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "stop",
+            "ar": "الموقف",
+            "en": "stop"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "delay",
+            "ar": "التأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "depart",
+            "ar": "ينطلق",
+            "en": "depart"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u10_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Zug {answer} um 9:20 Uhr ab.",
+        "ar": "Der Zug {answer} um 9:20 Uhr ab.",
+        "en": "Der Zug {answer} um 9:20 Uhr ab."
+      },
+      "acceptedAnswers": [
+        "fährt",
+        "faehrt"
+      ]
+    },
+    {
+      "id": "a1_u10_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Aktiv anwenden",
+        "ar": "طبّق بنفسك",
+        "en": "Apply actively"
+      },
+      "body": {
+        "de": "Praxisauftrag: Simuliere die Situation „Mit Bus und Bahn fahren“. Übernimm zuerst Rolle A, dann Rolle B. Formuliere zusätzlich eine Rückfrage und eine höfliche Reaktion.",
+        "ar": "مهمة عملية: مثّل موقف «استخدام الحافلة والقطار». ابدأ بالدور A ثم B، وأضف سؤال متابعة وردًا مهذبًا.",
+        "en": "Practical task: Role-play “Using bus and rail transport”. First take role A, then role B. Add one follow-up question and one polite response."
+      }
+    },
+    {
+      "id": "a1_u10_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Kompetenz erreicht",
+        "ar": "اكتسبت المهارة",
+        "en": "Skill achieved"
+      },
+      "canDo": [
+        "A1_U10_REAL_LIFE"
+      ]
+    }
+  ]
+}
