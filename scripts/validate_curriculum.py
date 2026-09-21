@@ -13,7 +13,7 @@ COURSE_FILE = CONTENT / "courses" / "de-core" / "course.json"
 LESSONS_DIR = CONTENT / "courses" / "de-core" / "lessons"
 MANIFEST_FILE = CONTENT / "manifest.json"
 EXPECTED_LEVELS = ["A1", "A2", "B1", "B2", "C1"]
-EXPECTED_UNIT_COUNTS = {"A1": 15, "A2": 15, "B1": 15, "B2": 16, "C1": 17}
+EXPECTED_UNIT_COUNTS = {"A1": 16, "A2": 16, "B1": 16, "B2": 17, "C1": 18}
 REQUIRED_LANGS = ("de", "ar", "en")
 
 

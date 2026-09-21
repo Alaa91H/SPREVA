@@ -21,8 +21,8 @@ with first-class Arabic support. This repository contains a production-grade,
 - Phase 4 stabilization — onboarding/goal persistence, safe lesson completion,
   instruction-language policy, permission flow, recorder safety, media-registry
   integrity validation in CI: **complete**
-- Academic German curriculum A1 → C1: **complete** — 78 units, 312 lessons,
-  3,547 activities, German/Arabic/English instructional content, and curriculum integrity validation
+- Academic German curriculum A1 → C1: **complete** — 83 units, 332 lessons,
+  3,817 activities, German/Arabic/English instructional content, and curriculum integrity validation
   (see [docs/CURRICULUM_A1_C1.md](docs/CURRICULUM_A1_C1.md))
 - Next: calibrated assessment, FSRS scheduler, Can-Do evidence model, mistake intelligence (see docs/plan)
 
@@ -58,7 +58,7 @@ live from Settings.
 - **Navigation 3** — type-safe keys, app-owned entry provider (ADR-0003)
 - **Convention plugins** — one-line module setup (ADR-0004)
 - **Demo scheduler → FSRS-ready** — versioned scheduler state (ADR-0005)
-- **Content-as-data** — bundled JSON course; complete A1–C1 academic path (312 lessons / 3,547 activities), parser + curriculum/media integrity gates; downloadable packages later
+- **Content-as-data** — bundled JSON course; complete A1–C1 academic path (332 lessons / 3,817 activities), parser + curriculum/media integrity gates; downloadable packages later
 
 Module map, dependency graph, DB schema and next steps:
 [phase3-final-report.md](phase3-final-report.md).

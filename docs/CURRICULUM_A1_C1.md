@@ -1,6 +1,6 @@
 # SPREVA Academic German Curriculum — A1 to C1
 
-> Content version: `2026.09.academic.5`
+> Content version: `2026.09.academic.6`
 
 SPREVA's bundled German course is organized as an offline-first CEFR-oriented learning path from A1 through C1. The curriculum is designed around practical **Can-Do outcomes**, explicit language-system explanations, contextual vocabulary, controlled practice, production tasks, self-correction, and progressively more complex real-life, professional, academic, and civic communication.
 
@@ -9,9 +9,9 @@ SPREVA's bundled German course is organized as an offline-first CEFR-oriented le
 | Metric | Total |
 |---|---:|
 | CEFR levels | 5 |
-| Units | 78 |
-| Lessons | 312 |
-| Learning activities | 3,547 |
+| Units | 83 |
+| Lessons | 332 |
+| Learning activities | 3,817 |
 | Instruction languages | German + Arabic + English |
 
 Every lesson is a real JSON content object consumed by the app, not a placeholder title. Every unit now follows a four-layer progression:
@@ -46,6 +46,18 @@ Each lesson follows a consistent instructional contract:
 
 The activity schema deliberately stays compatible with the existing renderer. New pedagogical depth is carried through supported activity types instead of shipping JSON that the app cannot render.
 
+## Pronunciation & prosody labs
+
+Every CEFR level now contains a dedicated pronunciation progression. The emphasis changes with proficiency:
+
+- **A1:** umlauts, ich-/ach-Laut, sch/ch, vowel length, basic word stress and simple intonation;
+- **A2:** separable-prefix stress, schwa, endings, question intonation and sentence stress;
+- **B1:** connected speech, compound stress, contrastive stress, thought groups and natural pauses;
+- **B2:** pragmatic prosody, modal particles, focus, parentheticals and professional presentation rhythm;
+- **C1:** rhetorical pauses, source voice, epistemic distance, facilitation tone and academic/professional pacing.
+
+Shadowing supports **0.75× / 1.0× / 1.15×** playback. Where licensed native audio exists it is used; otherwise the same activity falls back to the local German TTS engine. Learner recordings remain local and temporary. Automatic waveform similarity is shown only when a real model audio file exists and is explicitly framed as a rhythm/energy cue, not a pronunciation grade.
+
 ## Exam & skills labs
 
 Each CEFR level now ends with an original SPREVA **Exam & Skills Lab** covering **Lesen, Hören, Schreiben and Sprechen**. These are original practice tasks, not official Goethe-Institut or telc materials and not an affiliation claim.
@@ -71,7 +83,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 
 ### A1 — A1 — Everyday foundations
 
-**15 units · 60 lessons · 687 activities**
+**16 units · 64 lessons · 741 activities**
 
 1. **Begrüßung & Vorstellung** — التحية والتعارف
 2. **Alphabet, Aussprache & persönliche Daten** — الأبجدية والنطق والبيانات الشخصية
@@ -88,10 +100,11 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 13. **Freizeit, Wetter & Einladungen** — وقت الفراغ والطقس والدعوات
 14. **A1 Integration — ein kompletter Alltagstag** — تكامل A1 — يوم كامل في الحياة اليومية
 15. **A1 Prüfungs- & Kompetenzlabor** — مختبر امتحان ومهارات A1
+16. **A1 Aussprache & Hörgenauigkeit** — النطق ودقة الاستماع A1
 
 ### A2 — A2 — More independent everyday communication
 
-**15 units · 60 lessons · 682 activities**
+**16 units · 64 lessons · 736 activities**
 
 1. **Vergangenheit mit Perfekt** — الماضي بصيغة Perfekt
 2. **Präteritum im Alltag** — Präteritum في الحياة اليومية
@@ -108,10 +121,11 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 13. **Reisen, Service & Beschwerden** — السفر والخدمات والشكاوى
 14. **A2 Integration — selbstständig durch Alltag & Arbeit** — تكامل A2 — الاستقلال في الحياة والعمل
 15. **A2 Prüfungs- & Kompetenzlabor** — مختبر امتحان ومهارات A2
+16. **A2 Aussprache, Rhythmus & Satzmelodie** — النطق والإيقاع ولحن الجملة A2
 
 ### B1 — B1 — Independent action & argumentation
 
-**15 units · 60 lessons · 682 activities**
+**16 units · 64 lessons · 736 activities**
 
 1. **Erzählen & zeitliche Zusammenhänge** — السرد والعلاقات الزمنية
 2. **Passiv in Alltag & Arbeit** — المبني للمجهول في الحياة والعمل
@@ -128,10 +142,11 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 13. **Umwelt, Gesellschaft & Präsentation** — البيئة والمجتمع والعرض
 14. **B1 Integration — selbstständig handeln, erklären, verhandeln** — تكامل B1 — التصرف والشرح والتفاوض باستقلال
 15. **B1 Prüfungs- & Kompetenzlabor** — مختبر امتحان ومهارات B1
+16. **B1 Sprechfluss, Akzent & Connected Speech** — طلاقة الكلام والنبر والربط B1
 
 ### B2 — B2 — Precision, professional language & complex topics
 
-**16 units · 64 lessons · 726 activities**
+**17 units · 68 lessons · 780 activities**
 
 1. **Komplexe Konnektoren & Argumentlogik** — الروابط المعقدة ومنطق الحجة
 2. **Passiversatz & Handlungsfokus** — بدائل المبني للمجهول وتركيز الفعل
@@ -149,10 +164,11 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 14. **Umwelt, Klima & Stadtentwicklung** — البيئة والمناخ وتطوير المدن
 15. **B2 Integration — analysieren, entscheiden & professionell kommunizieren** — تكامل B2 — التحليل واتخاذ القرار والتواصل المهني
 16. **B2 Prüfungs- & Kompetenzlabor** — مختبر امتحان ومهارات B2
+17. **B2 Prosodie, Fokus & pragmatische Wirkung** — النبر الخطابي والبؤرة والأثر التداولي B2
 
 ### C1 — C1 — Academic, professional & stylistic mastery
 
-**17 units · 68 lessons · 770 activities**
+**18 units · 72 lessons · 824 activities**
 
 1. **Informationsstruktur, Fokus & Satzrhythmus** — بنية المعلومات والتركيز وإيقاع الجملة
 2. **Komplexe Subordination & Bedeutungsnuancen** — الجمل التابعة المعقدة والفروق الدلالية
@@ -171,6 +187,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 15. **Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur** — التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي
 16. **C1 Integration — Synthese, Führung, Forschung & Revision** — تكامل C1 — التركيب والقيادة والبحث والمراجعة
 17. **C1 Prüfungs- & Kompetenzlabor** — مختبر امتحان ومهارات C1
+18. **C1 Rhetorische Prosodie & professionelle Sprechkontrolle** — الإيقاع البلاغي والتحكم المهني في الكلام C1
 
 ## Content integrity
 
