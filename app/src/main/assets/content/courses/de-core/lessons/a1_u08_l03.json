@@ -1,0 +1,296 @@
+{
+  "id": "a1_u08_l03",
+  "unitId": "de-core-a1-u08",
+  "title": {
+    "de": "Intensivtraining: Tagesablauf & trennbare Verben",
+    "ar": "تدريب مكثف: الروتين اليومي والأفعال المنفصلة",
+    "en": "Mastery lab: Daily routine & separable verbs"
+  },
+  "canDo": [
+    "A1_U08_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u08_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Tagesablauf & trennbare Verben“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «الروتين اليومي والأفعال المنفصلة». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.",
+        "en": "Intensive practice for “Daily routine & separable verbs”. After every answer, state the rule, create a second example and explain one typical error."
+      }
+    },
+    {
+      "id": "a1_u08_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u08_l03_w1",
+          "german": "aufstehen",
+          "translation": {
+            "de": "get up",
+            "ar": "يستيقظ / ينهض",
+            "en": "get up"
+          }
+        },
+        {
+          "id": "a1_u08_l03_w2",
+          "german": "frühstücken",
+          "translation": {
+            "de": "have breakfast",
+            "ar": "يتناول الفطور",
+            "en": "have breakfast"
+          }
+        },
+        {
+          "id": "a1_u08_l03_w3",
+          "german": "anfangen",
+          "translation": {
+            "de": "begin",
+            "ar": "يبدأ",
+            "en": "begin"
+          }
+        },
+        {
+          "id": "a1_u08_l03_w4",
+          "german": "einkaufen",
+          "translation": {
+            "de": "shop",
+            "ar": "يتسوق",
+            "en": "shop"
+          }
+        },
+        {
+          "id": "a1_u08_l03_w5",
+          "german": "fernsehen",
+          "translation": {
+            "de": "watch TV",
+            "ar": "يشاهد التلفاز",
+            "en": "watch TV"
+          }
+        },
+        {
+          "id": "a1_u08_l03_w6",
+          "german": "schlafen",
+          "translation": {
+            "de": "sleep",
+            "ar": "ينام",
+            "en": "sleep"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u08_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich stehe um sieben Uhr {answer}.",
+        "ar": "Ich stehe um sieben Uhr {answer}.",
+        "en": "Ich stehe um sieben Uhr {answer}."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "a1_u08_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Um acht Uhr {answer} ich mit der Arbeit an.",
+        "ar": "Um acht Uhr {answer} ich mit der Arbeit an.",
+        "en": "Um acht Uhr {answer} ich mit der Arbeit an."
+      },
+      "acceptedAnswers": [
+        "fange"
+      ]
+    },
+    {
+      "id": "a1_u08_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt {answer} Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.",
+        "ar": "Bei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt {answer} Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.",
+        "en": "Bei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt {answer} Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u08_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Danach frühstücke {answer}.",
+        "ar": "Danach frühstücke {answer}.",
+        "en": "Danach frühstücke {answer}."
+      },
+      "acceptedAnswers": [
+        "ich"
+      ]
+    },
+    {
+      "id": "a1_u08_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Abend sehe ich fern.",
+        "ar": "{answer} Abend sehe ich fern.",
+        "en": "{answer} Abend sehe ich fern."
+      },
+      "acceptedAnswers": [
+        "Am"
+      ]
+    },
+    {
+      "id": "a1_u08_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Alltag, Arbeit oder Kurs: Aufstehen, Frühstück, Arbeitsweg, Pausen {answer} Feierabend zeitlich ordnen und erzählen.",
+        "ar": "Alltag, Arbeit oder Kurs: Aufstehen, Frühstück, Arbeitsweg, Pausen {answer} Feierabend zeitlich ordnen und erzählen.",
+        "en": "Alltag, Arbeit oder Kurs: Aufstehen, Frühstück, Arbeitsweg, Pausen {answer} Feierabend zeitlich ordnen und erzählen."
+      },
+      "acceptedAnswers": [
+        "und"
+      ]
+    },
+    {
+      "id": "a1_u08_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "aufstehen",
+        "ar": "aufstehen",
+        "en": "aufstehen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "get up",
+            "ar": "يستيقظ / ينهض",
+            "en": "get up"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "have breakfast",
+            "ar": "يتناول الفطور",
+            "en": "have breakfast"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "begin",
+            "ar": "يبدأ",
+            "en": "begin"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u08_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "einkaufen",
+        "ar": "einkaufen",
+        "en": "einkaufen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "shop",
+            "ar": "يتسوق",
+            "en": "shop"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "watch TV",
+            "ar": "يشاهد التلفاز",
+            "en": "watch TV"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sleep",
+            "ar": "ينام",
+            "en": "sleep"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u08_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Bei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt der Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.\n2. Ich stehe um sieben Uhr auf.\n3. Danach frühstücke ich.\n4. Am Abend sehe ich fern.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. Bei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt der Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.\n2. Ich stehe um sieben Uhr auf.\n3. Danach frühstücke ich.\n4. Am Abend sehe ich fern.\n\nحدّد الصيغة الحاسمة وأنشئ خطأً شائعًا ثم صححه.",
+        "en": "Correct patterns:\n1. Bei trennbaren Verben steht das Präfix im Hauptsatz am Ende: Ich stehe um 7 Uhr auf. Beginnt der Satz mit einer Zeitangabe, bleibt das konjugierte Verb auf Position 2: Um 7 Uhr stehe ich auf.\n2. Ich stehe um sieben Uhr auf.\n3. Danach frühstücke ich.\n4. Am Abend sehe ich fern.\n\nMark the decisive form, create a typical wrong version, explain and correct it."
+      }
+    },
+    {
+      "id": "a1_u08_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Check word order, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u08_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel erklären. D im Dialog anwenden. E mit älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: الفراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في حوار. E امزجها مع القديم.",
+        "en": "A now: blanks orally. B later: six new sentences. C explain the rule. D use it in a dialogue. E interleave with older topics."
+      }
+    },
+    {
+      "id": "a1_u08_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U08_MASTERY"
+      ]
+    }
+  ]
+}

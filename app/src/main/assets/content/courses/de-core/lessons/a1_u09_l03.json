@@ -1,0 +1,297 @@
+{
+  "id": "a1_u09_l03",
+  "unitId": "de-core-a1-u09",
+  "title": {
+    "de": "Intensivtraining: Stadt & Wegbeschreibung",
+    "ar": "تدريب مكثف: المدينة ووصف الطريق",
+    "en": "Mastery lab: City & directions"
+  },
+  "canDo": [
+    "A1_U09_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u09_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Stadt & Wegbeschreibung“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «المدينة ووصف الطريق». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.",
+        "en": "Intensive practice for “City & directions”. After every answer, state the rule, create a second example and explain one typical error."
+      }
+    },
+    {
+      "id": "a1_u09_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u09_l03_w1",
+          "german": "geradeaus",
+          "translation": {
+            "de": "straight ahead",
+            "ar": "إلى الأمام مباشرة",
+            "en": "straight ahead"
+          }
+        },
+        {
+          "id": "a1_u09_l03_w2",
+          "german": "links",
+          "translation": {
+            "de": "left",
+            "ar": "يسار",
+            "en": "left"
+          }
+        },
+        {
+          "id": "a1_u09_l03_w3",
+          "german": "rechts",
+          "translation": {
+            "de": "right",
+            "ar": "يمين",
+            "en": "right"
+          }
+        },
+        {
+          "id": "a1_u09_l03_w4",
+          "german": "die Kreuzung",
+          "translation": {
+            "de": "intersection",
+            "ar": "التقاطع",
+            "en": "intersection"
+          }
+        },
+        {
+          "id": "a1_u09_l03_w5",
+          "german": "die Ampel",
+          "translation": {
+            "de": "traffic light",
+            "ar": "إشارة المرور",
+            "en": "traffic light"
+          }
+        },
+        {
+          "id": "a1_u09_l03_w6",
+          "german": "neben",
+          "translation": {
+            "de": "next to",
+            "ar": "بجانب",
+            "en": "next to"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u09_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gehen Sie bitte {answer}.",
+        "ar": "Gehen Sie bitte {answer}.",
+        "en": "Gehen Sie bitte {answer}."
+      },
+      "acceptedAnswers": [
+        "geradeaus"
+      ]
+    },
+    {
+      "id": "a1_u09_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "An der Ampel gehen Sie {answer}.",
+        "ar": "An der Ampel gehen Sie {answer}.",
+        "en": "An der Ampel gehen Sie {answer}."
+      },
+      "acceptedAnswers": [
+        "rechts",
+        "links"
+      ]
+    },
+    {
+      "id": "a1_u09_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "„Wo?“ fragt nach einem Ort, „Wohin?“ nach einer Richtung. Häufige Muster: am Bahnhof, in {answer} Stadt, zum Arzt, zur Post. Der höfliche Imperativ mit Sie: Gehen Sie geradeaus. Nehmen Sie die zweite Straße links.",
+        "ar": "„Wo?“ fragt nach einem Ort, „Wohin?“ nach einer Richtung. Häufige Muster: am Bahnhof, in {answer} Stadt, zum Arzt, zur Post. Der höfliche Imperativ mit Sie: Gehen Sie geradeaus. Nehmen Sie die zweite Straße links.",
+        "en": "„Wo?“ fragt nach einem Ort, „Wohin?“ nach einer Richtung. Häufige Muster: am Bahnhof, in {answer} Stadt, zum Arzt, zur Post. Der höfliche Imperativ mit Sie: Gehen Sie geradeaus. Nehmen Sie die zweite Straße links."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u09_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wo ist {answer} Bahnhof?",
+        "ar": "Wo ist {answer} Bahnhof?",
+        "en": "Wo ist {answer} Bahnhof?"
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u09_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Gehen {answer} geradeaus und dann links.",
+        "ar": "Gehen {answer} geradeaus und dann links.",
+        "en": "Gehen {answer} geradeaus und dann links."
+      },
+      "acceptedAnswers": [
+        "Sie"
+      ]
+    },
+    {
+      "id": "a1_u09_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich fahre {answer} Arbeit.",
+        "ar": "Ich fahre {answer} Arbeit.",
+        "en": "Ich fahre {answer} Arbeit."
+      },
+      "acceptedAnswers": [
+        "zur"
+      ]
+    },
+    {
+      "id": "a1_u09_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "geradeaus",
+        "ar": "geradeaus",
+        "en": "geradeaus"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "straight ahead",
+            "ar": "إلى الأمام مباشرة",
+            "en": "straight ahead"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "left",
+            "ar": "يسار",
+            "en": "left"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "right",
+            "ar": "يمين",
+            "en": "right"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u09_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Kreuzung",
+        "ar": "die Kreuzung",
+        "en": "die Kreuzung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "intersection",
+            "ar": "التقاطع",
+            "en": "intersection"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "traffic light",
+            "ar": "إشارة المرور",
+            "en": "traffic light"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "next to",
+            "ar": "بجانب",
+            "en": "next to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u09_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. „Wo?“ fragt nach einem Ort, „Wohin?“ nach einer Richtung. Häufige Muster: am Bahnhof, in der Stadt, zum Arzt, zur Post. Der höfliche Imperativ mit Sie: Gehen Sie geradeaus. Nehmen Sie die zweite Straße links.\n2. Wo ist der Bahnhof?\n3. Gehen Sie geradeaus und dann links.\n4. Ich fahre zur Arbeit.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. „Wo?“ fragt nach einem Ort, „Wohin?“ nach einer Richtung. Häufige Muster: am Bahnhof, in der Stadt, zum Arzt, zur Post. Der höfliche Imperativ mit Sie: Gehen Sie geradeaus. Nehmen Sie die zweite Straße links.\n2. Wo ist der Bahnhof?\n3. Gehen Sie geradeaus und dann links.\n4. Ich fahre zur Arbeit.\n\nحدّد الصيغة الحاسمة وأنشئ خطأً شائعًا ثم صححه.",
+        "en": "Correct patterns:\n1. „Wo?“ fragt nach einem Ort, „Wohin?“ nach einer Richtung. Häufige Muster: am Bahnhof, in der Stadt, zum Arzt, zur Post. Der höfliche Imperativ mit Sie: Gehen Sie geradeaus. Nehmen Sie die zweite Straße links.\n2. Wo ist der Bahnhof?\n3. Gehen Sie geradeaus und dann links.\n4. Ich fahre zur Arbeit.\n\nMark the decisive form, create a typical wrong version, explain and correct it."
+      }
+    },
+    {
+      "id": "a1_u09_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Check word order, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u09_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel erklären. D im Dialog anwenden. E mit älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: الفراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في حوار. E امزجها مع القديم.",
+        "en": "A now: blanks orally. B later: six new sentences. C explain the rule. D use it in a dialogue. E interleave with older topics."
+      }
+    },
+    {
+      "id": "a1_u09_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U09_MASTERY"
+      ]
+    }
+  ]
+}

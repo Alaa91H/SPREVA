@@ -225,6 +225,15 @@
                 "en": "Ordering, expressing wishes and paying"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u06_l03",
+              "title": {
+                "de": "Intensivtraining: Essen, Trinken & Restaurant",
+                "ar": "تدريب مكثف: الطعام والشراب والمطعم",
+                "en": "Mastery lab: Food, drink & restaurants"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -253,6 +262,15 @@
                 "en": "Shopping in supermarkets and stores"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u07_l03",
+              "title": {
+                "de": "Intensivtraining: Einkaufen & Geld",
+                "ar": "تدريب مكثف: التسوق والمال",
+                "en": "Mastery lab: Shopping & money"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -281,6 +299,15 @@
                 "en": "Describing your daily routine"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u08_l03",
+              "title": {
+                "de": "Intensivtraining: Tagesablauf & trennbare Verben",
+                "ar": "تدريب مكثف: الروتين اليومي والأفعال المنفصلة",
+                "en": "Mastery lab: Daily routine & separable verbs"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -309,6 +336,15 @@
                 "en": "Asking for and understanding directions"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u09_l03",
+              "title": {
+                "de": "Intensivtraining: Stadt & Wegbeschreibung",
+                "ar": "تدريب مكثف: المدينة ووصف الطريق",
+                "en": "Mastery lab: City & directions"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -337,6 +373,15 @@
                 "en": "Using bus and rail transport"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u10_l03",
+              "title": {
+                "de": "Intensivtraining: Verkehr & Tickets",
+                "ar": "تدريب مكثف: المواصلات والتذاكر",
+                "en": "Mastery lab: Transport & tickets"
+              },
+              "activityCount": 14
             }
           ]
         },

@@ -1,0 +1,297 @@
+{
+  "id": "a1_u10_l03",
+  "unitId": "de-core-a1-u10",
+  "title": {
+    "de": "Intensivtraining: Verkehr & Tickets",
+    "ar": "تدريب مكثف: المواصلات والتذاكر",
+    "en": "Mastery lab: Transport & tickets"
+  },
+  "canDo": [
+    "A1_U10_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u10_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Verkehr & Tickets“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «المواصلات والتذاكر». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.",
+        "en": "Intensive practice for “Transport & tickets”. After every answer, state the rule, create a second example and explain one typical error."
+      }
+    },
+    {
+      "id": "a1_u10_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u10_l03_w1",
+          "german": "die Fahrkarte",
+          "translation": {
+            "de": "ticket",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "a1_u10_l03_w2",
+          "german": "umsteigen",
+          "translation": {
+            "de": "change trains",
+            "ar": "يبدّل وسيلة النقل",
+            "en": "change trains"
+          }
+        },
+        {
+          "id": "a1_u10_l03_w3",
+          "german": "das Gleis",
+          "translation": {
+            "de": "platform/track",
+            "ar": "رصيف القطار",
+            "en": "platform/track"
+          }
+        },
+        {
+          "id": "a1_u10_l03_w4",
+          "german": "die Haltestelle",
+          "translation": {
+            "de": "stop",
+            "ar": "الموقف",
+            "en": "stop"
+          }
+        },
+        {
+          "id": "a1_u10_l03_w5",
+          "german": "die Verspätung",
+          "translation": {
+            "de": "delay",
+            "ar": "التأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "a1_u10_l03_w6",
+          "german": "abfahren",
+          "translation": {
+            "de": "depart",
+            "ar": "ينطلق",
+            "en": "depart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u10_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich muss in Düsseldorf {answer}.",
+        "ar": "Ich muss in Düsseldorf {answer}.",
+        "en": "Ich muss in Düsseldorf {answer}."
+      },
+      "acceptedAnswers": [
+        "umsteigen"
+      ]
+    },
+    {
+      "id": "a1_u10_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Zug {answer} um 9:20 Uhr ab.",
+        "ar": "Der Zug {answer} um 9:20 Uhr ab.",
+        "en": "Der Zug {answer} um 9:20 Uhr ab."
+      },
+      "acceptedAnswers": [
+        "fährt",
+        "faehrt"
+      ]
+    },
+    {
+      "id": "a1_u10_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bei Modalverben steht das Modalverb konjugiert auf Position 2 und {answer} Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.",
+        "ar": "Bei Modalverben steht das Modalverb konjugiert auf Position 2 und {answer} Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.",
+        "en": "Bei Modalverben steht das Modalverb konjugiert auf Position 2 und {answer} Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u10_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich muss {answer} Essen umsteigen.",
+        "ar": "Ich muss {answer} Essen umsteigen.",
+        "en": "Ich muss {answer} Essen umsteigen."
+      },
+      "acceptedAnswers": [
+        "in"
+      ]
+    },
+    {
+      "id": "a1_u10_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kann ich hier {answer} Ticket kaufen?",
+        "ar": "Kann ich hier {answer} Ticket kaufen?",
+        "en": "Kann ich hier {answer} Ticket kaufen?"
+      },
+      "acceptedAnswers": [
+        "ein"
+      ]
+    },
+    {
+      "id": "a1_u10_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Zug kommt zehn Minuten später.",
+        "ar": "{answer} Zug kommt zehn Minuten später.",
+        "en": "{answer} Zug kommt zehn Minuten später."
+      },
+      "acceptedAnswers": [
+        "Der"
+      ]
+    },
+    {
+      "id": "a1_u10_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Fahrkarte",
+        "ar": "die Fahrkarte",
+        "en": "die Fahrkarte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ticket",
+            "ar": "التذكرة",
+            "en": "ticket"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "change trains",
+            "ar": "يبدّل وسيلة النقل",
+            "en": "change trains"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "platform/track",
+            "ar": "رصيف القطار",
+            "en": "platform/track"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u10_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Haltestelle",
+        "ar": "die Haltestelle",
+        "en": "die Haltestelle"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "stop",
+            "ar": "الموقف",
+            "en": "stop"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "delay",
+            "ar": "التأخير",
+            "en": "delay"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "depart",
+            "ar": "ينطلق",
+            "en": "depart"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u10_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Bei Modalverben steht das Modalverb konjugiert auf Position 2 und der Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.\n2. Ich muss in Essen umsteigen.\n3. Kann ich hier ein Ticket kaufen?\n4. Der Zug kommt zehn Minuten später.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. Bei Modalverben steht das Modalverb konjugiert auf Position 2 und der Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.\n2. Ich muss in Essen umsteigen.\n3. Kann ich hier ein Ticket kaufen?\n4. Der Zug kommt zehn Minuten später.\n\nحدّد الصيغة الحاسمة وأنشئ خطأً شائعًا ثم صححه.",
+        "en": "Correct patterns:\n1. Bei Modalverben steht das Modalverb konjugiert auf Position 2 und der Vollverb-Infinitiv am Satzende: Ich muss umsteigen. Können Sie mir helfen? Negation und Zeitangaben stehen im Mittelfeld.\n2. Ich muss in Essen umsteigen.\n3. Kann ich hier ein Ticket kaufen?\n4. Der Zug kommt zehn Minuten später.\n\nMark the decisive form, create a typical wrong version, explain and correct it."
+      }
+    },
+    {
+      "id": "a1_u10_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Check word order, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u10_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel erklären. D im Dialog anwenden. E mit älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: الفراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في حوار. E امزجها مع القديم.",
+        "en": "A now: blanks orally. B later: six new sentences. C explain the rule. D use it in a dialogue. E interleave with older topics."
+      }
+    },
+    {
+      "id": "a1_u10_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U10_MASTERY"
+      ]
+    }
+  ]
+}

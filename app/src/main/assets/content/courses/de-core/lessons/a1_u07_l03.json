@@ -1,0 +1,296 @@
+{
+  "id": "a1_u07_l03",
+  "unitId": "de-core-a1-u07",
+  "title": {
+    "de": "Intensivtraining: Einkaufen & Geld",
+    "ar": "تدريب مكثف: التسوق والمال",
+    "en": "Mastery lab: Shopping & money"
+  },
+  "canDo": [
+    "A1_U07_MASTERY"
+  ],
+  "activities": [
+    {
+      "id": "a1_u07_l03_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Mastery Lab — aktive Wiederholung",
+        "ar": "مختبر الإتقان — مراجعة نشطة",
+        "en": "Mastery Lab — active retrieval"
+      },
+      "body": {
+        "de": "Intensivtraining zu „Einkaufen & Geld“. Nach jeder Antwort: Regel nennen, zweite eigene Variante bilden und einen typischen Fehler erklären.\n\nZyklus: erinnern → erkennen → ergänzen → verändern → frei produzieren → korrigieren → später erneut abrufen.",
+        "ar": "تدريب مكثف على «التسوق والمال». بعد كل إجابة: اذكر القاعدة، أنشئ مثالًا ثانيًا، واشرح خطأً شائعًا.",
+        "en": "Intensive practice for “Shopping & money”. After every answer, state the rule, create a second example and explain one typical error."
+      }
+    },
+    {
+      "id": "a1_u07_l03_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a1_u07_l03_w1",
+          "german": "kosten",
+          "translation": {
+            "de": "to cost",
+            "ar": "يكلّف",
+            "en": "to cost"
+          }
+        },
+        {
+          "id": "a1_u07_l03_w2",
+          "german": "billig",
+          "translation": {
+            "de": "cheap",
+            "ar": "رخيص",
+            "en": "cheap"
+          }
+        },
+        {
+          "id": "a1_u07_l03_w3",
+          "german": "teuer",
+          "translation": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        },
+        {
+          "id": "a1_u07_l03_w4",
+          "german": "die Kasse",
+          "translation": {
+            "de": "checkout",
+            "ar": "صندوق الدفع",
+            "en": "checkout"
+          }
+        },
+        {
+          "id": "a1_u07_l03_w5",
+          "german": "bar bezahlen",
+          "translation": {
+            "de": "pay cash",
+            "ar": "يدفع نقدًا",
+            "en": "pay cash"
+          }
+        },
+        {
+          "id": "a1_u07_l03_w6",
+          "german": "mit Karte bezahlen",
+          "translation": {
+            "de": "pay by card",
+            "ar": "يدفع بالبطاقة",
+            "en": "pay by card"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1_u07_l03_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was {answer} das?",
+        "ar": "Was {answer} das?",
+        "en": "Was {answer} das?"
+      },
+      "acceptedAnswers": [
+        "kostet"
+      ]
+    },
+    {
+      "id": "a1_u07_l03_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Kann ich {answer} Karte bezahlen?",
+        "ar": "Kann ich {answer} Karte bezahlen?",
+        "en": "Kann ich {answer} Karte bezahlen?"
+      },
+      "acceptedAnswers": [
+        "mit"
+      ]
+    },
+    {
+      "id": "a1_u07_l03_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Was kostet {answer}?",
+        "ar": "Was kostet {answer}?",
+        "en": "Was kostet {answer}?"
+      },
+      "acceptedAnswers": [
+        "das"
+      ]
+    },
+    {
+      "id": "a1_u07_l03_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich brauche {answer} Kilo Tomaten.",
+        "ar": "Ich brauche {answer} Kilo Tomaten.",
+        "en": "Ich brauche {answer} Kilo Tomaten."
+      },
+      "acceptedAnswers": [
+        "ein"
+      ]
+    },
+    {
+      "id": "a1_u07_l03_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Supermarkt, Kleidungsladen oder Markt: Preis erfragen, Menge nennen, nach Größe/Farbe fragen und an {answer} Kasse bezahlen.",
+        "ar": "Supermarkt, Kleidungsladen oder Markt: Preis erfragen, Menge nennen, nach Größe/Farbe fragen und an {answer} Kasse bezahlen.",
+        "en": "Supermarkt, Kleidungsladen oder Markt: Preis erfragen, Menge nennen, nach Größe/Farbe fragen und an {answer} Kasse bezahlen."
+      },
+      "acceptedAnswers": [
+        "der"
+      ]
+    },
+    {
+      "id": "a1_u07_l03_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bei Preisen nicht „ist wie viel?“ übertragen. Natürlich sind „Was kostet {answer}?“ oder „Wie viel kostet das?“. Bei Mengen bleibt das Produkt oft ohne Artikel.",
+        "ar": "Bei Preisen nicht „ist wie viel?“ übertragen. Natürlich sind „Was kostet {answer}?“ oder „Wie viel kostet das?“. Bei Mengen bleibt das Produkt oft ohne Artikel.",
+        "en": "Bei Preisen nicht „ist wie viel?“ übertragen. Natürlich sind „Was kostet {answer}?“ oder „Wie viel kostet das?“. Bei Mengen bleibt das Produkt oft ohne Artikel."
+      },
+      "acceptedAnswers": [
+        "das"
+      ]
+    },
+    {
+      "id": "a1_u07_l03_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "kosten",
+        "ar": "kosten",
+        "en": "kosten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "to cost",
+            "ar": "يكلّف",
+            "en": "to cost"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "cheap",
+            "ar": "رخيص",
+            "en": "cheap"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "expensive",
+            "ar": "غالي",
+            "en": "expensive"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u07_l03_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Bedeutung abrufen",
+        "ar": "استرجع المعنى",
+        "en": "Retrieve meaning"
+      },
+      "question": {
+        "de": "die Kasse",
+        "ar": "die Kasse",
+        "en": "die Kasse"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "checkout",
+            "ar": "صندوق الدفع",
+            "en": "checkout"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "pay cash",
+            "ar": "يدفع نقدًا",
+            "en": "pay cash"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "pay by card",
+            "ar": "يدفع بالبطاقة",
+            "en": "pay by card"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a1_u07_l03_act11",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose",
+        "ar": "تشخيص الأخطاء",
+        "en": "Error diagnosis"
+      },
+      "body": {
+        "de": "Korrekte Muster:\n1. Was kostet das?\n2. Ich brauche ein Kilo Tomaten.\n3. Kann ich mit Karte bezahlen?\n4. Supermarkt, Kleidungsladen oder Markt: Preis erfragen, Menge nennen, nach Größe/Farbe fragen und an der Kasse bezahlen.\n\nMarkiere die entscheidende Form, bilde eine typische falsche Variante, erkläre den Fehler und korrigiere ihn ohne Vorlage.",
+        "ar": "نماذج صحيحة:\n1. Was kostet das?\n2. Ich brauche ein Kilo Tomaten.\n3. Kann ich mit Karte bezahlen?\n4. Supermarkt, Kleidungsladen oder Markt: Preis erfragen, Menge nennen, nach Größe/Farbe fragen und an der Kasse bezahlen.\n\nحدّد الصيغة الحاسمة وأنشئ خطأً شائعًا ثم صححه.",
+        "en": "Correct patterns:\n1. Was kostet das?\n2. Ich brauche ein Kilo Tomaten.\n3. Kann ich mit Karte bezahlen?\n4. Supermarkt, Kleidungsladen oder Markt: Preis erfragen, Menge nennen, nach Größe/Farbe fragen und an der Kasse bezahlen.\n\nMark the decisive form, create a typical wrong version, explain and correct it."
+      }
+    },
+    {
+      "id": "a1_u07_l03_act12",
+      "type": "text_intro",
+      "title": {
+        "de": "Variationsleiter",
+        "ar": "سُلّم التحويل",
+        "en": "Variation ladder"
+      },
+      "body": {
+        "de": "Jeden Mustersatz fünfmal verändern: ich → du/Sie; Singular → Plural; bejahend → verneint; Aussage → Frage; heute → morgen/gestern. Danach Verbposition, Artikel und Endungen prüfen.",
+        "ar": "حوّل كل جملة: ich إلى du/Sie؛ مفرد إلى جمع؛ مثبت إلى منفي؛ خبر إلى سؤال؛ اليوم إلى غدًا/أمس. ثم راجع موقع الفعل والأداة والنهايات.",
+        "en": "Transform each model: ich → du/Sie; singular → plural; affirmative → negative; statement → question; today → tomorrow/yesterday. Check word order, articles and endings."
+      }
+    },
+    {
+      "id": "a1_u07_l03_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Verteilte Wiederholung",
+        "ar": "مراجعة موزعة",
+        "en": "Distributed review"
+      },
+      "body": {
+        "de": "A sofort: sechs Lücken mündlich. B später: sechs neue Sätze. C Regel erklären. D im Dialog anwenden. E mit älteren Themen mischen. Mastery = produzieren + begründen + übertragen.",
+        "ar": "A فورًا: الفراغات شفهيًا. B لاحقًا: ست جمل جديدة. C اشرح القاعدة. D استخدمها في حوار. E امزجها مع القديم.",
+        "en": "A now: blanks orally. B later: six new sentences. C explain the rule. D use it in a dialogue. E interleave with older topics."
+      }
+    },
+    {
+      "id": "a1_u07_l03_act14",
+      "type": "lesson_summary",
+      "title": {
+        "de": "Mastery-Check abgeschlossen",
+        "ar": "اكتمل فحص الإتقان",
+        "en": "Mastery check complete"
+      },
+      "canDo": [
+        "A1_U07_MASTERY"
+      ]
+    }
+  ]
+}
