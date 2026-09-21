@@ -21,9 +21,14 @@ import com.spreva.core.model.LessonStatus
 import com.spreva.core.model.ReviewCard
 import com.spreva.core.model.ReviewCardId
 import com.spreva.core.model.ReviewRating
+import com.spreva.core.model.SkillArea
+import com.spreva.core.model.LearningActivity
 import com.spreva.domain.curriculum.CurriculumRepository
 import com.spreva.domain.learning.LearningEventLog
 import com.spreva.domain.learning.LearningRepository
+import com.spreva.domain.learning.ActivityEvidence
+import com.spreva.domain.learning.LearningIntelligenceEngine
+import com.spreva.domain.learning.LearningIntelligenceRepository
 import com.spreva.domain.learning.ReviewCardProvisioner
 import com.spreva.domain.review.ReviewRepository
 import java.time.Instant
@@ -163,6 +168,95 @@ class OfflineFirstLearningRepository @Inject constructor(
         progressDao.clear()
         attemptsDao.clear()
     }
+}
+
+@Singleton
+class OfflineFirstLearningIntelligenceRepository @Inject constructor(
+    private val database: SprevaDatabase,
+    private val contentSource: ContentSource,
+    private val engine: LearningIntelligenceEngine,
+) : LearningIntelligenceRepository {
+
+    private val attemptsDao: ActivityAttemptDao = database.activityAttemptDao()
+
+    override fun observeProfile(): Flow<com.spreva.core.model.LearningProfile> =
+        attemptsDao.observeAll().map { entities ->
+            if (entities.isEmpty()) return@map com.spreva.core.model.LearningProfile()
+
+            val attempts = entities.map { it.toModel() }
+            val course = contentSource.loadCourse(OfflineFirstCurriculumRepository.COURSE_ID)
+
+            val unitByLesson = buildMap<String, com.spreva.core.model.Unit> {
+                course.levels.forEach { level ->
+                    level.units.forEach { unit ->
+                        unit.lessons.forEach { lesson -> put(lesson.id.value, unit) }
+                    }
+                }
+            }
+
+            val lessonCache = attempts
+                .map { it.lessonId }
+                .distinct()
+                .associateWith { id -> contentSource.loadLesson(id) }
+
+            val evidence = attempts
+                .groupBy { it.activityId }
+                .mapNotNull { (_, grouped) ->
+                    val first = grouped.first()
+                    val lesson = lessonCache[first.lessonId] ?: return@mapNotNull null
+                    val activity = lesson.activities.firstOrNull { it.id == first.activityId }
+                        ?: return@mapNotNull null
+                    val unit = unitByLesson[first.lessonId.value]
+                    val pronunciationUnit = unit?.title?.de.orEmpty().containsAnyIgnoreCase(
+                        "Aussprache",
+                        "Phonetik",
+                        "Prosodie",
+                    )
+
+                    val skill = when (activity) {
+                        is LearningActivity.ListeningChoice,
+                        is LearningActivity.Dictation,
+                        -> if (pronunciationUnit) SkillArea.PRONUNCIATION else SkillArea.LISTENING
+
+                        is LearningActivity.FreeWrite -> SkillArea.WRITING
+                        is LearningActivity.SpeakingPrompt ->
+                            if (pronunciationUnit) SkillArea.PRONUNCIATION else SkillArea.SPEAKING
+
+                        is LearningActivity.MultipleChoice ->
+                            if (pronunciationUnit) {
+                                SkillArea.PRONUNCIATION
+                            } else if (unit?.title?.de.orEmpty().containsAnyIgnoreCase("Prüfung", "Exam")) {
+                                SkillArea.READING
+                            } else {
+                                SkillArea.GRAMMAR
+                            }
+
+                        is LearningActivity.Cloze ->
+                            if (pronunciationUnit) SkillArea.PRONUNCIATION else SkillArea.GRAMMAR
+
+                        else -> return@mapNotNull null
+                    }
+
+                    ActivityEvidence(
+                        lessonId = lesson.id,
+                        lessonTitle = lesson.title,
+                        activityId = activity.id,
+                        skill = skill,
+                        objective = activity is LearningActivity.MultipleChoice ||
+                            activity is LearningActivity.Cloze ||
+                            activity is LearningActivity.ListeningChoice ||
+                            activity is LearningActivity.Dictation,
+                        productive = activity is LearningActivity.FreeWrite ||
+                            activity is LearningActivity.SpeakingPrompt,
+                        attempts = grouped.map { it },
+                    )
+                }
+
+            engine.analyze(evidence)
+        }
+
+    private fun String.containsAnyIgnoreCase(vararg needles: String): Boolean =
+        needles.any { contains(it, ignoreCase = true) }
 }
 
 @Singleton
