@@ -755,6 +755,381 @@
           ]
         }
       ]
+    },
+    {
+      "id": "de-core-b1",
+      "cefr": "B1",
+      "title": {
+        "de": "B1 — Selbstständig handeln & argumentieren",
+        "ar": "B1 — الاستقلال في التصرف والحجاج",
+        "en": "B1 — Independent action & argumentation"
+      },
+      "units": [
+        {
+          "id": "de-core-b1-u01",
+          "title": {
+            "de": "Erzählen & zeitliche Zusammenhänge",
+            "ar": "السرد والعلاقات الزمنية",
+            "en": "Narration & time relationships"
+          },
+          "lessons": [
+            {
+              "id": "b1_u01_l01",
+              "title": {
+                "de": "Perfekt/Präteritum plus nachdem, bevor, während",
+                "ar": "Perfekt/Präteritum مع nachdem وbevor وwährend",
+                "en": "Perfekt/Präteritum with nachdem, bevor and während"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u01_l02",
+              "title": {
+                "de": "Erlebnisse strukturiert erzählen",
+                "ar": "سرد التجارب بشكل منظم",
+                "en": "Narrating experiences coherently"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u02",
+          "title": {
+            "de": "Passiv in Alltag & Arbeit",
+            "ar": "المبني للمجهول في الحياة والعمل",
+            "en": "Passive voice in everyday and work contexts"
+          },
+          "lessons": [
+            {
+              "id": "b1_u02_l01",
+              "title": {
+                "de": "Vorgangspassiv mit werden + Partizip II",
+                "ar": "المبني للمجهول بـ werden + Partizip II",
+                "en": "Event passive with werden + past participle"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u02_l02",
+              "title": {
+                "de": "Prozesse, Regeln und Reparaturen beschreiben",
+                "ar": "وصف العمليات والقواعد والإصلاحات",
+                "en": "Describing processes, rules and repairs"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u03",
+          "title": {
+            "de": "Wünsche, Höflichkeit & Hypothesen",
+            "ar": "الرغبات والتهذيب والافتراض",
+            "en": "Wishes, politeness & hypotheses"
+          },
+          "lessons": [
+            {
+              "id": "b1_u03_l01",
+              "title": {
+                "de": "Konjunktiv II mit wäre, hätte, könnte, würde",
+                "ar": "Konjunktiv II مع wäre وhätte وkönnte وwürde",
+                "en": "Konjunktiv II with wäre, hätte, könnte and würde"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u03_l02",
+              "title": {
+                "de": "Irreale Situationen und höfliche Lösungen formulieren",
+                "ar": "صياغة مواقف غير واقعية وحلول مهذبة",
+                "en": "Formulating unreal situations and polite solutions"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u04",
+          "title": {
+            "de": "Relativsätze in allen wichtigen Fällen",
+            "ar": "الجمل الموصولة في الحالات الأساسية كلها",
+            "en": "Relative clauses in key cases"
+          },
+          "lessons": [
+            {
+              "id": "b1_u04_l01",
+              "title": {
+                "de": "Relativpronomen Nominativ, Akkusativ, Dativ und mit Präposition",
+                "ar": "ضمائر الوصل مع Nominativ/Akkusativ/Dativ وحرف الجر",
+                "en": "Relative pronouns in nominative, accusative, dative and with prepositions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u04_l02",
+              "title": {
+                "de": "Personen, Dokumente und Situationen präzise definieren",
+                "ar": "تحديد الأشخاص والمستندات والمواقف بدقة",
+                "en": "Defining people, documents and situations precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u05",
+          "title": {
+            "de": "Ziele & Infinitivkonstruktionen",
+            "ar": "الأهداف وتراكيب المصدر",
+            "en": "Goals & infinitive constructions"
+          },
+          "lessons": [
+            {
+              "id": "b1_u05_l01",
+              "title": {
+                "de": "zu + Infinitiv, um…zu, ohne…zu, statt…zu",
+                "ar": "zu + المصدر وum…zu وohne…zu وstatt…zu",
+                "en": "zu-infinitive, um…zu, ohne…zu and statt…zu"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u05_l02",
+              "title": {
+                "de": "Absicht, Alternative und Begleitumstände ausdrücken",
+                "ar": "التعبير عن الهدف والبديل والظروف",
+                "en": "Expressing purpose, alternatives and accompanying circumstances"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u06",
+          "title": {
+            "de": "Adjektivdeklination sicher anwenden",
+            "ar": "إتقان تصريف الصفات",
+            "en": "Mastering adjective declension"
+          },
+          "lessons": [
+            {
+              "id": "b1_u06_l01",
+              "title": {
+                "de": "Adjektivendungen nach bestimmten, unbestimmten und Nullartikeln",
+                "ar": "نهايات الصفات بعد أدوات محددة وغير محددة وبدون أداة",
+                "en": "Adjective endings after definite, indefinite and zero articles"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u06_l02",
+              "title": {
+                "de": "Personen, Produkte und Anforderungen differenziert beschreiben",
+                "ar": "وصف الأشخاص والمنتجات والمتطلبات بتفصيل",
+                "en": "Describing people, products and requirements precisely"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u07",
+          "title": {
+            "de": "Verben mit Präpositionen",
+            "ar": "الأفعال مع حروف الجر الثابتة",
+            "en": "Verbs with fixed prepositions"
+          },
+          "lessons": [
+            {
+              "id": "b1_u07_l01",
+              "title": {
+                "de": "Feste Präpositionen und Pronominaladverbien da-/wo-",
+                "ar": "حروف الجر الثابتة وda-/wo-",
+                "en": "Fixed prepositions and da-/wo- compounds"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u07_l02",
+              "title": {
+                "de": "Über Interessen, Erwartungen und Probleme sprechen",
+                "ar": "التحدث عن الاهتمامات والتوقعات والمشكلات",
+                "en": "Talking about interests, expectations and problems"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u08",
+          "title": {
+            "de": "Genitiv & N-Deklination",
+            "ar": "Genitiv وتصريف N",
+            "en": "Genitive & N-declension"
+          },
+          "lessons": [
+            {
+              "id": "b1_u08_l01",
+              "title": {
+                "de": "Zugehörigkeit mit Genitiv und schwache maskuline Nomen",
+                "ar": "الملكية بـ Genitiv والأسماء المذكرة الضعيفة",
+                "en": "Possession with genitive and weak masculine nouns"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u08_l02",
+              "title": {
+                "de": "Formelle Texte und Beziehungen verstehen",
+                "ar": "فهم النصوص الرسمية والعلاقات",
+                "en": "Understanding formal texts and relationships"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u09",
+          "title": {
+            "de": "Arbeitsplatz & Besprechungen",
+            "ar": "مكان العمل والاجتماعات",
+            "en": "Workplace & meetings"
+          },
+          "lessons": [
+            {
+              "id": "b1_u09_l01",
+              "title": {
+                "de": "Vorschläge, indirekte Wiedergabe mit dass und Gesprächssteuerung",
+                "ar": "الاقتراحات والنقل غير المباشر بـ dass وإدارة الحوار",
+                "en": "Suggestions, reported content with dass and meeting management"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u09_l02",
+              "title": {
+                "de": "An Besprechungen aktiv teilnehmen",
+                "ar": "المشاركة الفعالة في الاجتماعات",
+                "en": "Participating actively in meetings"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u10",
+          "title": {
+            "de": "Behörden, Anträge & formelle Beschwerden",
+            "ar": "الدوائر والطلبات والشكاوى الرسمية",
+            "en": "Public offices, applications & formal complaints"
+          },
+          "lessons": [
+            {
+              "id": "b1_u10_l01",
+              "title": {
+                "de": "Formeller Stil, Passiv und strukturierte Anliegen",
+                "ar": "الأسلوب الرسمي والمبني للمجهول وتنظيم الطلب",
+                "en": "Formal style, passive and structured requests"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u10_l02",
+              "title": {
+                "de": "Ein Anliegen sachlich schriftlich klären",
+                "ar": "حل مسألة رسمية كتابيًا بموضوعية",
+                "en": "Resolving an official matter in writing"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u11",
+          "title": {
+            "de": "Gesundheit, Arzt & Versicherung",
+            "ar": "الصحة والطبيب والتأمين",
+            "en": "Health, doctors & insurance"
+          },
+          "lessons": [
+            {
+              "id": "b1_u11_l01",
+              "title": {
+                "de": "Symptome differenziert, seit/seitdem und Ratschläge",
+                "ar": "وصف الأعراض بدقة وseit/seitdem والنصائح",
+                "en": "Detailed symptoms, seit/seitdem and advice"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u11_l02",
+              "title": {
+                "de": "Medizinische Gespräche sprachlich bewältigen",
+                "ar": "إدارة الحوار الطبي لغويًا",
+                "en": "Handling medical conversations linguistically"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u12",
+          "title": {
+            "de": "Medien, Meinung & Argumentation",
+            "ar": "الإعلام والرأي والحجاج",
+            "en": "Media, opinion & argumentation"
+          },
+          "lessons": [
+            {
+              "id": "b1_u12_l01",
+              "title": {
+                "de": "Konnektoren obwohl, trotzdem, deshalb, während",
+                "ar": "الروابط obwohl وtrotzdem وdeshalb وwährend",
+                "en": "Connectors obwohl, trotzdem, deshalb and während"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u12_l02",
+              "title": {
+                "de": "Eine Meinung differenziert begründen",
+                "ar": "تقديم رأي مبرر ومتوازن",
+                "en": "Giving a nuanced, reasoned opinion"
+              },
+              "activityCount": 7
+            }
+          ]
+        },
+        {
+          "id": "de-core-b1-u13",
+          "title": {
+            "de": "Umwelt, Gesellschaft & Präsentation",
+            "ar": "البيئة والمجتمع والعرض",
+            "en": "Environment, society & presentation"
+          },
+          "lessons": [
+            {
+              "id": "b1_u13_l01",
+              "title": {
+                "de": "Präsentationssprache, Nominalgruppen und strukturierte Schlussfolgerungen",
+                "ar": "لغة العرض والمجموعات الاسمية والخلاصات المنظمة",
+                "en": "Presentation language, noun groups and structured conclusions"
+              },
+              "activityCount": 7
+            },
+            {
+              "id": "b1_u13_l02",
+              "title": {
+                "de": "Ein B1-Thema präsentieren und diskutieren",
+                "ar": "عرض موضوع B1 ومناقشته",
+                "en": "Presenting and discussing a B1 topic"
+              },
+              "activityCount": 7
+            }
+          ]
+        }
+      ]
     }
   ]
 }

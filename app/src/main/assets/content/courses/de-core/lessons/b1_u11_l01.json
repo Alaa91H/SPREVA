@@ -1,0 +1,154 @@
+{
+  "id": "b1_u11_l01",
+  "unitId": "de-core-b1-u11",
+  "title": {
+    "de": "Symptome differenziert, seit/seitdem und Ratschläge",
+    "ar": "وصف الأعراض بدقة وseit/seitdem والنصائح",
+    "en": "Detailed symptoms, seit/seitdem and advice"
+  },
+  "canDo": [
+    "B1_U11_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u11_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Symptome differenziert, seit/seitdem und Ratschläge",
+        "ar": "وصف الأعراض بدقة وseit/seitdem والنصائح",
+        "en": "Detailed symptoms, seit/seitdem and advice"
+      },
+      "body": {
+        "de": "Kompetenzziel: Symptome differenziert, seit/seitdem und Ratschläge\n\nSystematik:\nDauer: seit + Dativ/Zeitpunkt: seit drei Tagen; Nebensatz: seitdem ich … Symptome präzise beschreiben: stechend, dumpf, plötzlich, stärker/schwächer. Ratschläge mit sollte/müsste; Unsicherheit mit vielleicht/vermutlich. Sprachlich genau bleiben, ohne selbst Diagnosen zu stellen.\n\nBeispielnetz:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?\n\nPraxisdomäne:\nHausarzt, Facharzt, Krankenkasse oder Apotheke: Verlauf schildern, Medikamente nennen, Rückfragen verstehen und Nachweise/Überweisung erfragen.\n\nFehlerdiagnose:\nIm Arztgespräch zeitliche Angaben und Stärke nicht weglassen. „Es tut weh“ ist ein Anfang, aber Ort, Dauer, Intensität und Verlauf helfen der Kommunikation.",
+        "ar": "هدف الكفاءة: وصف الأعراض بدقة وseit/seitdem والنصائح\n\nالشرح المنهجي:\nللمدة نستخدم seit، وللجملة seitdem. صف الأعراض بدقة مثل stechend أو plötzlich. للنصيحة sollte، ولعدم اليقين vielleicht/vermutlich، دون تشخيص ذاتي.\n\nأمثلة مترابطة:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?\n\nالمجال العملي:\nطبيب الأسرة أو الاختصاصي أو التأمين أو الصيدلية: شرح تطور الأعراض والأدوية وفهم الأسئلة وطلب التحويلة أو الإثبات.\n\nتشخيص الأخطاء:\nفي حديث الطبيب لا تهمل الزمن والشدة. Es tut weh بداية فقط؛ المكان والمدة والشدة والتطور تجعل التواصل أدق.",
+        "en": "Competence goal: Detailed symptoms, seit/seitdem and advice\n\nSystem:\nUse seit for duration and seitdem for a clause. Describe symptoms precisely (stechend, dumpf, plötzlich, stärker/schwächer). Use sollte for advice and vielleicht/vermutlich for uncertainty, without self-diagnosing.\n\nExample network:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?\n\nPractice domain:\nGP, specialist, health insurer or pharmacy: describe symptom progression, name medication, understand follow-ups and ask about referrals/documents.\n\nError diagnosis:\nIn medical conversations, include timing and intensity. Es tut weh is only a start; location, duration, intensity and development improve communication."
+      }
+    },
+    {
+      "id": "b1_u11_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u11_l01_w1",
+          "german": "die Überweisung",
+          "translation": {
+            "de": "referral",
+            "ar": "التحويلة الطبية",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "b1_u11_l01_w2",
+          "german": "das Rezept",
+          "translation": {
+            "de": "prescription",
+            "ar": "الوصفة",
+            "en": "prescription"
+          }
+        },
+        {
+          "id": "b1_u11_l01_w3",
+          "german": "schwindelig",
+          "translation": {
+            "de": "dizzy",
+            "ar": "يشعر بالدوار",
+            "en": "dizzy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u11_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nDauer: seit + Dativ/Zeitpunkt: seit drei Tagen; Nebensatz: seitdem ich … Symptome präzise beschreiben: stechend, dumpf, plötzlich, stärker/schwächer. Ratschläge mit sollte/müsste; Unsicherheit mit vielleicht/vermutlich. Sprachlich genau bleiben, ohne selbst Diagnosen zu stellen.\n\nKontrastive Beispiele:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?",
+        "ar": "القاعدة:\nللمدة نستخدم seit، وللجملة seitdem. صف الأعراض بدقة مثل stechend أو plötzlich. للنصيحة sollte، ولعدم اليقين vielleicht/vermutlich، دون تشخيص ذاتي.\n\nأمثلة:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?",
+        "en": "Rule:\nUse seit for duration and seitdem for a clause. Describe symptoms precisely (stechend, dumpf, plötzlich, stärker/schwächer). Use sollte for advice and vielleicht/vermutlich for uncertainty, without self-diagnosing.\n\nExamples:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?"
+      }
+    },
+    {
+      "id": "b1_u11_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "die Überweisung",
+        "ar": "die Überweisung",
+        "en": "die Überweisung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "referral",
+            "ar": "التحويلة الطبية",
+            "en": "referral"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "prescription",
+            "ar": "الوصفة",
+            "en": "prescription"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "dizzy",
+            "ar": "يشعر بالدوار",
+            "en": "dizzy"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u11_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe {answer} drei Tagen Schmerzen.",
+        "ar": "Ich habe {answer} drei Tagen Schmerzen.",
+        "en": "Ich habe {answer} drei Tagen Schmerzen."
+      },
+      "acceptedAnswers": [
+        "seit"
+      ]
+    },
+    {
+      "id": "b1_u11_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Gesundheit, Arzt & Versicherung“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الصحة والطبيب والتأمين». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Health, doctors & insurance”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u11_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U11_FOUNDATION"
+      ]
+    }
+  ]
+}

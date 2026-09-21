@@ -1,0 +1,155 @@
+{
+  "id": "b1_u10_l02",
+  "unitId": "de-core-b1-u10",
+  "title": {
+    "de": "Ein Anliegen sachlich schriftlich klären",
+    "ar": "حل مسألة رسمية كتابيًا بموضوعية",
+    "en": "Resolving an official matter in writing"
+  },
+  "canDo": [
+    "B1_U10_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u10_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Ein Anliegen sachlich schriftlich klären",
+        "ar": "حل مسألة رسمية كتابيًا بموضوعية",
+        "en": "Resolving an official matter in writing"
+      },
+      "body": {
+        "de": "Authentische Situation:\nJobcenter, Bürgeramt, Versicherung, Schule oder Vermieter: fehlende Antwort, falsche Rechnung, Termin oder Dokument nachvollziehbar beanstanden.\n\nModelldialog:\nA: Haben Sie die Vorgangsnummer?\nB: Ja, sie lautet 4582.\nA: Der Antrag wird noch geprüft.\nB: Können Sie mir bitte mitteilen, bis wann ich mit einer Entscheidung rechnen kann?\n\nSprachliche Entscheidung:\nEin formelles Schreiben folgt einer klaren Struktur: Bezug/Betreff → Sachverhalt → Nachweis → konkrete Bitte/Frist → Gruß. Passiv ist häufig: Mein Antrag wurde am … eingereicht. Höflich, aber eindeutig: Ich bitte Sie, den Vorgang zu prüfen.\n\nTransfer: Führe denselben Austausch mit neuen Daten. Ergänze eine Begründung, eine Rückfrage und eine angemessene Reaktion.",
+        "ar": "موقف واقعي:\nJobcenter أو البلدية أو التأمين أو المدرسة أو المؤجر: الاعتراض بشكل مفهوم على عدم الرد أو فاتورة خاطئة أو موعد أو مستند.\n\nحوار نموذجي:\nA: Haben Sie die Vorgangsnummer?\nB: Ja, sie lautet 4582.\nA: Der Antrag wird noch geprüft.\nB: Können Sie mir bitte mitteilen, bis wann ich mit einer Entscheidung rechnen kann?\n\nالقرار اللغوي:\nالرسالة الرسمية تتبع بنية واضحة: المرجع/الموضوع، الوقائع، الإثبات، الطلب/المهلة، الختام. المبني للمجهول شائع مثل Mein Antrag wurde…\n\nتطبيق: أعد الحوار ببيانات جديدة، وأضف تعليلًا وسؤال متابعة وردًا مناسبًا.",
+        "en": "Authentic situation:\nJobcenter, public office, insurance, school or landlord: clearly challenge a missing response, incorrect bill, appointment or document.\n\nModel dialogue:\nA: Haben Sie die Vorgangsnummer?\nB: Ja, sie lautet 4582.\nA: Der Antrag wird noch geprüft.\nB: Können Sie mir bitte mitteilen, bis wann ich mit einer Entscheidung rechnen kann?\n\nLanguage choice:\nA formal letter follows a clear structure: reference/subject → facts → evidence → specific request/deadline → closing. Passive forms are common: Mein Antrag wurde … eingereicht. Be polite but explicit.\n\nTransfer: Repeat the exchange with new details, adding a reason, follow-up question and appropriate response."
+      }
+    },
+    {
+      "id": "b1_u10_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u10_l02_w1",
+          "german": "der Nachweis",
+          "translation": {
+            "de": "proof",
+            "ar": "الإثبات",
+            "en": "proof"
+          }
+        },
+        {
+          "id": "b1_u10_l02_w2",
+          "german": "die Frist",
+          "translation": {
+            "de": "deadline",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "b1_u10_l02_w3",
+          "german": "der Vorgang",
+          "translation": {
+            "de": "case/process",
+            "ar": "المعاملة/الإجراء",
+            "en": "case/process"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u10_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nEin formelles Schreiben folgt einer klaren Struktur: Bezug/Betreff → Sachverhalt → Nachweis → konkrete Bitte/Frist → Gruß. Passiv ist häufig: Mein Antrag wurde am … eingereicht. Höflich, aber eindeutig: Ich bitte Sie, den Vorgang zu prüfen.\n\nKontrastive Beispiele:\n• Mein Antrag wurde am 3. Mai eingereicht.\n• Bis heute habe ich keine Rückmeldung erhalten.\n• Ich bitte Sie, den Vorgang zu prüfen und mir schriftlich zu antworten.",
+        "ar": "القاعدة:\nالرسالة الرسمية تتبع بنية واضحة: المرجع/الموضوع، الوقائع، الإثبات، الطلب/المهلة، الختام. المبني للمجهول شائع مثل Mein Antrag wurde…\n\nأمثلة:\n• Mein Antrag wurde am 3. Mai eingereicht.\n• Bis heute habe ich keine Rückmeldung erhalten.\n• Ich bitte Sie, den Vorgang zu prüfen und mir schriftlich zu antworten.",
+        "en": "Rule:\nA formal letter follows a clear structure: reference/subject → facts → evidence → specific request/deadline → closing. Passive forms are common: Mein Antrag wurde … eingereicht. Be polite but explicit.\n\nExamples:\n• Mein Antrag wurde am 3. Mai eingereicht.\n• Bis heute habe ich keine Rückmeldung erhalten.\n• Ich bitte Sie, den Vorgang zu prüfen und mir schriftlich zu antworten."
+      }
+    },
+    {
+      "id": "b1_u10_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "der Nachweis",
+        "ar": "der Nachweis",
+        "en": "der Nachweis"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "proof",
+            "ar": "الإثبات",
+            "en": "proof"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deadline",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "case/process",
+            "ar": "المعاملة/الإجراء",
+            "en": "case/process"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u10_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bitte Sie, den Vorgang zu {answer}.",
+        "ar": "Ich bitte Sie, den Vorgang zu {answer}.",
+        "en": "Ich bitte Sie, den Vorgang zu {answer}."
+      },
+      "acceptedAnswers": [
+        "prüfen",
+        "pruefen"
+      ]
+    },
+    {
+      "id": "b1_u10_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Behörden, Anträge & formelle Beschwerden“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الدوائر والطلبات والشكاوى الرسمية». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Public offices, applications & formal complaints”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u10_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U10_REAL_LIFE"
+      ]
+    }
+  ]
+}

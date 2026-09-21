@@ -1,0 +1,154 @@
+{
+  "id": "b1_u06_l01",
+  "unitId": "de-core-b1-u06",
+  "title": {
+    "de": "Adjektivendungen nach bestimmten, unbestimmten und Nullartikeln",
+    "ar": "نهايات الصفات بعد أدوات محددة وغير محددة وبدون أداة",
+    "en": "Adjective endings after definite, indefinite and zero articles"
+  },
+  "canDo": [
+    "B1_U06_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u06_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Adjektivendungen nach bestimmten, unbestimmten und Nullartikeln",
+        "ar": "نهايات الصفات بعد أدوات محددة وغير محددة وبدون أداة",
+        "en": "Adjective endings after definite, indefinite and zero articles"
+      },
+      "body": {
+        "de": "Kompetenzziel: Adjektivendungen nach bestimmten, unbestimmten und Nullartikeln\n\nSystematik:\nDie Adjektivendung zeigt grammatische Information, die der Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.\n\nBeispielnetz:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig.\n\nPraxisdomäne:\nBewerbung, Wohnung, Einkauf oder Bericht: Eigenschaften präzise kombinieren, Anforderungen formulieren und Vergleiche begründen.\n\nFehlerdiagnose:\nEndung immer zusammen mit Artikel und Kasus prüfen. Besonders Dativ Plural: mit öffentlichen Verkehrsmitteln; häufig kommt auch -n am Nomen hinzu.",
+        "ar": "هدف الكفاءة: نهايات الصفات بعد أدوات محددة وغير محددة وبدون أداة\n\nالشرح المنهجي:\nنهاية الصفة تحمل معلومات نحوية لا تحملها الأداة بالكامل. بعد الأداة المحددة غالبًا -e/-en، وبدون أداة تكون النهايات أوضح. الأفضل تدريب الأنماط حسب الحالة ونوع الأداة.\n\nأمثلة مترابطة:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig.\n\nالمجال العملي:\nفي التقديم للوظيفة أو السكن أو التسوق أو التقرير: دمج الصفات بدقة وصياغة المتطلبات وتبرير المقارنات.\n\nتشخيص الأخطاء:\nراجع نهاية الصفة مع الأداة والحالة معًا، خصوصًا Dativ Plural مثل mit öffentlichen Verkehrsmitteln وغالبًا يأخذ الاسم -n أيضًا.",
+        "en": "Competence goal: Adjective endings after definite, indefinite and zero articles\n\nSystem:\nAdjective endings carry grammatical information not fully expressed by the article. After definite articles, weak endings (-e/-en) dominate; zero article requires stronger marking. Train patterns by case and article type rather than isolated cells.\n\nExample network:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig.\n\nPractice domain:\nApplications, housing, shopping or reports: combine properties precisely, formulate requirements and justify comparisons.\n\nError diagnosis:\nCheck adjective ending together with article and case. Note dative plural: mit öffentlichen Verkehrsmitteln, often with -n on the noun too."
+      }
+    },
+    {
+      "id": "b1_u06_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u06_l01_w1",
+          "german": "zuverlässig",
+          "translation": {
+            "de": "reliable",
+            "ar": "موثوق",
+            "en": "reliable"
+          }
+        },
+        {
+          "id": "b1_u06_l01_w2",
+          "german": "erreichbar",
+          "translation": {
+            "de": "accessible",
+            "ar": "يسهل الوصول إليه",
+            "en": "accessible"
+          }
+        },
+        {
+          "id": "b1_u06_l01_w3",
+          "german": "zentral",
+          "translation": {
+            "de": "central",
+            "ar": "مركزي",
+            "en": "central"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u06_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nDie Adjektivendung zeigt grammatische Information, die der Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.\n\nKontrastive Beispiele:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig.",
+        "ar": "القاعدة:\nنهاية الصفة تحمل معلومات نحوية لا تحملها الأداة بالكامل. بعد الأداة المحددة غالبًا -e/-en، وبدون أداة تكون النهايات أوضح. الأفضل تدريب الأنماط حسب الحالة ونوع الأداة.\n\nأمثلة:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig.",
+        "en": "Rule:\nAdjective endings carry grammatical information not fully expressed by the article. After definite articles, weak endings (-e/-en) dominate; zero article requires stronger marking. Train patterns by case and article type rather than isolated cells.\n\nExamples:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig."
+      }
+    },
+    {
+      "id": "b1_u06_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "zuverlässig",
+        "ar": "zuverlässig",
+        "en": "zuverlässig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reliable",
+            "ar": "موثوق",
+            "en": "reliable"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "accessible",
+            "ar": "يسهل الوصول إليه",
+            "en": "accessible"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "central",
+            "ar": "مركزي",
+            "en": "central"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u06_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir suchen einen zuverlässig{answer} Mitarbeiter.",
+        "ar": "Wir suchen einen zuverlässig{answer} Mitarbeiter.",
+        "en": "Wir suchen einen zuverlässig{answer} Mitarbeiter."
+      },
+      "acceptedAnswers": [
+        "en"
+      ]
+    },
+    {
+      "id": "b1_u06_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Adjektivdeklination sicher anwenden“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «إتقان تصريف الصفات». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Mastering adjective declension”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u06_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U06_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "b1_u08_l01",
+  "unitId": "de-core-b1-u08",
+  "title": {
+    "de": "Zugehörigkeit mit Genitiv und schwache maskuline Nomen",
+    "ar": "الملكية بـ Genitiv والأسماء المذكرة الضعيفة",
+    "en": "Possession with genitive and weak masculine nouns"
+  },
+  "canDo": [
+    "B1_U08_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u08_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Zugehörigkeit mit Genitiv und schwache maskuline Nomen",
+        "ar": "الملكية بـ Genitiv والأسماء المذكرة الضعيفة",
+        "en": "Possession with genitive and weak masculine nouns"
+      },
+      "body": {
+        "de": "Kompetenzziel: Zugehörigkeit mit Genitiv und schwache maskuline Nomen\n\nSystematik:\nDer Genitiv drückt oft Zugehörigkeit aus: die Entscheidung des Amtes, die Adresse meiner Kollegin. Maskuline/neutrale Nomen erhalten im Genitiv Singular meist -s/-es. N-Deklination: der Kunde → mit dem Kunden, den Kunden; der Mensch → des Menschen.\n\nBeispielnetz:\n• Das ist die Entscheidung des Amtes.\n• Die Daten des Kunden sind vollständig.\n• Ich spreche mit einem Kollegen.\n\nPraxisdomäne:\nBriefe von Behörden, Verträge, Arbeit und Kundenkontakt: Besitz, Zuständigkeit und formelle Nominalgruppen korrekt verstehen und bilden.\n\nFehlerdiagnose:\nN-Deklination betrifft eine Gruppe maskuliner Nomen; nicht jedes maskuline Nomen bekommt -n. Häufige Wörter gezielt als Formenreihe lernen.",
+        "ar": "هدف الكفاءة: الملكية بـ Genitiv والأسماء المذكرة الضعيفة\n\nالشرح المنهجي:\nيستخدم Genitiv للملكية والعلاقة: die Entscheidung des Amtes. الأسماء المذكرة والمحايدة غالبًا تأخذ -s/-es. وبعض الأسماء المذكرة الضعيفة مثل Kunde تأخذ -n/-en خارج Nominativ.\n\nأمثلة مترابطة:\n• Das ist die Entscheidung des Amtes.\n• Die Daten des Kunden sind vollständig.\n• Ich spreche mit einem Kollegen.\n\nالمجال العملي:\nرسائل الدوائر والعقود والعمل وخدمة العملاء: فهم وتكوين تراكيب الملكية والمسؤولية الرسمية.\n\nتشخيص الأخطاء:\nتصريف N يخص مجموعة من الأسماء المذكرة وليس كلها. احفظ الكلمات الشائعة كسلسلة أشكال.",
+        "en": "Competence goal: Possession with genitive and weak masculine nouns\n\nSystem:\nThe genitive often expresses possession/association: die Entscheidung des Amtes. Masculine/neuter singular nouns usually add -s/-es. Weak masculine nouns take -n/-en outside nominative: der Kunde → dem Kunden, des Kunden.\n\nExample network:\n• Das ist die Entscheidung des Amtes.\n• Die Daten des Kunden sind vollständig.\n• Ich spreche mit einem Kollegen.\n\nPractice domain:\nOfficial letters, contracts, work and customer contact: understand and form possession, responsibility and formal noun groups.\n\nError diagnosis:\nN-declension applies to a group of masculine nouns, not all masculine nouns. Learn frequent items as full form patterns."
+      }
+    },
+    {
+      "id": "b1_u08_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u08_l01_w1",
+          "german": "die Entscheidung",
+          "translation": {
+            "de": "decision",
+            "ar": "القرار",
+            "en": "decision"
+          }
+        },
+        {
+          "id": "b1_u08_l01_w2",
+          "german": "des Amtes",
+          "translation": {
+            "de": "of the office",
+            "ar": "للدائرة",
+            "en": "of the office"
+          }
+        },
+        {
+          "id": "b1_u08_l01_w3",
+          "german": "der Kunde",
+          "translation": {
+            "de": "customer",
+            "ar": "العميل",
+            "en": "customer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u08_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nDer Genitiv drückt oft Zugehörigkeit aus: die Entscheidung des Amtes, die Adresse meiner Kollegin. Maskuline/neutrale Nomen erhalten im Genitiv Singular meist -s/-es. N-Deklination: der Kunde → mit dem Kunden, den Kunden; der Mensch → des Menschen.\n\nKontrastive Beispiele:\n• Das ist die Entscheidung des Amtes.\n• Die Daten des Kunden sind vollständig.\n• Ich spreche mit einem Kollegen.",
+        "ar": "القاعدة:\nيستخدم Genitiv للملكية والعلاقة: die Entscheidung des Amtes. الأسماء المذكرة والمحايدة غالبًا تأخذ -s/-es. وبعض الأسماء المذكرة الضعيفة مثل Kunde تأخذ -n/-en خارج Nominativ.\n\nأمثلة:\n• Das ist die Entscheidung des Amtes.\n• Die Daten des Kunden sind vollständig.\n• Ich spreche mit einem Kollegen.",
+        "en": "Rule:\nThe genitive often expresses possession/association: die Entscheidung des Amtes. Masculine/neuter singular nouns usually add -s/-es. Weak masculine nouns take -n/-en outside nominative: der Kunde → dem Kunden, des Kunden.\n\nExamples:\n• Das ist die Entscheidung des Amtes.\n• Die Daten des Kunden sind vollständig.\n• Ich spreche mit einem Kollegen."
+      }
+    },
+    {
+      "id": "b1_u08_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "die Entscheidung",
+        "ar": "die Entscheidung",
+        "en": "die Entscheidung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "decision",
+            "ar": "القرار",
+            "en": "decision"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "of the office",
+            "ar": "للدائرة",
+            "en": "of the office"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "customer",
+            "ar": "العميل",
+            "en": "customer"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u08_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist die Entscheidung {answer} Amtes.",
+        "ar": "Das ist die Entscheidung {answer} Amtes.",
+        "en": "Das ist die Entscheidung {answer} Amtes."
+      },
+      "acceptedAnswers": [
+        "des"
+      ]
+    },
+    {
+      "id": "b1_u08_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Genitiv & N-Deklination“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «Genitiv وتصريف N». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Genitive & N-declension”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u08_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U08_FOUNDATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "b1_u09_l01",
+  "unitId": "de-core-b1-u09",
+  "title": {
+    "de": "Vorschläge, indirekte Wiedergabe mit dass und Gesprächssteuerung",
+    "ar": "الاقتراحات والنقل غير المباشر بـ dass وإدارة الحوار",
+    "en": "Suggestions, reported content with dass and meeting management"
+  },
+  "canDo": [
+    "B1_U09_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u09_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Vorschläge, indirekte Wiedergabe mit dass und Gesprächssteuerung",
+        "ar": "الاقتراحات والنقل غير المباشر بـ dass وإدارة الحوار",
+        "en": "Suggestions, reported content with dass and meeting management"
+      },
+      "body": {
+        "de": "Kompetenzziel: Vorschläge, indirekte Wiedergabe mit dass und Gesprächssteuerung\n\nSystematik:\nFür Vorschläge: Wir könnten … / Ich schlage vor, dass … Für Wiedergabe auf B1: Frau Müller sagt, dass … Gesprächssteuerung braucht klare Signale: Darf ich kurz ergänzen? Ich stimme zu / Ich sehe das anders, weil …\n\nBeispielnetz:\n• Ich schlage vor, dass wir den Termin verschieben.\n• Ich stimme dem Vorschlag zu.\n• Frau Klein sagt, dass die Lieferung morgen kommt.\n\nPraxisdomäne:\nTeammeeting, Schichtübergabe oder Projekt: Vorschläge machen, Zustimmung/Ablehnung begründen, Aufgaben und Termine festhalten.\n\nFehlerdiagnose:\nIm beruflichen Kontext nicht nur „ja/nein“ sagen. Eine kurze Begründung und ein konkreter Gegenvorschlag machen Beiträge klarer und kooperativer.",
+        "ar": "هدف الكفاءة: الاقتراحات والنقل غير المباشر بـ dass وإدارة الحوار\n\nالشرح المنهجي:\nللاقتراح: Wir könnten… أو Ich schlage vor, dass… وللنقل: Frau Müller sagt, dass… ولإدارة الحوار: Darf ich kurz ergänzen? Ich stimme zu…\n\nأمثلة مترابطة:\n• Ich schlage vor, dass wir den Termin verschieben.\n• Ich stimme dem Vorschlag zu.\n• Frau Klein sagt, dass die Lieferung morgen kommt.\n\nالمجال العملي:\nاجتماع فريق أو تسليم وردية أو مشروع: تقديم اقتراحات وتبرير الموافقة/الرفض وتثبيت المهام والمواعيد.\n\nتشخيص الأخطاء:\nفي العمل لا تكتفِ بنعم/لا. أضف سببًا قصيرًا واقتراحًا بديلًا واضحًا.",
+        "en": "Competence goal: Suggestions, reported content with dass and meeting management\n\nSystem:\nFor suggestions use Wir könnten … / Ich schlage vor, dass …. For reported content at B1: Frau Müller sagt, dass …. Meeting management uses signals such as Darf ich kurz ergänzen? Ich stimme zu / Ich sehe das anders, weil ….\n\nExample network:\n• Ich schlage vor, dass wir den Termin verschieben.\n• Ich stimme dem Vorschlag zu.\n• Frau Klein sagt, dass die Lieferung morgen kommt.\n\nPractice domain:\nTeam meeting, shift handover or project: make suggestions, justify agreement/disagreement and record tasks/deadlines.\n\nError diagnosis:\nIn professional contexts, avoid bare yes/no. Add a brief reason and a concrete alternative to make contributions clearer and more cooperative."
+      }
+    },
+    {
+      "id": "b1_u09_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u09_l01_w1",
+          "german": "die Besprechung",
+          "translation": {
+            "de": "meeting",
+            "ar": "الاجتماع",
+            "en": "meeting"
+          }
+        },
+        {
+          "id": "b1_u09_l01_w2",
+          "german": "der Vorschlag",
+          "translation": {
+            "de": "proposal",
+            "ar": "الاقتراح",
+            "en": "proposal"
+          }
+        },
+        {
+          "id": "b1_u09_l01_w3",
+          "german": "zustimmen",
+          "translation": {
+            "de": "agree",
+            "ar": "يوافق",
+            "en": "agree"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u09_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nFür Vorschläge: Wir könnten … / Ich schlage vor, dass … Für Wiedergabe auf B1: Frau Müller sagt, dass … Gesprächssteuerung braucht klare Signale: Darf ich kurz ergänzen? Ich stimme zu / Ich sehe das anders, weil …\n\nKontrastive Beispiele:\n• Ich schlage vor, dass wir den Termin verschieben.\n• Ich stimme dem Vorschlag zu.\n• Frau Klein sagt, dass die Lieferung morgen kommt.",
+        "ar": "القاعدة:\nللاقتراح: Wir könnten… أو Ich schlage vor, dass… وللنقل: Frau Müller sagt, dass… ولإدارة الحوار: Darf ich kurz ergänzen? Ich stimme zu…\n\nأمثلة:\n• Ich schlage vor, dass wir den Termin verschieben.\n• Ich stimme dem Vorschlag zu.\n• Frau Klein sagt, dass die Lieferung morgen kommt.",
+        "en": "Rule:\nFor suggestions use Wir könnten … / Ich schlage vor, dass …. For reported content at B1: Frau Müller sagt, dass …. Meeting management uses signals such as Darf ich kurz ergänzen? Ich stimme zu / Ich sehe das anders, weil ….\n\nExamples:\n• Ich schlage vor, dass wir den Termin verschieben.\n• Ich stimme dem Vorschlag zu.\n• Frau Klein sagt, dass die Lieferung morgen kommt."
+      }
+    },
+    {
+      "id": "b1_u09_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "die Besprechung",
+        "ar": "die Besprechung",
+        "en": "die Besprechung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "meeting",
+            "ar": "الاجتماع",
+            "en": "meeting"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "proposal",
+            "ar": "الاقتراح",
+            "en": "proposal"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "agree",
+            "ar": "يوافق",
+            "en": "agree"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u09_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich schlage vor, {answer} wir den Termin verschieben.",
+        "ar": "Ich schlage vor, {answer} wir den Termin verschieben.",
+        "en": "Ich schlage vor, {answer} wir den Termin verschieben."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "b1_u09_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Arbeitsplatz & Besprechungen“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «مكان العمل والاجتماعات». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Workplace & meetings”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u09_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U09_FOUNDATION"
+      ]
+    }
+  ]
+}

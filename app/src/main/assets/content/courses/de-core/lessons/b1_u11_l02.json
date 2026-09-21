@@ -1,0 +1,154 @@
+{
+  "id": "b1_u11_l02",
+  "unitId": "de-core-b1-u11",
+  "title": {
+    "de": "Medizinische Gespräche sprachlich bewältigen",
+    "ar": "إدارة الحوار الطبي لغويًا",
+    "en": "Handling medical conversations linguistically"
+  },
+  "canDo": [
+    "B1_U11_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u11_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Medizinische Gespräche sprachlich bewältigen",
+        "ar": "إدارة الحوار الطبي لغويًا",
+        "en": "Handling medical conversations linguistically"
+      },
+      "body": {
+        "de": "Authentische Situation:\nHausarzt, Facharzt, Krankenkasse oder Apotheke: Verlauf schildern, Medikamente nennen, Rückfragen verstehen und Nachweise/Überweisung erfragen.\n\nModelldialog:\nA: Seit wann haben Sie die Schmerzen?\nB: Seit Montag, aber seit gestern sind sie stärker.\nA: Nehmen Sie Medikamente?\nB: Ja. Seitdem ich sie nehme, bin ich sehr müde.\n\nSprachliche Entscheidung:\nDauer: seit + Dativ/Zeitpunkt: seit drei Tagen; Nebensatz: seitdem ich … Symptome präzise beschreiben: stechend, dumpf, plötzlich, stärker/schwächer. Ratschläge mit sollte/müsste; Unsicherheit mit vielleicht/vermutlich. Sprachlich genau bleiben, ohne selbst Diagnosen zu stellen.\n\nTransfer: Führe denselben Austausch mit neuen Daten. Ergänze eine Begründung, eine Rückfrage und eine angemessene Reaktion.",
+        "ar": "موقف واقعي:\nطبيب الأسرة أو الاختصاصي أو التأمين أو الصيدلية: شرح تطور الأعراض والأدوية وفهم الأسئلة وطلب التحويلة أو الإثبات.\n\nحوار نموذجي:\nA: Seit wann haben Sie die Schmerzen?\nB: Seit Montag, aber seit gestern sind sie stärker.\nA: Nehmen Sie Medikamente?\nB: Ja. Seitdem ich sie nehme, bin ich sehr müde.\n\nالقرار اللغوي:\nللمدة نستخدم seit، وللجملة seitdem. صف الأعراض بدقة مثل stechend أو plötzlich. للنصيحة sollte، ولعدم اليقين vielleicht/vermutlich، دون تشخيص ذاتي.\n\nتطبيق: أعد الحوار ببيانات جديدة، وأضف تعليلًا وسؤال متابعة وردًا مناسبًا.",
+        "en": "Authentic situation:\nGP, specialist, health insurer or pharmacy: describe symptom progression, name medication, understand follow-ups and ask about referrals/documents.\n\nModel dialogue:\nA: Seit wann haben Sie die Schmerzen?\nB: Seit Montag, aber seit gestern sind sie stärker.\nA: Nehmen Sie Medikamente?\nB: Ja. Seitdem ich sie nehme, bin ich sehr müde.\n\nLanguage choice:\nUse seit for duration and seitdem for a clause. Describe symptoms precisely (stechend, dumpf, plötzlich, stärker/schwächer). Use sollte for advice and vielleicht/vermutlich for uncertainty, without self-diagnosing.\n\nTransfer: Repeat the exchange with new details, adding a reason, follow-up question and appropriate response."
+      }
+    },
+    {
+      "id": "b1_u11_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u11_l02_w1",
+          "german": "die Nebenwirkung",
+          "translation": {
+            "de": "side effect",
+            "ar": "الأثر الجانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "b1_u11_l02_w2",
+          "german": "untersuchen",
+          "translation": {
+            "de": "examine",
+            "ar": "يفحص طبيًا",
+            "en": "examine"
+          }
+        },
+        {
+          "id": "b1_u11_l02_w3",
+          "german": "die Krankenkasse",
+          "translation": {
+            "de": "health insurer",
+            "ar": "التأمين الصحي",
+            "en": "health insurer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u11_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nDauer: seit + Dativ/Zeitpunkt: seit drei Tagen; Nebensatz: seitdem ich … Symptome präzise beschreiben: stechend, dumpf, plötzlich, stärker/schwächer. Ratschläge mit sollte/müsste; Unsicherheit mit vielleicht/vermutlich. Sprachlich genau bleiben, ohne selbst Diagnosen zu stellen.\n\nKontrastive Beispiele:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?",
+        "ar": "القاعدة:\nللمدة نستخدم seit، وللجملة seitdem. صف الأعراض بدقة مثل stechend أو plötzlich. للنصيحة sollte، ولعدم اليقين vielleicht/vermutlich، دون تشخيص ذاتي.\n\nأمثلة:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?",
+        "en": "Rule:\nUse seit for duration and seitdem for a clause. Describe symptoms precisely (stechend, dumpf, plötzlich, stärker/schwächer). Use sollte for advice and vielleicht/vermutlich for uncertainty, without self-diagnosing.\n\nExamples:\n• Ich habe seit drei Tagen starke Rückenschmerzen.\n• Seitdem ich das Medikament nehme, ist mir oft schwindelig.\n• Sollte ich mich noch einmal untersuchen lassen?"
+      }
+    },
+    {
+      "id": "b1_u11_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "die Nebenwirkung",
+        "ar": "die Nebenwirkung",
+        "en": "die Nebenwirkung"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "side effect",
+            "ar": "الأثر الجانبي",
+            "en": "side effect"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "examine",
+            "ar": "يفحص طبيًا",
+            "en": "examine"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "health insurer",
+            "ar": "التأمين الصحي",
+            "en": "health insurer"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u11_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} ich das Medikament nehme, bin ich müde.",
+        "ar": "{answer} ich das Medikament nehme, bin ich müde.",
+        "en": "{answer} ich das Medikament nehme, bin ich müde."
+      },
+      "acceptedAnswers": [
+        "Seitdem"
+      ]
+    },
+    {
+      "id": "b1_u11_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Gesundheit, Arzt & Versicherung“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الصحة والطبيب والتأمين». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Health, doctors & insurance”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u11_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U11_REAL_LIFE"
+      ]
+    }
+  ]
+}

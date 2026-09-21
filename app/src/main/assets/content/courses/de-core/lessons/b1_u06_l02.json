@@ -1,0 +1,154 @@
+{
+  "id": "b1_u06_l02",
+  "unitId": "de-core-b1-u06",
+  "title": {
+    "de": "Personen, Produkte und Anforderungen differenziert beschreiben",
+    "ar": "وصف الأشخاص والمنتجات والمتطلبات بتفصيل",
+    "en": "Describing people, products and requirements precisely"
+  },
+  "canDo": [
+    "B1_U06_REAL_LIFE"
+  ],
+  "activities": [
+    {
+      "id": "b1_u06_l02_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Personen, Produkte und Anforderungen differenziert beschreiben",
+        "ar": "وصف الأشخاص والمنتجات والمتطلبات بتفصيل",
+        "en": "Describing people, products and requirements precisely"
+      },
+      "body": {
+        "de": "Authentische Situation:\nBewerbung, Wohnung, Einkauf oder Bericht: Eigenschaften präzise kombinieren, Anforderungen formulieren und Vergleiche begründen.\n\nModelldialog:\nA: Was für eine Wohnung suchen Sie?\nB: Eine ruhige, helle Wohnung mit einem kleinen Balkon.\nA: Ist eine zentrale Lage wichtig?\nB: Ja, aber eine günstigere Miete ist noch wichtiger.\n\nSprachliche Entscheidung:\nDie Adjektivendung zeigt grammatische Information, die der Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.\n\nTransfer: Führe denselben Austausch mit neuen Daten. Ergänze eine Begründung, eine Rückfrage und eine angemessene Reaktion.",
+        "ar": "موقف واقعي:\nفي التقديم للوظيفة أو السكن أو التسوق أو التقرير: دمج الصفات بدقة وصياغة المتطلبات وتبرير المقارنات.\n\nحوار نموذجي:\nA: Was für eine Wohnung suchen Sie?\nB: Eine ruhige, helle Wohnung mit einem kleinen Balkon.\nA: Ist eine zentrale Lage wichtig?\nB: Ja, aber eine günstigere Miete ist noch wichtiger.\n\nالقرار اللغوي:\nنهاية الصفة تحمل معلومات نحوية لا تحملها الأداة بالكامل. بعد الأداة المحددة غالبًا -e/-en، وبدون أداة تكون النهايات أوضح. الأفضل تدريب الأنماط حسب الحالة ونوع الأداة.\n\nتطبيق: أعد الحوار ببيانات جديدة، وأضف تعليلًا وسؤال متابعة وردًا مناسبًا.",
+        "en": "Authentic situation:\nApplications, housing, shopping or reports: combine properties precisely, formulate requirements and justify comparisons.\n\nModel dialogue:\nA: Was für eine Wohnung suchen Sie?\nB: Eine ruhige, helle Wohnung mit einem kleinen Balkon.\nA: Ist eine zentrale Lage wichtig?\nB: Ja, aber eine günstigere Miete ist noch wichtiger.\n\nLanguage choice:\nAdjective endings carry grammatical information not fully expressed by the article. After definite articles, weak endings (-e/-en) dominate; zero article requires stronger marking. Train patterns by case and article type rather than isolated cells.\n\nTransfer: Repeat the exchange with new details, adding a reason, follow-up question and appropriate response."
+      }
+    },
+    {
+      "id": "b1_u06_l02_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u06_l02_w1",
+          "german": "ruhig",
+          "translation": {
+            "de": "quiet",
+            "ar": "هادئ",
+            "en": "quiet"
+          }
+        },
+        {
+          "id": "b1_u06_l02_w2",
+          "german": "beruflich",
+          "translation": {
+            "de": "professional",
+            "ar": "مهني",
+            "en": "professional"
+          }
+        },
+        {
+          "id": "b1_u06_l02_w3",
+          "german": "kommunikativ",
+          "translation": {
+            "de": "communicative",
+            "ar": "تواصلي",
+            "en": "communicative"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u06_l02_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nDie Adjektivendung zeigt grammatische Information, die der Artikel nicht vollständig trägt. Nach bestimmtem Artikel meist schwache Endungen (-e/-en), nach Nullartikel stärker markierte Endungen. Statt 48 Felder isoliert zu lernen, Muster nach Kasus und Artikeltyp trainieren.\n\nKontrastive Beispiele:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig.",
+        "ar": "القاعدة:\nنهاية الصفة تحمل معلومات نحوية لا تحملها الأداة بالكامل. بعد الأداة المحددة غالبًا -e/-en، وبدون أداة تكون النهايات أوضح. الأفضل تدريب الأنماط حسب الحالة ونوع الأداة.\n\nأمثلة:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig.",
+        "en": "Rule:\nAdjective endings carry grammatical information not fully expressed by the article. After definite articles, weak endings (-e/-en) dominate; zero article requires stronger marking. Train patterns by case and article type rather than isolated cells.\n\nExamples:\n• Wir suchen einen zuverlässigen Mitarbeiter.\n• Mit öffentlichen Verkehrsmitteln ist die neue Wohnung gut erreichbar.\n• Gute kommunikative Fähigkeiten sind wichtig."
+      }
+    },
+    {
+      "id": "b1_u06_l02_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "ruhig",
+        "ar": "ruhig",
+        "en": "ruhig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "quiet",
+            "ar": "هادئ",
+            "en": "quiet"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "professional",
+            "ar": "مهني",
+            "en": "professional"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "communicative",
+            "ar": "تواصلي",
+            "en": "communicative"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u06_l02_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mit öffentlich{answer} Verkehrsmitteln ist es erreichbar.",
+        "ar": "Mit öffentlich{answer} Verkehrsmitteln ist es erreichbar.",
+        "en": "Mit öffentlich{answer} Verkehrsmitteln ist es erreichbar."
+      },
+      "acceptedAnswers": [
+        "en"
+      ]
+    },
+    {
+      "id": "b1_u06_l02_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Adjektivdeklination sicher anwenden“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «إتقان تصريف الصفات». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Mastering adjective declension”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u06_l02_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U06_REAL_LIFE"
+      ]
+    }
+  ]
+}

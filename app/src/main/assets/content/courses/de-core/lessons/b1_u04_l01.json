@@ -1,0 +1,154 @@
+{
+  "id": "b1_u04_l01",
+  "unitId": "de-core-b1-u04",
+  "title": {
+    "de": "Relativpronomen Nominativ, Akkusativ, Dativ und mit Präposition",
+    "ar": "ضمائر الوصل مع Nominativ/Akkusativ/Dativ وحرف الجر",
+    "en": "Relative pronouns in nominative, accusative, dative and with prepositions"
+  },
+  "canDo": [
+    "B1_U04_FOUNDATION"
+  ],
+  "activities": [
+    {
+      "id": "b1_u04_l01_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "Relativpronomen Nominativ, Akkusativ, Dativ und mit Präposition",
+        "ar": "ضمائر الوصل مع Nominativ/Akkusativ/Dativ وحرف الجر",
+        "en": "Relative pronouns in nominative, accusative, dative and with prepositions"
+      },
+      "body": {
+        "de": "Kompetenzziel: Relativpronomen Nominativ, Akkusativ, Dativ und mit Präposition\n\nSystematik:\nDas Relativpronomen stimmt in Genus/Numerus mit dem Bezugswort überein, der Kasus kommt aus dem Relativsatz: der Mann, dem ich helfe; die Firma, bei der ich arbeite. Präpositionen stehen vor dem Relativpronomen. Das Verb bleibt am Ende.\n\nBeispielnetz:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da.\n\nPraxisdomäne:\nArbeitsplatz, Behörde, Wohnungssuche oder Berichte: genau erklären, welche Person, Stelle, Sache oder Bedingung gemeint ist.\n\nFehlerdiagnose:\nDen Relativkasus immer im Relativsatz bestimmen: Wem helfe ich? dem. Bei wem arbeite ich? bei der Firma → bei der.",
+        "ar": "هدف الكفاءة: ضمائر الوصل مع Nominativ/Akkusativ/Dativ وحرف الجر\n\nالشرح المنهجي:\nضمير الوصل يطابق الاسم في الجنس والعدد، لكن حالته تأتي من وظيفته في الجملة: der Mann, dem ich helfe؛ die Firma, bei der ich arbeite. حرف الجر يسبق الضمير.\n\nأمثلة مترابطة:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da.\n\nالمجال العملي:\nفي العمل أو الدائرة أو البحث عن سكن أو التقارير: تحديد الشخص أو الجهة أو الشيء أو الشرط المقصود بدقة.\n\nتشخيص الأخطاء:\nحدد حالة ضمير الوصل من داخل الجملة الموصولة: Wem helfe ich? dem. Bei wem arbeite ich? bei der Firma → bei der.",
+        "en": "Competence goal: Relative pronouns in nominative, accusative, dative and with prepositions\n\nSystem:\nThe relative pronoun matches the antecedent in gender/number, while its case comes from its function in the clause: der Mann, dem ich helfe; die Firma, bei der ich arbeite. Prepositions come before the relative pronoun.\n\nExample network:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da.\n\nPractice domain:\nWorkplace, public office, housing search or reports: explain exactly which person, office, object or condition is meant.\n\nError diagnosis:\nDetermine relative pronoun case inside the relative clause: Wem helfe ich? dem. Bei wem arbeite ich? bei der Firma → bei der."
+      }
+    },
+    {
+      "id": "b1_u04_l01_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u04_l01_w1",
+          "german": "zuständig",
+          "translation": {
+            "de": "responsible",
+            "ar": "مسؤول/مختص",
+            "en": "responsible"
+          }
+        },
+        {
+          "id": "b1_u04_l01_w2",
+          "german": "sich wenden an",
+          "translation": {
+            "de": "contact/turn to",
+            "ar": "يتوجه إلى",
+            "en": "contact/turn to"
+          }
+        },
+        {
+          "id": "b1_u04_l01_w3",
+          "german": "der Ansprechpartner",
+          "translation": {
+            "de": "contact person",
+            "ar": "جهة/شخص التواصل",
+            "en": "contact person"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u04_l01_act03",
+      "type": "text_intro",
+      "title": {
+        "de": "Analyse & Transfer",
+        "ar": "التحليل والتطبيق",
+        "en": "Analysis & transfer"
+      },
+      "body": {
+        "de": "Regel:\nDas Relativpronomen stimmt in Genus/Numerus mit dem Bezugswort überein, der Kasus kommt aus dem Relativsatz: der Mann, dem ich helfe; die Firma, bei der ich arbeite. Präpositionen stehen vor dem Relativpronomen. Das Verb bleibt am Ende.\n\nKontrastive Beispiele:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da.",
+        "ar": "القاعدة:\nضمير الوصل يطابق الاسم في الجنس والعدد، لكن حالته تأتي من وظيفته في الجملة: der Mann, dem ich helfe؛ die Firma, bei der ich arbeite. حرف الجر يسبق الضمير.\n\nأمثلة:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da.",
+        "en": "Rule:\nThe relative pronoun matches the antecedent in gender/number, while its case comes from its function in the clause: der Mann, dem ich helfe; die Firma, bei der ich arbeite. Prepositions come before the relative pronoun.\n\nExamples:\n• Das ist der Kollege, dem ich geholfen habe.\n• Die Firma, bei der ich arbeite, ist international.\n• Das Formular, auf das ich warte, ist noch nicht da."
+      }
+    },
+    {
+      "id": "b1_u04_l01_act04",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung passt im Kontext?",
+        "ar": "ما المعنى الأنسب في السياق؟",
+        "en": "Which meaning best fits the context?"
+      },
+      "question": {
+        "de": "zuständig",
+        "ar": "zuständig",
+        "en": "zuständig"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "responsible",
+            "ar": "مسؤول/مختص",
+            "en": "responsible"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "contact/turn to",
+            "ar": "يتوجه إلى",
+            "en": "contact/turn to"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "contact person",
+            "ar": "جهة/شخص التواصل",
+            "en": "contact person"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u04_l01_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist der Mann, {answer} ich geholfen habe.",
+        "ar": "Das ist der Mann, {answer} ich geholfen habe.",
+        "en": "Das ist der Mann, {answer} ich geholfen habe."
+      },
+      "acceptedAnswers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "b1_u04_l01_act06",
+      "type": "text_intro",
+      "title": {
+        "de": "Schreiben, Sprechen, Selbstkorrektur",
+        "ar": "الكتابة والتحدث والتصحيح الذاتي",
+        "en": "Writing, speaking & self-correction"
+      },
+      "body": {
+        "de": "Produktionsauftrag: Schreibe einen strukturierten Text mit 80–120 Wörtern zu „Relativsätze in allen wichtigen Fällen“. Verwende die Zielstruktur mindestens dreimal, zwei Konnektoren und einen abschließenden Kontrollsatz. Lies den Text danach laut und überarbeite unklare Bezüge.",
+        "ar": "مهمة إنتاجية: اكتب نصًا منظمًا من 80–120 كلمة حول «الجمل الموصولة في الحالات الأساسية كلها». استخدم البنية المستهدفة ثلاث مرات على الأقل ورابطين ثم راجع الإحالات والغموض واقرأ النص بصوت مرتفع.",
+        "en": "Production task: Write a structured 80–120 word text about “Relative clauses in key cases”. Use the target structure at least three times, two connectors and a final self-check sentence; then revise unclear references."
+      }
+    },
+    {
+      "id": "b1_u04_l01_act07",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1-Handlungskompetenz",
+        "ar": "كفاءة B1 العملية",
+        "en": "B1 action competence"
+      },
+      "canDo": [
+        "B1_U04_FOUNDATION"
+      ]
+    }
+  ]
+}
