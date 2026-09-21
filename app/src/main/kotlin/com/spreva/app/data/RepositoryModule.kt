@@ -9,6 +9,7 @@ import com.spreva.domain.curriculum.CurriculumRepository
 import com.spreva.domain.learning.LearningEventLog
 import com.spreva.domain.learning.LearningRepository
 import com.spreva.domain.learning.LearningIntelligenceRepository
+import com.spreva.domain.learning.PlacementQuestionRepository
 import com.spreva.domain.learning.ReviewCardProvisioner
 import com.spreva.domain.review.ReviewRepository
 import dagger.Binds
@@ -31,6 +32,11 @@ abstract class RepositoryModule {
     abstract fun bindLearningIntelligenceRepository(
         impl: OfflineFirstLearningIntelligenceRepository,
     ): LearningIntelligenceRepository
+
+    @Binds
+    abstract fun bindPlacementQuestionRepository(
+        impl: BundledPlacementQuestionRepository,
+    ): PlacementQuestionRepository
 
     @Binds
     abstract fun bindLearningEventLog(impl: RoomLearningEventLog): LearningEventLog

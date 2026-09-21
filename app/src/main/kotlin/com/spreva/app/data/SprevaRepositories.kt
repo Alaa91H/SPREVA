@@ -23,12 +23,14 @@ import com.spreva.core.model.ReviewCardId
 import com.spreva.core.model.ReviewRating
 import com.spreva.core.model.SkillArea
 import com.spreva.core.model.LearningActivity
+import com.spreva.core.model.PlacementQuestion
 import com.spreva.domain.curriculum.CurriculumRepository
 import com.spreva.domain.learning.LearningEventLog
 import com.spreva.domain.learning.LearningRepository
 import com.spreva.domain.learning.ActivityEvidence
 import com.spreva.domain.learning.LearningIntelligenceEngine
 import com.spreva.domain.learning.LearningIntelligenceRepository
+import com.spreva.domain.learning.PlacementQuestionRepository
 import com.spreva.domain.learning.ReviewCardProvisioner
 import com.spreva.domain.review.ReviewRepository
 import java.time.Instant
@@ -257,6 +259,42 @@ class OfflineFirstLearningIntelligenceRepository @Inject constructor(
 
     private fun String.containsAnyIgnoreCase(vararg needles: String): Boolean =
         needles.any { contains(it, ignoreCase = true) }
+}
+
+@Singleton
+class BundledPlacementQuestionRepository @Inject constructor(
+    private val contentSource: ContentSource,
+) : PlacementQuestionRepository {
+
+    override suspend fun questions(): List<PlacementQuestion> {
+        val course = contentSource.loadCourse(OfflineFirstCurriculumRepository.COURSE_ID)
+        return course.levels
+            .filter { it.cefr in com.spreva.domain.learning.AdaptivePlacementEngine.LEVELS }
+            .flatMap { level ->
+                val examUnit = level.units.firstOrNull { unit ->
+                    unit.title.de.contains("Prüfungs-", ignoreCase = true) ||
+                        unit.title.en?.contains("Exam & Skills", ignoreCase = true) == true
+                } ?: return@flatMap emptyList()
+
+                examUnit.lessons
+                    .flatMap { summary ->
+                        contentSource.loadLesson(summary.id).activities
+                    }
+                    .filterIsInstance<LearningActivity.MultipleChoice>()
+                    .distinctBy { it.id.value }
+                    .take(12)
+                    .map { activity ->
+                        PlacementQuestion(
+                            id = activity.id.value,
+                            level = level.cefr,
+                            prompt = activity.prompt,
+                            question = activity.question,
+                            options = activity.options,
+                            correctOptionId = activity.correctOptionId,
+                        )
+                    }
+            }
+    }
 }
 
 @Singleton
