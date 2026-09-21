@@ -40,6 +40,15 @@
                 "en": "Introducing yourself confidently"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u01_l03",
+              "title": {
+                "de": "Intensivtraining: Begrüßung & Vorstellung",
+                "ar": "تدريب مكثف: التحية والتعارف",
+                "en": "Mastery lab: Greetings & introductions"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -68,6 +77,15 @@
                 "en": "Giving name, address and email correctly"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u02_l03",
+              "title": {
+                "de": "Intensivtraining: Alphabet, Aussprache & persönliche Daten",
+                "ar": "تدريب مكثف: الأبجدية والنطق والبيانات الشخصية",
+                "en": "Mastery lab: Alphabet, pronunciation & personal data"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -96,6 +114,15 @@
                 "en": "Arranging and understanding an appointment"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u03_l03",
+              "title": {
+                "de": "Intensivtraining: Zahlen, Uhrzeit & Termine",
+                "ar": "تدريب مكثف: الأرقام والوقت والمواعيد",
+                "en": "Mastery lab: Numbers, time & appointments"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -124,6 +151,15 @@
                 "en": "Talking about family and important people"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u04_l03",
+              "title": {
+                "de": "Intensivtraining: Familie & Beziehungen",
+                "ar": "تدريب مكثف: العائلة والعلاقات",
+                "en": "Mastery lab: Family & relationships"
+              },
+              "activityCount": 14
             }
           ]
         },
@@ -152,6 +188,15 @@
                 "en": "Describing a home, rooms and furniture"
               },
               "activityCount": 7
+            },
+            {
+              "id": "a1_u05_l03",
+              "title": {
+                "de": "Intensivtraining: Wohnen & Zuhause",
+                "ar": "تدريب مكثف: السكن والمنزل",
+                "en": "Mastery lab: Home & housing"
+              },
+              "activityCount": 14
             }
           ]
         },
