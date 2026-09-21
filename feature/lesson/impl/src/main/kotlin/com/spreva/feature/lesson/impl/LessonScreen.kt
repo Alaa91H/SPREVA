@@ -29,6 +29,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -360,7 +361,9 @@ private fun LessonContent(
                 needsRubric -> state.canSubmitRubric && !state.rubricSaving
                 else -> true
             },
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier
+                .fillMaxWidth()
+                .testTag("lesson_primary_action"),
         ) {
             Text(
                 when {
@@ -418,7 +421,9 @@ private fun ProductionRubricPanel(
                                     onRatingChanged(criterion.id, rating)
                                 }
                             },
-                            modifier = Modifier.fillMaxWidth(),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .testTag("rubric_${criterion.id}_${rating.name}"),
                         ) {
                             Row(
                                 Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
@@ -875,7 +880,7 @@ private fun SummaryRenderer(
         )
         if (state.objectiveAttempted > 0) {
             val percent = (state.objectiveCorrect * 100) / state.objectiveAttempted
-            Card(Modifier.fillMaxWidth()) {
+            Card(Modifier.fillMaxWidth().testTag("summary_objective")) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Text(
                         stringResource(
@@ -894,7 +899,7 @@ private fun SummaryRenderer(
             }
         }
         if (state.productiveAttempted > 0) {
-            Card(Modifier.fillMaxWidth()) {
+            Card(Modifier.fillMaxWidth().testTag("summary_productive")) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Text(
                         stringResource(

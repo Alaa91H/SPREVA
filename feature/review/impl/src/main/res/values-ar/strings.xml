@@ -22,7 +22,7 @@
     <string name="spreva_review_mastery_title">إتقان المهارات</string>
     <string name="spreva_review_mastery_score">الإتقان %1$d%% · موثوقية القياس %2$d%%</string>
     <string name="spreva_review_productive_evidence">دليل إتمام مهام الإنتاج: %1$d / %2$d</string>
-    <string name="spreva_review_mastery_disclaimer">درجات الإتقان مبنية على الإجابات الموضوعية مع وزن للثقة. تبقى الكتابة والكلام دليل إتمام فقط إلى أن يتوفر تقييم حقيقي بمعايير.</string>
+    <string name="spreva_review_mastery_disclaimer">إتقان المهام الموضوعية موزون بالثقة. يبقى إتمام الكتابة والكلام منفصلًا، والمراجعات الذاتية بالمعايير هي دليل للتأمل وليست درجة آلية للكفاءة.</string>
     <string name="spreva_review_focus_title">التركيز المقترح</string>
     <string name="spreva_review_focus_detail">%1$s · الأولوية %2$d%% · %3$s</string>
     <string name="spreva_review_no_focus_needed">لا يوجد نمط ضعف متكرر قوي بما يكفي بعد. واصل التدريب لبناء ملف أدق.</string>
@@ -53,4 +53,6 @@
     <string name="spreva_review_days">%1$d يوم</string>
     <string name="spreva_review_recommended_level">مستوى البداية المقترح المحفوظ: %1$s</string>
     <string name="spreva_review_focus_detail_mastery">%1$s · الأولوية %2$d%% · %3$s · إتقان الموضوع %4$d%% (موثوقية %5$d%%)</string>
+    <string name="spreva_review_retention_target">هدف الاحتفاظ في FSRS: %1$d%%</string>
+    <string name="spreva_review_retention_target_note">يبدأ عند 90٪. بعد 50 مراجعة على الأقل قد يعدّل SPREVA هدف الجدولة بصورة محافظة اعتمادًا على سجل الاسترجاع الحديث. تبقى أوزان نموذج FSRS دون تغيير.</string>
 </resources>

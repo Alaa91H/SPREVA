@@ -46,6 +46,7 @@ fun PracticeRoute(
     val dueCount by viewModel.dueCount.collectAsStateWithLifecycle()
     val profile by viewModel.profile.collectAsStateWithLifecycle()
     val recommendedLevel by viewModel.recommendedLevel.collectAsStateWithLifecycle()
+    val reviewRetentionTarget by viewModel.reviewRetentionTarget.collectAsStateWithLifecycle()
     val uiLanguage by viewModel.uiLanguage.collectAsStateWithLifecycle()
 
     Column(
@@ -86,6 +87,18 @@ fun PracticeRoute(
                         style = MaterialTheme.typography.bodyMedium,
                     )
                 }
+                Text(
+                    stringResource(
+                        R.string.spreva_review_retention_target,
+                        (reviewRetentionTarget * 100).toInt(),
+                    ),
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                Text(
+                    stringResource(R.string.spreva_review_retention_target_note),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
                 OutlinedButton(onClick = onStartPlacement, modifier = Modifier.fillMaxWidth()) {
                     Text(stringResource(R.string.spreva_review_start_placement))
                 }

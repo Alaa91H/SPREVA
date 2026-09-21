@@ -54,6 +54,10 @@ class PracticeViewModel @Inject constructor(
     val recommendedLevel: StateFlow<CefrLevel?> = settingsDataSource.settings
         .map { it.recommendedLevel }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
+    val reviewRetentionTarget: StateFlow<Double> = settingsDataSource.settings
+        .map { it.reviewRetentionTarget }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), 0.90)
 }
 
 /**
