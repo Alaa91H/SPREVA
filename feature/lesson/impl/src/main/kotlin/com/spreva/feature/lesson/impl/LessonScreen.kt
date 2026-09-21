@@ -215,7 +215,7 @@ private fun LessonContent(
                 verticalArrangement = Arrangement.spacedBy(16.dp),
             ) {
                 when (current) {
-                    is LearningActivity.TextIntro -> TextIntroRenderer(current)
+                    is LearningActivity.TextIntro -> TextIntroRenderer(current, uiLanguage)
                     is LearningActivity.VocabularyIntro -> VocabularyRenderer(
                         activity = current,
                         onSpeakWord = onSpeakWord,
@@ -226,6 +226,7 @@ private fun LessonContent(
                         selectedOptionId = state.selectedOptionId,
                         answerState = state.answerState,
                         onOptionSelected = onOptionSelected,
+                        uiLanguage = uiLanguage,
                     )
 
                     is LearningActivity.Cloze -> ClozeRenderer(
@@ -251,9 +252,10 @@ private fun LessonContent(
                         onStopRecording = onStopRecording,
                         onPlayOwn = onPlayOwnRecording,
                         onRequestPermission = onRequestRecordPermission,
+                        uiLanguage = uiLanguage,
                     )
 
-                    is LearningActivity.LessonSummaryActivity -> SummaryRenderer(current, state.completedCount)
+                    is LearningActivity.LessonSummaryActivity -> SummaryRenderer(current, state.completedCount, uiLanguage)
                 }
             }
         }
@@ -319,10 +321,11 @@ private fun SpeakingRepeatRenderer(
     onStopRecording: () -> Unit,
     onPlayOwn: () -> Unit,
     onRequestPermission: () -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
         activity.prompt?.let { prompt ->
-            Text(prompt.de, style = MaterialTheme.typography.titleMedium)
+            Text(prompt.resolveFor(uiLanguage), style = MaterialTheme.typography.titleMedium)
         }
         Text(activity.text.de, style = MaterialTheme.typography.headlineSmall)
 
@@ -391,10 +394,13 @@ private fun SimilarityBar(score: Float) {
 
 /** Big, selectable German text (plan sections 37/51). */
 @Composable
-private fun TextIntroRenderer(activity: LearningActivity.TextIntro) {
+private fun TextIntroRenderer(
+    activity: LearningActivity.TextIntro,
+    uiLanguage: com.spreva.core.model.UiLanguage,
+) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(activity.title.de, style = MaterialTheme.typography.headlineSmall)
-        Text(activity.body.de, style = MaterialTheme.typography.bodyLarge)
+        Text(activity.title.resolveFor(uiLanguage), style = MaterialTheme.typography.headlineSmall)
+        Text(activity.body.resolveFor(uiLanguage), style = MaterialTheme.typography.bodyLarge)
     }
 }
 
@@ -454,8 +460,14 @@ private fun MultipleChoiceRenderer(
     selectedOptionId: String?,
     answerState: AnswerState?,
     onOptionSelected: (String) -> Unit,
+    uiLanguage: com.spreva.core.model.UiLanguage,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text(
+            text = activity.prompt.resolveFor(uiLanguage),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
         Text(activity.question.de, style = MaterialTheme.typography.titleLarge)
         activity.options.forEach { option ->
             val selected = selectedOptionId == option.id
@@ -469,7 +481,7 @@ private fun MultipleChoiceRenderer(
                     verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
                 ) {
                     RadioButton(selected = selected, onClick = null)
-                    Text(option.text.de, style = MaterialTheme.typography.bodyLarge)
+                    Text(option.text.resolveFor(uiLanguage), style = MaterialTheme.typography.bodyLarge)
                 }
             }
         }
@@ -560,9 +572,13 @@ private fun ClozeRenderer(
 }
 
 @Composable
-private fun SummaryRenderer(activity: LearningActivity.LessonSummaryActivity, completedCount: Int) {
+private fun SummaryRenderer(
+    activity: LearningActivity.LessonSummaryActivity,
+    completedCount: Int,
+    uiLanguage: com.spreva.core.model.UiLanguage,
+) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(activity.title.de, style = MaterialTheme.typography.headlineSmall)
+        Text(activity.title.resolveFor(uiLanguage), style = MaterialTheme.typography.headlineSmall)
         Text(
             text = stringResource(R.string.spreva_lesson_completed),
             style = MaterialTheme.typography.bodyLarge,
