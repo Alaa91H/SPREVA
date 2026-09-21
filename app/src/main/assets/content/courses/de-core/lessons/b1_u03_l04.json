@@ -1,0 +1,378 @@
+{
+  "id": "b1_u03_l04",
+  "unitId": "de-core-b1-u03",
+  "title": {
+    "de": "Falltraining: Wünsche, Höflichkeit & Hypothesen",
+    "ar": "تدريب الحالات: الرغبات والتهذيب والافتراض",
+    "en": "Casebook: Wishes, politeness & hypotheses"
+  },
+  "canDo": [
+    "B1_U03_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u03_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Wünsche, Höflichkeit & Hypothesen\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• wäre/hätte/könnte/müsste sind bevorzugte eigenständige Formen\n• würde + Infinitiv für viele andere Verben\n• Konjunktiv II für Irrealität, Rat und besondere Höflichkeit",
+        "ar": "الموضوع: الرغبات والتهذيب والافتراض\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• wäre/hätte/könnte/müsste sind bevorzugte eigenständige Formen\n• würde + Infinitiv für viele andere Verben\n• Konjunktiv II für Irrealität, Rat und besondere Höflichkeit",
+        "en": "Topic: Wishes, politeness & hypotheses\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• wäre/hätte/könnte/müsste sind bevorzugte eigenständige Formen\n• würde + Infinitiv für viele andere Verben\n• Konjunktiv II für Irrealität, Rat und besondere Höflichkeit"
+      }
+    },
+    {
+      "id": "b1_u03_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u03_l04_w1",
+          "german": "wäre",
+          "translation": {
+            "de": "wäre",
+            "ar": "لو كان",
+            "en": "would be"
+          }
+        },
+        {
+          "id": "b1_u03_l04_w2",
+          "german": "hätte",
+          "translation": {
+            "de": "hätte",
+            "ar": "لو كان لديه",
+            "en": "would have"
+          }
+        },
+        {
+          "id": "b1_u03_l04_w3",
+          "german": "könnte",
+          "translation": {
+            "de": "könnte",
+            "ar": "يمكن أن",
+            "en": "could"
+          }
+        },
+        {
+          "id": "b1_u03_l04_w4",
+          "german": "müsste",
+          "translation": {
+            "de": "müsste",
+            "ar": "ينبغي/يجب افتراضيًا",
+            "en": "would have to"
+          }
+        },
+        {
+          "id": "b1_u03_l04_w5",
+          "german": "würde",
+          "translation": {
+            "de": "würde",
+            "ar": "كان سوف",
+            "en": "would"
+          }
+        },
+        {
+          "id": "b1_u03_l04_w6",
+          "german": "an Ihrer Stelle",
+          "translation": {
+            "de": "an Ihrer Stelle",
+            "ar": "لو كنت مكانك",
+            "en": "in your place"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u03_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wenn ich mehr Zeit {answer}, würde ich lernen.",
+        "ar": "Wenn ich mehr Zeit {answer}, würde ich lernen.",
+        "en": "Wenn ich mehr Zeit {answer}, würde ich lernen."
+      },
+      "acceptedAnswers": [
+        "hätte"
+      ]
+    },
+    {
+      "id": "b1_u03_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} gern näher am Zentrum.",
+        "ar": "Ich {answer} gern näher am Zentrum.",
+        "en": "Ich {answer} gern näher am Zentrum."
+      },
+      "acceptedAnswers": [
+        "wäre"
+      ]
+    },
+    {
+      "id": "b1_u03_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "{answer} Sie mir bitte helfen?",
+        "ar": "{answer} Sie mir bitte helfen?",
+        "en": "{answer} Sie mir bitte helfen?"
+      },
+      "acceptedAnswers": [
+        "Könnten"
+      ]
+    },
+    {
+      "id": "b1_u03_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "An Ihrer Stelle {answer} ich nachfragen.",
+        "ar": "An Ihrer Stelle {answer} ich nachfragen.",
+        "en": "An Ihrer Stelle {answer} ich nachfragen."
+      },
+      "acceptedAnswers": [
+        "würde"
+      ]
+    },
+    {
+      "id": "b1_u03_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dann {answer} ich früher anfangen.",
+        "ar": "Dann {answer} ich früher anfangen.",
+        "en": "Dann {answer} ich früher anfangen."
+      },
+      "acceptedAnswers": [
+        "müsste"
+      ]
+    },
+    {
+      "id": "b1_u03_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Es {answer} besser, zuerst anzurufen.",
+        "ar": "Es {answer} besser, zuerst anzurufen.",
+        "en": "Es {answer} besser, zuerst anzurufen."
+      },
+      "acceptedAnswers": [
+        "wäre"
+      ]
+    },
+    {
+      "id": "b1_u03_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "wäre",
+        "ar": "wäre",
+        "en": "wäre"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wäre",
+            "ar": "لو كان",
+            "en": "would be"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "hätte",
+            "ar": "لو كان لديه",
+            "en": "would have"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "könnte",
+            "ar": "يمكن أن",
+            "en": "could"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u03_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "hätte",
+        "ar": "hätte",
+        "en": "hätte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "hätte",
+            "ar": "لو كان لديه",
+            "en": "would have"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "könnte",
+            "ar": "يمكن أن",
+            "en": "could"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "müsste",
+            "ar": "ينبغي/يجب افتراضيًا",
+            "en": "would have to"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u03_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "könnte",
+        "ar": "könnte",
+        "en": "könnte"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "könnte",
+            "ar": "يمكن أن",
+            "en": "could"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "müsste",
+            "ar": "ينبغي/يجب افتراضيًا",
+            "en": "would have to"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "würde",
+            "ar": "كان سوف",
+            "en": "would"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u03_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "müsste",
+        "ar": "müsste",
+        "en": "müsste"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "müsste",
+            "ar": "ينبغي/يجب افتراضيًا",
+            "en": "would have to"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "würde",
+            "ar": "كان سوف",
+            "en": "would"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "an Ihrer Stelle",
+            "ar": "لو كنت مكانك",
+            "en": "in your place"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u03_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ Wenn ich hätte Zeit → ✅ Wenn ich Zeit hätte.\n• ❌ würde sein → meist besser ✅ wäre\n• ❌ würde haben → meist besser ✅ hätte\n• ❌ Könnten Sie helfen mir? → ✅ Könnten Sie mir helfen?\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ Wenn ich hätte Zeit → ✅ Wenn ich Zeit hätte.\n• ❌ würde sein → meist besser ✅ wäre\n• ❌ würde haben → meist besser ✅ hätte\n• ❌ Könnten Sie helfen mir? → ✅ Könnten Sie mir helfen?\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ Wenn ich hätte Zeit → ✅ Wenn ich Zeit hätte.\n• ❌ würde sein → meist besser ✅ wäre\n• ❌ würde haben → meist besser ✅ hätte\n• ❌ Könnten Sie helfen mir? → ✅ Könnten Sie mir helfen?\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u03_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• wäre/hätte/könnte/müsste sind bevorzugte eigenständige Formen\n• würde + Infinitiv für viele andere Verben\n• Konjunktiv II für Irrealität, Rat und besondere Höflichkeit\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• wäre/hätte/könnte/müsste sind bevorzugte eigenständige Formen\n• würde + Infinitiv für viele andere Verben\n• Konjunktiv II für Irrealität, Rat und besondere Höflichkeit\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• wäre/hätte/könnte/müsste sind bevorzugte eigenständige Formen\n• würde + Infinitiv für viele andere Verben\n• Konjunktiv II für Irrealität, Rat und besondere Höflichkeit\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u03_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Löse vier Probleme (Arbeit, Wohnung, Lernen, Termin) mit mindestens zwei hypothetischen Optionen und einem höflichen Rat.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Löse vier Probleme (Arbeit, Wohnung, Lernen, Termin) mit mindestens zwei hypothetischen Optionen und einem höflichen Rat.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Löse vier Probleme (Arbeit, Wohnung, Lernen, Termin) mit mindestens zwei hypothetischen Optionen und einem höflichen Rat.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u03_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U03_CASEBOOK"
+      ]
+    }
+  ]
+}

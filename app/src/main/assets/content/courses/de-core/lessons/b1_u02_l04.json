@@ -1,0 +1,378 @@
+{
+  "id": "b1_u02_l04",
+  "unitId": "de-core-b1-u02",
+  "title": {
+    "de": "Falltraining: Passiv in Alltag & Arbeit",
+    "ar": "تدريب الحالات: المبني للمجهول في الحياة والعمل",
+    "en": "Casebook: Passive voice in everyday and work contexts"
+  },
+  "canDo": [
+    "B1_U02_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u02_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Passiv in Alltag & Arbeit\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• Präsens: wird + Partizip II\n• Präteritum: wurde + Partizip II\n• Perfekt: ist + Partizip II + worden; von + Dativ für Akteur",
+        "ar": "الموضوع: المبني للمجهول في الحياة والعمل\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• Präsens: wird + Partizip II\n• Präteritum: wurde + Partizip II\n• Perfekt: ist + Partizip II + worden; von + Dativ für Akteur",
+        "en": "Topic: Passive voice in everyday and work contexts\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• Präsens: wird + Partizip II\n• Präteritum: wurde + Partizip II\n• Perfekt: ist + Partizip II + worden; von + Dativ für Akteur"
+      }
+    },
+    {
+      "id": "b1_u02_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u02_l04_w1",
+          "german": "wird geprüft",
+          "translation": {
+            "de": "wird geprüft",
+            "ar": "يتم فحصه",
+            "en": "is being checked"
+          }
+        },
+        {
+          "id": "b1_u02_l04_w2",
+          "german": "wurde geprüft",
+          "translation": {
+            "de": "wurde geprüft",
+            "ar": "تم فحصه",
+            "en": "was checked"
+          }
+        },
+        {
+          "id": "b1_u02_l04_w3",
+          "german": "ist geprüft worden",
+          "translation": {
+            "de": "ist geprüft worden",
+            "ar": "تم فحصه بالفعل",
+            "en": "has been checked"
+          }
+        },
+        {
+          "id": "b1_u02_l04_w4",
+          "german": "von",
+          "translation": {
+            "de": "von",
+            "ar": "من قِبل",
+            "en": "by"
+          }
+        },
+        {
+          "id": "b1_u02_l04_w5",
+          "german": "bearbeiten",
+          "translation": {
+            "de": "bearbeiten",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "b1_u02_l04_w6",
+          "german": "genehmigen",
+          "translation": {
+            "de": "genehmigen",
+            "ar": "يوافق",
+            "en": "approve"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u02_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag {answer} heute geprüft.",
+        "ar": "Der Antrag {answer} heute geprüft.",
+        "en": "Der Antrag {answer} heute geprüft."
+      },
+      "acceptedAnswers": [
+        "wird"
+      ]
+    },
+    {
+      "id": "b1_u02_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Rechnung {answer} gestern bezahlt.",
+        "ar": "Die Rechnung {answer} gestern bezahlt.",
+        "en": "Die Rechnung {answer} gestern bezahlt."
+      },
+      "acceptedAnswers": [
+        "wurde"
+      ]
+    },
+    {
+      "id": "b1_u02_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag ist bereits geprüft {answer}.",
+        "ar": "Der Antrag ist bereits geprüft {answer}.",
+        "en": "Der Antrag ist bereits geprüft {answer}."
+      },
+      "acceptedAnswers": [
+        "worden"
+      ]
+    },
+    {
+      "id": "b1_u02_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Bericht wurde {answer} der Leitung geprüft.",
+        "ar": "Der Bericht wurde {answer} der Leitung geprüft.",
+        "en": "Der Bericht wurde {answer} der Leitung geprüft."
+      },
+      "acceptedAnswers": [
+        "von"
+      ]
+    },
+    {
+      "id": "b1_u02_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die Unterlagen werden morgen {answer}.",
+        "ar": "Die Unterlagen werden morgen {answer}.",
+        "en": "Die Unterlagen werden morgen {answer}."
+      },
+      "acceptedAnswers": [
+        "bearbeitet"
+      ]
+    },
+    {
+      "id": "b1_u02_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Antrag wurde schließlich {answer}.",
+        "ar": "Der Antrag wurde schließlich {answer}.",
+        "en": "Der Antrag wurde schließlich {answer}."
+      },
+      "acceptedAnswers": [
+        "genehmigt"
+      ]
+    },
+    {
+      "id": "b1_u02_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "wird geprüft",
+        "ar": "wird geprüft",
+        "en": "wird geprüft"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wird geprüft",
+            "ar": "يتم فحصه",
+            "en": "is being checked"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "wurde geprüft",
+            "ar": "تم فحصه",
+            "en": "was checked"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ist geprüft worden",
+            "ar": "تم فحصه بالفعل",
+            "en": "has been checked"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u02_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "wurde geprüft",
+        "ar": "wurde geprüft",
+        "en": "wurde geprüft"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "wurde geprüft",
+            "ar": "تم فحصه",
+            "en": "was checked"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ist geprüft worden",
+            "ar": "تم فحصه بالفعل",
+            "en": "has been checked"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "von",
+            "ar": "من قِبل",
+            "en": "by"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u02_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "ist geprüft worden",
+        "ar": "ist geprüft worden",
+        "en": "ist geprüft worden"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ist geprüft worden",
+            "ar": "تم فحصه بالفعل",
+            "en": "has been checked"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "von",
+            "ar": "من قِبل",
+            "en": "by"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "bearbeiten",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u02_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "von",
+        "ar": "von",
+        "en": "von"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "von",
+            "ar": "من قِبل",
+            "en": "by"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "bearbeiten",
+            "ar": "يعالج",
+            "en": "process"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "genehmigen",
+            "ar": "يوافق",
+            "en": "approve"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u02_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ wird prüfen → ✅ wird geprüft\n• ❌ ist geworden geprüft → ✅ ist geprüft worden\n• ❌ wurde von die Firma → ✅ wurde von der Firma\n• ❌ Passiv verwenden, obwohl Akteur wichtig ist → manchmal Aktiv klarer.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ wird prüfen → ✅ wird geprüft\n• ❌ ist geworden geprüft → ✅ ist geprüft worden\n• ❌ wurde von die Firma → ✅ wurde von der Firma\n• ❌ Passiv verwenden, obwohl Akteur wichtig ist → manchmal Aktiv klarer.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ wird prüfen → ✅ wird geprüft\n• ❌ ist geworden geprüft → ✅ ist geprüft worden\n• ❌ wurde von die Firma → ✅ wurde von der Firma\n• ❌ Passiv verwenden, obwohl Akteur wichtig ist → manchmal Aktiv klarer.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u02_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• Präsens: wird + Partizip II\n• Präteritum: wurde + Partizip II\n• Perfekt: ist + Partizip II + worden; von + Dativ für Akteur\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• Präsens: wird + Partizip II\n• Präteritum: wurde + Partizip II\n• Perfekt: ist + Partizip II + worden; von + Dativ für Akteur\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• Präsens: wird + Partizip II\n• Präteritum: wurde + Partizip II\n• Perfekt: ist + Partizip II + worden; von + Dativ für Akteur\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u02_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Beschreibe fünf Arbeits- oder Behördenprozesse in Präsens, Präteritum und Perfekt Passiv. Formuliere danach jeweils eine aktive Alternative.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Beschreibe fünf Arbeits- oder Behördenprozesse in Präsens, Präteritum und Perfekt Passiv. Formuliere danach jeweils eine aktive Alternative.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Beschreibe fünf Arbeits- oder Behördenprozesse in Präsens, Präteritum und Perfekt Passiv. Formuliere danach jeweils eine aktive Alternative.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u02_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U02_CASEBOOK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "id": "b1_u09_l04",
+  "unitId": "de-core-b1-u09",
+  "title": {
+    "de": "Falltraining: Arbeitsplatz & Besprechungen",
+    "ar": "تدريب الحالات: مكان العمل والاجتماعات",
+    "en": "Casebook: Workplace & meetings"
+  },
+  "canDo": [
+    "B1_U09_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u09_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Arbeitsplatz & Besprechungen\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• zustimmen + Dativ; ablehnen + Akkusativ\n• vorschlagen: etwas vorschlagen / vorschlagen, dass …\n• Gesprächssteuerung mit höflichen Signalen",
+        "ar": "الموضوع: مكان العمل والاجتماعات\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• zustimmen + Dativ; ablehnen + Akkusativ\n• vorschlagen: etwas vorschlagen / vorschlagen, dass …\n• Gesprächssteuerung mit höflichen Signalen",
+        "en": "Topic: Workplace & meetings\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• zustimmen + Dativ; ablehnen + Akkusativ\n• vorschlagen: etwas vorschlagen / vorschlagen, dass …\n• Gesprächssteuerung mit höflichen Signalen"
+      }
+    },
+    {
+      "id": "b1_u09_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u09_l04_w1",
+          "german": "vorschlagen",
+          "translation": {
+            "de": "vorschlagen",
+            "ar": "يقترح",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "b1_u09_l04_w2",
+          "german": "zustimmen",
+          "translation": {
+            "de": "zustimmen",
+            "ar": "يوافق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "b1_u09_l04_w3",
+          "german": "ablehnen",
+          "translation": {
+            "de": "ablehnen",
+            "ar": "يرفض",
+            "en": "reject"
+          }
+        },
+        {
+          "id": "b1_u09_l04_w4",
+          "german": "ergänzen",
+          "translation": {
+            "de": "ergänzen",
+            "ar": "يضيف",
+            "en": "add"
+          }
+        },
+        {
+          "id": "b1_u09_l04_w5",
+          "german": "festhalten",
+          "translation": {
+            "de": "festhalten",
+            "ar": "يدوّن/يثبت",
+            "en": "record"
+          }
+        },
+        {
+          "id": "b1_u09_l04_w6",
+          "german": "verschieben",
+          "translation": {
+            "de": "verschieben",
+            "ar": "يؤجل",
+            "en": "postpone"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u09_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} vor, den Termin zu verschieben.",
+        "ar": "Ich {answer} vor, den Termin zu verschieben.",
+        "en": "Ich {answer} vor, den Termin zu verschieben."
+      },
+      "acceptedAnswers": [
+        "schlage"
+      ]
+    },
+    {
+      "id": "b1_u09_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} dem Vorschlag zu.",
+        "ar": "Ich {answer} dem Vorschlag zu.",
+        "en": "Ich {answer} dem Vorschlag zu."
+      },
+      "acceptedAnswers": [
+        "stimme"
+      ]
+    },
+    {
+      "id": "b1_u09_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Darf ich kurz etwas {answer}?",
+        "ar": "Darf ich kurz etwas {answer}?",
+        "en": "Darf ich kurz etwas {answer}?"
+      },
+      "acceptedAnswers": [
+        "ergänzen"
+      ]
+    },
+    {
+      "id": "b1_u09_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das müssen wir schriftlich {answer}.",
+        "ar": "Das müssen wir schriftlich {answer}.",
+        "en": "Das müssen wir schriftlich {answer}."
+      },
+      "acceptedAnswers": [
+        "festhalten"
+      ]
+    },
+    {
+      "id": "b1_u09_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir müssen den Termin {answer}.",
+        "ar": "Wir müssen den Termin {answer}.",
+        "en": "Wir müssen den Termin {answer}."
+      },
+      "acceptedAnswers": [
+        "verschieben"
+      ]
+    },
+    {
+      "id": "b1_u09_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Diesen Vorschlag würde ich {answer}.",
+        "ar": "Diesen Vorschlag würde ich {answer}.",
+        "en": "Diesen Vorschlag würde ich {answer}."
+      },
+      "acceptedAnswers": [
+        "ablehnen"
+      ]
+    },
+    {
+      "id": "b1_u09_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "vorschlagen",
+        "ar": "vorschlagen",
+        "en": "vorschlagen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "vorschlagen",
+            "ar": "يقترح",
+            "en": "suggest"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "zustimmen",
+            "ar": "يوافق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ablehnen",
+            "ar": "يرفض",
+            "en": "reject"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u09_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "zustimmen",
+        "ar": "zustimmen",
+        "en": "zustimmen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "zustimmen",
+            "ar": "يوافق",
+            "en": "agree"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ablehnen",
+            "ar": "يرفض",
+            "en": "reject"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "ergänzen",
+            "ar": "يضيف",
+            "en": "add"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u09_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "ablehnen",
+        "ar": "ablehnen",
+        "en": "ablehnen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ablehnen",
+            "ar": "يرفض",
+            "en": "reject"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "ergänzen",
+            "ar": "يضيف",
+            "en": "add"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "festhalten",
+            "ar": "يدوّن/يثبت",
+            "en": "record"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u09_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "ergänzen",
+        "ar": "ergänzen",
+        "en": "ergänzen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "ergänzen",
+            "ar": "يضيف",
+            "en": "add"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "festhalten",
+            "ar": "يدوّن/يثبت",
+            "en": "record"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "verschieben",
+            "ar": "يؤجل",
+            "en": "postpone"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u09_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ Ich bin zustimmen. → ✅ Ich stimme zu.\n• ❌ Ich schlage dass … → ✅ Ich schlage vor, dass …\n• ❌ Ich lehne mit dem Vorschlag ab → ✅ Ich lehne den Vorschlag ab.\n• ❌ Meetingbeitrag ohne Begründung → besser Grund + Alternative.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ Ich bin zustimmen. → ✅ Ich stimme zu.\n• ❌ Ich schlage dass … → ✅ Ich schlage vor, dass …\n• ❌ Ich lehne mit dem Vorschlag ab → ✅ Ich lehne den Vorschlag ab.\n• ❌ Meetingbeitrag ohne Begründung → besser Grund + Alternative.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ Ich bin zustimmen. → ✅ Ich stimme zu.\n• ❌ Ich schlage dass … → ✅ Ich schlage vor, dass …\n• ❌ Ich lehne mit dem Vorschlag ab → ✅ Ich lehne den Vorschlag ab.\n• ❌ Meetingbeitrag ohne Begründung → besser Grund + Alternative.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u09_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• zustimmen + Dativ; ablehnen + Akkusativ\n• vorschlagen: etwas vorschlagen / vorschlagen, dass …\n• Gesprächssteuerung mit höflichen Signalen\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• zustimmen + Dativ; ablehnen + Akkusativ\n• vorschlagen: etwas vorschlagen / vorschlagen, dass …\n• Gesprächssteuerung mit höflichen Signalen\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• zustimmen + Dativ; ablehnen + Akkusativ\n• vorschlagen: etwas vorschlagen / vorschlagen, dass …\n• Gesprächssteuerung mit höflichen Signalen\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u09_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Simuliere Teammeeting mit fünf Beiträgen: Vorschlag, Zustimmung, Einwand, Alternative, Zusammenfassung mit Aufgabe+Frist.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Simuliere Teammeeting mit fünf Beiträgen: Vorschlag, Zustimmung, Einwand, Alternative, Zusammenfassung mit Aufgabe+Frist.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Simuliere Teammeeting mit fünf Beiträgen: Vorschlag, Zustimmung, Einwand, Alternative, Zusammenfassung mit Aufgabe+Frist.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u09_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U09_CASEBOOK"
+      ]
+    }
+  ]
+}

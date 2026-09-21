@@ -1267,6 +1267,15 @@
                 "en": "Mastery lab: Narration & time relationships"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u01_l04",
+              "title": {
+                "de": "Falltraining: Erzählen & zeitliche Zusammenhänge",
+                "ar": "تدريب الحالات: السرد والعلاقات الزمنية",
+                "en": "Casebook: Narration & time relationships"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1304,6 +1313,15 @@
                 "en": "Mastery lab: Passive voice in everyday and work contexts"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u02_l04",
+              "title": {
+                "de": "Falltraining: Passiv in Alltag & Arbeit",
+                "ar": "تدريب الحالات: المبني للمجهول في الحياة والعمل",
+                "en": "Casebook: Passive voice in everyday and work contexts"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1341,6 +1359,15 @@
                 "en": "Mastery lab: Wishes, politeness & hypotheses"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u03_l04",
+              "title": {
+                "de": "Falltraining: Wünsche, Höflichkeit & Hypothesen",
+                "ar": "تدريب الحالات: الرغبات والتهذيب والافتراض",
+                "en": "Casebook: Wishes, politeness & hypotheses"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1378,6 +1405,15 @@
                 "en": "Mastery lab: Relative clauses in key cases"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u04_l04",
+              "title": {
+                "de": "Falltraining: Relativsätze in allen wichtigen Fällen",
+                "ar": "تدريب الحالات: الجمل الموصولة في الحالات الأساسية كلها",
+                "en": "Casebook: Relative clauses in key cases"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1415,6 +1451,15 @@
                 "en": "Mastery lab: Goals & infinitive constructions"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u05_l04",
+              "title": {
+                "de": "Falltraining: Ziele & Infinitivkonstruktionen",
+                "ar": "تدريب الحالات: الأهداف وتراكيب المصدر",
+                "en": "Casebook: Goals & infinitive constructions"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1452,6 +1497,15 @@
                 "en": "Mastery lab: Mastering adjective declension"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u06_l04",
+              "title": {
+                "de": "Falltraining: Adjektivdeklination sicher anwenden",
+                "ar": "تدريب الحالات: إتقان تصريف الصفات",
+                "en": "Casebook: Mastering adjective declension"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1489,6 +1543,15 @@
                 "en": "Mastery lab: Verbs with fixed prepositions"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u07_l04",
+              "title": {
+                "de": "Falltraining: Verben mit Präpositionen",
+                "ar": "تدريب الحالات: الأفعال مع حروف الجر الثابتة",
+                "en": "Casebook: Verbs with fixed prepositions"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1526,6 +1589,15 @@
                 "en": "Mastery lab: Genitive & N-declension"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u08_l04",
+              "title": {
+                "de": "Falltraining: Genitiv & N-Deklination",
+                "ar": "تدريب الحالات: Genitiv وتصريف N",
+                "en": "Casebook: Genitive & N-declension"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1563,6 +1635,15 @@
                 "en": "Mastery lab: Workplace & meetings"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u09_l04",
+              "title": {
+                "de": "Falltraining: Arbeitsplatz & Besprechungen",
+                "ar": "تدريب الحالات: مكان العمل والاجتماعات",
+                "en": "Casebook: Workplace & meetings"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1600,6 +1681,15 @@
                 "en": "Mastery lab: Public offices, applications & formal complaints"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u10_l04",
+              "title": {
+                "de": "Falltraining: Behörden, Anträge & formelle Beschwerden",
+                "ar": "تدريب الحالات: الدوائر والطلبات والشكاوى الرسمية",
+                "en": "Casebook: Public offices, applications & formal complaints"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1637,6 +1727,15 @@
                 "en": "Mastery lab: Health, doctors & insurance"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u11_l04",
+              "title": {
+                "de": "Falltraining: Gesundheit, Arzt & Versicherung",
+                "ar": "تدريب الحالات: الصحة والطبيب والتأمين",
+                "en": "Casebook: Health, doctors & insurance"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1674,6 +1773,15 @@
                 "en": "Mastery lab: Media, opinion & argumentation"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u12_l04",
+              "title": {
+                "de": "Falltraining: Medien, Meinung & Argumentation",
+                "ar": "تدريب الحالات: الإعلام والرأي والحجاج",
+                "en": "Casebook: Media, opinion & argumentation"
+              },
+              "activityCount": 16
             }
           ]
         },
@@ -1711,6 +1819,15 @@
                 "en": "Mastery lab: Environment, society & presentation"
               },
               "activityCount": 14
+            },
+            {
+              "id": "b1_u13_l04",
+              "title": {
+                "de": "Falltraining: Umwelt, Gesellschaft & Präsentation",
+                "ar": "تدريب الحالات: البيئة والمجتمع والعرض",
+                "en": "Casebook: Environment, society & presentation"
+              },
+              "activityCount": 16
             }
           ]
         }

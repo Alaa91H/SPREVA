@@ -1,0 +1,378 @@
+{
+  "id": "b1_u07_l04",
+  "unitId": "de-core-b1-u07",
+  "title": {
+    "de": "Falltraining: Verben mit Präpositionen",
+    "ar": "تدريب الحالات: الأفعال مع حروف الجر الثابتة",
+    "en": "Casebook: Verbs with fixed prepositions"
+  },
+  "canDo": [
+    "B1_U07_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u07_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Verben mit Präpositionen\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• Verb+Präposition als feste Einheit lernen\n• Sachen: darauf/daran/davon/darum; Fragen: worauf/woran/wovon/worum\n• Personen: auf ihn / an sie, nicht darauf",
+        "ar": "الموضوع: الأفعال مع حروف الجر الثابتة\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• Verb+Präposition als feste Einheit lernen\n• Sachen: darauf/daran/davon/darum; Fragen: worauf/woran/wovon/worum\n• Personen: auf ihn / an sie, nicht darauf",
+        "en": "Topic: Verbs with fixed prepositions\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• Verb+Präposition als feste Einheit lernen\n• Sachen: darauf/daran/davon/darum; Fragen: worauf/woran/wovon/worum\n• Personen: auf ihn / an sie, nicht darauf"
+      }
+    },
+    {
+      "id": "b1_u07_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u07_l04_w1",
+          "german": "warten auf",
+          "translation": {
+            "de": "warten auf",
+            "ar": "ينتظر",
+            "en": "wait for"
+          }
+        },
+        {
+          "id": "b1_u07_l04_w2",
+          "german": "teilnehmen an",
+          "translation": {
+            "de": "teilnehmen an",
+            "ar": "يشارك في",
+            "en": "participate in"
+          }
+        },
+        {
+          "id": "b1_u07_l04_w3",
+          "german": "sich kümmern um",
+          "translation": {
+            "de": "sich kümmern um",
+            "ar": "يهتم بـ",
+            "en": "take care of"
+          }
+        },
+        {
+          "id": "b1_u07_l04_w4",
+          "german": "abhängen von",
+          "translation": {
+            "de": "abhängen von",
+            "ar": "يعتمد على",
+            "en": "depend on"
+          }
+        },
+        {
+          "id": "b1_u07_l04_w5",
+          "german": "denken an",
+          "translation": {
+            "de": "denken an",
+            "ar": "يفكر في",
+            "en": "think of"
+          }
+        },
+        {
+          "id": "b1_u07_l04_w6",
+          "german": "sich erinnern an",
+          "translation": {
+            "de": "sich erinnern an",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u07_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich warte {answer} die Antwort.",
+        "ar": "Ich warte {answer} die Antwort.",
+        "en": "Ich warte {answer} die Antwort."
+      },
+      "acceptedAnswers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "b1_u07_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie nimmt {answer} der Besprechung teil.",
+        "ar": "Sie nimmt {answer} der Besprechung teil.",
+        "en": "Sie nimmt {answer} der Besprechung teil."
+      },
+      "acceptedAnswers": [
+        "an"
+      ]
+    },
+    {
+      "id": "b1_u07_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich kümmere mich {answer} den Termin.",
+        "ar": "Ich kümmere mich {answer} den Termin.",
+        "en": "Ich kümmere mich {answer} den Termin."
+      },
+      "acceptedAnswers": [
+        "um"
+      ]
+    },
+    {
+      "id": "b1_u07_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das hängt {answer} der Entscheidung ab.",
+        "ar": "Das hängt {answer} der Entscheidung ab.",
+        "en": "Das hängt {answer} der Entscheidung ab."
+      },
+      "acceptedAnswers": [
+        "von"
+      ]
+    },
+    {
+      "id": "b1_u07_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Denkst du {answer} den Termin?",
+        "ar": "Denkst du {answer} den Termin?",
+        "en": "Denkst du {answer} den Termin?"
+      },
+      "acceptedAnswers": [
+        "an"
+      ]
+    },
+    {
+      "id": "b1_u07_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich erinnere mich {answer} das Gespräch.",
+        "ar": "Ich erinnere mich {answer} das Gespräch.",
+        "en": "Ich erinnere mich {answer} das Gespräch."
+      },
+      "acceptedAnswers": [
+        "an"
+      ]
+    },
+    {
+      "id": "b1_u07_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "warten auf",
+        "ar": "warten auf",
+        "en": "warten auf"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "warten auf",
+            "ar": "ينتظر",
+            "en": "wait for"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "teilnehmen an",
+            "ar": "يشارك في",
+            "en": "participate in"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sich kümmern um",
+            "ar": "يهتم بـ",
+            "en": "take care of"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u07_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "teilnehmen an",
+        "ar": "teilnehmen an",
+        "en": "teilnehmen an"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "teilnehmen an",
+            "ar": "يشارك في",
+            "en": "participate in"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sich kümmern um",
+            "ar": "يهتم بـ",
+            "en": "take care of"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "abhängen von",
+            "ar": "يعتمد على",
+            "en": "depend on"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u07_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "sich kümmern um",
+        "ar": "sich kümmern um",
+        "en": "sich kümmern um"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sich kümmern um",
+            "ar": "يهتم بـ",
+            "en": "take care of"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "abhängen von",
+            "ar": "يعتمد على",
+            "en": "depend on"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "denken an",
+            "ar": "يفكر في",
+            "en": "think of"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u07_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "abhängen von",
+        "ar": "abhängen von",
+        "en": "abhängen von"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "abhängen von",
+            "ar": "يعتمد على",
+            "en": "depend on"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "denken an",
+            "ar": "يفكر في",
+            "en": "think of"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sich erinnern an",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u07_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ warten für → ✅ warten auf\n• ❌ teilnehmen bei → ✅ teilnehmen an + Dat\n• ❌ sich kümmern für → ✅ sich kümmern um\n• ❌ abhängig auf → ✅ abhängig von\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ warten für → ✅ warten auf\n• ❌ teilnehmen bei → ✅ teilnehmen an + Dat\n• ❌ sich kümmern für → ✅ sich kümmern um\n• ❌ abhängig auf → ✅ abhängig von\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ warten für → ✅ warten auf\n• ❌ teilnehmen bei → ✅ teilnehmen an + Dat\n• ❌ sich kümmern für → ✅ sich kümmern um\n• ❌ abhängig auf → ✅ abhängig von\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u07_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• Verb+Präposition als feste Einheit lernen\n• Sachen: darauf/daran/davon/darum; Fragen: worauf/woran/wovon/worum\n• Personen: auf ihn / an sie, nicht darauf\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• Verb+Präposition als feste Einheit lernen\n• Sachen: darauf/daran/davon/darum; Fragen: worauf/woran/wovon/worum\n• Personen: auf ihn / an sie, nicht darauf\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• Verb+Präposition als feste Einheit lernen\n• Sachen: darauf/daran/davon/darum; Fragen: worauf/woran/wovon/worum\n• Personen: auf ihn / an sie, nicht darauf\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u07_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Bilde zu jedem Verb Aussage, Frage mit wo(r)-, Antwort mit da(r)- und eine Variante mit Person.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Bilde zu jedem Verb Aussage, Frage mit wo(r)-, Antwort mit da(r)- und eine Variante mit Person.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Bilde zu jedem Verb Aussage, Frage mit wo(r)-, Antwort mit da(r)- und eine Variante mit Person.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u07_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U07_CASEBOOK"
+      ]
+    }
+  ]
+}

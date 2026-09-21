@@ -1,0 +1,378 @@
+{
+  "id": "b1_u10_l04",
+  "unitId": "de-core-b1-u10",
+  "title": {
+    "de": "Falltraining: Behörden, Anträge & formelle Beschwerden",
+    "ar": "تدريب الحالات: الدوائر والطلبات والشكاوى الرسمية",
+    "en": "Casebook: Public offices, applications & formal complaints"
+  },
+  "canDo": [
+    "B1_U10_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "b1_u10_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Casebook — Form, Funktion, Begründung",
+        "ar": "دفتر حالات B1 — الشكل والوظيفة والتعليل",
+        "en": "B1 Casebook — form, function, justification"
+      },
+      "body": {
+        "de": "Thema: Behörden, Anträge & formelle Beschwerden\n\nBei B1 zählt nicht nur die richtige Form. Begründe, welche Funktion sie hat, und zeige mindestens eine alternative Formulierung.\n\nSchlüsselkontraste:\n• Sachverhalt ≠ Bewertung ≠ konkrete Bitte\n• eingereicht am + Datum; innerhalb von + Zeitraum; bis + Endpunkt\n• formeller Stil: Ich bitte Sie … / Bitte teilen Sie mir mit …",
+        "ar": "الموضوع: الدوائر والطلبات والشكاوى الرسمية\n\nفي B1 لا تكفي الصيغة الصحيحة؛ علّل وظيفتها وأنشئ بديلًا لغويًا واحدًا على الأقل.\n\nالمقارنات الأساسية:\n• Sachverhalt ≠ Bewertung ≠ konkrete Bitte\n• eingereicht am + Datum; innerhalb von + Zeitraum; bis + Endpunkt\n• formeller Stil: Ich bitte Sie … / Bitte teilen Sie mir mit …",
+        "en": "Topic: Public offices, applications & formal complaints\n\nAt B1, the right form is not enough. Explain its function and produce at least one alternative wording.\n\nKey contrasts:\n• Sachverhalt ≠ Bewertung ≠ konkrete Bitte\n• eingereicht am + Datum; innerhalb von + Zeitraum; bis + Endpunkt\n• formeller Stil: Ich bitte Sie … / Bitte teilen Sie mir mit …"
+      }
+    },
+    {
+      "id": "b1_u10_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "b1_u10_l04_w1",
+          "german": "der Antrag",
+          "translation": {
+            "de": "der Antrag",
+            "ar": "الطلب الرسمي",
+            "en": "application"
+          }
+        },
+        {
+          "id": "b1_u10_l04_w2",
+          "german": "der Bescheid",
+          "translation": {
+            "de": "der Bescheid",
+            "ar": "القرار الرسمي",
+            "en": "official decision"
+          }
+        },
+        {
+          "id": "b1_u10_l04_w3",
+          "german": "die Frist",
+          "translation": {
+            "de": "die Frist",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "b1_u10_l04_w4",
+          "german": "der Nachweis",
+          "translation": {
+            "de": "der Nachweis",
+            "ar": "الإثبات",
+            "en": "proof"
+          }
+        },
+        {
+          "id": "b1_u10_l04_w5",
+          "german": "einreichen",
+          "translation": {
+            "de": "einreichen",
+            "ar": "يقدّم",
+            "en": "submit"
+          }
+        },
+        {
+          "id": "b1_u10_l04_w6",
+          "german": "prüfen",
+          "translation": {
+            "de": "prüfen",
+            "ar": "يفحص",
+            "en": "check"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1_u10_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich habe den Antrag am Montag {answer}.",
+        "ar": "Ich habe den Antrag am Montag {answer}.",
+        "en": "Ich habe den Antrag am Montag {answer}."
+      },
+      "acceptedAnswers": [
+        "eingereicht"
+      ]
+    },
+    {
+      "id": "b1_u10_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Bitte beachten Sie die {answer}.",
+        "ar": "Bitte beachten Sie die {answer}.",
+        "en": "Bitte beachten Sie die {answer}."
+      },
+      "acceptedAnswers": [
+        "Frist"
+      ]
+    },
+    {
+      "id": "b1_u10_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Als {answer} sende ich die Abrechnung mit.",
+        "ar": "Als {answer} sende ich die Abrechnung mit.",
+        "en": "Als {answer} sende ich die Abrechnung mit."
+      },
+      "acceptedAnswers": [
+        "Nachweis"
+      ]
+    },
+    {
+      "id": "b1_u10_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bitte Sie, den Vorgang zu {answer}.",
+        "ar": "Ich bitte Sie, den Vorgang zu {answer}.",
+        "en": "Ich bitte Sie, den Vorgang zu {answer}."
+      },
+      "acceptedAnswers": [
+        "prüfen"
+      ]
+    },
+    {
+      "id": "b1_u10_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wann erhalte ich den {answer}?",
+        "ar": "Wann erhalte ich den {answer}?",
+        "en": "Wann erhalte ich den {answer}?"
+      },
+      "acceptedAnswers": [
+        "Bescheid"
+      ]
+    },
+    {
+      "id": "b1_u10_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der {answer} wurde vollständig ausgefüllt.",
+        "ar": "Der {answer} wurde vollständig ausgefüllt.",
+        "en": "Der {answer} wurde vollständig ausgefüllt."
+      },
+      "acceptedAnswers": [
+        "Antrag"
+      ]
+    },
+    {
+      "id": "b1_u10_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "der Antrag",
+        "ar": "der Antrag",
+        "en": "der Antrag"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der Antrag",
+            "ar": "الطلب الرسمي",
+            "en": "application"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "der Bescheid",
+            "ar": "القرار الرسمي",
+            "en": "official decision"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "die Frist",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u10_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "der Bescheid",
+        "ar": "der Bescheid",
+        "en": "der Bescheid"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der Bescheid",
+            "ar": "القرار الرسمي",
+            "en": "official decision"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "die Frist",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "der Nachweis",
+            "ar": "الإثبات",
+            "en": "proof"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u10_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "die Frist",
+        "ar": "die Frist",
+        "en": "die Frist"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "die Frist",
+            "ar": "المهلة",
+            "en": "deadline"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "der Nachweis",
+            "ar": "الإثبات",
+            "en": "proof"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "einreichen",
+            "ar": "يقدّم",
+            "en": "submit"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u10_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Funktion passt am besten?",
+        "ar": "ما الوظيفة الأنسب؟",
+        "en": "Which function fits best?"
+      },
+      "question": {
+        "de": "der Nachweis",
+        "ar": "der Nachweis",
+        "en": "der Nachweis"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der Nachweis",
+            "ar": "الإثبات",
+            "en": "proof"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "einreichen",
+            "ar": "يقدّم",
+            "en": "submit"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "prüfen",
+            "ar": "يفحص",
+            "en": "check"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "b1_u10_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerdiagnose mit Kategorie",
+        "ar": "تشخيص الخطأ مع تحديد فئته",
+        "en": "Error diagnosis by category"
+      },
+      "body": {
+        "de": "• ❌ Bitte prüfen Sie mir → ✅ Bitte prüfen Sie den Vorgang / teilen Sie mir mit …\n• ❌ Frist bis innerhalb → entweder ✅ bis … / innerhalb von …\n• ❌ Nachweis beweisen (unpräzise) → Nachweis vorlegen/einreichen\n• ❌ emotionaler Vorwurf ohne Daten → sachlich Datum/Vorgangsnummer/Beleg nennen.\n\nOrdne jeden Fehler einer Kategorie zu und erkläre die Reparaturregel. Danach denselben Fehlertyp in einem neuen Satz absichtlich erzeugen und sofort korrigieren.",
+        "ar": "• ❌ Bitte prüfen Sie mir → ✅ Bitte prüfen Sie den Vorgang / teilen Sie mir mit …\n• ❌ Frist bis innerhalb → entweder ✅ bis … / innerhalb von …\n• ❌ Nachweis beweisen (unpräzise) → Nachweis vorlegen/einreichen\n• ❌ emotionaler Vorwurf ohne Daten → sachlich Datum/Vorgangsnummer/Beleg nennen.\n\nصنّف كل خطأ واشرح قاعدة إصلاحه. بعد ذلك أنشئ الخطأ نفسه عمدًا في جملة جديدة وصححه فورًا.",
+        "en": "• ❌ Bitte prüfen Sie mir → ✅ Bitte prüfen Sie den Vorgang / teilen Sie mir mit …\n• ❌ Frist bis innerhalb → entweder ✅ bis … / innerhalb von …\n• ❌ Nachweis beweisen (unpräzise) → Nachweis vorlegen/einreichen\n• ❌ emotionaler Vorwurf ohne Daten → sachlich Datum/Vorgangsnummer/Beleg nennen.\n\nClassify each error and explain the repair rule. Then deliberately create the same error type in a new sentence and immediately correct it."
+      }
+    },
+    {
+      "id": "b1_u10_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrast- und Transformationsdrill",
+        "ar": "تدريب المقارنة والتحويل",
+        "en": "Contrast and transformation drill"
+      },
+      "body": {
+        "de": "• Sachverhalt ≠ Bewertung ≠ konkrete Bitte\n• eingereicht am + Datum; innerhalb von + Zeitraum; bis + Endpunkt\n• formeller Stil: Ich bitte Sie … / Bitte teilen Sie mir mit …\n\nFür jeden Kontrast: Ausgangssatz → alternative Struktur → Bedeutung prüfen → Register prüfen. Markiere, welche Varianten nur grammatisch möglich und welche wirklich idiomatisch sind.",
+        "ar": "• Sachverhalt ≠ Bewertung ≠ konkrete Bitte\n• eingereicht am + Datum; innerhalb von + Zeitraum; bis + Endpunkt\n• formeller Stil: Ich bitte Sie … / Bitte teilen Sie mir mit …\n\nلكل مقارنة: جملة أصلية ← بنية بديلة ← فحص المعنى ← فحص السجل. حدّد ما هو ممكن نحويًا وما هو طبيعي فعلًا.",
+        "en": "• Sachverhalt ≠ Bewertung ≠ konkrete Bitte\n• eingereicht am + Datum; innerhalb von + Zeitraum; bis + Endpunkt\n• formeller Stil: Ich bitte Sie … / Bitte teilen Sie mir mit …\n\nFor each contrast: base sentence → alternative structure → check meaning → check register. Mark what is merely grammatical versus genuinely idiomatic."
+      }
+    },
+    {
+      "id": "b1_u10_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "B1 Performance Circuit",
+        "ar": "دائرة أداء B1",
+        "en": "B1 performance circuit"
+      },
+      "body": {
+        "de": "Schreibe formelle Beschwerde mit Betreff, Vorgangsnummer, Chronologie, Nachweis, konkreter Bitte und angemessener Frist.\n\nRunde 1 geplant; Runde 2 ohne Notizen; Runde 3 mit Gegenfrage/Einwand; Runde 4 nach Zeitabstand. Ziel: Struktur auch unter veränderten Bedingungen abrufen.",
+        "ar": "Schreibe formelle Beschwerde mit Betreff, Vorgangsnummer, Chronologie, Nachweis, konkreter Bitte und angemessener Frist.\n\nالجولة 1 مخططة؛ 2 دون ملاحظات؛ 3 مع سؤال مضاد/اعتراض؛ 4 بعد فاصل زمني. الهدف: استرجاع البنية تحت شروط متغيرة.",
+        "en": "Schreibe formelle Beschwerde mit Betreff, Vorgangsnummer, Chronologie, Nachweis, konkreter Bitte und angemessener Frist.\n\nRound 1 planned; round 2 without notes; round 3 with a follow-up/objection; round 4 after a delay. Goal: retrieve the structure under changed conditions."
+      }
+    },
+    {
+      "id": "b1_u10_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "B1 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات B1",
+        "en": "B1 casebook complete"
+      },
+      "canDo": [
+        "B1_U10_CASEBOOK"
+      ]
+    }
+  ]
+}
