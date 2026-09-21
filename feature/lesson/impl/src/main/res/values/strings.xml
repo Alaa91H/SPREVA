@@ -28,4 +28,7 @@
     <string name="spreva_lesson_self_review">Self-review checklist</string>
     <string name="spreva_lesson_speaking_target">Target: at least %1$d seconds</string>
     <string name="spreva_lesson_recording_duration">Recorded: %1$d seconds</string>
+    <string name="spreva_lesson_objective_score">Objective tasks: %1$d / %2$d correct (%3$d%%)</string>
+    <string name="spreva_lesson_productive_completion">Productive tasks completed: %1$d / %2$d</string>
+    <string name="spreva_lesson_productive_disclaimer">Writing and speaking are counted as task completion only. Word count or recording duration is not a linguistic-quality score.</string>
 </resources>

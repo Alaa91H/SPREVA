@@ -28,4 +28,7 @@
     <string name="spreva_lesson_self_review">قائمة المراجعة الذاتية</string>
     <string name="spreva_lesson_speaking_target">الهدف: %1$d ثانية على الأقل</string>
     <string name="spreva_lesson_recording_duration">مدة التسجيل: %1$d ثانية</string>
+    <string name="spreva_lesson_objective_score">المهام الموضوعية: %1$d / %2$d صحيحة (%3$d%%)</string>
+    <string name="spreva_lesson_productive_completion">مهام الإنتاج المكتملة: %1$d / %2$d</string>
+    <string name="spreva_lesson_productive_disclaimer">تُحسب الكتابة والكلام كإتمام للمهمة فقط. عدد الكلمات أو مدة التسجيل ليسا درجة لجودة اللغة.</string>
 </resources>

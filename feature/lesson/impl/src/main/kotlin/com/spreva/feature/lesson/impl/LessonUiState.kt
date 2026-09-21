@@ -52,6 +52,12 @@ data class LessonUiState(
     val recordingError: String? = null,
     /** Duration of the latest free-speaking/shadowing take. */
     val recordingDurationMs: Long? = null,
+    /** Objective exam-style items attempted/correct in the current lesson session. */
+    val objectiveAttempted: Int = 0,
+    val objectiveCorrect: Int = 0,
+    /** Productive tasks are tracked for completion only, never linguistic-quality scoring. */
+    val productiveAttempted: Int = 0,
+    val productiveCompleted: Int = 0,
 ) {
     /** Whether the Check button should be enabled for the current activity. */
     val canCheck: Boolean

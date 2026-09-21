@@ -287,7 +287,7 @@ private fun LessonContent(
                         uiLanguage = uiLanguage,
                     )
 
-                    is LearningActivity.LessonSummaryActivity -> SummaryRenderer(current, state.completedCount, uiLanguage)
+                    is LearningActivity.LessonSummaryActivity -> SummaryRenderer(current, state, uiLanguage)
                 }
             }
         }
@@ -745,7 +745,7 @@ private fun ClozeRenderer(
 @Composable
 private fun SummaryRenderer(
     activity: LearningActivity.LessonSummaryActivity,
-    completedCount: Int,
+    state: LessonUiState,
     uiLanguage: com.spreva.core.model.UiLanguage,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -754,6 +754,45 @@ private fun SummaryRenderer(
             text = stringResource(R.string.spreva_lesson_completed),
             style = MaterialTheme.typography.bodyLarge,
         )
+        if (state.objectiveAttempted > 0) {
+            val percent = (state.objectiveCorrect * 100) / state.objectiveAttempted
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(
+                        stringResource(
+                            R.string.spreva_lesson_objective_score,
+                            state.objectiveCorrect,
+                            state.objectiveAttempted,
+                            percent,
+                        ),
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                    LinearProgressIndicator(
+                        progress = { percent / 100f },
+                        modifier = Modifier.fillMaxWidth(),
+                    )
+                }
+            }
+        }
+        if (state.productiveAttempted > 0) {
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(
+                        stringResource(
+                            R.string.spreva_lesson_productive_completion,
+                            state.productiveCompleted,
+                            state.productiveAttempted,
+                        ),
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                    Text(
+                        stringResource(R.string.spreva_lesson_productive_disclaimer),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
+        }
         Card(Modifier.fillMaxWidth()) {
             Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Text("Can do:", style = MaterialTheme.typography.titleMedium)

@@ -342,9 +342,20 @@ class LessonViewModel @Inject constructor(
             correct = answerState.correct,
         )
 
+        val objective = activity is com.spreva.core.model.LearningActivity.MultipleChoice ||
+            activity is com.spreva.core.model.LearningActivity.Cloze ||
+            activity is com.spreva.core.model.LearningActivity.ListeningChoice ||
+            activity is com.spreva.core.model.LearningActivity.Dictation
+        val productive = activity is com.spreva.core.model.LearningActivity.FreeWrite ||
+            activity is com.spreva.core.model.LearningActivity.SpeakingPrompt
+
         _uiState.value = state.copy(
             answerState = answerState,
             completedCount = if (answerState.correct) state.completedCount + 1 else state.completedCount,
+            objectiveAttempted = state.objectiveAttempted + if (objective) 1 else 0,
+            objectiveCorrect = state.objectiveCorrect + if (objective && answerState.correct) 1 else 0,
+            productiveAttempted = state.productiveAttempted + if (productive) 1 else 0,
+            productiveCompleted = state.productiveCompleted + if (productive && answerState.correct) 1 else 0,
         )
     }
 
