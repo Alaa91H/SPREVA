@@ -73,6 +73,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 11. **Gesundheit & Apotheke** — الصحة والصيدلية
 12. **Arbeit, Lernen & Fähigkeiten** — العمل والتعلم والقدرات
 13. **Freizeit, Wetter & Einladungen** — وقت الفراغ والطقس والدعوات
+14. **A1 Integration — ein kompletter Alltagstag** — تكامل A1 — يوم كامل في الحياة اليومية
 
 ### A2 — A2 — More independent everyday communication
 
@@ -91,6 +92,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 11. **Wohnen, Miete & Reparaturen** — السكن والإيجار والإصلاحات
 12. **Arbeit & Bewerbung** — العمل والتقديم للوظيفة
 13. **Reisen, Service & Beschwerden** — السفر والخدمات والشكاوى
+14. **A2 Integration — selbstständig durch Alltag & Arbeit** — تكامل A2 — الاستقلال في الحياة والعمل
 
 ### B1 — B1 — Independent action & argumentation
 
@@ -109,6 +111,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 11. **Gesundheit, Arzt & Versicherung** — الصحة والطبيب والتأمين
 12. **Medien, Meinung & Argumentation** — الإعلام والرأي والحجاج
 13. **Umwelt, Gesellschaft & Präsentation** — البيئة والمجتمع والعرض
+14. **B1 Integration — selbstständig handeln, erklären, verhandeln** — تكامل B1 — التصرف والشرح والتفاوض باستقلال
 
 ### B2 — B2 — Precision, professional language & complex topics
 
@@ -128,6 +131,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 12. **Recht, Verwaltung & Arbeitsleben** — القانون والإدارة والحياة المهنية
 13. **Wissenschaft, Technik & Digitalisierung** — العلم والتقنية والرقمنة
 14. **Umwelt, Klima & Stadtentwicklung** — البيئة والمناخ وتطوير المدن
+15. **B2 Integration — analysieren, entscheiden & professionell kommunizieren** — تكامل B2 — التحليل واتخاذ القرار والتواصل المهني
 
 ### C1 — C1 — Academic, professional & stylistic mastery
 
@@ -148,6 +152,7 @@ The curriculum uses CEFR levels as a progression framework and follows an action
 13. **Wissenschaft, Forschung & Methodenkritik** — العلم والبحث ونقد المنهج
 14. **Technologie, KI & verantwortungsvolle Kommunikation** — التقنية والذكاء الاصطناعي والتواصل المسؤول
 15. **Redigieren, Fehlerdiagnose & stilistische Selbstkorrektur** — التحرير وتشخيص الأخطاء والتصحيح الذاتي الأسلوبي
+16. **C1 Integration — Synthese, Führung, Forschung & Revision** — تكامل C1 — التركيب والقيادة والبحث والمراجعة
 
 ## Content integrity
 

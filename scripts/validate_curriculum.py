@@ -13,6 +13,7 @@ COURSE_FILE = CONTENT / "courses" / "de-core" / "course.json"
 LESSONS_DIR = CONTENT / "courses" / "de-core" / "lessons"
 MANIFEST_FILE = CONTENT / "manifest.json"
 EXPECTED_LEVELS = ["A1", "A2", "B1", "B2", "C1"]
+EXPECTED_UNIT_COUNTS = {"A1": 14, "A2": 14, "B1": 14, "B2": 15, "C1": 16}
 REQUIRED_LANGS = ("de", "ar", "en")
 
 
@@ -52,6 +53,12 @@ def validate():
 
     for level in levels:
         level_id = level.get("id")
+        expected_units = EXPECTED_UNIT_COUNTS.get(level.get("cefr"))
+        if expected_units is not None and len(level.get("units", [])) != expected_units:
+            errors.append(
+                f"level {level.get('cefr')} must contain {expected_units} units, "
+                f"got {len(level.get('units', []))}"
+            )
         if not level_id or level_id in seen_levels:
             errors.append(f"invalid/duplicate level id: {level_id!r}")
         seen_levels.add(level_id)
