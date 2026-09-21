@@ -21,4 +21,6 @@ data class UserSettings(
     val onboardingComplete: Boolean = false,
     /** Learner goal from onboarding (audit §6). Null until chosen. */
     val learningGoal: LearningGoal? = null,
+    /** Latest adaptive diagnostic recommendation; not a CEFR certificate. */
+    val recommendedLevel: CefrLevel? = null,
 )

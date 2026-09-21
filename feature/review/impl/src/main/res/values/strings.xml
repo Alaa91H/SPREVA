@@ -51,4 +51,5 @@
     <string name="spreva_review_minutes">%1$d min</string>
     <string name="spreva_review_hours">%1$d h</string>
     <string name="spreva_review_days">%1$d d</string>
+    <string name="spreva_review_recommended_level">Saved starting-level recommendation: %1$s</string>
 </resources>

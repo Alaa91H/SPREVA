@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.spreva.core.audio.CourseAudioPlayer
 import com.spreva.core.common.AppClock
+import com.spreva.core.datastore.SettingsDataSource
 import com.spreva.core.model.ReviewCard
 import com.spreva.core.model.ReviewRating
 import com.spreva.core.model.CefrLevel
@@ -24,6 +25,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
@@ -32,6 +34,7 @@ import kotlinx.coroutines.launch
 class PracticeViewModel @Inject constructor(
     reviewRepository: com.spreva.domain.review.ReviewRepository,
     intelligenceRepository: LearningIntelligenceRepository,
+    settingsDataSource: SettingsDataSource,
     clock: AppClock,
 ) : ViewModel() {
 
@@ -42,6 +45,10 @@ class PracticeViewModel @Inject constructor(
 
     val profile: StateFlow<LearningProfile> = intelligenceRepository.observeProfile()
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), LearningProfile())
+
+    val recommendedLevel: StateFlow<CefrLevel?> = settingsDataSource.settings
+        .map { it.recommendedLevel }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 }
 
 /**
@@ -163,6 +170,7 @@ data class PlacementUiState(
 class PlacementViewModel @Inject constructor(
     private val questionRepository: PlacementQuestionRepository,
     private val engine: AdaptivePlacementEngine,
+    private val settingsDataSource: SettingsDataSource,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(PlacementUiState())
@@ -215,6 +223,9 @@ class PlacementViewModel @Inject constructor(
         )
         val history = state.history + answer
         val decision = engine.decide(history)
+        decision.recommendedLevel?.let { level ->
+            viewModelScope.launch { settingsDataSource.setRecommendedLevel(level) }
+        }
         _state.value = state.copy(
             history = history,
             currentLevel = decision.nextLevel ?: state.currentLevel,

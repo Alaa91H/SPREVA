@@ -7,6 +7,7 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
+import com.spreva.core.model.CefrLevel
 import com.spreva.core.model.LearningGoal
 import com.spreva.core.model.ThemeMode
 import com.spreva.core.model.UiLanguage
@@ -28,6 +29,7 @@ class SettingsDataSource(private val context: Context) {
         val DYNAMIC_COLOR = booleanPreferencesKey("dynamic_color")
         val ONBOARDING_COMPLETE = booleanPreferencesKey("onboarding_complete")
         val LEARNING_GOAL = stringPreferencesKey("learning_goal")
+        val RECOMMENDED_LEVEL = stringPreferencesKey("recommended_level")
     }
 
     val settings: Flow<UserSettings> = context.settingsDataStore.data.map { prefs ->
@@ -39,6 +41,9 @@ class SettingsDataSource(private val context: Context) {
             useDynamicColor = prefs[Keys.DYNAMIC_COLOR] ?: false,
             onboardingComplete = prefs[Keys.ONBOARDING_COMPLETE] ?: false,
             learningGoal = prefs[Keys.LEARNING_GOAL]?.let { runCatching { LearningGoal.valueOf(it) }.getOrNull() },
+            recommendedLevel = prefs[Keys.RECOMMENDED_LEVEL]?.let {
+                runCatching { CefrLevel.valueOf(it) }.getOrNull()
+            },
         )
     }
 
@@ -60,5 +65,9 @@ class SettingsDataSource(private val context: Context) {
 
     suspend fun setLearningGoal(goal: LearningGoal) {
         context.settingsDataStore.edit { it[Keys.LEARNING_GOAL] = goal.name }
+    }
+
+    suspend fun setRecommendedLevel(level: CefrLevel) {
+        context.settingsDataStore.edit { it[Keys.RECOMMENDED_LEVEL] = level.name }
     }
 }

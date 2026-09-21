@@ -45,6 +45,7 @@ fun PracticeRoute(
 ) {
     val dueCount by viewModel.dueCount.collectAsStateWithLifecycle()
     val profile by viewModel.profile.collectAsStateWithLifecycle()
+    val recommendedLevel by viewModel.recommendedLevel.collectAsStateWithLifecycle()
 
     Column(
         Modifier
@@ -77,6 +78,12 @@ fun PracticeRoute(
                     TextButton(onClick = onStartReview) {
                         Text(stringResource(R.string.spreva_review_check_anyway))
                     }
+                }
+                recommendedLevel?.let { level ->
+                    Text(
+                        stringResource(R.string.spreva_review_recommended_level, level.name),
+                        style = MaterialTheme.typography.bodyMedium,
+                    )
                 }
                 OutlinedButton(onClick = onStartPlacement, modifier = Modifier.fillMaxWidth()) {
                     Text(stringResource(R.string.spreva_review_start_placement))
