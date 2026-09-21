@@ -1,0 +1,378 @@
+{
+  "id": "a2_u03_l04",
+  "unitId": "de-core-a2-u03",
+  "title": {
+    "de": "Falltraining: Gründe & Aussagen mit weil/dass",
+    "ar": "تدريب الحالات: الأسباب والجمل مع weil/dass",
+    "en": "Casebook: Reasons & statements with weil/dass"
+  },
+  "canDo": [
+    "A2_U03_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u03_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Gründe & Aussagen mit weil/dass\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• weil = Grund; dass = Inhalt einer Aussage\n• Nebensatz: Verb am Ende\n• deshalb = Hauptsatzadverb, danach Verb auf Position 2",
+        "ar": "الموضوع: الأسباب والجمل مع weil/dass\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• weil = Grund; dass = Inhalt einer Aussage\n• Nebensatz: Verb am Ende\n• deshalb = Hauptsatzadverb, danach Verb auf Position 2",
+        "en": "Topic: Reasons & statements with weil/dass\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• weil = Grund; dass = Inhalt einer Aussage\n• Nebensatz: Verb am Ende\n• deshalb = Hauptsatzadverb, danach Verb auf Position 2"
+      }
+    },
+    {
+      "id": "a2_u03_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u03_l04_w1",
+          "german": "weil",
+          "translation": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "a2_u03_l04_w2",
+          "german": "dass",
+          "translation": {
+            "de": "dass",
+            "ar": "أن",
+            "en": "that"
+          }
+        },
+        {
+          "id": "a2_u03_l04_w3",
+          "german": "deshalb",
+          "translation": {
+            "de": "deshalb",
+            "ar": "لذلك",
+            "en": "therefore"
+          }
+        },
+        {
+          "id": "a2_u03_l04_w4",
+          "german": "glauben",
+          "translation": {
+            "de": "glauben",
+            "ar": "يعتقد",
+            "en": "believe"
+          }
+        },
+        {
+          "id": "a2_u03_l04_w5",
+          "german": "sagen",
+          "translation": {
+            "de": "sagen",
+            "ar": "يقول",
+            "en": "say"
+          }
+        },
+        {
+          "id": "a2_u03_l04_w6",
+          "german": "wissen",
+          "translation": {
+            "de": "wissen",
+            "ar": "يعرف",
+            "en": "know"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u03_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bleibe zu Hause, {answer} ich krank bin.",
+        "ar": "Ich bleibe zu Hause, {answer} ich krank bin.",
+        "en": "Ich bleibe zu Hause, {answer} ich krank bin."
+      },
+      "acceptedAnswers": [
+        "weil"
+      ]
+    },
+    {
+      "id": "a2_u03_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich glaube, {answer} er heute kommt.",
+        "ar": "Ich glaube, {answer} er heute kommt.",
+        "en": "Ich glaube, {answer} er heute kommt."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "a2_u03_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich bin krank. {answer} bleibe ich zu Hause.",
+        "ar": "Ich bin krank. {answer} bleibe ich zu Hause.",
+        "en": "Ich bin krank. {answer} bleibe ich zu Hause."
+      },
+      "acceptedAnswers": [
+        "Deshalb"
+      ]
+    },
+    {
+      "id": "a2_u03_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie sagt, {answer} der Termin ausfällt.",
+        "ar": "Sie sagt, {answer} der Termin ausfällt.",
+        "en": "Sie sagt, {answer} der Termin ausfällt."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "a2_u03_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir fahren nicht, {answer} es schneit.",
+        "ar": "Wir fahren nicht, {answer} es schneit.",
+        "en": "Wir fahren nicht, {answer} es schneit."
+      },
+      "acceptedAnswers": [
+        "weil"
+      ]
+    },
+    {
+      "id": "a2_u03_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich weiß, {answer} du recht hast.",
+        "ar": "Ich weiß, {answer} du recht hast.",
+        "en": "Ich weiß, {answer} du recht hast."
+      },
+      "acceptedAnswers": [
+        "dass"
+      ]
+    },
+    {
+      "id": "a2_u03_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "weil",
+        "ar": "weil",
+        "en": "weil"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "weil",
+            "ar": "لأن",
+            "en": "because"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "dass",
+            "ar": "أن",
+            "en": "that"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "deshalb",
+            "ar": "لذلك",
+            "en": "therefore"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u03_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "dass",
+        "ar": "dass",
+        "en": "dass"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "dass",
+            "ar": "أن",
+            "en": "that"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "deshalb",
+            "ar": "لذلك",
+            "en": "therefore"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "glauben",
+            "ar": "يعتقد",
+            "en": "believe"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u03_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "deshalb",
+        "ar": "deshalb",
+        "en": "deshalb"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "deshalb",
+            "ar": "لذلك",
+            "en": "therefore"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "glauben",
+            "ar": "يعتقد",
+            "en": "believe"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sagen",
+            "ar": "يقول",
+            "en": "say"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u03_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "glauben",
+        "ar": "glauben",
+        "en": "glauben"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "glauben",
+            "ar": "يعتقد",
+            "en": "believe"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sagen",
+            "ar": "يقول",
+            "en": "say"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "wissen",
+            "ar": "يعرف",
+            "en": "know"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u03_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ weil ich bin krank → ✅ weil ich krank bin\n• ❌ dass er kommt heute → ✅ dass er heute kommt\n• ❌ Deshalb ich bleibe … → ✅ Deshalb bleibe ich …\n• ❌ weil + deshalb im selben einfachen Grundsatz unnötig doppelt\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ weil ich bin krank → ✅ weil ich krank bin\n• ❌ dass er kommt heute → ✅ dass er heute kommt\n• ❌ Deshalb ich bleibe … → ✅ Deshalb bleibe ich …\n• ❌ weil + deshalb im selben einfachen Grundsatz unnötig doppelt\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ weil ich bin krank → ✅ weil ich krank bin\n• ❌ dass er kommt heute → ✅ dass er heute kommt\n• ❌ Deshalb ich bleibe … → ✅ Deshalb bleibe ich …\n• ❌ weil + deshalb im selben einfachen Grundsatz unnötig doppelt\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u03_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• weil = Grund; dass = Inhalt einer Aussage\n• Nebensatz: Verb am Ende\n• deshalb = Hauptsatzadverb, danach Verb auf Position 2\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• weil = Grund; dass = Inhalt einer Aussage\n• Nebensatz: Verb am Ende\n• deshalb = Hauptsatzadverb, danach Verb auf Position 2\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• weil = Grund; dass = Inhalt einer Aussage\n• Nebensatz: Verb am Ende\n• deshalb = Hauptsatzadverb, danach Verb auf Position 2\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u03_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Begründe fünf Entscheidungen und gib anschließend fünf Aussagen anderer Personen wieder. Verwende weil, dass und deshalb bewusst getrennt.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Begründe fünf Entscheidungen und gib anschließend fünf Aussagen anderer Personen wieder. Verwende weil, dass und deshalb bewusst getrennt.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Begründe fünf Entscheidungen und gib anschließend fünf Aussagen anderer Personen wieder. Verwende weil, dass und deshalb bewusst getrennt.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u03_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U03_CASEBOOK"
+      ]
+    }
+  ]
+}

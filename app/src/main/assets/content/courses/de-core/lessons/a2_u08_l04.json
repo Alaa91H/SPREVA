@@ -1,0 +1,378 @@
+{
+  "id": "a2_u08_l04",
+  "unitId": "de-core-a2-u08",
+  "title": {
+    "de": "Falltraining: Vergleichen & auswählen",
+    "ar": "تدريب الحالات: المقارنة والاختيار",
+    "en": "Casebook: Comparing & choosing"
+  },
+  "canDo": [
+    "A2_U08_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u08_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Vergleichen & auswählen\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• Komparativ meist -er + als\n• Gleichheit: so + Adjektiv + wie\n• gut → besser → am besten; gern → lieber → am liebsten",
+        "ar": "الموضوع: المقارنة والاختيار\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• Komparativ meist -er + als\n• Gleichheit: so + Adjektiv + wie\n• gut → besser → am besten; gern → lieber → am liebsten",
+        "en": "Topic: Comparing & choosing\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• Komparativ meist -er + als\n• Gleichheit: so + Adjektiv + wie\n• gut → besser → am besten; gern → lieber → am liebsten"
+      }
+    },
+    {
+      "id": "a2_u08_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u08_l04_w1",
+          "german": "größer",
+          "translation": {
+            "de": "größer",
+            "ar": "أكبر",
+            "en": "bigger"
+          }
+        },
+        {
+          "id": "a2_u08_l04_w2",
+          "german": "besser",
+          "translation": {
+            "de": "besser",
+            "ar": "أفضل",
+            "en": "better"
+          }
+        },
+        {
+          "id": "a2_u08_l04_w3",
+          "german": "am besten",
+          "translation": {
+            "de": "am besten",
+            "ar": "الأفضل",
+            "en": "best"
+          }
+        },
+        {
+          "id": "a2_u08_l04_w4",
+          "german": "als",
+          "translation": {
+            "de": "als",
+            "ar": "من/مقارنة",
+            "en": "than"
+          }
+        },
+        {
+          "id": "a2_u08_l04_w5",
+          "german": "so … wie",
+          "translation": {
+            "de": "so … wie",
+            "ar": "بنفس…مثل",
+            "en": "as … as"
+          }
+        },
+        {
+          "id": "a2_u08_l04_w6",
+          "german": "lieber",
+          "translation": {
+            "de": "lieber",
+            "ar": "يفضل",
+            "en": "prefer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u08_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Berlin ist {answer} als Bonn.",
+        "ar": "Berlin ist {answer} als Bonn.",
+        "en": "Berlin ist {answer} als Bonn."
+      },
+      "acceptedAnswers": [
+        "größer"
+      ]
+    },
+    {
+      "id": "a2_u08_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Dieser Kurs ist {answer}.",
+        "ar": "Dieser Kurs ist {answer}.",
+        "en": "Dieser Kurs ist {answer}."
+      },
+      "acceptedAnswers": [
+        "besser"
+      ]
+    },
+    {
+      "id": "a2_u08_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das ist am {answer}.",
+        "ar": "Das ist am {answer}.",
+        "en": "Das ist am {answer}."
+      },
+      "acceptedAnswers": [
+        "besten"
+      ]
+    },
+    {
+      "id": "a2_u08_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Mein Zimmer ist so groß {answer} deins.",
+        "ar": "Mein Zimmer ist so groß {answer} deins.",
+        "en": "Mein Zimmer ist so groß {answer} deins."
+      },
+      "acceptedAnswers": [
+        "wie"
+      ]
+    },
+    {
+      "id": "a2_u08_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich trinke {answer} Tee als Kaffee.",
+        "ar": "Ich trinke {answer} Tee als Kaffee.",
+        "en": "Ich trinke {answer} Tee als Kaffee."
+      },
+      "acceptedAnswers": [
+        "lieber"
+      ]
+    },
+    {
+      "id": "a2_u08_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Das Fahrrad ist billiger {answer} das Auto.",
+        "ar": "Das Fahrrad ist billiger {answer} das Auto.",
+        "en": "Das Fahrrad ist billiger {answer} das Auto."
+      },
+      "acceptedAnswers": [
+        "als"
+      ]
+    },
+    {
+      "id": "a2_u08_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "größer",
+        "ar": "größer",
+        "en": "größer"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "größer",
+            "ar": "أكبر",
+            "en": "bigger"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "besser",
+            "ar": "أفضل",
+            "en": "better"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "am besten",
+            "ar": "الأفضل",
+            "en": "best"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u08_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "besser",
+        "ar": "besser",
+        "en": "besser"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "besser",
+            "ar": "أفضل",
+            "en": "better"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "am besten",
+            "ar": "الأفضل",
+            "en": "best"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "als",
+            "ar": "من/مقارنة",
+            "en": "than"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u08_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "am besten",
+        "ar": "am besten",
+        "en": "am besten"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "am besten",
+            "ar": "الأفضل",
+            "en": "best"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "als",
+            "ar": "من/مقارنة",
+            "en": "than"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "so … wie",
+            "ar": "بنفس…مثل",
+            "en": "as … as"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u08_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "als",
+        "ar": "als",
+        "en": "als"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "als",
+            "ar": "من/مقارنة",
+            "en": "than"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "so … wie",
+            "ar": "بنفس…مثل",
+            "en": "as … as"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "lieber",
+            "ar": "يفضل",
+            "en": "prefer"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u08_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ mehr groß → ✅ größer\n• ❌ so groß als → ✅ so groß wie\n• ❌ besser wie → standardsprachlich ✅ besser als\n• ❌ am besser → ✅ am besten\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ mehr groß → ✅ größer\n• ❌ so groß als → ✅ so groß wie\n• ❌ besser wie → standardsprachlich ✅ besser als\n• ❌ am besser → ✅ am besten\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ mehr groß → ✅ größer\n• ❌ so groß als → ✅ so groß wie\n• ❌ besser wie → standardsprachlich ✅ besser als\n• ❌ am besser → ✅ am besten\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u08_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• Komparativ meist -er + als\n• Gleichheit: so + Adjektiv + wie\n• gut → besser → am besten; gern → lieber → am liebsten\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• Komparativ meist -er + als\n• Gleichheit: so + Adjektiv + wie\n• gut → besser → am besten; gern → lieber → am liebsten\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• Komparativ meist -er + als\n• Gleichheit: so + Adjektiv + wie\n• gut → besser → am besten; gern → lieber → am liebsten\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u08_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Vergleiche drei Wohnungen, drei Verkehrsmittel und drei Lernmethoden. Begründe jeweils deine Wahl.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Vergleiche drei Wohnungen, drei Verkehrsmittel und drei Lernmethoden. Begründe jeweils deine Wahl.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Vergleiche drei Wohnungen, drei Verkehrsmittel und drei Lernmethoden. Begründe jeweils deine Wahl.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u08_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U08_CASEBOOK"
+      ]
+    }
+  ]
+}

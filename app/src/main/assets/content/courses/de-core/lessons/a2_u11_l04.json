@@ -1,0 +1,378 @@
+{
+  "id": "a2_u11_l04",
+  "unitId": "de-core-a2-u11",
+  "title": {
+    "de": "Falltraining: Wohnen, Miete & Reparaturen",
+    "ar": "تدريب الحالات: السكن والإيجار والإصلاحات",
+    "en": "Casebook: Housing, rent & repairs"
+  },
+  "canDo": [
+    "A2_U11_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u11_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Wohnen, Miete & Reparaturen\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• Schaden melden + Akkusativ\n• jemandem schreiben + Dativ\n• Problem sachlich beschreiben: seit wann, wo, wie dringend",
+        "ar": "الموضوع: السكن والإيجار والإصلاحات\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• Schaden melden + Akkusativ\n• jemandem schreiben + Dativ\n• Problem sachlich beschreiben: seit wann, wo, wie dringend",
+        "en": "Topic: Housing, rent & repairs\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• Schaden melden + Akkusativ\n• jemandem schreiben + Dativ\n• Problem sachlich beschreiben: seit wann, wo, wie dringend"
+      }
+    },
+    {
+      "id": "a2_u11_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u11_l04_w1",
+          "german": "die Miete",
+          "translation": {
+            "de": "die Miete",
+            "ar": "الإيجار",
+            "en": "rent"
+          }
+        },
+        {
+          "id": "a2_u11_l04_w2",
+          "german": "der Vermieter",
+          "translation": {
+            "de": "der Vermieter",
+            "ar": "المؤجر",
+            "en": "landlord"
+          }
+        },
+        {
+          "id": "a2_u11_l04_w3",
+          "german": "kaputt",
+          "translation": {
+            "de": "kaputt",
+            "ar": "معطل",
+            "en": "broken"
+          }
+        },
+        {
+          "id": "a2_u11_l04_w4",
+          "german": "reparieren",
+          "translation": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "a2_u11_l04_w5",
+          "german": "die Heizung",
+          "translation": {
+            "de": "die Heizung",
+            "ar": "التدفئة",
+            "en": "heating"
+          }
+        },
+        {
+          "id": "a2_u11_l04_w6",
+          "german": "melden",
+          "translation": {
+            "de": "melden",
+            "ar": "يبلّغ",
+            "en": "report"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u11_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} ist zu hoch.",
+        "ar": "Die {answer} ist zu hoch.",
+        "en": "Die {answer} ist zu hoch."
+      },
+      "acceptedAnswers": [
+        "Miete"
+      ]
+    },
+    {
+      "id": "a2_u11_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Die {answer} funktioniert nicht.",
+        "ar": "Die {answer} funktioniert nicht.",
+        "en": "Die {answer} funktioniert nicht."
+      },
+      "acceptedAnswers": [
+        "Heizung"
+      ]
+    },
+    {
+      "id": "a2_u11_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich möchte den Schaden {answer}.",
+        "ar": "Ich möchte den Schaden {answer}.",
+        "en": "Ich möchte den Schaden {answer}."
+      },
+      "acceptedAnswers": [
+        "melden"
+      ]
+    },
+    {
+      "id": "a2_u11_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wann wird das {answer}?",
+        "ar": "Wann wird das {answer}?",
+        "en": "Wann wird das {answer}?"
+      },
+      "acceptedAnswers": [
+        "repariert"
+      ]
+    },
+    {
+      "id": "a2_u11_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich schreibe meinem {answer}.",
+        "ar": "Ich schreibe meinem {answer}.",
+        "en": "Ich schreibe meinem {answer}."
+      },
+      "acceptedAnswers": [
+        "Vermieter"
+      ]
+    },
+    {
+      "id": "a2_u11_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Der Wasserhahn ist {answer}.",
+        "ar": "Der Wasserhahn ist {answer}.",
+        "en": "Der Wasserhahn ist {answer}."
+      },
+      "acceptedAnswers": [
+        "kaputt"
+      ]
+    },
+    {
+      "id": "a2_u11_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "die Miete",
+        "ar": "die Miete",
+        "en": "die Miete"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "die Miete",
+            "ar": "الإيجار",
+            "en": "rent"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "der Vermieter",
+            "ar": "المؤجر",
+            "en": "landlord"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "kaputt",
+            "ar": "معطل",
+            "en": "broken"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u11_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "der Vermieter",
+        "ar": "der Vermieter",
+        "en": "der Vermieter"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "der Vermieter",
+            "ar": "المؤجر",
+            "en": "landlord"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "kaputt",
+            "ar": "معطل",
+            "en": "broken"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u11_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "kaputt",
+        "ar": "kaputt",
+        "en": "kaputt"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "kaputt",
+            "ar": "معطل",
+            "en": "broken"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "die Heizung",
+            "ar": "التدفئة",
+            "en": "heating"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u11_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "reparieren",
+        "ar": "reparieren",
+        "en": "reparieren"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "reparieren",
+            "ar": "يصلح",
+            "en": "repair"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "die Heizung",
+            "ar": "التدفئة",
+            "en": "heating"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "melden",
+            "ar": "يبلّغ",
+            "en": "report"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u11_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ Heizung ist kaputt seit zwei Tage → ✅ seit zwei Tagen\n• ❌ Ich melde über den Schaden. → ✅ Ich melde den Schaden.\n• ❌ Wann repariert das? → ✅ Wann wird das repariert? / Wann reparieren Sie das?\n• ❌ mein Vermieter schreiben → ✅ meinem Vermieter schreiben\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ Heizung ist kaputt seit zwei Tage → ✅ seit zwei Tagen\n• ❌ Ich melde über den Schaden. → ✅ Ich melde den Schaden.\n• ❌ Wann repariert das? → ✅ Wann wird das repariert? / Wann reparieren Sie das?\n• ❌ mein Vermieter schreiben → ✅ meinem Vermieter schreiben\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ Heizung ist kaputt seit zwei Tage → ✅ seit zwei Tagen\n• ❌ Ich melde über den Schaden. → ✅ Ich melde den Schaden.\n• ❌ Wann repariert das? → ✅ Wann wird das repariert? / Wann reparieren Sie das?\n• ❌ mein Vermieter schreiben → ✅ meinem Vermieter schreiben\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u11_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• Schaden melden + Akkusativ\n• jemandem schreiben + Dativ\n• Problem sachlich beschreiben: seit wann, wo, wie dringend\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• Schaden melden + Akkusativ\n• jemandem schreiben + Dativ\n• Problem sachlich beschreiben: seit wann, wo, wie dringend\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• Schaden melden + Akkusativ\n• jemandem schreiben + Dativ\n• Problem sachlich beschreiben: seit wann, wo, wie dringend\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u11_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Melde drei Wohnungsmängel per Telefon und kurze Nachricht. Nenne Dauer, Ort, Auswirkung und gewünschte Lösung.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Melde drei Wohnungsmängel per Telefon und kurze Nachricht. Nenne Dauer, Ort, Auswirkung und gewünschte Lösung.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Melde drei Wohnungsmängel per Telefon und kurze Nachricht. Nenne Dauer, Ort, Auswirkung und gewünschte Lösung.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u11_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U11_CASEBOOK"
+      ]
+    }
+  ]
+}

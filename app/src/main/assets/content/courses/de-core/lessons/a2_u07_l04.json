@@ -1,0 +1,378 @@
+{
+  "id": "a2_u07_l04",
+  "unitId": "de-core-a2-u07",
+  "title": {
+    "de": "Falltraining: Reflexive Verben & Alltag",
+    "ar": "تدريب الحالات: الأفعال الانعكاسية والحياة اليومية",
+    "en": "Casebook: Reflexive verbs & daily life"
+  },
+  "canDo": [
+    "A2_U07_CASEBOOK"
+  ],
+  "activities": [
+    {
+      "id": "a2_u07_l04_act01",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Casebook — Form wählen, nicht raten",
+        "ar": "دفتر حالات A2 — اختر الصيغة ولا تخمّن",
+        "en": "A2 Casebook — choose the form, don't guess"
+      },
+      "body": {
+        "de": "Thema: Reflexive Verben & Alltag\n\nTrainingsprinzip: Entscheide bei jedem Satz zuerst Bedeutung/Funktion, dann Grammatik. Kontrolliere danach Verbposition, Kasus, Artikel/Endung und Zeitbezug.\n\nKontraste:\n• Akkusativ reflexiv meist mich/dich/sich/uns/euch/sich\n• bei Körperteilen oft Dativreflexiv: Ich wasche mir die Hände\n• feste Präpositionen: sich freuen auf/über, sich interessieren für",
+        "ar": "الموضوع: الأفعال الانعكاسية والحياة اليومية\n\nمبدأ التدريب: حدّد أولًا المعنى/الوظيفة ثم القاعدة. بعد ذلك راجع موقع الفعل والحالة والأداة/النهاية والزمن.\n\nالمقارنات:\n• Akkusativ reflexiv meist mich/dich/sich/uns/euch/sich\n• bei Körperteilen oft Dativreflexiv: Ich wasche mir die Hände\n• feste Präpositionen: sich freuen auf/über, sich interessieren für",
+        "en": "Topic: Reflexive verbs & daily life\n\nTraining principle: decide meaning/function first, then grammar. Afterwards check word order, case, article/ending and time reference.\n\nContrasts:\n• Akkusativ reflexiv meist mich/dich/sich/uns/euch/sich\n• bei Körperteilen oft Dativreflexiv: Ich wasche mir die Hände\n• feste Präpositionen: sich freuen auf/über, sich interessieren für"
+      }
+    },
+    {
+      "id": "a2_u07_l04_act02",
+      "type": "vocab_intro",
+      "words": [
+        {
+          "id": "a2_u07_l04_w1",
+          "german": "sich freuen",
+          "translation": {
+            "de": "sich freuen",
+            "ar": "يفرح",
+            "en": "be happy/look forward"
+          }
+        },
+        {
+          "id": "a2_u07_l04_w2",
+          "german": "sich erinnern",
+          "translation": {
+            "de": "sich erinnern",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        },
+        {
+          "id": "a2_u07_l04_w3",
+          "german": "sich treffen",
+          "translation": {
+            "de": "sich treffen",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        },
+        {
+          "id": "a2_u07_l04_w4",
+          "german": "sich beeilen",
+          "translation": {
+            "de": "sich beeilen",
+            "ar": "يستعجل",
+            "en": "hurry"
+          }
+        },
+        {
+          "id": "a2_u07_l04_w5",
+          "german": "sich waschen",
+          "translation": {
+            "de": "sich waschen",
+            "ar": "يغتسل",
+            "en": "wash oneself"
+          }
+        },
+        {
+          "id": "a2_u07_l04_w6",
+          "german": "sich interessieren",
+          "translation": {
+            "de": "sich interessieren",
+            "ar": "يهتم",
+            "en": "be interested"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2_u07_l04_act03",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Ich {answer} mich auf den Urlaub.",
+        "ar": "Ich {answer} mich auf den Urlaub.",
+        "en": "Ich {answer} mich auf den Urlaub."
+      },
+      "acceptedAnswers": [
+        "freue"
+      ]
+    },
+    {
+      "id": "a2_u07_l04_act04",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Er {answer} sich an den Termin.",
+        "ar": "Er {answer} sich an den Termin.",
+        "en": "Er {answer} sich an den Termin."
+      },
+      "acceptedAnswers": [
+        "erinnert"
+      ]
+    },
+    {
+      "id": "a2_u07_l04_act05",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Wir {answer} uns um acht.",
+        "ar": "Wir {answer} uns um acht.",
+        "en": "Wir {answer} uns um acht."
+      },
+      "acceptedAnswers": [
+        "treffen"
+      ]
+    },
+    {
+      "id": "a2_u07_l04_act06",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Beeil {answer}!",
+        "ar": "Beeil {answer}!",
+        "en": "Beeil {answer}!"
+      },
+      "acceptedAnswers": [
+        "dich"
+      ]
+    },
+    {
+      "id": "a2_u07_l04_act07",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Sie {answer} sich die Hände.",
+        "ar": "Sie {answer} sich die Hände.",
+        "en": "Sie {answer} sich die Hände."
+      },
+      "acceptedAnswers": [
+        "wäscht"
+      ]
+    },
+    {
+      "id": "a2_u07_l04_act08",
+      "type": "cloze",
+      "sentenceTemplate": {
+        "de": "Interessierst du {answer} für Musik?",
+        "ar": "Interessierst du {answer} für Musik?",
+        "en": "Interessierst du {answer} für Musik?"
+      },
+      "acceptedAnswers": [
+        "dich"
+      ]
+    },
+    {
+      "id": "a2_u07_l04_act09",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "sich freuen",
+        "ar": "sich freuen",
+        "en": "sich freuen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sich freuen",
+            "ar": "يفرح",
+            "en": "be happy/look forward"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sich erinnern",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sich treffen",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u07_l04_act10",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "sich erinnern",
+        "ar": "sich erinnern",
+        "en": "sich erinnern"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sich erinnern",
+            "ar": "يتذكر",
+            "en": "remember"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sich treffen",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sich beeilen",
+            "ar": "يستعجل",
+            "en": "hurry"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u07_l04_act11",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "sich treffen",
+        "ar": "sich treffen",
+        "en": "sich treffen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sich treffen",
+            "ar": "يلتقي",
+            "en": "meet"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sich beeilen",
+            "ar": "يستعجل",
+            "en": "hurry"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sich waschen",
+            "ar": "يغتسل",
+            "en": "wash oneself"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u07_l04_act12",
+      "type": "multiple_choice",
+      "prompt": {
+        "de": "Welche Bedeutung/Funktion passt?",
+        "ar": "ما المعنى/الوظيفة الأنسب؟",
+        "en": "Which meaning/function fits?"
+      },
+      "question": {
+        "de": "sich beeilen",
+        "ar": "sich beeilen",
+        "en": "sich beeilen"
+      },
+      "options": [
+        {
+          "id": "opt1",
+          "text": {
+            "de": "sich beeilen",
+            "ar": "يستعجل",
+            "en": "hurry"
+          }
+        },
+        {
+          "id": "opt2",
+          "text": {
+            "de": "sich waschen",
+            "ar": "يغتسل",
+            "en": "wash oneself"
+          }
+        },
+        {
+          "id": "opt3",
+          "text": {
+            "de": "sich interessieren",
+            "ar": "يهتم",
+            "en": "be interested"
+          }
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "a2_u07_l04_act13",
+      "type": "text_intro",
+      "title": {
+        "de": "Fehlerwerkstatt — diagnose vor Korrektur",
+        "ar": "ورشة الأخطاء — شخّص قبل التصحيح",
+        "en": "Error workshop — diagnose before correcting"
+      },
+      "body": {
+        "de": "• ❌ Ich freue mich für Urlaub. → je nach Bedeutung ✅ auf den Urlaub / über das Geschenk\n• ❌ Wir treffen sich. → ✅ Wir treffen uns.\n• ❌ Beeil dir. → ✅ Beeil dich.\n• ❌ Ich wasche mich die Hände. → ✅ Ich wasche mir die Hände.\n\nNenne bei jedem Fehler die Kategorie: Hilfsverb, Partizip, Kasus, Präposition, Verbposition, Artikel/Endung, Pronomen oder Register. Korrigiere danach und bilde eine weitere richtige Variante.",
+        "ar": "• ❌ Ich freue mich für Urlaub. → je nach Bedeutung ✅ auf den Urlaub / über das Geschenk\n• ❌ Wir treffen sich. → ✅ Wir treffen uns.\n• ❌ Beeil dir. → ✅ Beeil dich.\n• ❌ Ich wasche mich die Hände. → ✅ Ich wasche mir die Hände.\n\nسمِّ فئة الخطأ: فعل مساعد، Partizip، حالة، حرف جر، موقع الفعل، أداة/نهاية، ضمير أو سجل. ثم صحح وأنشئ صيغة صحيحة أخرى.",
+        "en": "• ❌ Ich freue mich für Urlaub. → je nach Bedeutung ✅ auf den Urlaub / über das Geschenk\n• ❌ Wir treffen sich. → ✅ Wir treffen uns.\n• ❌ Beeil dir. → ✅ Beeil dich.\n• ❌ Ich wasche mich die Hände. → ✅ Ich wasche mir die Hände.\n\nFor each error name the category: auxiliary, participle, case, preposition, word order, article/ending, pronoun or register. Then correct it and create another correct variant."
+      }
+    },
+    {
+      "id": "a2_u07_l04_act14",
+      "type": "text_intro",
+      "title": {
+        "de": "Kontrastmatrix",
+        "ar": "مصفوفة المقارنة",
+        "en": "Contrast matrix"
+      },
+      "body": {
+        "de": "• Akkusativ reflexiv meist mich/dich/sich/uns/euch/sich\n• bei Körperteilen oft Dativreflexiv: Ich wasche mir die Hände\n• feste Präpositionen: sich freuen auf/über, sich interessieren für\n\nBilde zu jedem Kontrast vier Minimalpaare und ändere nur einen Faktor. Erkläre laut, warum die andere Form falsch oder bedeutungsverschoben wäre.",
+        "ar": "• Akkusativ reflexiv meist mich/dich/sich/uns/euch/sich\n• bei Körperteilen oft Dativreflexiv: Ich wasche mir die Hände\n• feste Präpositionen: sich freuen auf/über, sich interessieren für\n\nأنشئ أربعة أزواج متقاربة لكل مقارنة وغيّر عاملًا واحدًا فقط. اشرح لماذا تكون الصيغة الأخرى خاطئة أو تغير المعنى.",
+        "en": "• Akkusativ reflexiv meist mich/dich/sich/uns/euch/sich\n• bei Körperteilen oft Dativreflexiv: Ich wasche mir die Hände\n• feste Präpositionen: sich freuen auf/über, sich interessieren für\n\nCreate four minimal pairs for each contrast and change only one factor. Explain why the alternative is wrong or changes meaning."
+      }
+    },
+    {
+      "id": "a2_u07_l04_act15",
+      "type": "text_intro",
+      "title": {
+        "de": "A2 Transfer Circuit",
+        "ar": "دائرة تطبيق A2",
+        "en": "A2 transfer circuit"
+      },
+      "body": {
+        "de": "Erzähle Morgenroutine, Treffen und Freizeitinteressen. Erzwinge Wechsel zwischen mich/mir, dich/dir und uns.\n\nDurchgang 1 geführt, 2 ohne Hilfe, 3 mit neuen Daten, 4 am nächsten Lerntag gemischt mit einer früheren A2-Regel. Markiere jede Selbstkorrektur.",
+        "ar": "Erzähle Morgenroutine, Treffen und Freizeitinteressen. Erzwinge Wechsel zwischen mich/mir, dich/dir und uns.\n\nالجولة 1 موجهة، 2 دون مساعدة، 3 ببيانات جديدة، 4 في يوم التعلم التالي ممزوجة بقاعدة A2 سابقة. حدّد كل تصحيح ذاتي.",
+        "en": "Erzähle Morgenroutine, Treffen und Freizeitinteressen. Erzwinge Wechsel zwischen mich/mir, dich/dir und uns.\n\nPass 1 guided, 2 unaided, 3 with new data, 4 next study day interleaved with an earlier A2 rule. Mark every self-correction."
+      }
+    },
+    {
+      "id": "a2_u07_l04_act16",
+      "type": "lesson_summary",
+      "title": {
+        "de": "A2 Casebook abgeschlossen",
+        "ar": "اكتمل دفتر حالات A2",
+        "en": "A2 casebook complete"
+      },
+      "canDo": [
+        "A2_U07_CASEBOOK"
+      ]
+    }
+  ]
+}
