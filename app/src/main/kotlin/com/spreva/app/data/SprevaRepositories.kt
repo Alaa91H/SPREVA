@@ -102,10 +102,12 @@ class OfflineFirstCurriculumRepository @Inject constructor(
 @Singleton
 class OfflineFirstLearningRepository @Inject constructor(
     private val database: SprevaDatabase,
+    private val contentSource: ContentSource,
 ) : LearningRepository {
 
     private val progressDao: LessonProgressDao = database.lessonProgressDao()
     private val attemptsDao: ActivityAttemptDao = database.activityAttemptDao()
+    private val reviewCardDao: ReviewCardDao = database.reviewCardDao()
 
     override fun observeLessonProgress(lessonId: LessonId): Flow<LessonProgress?> =
         progressDao.observeByLesson(lessonId.value).map { it?.toModel() }
@@ -129,6 +131,66 @@ class OfflineFirstLearningRepository @Inject constructor(
                 createdAtEpochMs = attempt.createdAt.toEpochMilli(),
             ),
         )
+        if (!attempt.correct) provisionRepeatedMistakeCard(attempt)
+    }
+
+    private suspend fun provisionRepeatedMistakeCard(attempt: ActivityAttempt) {
+        val incorrectCount = attemptsDao.countIncorrectForActivity(
+            lessonId = attempt.lessonId.value,
+            activityId = attempt.activityId.value,
+        )
+        if (incorrectCount < 2) return
+
+        val lesson = runCatching { contentSource.loadLesson(attempt.lessonId) }.getOrNull() ?: return
+        val activity = lesson.activities.firstOrNull { it.id == attempt.activityId } ?: return
+        val card = when (activity) {
+            is LearningActivity.MultipleChoice -> {
+                val correct = activity.options.firstOrNull { it.id == activity.correctOptionId } ?: return
+                ReviewCard(
+                    id = ReviewCardId("mistake_${attempt.lessonId.value}_${activity.id.value}"),
+                    knowledgeItemId = com.spreva.core.model.KnowledgeItemId("mistake:${activity.id.value}"),
+                    prompt = activity.question.de,
+                    answer = correct.text.de,
+                    dueAt = attempt.createdAt,
+                )
+            }
+
+            is LearningActivity.Cloze -> ReviewCard(
+                id = ReviewCardId("mistake_${attempt.lessonId.value}_${activity.id.value}"),
+                knowledgeItemId = com.spreva.core.model.KnowledgeItemId("mistake:${activity.id.value}"),
+                prompt = activity.sentenceTemplate.de,
+                answer = activity.acceptedAnswers.firstOrNull() ?: return,
+                dueAt = attempt.createdAt,
+            )
+
+            is LearningActivity.ListeningChoice -> {
+                val audio = activity.audio ?: return
+                val correct = activity.options.firstOrNull { it.id == activity.correctOptionId } ?: return
+                ReviewCard(
+                    id = ReviewCardId("mistake_${attempt.lessonId.value}_${activity.id.value}"),
+                    knowledgeItemId = com.spreva.core.model.KnowledgeItemId("mistake:${activity.id.value}"),
+                    prompt = "",
+                    answer = activity.text?.de ?: correct.text.de,
+                    dueAt = attempt.createdAt,
+                    audioPath = audio,
+                )
+            }
+
+            is LearningActivity.Dictation -> {
+                val audio = activity.audio ?: return
+                ReviewCard(
+                    id = ReviewCardId("mistake_${attempt.lessonId.value}_${activity.id.value}"),
+                    knowledgeItemId = com.spreva.core.model.KnowledgeItemId("mistake:${activity.id.value}"),
+                    prompt = "",
+                    answer = activity.acceptedAnswers.firstOrNull() ?: activity.text.de,
+                    dueAt = attempt.createdAt,
+                    audioPath = audio,
+                )
+            }
+
+            else -> return
+        }
+        reviewCardDao.insertAll(listOf(card.toEntity()))
     }
 
     override suspend fun completeLesson(lessonId: LessonId, totalActivities: Int) {

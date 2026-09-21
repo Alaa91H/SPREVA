@@ -49,6 +49,12 @@ interface ActivityAttemptDao {
     @Query("SELECT * FROM activity_attempts ORDER BY createdAtEpochMs ASC")
     suspend fun getAll(): List<ActivityAttemptEntity>
 
+    @Query(
+        "SELECT COUNT(*) FROM activity_attempts " +
+            "WHERE lessonId = :lessonId AND activityId = :activityId AND correct = 0"
+    )
+    suspend fun countIncorrectForActivity(lessonId: String, activityId: String): Int
+
     @Query("DELETE FROM activity_attempts")
     suspend fun clear()
 }
