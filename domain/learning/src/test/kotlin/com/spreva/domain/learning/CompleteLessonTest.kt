@@ -24,6 +24,7 @@ class CompleteLessonTest {
 
         override fun observeLessonProgress(lessonId: LessonId) = error("unused")
         override fun observeAllProgress() = error("unused")
+        override fun observeAttempts() = error("unused")
 
         override suspend fun recordAttempt(attempt: com.spreva.core.model.ActivityAttempt) = Unit
 
